@@ -1,0 +1,115 @@
+{
+    "id": "sed_cg_ace_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_ace"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_ace_Date_taken",
+            "items/sed_cg_ace_Candidate_Age",
+            "items/sed_cg_ace_Window_Difference",
+            "items/sed_cg_ace_Examiner",
+            "items/sed_cg_ace_lang",
+            "items/sed_cg_ace_dtt",
+            "items/sed_cg_ace_timestamp_start",
+            "items/sed_cg_ace_timestamp_stop",
+            "items/sed_cg_ace_Duration",
+            "items/sed_cg_ace_location",
+            "items/sed_cg_ace_012",
+            "items/sed_cg_ace_011",
+            "items/sed_cg_ace_Validity",
+            "items/sed_cg_ace_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_ace_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_location"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_012"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_011"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_ace_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

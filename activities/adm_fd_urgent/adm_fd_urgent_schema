@@ -1,0 +1,283 @@
+{
+    "id": "adm_fd_urgent_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "adm_fd_urgent"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/adm_fd_urgent_Date_taken",
+            "items/adm_fd_urgent_Examiner",
+            "items/adm_fd_urgent_Validity",
+            "items/adm_fd_urgent_Administration",
+            "items/adm_fd_urgent_warning_message_victim",
+            "items/adm_fd_urgent_001",
+            "items/adm_fd_urgent_002",
+            "items/adm_fd_urgent_004",
+            "items/adm_fd_urgent_rept_001",
+            "items/adm_fd_urgent_rept_001_i_01",
+            "items/adm_fd_urgent_rept_002",
+            "items/adm_fd_urgent_rept_002_i_01",
+            "items/adm_fd_urgent_rept_003",
+            "items/adm_fd_urgent_rept_003_i_01",
+            "items/adm_fd_urgent_rept_004",
+            "items/adm_fd_urgent_rept_005",
+            "items/adm_fd_urgent_rept_006",
+            "items/adm_fd_urgent_rept_007",
+            "items/adm_fd_urgent_rept_008",
+            "items/adm_fd_urgent_rept_009",
+            "items/adm_fd_urgent_rept_010",
+            "items/adm_fd_urgent_rept_010_i_01",
+            "items/adm_fd_urgent_rept_010_i_02",
+            "items/adm_fd_urgent_rept_010_i_03",
+            "items/adm_fd_urgent_suic_001",
+            "items/adm_fd_urgent_suic_001_i_01",
+            "items/adm_fd_urgent_suic_002",
+            "items/adm_fd_urgent_suic_002_i_01",
+            "items/adm_fd_urgent_homi_001",
+            "items/adm_fd_urgent_homi_001_i_01",
+            "items/adm_fd_urgent_homi_002",
+            "items/adm_fd_urgent_homi_002_i_01",
+            "items/adm_fd_urgent_emeg_001",
+            "items/adm_fd_urgent_emeg_001_i_01",
+            "items/adm_fd_urgent_emeg_002",
+            "items/adm_fd_urgent_emeg_002_i_01",
+            "items/adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;003",
+            "items/adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If_no_first"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/adm_fd_urgent_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_Date_taken"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_Examiner"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_Validity"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_Administration"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_warning_message_victim",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_warning_message_victim"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_001"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_002"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_004"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_001"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_001_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_002"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_002_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_003"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_003_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_004"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_005"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_006"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_007"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_008"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_009"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_010"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_010_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_010_i_02"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_rept_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_rept_010_i_03"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_suic_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_suic_001"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_suic_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_suic_001_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_suic_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_suic_002"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_suic_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_suic_002_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_homi_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_homi_001"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_homi_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_homi_001_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_homi_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_homi_002"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_homi_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_homi_002_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_emeg_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_emeg_001"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_emeg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_emeg_001_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_emeg_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_emeg_002"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_emeg_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_emeg_002_i_01"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;003"
+            },
+            {
+                "isAbout": "items/adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If_no_first",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_urgent_&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If_no_first"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

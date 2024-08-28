@@ -1,0 +1,59 @@
+{
+    "id": "ncl_ch_di_Administration",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Ordinal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Admin"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[45] of ncl_ch_di"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_di_Administration"
+    },
+    "question": {
+        "en": "Administration for ncl_ch_di"
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": []
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

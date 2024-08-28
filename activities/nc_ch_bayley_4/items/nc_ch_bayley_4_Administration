@@ -1,0 +1,59 @@
+{
+    "id": "nc_ch_bayley_4_Administration",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Neurocognition and Language"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Ordinal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Admin"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[90] of nc_ch_bayley_4"
+    },
+    "prefLabel": {
+        "en": "nc_ch_bayley_4_Administration"
+    },
+    "question": {
+        "en": "Administration for nc_ch_bayley_4"
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": []
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

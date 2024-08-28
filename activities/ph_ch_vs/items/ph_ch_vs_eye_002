@@ -1,0 +1,92 @@
+{
+    "id": "ph_ch_vs_eye_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[8] of ph_ch_vs"
+    },
+    "prefLabel": {
+        "en": "ph_ch_vs_eye_002"
+    },
+    "question": {
+        "en": "2. Does your baby have any known eye problems?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Yes (left eye)"
+                },
+                "value": "yes_left_eye"
+            },
+            {
+                "name": {
+                    "en": "Yes (right eye)"
+                },
+                "value": "yes_right_eye"
+            },
+            {
+                "name": {
+                    "en": "Yes (both eyes)"
+                },
+                "value": "yes_both_eyes"
+            },
+            {
+                "name": {
+                    "en": "Unknown"
+                },
+                "value": "unknown"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

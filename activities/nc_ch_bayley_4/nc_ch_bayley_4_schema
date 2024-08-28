@@ -1,0 +1,654 @@
+{
+    "id": "nc_ch_bayley_4_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nc_ch_bayley_4"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nc_ch_bayley_4_title",
+            "items/nc_ch_bayley_4_Date_taken",
+            "items/nc_ch_bayley_4_Candidate_Age",
+            "items/nc_ch_bayley_4_Window_Difference",
+            "items/nc_ch_bayley_4_Examiner",
+            "items/nc_ch_bayley_4_timestamp_start",
+            "items/nc_ch_bayley_4_timestamp_stop",
+            "items/nc_ch_bayley_4_Duration",
+            "items/nc_ch_bayley_4_File_name",
+            "items/nc_ch_bayley_4_ID",
+            "items/nc_ch_bayley_4_Name",
+            "items/nc_ch_bayley_4_Gender",
+            "items/nc_ch_bayley_4_Birth_Date",
+            "items/nc_ch_bayley_4_Test_Date",
+            "items/nc_ch_bayley_4_Examiner_Name",
+            "items/nc_ch_bayley_4_Relationship",
+            "items/nc_ch_bayley_4_Test_age",
+            "items/nc_ch_bayley_4_title1",
+            "items/nc_ch_bayley_4_Cognitive_CG_RAW_Score",
+            "items/nc_ch_bayley_4_Cognitive_CG_Scaled_Score",
+            "items/nc_ch_bayley_4_Cognitive_CG_Age_Equivalent",
+            "items/nc_ch_bayley_4_Cognitive_CG_Growth_Scale_Value",
+            "items/nc_ch_bayley_4_Receptive_Communication_RC_RAW_Score",
+            "items/nc_ch_bayley_4_Receptive_Communication_RC_Scaled_Score",
+            "items/nc_ch_bayley_4_Receptive_Communication_RC_Age_Equivalent",
+            "items/nc_ch_bayley_4_Receptive_Communication_RC_Growth_Scale_Value",
+            "items/nc_ch_bayley_4_Expressive_Communication_EC_RAW_Score",
+            "items/nc_ch_bayley_4_Expressive_Communication_EC_Scaled_Score",
+            "items/nc_ch_bayley_4_Expressive_Communication_EC_Age_Equivalent",
+            "items/nc_ch_bayley_4_Expressive_Communication_EC_Growth_Scale_Value",
+            "items/nc_ch_bayley_4_Fine_Motor_FM_RAW_Score",
+            "items/nc_ch_bayley_4_Fine_Motor_FM_Scaled_Score",
+            "items/nc_ch_bayley_4_Fine_Motor_FM_Age_Equivalent",
+            "items/nc_ch_bayley_4_Fine_Motor_FM_Growth_Scale_Value",
+            "items/nc_ch_bayley_4_Gross_Motor_GM_RAW_Score",
+            "items/nc_ch_bayley_4_Gross_Motor_GM_Scaled_Score",
+            "items/nc_ch_bayley_4_Gross_Motor_GM_Age_Equivalent",
+            "items/nc_ch_bayley_4_Gross_Motor_GM_Growth_Scale_Value",
+            "items/nc_ch_bayley_4_title2",
+            "items/nc_ch_bayley_4_COG_Sum_of_scaled_scores",
+            "items/nc_ch_bayley_4_COG_Standard_score",
+            "items/nc_ch_bayley_4_COG_Percentile_rank",
+            "items/nc_ch_bayley_4_COG_Confidence_interval",
+            "items/nc_ch_bayley_4_COG_Descriptive_classification",
+            "items/nc_ch_bayley_4_LANG_Sum_of_scaled_scores",
+            "items/nc_ch_bayley_4_LANG_Standard_score",
+            "items/nc_ch_bayley_4_LANG_Percentile_rank",
+            "items/nc_ch_bayley_4_LANG_Confidence_interval",
+            "items/nc_ch_bayley_4_LANG_Descriptive_classification",
+            "items/nc_ch_bayley_4_MOT_Sum_of_scaled_scores",
+            "items/nc_ch_bayley_4_MOT_Standard_score",
+            "items/nc_ch_bayley_4_MOT_Percentile_rank",
+            "items/nc_ch_bayley_4_MOT_Confidence_interval",
+            "items/nc_ch_bayley_4_MOT_Descriptive_classification",
+            "items/nc_ch_bayley_4_title3_1",
+            "items/nc_ch_bayley_4_title3_2",
+            "items/nc_ch_bayley_4_RC_EC_Score_1",
+            "items/nc_ch_bayley_4_RC_EC_Score_2",
+            "items/nc_ch_bayley_4_RC_EC_Difference",
+            "items/nc_ch_bayley_4_RC_EC_Critical_value",
+            "items/nc_ch_bayley_4_RC_EC_Significant_difference",
+            "items/nc_ch_bayley_4_RC_EC_Base_rate",
+            "items/nc_ch_bayley_4_FM_GM_Score_1",
+            "items/nc_ch_bayley_4_FM_GM_Score_2",
+            "items/nc_ch_bayley_4_FM_GM_Difference",
+            "items/nc_ch_bayley_4_FM_GM_Critical_value",
+            "items/nc_ch_bayley_4_FM_GM_Significant_difference",
+            "items/nc_ch_bayley_4_FM_GM_Base_rate",
+            "items/nc_ch_bayley_4_title4_1",
+            "items/nc_ch_bayley_4_title4_2",
+            "items/nc_ch_bayley_4_CL_Score_Score_1",
+            "items/nc_ch_bayley_4_CL_Score_Score_2",
+            "items/nc_ch_bayley_4_CL_Score_Difference",
+            "items/nc_ch_bayley_4_CL_Score_Critical_value",
+            "items/nc_ch_bayley_4_CL_Score_Significant_difference",
+            "items/nc_ch_bayley_4_CL_Score_Base_rate",
+            "items/nc_ch_bayley_4_CM_Score_Score_1",
+            "items/nc_ch_bayley_4_CM_Score_Score_2",
+            "items/nc_ch_bayley_4_CM_Score_Difference",
+            "items/nc_ch_bayley_4_CM_Score_Critical_value",
+            "items/nc_ch_bayley_4_CM_Score_Significant_difference",
+            "items/nc_ch_bayley_4_CM_Score_Base_rate",
+            "items/nc_ch_bayley_4_LM_Score_Score_1",
+            "items/nc_ch_bayley_4_LM_Score_Score_2",
+            "items/nc_ch_bayley_4_LM_Score_Difference",
+            "items/nc_ch_bayley_4_LM_Score_Critical_value",
+            "items/nc_ch_bayley_4_LM_Score_Significant_difference",
+            "items/nc_ch_bayley_4_LM_Score_Base_rate",
+            "items/nc_ch_bayley_4_other_comments",
+            "items/nc_ch_bayley_4_Validity",
+            "items/nc_ch_bayley_4_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nc_ch_bayley_4_title",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Date_taken"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Candidate_Age"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Window_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Examiner"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_timestamp_start"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_timestamp_stop"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Duration"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_File_name",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_File_name"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_ID",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_ID"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Name",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Name"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Gender",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Gender"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Birth_Date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Birth_Date"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Test_Date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Test_Date"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Examiner_Name",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Examiner_Name"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Relationship",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Relationship"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Test_age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Test_age"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Cognitive_CG_RAW_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Cognitive_CG_RAW_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Cognitive_CG_Scaled_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Cognitive_CG_Scaled_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Cognitive_CG_Age_Equivalent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Cognitive_CG_Age_Equivalent"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Cognitive_CG_Growth_Scale_Value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Cognitive_CG_Growth_Scale_Value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Receptive_Communication_RC_RAW_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Receptive_Communication_RC_RAW_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Receptive_Communication_RC_Scaled_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Receptive_Communication_RC_Scaled_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Receptive_Communication_RC_Age_Equivalent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Receptive_Communication_RC_Age_Equivalent"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Receptive_Communication_RC_Growth_Scale_Value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Receptive_Communication_RC_Growth_Scale_Value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Expressive_Communication_EC_RAW_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Expressive_Communication_EC_RAW_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Expressive_Communication_EC_Scaled_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Expressive_Communication_EC_Scaled_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Expressive_Communication_EC_Age_Equivalent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Expressive_Communication_EC_Age_Equivalent"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Expressive_Communication_EC_Growth_Scale_Value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Expressive_Communication_EC_Growth_Scale_Value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Fine_Motor_FM_RAW_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Fine_Motor_FM_RAW_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Fine_Motor_FM_Scaled_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Fine_Motor_FM_Scaled_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Fine_Motor_FM_Age_Equivalent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Fine_Motor_FM_Age_Equivalent"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Fine_Motor_FM_Growth_Scale_Value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Fine_Motor_FM_Growth_Scale_Value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Gross_Motor_GM_RAW_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Gross_Motor_GM_RAW_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Gross_Motor_GM_Scaled_Score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Gross_Motor_GM_Scaled_Score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Gross_Motor_GM_Age_Equivalent",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Gross_Motor_GM_Age_Equivalent"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Gross_Motor_GM_Growth_Scale_Value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Gross_Motor_GM_Growth_Scale_Value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_COG_Sum_of_scaled_scores",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_COG_Sum_of_scaled_scores"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_COG_Standard_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_COG_Standard_score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_COG_Percentile_rank",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_COG_Percentile_rank"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_COG_Confidence_interval",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_COG_Confidence_interval"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_COG_Descriptive_classification",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_COG_Descriptive_classification"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LANG_Sum_of_scaled_scores",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LANG_Sum_of_scaled_scores"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LANG_Standard_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LANG_Standard_score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LANG_Percentile_rank",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LANG_Percentile_rank"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LANG_Confidence_interval",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LANG_Confidence_interval"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LANG_Descriptive_classification",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LANG_Descriptive_classification"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_MOT_Sum_of_scaled_scores",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_MOT_Sum_of_scaled_scores"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_MOT_Standard_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_MOT_Standard_score"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_MOT_Percentile_rank",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_MOT_Percentile_rank"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_MOT_Confidence_interval",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_MOT_Confidence_interval"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_MOT_Descriptive_classification",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_MOT_Descriptive_classification"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title3_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title3_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title3_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title3_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Score_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Score_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Score_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Score_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Critical_value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Critical_value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Significant_difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Significant_difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_RC_EC_Base_rate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_RC_EC_Base_rate"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Score_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Score_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Score_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Score_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Critical_value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Critical_value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Significant_difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Significant_difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_FM_GM_Base_rate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_FM_GM_Base_rate"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title4_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title4_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_title4_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_title4_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Score_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Score_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Score_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Score_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Critical_value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Critical_value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Significant_difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Significant_difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CL_Score_Base_rate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CL_Score_Base_rate"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Score_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Score_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Score_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Score_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Critical_value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Critical_value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Significant_difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Significant_difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_CM_Score_Base_rate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_CM_Score_Base_rate"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Score_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Score_1"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Score_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Score_2"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Critical_value",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Critical_value"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Significant_difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Significant_difference"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_LM_Score_Base_rate",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_LM_Score_Base_rate"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_other_comments",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_other_comments"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Validity"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

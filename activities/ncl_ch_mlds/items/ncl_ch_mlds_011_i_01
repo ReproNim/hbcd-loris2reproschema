@@ -1,0 +1,92 @@
+{
+    "id": "ncl_ch_mlds_011_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[144] of ncl_ch_mlds"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_011_i_01"
+    },
+    "question": {
+        "en": "What language(s) are spoken in this non-parental childcare arrangement? (can check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other (see more options)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

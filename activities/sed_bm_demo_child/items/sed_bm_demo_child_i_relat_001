@@ -1,0 +1,116 @@
+{
+    "id": "sed_bm_demo_child_i_relat_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[19] of sed_bm_demo_child"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_relat_001"
+    },
+    "question": {
+        "en": "What is the child's relationship to you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Foster Child"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandchild"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sibling"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other family member"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Non-family (a friend or friend of the family)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

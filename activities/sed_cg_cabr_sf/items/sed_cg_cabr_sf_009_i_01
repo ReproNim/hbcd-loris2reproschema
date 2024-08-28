@@ -1,0 +1,110 @@
+{
+    "id": "sed_cg_cabr_sf_009_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[29] of sed_cg_cabr_sf"
+    },
+    "prefLabel": {
+        "en": "sed_cg_cabr_sf_009_i_01"
+    },
+    "question": {
+        "en": "How often did it happen in the past 12 months? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not in the past 12 months"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Daily/almost daily"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

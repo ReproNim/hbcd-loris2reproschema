@@ -1,0 +1,116 @@
+{
+    "id": "pex_bm_healthv2_inf_008_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[20] of pex_bm_healthv2_inf"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_008_i_01"
+    },
+    "question": {
+        "en": "In which part of the body is the birth defect? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Brain or spinal cord"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kidneys, bladder, or genitals (including hypospadias)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Heart (including septal defects)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Lungs"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Bones, arms or legs (including club foot)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Face (including cleft lip or palate)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

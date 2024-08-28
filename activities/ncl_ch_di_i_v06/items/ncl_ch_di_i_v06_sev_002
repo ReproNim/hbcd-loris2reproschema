@@ -1,0 +1,86 @@
+{
+    "id": "ncl_ch_di_i_v06_sev_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[26] of ncl_ch_di_i_v06"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_di_i_v06_sev_002"
+    },
+    "question": {
+        "en": "Select one from a dropdown menu:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Baseline was 1.5 to 2 min"
+                },
+                "value": "baseline_was_1.5"
+            },
+            {
+                "name": {
+                    "en": "Baseline was less than 1.5 min because child became uninterested"
+                },
+                "value": "baseline_was_less_1.5_uninterested"
+            },
+            {
+                "name": {
+                    "en": "Baseline was less than 1.5 min because child became distressed"
+                },
+                "value": "baseline_was_less_1.5_distressed"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

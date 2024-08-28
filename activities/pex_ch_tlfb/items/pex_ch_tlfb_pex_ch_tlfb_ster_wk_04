@@ -1,0 +1,61 @@
+{
+    "id": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_04",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[76] of pex_ch_tlfb"
+    },
+    "prefLabel": {
+        "en": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_04"
+    },
+    "question": {
+        "en": "<strong>Steroids</strong>"
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

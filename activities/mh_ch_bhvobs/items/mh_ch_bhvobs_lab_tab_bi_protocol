@@ -1,0 +1,74 @@
+{
+    "id": "mh_ch_bhvobs_lab_tab_bi_protocol",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[13] of mh_ch_bhvobs"
+    },
+    "prefLabel": {
+        "en": "mh_ch_bhvobs_lab_tab_bi_protocol"
+    },
+    "question": {
+        "en": "Lab-TAB (BI) Protocol:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "9 to 12 Month"
+                },
+                "value": "9_to_12_month"
+            },
+            {
+                "name": {
+                    "en": "12+ Month"
+                },
+                "value": "12_month_plus"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

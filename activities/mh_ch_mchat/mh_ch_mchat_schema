@@ -1,0 +1,1942 @@
+{
+    "id": "mh_ch_mchat_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_ch_mchat"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_ch_mchat_Date_taken",
+            "items/mh_ch_mchat_Candidate_Age",
+            "items/mh_ch_mchat_Window_Difference",
+            "items/mh_ch_mchat_Examiner",
+            "items/mh_ch_mchat_lang",
+            "items/mh_ch_mchat_dtt",
+            "items/mh_ch_mchat_timestamp_start",
+            "items/mh_ch_mchat_timestamp_stop",
+            "items/mh_ch_mchat_Duration",
+            "items/mh_ch_mchat_location",
+            "items/mh_ch_mchat_point_001",
+            "items/mh_ch_mchat_point_002",
+            "items/mh_ch_mchat_point_003",
+            "items/mh_ch_mchat_point_004",
+            "items/mh_ch_mchat_point_005",
+            "items/mh_ch_mchat_point_006",
+            "items/mh_ch_mchat_point_007",
+            "items/mh_ch_mchat_point_008",
+            "items/mh_ch_mchat_point_009_i_02",
+            "items/mh_ch_mchat_point_009_i_03",
+            "items/mh_ch_mchat_point_009_i_04",
+            "items/mh_ch_mchat_point_009_i_05",
+            "items/mh_ch_mchat_point_009_i_06",
+            "items/mh_ch_mchat_point_009_i_07",
+            "items/mh_ch_mchat_point_009_i_08",
+            "items/mh_ch_mchat_hear_001",
+            "items/mh_ch_mchat_hear_002",
+            "items/mh_ch_mchat_hear_003",
+            "items/mh_ch_mchat_hear_004",
+            "items/mh_ch_mchat_hear_005",
+            "items/mh_ch_mchat_pretend_001",
+            "items/mh_ch_mchat_pretend_002",
+            "items/mh_ch_mchat_pretend_003",
+            "items/mh_ch_mchat_pretend_004",
+            "items/mh_ch_mchat_pretend_005",
+            "items/mh_ch_mchat_pretend_006",
+            "items/mh_ch_mchat_pretend_007",
+            "items/mh_ch_mchat_pretend_008",
+            "items/mh_ch_mchat_pretend_009",
+            "items/mh_ch_mchat_pretend_010",
+            "items/mh_ch_mchat_pretend_011",
+            "items/mh_ch_mchat_climb_001",
+            "items/mh_ch_mchat_climb_002",
+            "items/mh_ch_mchat_climb_003",
+            "items/mh_ch_mchat_climb_004",
+            "items/mh_ch_mchat_climb_005",
+            "items/mh_ch_mchat_hands_001",
+            "items/mh_ch_mchat_hands_002",
+            "items/mh_ch_mchat_hands_003",
+            "items/mh_ch_mchat_hands_004",
+            "items/mh_ch_mchat_hands_005",
+            "items/mh_ch_mchat_hands_006",
+            "items/mh_ch_mchat_hands_007",
+            "items/mh_ch_mchat_hands_008",
+            "items/mh_ch_mchat_reach_001",
+            "items/mh_ch_mchat_reach_002",
+            "items/mh_ch_mchat_reach_003",
+            "items/mh_ch_mchat_reach_004",
+            "items/mh_ch_mchat_reach_005",
+            "items/mh_ch_mchat_reach_006",
+            "items/mh_ch_mchat_reach_007",
+            "items/mh_ch_mchat_reach_008",
+            "items/mh_ch_mchat_reach_009",
+            "items/mh_ch_mchat_show_001",
+            "items/mh_ch_mchat_show_002",
+            "items/mh_ch_mchat_show_003",
+            "items/mh_ch_mchat_show_004",
+            "items/mh_ch_mchat_show_005",
+            "items/mh_ch_mchat_show_006",
+            "items/mh_ch_mchat_show_007",
+            "items/mh_ch_mchat_children_001",
+            "items/mh_ch_mchat_children_002",
+            "items/mh_ch_mchat_children_003",
+            "items/mh_ch_mchat_children_004",
+            "items/mh_ch_mchat_children_005",
+            "items/mh_ch_mchat_children_006",
+            "items/mh_ch_mchat_children_007",
+            "items/mh_ch_mchat_children_008",
+            "items/mh_ch_mchat_children_009",
+            "items/mh_ch_mchat_children_010_i_02",
+            "items/mh_ch_mchat_children_010_i_03",
+            "items/mh_ch_mchat_children_010_i_04",
+            "items/mh_ch_mchat_children_010_i_05",
+            "items/mh_ch_mchat_children_010_i_06",
+            "items/mh_ch_mchat_children_010_i_07",
+            "items/mh_ch_mchat_children_010_i_08",
+            "items/mh_ch_mchat_children_010_i_09",
+            "items/mh_ch_mchat_share_001",
+            "items/mh_ch_mchat_share_002",
+            "items/mh_ch_mchat_share_003",
+            "items/mh_ch_mchat_share_004",
+            "items/mh_ch_mchat_share_005",
+            "items/mh_ch_mchat_share_006",
+            "items/mh_ch_mchat_share_007",
+            "items/mh_ch_mchat_name_001",
+            "items/mh_ch_mchat_name_002",
+            "items/mh_ch_mchat_name_003",
+            "items/mh_ch_mchat_name_004",
+            "items/mh_ch_mchat_name_005",
+            "items/mh_ch_mchat_name_006",
+            "items/mh_ch_mchat_name_007",
+            "items/mh_ch_mchat_name_008",
+            "items/mh_ch_mchat_name_009_i_02",
+            "items/mh_ch_mchat_name_009_i_03",
+            "items/mh_ch_mchat_name_009_i_04",
+            "items/mh_ch_mchat_name_009_i_05",
+            "items/mh_ch_mchat_name_009_i_06",
+            "items/mh_ch_mchat_name_009_i_07",
+            "items/mh_ch_mchat_name_009_i_08",
+            "items/mh_ch_mchat_smile_001",
+            "items/mh_ch_mchat_smile_002",
+            "items/mh_ch_mchat_smile_005",
+            "items/mh_ch_mchat_smile_003",
+            "items/mh_ch_mchat_smile_004",
+            "items/mh_ch_mchat_smile_007",
+            "items/mh_ch_mchat_smile_006",
+            "items/mh_ch_mchat_smile_008_i_02",
+            "items/mh_ch_mchat_smile_008_i_05",
+            "items/mh_ch_mchat_smile_008_i_03",
+            "items/mh_ch_mchat_smile_008_i_04",
+            "items/mh_ch_mchat_smile_008_i_07",
+            "items/mh_ch_mchat_smile_008_i_06",
+            "items/mh_ch_mchat_noise_001",
+            "items/mh_ch_mchat_noise_002",
+            "items/mh_ch_mchat_noise_003",
+            "items/mh_ch_mchat_noise_004",
+            "items/mh_ch_mchat_noise_005",
+            "items/mh_ch_mchat_noise_006",
+            "items/mh_ch_mchat_noise_007",
+            "items/mh_ch_mchat_noise_008",
+            "items/mh_ch_mchat_noise_009",
+            "items/mh_ch_mchat_noise_010",
+            "items/mh_ch_mchat_noise_calc1",
+            "items/mh_ch_mchat_noise_002_i_01",
+            "items/mh_ch_mchat_noise_002_i_02",
+            "items/mh_ch_mchat_noise_002_i_03",
+            "items/mh_ch_mchat_noise_002_i_04",
+            "items/mh_ch_mchat_noise_002_i_05",
+            "items/mh_ch_mchat_noise_002_i_06",
+            "items/mh_ch_mchat_noise_002_i_07",
+            "items/mh_ch_mchat_noise_002_i_08",
+            "items/mh_ch_mchat_noise_002_i_09",
+            "items/mh_ch_mchat_noise_002_i_10",
+            "items/mh_ch_mchat_noise_003_i_01",
+            "items/mh_ch_mchat_noise_003_i_02",
+            "items/mh_ch_mchat_noise_003_i_03",
+            "items/mh_ch_mchat_noise_003_i_04",
+            "items/mh_ch_mchat_noise_003_i_05",
+            "items/mh_ch_mchat_noise_003_i_06",
+            "items/mh_ch_mchat_noise_003_i_07",
+            "items/mh_ch_mchat_noise_003_i_08",
+            "items/mh_ch_mchat_noise_003_i_09",
+            "items/mh_ch_mchat_noise_003_i_10",
+            "items/mh_ch_mchat_noise_004_i_01",
+            "items/mh_ch_mchat_noise_004_i_02",
+            "items/mh_ch_mchat_noise_004_i_03",
+            "items/mh_ch_mchat_noise_004_i_04",
+            "items/mh_ch_mchat_noise_004_i_05",
+            "items/mh_ch_mchat_noise_004_i_06",
+            "items/mh_ch_mchat_noise_004_i_07",
+            "items/mh_ch_mchat_noise_004_i_08",
+            "items/mh_ch_mchat_noise_004_i_09",
+            "items/mh_ch_mchat_noise_004_i_10",
+            "items/mh_ch_mchat_noise_005_i_01",
+            "items/mh_ch_mchat_noise_005_i_02",
+            "items/mh_ch_mchat_noise_005_i_03",
+            "items/mh_ch_mchat_noise_005_i_04",
+            "items/mh_ch_mchat_noise_005_i_05",
+            "items/mh_ch_mchat_noise_005_i_06",
+            "items/mh_ch_mchat_noise_005_i_07",
+            "items/mh_ch_mchat_noise_005_i_08",
+            "items/mh_ch_mchat_noise_005_i_09",
+            "items/mh_ch_mchat_noise_005_i_10",
+            "items/mh_ch_mchat_noise_006_i_01",
+            "items/mh_ch_mchat_noise_006_i_02",
+            "items/mh_ch_mchat_noise_006_i_03",
+            "items/mh_ch_mchat_noise_006_i_04",
+            "items/mh_ch_mchat_noise_006_i_05",
+            "items/mh_ch_mchat_noise_006_i_06",
+            "items/mh_ch_mchat_noise_006_i_07",
+            "items/mh_ch_mchat_noise_006_i_08",
+            "items/mh_ch_mchat_noise_006_i_09",
+            "items/mh_ch_mchat_noise_006_i_10",
+            "items/mh_ch_mchat_noise_007_i_01",
+            "items/mh_ch_mchat_noise_007_i_02",
+            "items/mh_ch_mchat_noise_007_i_03",
+            "items/mh_ch_mchat_noise_007_i_04",
+            "items/mh_ch_mchat_noise_007_i_05",
+            "items/mh_ch_mchat_noise_007_i_06",
+            "items/mh_ch_mchat_noise_007_i_07",
+            "items/mh_ch_mchat_noise_007_i_08",
+            "items/mh_ch_mchat_noise_007_i_09",
+            "items/mh_ch_mchat_noise_007_i_10",
+            "items/mh_ch_mchat_noise_008_i_01",
+            "items/mh_ch_mchat_noise_008_i_02",
+            "items/mh_ch_mchat_noise_008_i_03",
+            "items/mh_ch_mchat_noise_008_i_04",
+            "items/mh_ch_mchat_noise_008_i_05",
+            "items/mh_ch_mchat_noise_008_i_06",
+            "items/mh_ch_mchat_noise_008_i_07",
+            "items/mh_ch_mchat_noise_008_i_08",
+            "items/mh_ch_mchat_noise_008_i_09",
+            "items/mh_ch_mchat_noise_008_i_10",
+            "items/mh_ch_mchat_noise_009_i_01",
+            "items/mh_ch_mchat_noise_009_i_02",
+            "items/mh_ch_mchat_noise_009_i_03",
+            "items/mh_ch_mchat_noise_009_i_04",
+            "items/mh_ch_mchat_noise_009_i_05",
+            "items/mh_ch_mchat_noise_009_i_06",
+            "items/mh_ch_mchat_noise_009_i_07",
+            "items/mh_ch_mchat_noise_009_i_08",
+            "items/mh_ch_mchat_noise_009_i_09",
+            "items/mh_ch_mchat_noise_009_i_10",
+            "items/mh_ch_mchat_noise_010_i_01",
+            "items/mh_ch_mchat_noise_010_i_02",
+            "items/mh_ch_mchat_noise_010_i_03",
+            "items/mh_ch_mchat_noise_010_i_04",
+            "items/mh_ch_mchat_noise_010_i_05",
+            "items/mh_ch_mchat_noise_010_i_06",
+            "items/mh_ch_mchat_noise_010_i_07",
+            "items/mh_ch_mchat_noise_010_i_08",
+            "items/mh_ch_mchat_noise_010_i_09",
+            "items/mh_ch_mchat_noise_010_i_10",
+            "items/mh_ch_mchat_walk_001",
+            "items/mh_ch_mchat_walk_002",
+            "items/mh_ch_mchat_walk_003",
+            "items/mh_ch_mchat_eyecontact_001",
+            "items/mh_ch_mchat_eyecontact_002",
+            "items/mh_ch_mchat_eyecontact_003",
+            "items/mh_ch_mchat_eyecontact_004",
+            "items/mh_ch_mchat_eyecontact_005",
+            "items/mh_ch_mchat_eyecontact_006",
+            "items/mh_ch_mchat_eyecontact_007",
+            "items/mh_ch_mchat_eyecontact_calc01",
+            "items/mh_ch_mchat_eyecontact_008",
+            "items/mh_ch_mchat_eyecontact_009",
+            "items/mh_ch_mchat_copy_001",
+            "items/mh_ch_mchat_copy_002",
+            "items/mh_ch_mchat_copy_003",
+            "items/mh_ch_mchat_copy_004",
+            "items/mh_ch_mchat_copy_005",
+            "items/mh_ch_mchat_copy_006",
+            "items/mh_ch_mchat_copy_007",
+            "items/mh_ch_mchat_look_001",
+            "items/mh_ch_mchat_look_002",
+            "items/mh_ch_mchat_look_003",
+            "items/mh_ch_mchat_look_004",
+            "items/mh_ch_mchat_look_005",
+            "items/mh_ch_mchat_look_006",
+            "items/mh_ch_mchat_look_002_i_01",
+            "items/mh_ch_mchat_look_003_i_01",
+            "items/mh_ch_mchat_look_004_i_01",
+            "items/mh_ch_mchat_look_005_i_01",
+            "items/mh_ch_mchat_look_006_i_01",
+            "items/mh_ch_mchat_watch_001",
+            "items/mh_ch_mchat_watch_002",
+            "items/mh_ch_mchat_watch_003",
+            "items/mh_ch_mchat_watch_004",
+            "items/mh_ch_mchat_watch_005",
+            "items/mh_ch_mchat_command_001",
+            "items/mh_ch_mchat_command_002",
+            "items/mh_ch_mchat_command_003",
+            "items/mh_ch_mchat_command_004",
+            "items/mh_ch_mchat_command_005",
+            "items/mh_ch_mchat_command_006",
+            "items/mh_ch_mchat_guidance_001",
+            "items/mh_ch_mchat_guidance_002",
+            "items/mh_ch_mchat_guidance_003",
+            "items/mh_ch_mchat_guidance_004",
+            "items/mh_ch_mchat_movement_001",
+            "items/mh_ch_mchat_movement_002",
+            "items/mh_ch_mchat_movement_003",
+            "items/mh_ch_mchat_movement_004",
+            "items/mh_ch_mchat_Validity",
+            "items/mh_ch_mchat_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_ch_mchat_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Examiner"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_lang"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_dtt"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Duration"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_location"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_point_009_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_point_009_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hear_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hear_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hear_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hear_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hear_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hear_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hear_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hear_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hear_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hear_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_009"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_010"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_pretend_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_pretend_011"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_climb_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_climb_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_climb_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_climb_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_climb_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_climb_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_climb_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_climb_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_climb_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_climb_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_hands_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_hands_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_reach_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_reach_009"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_show_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_show_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_009"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_children_010_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_children_010_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_share_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_share_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_name_009_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_name_009_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_smile_008_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_smile_008_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_calc1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_calc1"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_002_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_002_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_003_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_003_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_004_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_004_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_005_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_005_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_006_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_006_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_007_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_007_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_008_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_008_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_009_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_009_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_02"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_03"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_04"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_05"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_06"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_07"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_08"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_09"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_noise_010_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_noise_010_i_10"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_walk_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_walk_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_walk_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_walk_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_walk_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_walk_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_calc01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_calc01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_008"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_eyecontact_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_eyecontact_009"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_copy_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_copy_007"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_002_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_003_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_004_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_005_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_look_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_look_006_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_watch_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_watch_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_watch_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_watch_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_watch_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_watch_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_watch_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_watch_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_watch_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_watch_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_005"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_command_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_command_006"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_guidance_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_guidance_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_guidance_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_guidance_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_guidance_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_guidance_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_guidance_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_guidance_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_movement_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_movement_001"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_movement_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_movement_002"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_movement_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_movement_003"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_movement_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_movement_004"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Validity"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

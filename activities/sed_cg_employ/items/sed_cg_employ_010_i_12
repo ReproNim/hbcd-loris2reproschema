@@ -1,0 +1,200 @@
+{
+    "id": "sed_cg_employ_010_i_12",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[35] of sed_cg_employ"
+    },
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_12"
+    },
+    "question": {
+        "en": "In what kind of business or industry does your spouse/partner currently work? Please provide select the category that best represents the business or industry. If your spouse/partner has more than one job, describe the job at which your spouse/partner worked the most hours in the past week."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Agriculture, Forestry, Fishing and Hunting"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mining, Quarrying, and Oil and Gas Extraction"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Utilities"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Construction"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Manufacturing"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wholesale Trade"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Retail Trade"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Transportation and Warehousing"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Information"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Finance and Insurance"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Real Estate and Rental and Leasing"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Professional, Scientific, and Technical Services"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Management of Companies and Enterprises"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Administrative and Support and Waste Management and Remediation Services"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Educational Services"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Health Care and Social Assistance"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Arts, Entertainment, and Recreation"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Accommodation and Food Services"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Other Services (except Public Administration)"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Public Administration (except Armed Forces)"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Armed Forces"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

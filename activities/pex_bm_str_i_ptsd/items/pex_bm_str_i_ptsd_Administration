@@ -1,0 +1,59 @@
+{
+    "id": "pex_bm_str_i_ptsd_Administration",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Ordinal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Admin"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[22] of pex_bm_str_i_ptsd"
+    },
+    "prefLabel": {
+        "en": "pex_bm_str_i_ptsd_Administration"
+    },
+    "question": {
+        "en": "Administration for pex_bm_str_i_ptsd"
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": []
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

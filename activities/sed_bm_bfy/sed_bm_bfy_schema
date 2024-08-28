@@ -1,0 +1,171 @@
+{
+    "id": "sed_bm_bfy_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_bfy"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_bfy_Date_taken",
+            "items/sed_bm_bfy_Candidate_Age",
+            "items/sed_bm_bfy_Window_Difference",
+            "items/sed_bm_bfy_Examiner",
+            "items/sed_bm_bfy_lang",
+            "items/sed_bm_bfy_dtt",
+            "items/sed_bm_bfy_timestamp_start",
+            "items/sed_bm_bfy_timestamp_stop",
+            "items/sed_bm_bfy_Duration",
+            "items/sed_bm_bfy_location",
+            "items/sed_bm_bfy_bensvc_001",
+            "items/sed_bm_bfy_econstr_001",
+            "items/sed_bm_bfy_econstr_002",
+            "items/sed_bm_bfy_econstr_003",
+            "items/sed_bm_bfy_econstr_004",
+            "items/sed_bm_bfy_econstr_005",
+            "items/sed_bm_bfy_econstr_006",
+            "items/sed_bm_bfy_econstr_006_i_01",
+            "items/sed_bm_bfy_econstr_007",
+            "items/sed_bm_bfy_econstr_008",
+            "items/sed_bm_bfy_Validity",
+            "items/sed_bm_bfy_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_bfy_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Examiner"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Duration"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_location"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_bensvc_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_bensvc_001"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_001"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_002"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_003"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_004"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_005"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_006"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_007"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_econstr_008"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Validity"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_bfy_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

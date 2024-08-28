@@ -1,0 +1,92 @@
+{
+    "id": "sed_cg_foodins_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[10] of sed_cg_foodins"
+    },
+    "prefLabel": {
+        "en": "sed_cg_foodins_001"
+    },
+    "question": {
+        "en": "The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more. Was that often, sometimes, or never true for (you/your household) in the last 12 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

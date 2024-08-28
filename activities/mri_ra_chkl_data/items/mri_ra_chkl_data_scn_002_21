@@ -1,0 +1,176 @@
+{
+    "id": "mri_ra_chkl_data_scn_002_21",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "MRI"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "RA"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Empty"
+        }
+    ],
+    "description": {
+        "en": "Q[226] of mri_ra_chkl_data"
+    },
+    "prefLabel": {
+        "en": "mri_ra_chkl_data_scn_002_21"
+    },
+    "question": {
+        "en": ""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "localizer_quiet"
+                },
+                "value": "localizer_quiet"
+            },
+            {
+                "name": {
+                    "en": "MRS_Localizer_Axial"
+                },
+                "value": "MRS_Localizer_Axial"
+            },
+            {
+                "name": {
+                    "en": "MRS_Localizer_Coronal"
+                },
+                "value": "MRS_Localizer_Coronal"
+            },
+            {
+                "name": {
+                    "en": "Calibration"
+                },
+                "value": "Calibration"
+            },
+            {
+                "name": {
+                    "en": "anat-T1w"
+                },
+                "value": "T1w"
+            },
+            {
+                "name": {
+                    "en": "anat-T2w"
+                },
+                "value": "T2w"
+            },
+            {
+                "name": {
+                    "en": "fMRI"
+                },
+                "value": "fMRI"
+            },
+            {
+                "name": {
+                    "en": "fMRI_Fieldmap_AP"
+                },
+                "value": "fMRI_Fieldmap_AP"
+            },
+            {
+                "name": {
+                    "en": "fMRI_Fieldmap_PA"
+                },
+                "value": "fMRI_Fieldmap_PA"
+            },
+            {
+                "name": {
+                    "en": "DWI_AP"
+                },
+                "value": "DWI_AP"
+            },
+            {
+                "name": {
+                    "en": "DWI_PA"
+                },
+                "value": "DWI_PA"
+            },
+            {
+                "name": {
+                    "en": "anat_desc-qalas"
+                },
+                "value": "QALAS"
+            },
+            {
+                "name": {
+                    "en": "Philips_B1map"
+                },
+                "value": "Philips_B1map"
+            },
+            {
+                "name": {
+                    "en": "GE_B1map"
+                },
+                "value": "GE_B1map"
+            },
+            {
+                "name": {
+                    "en": "Siemens_B1map"
+                },
+                "value": "Siemens_B1map"
+            },
+            {
+                "name": {
+                    "en": "PRESS MRS"
+                },
+                "value": "PRESS_MRS"
+            },
+            {
+                "name": {
+                    "en": "HERCULES MRS"
+                },
+                "value": "HERCULES_MRS"
+            },
+            {
+                "name": {
+                    "en": "mrs-ISTHMUS"
+                },
+                "value": "mrs-ISTHMUS"
+            },
+            {
+                "name": {
+                    "en": "mrs-ISTHMUS_uc_upw"
+                },
+                "value": "mrs-ISTHMUS_uc_upw"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

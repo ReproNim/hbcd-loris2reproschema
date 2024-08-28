@@ -1,0 +1,192 @@
+{
+    "id": "mh_cg_fad_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_fad"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_fad_Date_taken",
+            "items/mh_cg_fad_Candidate_Age",
+            "items/mh_cg_fad_Window_Difference",
+            "items/mh_cg_fad_Examiner",
+            "items/mh_cg_fad_lang",
+            "items/mh_cg_fad_dtt",
+            "items/mh_cg_fad_timestamp_start",
+            "items/mh_cg_fad_timestamp_stop",
+            "items/mh_cg_fad_Duration",
+            "items/mh_cg_fad_location",
+            "items/mh_cg_fad_001_i_01",
+            "items/mh_cg_fad_001_i_02",
+            "items/mh_cg_fad_001_i_03",
+            "items/mh_cg_fad_001_i_04",
+            "items/mh_cg_fad_001_i_05",
+            "items/mh_cg_fad_001_i_06",
+            "items/mh_cg_fad_001_i_07",
+            "items/mh_cg_fad_001_i_08",
+            "items/mh_cg_fad_001_i_09",
+            "items/mh_cg_fad_001_i_10",
+            "items/mh_cg_fad_001_i_11",
+            "items/mh_cg_fad_001_i_12",
+            "items/mh_cg_fad_Validity",
+            "items/mh_cg_fad_Administration",
+            "items/mh_cg_fad_total_score"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_fad_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_location"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_01"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_02"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_03"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_04"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_05"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_06"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_07"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_08"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_09"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_10"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_11"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_001_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_001_i_12"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_fad_total_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_total_score"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

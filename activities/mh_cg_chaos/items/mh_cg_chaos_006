@@ -1,0 +1,92 @@
+{
+    "id": "mh_cg_chaos_006",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[15] of mh_cg_chaos"
+    },
+    "prefLabel": {
+        "en": "mh_cg_chaos_006"
+    },
+    "question": {
+        "en": "It's a real zoo in our home."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very much like your own home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like your own home"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little bit like your own home"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not at all like your own home"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

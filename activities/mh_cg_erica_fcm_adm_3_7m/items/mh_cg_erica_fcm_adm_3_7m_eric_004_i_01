@@ -1,0 +1,110 @@
+{
+    "id": "mh_cg_erica_fcm_adm_3_7m_eric_004_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[17] of mh_cg_erica_fcm_adm_3_7m"
+    },
+    "prefLabel": {
+        "en": "mh_cg_erica_fcm_adm_3_7m_eric_004_i_01"
+    },
+    "question": {
+        "en": "4A. If yes, what technical/quality issues? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Video failed to record or only partially recorded"
+                },
+                "value": "video_failed_to_record"
+            },
+            {
+                "name": {
+                    "en": "Audio failed to record or only partially recorded"
+                },
+                "value": "audio_faild_to_record"
+            },
+            {
+                "name": {
+                    "en": "Video quality is poor (choppy, glitchy, etc.)"
+                },
+                "value": "video_quality_is_poor"
+            },
+            {
+                "name": {
+                    "en": "Audio quality is poor (inaudible, choppy, etc.)"
+                },
+                "value": "audio_quality_is_poor"
+            },
+            {
+                "name": {
+                    "en": "Videos are not synchronized"
+                },
+                "value": "videos_are_not_synchronized"
+            },
+            {
+                "name": {
+                    "en": "Unable to zoom"
+                },
+                "value": "unable_to_zoom"
+            },
+            {
+                "name": {
+                    "en": "Caregiver/child out of camera view for sustained periods"
+                },
+                "value": "caregiver_out_camera_view"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

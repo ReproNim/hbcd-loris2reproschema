@@ -1,0 +1,164 @@
+{
+    "id": "sens_ch_setup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sens_ch_setup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sens_ch_setup_Date_taken",
+            "items/sens_ch_setup_Candidate_Age",
+            "items/sens_ch_setup_Window_Difference",
+            "items/sens_ch_setup_Examiner",
+            "items/sens_ch_setup_timestamp_start",
+            "items/sens_ch_setup_timestamp_stop",
+            "items/sens_ch_setup_Duration",
+            "items/sens_ch_setup_stp_001",
+            "items/sens_ch_setup_rlg_001_i_01",
+            "items/sens_ch_setup_rlg_001_i_01_cf",
+            "items/sens_ch_setup_llg_001_i_01",
+            "items/sens_ch_setup_llg_001_i_01_cf",
+            "items/sens_ch_setup_std_001_i_01",
+            "items/sens_ch_setup_std_001_i_02",
+            "items/sens_ch_setup_ctd_001",
+            "items/sens_ch_setup_srs_001",
+            "items/sens_ch_setup_srs_001_i_01",
+            "items/sens_ch_setup_fn_001_i_01",
+            "items/sens_ch_setup_fn_002_i_01",
+            "items/sens_ch_setup_Validity",
+            "items/sens_ch_setup_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sens_ch_setup_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Date_taken"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Window_Difference"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Examiner"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_timestamp_start"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Duration"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_stp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_stp_001"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_rlg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_rlg_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_rlg_001_i_01_cf",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_rlg_001_i_01_cf"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_llg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_llg_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_llg_001_i_01_cf",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_llg_001_i_01_cf"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_std_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_std_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_std_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_std_001_i_02"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_ctd_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_ctd_001"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_srs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_srs_001"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_srs_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_srs_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_fn_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_fn_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_fn_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_fn_002_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Validity"
+            },
+            {
+                "isAbout": "items/sens_ch_setup_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_setup_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

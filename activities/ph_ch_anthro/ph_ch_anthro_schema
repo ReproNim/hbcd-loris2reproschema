@@ -1,0 +1,472 @@
+{
+    "id": "ph_ch_anthro_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_ch_anthro"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_ch_anthro_Date_taken",
+            "items/ph_ch_anthro_Candidate_Age",
+            "items/ph_ch_anthro_Window_Difference",
+            "items/ph_ch_anthro_Examiner",
+            "items/ph_ch_anthro_timestamp_start",
+            "items/ph_ch_anthro_timestamp_stop",
+            "items/ph_ch_anthro_Duration",
+            "items/ph_ch_anthro_len_001_i_03",
+            "items/ph_ch_anthro_months_length_age_girls_score",
+            "items/ph_ch_anthro_length_for_age_girl_percentile",
+            "items/ph_ch_anthro_length_for_age_girl_warning_message",
+            "items/ph_ch_anthro_head_001_i_03",
+            "items/ph_ch_anthro_months_head_c_age_girls_score",
+            "items/ph_ch_anthro_head_for_age_girl_percentile",
+            "items/ph_ch_anthro_head_for_age_girl_warning_message",
+            "items/ph_ch_anthro_wei_001_i_03",
+            "items/ph_ch_anthro_months_weight_age_girls_score",
+            "items/ph_ch_anthro_weight_for_age_girl_percentile",
+            "items/ph_ch_anthro_weight_for_age_girl_warning_message",
+            "items/ph_ch_anthro_average_bmi",
+            "items/ph_ch_anthro_months_bmi_age_girls_score",
+            "items/ph_ch_anthro_bmi_for_age_girl_percentile",
+            "items/ph_ch_anthro_bmi_for_age_girl_warning_message",
+            "items/ph_ch_anthro_weight_for_length_girl_percentile",
+            "items/ph_ch_anthro_weight_for_length_girl_warning_message",
+            "items/ph_ch_anthro_months_length_age_boys_score",
+            "items/ph_ch_anthro_length_for_age_boy_percentile",
+            "items/ph_ch_anthro_length_for_age_boy_warning_message",
+            "items/ph_ch_anthro_months_head_c_age_boys_score",
+            "items/ph_ch_anthro_head_for_age_boy_percentile",
+            "items/ph_ch_anthro_head_for_age_boy_warning_message",
+            "items/ph_ch_anthro_months_weight_age_boys_score",
+            "items/ph_ch_anthro_weight_for_age_boy_percentile",
+            "items/ph_ch_anthro_weight_for_age_boy_warning_message",
+            "items/ph_ch_anthro_months_bmi_age_boys_score",
+            "items/ph_ch_anthro_bmi_for_age_boy_percentile",
+            "items/ph_ch_anthro_bmi_for_age_boy_warning_message",
+            "items/ph_ch_anthro_weight_for_length_boy_percentile",
+            "items/ph_ch_anthro_weight_for_length_boy_warning_message",
+            "items/ph_ch_anthro_ant_001",
+            "items/ph_ch_anthro_ant_002_date",
+            "items/ph_ch_anthro_ant_002_date_status",
+            "items/ph_ch_anthro_ant_003",
+            "items/ph_ch_anthro_ant_003_i_01",
+            "items/ph_ch_anthro_ant_003_i_01_status",
+            "items/ph_ch_anthro_ant_004",
+            "items/ph_ch_anthro_len_001",
+            "items/ph_ch_anthro_len_001_i_01",
+            "items/ph_ch_anthro_len_001_i_01_status",
+            "items/ph_ch_anthro_len_001_i_02",
+            "items/ph_ch_anthro_len_001_i_02_status",
+            "items/ph_ch_anthro_wei_001",
+            "items/ph_ch_anthro_wei_001_i_01",
+            "items/ph_ch_anthro_wei_001_i_01_status",
+            "items/ph_ch_anthro_wei_001_i_02",
+            "items/ph_ch_anthro_wei_001_i_02_status",
+            "items/ph_ch_anthro_head_001_i_01",
+            "items/ph_ch_anthro_head_001_i_01_status",
+            "items/ph_ch_anthro_head_001_i_02",
+            "items/ph_ch_anthro_head_001_i_02_status",
+            "items/ph_ch_anthro_001",
+            "items/ph_ch_anthro_warning_message",
+            "items/ph_ch_anthro_002",
+            "items/ph_ch_anthro_Validity",
+            "items/ph_ch_anthro_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_ch_anthro_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Date_taken"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Window_Difference"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Examiner"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Duration"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001_i_03"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_length_age_girls_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_length_age_girls_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_length_for_age_girl_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_length_for_age_girl_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_length_for_age_girl_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_length_for_age_girl_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_001_i_03"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_head_c_age_girls_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_head_c_age_girls_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_for_age_girl_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_for_age_girl_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_for_age_girl_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_for_age_girl_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001_i_03"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_weight_age_girls_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_weight_age_girls_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_age_girl_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_age_girl_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_age_girl_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_age_girl_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_average_bmi",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_average_bmi"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_bmi_age_girls_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_bmi_age_girls_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_bmi_for_age_girl_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_bmi_for_age_girl_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_bmi_for_age_girl_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_bmi_for_age_girl_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_length_girl_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_length_girl_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_length_girl_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_length_girl_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_length_age_boys_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_length_age_boys_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_length_for_age_boy_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_length_for_age_boy_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_length_for_age_boy_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_length_for_age_boy_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_head_c_age_boys_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_head_c_age_boys_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_for_age_boy_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_for_age_boy_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_for_age_boy_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_for_age_boy_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_weight_age_boys_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_weight_age_boys_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_age_boy_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_age_boy_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_age_boy_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_age_boy_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_months_bmi_age_boys_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_months_bmi_age_boys_score"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_bmi_for_age_boy_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_bmi_for_age_boy_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_bmi_for_age_boy_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_bmi_for_age_boy_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_length_boy_percentile",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_length_boy_percentile"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_weight_for_length_boy_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_weight_for_length_boy_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_001"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_002_date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_002_date"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_002_date_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_002_date_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_003"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_003_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_003_i_01_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_003_i_01_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_ant_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_ant_004"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001_i_01_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001_i_01_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_len_001_i_02_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_len_001_i_02_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001_i_01_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001_i_01_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_wei_001_i_02_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_wei_001_i_02_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_001_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_001_i_01_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_001_i_01_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_001_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_head_001_i_02_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_head_001_i_02_status"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_001"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_warning_message",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_warning_message"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_002"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Validity"
+            },
+            {
+                "isAbout": "items/ph_ch_anthro_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_anthro_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

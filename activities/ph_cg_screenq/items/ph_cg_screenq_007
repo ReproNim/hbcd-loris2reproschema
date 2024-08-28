@@ -1,0 +1,92 @@
+{
+    "id": "ph_cg_screenq_007",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[16] of ph_cg_screenq"
+    },
+    "prefLabel": {
+        "en": "ph_cg_screenq_007"
+    },
+    "question": {
+        "en": "How many hours on a typical day does the child watch TV/videos, play video or computer games, or use apps?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "3+"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2.9"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Less than 1"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

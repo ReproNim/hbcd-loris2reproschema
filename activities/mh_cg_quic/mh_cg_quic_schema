@@ -1,0 +1,136 @@
+{
+    "id": "mh_cg_quic_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_quic"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_quic_Date_taken",
+            "items/mh_cg_quic_Candidate_Age",
+            "items/mh_cg_quic_Window_Difference",
+            "items/mh_cg_quic_Examiner",
+            "items/mh_cg_quic_lang",
+            "items/mh_cg_quic_dtt",
+            "items/mh_cg_quic_timestamp_start",
+            "items/mh_cg_quic_timestamp_stop",
+            "items/mh_cg_quic_Duration",
+            "items/mh_cg_quic_location",
+            "items/mh_cg_quic_001",
+            "items/mh_cg_quic_002",
+            "items/mh_cg_quic_003",
+            "items/mh_cg_quic_004",
+            "items/mh_cg_quic_005",
+            "items/mh_cg_quic_Validity",
+            "items/mh_cg_quic_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_quic_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_location"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_001"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_002"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_003"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_004"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_005"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_quic_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_quic_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

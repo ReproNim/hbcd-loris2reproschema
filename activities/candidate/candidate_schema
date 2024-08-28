@@ -1,0 +1,31 @@
+{
+    "id": "candidate_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "candidate"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/candidate_label",
+            "items/candidate_dob"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/candidate_label",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "candidate_label"
+            },
+            {
+                "isAbout": "items/candidate_dob",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "candidate_dob"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

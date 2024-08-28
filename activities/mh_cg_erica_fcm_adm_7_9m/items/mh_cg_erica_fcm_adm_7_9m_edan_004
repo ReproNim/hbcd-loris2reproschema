@@ -1,0 +1,61 @@
+{
+    "id": "mh_cg_erica_fcm_adm_7_9m_edan_004",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Discrete"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[23] of mh_cg_erica_fcm_adm_7_9m"
+    },
+    "prefLabel": {
+        "en": "mh_cg_erica_fcm_adm_7_9m_edan_004"
+    },
+    "question": {
+        "en": "4. Administration Notes (please include here any protocol deviations, task accommodations, unusual circumstances, or other issues with administration.<h6>* e.g., the busy parent task was 30 seconds longer than intended due to RA error.<br>* e.g., baby had a pacifier for the entire activity.<br>* e.g., unable to use paints due to child allergy.<br>* e.g., parent did not want to change diaper on camera.<br>* e.g., parent unable to sit on floor with baby, chair and table provided.</h6>"
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

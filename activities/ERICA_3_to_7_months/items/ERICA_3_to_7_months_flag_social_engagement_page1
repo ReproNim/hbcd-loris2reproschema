@@ -1,0 +1,61 @@
+{
+    "id": "ERICA_3_to_7_months_flag_social_engagement_page1",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Empty"
+        }
+    ],
+    "description": {
+        "en": "Q[15] of ERICA_3_to_7_months"
+    },
+    "prefLabel": {
+        "en": "ERICA_3_to_7_months_flag_social_engagement_page1"
+    },
+    "question": {
+        "en": ""
+    },
+    "responseOptions": {
+        "choices": [],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

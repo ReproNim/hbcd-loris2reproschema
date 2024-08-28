@@ -1,0 +1,24 @@
+{
+    "id": "session_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "session"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/Visit_label"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/Visit_label",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "Visit_label"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

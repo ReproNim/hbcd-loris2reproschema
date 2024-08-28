@@ -1,0 +1,682 @@
+{
+    "id": "ncl_ch_di_i_v06_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_ch_di_i_v06"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_ch_di_i_v06_Date_taken",
+            "items/ncl_ch_di_i_v06_Candidate_Age",
+            "items/ncl_ch_di_i_v06_Window_Difference",
+            "items/ncl_ch_di_i_v06_Examiner",
+            "items/ncl_ch_di_i_v06_timestamp_start",
+            "items/ncl_ch_di_i_v06_timestamp_stop",
+            "items/ncl_ch_di_i_v06_Duration",
+            "items/ncl_ch_di_i_v06_001",
+            "items/ncl_ch_di_i_v06_note_display_based_on_age",
+            "items/ncl_ch_di_i_v06_number_of_actions_baseline",
+            "items/ncl_ch_di_i_v06_pairs_of_actions_baseline",
+            "items/ncl_ch_di_i_v06_number_of_actions",
+            "items/ncl_ch_di_i_v06_pairs_of_actions",
+            "items/ncl_ch_di_i_v06_002",
+            "items/ncl_ch_di_i_v06_fev_001",
+            "items/ncl_ch_di_i_v06_fev_001_i_01",
+            "items/ncl_ch_di_i_v06_fev_001_i_02",
+            "items/ncl_ch_di_i_v06_fev_001_i_03",
+            "items/ncl_ch_di_i_v06_fev_002",
+            "items/ncl_ch_di_i_v06_fev_002_i_01",
+            "items/ncl_ch_di_i_v06_fev_003",
+            "items/ncl_ch_di_i_v06_fev_003_i_01",
+            "items/ncl_ch_di_i_v06_sev_001",
+            "items/ncl_ch_di_i_v06_sev_001_i_01",
+            "items/ncl_ch_di_i_v06_sev_001_i_02",
+            "items/ncl_ch_di_i_v06_sev_001_i_03",
+            "items/ncl_ch_di_i_v06_sev_002",
+            "items/ncl_ch_di_i_v06_sev_002_i_01",
+            "items/ncl_ch_di_i_v06_sev_003",
+            "items/ncl_ch_di_i_v06_sev_003_i_01",
+            "items/ncl_ch_di_i_v06_003",
+            "items/ncl_ch_di_i_v06_003_status",
+            "items/ncl_ch_di_i_v06_fev2_001",
+            "items/ncl_ch_di_i_v06_fev2_001_i_01",
+            "items/ncl_ch_di_i_v06_fev2_001_i_02",
+            "items/ncl_ch_di_i_v06_fev2_001_i_03",
+            "items/ncl_ch_di_i_v06_fev2_002",
+            "items/ncl_ch_di_i_v06_fev2_002_i_01",
+            "items/ncl_ch_di_i_v06_fev2_003",
+            "items/ncl_ch_di_i_v06_fev2_004",
+            "items/ncl_ch_di_i_v06_fev2_005",
+            "items/ncl_ch_di_i_v06_sev2_001",
+            "items/ncl_ch_di_i_v06_sev2_001_i_01",
+            "items/ncl_ch_di_i_v06_sev2_001_i_02",
+            "items/ncl_ch_di_i_v06_sev2_001_i_03",
+            "items/ncl_ch_di_i_v06_sev2_002",
+            "items/ncl_ch_di_i_v06_sev2_002_i_01",
+            "items/ncl_ch_di_i_v06_sev2_003",
+            "items/ncl_ch_di_i_v06_sev2_004",
+            "items/ncl_ch_di_i_v06_sev2_005",
+            "items/ncl_ch_di_i_v06_was_this_session_recorded",
+            "items/ncl_ch_di_i_v06_004",
+            "items/ncl_ch_di_i_v06_fev3_001",
+            "items/ncl_ch_di_i_v06_fev3_001_i_01",
+            "items/ncl_ch_di_i_v06_fev3_001_i_02",
+            "items/ncl_ch_di_i_v06_fev3_001_i_03",
+            "items/ncl_ch_di_i_v06_fev3_001_i_04",
+            "items/ncl_ch_di_i_v06_fev3_002",
+            "items/ncl_ch_di_i_v06_fev3_002_i_01",
+            "items/ncl_ch_di_i_v06_fev3_003",
+            "items/ncl_ch_di_i_v06_fev3_003_i_01",
+            "items/ncl_ch_di_i_v06_sev3_001",
+            "items/ncl_ch_di_i_v06_sev3_001_i_01",
+            "items/ncl_ch_di_i_v06_sev3_001_i_02",
+            "items/ncl_ch_di_i_v06_sev3_001_i_03",
+            "items/ncl_ch_di_i_v06_sev3_001_i_04",
+            "items/ncl_ch_di_i_v06_sev3_002",
+            "items/ncl_ch_di_i_v06_sev3_002_i_01",
+            "items/ncl_ch_di_i_v06_sev3_003",
+            "items/ncl_ch_di_i_v06_sev3_003_i_01",
+            "items/ncl_ch_di_i_v06_005",
+            "items/ncl_ch_di_i_v06_005_status",
+            "items/ncl_ch_di_i_v06_fev4_001",
+            "items/ncl_ch_di_i_v06_fev4_001_i_01",
+            "items/ncl_ch_di_i_v06_fev4_001_i_02",
+            "items/ncl_ch_di_i_v06_fev4_001_i_03",
+            "items/ncl_ch_di_i_v06_fev4_001_i_04",
+            "items/ncl_ch_di_i_v06_fev4_002",
+            "items/ncl_ch_di_i_v06_fev4_002_i_01",
+            "items/ncl_ch_di_i_v06_fev4_003",
+            "items/ncl_ch_di_i_v06_fev4_004",
+            "items/ncl_ch_di_i_v06_fev4_005",
+            "items/ncl_ch_di_i_v06_sev4_001",
+            "items/ncl_ch_di_i_v06_sev4_001_i_01",
+            "items/ncl_ch_di_i_v06_sev4_001_i_02",
+            "items/ncl_ch_di_i_v06_sev4_001_i_03",
+            "items/ncl_ch_di_i_v06_sev4_001_i_04",
+            "items/ncl_ch_di_i_v06_sev4_002",
+            "items/ncl_ch_di_i_v06_sev4_002_i_01",
+            "items/ncl_ch_di_i_v06_sev4_003",
+            "items/ncl_ch_di_i_v06_sev4_004",
+            "items/ncl_ch_di_i_v06_sev4_005",
+            "items/ncl_ch_di_i_v06_006",
+            "items/ncl_ch_di_i_v06_Validity",
+            "items/ncl_ch_di_i_v06_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Date_taken"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Window_Difference"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Examiner"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_timestamp_start"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Duration"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_note_display_based_on_age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_note_display_based_on_age"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_number_of_actions_baseline",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_number_of_actions_baseline"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_pairs_of_actions_baseline",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_pairs_of_actions_baseline"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_number_of_actions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_number_of_actions"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_pairs_of_actions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_pairs_of_actions"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_003_status"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev2_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev2_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev2_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev2_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_was_this_session_recorded",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_was_this_session_recorded"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_001_i_04"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev3_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev3_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_001_i_04"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev3_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev3_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_005_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_005_status"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_001_i_04"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_fev4_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_fev4_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_001_i_03"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_001_i_04"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_sev4_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_sev4_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_006"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Validity"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

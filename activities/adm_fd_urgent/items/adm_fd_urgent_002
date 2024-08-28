@@ -1,0 +1,86 @@
+{
+    "id": "adm_fd_urgent_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Family Data"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[6] of adm_fd_urgent"
+    },
+    "prefLabel": {
+        "en": "adm_fd_urgent_002"
+    },
+    "question": {
+        "en": "If 'Yes', please select one or more of the following options:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Report of Abuse/Neglect/Domestic Violence"
+                },
+                "value": "report"
+            },
+            {
+                "name": {
+                    "en": "Suicidality"
+                },
+                "value": "suicidality"
+            },
+            {
+                "name": {
+                    "en": "Homicidality"
+                },
+                "value": "homicidality"
+            },
+            {
+                "name": {
+                    "en": "Other Emergency"
+                },
+                "value": "other_emergency"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

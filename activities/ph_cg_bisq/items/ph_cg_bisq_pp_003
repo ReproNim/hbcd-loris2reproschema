@@ -1,0 +1,104 @@
+{
+    "id": "ph_cg_bisq_pp_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[33] of ph_cg_bisq"
+    },
+    "prefLabel": {
+        "en": "ph_cg_bisq_pp_003"
+    },
+    "question": {
+        "en": "Do you consider your child's sleep a problem?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all a problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A very small problem"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A small problem"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A moderate problem"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A serious problem"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,171 @@
+{
+    "id": "sed_cg_leadexp_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_leadexp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_leadexp_Date_taken",
+            "items/sed_cg_leadexp_Candidate_Age",
+            "items/sed_cg_leadexp_Window_Difference",
+            "items/sed_cg_leadexp_Examiner",
+            "items/sed_cg_leadexp_lang",
+            "items/sed_cg_leadexp_dtt",
+            "items/sed_cg_leadexp_timestamp_start",
+            "items/sed_cg_leadexp_timestamp_stop",
+            "items/sed_cg_leadexp_Duration",
+            "items/sed_cg_leadexp_location",
+            "items/sed_cg_leadexp_001",
+            "items/sed_cg_leadexp_002",
+            "items/sed_cg_leadexp_003",
+            "items/sed_cg_leadexp_004",
+            "items/sed_cg_leadexp_005",
+            "items/sed_cg_leadexp_006",
+            "items/sed_cg_leadexp_007",
+            "items/sed_cg_leadexp_008",
+            "items/sed_cg_leadexp_009",
+            "items/sed_cg_leadexp_010",
+            "items/sed_cg_leadexp_Validity",
+            "items/sed_cg_leadexp_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_leadexp_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_location"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_001"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_002"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_003"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_004"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_005"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_006"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_007"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_008"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_009"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_010"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

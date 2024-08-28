@@ -1,0 +1,269 @@
+{
+    "id": "pex_bm_epds_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_epds"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_epds_Date_taken",
+            "items/pex_bm_epds_Candidate_Age",
+            "items/pex_bm_epds_Window_Difference",
+            "items/pex_bm_epds_Examiner",
+            "items/pex_bm_epds_lang",
+            "items/pex_bm_epds_dtt",
+            "items/pex_bm_epds_timestamp_start",
+            "items/pex_bm_epds_timestamp_stop",
+            "items/pex_bm_epds_Duration",
+            "items/pex_bm_epds_location",
+            "items/pex_bm_epds_001",
+            "items/pex_bm_epds_002",
+            "items/pex_bm_epds_003",
+            "items/pex_bm_epds_004",
+            "items/pex_bm_epds_005",
+            "items/pex_bm_epds_006",
+            "items/pex_bm_epds_007",
+            "items/pex_bm_epds_008",
+            "items/pex_bm_epds_009",
+            "items/pex_bm_epds_010",
+            "items/pex_bm_epds_001_i_01",
+            "items/pex_bm_epds_002_i_01",
+            "items/pex_bm_epds_003_i_01",
+            "items/pex_bm_epds_004_i_01",
+            "items/pex_bm_epds_005_i_01",
+            "items/pex_bm_epds_006_i_01",
+            "items/pex_bm_epds_007_i_01",
+            "items/pex_bm_epds_008_i_01",
+            "items/pex_bm_epds_009_i_01",
+            "items/pex_bm_epds_010_i_01",
+            "items/pex_bm_epds_score",
+            "items/pex_bm_epds_flag01",
+            "items/pex_bm_epds_flag02",
+            "items/pex_bm_epds_total_score",
+            "items/pex_bm_epds_Validity",
+            "items/pex_bm_epds_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_epds_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Candidate_Age"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Window_Difference"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Examiner"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_timestamp_stop"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Duration"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_location"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_001"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_002"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_003"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_004"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_005"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_006"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_007"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_008"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_009"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_010"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_001_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_003_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_005_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_007_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_008_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_009_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_009_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_010_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_score"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_flag01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_flag01"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_flag02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_flag02"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_total_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_total_score"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Validity"
+            },
+            {
+                "isAbout": "items/pex_bm_epds_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_epds_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

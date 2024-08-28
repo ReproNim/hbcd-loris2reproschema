@@ -1,0 +1,108 @@
+{
+    "id": "adm_bm_screen_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "adm_bm_screen"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/adm_bm_screen_Date_taken",
+            "items/adm_bm_screen_Candidate_Age",
+            "items/adm_bm_screen_Window_Difference",
+            "items/adm_bm_screen_Examiner",
+            "items/adm_bm_screen_adm_bm_screen_001b",
+            "items/adm_bm_screen_adm_bm_screen_001",
+            "items/adm_bm_screen_adm_bm_screen_002",
+            "items/adm_bm_screen_adm_bm_screen_003",
+            "items/adm_bm_screen_adm_bm_screen_004",
+            "items/adm_bm_screen_adm_bm_screen_005",
+            "items/adm_bm_screen_adm_bm_screen_hashed_global_id",
+            "items/adm_bm_screen_Validity",
+            "items/adm_bm_screen_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/adm_bm_screen_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Date_taken"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Candidate_Age"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Window_Difference"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Examiner"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_001b",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_001b"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_001"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_002"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_003"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_004"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_005"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_adm_bm_screen_hashed_global_id",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_adm_bm_screen_hashed_global_id"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Validity"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,794 @@
+{
+    "id": "mh_cg_cbcl_i_1to5_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_cbcl_i_1to5"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_cbcl_i_1to5_Date_taken",
+            "items/mh_cg_cbcl_i_1to5_Candidate_Age",
+            "items/mh_cg_cbcl_i_1to5_Window_Difference",
+            "items/mh_cg_cbcl_i_1to5_Examiner",
+            "items/mh_cg_cbcl_i_1to5_lang",
+            "items/mh_cg_cbcl_i_1to5_dtt",
+            "items/mh_cg_cbcl_i_1to5_timestamp_start",
+            "items/mh_cg_cbcl_i_1to5_timestamp_stop",
+            "items/mh_cg_cbcl_i_1to5_Duration",
+            "items/mh_cg_cbcl_i_1to5_location",
+            "items/mh_cg_cbcl_i_1to5_i_som_001",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_001",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_001",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_002",
+            "items/mh_cg_cbcl_i_1to5_i_attn_001",
+            "items/mh_cg_cbcl_i_1to5_i_attn_002",
+            "items/mh_cg_cbcl_i_1to5_i_som_002",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_001",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_002",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_001",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_003",
+            "items/mh_cg_cbcl_i_1to5_i_som_003",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_004",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_005",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_002",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_003",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_006",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_004",
+            "items/mh_cg_cbcl_i_1to5_i_som_004",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_005",
+            "items/mh_cg_cbcl_i_1to5_i_emot_001",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_001",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_003",
+            "items/mh_cg_cbcl_i_1to5_i_som_005",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_007",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_008",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_006",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_009",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_007",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_010",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_011",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_012",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_002",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_013",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_008",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_014",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_003",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_002",
+            "items/mh_cg_cbcl_i_1to5_i_som_006",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_009",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_015",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_010",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_004",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_011",
+            "items/mh_cg_cbcl_i_1to5_i_som_007",
+            "items/mh_cg_cbcl_i_1to5_i_emot_002",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_005",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_003",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_016",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_017",
+            "items/mh_cg_cbcl_i_1to5_i_emot_003",
+            "items/mh_cg_cbcl_i_1to5_i_som_008",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_012",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_018",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_019",
+            "items/mh_cg_cbcl_i_1to5_i_attn_003",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_020",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_013",
+            "items/mh_cg_cbcl_i_1to5_i_attn_004",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_021",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_022",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_004",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_023",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_004",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_024",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_014",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_005",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_006",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_015",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_006",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_007",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_025",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_026",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_005",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_027",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_028",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_029",
+            "items/mh_cg_cbcl_i_1to5_i_som_009",
+            "items/mh_cg_cbcl_i_1to5_i_emot_004",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_030",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_016",
+            "items/mh_cg_cbcl_i_1to5_i_emot_005",
+            "items/mh_cg_cbcl_i_1to5_i_emot_006",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_006",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_017",
+            "items/mh_cg_cbcl_i_1to5_i_som_010",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_007",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_018",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_031",
+            "items/mh_cg_cbcl_i_1to5_i_anxdep_008",
+            "items/mh_cg_cbcl_i_1to5_i_othprob_032",
+            "items/mh_cg_cbcl_i_1to5_i_emot_007",
+            "items/mh_cg_cbcl_i_1to5_i_som_011",
+            "items/mh_cg_cbcl_i_1to5_i_sleep_007",
+            "items/mh_cg_cbcl_i_1to5_i_attn_005",
+            "items/mh_cg_cbcl_i_1to5_i_aggr_019",
+            "items/mh_cg_cbcl_i_1to5_i_emot_008",
+            "items/mh_cg_cbcl_i_1to5_i_wthdr_008",
+            "items/mh_cg_cbcl_i_1to5_i_emot_009",
+            "items/mh_cg_cbcl_i_1to5_Validity",
+            "items/mh_cg_cbcl_i_1to5_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_location"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_attn_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_attn_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_attn_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_attn_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_001"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_009"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_010"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_011"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_012"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_013"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_014"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_009"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_015"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_010"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_011"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_002"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_016"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_017"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_012"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_018"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_019",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_019"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_attn_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_attn_003"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_020",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_020"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_013"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_attn_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_attn_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_021",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_021"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_022",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_022"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_023",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_023"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_024",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_024"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_014"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_015"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_025",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_025"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_026",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_026"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_027",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_027"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_028",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_028"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_029",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_029"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_009"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_004"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_030",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_030"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_016"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_006"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_017"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_010"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_018"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_031",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_031"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_anxdep_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_anxdep_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_othprob_032",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_othprob_032"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_som_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_som_011"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_sleep_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_sleep_007"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_attn_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_attn_005"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_aggr_019",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_aggr_019"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_wthdr_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_wthdr_008"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_i_emot_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_i_emot_009"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

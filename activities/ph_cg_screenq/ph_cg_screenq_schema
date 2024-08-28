@@ -1,0 +1,255 @@
+{
+    "id": "ph_cg_screenq_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_screenq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_screenq_Date_taken",
+            "items/ph_cg_screenq_Candidate_Age",
+            "items/ph_cg_screenq_Window_Difference",
+            "items/ph_cg_screenq_Examiner",
+            "items/ph_cg_screenq_lang",
+            "items/ph_cg_screenq_dtt",
+            "items/ph_cg_screenq_timestamp_start",
+            "items/ph_cg_screenq_timestamp_stop",
+            "items/ph_cg_screenq_Duration",
+            "items/ph_cg_screenq_location",
+            "items/ph_cg_screenq_001",
+            "items/ph_cg_screenq_002",
+            "items/ph_cg_screenq_003",
+            "items/ph_cg_screenq_004",
+            "items/ph_cg_screenq_005",
+            "items/ph_cg_screenq_006",
+            "items/ph_cg_screenq_007",
+            "items/ph_cg_screenq_008",
+            "items/ph_cg_screenq_009",
+            "items/ph_cg_screenq_010",
+            "items/ph_cg_screenq_011",
+            "items/ph_cg_screenq_012",
+            "items/ph_cg_screenq_013",
+            "items/ph_cg_screenq_014",
+            "items/ph_cg_screenq_015",
+            "items/ph_cg_screenq_016",
+            "items/ph_cg_screenq_017",
+            "items/ph_cg_screenq_Validity",
+            "items/ph_cg_screenq_Administration",
+            "items/ph_cg_screenq_total_score",
+            "items/ph_cg_screenq_access_score",
+            "items/ph_cg_screenq_frequency_score",
+            "items/ph_cg_screenq_content_score",
+            "items/ph_cg_screenq_co_viewing_score"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_screenq_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Window_Difference"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Examiner"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Duration"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_001"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_002"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_005"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_006"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_007"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_008"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_009"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_010"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_011"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_012"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_013"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_014"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_015"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_016"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_017"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Validity"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_total_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_access_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_access_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_frequency_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_frequency_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_content_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_content_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_co_viewing_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_co_viewing_score"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,146 @@
+{
+    "id": "sed_bm_demo_herit_i_oth_002_i_03",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[448] of sed_bm_demo"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_i_oth_002_i_03"
+    },
+    "question": {
+        "en": "Black, African American, or African"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "African American"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Barbadian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Caribbean"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Ethiopian"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Ghanaian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Haitian"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Jamaican"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Liberian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Nigerian"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Somali"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "South African"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe the other biological parent / Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

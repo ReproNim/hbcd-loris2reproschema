@@ -1,0 +1,207 @@
+{
+    "id": "adm_bm_screen_adm_bm_screen_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[7] of adm_bm_screen"
+    },
+    "prefLabel": {
+        "en": "adm_bm_screen_adm_bm_screen_003"
+    },
+    "question": {
+        "en": "Highest level of education:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never attended / Kindergarten only"
+                },
+                "value": "never_attended"
+            },
+            {
+                "name": {
+                    "en": "1st grade"
+                },
+                "value": "1st_grade"
+            },
+            {
+                "name": {
+                    "en": "2nd grade"
+                },
+                "value": "2nd_grade"
+            },
+            {
+                "name": {
+                    "en": "3rd grade"
+                },
+                "value": "3rd_grade"
+            },
+            {
+                "name": {
+                    "en": "4th grade"
+                },
+                "value": "4th_grade"
+            },
+            {
+                "name": {
+                    "en": "5th grade"
+                },
+                "value": "5th_grade"
+            },
+            {
+                "name": {
+                    "en": "6th grade"
+                },
+                "value": "6th_grade"
+            },
+            {
+                "name": {
+                    "en": "7th grade"
+                },
+                "value": "7th_grade"
+            },
+            {
+                "name": {
+                    "en": "8th grade"
+                },
+                "value": "8th_grade"
+            },
+            {
+                "name": {
+                    "en": "9th grade"
+                },
+                "value": "9th_grade"
+            },
+            {
+                "name": {
+                    "en": "10th grade"
+                },
+                "value": "10th_grade"
+            },
+            {
+                "name": {
+                    "en": "11th grade"
+                },
+                "value": "11th_grade"
+            },
+            {
+                "name": {
+                    "en": "12th grade, no diploma"
+                },
+                "value": "12th_grade"
+            },
+            {
+                "name": {
+                    "en": "High school graduate"
+                },
+                "value": "high_school_graduate"
+            },
+            {
+                "name": {
+                    "en": "GED or equivalent"
+                },
+                "value": "ged_or_equivalent"
+            },
+            {
+                "name": {
+                    "en": "Some college, no degree"
+                },
+                "value": "some_college"
+            },
+            {
+                "name": {
+                    "en": "Occupational, Vocational, or Technical program"
+                },
+                "value": "Occupational_vocational"
+            },
+            {
+                "name": {
+                    "en": "Associate degree: Academic program"
+                },
+                "value": "associate_degree"
+            },
+            {
+                "name": {
+                    "en": "Bachelor\\'s degree (ex: BA, AB, BS, BBA)"
+                },
+                "value": "bachelor_degree"
+            },
+            {
+                "name": {
+                    "en": "Master\\'s degree (ex: MA, MS, MEng, MEd, MBA)"
+                },
+                "value": "master_degree"
+            },
+            {
+                "name": {
+                    "en": "Professional school degree (ex: MD, DDS, DVM, JD)"
+                },
+                "value": "professional_school_degree"
+            },
+            {
+                "name": {
+                    "en": "Doctoral degree (ex: PhD, EdD)"
+                },
+                "value": "doctoral_degree"
+            },
+            {
+                "name": {
+                    "en": "Don\\'t know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string",
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,92 @@
+{
+    "id": "ncl_ch_di_fev2_001_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[29] of ncl_ch_di"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_di_fev2_001_i_01"
+    },
+    "question": {
+        "en": "First novel target action child performed was:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hang the bell (Gong)"
+                },
+                "value": "hang_the_bell"
+            },
+            {
+                "name": {
+                    "en": "Build it (Beary-Go-Round)"
+                },
+                "value": "build_it"
+            },
+            {
+                "name": {
+                    "en": "Ring it (Gong)"
+                },
+                "value": "ring_it"
+            },
+            {
+                "name": {
+                    "en": "Spin it (Beary-Go-Round)"
+                },
+                "value": "spin_it"
+            },
+            {
+                "name": {
+                    "en": "No Action"
+                },
+                "value": "not_answered"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

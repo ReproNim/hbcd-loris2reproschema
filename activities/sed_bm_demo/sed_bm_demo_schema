@@ -1,0 +1,3300 @@
+{
+    "id": "sed_bm_demo_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_demo"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_demo_Date_taken",
+            "items/sed_bm_demo_Candidate_Age",
+            "items/sed_bm_demo_Window_Difference",
+            "items/sed_bm_demo_Examiner",
+            "items/sed_bm_demo_lang",
+            "items/sed_bm_demo_dtt",
+            "items/sed_bm_demo_timestamp_start",
+            "items/sed_bm_demo_timestamp_stop",
+            "items/sed_bm_demo_Duration",
+            "items/sed_bm_demo_location",
+            "items/sed_bm_demo_relationship_001",
+            "items/sed_bm_demo_gndrident_001",
+            "items/sed_bm_demo_gndrident_001_i_01",
+            "items/sed_bm_demo_sexorient_001",
+            "items/sed_bm_demo_sexorient_001_i_01",
+            "items/sed_bm_demo_residence_001",
+            "items/sed_bm_demo_residence_002",
+            "items/sed_bm_demo_roster_001",
+            "items/sed_bm_demo_roster_001_i_dk",
+            "items/sed_bm_demo_roster_002",
+            "items/sed_bm_demo_roster_002_i_dk",
+            "items/sed_bm_demo_roster_003",
+            "items/sed_bm_demo_roster_004_i_01",
+            "items/sed_bm_demo_roster_004_i_02",
+            "items/sed_bm_demo_roster_004_i_03",
+            "items/sed_bm_demo_roster_004_i_03_i_01",
+            "items/sed_bm_demo_roster_004_i_04",
+            "items/sed_bm_demo_roster_005_i_01",
+            "items/sed_bm_demo_roster_005_i_02",
+            "items/sed_bm_demo_roster_005_i_03",
+            "items/sed_bm_demo_roster_005_i_03_i_01",
+            "items/sed_bm_demo_roster_005_i_04",
+            "items/sed_bm_demo_roster_006_i_01",
+            "items/sed_bm_demo_roster_006_i_02",
+            "items/sed_bm_demo_roster_006_i_03",
+            "items/sed_bm_demo_roster_006_i_03_i_01",
+            "items/sed_bm_demo_roster_006_i_04",
+            "items/sed_bm_demo_roster_007_i_01",
+            "items/sed_bm_demo_roster_007_i_02",
+            "items/sed_bm_demo_roster_007_i_03",
+            "items/sed_bm_demo_roster_007_i_03_i_01",
+            "items/sed_bm_demo_roster_007_i_04",
+            "items/sed_bm_demo_roster_008_i_01",
+            "items/sed_bm_demo_roster_008_i_02",
+            "items/sed_bm_demo_roster_008_i_03",
+            "items/sed_bm_demo_roster_008_i_03_i_01",
+            "items/sed_bm_demo_roster_008_i_04",
+            "items/sed_bm_demo_roster_009_i_01",
+            "items/sed_bm_demo_roster_009_i_02",
+            "items/sed_bm_demo_roster_009_i_03",
+            "items/sed_bm_demo_roster_009_i_03_i_01",
+            "items/sed_bm_demo_roster_009_i_04",
+            "items/sed_bm_demo_roster_010_i_01",
+            "items/sed_bm_demo_roster_010_i_02",
+            "items/sed_bm_demo_roster_010_i_03",
+            "items/sed_bm_demo_roster_010_i_03_i_01",
+            "items/sed_bm_demo_roster_010_i_04",
+            "items/sed_bm_demo_roster_011_i_01",
+            "items/sed_bm_demo_roster_011_i_02",
+            "items/sed_bm_demo_roster_011_i_03",
+            "items/sed_bm_demo_roster_011_i_03_i_01",
+            "items/sed_bm_demo_roster_011_i_04",
+            "items/sed_bm_demo_roster_012_i_01",
+            "items/sed_bm_demo_roster_012_i_02",
+            "items/sed_bm_demo_roster_012_i_03",
+            "items/sed_bm_demo_roster_012_i_03_i_01",
+            "items/sed_bm_demo_roster_012_i_04",
+            "items/sed_bm_demo_roster_013_i_01",
+            "items/sed_bm_demo_roster_013_i_02",
+            "items/sed_bm_demo_roster_013_i_03",
+            "items/sed_bm_demo_roster_013_i_03_i_01",
+            "items/sed_bm_demo_roster_013_i_04",
+            "items/sed_bm_demo_roster_014_i_01",
+            "items/sed_bm_demo_roster_014_i_02",
+            "items/sed_bm_demo_roster_014_i_03",
+            "items/sed_bm_demo_roster_014_i_03_i_01",
+            "items/sed_bm_demo_roster_014_i_04",
+            "items/sed_bm_demo_roster_015_i_01",
+            "items/sed_bm_demo_roster_015_i_02",
+            "items/sed_bm_demo_roster_015_i_03",
+            "items/sed_bm_demo_roster_015_i_03_i_01",
+            "items/sed_bm_demo_roster_015_i_04",
+            "items/sed_bm_demo_roster_016_i_01",
+            "items/sed_bm_demo_roster_016_i_02",
+            "items/sed_bm_demo_roster_016_i_03",
+            "items/sed_bm_demo_roster_016_i_03_i_01",
+            "items/sed_bm_demo_roster_016_i_04",
+            "items/sed_bm_demo_roster_017_i_01",
+            "items/sed_bm_demo_roster_017_i_02",
+            "items/sed_bm_demo_roster_017_i_03",
+            "items/sed_bm_demo_roster_017_i_03_i_01",
+            "items/sed_bm_demo_roster_017_i_04",
+            "items/sed_bm_demo_roster_018_i_01",
+            "items/sed_bm_demo_roster_018_i_02",
+            "items/sed_bm_demo_roster_018_i_03",
+            "items/sed_bm_demo_roster_018_i_03_i_01",
+            "items/sed_bm_demo_roster_018_i_04",
+            "items/sed_bm_demo_roster_019_i_01",
+            "items/sed_bm_demo_roster_019_i_02",
+            "items/sed_bm_demo_roster_019_i_03",
+            "items/sed_bm_demo_roster_019_i_03_i_01",
+            "items/sed_bm_demo_roster_019_i_04",
+            "items/sed_bm_demo_roster_020_i_01",
+            "items/sed_bm_demo_roster_020_i_02",
+            "items/sed_bm_demo_roster_020_i_03",
+            "items/sed_bm_demo_roster_020_i_03_i_01",
+            "items/sed_bm_demo_roster_020_i_04",
+            "items/sed_bm_demo_roster_021_i_01",
+            "items/sed_bm_demo_roster_021_i_02",
+            "items/sed_bm_demo_roster_021_i_03",
+            "items/sed_bm_demo_roster_021_i_03_i_01",
+            "items/sed_bm_demo_roster_021_i_04",
+            "items/sed_bm_demo_roster_022_i_01",
+            "items/sed_bm_demo_roster_022_i_02",
+            "items/sed_bm_demo_roster_022_i_03",
+            "items/sed_bm_demo_roster_022_i_03_i_01",
+            "items/sed_bm_demo_roster_022_i_04",
+            "items/sed_bm_demo_roster_023_i_01",
+            "items/sed_bm_demo_roster_023_i_02",
+            "items/sed_bm_demo_roster_023_i_03",
+            "items/sed_bm_demo_roster_023_i_03_i_01",
+            "items/sed_bm_demo_roster_023_i_04",
+            "items/sed_bm_demo_herit_001",
+            "items/sed_bm_demo_herit_001_i_01",
+            "items/sed_bm_demo_herit_001_i_02",
+            "items/sed_bm_demo_herit_005",
+            "items/sed_bm_demo_herit_002",
+            "items/sed_bm_demo_herit_002_i_01",
+            "items/sed_bm_demo_herit_002_i_02",
+            "items/sed_bm_demo_herit_002_i_03",
+            "items/sed_bm_demo_herit_002_i_04",
+            "items/sed_bm_demo_herit_002_i_05",
+            "items/sed_bm_demo_herit_002_i_06",
+            "items/sed_bm_demo_herit_002_i_07",
+            "items/sed_bm_demo_herit_003",
+            "items/sed_bm_demo_herit_006",
+            "items/sed_bm_demo_herit_007",
+            "items/sed_bm_demo_income_002",
+            "items/sed_bm_demo_disab_001",
+            "items/sed_bm_demo_disab_002",
+            "items/sed_bm_demo_disab_003",
+            "items/sed_bm_demo_disab_004",
+            "items/sed_bm_demo_disab_005",
+            "items/sed_bm_demo_disab_006",
+            "items/sed_bm_demo_edu_001",
+            "items/sed_bm_demo_mil_001",
+            "items/sed_bm_demo_work_002_pre",
+            "items/sed_bm_demo_work_002_post",
+            "items/sed_bm_demo_work_001",
+            "items/sed_bm_demo_work_004_pre",
+            "items/sed_bm_demo_work_004_post",
+            "items/sed_bm_demo_work_004_i_01",
+            "items/sed_bm_demo_work_005",
+            "items/sed_bm_demo_work_003_pre",
+            "items/sed_bm_demo_work_003_post",
+            "items/sed_bm_demo_work_007",
+            "items/sed_bm_demo_work_008_i_01",
+            "items/sed_bm_demo_work_008_i_02",
+            "items/sed_bm_demo_work_008_i_03",
+            "items/sed_bm_demo_work_008_i_04",
+            "items/sed_bm_demo_work_014",
+            "items/sed_bm_demo_work_009",
+            "items/sed_bm_demo_work_010_i_01",
+            "items/sed_bm_demo_work_010_i_02",
+            "items/sed_bm_demo_work_010_i_03",
+            "items/sed_bm_demo_work_010_i_04",
+            "items/sed_bm_demo_work_010_i_05",
+            "items/sed_bm_demo_work_010_i_06",
+            "items/sed_bm_demo_work_010_i_07",
+            "items/sed_bm_demo_work_011_i_01",
+            "items/sed_bm_demo_work_011_i_02",
+            "items/sed_bm_demo_work_011_i_03",
+            "items/sed_bm_demo_work_011_i_04",
+            "items/sed_bm_demo_work_011_i_05",
+            "items/sed_bm_demo_work_012_i_01",
+            "items/sed_bm_demo_work_012_i_02",
+            "items/sed_bm_demo_work_012_i_03",
+            "items/sed_bm_demo_work_012_i_04",
+            "items/sed_bm_demo_work_012_i_05",
+            "items/sed_bm_demo_work_012_i_06",
+            "items/sed_bm_demo_work_012_i_07",
+            "items/sed_bm_demo_work_012_i_08",
+            "items/sed_bm_demo_work_012_i_09",
+            "items/sed_bm_demo_work_012_i_10",
+            "items/sed_bm_demo_work_013_i_01",
+            "items/sed_bm_demo_work_013_i_02",
+            "items/sed_bm_demo_work_013_i_03",
+            "items/sed_bm_demo_work_013_i_04",
+            "items/sed_bm_demo_work_013_i_05",
+            "items/sed_bm_demo_work_013_i_06",
+            "items/sed_bm_demo_work_013_i_07",
+            "items/sed_bm_demo_work_013_i_08",
+            "items/sed_bm_demo_work_013_i_09",
+            "items/sed_bm_demo_work_013_i_10",
+            "items/sed_bm_demo_work_013_i_11",
+            "items/sed_bm_demo_work_013_i_12",
+            "items/sed_bm_demo_work_013_i_13",
+            "items/sed_bm_demo_work_013_i_14",
+            "items/sed_bm_demo_work_013_i_15",
+            "items/sed_bm_demo_work_013_i_16",
+            "items/sed_bm_demo_work_013_i_17",
+            "items/sed_bm_demo_work_013_i_18",
+            "items/sed_bm_demo_work_i_env_002",
+            "items/sed_bm_demo_work_015",
+            "items/sed_bm_demo_work_016_i_01",
+            "items/sed_bm_demo_work_016_i_02",
+            "items/sed_bm_demo_work_016_i_03",
+            "items/sed_bm_demo_work_016_i_04",
+            "items/sed_bm_demo_work_017",
+            "items/sed_bm_demo_work_018",
+            "items/sed_bm_demo_work_019_i_01",
+            "items/sed_bm_demo_work_019_i_02",
+            "items/sed_bm_demo_work_019_i_03",
+            "items/sed_bm_demo_work_019_i_04",
+            "items/sed_bm_demo_work_019_i_05",
+            "items/sed_bm_demo_work_019_i_06",
+            "items/sed_bm_demo_work_019_i_07",
+            "items/sed_bm_demo_work_020_i_01",
+            "items/sed_bm_demo_work_020_i_02",
+            "items/sed_bm_demo_work_020_i_03",
+            "items/sed_bm_demo_work_020_i_04",
+            "items/sed_bm_demo_work_020_i_05",
+            "items/sed_bm_demo_work_021_i_01",
+            "items/sed_bm_demo_work_021_i_02",
+            "items/sed_bm_demo_work_021_i_03",
+            "items/sed_bm_demo_work_021_i_04",
+            "items/sed_bm_demo_work_021_i_05",
+            "items/sed_bm_demo_work_021_i_06",
+            "items/sed_bm_demo_work_021_i_07",
+            "items/sed_bm_demo_work_021_i_08",
+            "items/sed_bm_demo_work_021_i_09",
+            "items/sed_bm_demo_work_021_i_10",
+            "items/sed_bm_demo_work_022_i_01",
+            "items/sed_bm_demo_work_022_i_02",
+            "items/sed_bm_demo_work_022_i_03",
+            "items/sed_bm_demo_work_022_i_04",
+            "items/sed_bm_demo_work_022_i_05",
+            "items/sed_bm_demo_work_022_i_06",
+            "items/sed_bm_demo_work_022_i_07",
+            "items/sed_bm_demo_work_022_i_08",
+            "items/sed_bm_demo_work_022_i_09",
+            "items/sed_bm_demo_work_022_i_10",
+            "items/sed_bm_demo_work_022_i_11",
+            "items/sed_bm_demo_work_022_i_12",
+            "items/sed_bm_demo_work_022_i_22",
+            "items/sed_bm_demo_work_022_i_14",
+            "items/sed_bm_demo_work_022_i_15",
+            "items/sed_bm_demo_work_022_i_16",
+            "items/sed_bm_demo_work_022_i_17",
+            "items/sed_bm_demo_work_022_i_18",
+            "items/sed_bm_demo_work_i_env_003",
+            "items/sed_bm_demo_work_023",
+            "items/sed_bm_demo_work_024_i_01",
+            "items/sed_bm_demo_work_024_i_02",
+            "items/sed_bm_demo_work_024_i_03",
+            "items/sed_bm_demo_work_024_i_04",
+            "items/sed_bm_demo_work_025",
+            "items/sed_bm_demo_work_026",
+            "items/sed_bm_demo_work_027_i_01",
+            "items/sed_bm_demo_work_027_i_02",
+            "items/sed_bm_demo_work_027_i_03",
+            "items/sed_bm_demo_work_027_i_04",
+            "items/sed_bm_demo_work_027_i_05",
+            "items/sed_bm_demo_work_027_i_06",
+            "items/sed_bm_demo_work_027_i_07",
+            "items/sed_bm_demo_work_028_i_01",
+            "items/sed_bm_demo_work_028_i_02",
+            "items/sed_bm_demo_work_028_i_03",
+            "items/sed_bm_demo_work_028_i_04",
+            "items/sed_bm_demo_work_028_i_05",
+            "items/sed_bm_demo_work_029_i_01",
+            "items/sed_bm_demo_work_029_i_02",
+            "items/sed_bm_demo_work_029_i_03",
+            "items/sed_bm_demo_work_029_i_04",
+            "items/sed_bm_demo_work_029_i_05",
+            "items/sed_bm_demo_work_029_i_06",
+            "items/sed_bm_demo_work_029_i_07",
+            "items/sed_bm_demo_work_029_i_08",
+            "items/sed_bm_demo_work_029_i_09",
+            "items/sed_bm_demo_work_029_i_10",
+            "items/sed_bm_demo_work_030_i_01",
+            "items/sed_bm_demo_work_030_i_02",
+            "items/sed_bm_demo_work_030_i_03",
+            "items/sed_bm_demo_work_030_i_04",
+            "items/sed_bm_demo_work_030_i_05",
+            "items/sed_bm_demo_work_030_i_06",
+            "items/sed_bm_demo_work_030_i_07",
+            "items/sed_bm_demo_work_030_i_08",
+            "items/sed_bm_demo_work_030_i_09",
+            "items/sed_bm_demo_work_030_i_10",
+            "items/sed_bm_demo_work_030_i_11",
+            "items/sed_bm_demo_work_030_i_12",
+            "items/sed_bm_demo_work_030_i_30",
+            "items/sed_bm_demo_work_030_i_14",
+            "items/sed_bm_demo_work_030_i_15",
+            "items/sed_bm_demo_work_030_i_16",
+            "items/sed_bm_demo_work_030_i_17",
+            "items/sed_bm_demo_work_030_i_18",
+            "items/sed_bm_demo_work_i_env_004",
+            "items/sed_bm_demo_work_031",
+            "items/sed_bm_demo_work_032_i_01",
+            "items/sed_bm_demo_work_032_i_02",
+            "items/sed_bm_demo_work_032_i_03",
+            "items/sed_bm_demo_work_032_i_04",
+            "items/sed_bm_demo_work_033",
+            "items/sed_bm_demo_work_034",
+            "items/sed_bm_demo_work_035_i_01",
+            "items/sed_bm_demo_work_035_i_02",
+            "items/sed_bm_demo_work_035_i_03",
+            "items/sed_bm_demo_work_035_i_04",
+            "items/sed_bm_demo_work_035_i_05",
+            "items/sed_bm_demo_work_035_i_06",
+            "items/sed_bm_demo_work_035_i_07",
+            "items/sed_bm_demo_work_036_i_01",
+            "items/sed_bm_demo_work_036_i_02",
+            "items/sed_bm_demo_work_036_i_03",
+            "items/sed_bm_demo_work_036_i_04",
+            "items/sed_bm_demo_work_036_i_05",
+            "items/sed_bm_demo_work_037_i_01",
+            "items/sed_bm_demo_work_037_i_02",
+            "items/sed_bm_demo_work_037_i_03",
+            "items/sed_bm_demo_work_037_i_04",
+            "items/sed_bm_demo_work_037_i_05",
+            "items/sed_bm_demo_work_037_i_06",
+            "items/sed_bm_demo_work_037_i_07",
+            "items/sed_bm_demo_work_037_i_08",
+            "items/sed_bm_demo_work_037_i_09",
+            "items/sed_bm_demo_work_037_i_10",
+            "items/sed_bm_demo_work_038_i_01",
+            "items/sed_bm_demo_work_038_i_02",
+            "items/sed_bm_demo_work_038_i_03",
+            "items/sed_bm_demo_work_038_i_04",
+            "items/sed_bm_demo_work_038_i_05",
+            "items/sed_bm_demo_work_038_i_06",
+            "items/sed_bm_demo_work_038_i_07",
+            "items/sed_bm_demo_work_038_i_08",
+            "items/sed_bm_demo_work_038_i_09",
+            "items/sed_bm_demo_work_038_i_10",
+            "items/sed_bm_demo_work_038_i_11",
+            "items/sed_bm_demo_work_038_i_12",
+            "items/sed_bm_demo_work_038_i_38",
+            "items/sed_bm_demo_work_038_i_14",
+            "items/sed_bm_demo_work_038_i_15",
+            "items/sed_bm_demo_work_038_i_16",
+            "items/sed_bm_demo_work_038_i_17",
+            "items/sed_bm_demo_work_038_i_18",
+            "items/sed_bm_demo_work_i_env_005",
+            "items/sed_bm_demo_work_039",
+            "items/sed_bm_demo_work_040_i_01",
+            "items/sed_bm_demo_work_040_i_02",
+            "items/sed_bm_demo_work_040_i_03",
+            "items/sed_bm_demo_work_040_i_04",
+            "items/sed_bm_demo_work_041",
+            "items/sed_bm_demo_work_042",
+            "items/sed_bm_demo_work_043_i_01",
+            "items/sed_bm_demo_work_043_i_02",
+            "items/sed_bm_demo_work_043_i_03",
+            "items/sed_bm_demo_work_043_i_04",
+            "items/sed_bm_demo_work_043_i_05",
+            "items/sed_bm_demo_work_043_i_06",
+            "items/sed_bm_demo_work_043_i_07",
+            "items/sed_bm_demo_work_044_i_01",
+            "items/sed_bm_demo_work_044_i_02",
+            "items/sed_bm_demo_work_044_i_03",
+            "items/sed_bm_demo_work_044_i_04",
+            "items/sed_bm_demo_work_044_i_05",
+            "items/sed_bm_demo_work_045_i_01",
+            "items/sed_bm_demo_work_045_i_02",
+            "items/sed_bm_demo_work_045_i_03",
+            "items/sed_bm_demo_work_045_i_04",
+            "items/sed_bm_demo_work_045_i_05",
+            "items/sed_bm_demo_work_045_i_06",
+            "items/sed_bm_demo_work_045_i_07",
+            "items/sed_bm_demo_work_045_i_08",
+            "items/sed_bm_demo_work_045_i_09",
+            "items/sed_bm_demo_work_045_i_10",
+            "items/sed_bm_demo_work_046_i_01",
+            "items/sed_bm_demo_work_046_i_02",
+            "items/sed_bm_demo_work_046_i_03",
+            "items/sed_bm_demo_work_046_i_04",
+            "items/sed_bm_demo_work_046_i_05",
+            "items/sed_bm_demo_work_046_i_06",
+            "items/sed_bm_demo_work_046_i_07",
+            "items/sed_bm_demo_work_046_i_08",
+            "items/sed_bm_demo_work_046_i_09",
+            "items/sed_bm_demo_work_046_i_10",
+            "items/sed_bm_demo_work_046_i_11",
+            "items/sed_bm_demo_work_046_i_12",
+            "items/sed_bm_demo_work_046_i_46",
+            "items/sed_bm_demo_work_046_i_14",
+            "items/sed_bm_demo_work_046_i_15",
+            "items/sed_bm_demo_work_046_i_16",
+            "items/sed_bm_demo_work_046_i_17",
+            "items/sed_bm_demo_work_046_i_18",
+            "items/sed_bm_demo_work_i_env_006",
+            "items/sed_bm_demo_work_047",
+            "items/sed_bm_demo_work_048_i_01",
+            "items/sed_bm_demo_work_048_i_02",
+            "items/sed_bm_demo_work_048_i_03",
+            "items/sed_bm_demo_work_048_i_04",
+            "items/sed_bm_demo_work_049",
+            "items/sed_bm_demo_work_050",
+            "items/sed_bm_demo_work_051_i_01",
+            "items/sed_bm_demo_work_051_i_02",
+            "items/sed_bm_demo_work_051_i_03",
+            "items/sed_bm_demo_work_051_i_04",
+            "items/sed_bm_demo_work_051_i_05",
+            "items/sed_bm_demo_work_051_i_06",
+            "items/sed_bm_demo_work_051_i_07",
+            "items/sed_bm_demo_work_052_i_01",
+            "items/sed_bm_demo_work_052_i_02",
+            "items/sed_bm_demo_work_052_i_03",
+            "items/sed_bm_demo_work_052_i_04",
+            "items/sed_bm_demo_work_052_i_05",
+            "items/sed_bm_demo_work_053_i_01",
+            "items/sed_bm_demo_work_053_i_02",
+            "items/sed_bm_demo_work_053_i_03",
+            "items/sed_bm_demo_work_053_i_04",
+            "items/sed_bm_demo_work_053_i_05",
+            "items/sed_bm_demo_work_053_i_06",
+            "items/sed_bm_demo_work_053_i_07",
+            "items/sed_bm_demo_work_053_i_08",
+            "items/sed_bm_demo_work_053_i_09",
+            "items/sed_bm_demo_work_053_i_10",
+            "items/sed_bm_demo_work_054_i_01",
+            "items/sed_bm_demo_work_054_i_02",
+            "items/sed_bm_demo_work_054_i_03",
+            "items/sed_bm_demo_work_054_i_04",
+            "items/sed_bm_demo_work_054_i_05",
+            "items/sed_bm_demo_work_054_i_06",
+            "items/sed_bm_demo_work_054_i_07",
+            "items/sed_bm_demo_work_054_i_08",
+            "items/sed_bm_demo_work_054_i_09",
+            "items/sed_bm_demo_work_054_i_10",
+            "items/sed_bm_demo_work_054_i_11",
+            "items/sed_bm_demo_work_054_i_12",
+            "items/sed_bm_demo_work_054_i_54",
+            "items/sed_bm_demo_work_054_i_14",
+            "items/sed_bm_demo_work_054_i_15",
+            "items/sed_bm_demo_work_054_i_16",
+            "items/sed_bm_demo_work_054_i_17",
+            "items/sed_bm_demo_work_054_i_18",
+            "items/sed_bm_demo_work_i_env_007",
+            "items/sed_bm_demo_obp_001",
+            "items/sed_bm_demo_age_i_oth_001",
+            "items/sed_bm_demo_herit_i_oth_002",
+            "items/sed_bm_demo_herit_i_oth_002_i_01",
+            "items/sed_bm_demo_herit_i_oth_002_i_02",
+            "items/sed_bm_demo_herit_i_oth_002_i_03",
+            "items/sed_bm_demo_herit_i_oth_002_i_04",
+            "items/sed_bm_demo_herit_i_oth_002_i_05",
+            "items/sed_bm_demo_herit_i_oth_002_i_06",
+            "items/sed_bm_demo_herit_i_oth_002_i_07",
+            "items/sed_bm_demo_herit_i_oth_001",
+            "items/sed_bm_demo_herit_i_oth_001_i_01",
+            "items/sed_bm_demo_herit_i_oth_001_i_02",
+            "items/sed_bm_demo_herit_i_oth_001_i_04",
+            "items/sed_bm_demo_herit_i_oth_003_i_01",
+            "items/sed_bm_demo_herit_i_oth_003_i_02",
+            "items/sed_bm_demo_edu_i_oth_001",
+            "items/sed_bm_demo_work_i_oth_001",
+            "items/sed_bm_demo_work_i_oth_001_i_03",
+            "items/sed_bm_demo_work_i_oth_001_i_02",
+            "items/sed_bm_demo_mil_002",
+            "items/sed_bm_demo_mil_002_i_01",
+            "items/sed_bm_demo_ses_i_oth_001",
+            "items/sed_bm_demo_transp_001",
+            "items/sed_bm_demo_Validity",
+            "items/sed_bm_demo_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_demo_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Examiner"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Duration"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_location"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_relationship_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_relationship_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_gndrident_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_gndrident_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_gndrident_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_gndrident_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_sexorient_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_sexorient_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_sexorient_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_sexorient_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_residence_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_residence_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_residence_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_residence_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_001_i_dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_002_i_dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_004_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_004_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_004_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_005_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_005_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_005_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_006_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_006_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_006_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_007_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_007_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_007_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_007_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_007_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_008_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_008_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_008_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_009_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_009_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_009_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_009_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_009_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_010_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_011_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_012_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_012_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_012_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_013_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_014_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_014_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_014_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_014_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_014_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_015_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_015_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_015_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_015_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_015_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_016_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_016_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_016_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_016_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_016_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_017_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_017_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_017_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_017_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_017_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_018_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_018_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_018_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_018_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_018_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_019_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_019_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_019_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_019_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_019_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_020_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_020_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_020_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_020_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_020_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_021_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_021_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_021_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_021_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_021_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_022_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_022_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_022_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_022_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_022_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_023_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_023_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_023_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_03_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_023_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_roster_023_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_002_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_006"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_income_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_income_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_004"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_disab_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_disab_006"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_edu_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_edu_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_mil_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_002_pre",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_002_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_002_post",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_002_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_004_pre",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_004_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_004_post",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_004_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_003_pre",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_003_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_003_post",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_003_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_008_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_008_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_014"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_009"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_010_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_011_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_012_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_13"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_013_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_015"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_016_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_016_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_016_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_016_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_017"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_018"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_019_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_020_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_020_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_020_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_020_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_020_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_021_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_22",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_22"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_022_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_023",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_023"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_024_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_024_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_024_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_024_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_025",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_025"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_026",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_026"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_027_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_028_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_028_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_028_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_028_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_028_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_029_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_30",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_30"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_030_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_004"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_031",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_031"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_032_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_032_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_032_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_032_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_033",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_033"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_034",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_034"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_035_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_036_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_036_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_036_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_036_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_036_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_037_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_38",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_38"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_038_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_039",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_039"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_040_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_040_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_040_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_040_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_041",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_041"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_042",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_042"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_043_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_044_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_044_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_044_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_044_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_044_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_045_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_46",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_46"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_046_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_006"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_047",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_047"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_048_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_048_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_048_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_048_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_049",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_049"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_050",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_050"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_051_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_052_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_052_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_052_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_052_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_052_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_053_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_54",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_54"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_15",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_16",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_17",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_18",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_054_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_env_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_obp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_obp_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_age_i_oth_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_age_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_003_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_herit_i_oth_003_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_edu_i_oth_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_edu_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_oth_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_work_i_oth_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_mil_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_mil_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_ses_i_oth_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_ses_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_transp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_transp_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Validity"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

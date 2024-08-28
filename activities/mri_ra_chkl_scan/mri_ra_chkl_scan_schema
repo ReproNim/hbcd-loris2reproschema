@@ -1,0 +1,1417 @@
+{
+    "id": "mri_ra_chkl_scan_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mri_ra_chkl_scan"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mri_ra_chkl_scan_Date_taken",
+            "items/mri_ra_chkl_scan_Candidate_Age",
+            "items/mri_ra_chkl_scan_Window_Difference",
+            "items/mri_ra_chkl_scan_Examiner",
+            "items/mri_ra_chkl_scan_s1_pii_001",
+            "items/mri_ra_chkl_scan_s1_pii_001_status",
+            "items/mri_ra_chkl_scan_s1_pii_002",
+            "items/mri_ra_chkl_scan_s1_pii_003",
+            "items/mri_ra_chkl_scan_s1_pii_003_status",
+            "items/mri_ra_chkl_scan_s1_pre_001",
+            "items/mri_ra_chkl_scan_s1_pre_002",
+            "items/mri_ra_chkl_scan_s1_pre_003",
+            "items/mri_ra_chkl_scan_s1_pre_004",
+            "items/mri_ra_chkl_scan_s1_trp_001",
+            "items/mri_ra_chkl_scan_s1_trp_002",
+            "items/mri_ra_chkl_scan_s1_pss_001",
+            "items/mri_ra_chkl_scan_s1_pss_001_i_01",
+            "items/mri_ra_chkl_scan_s1_pss_001_i_02",
+            "items/mri_ra_chkl_scan_s1_pss_002",
+            "items/mri_ra_chkl_scan_s1_pss_003",
+            "items/mri_ra_chkl_scan_s1_pss_004",
+            "items/mri_ra_chkl_scan_s1_pss_004_i_01",
+            "items/mri_ra_chkl_scan_s1_pss_005",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_01",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_02",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_03",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_04",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_05",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_06",
+            "items/mri_ra_chkl_scan_s1_pss_006_i_07",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_01",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_02",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_04",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_05",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_14",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_03",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_06",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_07",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_08",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_09",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_10",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_11",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_12",
+            "items/mri_ra_chkl_scan_s1_pss_007_i_13",
+            "items/mri_ra_chkl_scan_s1_slp_001",
+            "items/mri_ra_chkl_scan_s1_slp_002",
+            "items/mri_ra_chkl_scan_s1_slp_002_status",
+            "items/mri_ra_chkl_scan_s1_slp_003",
+            "items/mri_ra_chkl_scan_s1_slp_003_i_01",
+            "items/mri_ra_chkl_scan_s1_tfs_001",
+            "items/mri_ra_chkl_scan_s1_tfs_002",
+            "items/mri_ra_chkl_scan_Date_taken_2",
+            "items/mri_ra_chkl_scan_Examiner_2",
+            "items/mri_ra_chkl_scan_s2_pii_001",
+            "items/mri_ra_chkl_scan_s2_pii_001_status",
+            "items/mri_ra_chkl_scan_s2_pii_002",
+            "items/mri_ra_chkl_scan_s2_pii_003",
+            "items/mri_ra_chkl_scan_s2_pii_003_status",
+            "items/mri_ra_chkl_scan_s2_pre_001",
+            "items/mri_ra_chkl_scan_s2_pre_002",
+            "items/mri_ra_chkl_scan_s2_pre_003",
+            "items/mri_ra_chkl_scan_s2_pre_004",
+            "items/mri_ra_chkl_scan_s2_trp_001",
+            "items/mri_ra_chkl_scan_s2_trp_002",
+            "items/mri_ra_chkl_scan_s2_pss_001",
+            "items/mri_ra_chkl_scan_s2_pss_001_i_01",
+            "items/mri_ra_chkl_scan_s2_pss_001_i_02",
+            "items/mri_ra_chkl_scan_s2_pss_002",
+            "items/mri_ra_chkl_scan_s2_pss_003",
+            "items/mri_ra_chkl_scan_s2_pss_004",
+            "items/mri_ra_chkl_scan_s2_pss_004_i_01",
+            "items/mri_ra_chkl_scan_s2_pss_005",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_01",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_02",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_03",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_04",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_05",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_06",
+            "items/mri_ra_chkl_scan_s2_pss_006_i_07",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_01",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_02",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_04",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_05",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_14",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_03",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_06",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_07",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_08",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_09",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_10",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_11",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_12",
+            "items/mri_ra_chkl_scan_s2_pss_007_i_13",
+            "items/mri_ra_chkl_scan_s2_slp_001",
+            "items/mri_ra_chkl_scan_s2_slp_002",
+            "items/mri_ra_chkl_scan_s2_slp_002_status",
+            "items/mri_ra_chkl_scan_s2_slp_003",
+            "items/mri_ra_chkl_scan_s2_slp_003_i_01",
+            "items/mri_ra_chkl_scan_s2_tfs_001",
+            "items/mri_ra_chkl_scan_s2_tfs_002",
+            "items/mri_ra_chkl_scan_Date_taken_3",
+            "items/mri_ra_chkl_scan_Examiner_3",
+            "items/mri_ra_chkl_scan_s3_pii_001",
+            "items/mri_ra_chkl_scan_s3_pii_001_status",
+            "items/mri_ra_chkl_scan_s3_pii_002",
+            "items/mri_ra_chkl_scan_s3_pii_003",
+            "items/mri_ra_chkl_scan_s3_pii_003_status",
+            "items/mri_ra_chkl_scan_s3_pre_001",
+            "items/mri_ra_chkl_scan_s3_pre_002",
+            "items/mri_ra_chkl_scan_s3_pre_003",
+            "items/mri_ra_chkl_scan_s3_pre_004",
+            "items/mri_ra_chkl_scan_s3_trp_001",
+            "items/mri_ra_chkl_scan_s3_trp_002",
+            "items/mri_ra_chkl_scan_s3_pss_001",
+            "items/mri_ra_chkl_scan_s3_pss_001_i_01",
+            "items/mri_ra_chkl_scan_s3_pss_001_i_02",
+            "items/mri_ra_chkl_scan_s3_pss_002",
+            "items/mri_ra_chkl_scan_s3_pss_003",
+            "items/mri_ra_chkl_scan_s3_pss_004",
+            "items/mri_ra_chkl_scan_s3_pss_004_i_01",
+            "items/mri_ra_chkl_scan_s3_pss_005",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_01",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_02",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_03",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_04",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_05",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_06",
+            "items/mri_ra_chkl_scan_s3_pss_006_i_07",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_01",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_02",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_04",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_05",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_14",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_03",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_06",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_07",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_08",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_09",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_10",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_11",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_12",
+            "items/mri_ra_chkl_scan_s3_pss_007_i_13",
+            "items/mri_ra_chkl_scan_s3_slp_001",
+            "items/mri_ra_chkl_scan_s3_slp_002",
+            "items/mri_ra_chkl_scan_s3_slp_002_status",
+            "items/mri_ra_chkl_scan_s3_slp_003",
+            "items/mri_ra_chkl_scan_s3_slp_003_i_01",
+            "items/mri_ra_chkl_scan_s3_tfs_001",
+            "items/mri_ra_chkl_scan_s3_tfs_002",
+            "items/mri_ra_chkl_scan_Date_taken_4",
+            "items/mri_ra_chkl_scan_Examiner_4",
+            "items/mri_ra_chkl_scan_s4_pii_001",
+            "items/mri_ra_chkl_scan_s4_pii_001_status",
+            "items/mri_ra_chkl_scan_s4_pii_002",
+            "items/mri_ra_chkl_scan_s4_pii_003",
+            "items/mri_ra_chkl_scan_s4_pii_003_status",
+            "items/mri_ra_chkl_scan_s4_pre_001",
+            "items/mri_ra_chkl_scan_s4_pre_002",
+            "items/mri_ra_chkl_scan_s4_pre_003",
+            "items/mri_ra_chkl_scan_s4_pre_004",
+            "items/mri_ra_chkl_scan_s4_trp_001",
+            "items/mri_ra_chkl_scan_s4_trp_002",
+            "items/mri_ra_chkl_scan_s4_pss_001",
+            "items/mri_ra_chkl_scan_s4_pss_001_i_01",
+            "items/mri_ra_chkl_scan_s4_pss_001_i_02",
+            "items/mri_ra_chkl_scan_s4_pss_002",
+            "items/mri_ra_chkl_scan_s4_pss_003",
+            "items/mri_ra_chkl_scan_s4_pss_004",
+            "items/mri_ra_chkl_scan_s4_pss_004_i_01",
+            "items/mri_ra_chkl_scan_s4_pss_005",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_01",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_02",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_03",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_04",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_05",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_06",
+            "items/mri_ra_chkl_scan_s4_pss_006_i_07",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_01",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_02",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_04",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_05",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_14",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_03",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_06",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_07",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_08",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_09",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_10",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_11",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_12",
+            "items/mri_ra_chkl_scan_s4_pss_007_i_13",
+            "items/mri_ra_chkl_scan_s4_slp_001",
+            "items/mri_ra_chkl_scan_s4_slp_002",
+            "items/mri_ra_chkl_scan_s4_slp_002_status",
+            "items/mri_ra_chkl_scan_s4_slp_003",
+            "items/mri_ra_chkl_scan_s4_slp_003_i_01",
+            "items/mri_ra_chkl_scan_s4_tfs_001",
+            "items/mri_ra_chkl_scan_s4_tfs_002",
+            "items/mri_ra_chkl_scan_Validity",
+            "items/mri_ra_chkl_scan_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Date_taken"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Window_Difference"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Examiner"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pii_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pii_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pii_001_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pii_001_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pii_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pii_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pii_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pii_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pii_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pii_003_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pre_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pre_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pre_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pre_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pre_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pre_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pre_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pre_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_trp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_trp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_trp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_trp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_001_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_001_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_004_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_005"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_006_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_006_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_14"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_08"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_09"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_10"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_11"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_12"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_pss_007_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_pss_007_i_13"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_slp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_slp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_slp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_slp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_slp_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_slp_002_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_slp_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_slp_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_slp_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_slp_003_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_tfs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_tfs_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s1_tfs_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s1_tfs_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Date_taken_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Date_taken_2"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Examiner_2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Examiner_2"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pii_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pii_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pii_001_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pii_001_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pii_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pii_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pii_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pii_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pii_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pii_003_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pre_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pre_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pre_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pre_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pre_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pre_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pre_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pre_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_trp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_trp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_trp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_trp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_001_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_001_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_004_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_005"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_006_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_006_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_14"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_08"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_09"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_10"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_11"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_12"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_pss_007_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_pss_007_i_13"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_slp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_slp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_slp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_slp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_slp_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_slp_002_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_slp_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_slp_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_slp_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_slp_003_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_tfs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_tfs_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s2_tfs_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s2_tfs_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Date_taken_3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Date_taken_3"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Examiner_3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Examiner_3"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pii_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pii_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pii_001_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pii_001_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pii_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pii_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pii_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pii_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pii_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pii_003_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pre_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pre_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pre_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pre_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pre_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pre_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pre_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pre_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_trp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_trp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_trp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_trp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_001_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_001_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_004_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_005"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_006_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_006_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_14"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_08"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_09"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_10"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_11"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_12"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_pss_007_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_pss_007_i_13"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_slp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_slp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_slp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_slp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_slp_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_slp_002_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_slp_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_slp_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_slp_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_slp_003_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_tfs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_tfs_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s3_tfs_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s3_tfs_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Date_taken_4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Date_taken_4"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Examiner_4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Examiner_4"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pii_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pii_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pii_001_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pii_001_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pii_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pii_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pii_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pii_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pii_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pii_003_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pre_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pre_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pre_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pre_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pre_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pre_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pre_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pre_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_trp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_trp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_trp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_trp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_001_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_001_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_004"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_004_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_005"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_006_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_006_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_02"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_04"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_05"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_14",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_14"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_03"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_06"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_07"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_08"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_09"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_10"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_11"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_12"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_pss_007_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_pss_007_i_13"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_slp_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_slp_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_slp_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_slp_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_slp_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_slp_002_status"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_slp_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_slp_003"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_slp_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_slp_003_i_01"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_tfs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_tfs_001"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_s4_tfs_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_s4_tfs_002"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Validity"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

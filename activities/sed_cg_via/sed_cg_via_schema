@@ -1,0 +1,290 @@
+{
+    "id": "sed_cg_via_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_via"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_via_Date_taken",
+            "items/sed_cg_via_Candidate_Age",
+            "items/sed_cg_via_Window_Difference",
+            "items/sed_cg_via_Examiner",
+            "items/sed_cg_via_lang",
+            "items/sed_cg_via_dtt",
+            "items/sed_cg_via_timestamp_start",
+            "items/sed_cg_via_timestamp_stop",
+            "items/sed_cg_via_Duration",
+            "items/sed_cg_via_location",
+            "items/sed_cg_via_001",
+            "items/sed_cg_via_002",
+            "items/sed_cg_via_002_i_01",
+            "items/sed_cg_via_003",
+            "items/sed_cg_via_004",
+            "items/sed_cg_via_005",
+            "items/sed_cg_via_006",
+            "items/sed_cg_via_007",
+            "items/sed_cg_via_008",
+            "items/sed_cg_via_009",
+            "items/sed_cg_via_010",
+            "items/sed_cg_via_011",
+            "items/sed_cg_via_012",
+            "items/sed_cg_via_013",
+            "items/sed_cg_via_014",
+            "items/sed_cg_via_015",
+            "items/sed_cg_via_016",
+            "items/sed_cg_via_017",
+            "items/sed_cg_via_018",
+            "items/sed_cg_via_019",
+            "items/sed_cg_via_020",
+            "items/sed_cg_via_023",
+            "items/sed_cg_via_021",
+            "items/sed_cg_via_022",
+            "items/sed_cg_via_Validity",
+            "items/sed_cg_via_Administration",
+            "items/sed_cg_via_line",
+            "items/sed_cg_via_total_score_even",
+            "items/sed_cg_via_total_score_odd"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_via_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_via_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_via_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_via_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_via_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_via_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_location"
+            },
+            {
+                "isAbout": "items/sed_cg_via_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_001"
+            },
+            {
+                "isAbout": "items/sed_cg_via_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_002"
+            },
+            {
+                "isAbout": "items/sed_cg_via_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_via_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_003"
+            },
+            {
+                "isAbout": "items/sed_cg_via_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_004"
+            },
+            {
+                "isAbout": "items/sed_cg_via_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_005"
+            },
+            {
+                "isAbout": "items/sed_cg_via_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_006"
+            },
+            {
+                "isAbout": "items/sed_cg_via_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_007"
+            },
+            {
+                "isAbout": "items/sed_cg_via_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_008"
+            },
+            {
+                "isAbout": "items/sed_cg_via_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_009"
+            },
+            {
+                "isAbout": "items/sed_cg_via_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_010"
+            },
+            {
+                "isAbout": "items/sed_cg_via_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_011"
+            },
+            {
+                "isAbout": "items/sed_cg_via_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_012"
+            },
+            {
+                "isAbout": "items/sed_cg_via_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_013"
+            },
+            {
+                "isAbout": "items/sed_cg_via_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_014"
+            },
+            {
+                "isAbout": "items/sed_cg_via_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_015"
+            },
+            {
+                "isAbout": "items/sed_cg_via_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_016"
+            },
+            {
+                "isAbout": "items/sed_cg_via_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_017"
+            },
+            {
+                "isAbout": "items/sed_cg_via_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_018"
+            },
+            {
+                "isAbout": "items/sed_cg_via_019",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_019"
+            },
+            {
+                "isAbout": "items/sed_cg_via_020",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_020"
+            },
+            {
+                "isAbout": "items/sed_cg_via_023",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_023"
+            },
+            {
+                "isAbout": "items/sed_cg_via_021",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_021"
+            },
+            {
+                "isAbout": "items/sed_cg_via_022",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_022"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_via_line",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_line"
+            },
+            {
+                "isAbout": "items/sed_cg_via_total_score_even",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_total_score_even"
+            },
+            {
+                "isAbout": "items/sed_cg_via_total_score_odd",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_total_score_odd"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

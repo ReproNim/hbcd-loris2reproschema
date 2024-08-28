@@ -1,0 +1,122 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[36] of pex_bm_health_preg_i_healthhx"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003"
+    },
+    "question": {
+        "en": "What treatments did you receive (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Artificial insemination"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In-vitro fertilization"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fertility-enhancing medications"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "ICSI"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Pre-implantation genetic screening"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Donor egg"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Donor sperm"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Donor embryo"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

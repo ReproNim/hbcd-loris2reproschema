@@ -1,0 +1,134 @@
+{
+    "id": "sed_bm_demo_herit_i_oth_002_i_02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[447] of sed_bm_demo"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_i_oth_002_i_02"
+    },
+    "question": {
+        "en": "Asian"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Asian Indian"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Cambodian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chinese"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Filipino"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hmong"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Japanese"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Korean"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Pakistani"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Vietnamese"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe the other biological parent / Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

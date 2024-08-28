@@ -1,0 +1,116 @@
+{
+    "id": "ncl_ch_di_i_v06_sev3_001_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[62] of ncl_ch_di_i_v06"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_di_i_v06_sev3_001_i_01"
+    },
+    "question": {
+        "en": "First novel target action child performed was:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Plant the seed (Garden)"
+                },
+                "value": "plant_the_seed"
+            },
+            {
+                "name": {
+                    "en": "Water it (Garden)"
+                },
+                "value": "water_it"
+            },
+            {
+                "name": {
+                    "en": "Out comes the sun (Garden)"
+                },
+                "value": "out_comes_the_sun"
+            },
+            {
+                "name": {
+                    "en": "Watch it grow [turn crank to reveal flower] (Garden)"
+                },
+                "value": "watch_it_grow"
+            },
+            {
+                "name": {
+                    "en": "Open it up (Farm)"
+                },
+                "value": "open_it_up"
+            },
+            {
+                "name": {
+                    "en": "Load the hay (Farm)"
+                },
+                "value": "load_the_hay"
+            },
+            {
+                "name": {
+                    "en": "Call the cow (Farm)"
+                },
+                "value": "call_the_cow"
+            },
+            {
+                "name": {
+                    "en": "Feed the cow (Farm)"
+                },
+                "value": "feed_the_cow"
+            },
+            {
+                "name": {
+                    "en": "No Action/None"
+                },
+                "value": "no_action"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

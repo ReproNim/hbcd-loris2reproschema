@@ -1,0 +1,140 @@
+{
+    "id": "pex_bm_healthv2_preg_i_outcome_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Modified"
+        }
+    ],
+    "description": {
+        "en": "Q[548] of pex_bm_healthv2_preg"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_outcome_003"
+    },
+    "question": {
+        "en": "Did any of the following things happen during your labor or the baby&amp;#039;s delivery? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Breech presentation (baby not positioned head down)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Forceps-assisted delivery"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Vacuum-assisted delivery"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Placental abruption"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Chorioamnionitis or infection in the womb during labor"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Preterm labor (regular contractions between 20-37 weeks of pregnancy)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Premature rupture of the membranes"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Prolonged rupture of the membranes"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Meconium presence (baby stooled in the womb)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Postpartum hemorrhage (bleeding) requiring transfusion"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

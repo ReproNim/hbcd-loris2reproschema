@@ -1,0 +1,150 @@
+{
+    "id": "sens_ch_rcpt_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sens_ch_rcpt"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sens_ch_rcpt_Date_taken",
+            "items/sens_ch_rcpt_Candidate_Age",
+            "items/sens_ch_rcpt_Window_Difference",
+            "items/sens_ch_rcpt_Examiner",
+            "items/sens_ch_rcpt_timestamp_start",
+            "items/sens_ch_rcpt_timestamp_stop",
+            "items/sens_ch_rcpt_Duration",
+            "items/sens_ch_rcpt_rlg_001",
+            "items/sens_ch_rcpt_rlg_001_i_01",
+            "items/sens_ch_rcpt_rlg_001_i_02",
+            "items/sens_ch_rcpt_llg_001",
+            "items/sens_ch_rcpt_llg_001_i_01",
+            "items/sens_ch_rcpt_llg_001_i_02",
+            "items/sens_ch_rcpt_inf_001",
+            "items/sens_ch_rcpt_inf_001_i_01",
+            "items/sens_ch_rcpt_fn_001_i_01",
+            "items/sens_ch_rcpt_fn_002_i_01",
+            "items/sens_ch_rcpt_Validity",
+            "items/sens_ch_rcpt_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sens_ch_rcpt_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Date_taken"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Window_Difference"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Examiner"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_timestamp_start"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Duration"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_rlg_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_rlg_001"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_rlg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_rlg_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_rlg_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_rlg_001_i_02"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_llg_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_llg_001"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_llg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_llg_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_llg_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_llg_001_i_02"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_inf_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_inf_001"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_inf_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_inf_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_fn_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_fn_001_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_fn_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_fn_002_i_01"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Validity"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

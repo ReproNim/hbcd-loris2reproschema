@@ -1,0 +1,134 @@
+{
+    "id": "sed_cg_employ_010_i_07",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[30] of sed_cg_employ"
+    },
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_07"
+    },
+    "question": {
+        "en": "Select the category that best describes the current work or employment status of your spouse/partner:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Employed for wages, full time (30 hours per week or more)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Employed for wages, part time (29 hours per week or less)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Self-employed or family business, for wages"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Work without pay in a family business or farm"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Active Duty in the United States Armed Forces (regular military, National Guard, Military Reserve Unit)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "On paid leave and expect to return (for example, maternity, family, or sick leave)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "On unpaid leave and expect to return (for example, maternity, family, or sick leave)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Stay-at-home parent/caretaker, not working for pay"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Unemployed or laid off, looking for work"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Unemployed, not currently looking for work"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

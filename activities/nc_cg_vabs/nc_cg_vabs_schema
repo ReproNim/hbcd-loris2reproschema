@@ -1,0 +1,80 @@
+{
+    "id": "nc_cg_vabs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nc_cg_vabs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nc_cg_vabs_Date_taken",
+            "items/nc_cg_vabs_Candidate_Age",
+            "items/nc_cg_vabs_Window_Difference",
+            "items/nc_cg_vabs_Examiner",
+            "items/nc_cg_vabs_timestamp_start",
+            "items/nc_cg_vabs_timestamp_stop",
+            "items/nc_cg_vabs_Duration",
+            "items/nc_cg_vabs_Validity",
+            "items/nc_cg_vabs_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nc_cg_vabs_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Date_taken"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Candidate_Age"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Window_Difference"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Examiner"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_timestamp_start"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_timestamp_stop"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Duration"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Validity"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

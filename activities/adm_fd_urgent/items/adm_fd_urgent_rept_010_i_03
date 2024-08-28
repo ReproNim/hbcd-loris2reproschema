@@ -1,0 +1,92 @@
+{
+    "id": "adm_fd_urgent_rept_010_i_03",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Family Data"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[23] of adm_fd_urgent"
+    },
+    "prefLabel": {
+        "en": "adm_fd_urgent_rept_010_i_03"
+    },
+    "question": {
+        "en": "10-ii. How did abuse become known (check all that apply)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Visible signs"
+                },
+                "value": "visible_signs"
+            },
+            {
+                "name": {
+                    "en": "Reported by the victim"
+                },
+                "value": "reported_by_the_victim"
+            },
+            {
+                "name": {
+                    "en": "Reported by the caregiver"
+                },
+                "value": "reported_by_the_caregiver"
+            },
+            {
+                "name": {
+                    "en": "Reported by someone else"
+                },
+                "value": "reported_by_someone_else"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

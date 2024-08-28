@@ -1,0 +1,86 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_011",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Modified"
+        }
+    ],
+    "description": {
+        "en": "Q[19] of pex_bm_health_preg_i_chroncond"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_011"
+    },
+    "question": {
+        "en": "Is Autoimmune condition (for example rheumatoid arthritis, lupus, Crohn&amp;#039;s disease) resolved or ongoing?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Resolved"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Ongoing"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

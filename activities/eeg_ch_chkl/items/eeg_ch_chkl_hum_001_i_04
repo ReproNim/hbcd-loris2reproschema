@@ -1,0 +1,92 @@
+{
+    "id": "eeg_ch_chkl_hum_001_i_04",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "EEG"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[55] of eeg_ch_chkl"
+    },
+    "prefLabel": {
+        "en": "eeg_ch_chkl_hum_001_i_04"
+    },
+    "question": {
+        "en": "iii. Human Faces Task Mood Rating"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 - Screaming, fussed out"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 - Crying intermittently"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 - Whimpering or irritable"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 - Calm but distracted"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 - Calm and attentive"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

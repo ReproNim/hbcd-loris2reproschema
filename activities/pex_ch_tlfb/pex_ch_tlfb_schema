@@ -1,0 +1,969 @@
+{
+    "id": "pex_ch_tlfb_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_ch_tlfb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_ch_tlfb_Date_taken",
+            "items/pex_ch_tlfb_Candidate_Age",
+            "items/pex_ch_tlfb_Window_Difference",
+            "items/pex_ch_tlfb_Examiner",
+            "items/pex_ch_tlfb_File_name",
+            "items/pex_ch_tlfb_tlfb_time_first_session",
+            "items/pex_ch_tlfb_tlfb_total_nb_sessions",
+            "items/pex_ch_tlfb_tlfb_total_duration_seconds",
+            "items/pex_ch_tlfb_tlfb_time_completion",
+            "items/pex_ch_tlfb_tlfb_user_completion",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_09",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_01",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_02",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_03",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_04",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_05",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_06",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_07",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_08",
+            "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_09",
+            "items/pex_ch_tlfb_self_report_alcohol",
+            "items/pex_ch_tlfb_self_report_opiod",
+            "items/pex_ch_tlfb_self_report_cannabis",
+            "items/pex_ch_tlfb_self_report_nicotine",
+            "items/pex_ch_tlfb_self_report_stimulant",
+            "items/pex_ch_tlfb_Validity",
+            "items/pex_ch_tlfb_Administration",
+            "items/pex_ch_tlfb_self_report_alcohol_v1",
+            "items/pex_ch_tlfb_self_report_alcohol_assist"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_ch_tlfb_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Date_taken"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Candidate_Age"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Window_Difference"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Examiner"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_File_name",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_File_name"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_time_first_session",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_tlfb_time_first_session"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_total_nb_sessions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_tlfb_total_nb_sessions"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_total_duration_seconds",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_tlfb_total_duration_seconds"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_time_completion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_tlfb_time_completion"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_tlfb_user_completion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_tlfb_user_completion"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_alc_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_alc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_nic_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_nic_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_thc_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_thc_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_opd_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_opd_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_stim_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_stim_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_anx_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_anx_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_hallu_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_hallu_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ster_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ster_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_cbd_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_cbd_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_inh_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_inh_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_mdma_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_mdma_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_ket_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_ket_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_01"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_02"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_03"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_04"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_05"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_06"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_07"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_08"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_pex_ch_tlfb_krtm_wk_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_pex_ch_tlfb_krtm_wk_09"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_alcohol",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_alcohol"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_opiod",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_opiod"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_cannabis",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_cannabis"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_nicotine",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_nicotine"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_stimulant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_stimulant"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Validity"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_Administration"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_v1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_alcohol_v1"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_assist",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_alcohol_assist"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

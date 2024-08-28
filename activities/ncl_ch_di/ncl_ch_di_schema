@@ -1,0 +1,339 @@
+{
+    "id": "ncl_ch_di_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_ch_di"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_ch_di_Date_taken",
+            "items/ncl_ch_di_Candidate_Age",
+            "items/ncl_ch_di_Window_Difference",
+            "items/ncl_ch_di_Examiner",
+            "items/ncl_ch_di_timestamp_start",
+            "items/ncl_ch_di_timestamp_stop",
+            "items/ncl_ch_di_Duration",
+            "items/ncl_ch_di_number_of_actions_baseline",
+            "items/ncl_ch_di_pairs_of_actions_baseline",
+            "items/ncl_ch_di_number_of_actions",
+            "items/ncl_ch_di_pairs_of_actions",
+            "items/ncl_ch_di_001",
+            "items/ncl_ch_di_fev_001",
+            "items/ncl_ch_di_fev_001_i_01",
+            "items/ncl_ch_di_fev_001_i_02",
+            "items/ncl_ch_di_fev_002",
+            "items/ncl_ch_di_fev_002_i_01",
+            "items/ncl_ch_di_fev_003",
+            "items/ncl_ch_di_fev_003_i_01",
+            "items/ncl_ch_di_sev_001",
+            "items/ncl_ch_di_sev_001_i_01",
+            "items/ncl_ch_di_sev_001_i_02",
+            "items/ncl_ch_di_sev_002",
+            "items/ncl_ch_di_sev_002_i_01",
+            "items/ncl_ch_di_sev_003",
+            "items/ncl_ch_di_sev_003_i_01",
+            "items/ncl_ch_di_002",
+            "items/ncl_ch_di_002_status",
+            "items/ncl_ch_di_fev2_001",
+            "items/ncl_ch_di_fev2_001_i_01",
+            "items/ncl_ch_di_fev2_001_i_02",
+            "items/ncl_ch_di_fev2_002",
+            "items/ncl_ch_di_fev2_002_i_01",
+            "items/ncl_ch_di_fev2_003",
+            "items/ncl_ch_di_fev2_004",
+            "items/ncl_ch_di_fev2_005",
+            "items/ncl_ch_di_sev2_001",
+            "items/ncl_ch_di_sev2_001_i_01",
+            "items/ncl_ch_di_sev2_001_i_02",
+            "items/ncl_ch_di_sev2_002",
+            "items/ncl_ch_di_sev2_002_i_01",
+            "items/ncl_ch_di_sev2_003",
+            "items/ncl_ch_di_sev2_004",
+            "items/ncl_ch_di_sev2_005",
+            "items/ncl_ch_di_Validity",
+            "items/ncl_ch_di_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_ch_di_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Date_taken"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Window_Difference"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Examiner"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_timestamp_start"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Duration"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_number_of_actions_baseline",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_number_of_actions_baseline"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_pairs_of_actions_baseline",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_pairs_of_actions_baseline"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_number_of_actions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_number_of_actions"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_pairs_of_actions",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_pairs_of_actions"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev_003_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_002_status"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_fev2_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_fev2_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_001"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_001_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_001_i_02"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_002"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_002_i_01"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_003"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_004"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_sev2_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_sev2_005"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Validity"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

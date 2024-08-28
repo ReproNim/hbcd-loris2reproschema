@@ -1,0 +1,80 @@
+{
+    "id": "eeg_ch_chkl_eeg_004",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "EEG"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[27] of eeg_ch_chkl"
+    },
+    "prefLabel": {
+        "en": "eeg_ch_chkl_eeg_004"
+    },
+    "question": {
+        "en": "Paradigm Order 2:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "VEP"
+                },
+                "value": "vep"
+            },
+            {
+                "name": {
+                    "en": "MMN"
+                },
+                "value": "mmn"
+            },
+            {
+                "name": {
+                    "en": "Faces"
+                },
+                "value": "faces"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

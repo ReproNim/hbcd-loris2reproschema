@@ -1,0 +1,86 @@
+{
+    "id": "mri_ra_chkl_scan_s1_trp_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "MRI"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "RA"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[13] of mri_ra_chkl_scan"
+    },
+    "prefLabel": {
+        "en": "mri_ra_chkl_scan_s1_trp_001"
+    },
+    "question": {
+        "en": "How did family get here?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Car service/taxi"
+                },
+                "value": "car_service_taxi"
+            },
+            {
+                "name": {
+                    "en": "Drove"
+                },
+                "value": "drove"
+            },
+            {
+                "name": {
+                    "en": "Public transit"
+                },
+                "value": "public_transit"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

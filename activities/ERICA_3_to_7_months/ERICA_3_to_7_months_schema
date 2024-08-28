@@ -1,0 +1,339 @@
+{
+    "id": "ERICA_3_to_7_months_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ERICA_3_to_7_months"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ERICA_3_to_7_months_Date_taken",
+            "items/ERICA_3_to_7_months_Examiner",
+            "items/ERICA_3_to_7_months_a_raw",
+            "items/ERICA_3_to_7_months_flag_positive_affect_page1",
+            "items/ERICA_3_to_7_months_flag_positive_affect_page2",
+            "items/ERICA_3_to_7_months_flag_positive_affect_page3",
+            "items/ERICA_3_to_7_months_flag_positive_affect_page4",
+            "items/ERICA_3_to_7_months_flag_positive_affect_page5",
+            "items/ERICA_3_to_7_months_b_raw",
+            "items/ERICA_3_to_7_months_flag_irritability_page1",
+            "items/ERICA_3_to_7_months_flag_irritability_page2",
+            "items/ERICA_3_to_7_months_flag_irritability_page3",
+            "items/ERICA_3_to_7_months_flag_irritability_page4",
+            "items/ERICA_3_to_7_months_flag_irritability_page5",
+            "items/ERICA_3_to_7_months_c_raw",
+            "items/ERICA_3_to_7_months_flag_social_engagement_page1",
+            "items/ERICA_3_to_7_months_flag_social_engagement_page2",
+            "items/ERICA_3_to_7_months_flag_social_engagement_page3",
+            "items/ERICA_3_to_7_months_flag_social_engagement_page4",
+            "items/ERICA_3_to_7_months_flag_social_engagement_page5",
+            "items/ERICA_3_to_7_months_d_raw",
+            "items/ERICA_3_to_7_months_flag_responsive_behavior_page1",
+            "items/ERICA_3_to_7_months_flag_responsive_behavior_page2",
+            "items/ERICA_3_to_7_months_flag_responsive_behavior_page3",
+            "items/ERICA_3_to_7_months_flag_responsive_behavior_page4",
+            "items/ERICA_3_to_7_months_flag_responsive_behavior_page5",
+            "items/ERICA_3_to_7_months_e_raw",
+            "items/ERICA_3_to_7_months_flag_irritable_behavior_page1",
+            "items/ERICA_3_to_7_months_flag_irritable_behavior_page2",
+            "items/ERICA_3_to_7_months_flag_irritable_behavior_page3",
+            "items/ERICA_3_to_7_months_flag_irritable_behavior_page4",
+            "items/ERICA_3_to_7_months_flag_irritable_behavior_page5",
+            "items/ERICA_3_to_7_months_f_raw",
+            "items/ERICA_3_to_7_months_flag_directive_behavior_page1",
+            "items/ERICA_3_to_7_months_flag_directive_behavior_page2",
+            "items/ERICA_3_to_7_months_flag_directive_behavior_page3",
+            "items/ERICA_3_to_7_months_flag_directive_behavior_page4",
+            "items/ERICA_3_to_7_months_flag_directive_behavior_page5",
+            "items/ERICA_3_to_7_months_g_raw",
+            "items/ERICA_3_to_7_months_flag_connectedness_page1",
+            "items/ERICA_3_to_7_months_flag_connectedness_page2",
+            "items/ERICA_3_to_7_months_flag_connectedness_page3",
+            "items/ERICA_3_to_7_months_flag_connectedness_page4",
+            "items/ERICA_3_to_7_months_flag_connectedness_page5",
+            "items/ERICA_3_to_7_months_Validity",
+            "items/ERICA_3_to_7_months_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ERICA_3_to_7_months_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_Date_taken"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_Examiner"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_a_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_a_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_positive_affect_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_positive_affect_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_positive_affect_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_positive_affect_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_positive_affect_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_positive_affect_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_positive_affect_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_positive_affect_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_positive_affect_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_positive_affect_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_b_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_b_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritability_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritability_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritability_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritability_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritability_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritability_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritability_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritability_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritability_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritability_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_c_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_c_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_social_engagement_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_social_engagement_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_social_engagement_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_social_engagement_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_social_engagement_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_social_engagement_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_social_engagement_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_social_engagement_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_social_engagement_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_social_engagement_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_d_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_d_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_responsive_behavior_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_responsive_behavior_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_responsive_behavior_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_responsive_behavior_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_responsive_behavior_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_responsive_behavior_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_responsive_behavior_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_responsive_behavior_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_responsive_behavior_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_responsive_behavior_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_e_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_e_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritable_behavior_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritable_behavior_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritable_behavior_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritable_behavior_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritable_behavior_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritable_behavior_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritable_behavior_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritable_behavior_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_irritable_behavior_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_irritable_behavior_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_f_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_f_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_directive_behavior_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_directive_behavior_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_directive_behavior_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_directive_behavior_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_directive_behavior_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_directive_behavior_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_directive_behavior_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_directive_behavior_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_directive_behavior_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_directive_behavior_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_g_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_g_raw"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_connectedness_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_connectedness_page1"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_connectedness_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_connectedness_page2"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_connectedness_page3",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_connectedness_page3"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_connectedness_page4",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_connectedness_page4"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_flag_connectedness_page5",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_flag_connectedness_page5"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_Validity"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

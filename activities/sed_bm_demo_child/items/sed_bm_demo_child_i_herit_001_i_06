@@ -1,0 +1,134 @@
+{
+    "id": "sed_bm_demo_child_i_herit_001_i_06",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[16] of sed_bm_demo_child"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_herit_001_i_06"
+    },
+    "question": {
+        "en": "Native Hawaiian or other Pacific Islander"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chamorro"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Chuukese"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fijian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Marshallese"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Palauan"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Samoan"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Tahitian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Tongan"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me / Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,164 @@
+{
+    "id": "nt_pa_gabi_setup_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nt_pa_gabi_setup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nt_pa_gabi_setup_Date_taken",
+            "items/nt_pa_gabi_setup_Candidate_Age",
+            "items/nt_pa_gabi_setup_Window_Difference",
+            "items/nt_pa_gabi_setup_Examiner",
+            "items/nt_pa_gabi_setup_timestamp_start",
+            "items/nt_pa_gabi_setup_timestamp_stop",
+            "items/nt_pa_gabi_setup_Duration",
+            "items/nt_pa_gabi_setup_001",
+            "items/nt_pa_gabi_setup_002_i_01",
+            "items/nt_pa_gabi_setup_002_i_02",
+            "items/nt_pa_gabi_setup_003",
+            "items/nt_pa_gabi_setup_004",
+            "items/nt_pa_gabi_setup_004_status",
+            "items/nt_pa_gabi_setup_005",
+            "items/nt_pa_gabi_setup_006",
+            "items/nt_pa_gabi_setup_006_status",
+            "items/nt_pa_gabi_setup_007",
+            "items/nt_pa_gabi_setup_008",
+            "items/nt_pa_gabi_setup_008_i_01",
+            "items/nt_pa_gabi_setup_Validity",
+            "items/nt_pa_gabi_setup_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Date_taken"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Candidate_Age"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Window_Difference"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Examiner"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_timestamp_start"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_timestamp_stop"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Duration"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_001"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_002_i_01"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_002_i_02"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_003"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_004"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_004_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_004_status"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_005"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_006"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_006_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_006_status"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_007"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_008"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_008_i_01"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Validity"
+            },
+            {
+                "isAbout": "items/nt_pa_gabi_setup_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_pa_gabi_setup_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,136 @@
+{
+    "id": "mh_cg_pms_i_depr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_pms_i_depr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_pms_i_depr_Date_taken",
+            "items/mh_cg_pms_i_depr_Candidate_Age",
+            "items/mh_cg_pms_i_depr_Window_Difference",
+            "items/mh_cg_pms_i_depr_Examiner",
+            "items/mh_cg_pms_i_depr_lang",
+            "items/mh_cg_pms_i_depr_dtt",
+            "items/mh_cg_pms_i_depr_timestamp_start",
+            "items/mh_cg_pms_i_depr_timestamp_stop",
+            "items/mh_cg_pms_i_depr_Duration",
+            "items/mh_cg_pms_i_depr_location",
+            "items/mh_cg_pms_i_depr_001",
+            "items/mh_cg_pms_i_depr_002",
+            "items/mh_cg_pms_i_depr_003",
+            "items/mh_cg_pms_i_depr_004",
+            "items/mh_cg_pms_i_depr_Validity",
+            "items/mh_cg_pms_i_depr_Administration",
+            "items/mh_cg_pms_i_depr_total_score"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_location"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_001"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_002"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_003"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_004"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_depr_total_score",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_depr_total_score"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

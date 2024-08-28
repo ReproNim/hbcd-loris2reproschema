@@ -1,0 +1,1262 @@
+{
+    "id": "pex_bm_assistv1_pre_during_i_use_i_amount_008_v01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Discrete"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[210] of pex_bm_assistv1"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv1_pre_during_i_use_i_amount_008_v01"
+    },
+    "question": {
+        "en": "Methadone amount (mg)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "13"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "14"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "16"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "17"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "18"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "19"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "20"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "21"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "22"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "23"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "24"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "25"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "26"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "27"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "28"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "29"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "31"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "32"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "33"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "34"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "35"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "36"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "37"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "38"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "39"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "40"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "41"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "42"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "43"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "44"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "46"
+                },
+                "value": 46
+            },
+            {
+                "name": {
+                    "en": "47"
+                },
+                "value": 47
+            },
+            {
+                "name": {
+                    "en": "48"
+                },
+                "value": 48
+            },
+            {
+                "name": {
+                    "en": "49"
+                },
+                "value": 49
+            },
+            {
+                "name": {
+                    "en": "50"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "51"
+                },
+                "value": 51
+            },
+            {
+                "name": {
+                    "en": "52"
+                },
+                "value": 52
+            },
+            {
+                "name": {
+                    "en": "53"
+                },
+                "value": 53
+            },
+            {
+                "name": {
+                    "en": "54"
+                },
+                "value": 54
+            },
+            {
+                "name": {
+                    "en": "55"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "56"
+                },
+                "value": 56
+            },
+            {
+                "name": {
+                    "en": "57"
+                },
+                "value": 57
+            },
+            {
+                "name": {
+                    "en": "58"
+                },
+                "value": 58
+            },
+            {
+                "name": {
+                    "en": "59"
+                },
+                "value": 59
+            },
+            {
+                "name": {
+                    "en": "60"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "61"
+                },
+                "value": 61
+            },
+            {
+                "name": {
+                    "en": "62"
+                },
+                "value": 62
+            },
+            {
+                "name": {
+                    "en": "63"
+                },
+                "value": 63
+            },
+            {
+                "name": {
+                    "en": "64"
+                },
+                "value": 64
+            },
+            {
+                "name": {
+                    "en": "65"
+                },
+                "value": 65
+            },
+            {
+                "name": {
+                    "en": "66"
+                },
+                "value": 66
+            },
+            {
+                "name": {
+                    "en": "67"
+                },
+                "value": 67
+            },
+            {
+                "name": {
+                    "en": "68"
+                },
+                "value": 68
+            },
+            {
+                "name": {
+                    "en": "69"
+                },
+                "value": 69
+            },
+            {
+                "name": {
+                    "en": "70"
+                },
+                "value": 70
+            },
+            {
+                "name": {
+                    "en": "71"
+                },
+                "value": 71
+            },
+            {
+                "name": {
+                    "en": "72"
+                },
+                "value": 72
+            },
+            {
+                "name": {
+                    "en": "73"
+                },
+                "value": 73
+            },
+            {
+                "name": {
+                    "en": "74"
+                },
+                "value": 74
+            },
+            {
+                "name": {
+                    "en": "75"
+                },
+                "value": 75
+            },
+            {
+                "name": {
+                    "en": "76"
+                },
+                "value": 76
+            },
+            {
+                "name": {
+                    "en": "77"
+                },
+                "value": 77
+            },
+            {
+                "name": {
+                    "en": "78"
+                },
+                "value": 78
+            },
+            {
+                "name": {
+                    "en": "79"
+                },
+                "value": 79
+            },
+            {
+                "name": {
+                    "en": "80"
+                },
+                "value": 80
+            },
+            {
+                "name": {
+                    "en": "81"
+                },
+                "value": 81
+            },
+            {
+                "name": {
+                    "en": "82"
+                },
+                "value": 82
+            },
+            {
+                "name": {
+                    "en": "83"
+                },
+                "value": 83
+            },
+            {
+                "name": {
+                    "en": "84"
+                },
+                "value": 84
+            },
+            {
+                "name": {
+                    "en": "85"
+                },
+                "value": 85
+            },
+            {
+                "name": {
+                    "en": "86"
+                },
+                "value": 86
+            },
+            {
+                "name": {
+                    "en": "87"
+                },
+                "value": 87
+            },
+            {
+                "name": {
+                    "en": "88"
+                },
+                "value": 88
+            },
+            {
+                "name": {
+                    "en": "89"
+                },
+                "value": 89
+            },
+            {
+                "name": {
+                    "en": "90"
+                },
+                "value": 90
+            },
+            {
+                "name": {
+                    "en": "91"
+                },
+                "value": 91
+            },
+            {
+                "name": {
+                    "en": "92"
+                },
+                "value": 92
+            },
+            {
+                "name": {
+                    "en": "93"
+                },
+                "value": 93
+            },
+            {
+                "name": {
+                    "en": "94"
+                },
+                "value": 94
+            },
+            {
+                "name": {
+                    "en": "95"
+                },
+                "value": 95
+            },
+            {
+                "name": {
+                    "en": "96"
+                },
+                "value": 96
+            },
+            {
+                "name": {
+                    "en": "97"
+                },
+                "value": 97
+            },
+            {
+                "name": {
+                    "en": "98"
+                },
+                "value": 98
+            },
+            {
+                "name": {
+                    "en": "99"
+                },
+                "value": 99
+            },
+            {
+                "name": {
+                    "en": "100"
+                },
+                "value": 100
+            },
+            {
+                "name": {
+                    "en": "101"
+                },
+                "value": 101
+            },
+            {
+                "name": {
+                    "en": "102"
+                },
+                "value": 102
+            },
+            {
+                "name": {
+                    "en": "103"
+                },
+                "value": 103
+            },
+            {
+                "name": {
+                    "en": "104"
+                },
+                "value": 104
+            },
+            {
+                "name": {
+                    "en": "105"
+                },
+                "value": 105
+            },
+            {
+                "name": {
+                    "en": "106"
+                },
+                "value": 106
+            },
+            {
+                "name": {
+                    "en": "107"
+                },
+                "value": 107
+            },
+            {
+                "name": {
+                    "en": "108"
+                },
+                "value": 108
+            },
+            {
+                "name": {
+                    "en": "109"
+                },
+                "value": 109
+            },
+            {
+                "name": {
+                    "en": "110"
+                },
+                "value": 110
+            },
+            {
+                "name": {
+                    "en": "111"
+                },
+                "value": 111
+            },
+            {
+                "name": {
+                    "en": "112"
+                },
+                "value": 112
+            },
+            {
+                "name": {
+                    "en": "113"
+                },
+                "value": 113
+            },
+            {
+                "name": {
+                    "en": "114"
+                },
+                "value": 114
+            },
+            {
+                "name": {
+                    "en": "115"
+                },
+                "value": 115
+            },
+            {
+                "name": {
+                    "en": "116"
+                },
+                "value": 116
+            },
+            {
+                "name": {
+                    "en": "117"
+                },
+                "value": 117
+            },
+            {
+                "name": {
+                    "en": "118"
+                },
+                "value": 118
+            },
+            {
+                "name": {
+                    "en": "119"
+                },
+                "value": 119
+            },
+            {
+                "name": {
+                    "en": "120"
+                },
+                "value": 120
+            },
+            {
+                "name": {
+                    "en": "121"
+                },
+                "value": 121
+            },
+            {
+                "name": {
+                    "en": "122"
+                },
+                "value": 122
+            },
+            {
+                "name": {
+                    "en": "123"
+                },
+                "value": 123
+            },
+            {
+                "name": {
+                    "en": "124"
+                },
+                "value": 124
+            },
+            {
+                "name": {
+                    "en": "125"
+                },
+                "value": 125
+            },
+            {
+                "name": {
+                    "en": "126"
+                },
+                "value": 126
+            },
+            {
+                "name": {
+                    "en": "127"
+                },
+                "value": 127
+            },
+            {
+                "name": {
+                    "en": "128"
+                },
+                "value": 128
+            },
+            {
+                "name": {
+                    "en": "129"
+                },
+                "value": 129
+            },
+            {
+                "name": {
+                    "en": "130"
+                },
+                "value": 130
+            },
+            {
+                "name": {
+                    "en": "131"
+                },
+                "value": 131
+            },
+            {
+                "name": {
+                    "en": "132"
+                },
+                "value": 132
+            },
+            {
+                "name": {
+                    "en": "133"
+                },
+                "value": 133
+            },
+            {
+                "name": {
+                    "en": "134"
+                },
+                "value": 134
+            },
+            {
+                "name": {
+                    "en": "135"
+                },
+                "value": 135
+            },
+            {
+                "name": {
+                    "en": "136"
+                },
+                "value": 136
+            },
+            {
+                "name": {
+                    "en": "137"
+                },
+                "value": 137
+            },
+            {
+                "name": {
+                    "en": "138"
+                },
+                "value": 138
+            },
+            {
+                "name": {
+                    "en": "139"
+                },
+                "value": 139
+            },
+            {
+                "name": {
+                    "en": "140"
+                },
+                "value": 140
+            },
+            {
+                "name": {
+                    "en": "141"
+                },
+                "value": 141
+            },
+            {
+                "name": {
+                    "en": "142"
+                },
+                "value": 142
+            },
+            {
+                "name": {
+                    "en": "143"
+                },
+                "value": 143
+            },
+            {
+                "name": {
+                    "en": "144"
+                },
+                "value": 144
+            },
+            {
+                "name": {
+                    "en": "145"
+                },
+                "value": 145
+            },
+            {
+                "name": {
+                    "en": "146"
+                },
+                "value": 146
+            },
+            {
+                "name": {
+                    "en": "147"
+                },
+                "value": 147
+            },
+            {
+                "name": {
+                    "en": "148"
+                },
+                "value": 148
+            },
+            {
+                "name": {
+                    "en": "149"
+                },
+                "value": 149
+            },
+            {
+                "name": {
+                    "en": "150"
+                },
+                "value": 150
+            },
+            {
+                "name": {
+                    "en": "151"
+                },
+                "value": 151
+            },
+            {
+                "name": {
+                    "en": "152"
+                },
+                "value": 152
+            },
+            {
+                "name": {
+                    "en": "153"
+                },
+                "value": 153
+            },
+            {
+                "name": {
+                    "en": "154"
+                },
+                "value": 154
+            },
+            {
+                "name": {
+                    "en": "155"
+                },
+                "value": 155
+            },
+            {
+                "name": {
+                    "en": "156"
+                },
+                "value": 156
+            },
+            {
+                "name": {
+                    "en": "157"
+                },
+                "value": 157
+            },
+            {
+                "name": {
+                    "en": "158"
+                },
+                "value": 158
+            },
+            {
+                "name": {
+                    "en": "159"
+                },
+                "value": 159
+            },
+            {
+                "name": {
+                    "en": "160"
+                },
+                "value": 160
+            },
+            {
+                "name": {
+                    "en": "161"
+                },
+                "value": 161
+            },
+            {
+                "name": {
+                    "en": "162"
+                },
+                "value": 162
+            },
+            {
+                "name": {
+                    "en": "163"
+                },
+                "value": 163
+            },
+            {
+                "name": {
+                    "en": "164"
+                },
+                "value": 164
+            },
+            {
+                "name": {
+                    "en": "165"
+                },
+                "value": 165
+            },
+            {
+                "name": {
+                    "en": "166"
+                },
+                "value": 166
+            },
+            {
+                "name": {
+                    "en": "167"
+                },
+                "value": 167
+            },
+            {
+                "name": {
+                    "en": "168"
+                },
+                "value": 168
+            },
+            {
+                "name": {
+                    "en": "169"
+                },
+                "value": 169
+            },
+            {
+                "name": {
+                    "en": "170"
+                },
+                "value": 170
+            },
+            {
+                "name": {
+                    "en": "171"
+                },
+                "value": 171
+            },
+            {
+                "name": {
+                    "en": "172"
+                },
+                "value": 172
+            },
+            {
+                "name": {
+                    "en": "173"
+                },
+                "value": 173
+            },
+            {
+                "name": {
+                    "en": "174"
+                },
+                "value": 174
+            },
+            {
+                "name": {
+                    "en": "175"
+                },
+                "value": 175
+            },
+            {
+                "name": {
+                    "en": "176"
+                },
+                "value": 176
+            },
+            {
+                "name": {
+                    "en": "177"
+                },
+                "value": 177
+            },
+            {
+                "name": {
+                    "en": "178"
+                },
+                "value": 178
+            },
+            {
+                "name": {
+                    "en": "179"
+                },
+                "value": 179
+            },
+            {
+                "name": {
+                    "en": "180"
+                },
+                "value": 180
+            },
+            {
+                "name": {
+                    "en": "181"
+                },
+                "value": 181
+            },
+            {
+                "name": {
+                    "en": "182"
+                },
+                "value": 182
+            },
+            {
+                "name": {
+                    "en": "183"
+                },
+                "value": 183
+            },
+            {
+                "name": {
+                    "en": "184"
+                },
+                "value": 184
+            },
+            {
+                "name": {
+                    "en": "185"
+                },
+                "value": 185
+            },
+            {
+                "name": {
+                    "en": "186"
+                },
+                "value": 186
+            },
+            {
+                "name": {
+                    "en": "187"
+                },
+                "value": 187
+            },
+            {
+                "name": {
+                    "en": "188"
+                },
+                "value": 188
+            },
+            {
+                "name": {
+                    "en": "189"
+                },
+                "value": 189
+            },
+            {
+                "name": {
+                    "en": "190"
+                },
+                "value": 190
+            },
+            {
+                "name": {
+                    "en": "191"
+                },
+                "value": 191
+            },
+            {
+                "name": {
+                    "en": "192"
+                },
+                "value": 192
+            },
+            {
+                "name": {
+                    "en": "193"
+                },
+                "value": 193
+            },
+            {
+                "name": {
+                    "en": "194"
+                },
+                "value": 194
+            },
+            {
+                "name": {
+                    "en": "195"
+                },
+                "value": 195
+            },
+            {
+                "name": {
+                    "en": "196"
+                },
+                "value": 196
+            },
+            {
+                "name": {
+                    "en": "197"
+                },
+                "value": 197
+            },
+            {
+                "name": {
+                    "en": "198"
+                },
+                "value": 198
+            },
+            {
+                "name": {
+                    "en": "199"
+                },
+                "value": 199
+            },
+            {
+                "name": {
+                    "en": "200"
+                },
+                "value": 200
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

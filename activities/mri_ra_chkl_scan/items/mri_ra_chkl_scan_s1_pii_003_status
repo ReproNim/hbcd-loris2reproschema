@@ -1,0 +1,80 @@
+{
+    "id": "mri_ra_chkl_scan_s1_pii_003_status",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "MRI"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "RA"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[8] of mri_ra_chkl_scan"
+    },
+    "prefLabel": {
+        "en": "mri_ra_chkl_scan_s1_pii_003_status"
+    },
+    "question": {
+        "en": "Time Family Arrived at Scanning Facility"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "DNK"
+                },
+                "value": "dnk"
+            },
+            {
+                "name": {
+                    "en": "Refusal"
+                },
+                "value": "refusal"
+            },
+            {
+                "name": {
+                    "en": "Not Answered"
+                },
+                "value": "not_answered"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,654 @@
+{
+    "id": "mh_cg_erica_cons_3_7m_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_erica_cons_3_7m"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_erica_cons_3_7m_Date_taken",
+            "items/mh_cg_erica_cons_3_7m_Examiner",
+            "items/mh_cg_erica_cons_3_7m_timestamp_start",
+            "items/mh_cg_erica_cons_3_7m_timestamp_stop",
+            "items/mh_cg_erica_cons_3_7m_Duration",
+            "items/mh_cg_erica_cons_3_7m_cod_001",
+            "items/mh_cg_erica_cons_3_7m_cod_002",
+            "items/mh_cg_erica_cons_3_7m_cod_002_status",
+            "items/mh_cg_erica_cons_3_7m_cod_003",
+            "items/mh_cg_erica_cons_3_7m_cod_003_status",
+            "items/mh_cg_erica_cons_3_7m_cod_004",
+            "items/mh_cg_erica_cons_3_7m_cod_004_i_01",
+            "items/mh_cg_erica_cons_3_7m_pos_001",
+            "items/mh_cg_erica_cons_3_7m_pos_002",
+            "items/mh_cg_erica_cons_3_7m_pos_003",
+            "items/mh_cg_erica_cons_3_7m_pos_004",
+            "items/mh_cg_erica_cons_3_7m_pos_005",
+            "items/mh_cg_erica_cons_3_7m_irr_001",
+            "items/mh_cg_erica_cons_3_7m_irr_002",
+            "items/mh_cg_erica_cons_3_7m_irr_003",
+            "items/mh_cg_erica_cons_3_7m_irr_004",
+            "items/mh_cg_erica_cons_3_7m_irr_005",
+            "items/mh_cg_erica_cons_3_7m_soc_001",
+            "items/mh_cg_erica_cons_3_7m_soc_002",
+            "items/mh_cg_erica_cons_3_7m_soc_003",
+            "items/mh_cg_erica_cons_3_7m_soc_004",
+            "items/mh_cg_erica_cons_3_7m_soc_005",
+            "items/mh_cg_erica_cons_3_7m_res_001",
+            "items/mh_cg_erica_cons_3_7m_res_002",
+            "items/mh_cg_erica_cons_3_7m_res_003",
+            "items/mh_cg_erica_cons_3_7m_res_004",
+            "items/mh_cg_erica_cons_3_7m_res_005",
+            "items/mh_cg_erica_cons_3_7m_irb_001",
+            "items/mh_cg_erica_cons_3_7m_irb_002",
+            "items/mh_cg_erica_cons_3_7m_irb_003",
+            "items/mh_cg_erica_cons_3_7m_irb_004",
+            "items/mh_cg_erica_cons_3_7m_irb_005",
+            "items/mh_cg_erica_cons_3_7m_dir_001",
+            "items/mh_cg_erica_cons_3_7m_dir_002",
+            "items/mh_cg_erica_cons_3_7m_dir_003",
+            "items/mh_cg_erica_cons_3_7m_dir_004",
+            "items/mh_cg_erica_cons_3_7m_dir_005",
+            "items/mh_cg_erica_cons_3_7m_con_001",
+            "items/mh_cg_erica_cons_3_7m_con_002",
+            "items/mh_cg_erica_cons_3_7m_con_003",
+            "items/mh_cg_erica_cons_3_7m_con_004",
+            "items/mh_cg_erica_cons_3_7m_con_005",
+            "items/mh_cg_erica_cons_3_7m_a_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_pos_001",
+            "items/mh_cg_erica_cons_3_7m_flag_pos_002",
+            "items/mh_cg_erica_cons_3_7m_flag_pos_003",
+            "items/mh_cg_erica_cons_3_7m_flag_pos_004",
+            "items/mh_cg_erica_cons_3_7m_flag_pos_005",
+            "items/mh_cg_erica_cons_3_7m_b_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_irr_001",
+            "items/mh_cg_erica_cons_3_7m_flag_irr_002",
+            "items/mh_cg_erica_cons_3_7m_flag_irr_003",
+            "items/mh_cg_erica_cons_3_7m_flag_irr_004",
+            "items/mh_cg_erica_cons_3_7m_flag_irr_005",
+            "items/mh_cg_erica_cons_3_7m_c_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_soc_001",
+            "items/mh_cg_erica_cons_3_7m_flag_soc_002",
+            "items/mh_cg_erica_cons_3_7m_flag_soc_003",
+            "items/mh_cg_erica_cons_3_7m_flag_soc_004",
+            "items/mh_cg_erica_cons_3_7m_flag_soc_005",
+            "items/mh_cg_erica_cons_3_7m_d_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_res_001",
+            "items/mh_cg_erica_cons_3_7m_flag_res_002",
+            "items/mh_cg_erica_cons_3_7m_flag_res_003",
+            "items/mh_cg_erica_cons_3_7m_flag_res_004",
+            "items/mh_cg_erica_cons_3_7m_flag_res_005",
+            "items/mh_cg_erica_cons_3_7m_e_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_irb_001",
+            "items/mh_cg_erica_cons_3_7m_flag_irb_002",
+            "items/mh_cg_erica_cons_3_7m_flag_irb_003",
+            "items/mh_cg_erica_cons_3_7m_flag_irb_004",
+            "items/mh_cg_erica_cons_3_7m_flag_irb_005",
+            "items/mh_cg_erica_cons_3_7m_f_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_dir_001",
+            "items/mh_cg_erica_cons_3_7m_flag_dir_002",
+            "items/mh_cg_erica_cons_3_7m_flag_dir_003",
+            "items/mh_cg_erica_cons_3_7m_flag_dir_004",
+            "items/mh_cg_erica_cons_3_7m_flag_dir_005",
+            "items/mh_cg_erica_cons_3_7m_g_raw",
+            "items/mh_cg_erica_cons_3_7m_flag_con_001",
+            "items/mh_cg_erica_cons_3_7m_flag_con_002",
+            "items/mh_cg_erica_cons_3_7m_flag_con_003",
+            "items/mh_cg_erica_cons_3_7m_flag_con_004",
+            "items/mh_cg_erica_cons_3_7m_flag_con_005",
+            "items/mh_cg_erica_cons_3_7m_Validity",
+            "items/mh_cg_erica_cons_3_7m_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_002_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_002_status"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_003_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_003_status"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_cod_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_cod_004_i_01"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_pos_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_pos_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_pos_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_pos_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_pos_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_pos_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_pos_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_pos_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_pos_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_pos_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irr_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irr_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irr_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irr_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irr_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irr_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_soc_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_soc_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_soc_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_soc_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_soc_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_soc_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_soc_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_soc_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_soc_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_soc_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_res_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_res_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_res_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_res_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_res_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_res_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_res_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_res_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_res_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_res_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irb_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irb_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irb_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irb_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irb_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irb_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irb_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irb_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_irb_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_irb_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_dir_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_dir_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_dir_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_dir_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_dir_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_dir_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_dir_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_dir_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_dir_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_dir_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_con_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_con_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_con_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_con_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_con_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_con_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_con_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_con_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_con_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_con_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_a_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_a_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_pos_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_pos_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_pos_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_pos_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_pos_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_pos_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_pos_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_pos_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_pos_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_pos_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_b_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_b_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irr_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irr_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irr_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irr_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irr_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irr_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irr_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irr_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irr_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_c_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_c_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_soc_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_soc_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_soc_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_soc_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_soc_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_soc_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_soc_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_soc_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_soc_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_soc_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_d_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_d_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_res_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_res_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_res_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_res_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_res_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_res_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_res_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_res_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_res_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_res_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_e_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_e_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irb_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irb_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irb_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irb_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irb_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irb_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irb_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irb_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_irb_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_irb_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_f_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_f_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_dir_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_dir_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_dir_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_dir_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_dir_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_dir_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_dir_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_dir_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_dir_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_dir_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_g_raw",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_g_raw"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_con_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_con_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_con_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_con_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_con_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_con_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_con_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_con_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_flag_con_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_flag_con_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_3_7m_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_3_7m_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

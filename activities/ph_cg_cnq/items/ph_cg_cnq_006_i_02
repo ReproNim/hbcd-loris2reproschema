@@ -1,0 +1,104 @@
+{
+    "id": "ph_cg_cnq_006_i_02",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[19] of ph_cg_cnq"
+    },
+    "prefLabel": {
+        "en": "ph_cg_cnq_006_i_02"
+    },
+    "question": {
+        "en": "What beverage is in the bottle when the child is sleeping?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Plain water"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Milk (including cow's milk and other milks)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Juice drinks (including Kool-Aid, 100% Juice, Sweet Tea and Gatorade)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Soda/Pop"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,116 @@
+{
+    "id": "ph_ch_vs_eye_002_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[9] of ph_ch_vs"
+    },
+    "prefLabel": {
+        "en": "ph_ch_vs_eye_002_i_01"
+    },
+    "question": {
+        "en": "a. If yes, diagnosis: (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strabismus"
+                },
+                "value": "strabismus"
+            },
+            {
+                "name": {
+                    "en": "Retinopathy of Prematurity (ROP)"
+                },
+                "value": "retinopathy_of_prematurity"
+            },
+            {
+                "name": {
+                    "en": "Chalazion"
+                },
+                "value": "chalazion"
+            },
+            {
+                "name": {
+                    "en": "Blocked Tear Duct (Nasolacrimal duct obstruction)"
+                },
+                "value": "blocked_tear_duct"
+            },
+            {
+                "name": {
+                    "en": "Farsightedness (hyperopia)"
+                },
+                "value": "farsightedness"
+            },
+            {
+                "name": {
+                    "en": "Astigmatism"
+                },
+                "value": "astigmatism"
+            },
+            {
+                "name": {
+                    "en": "Nearsightedness (myopia)"
+                },
+                "value": "nearsightedness"
+            },
+            {
+                "name": {
+                    "en": "Nystagmus"
+                },
+                "value": "nystagmus"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

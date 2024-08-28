@@ -1,0 +1,451 @@
+{
+    "id": "eeg_ch_chkl_1_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "eeg_ch_chkl_1"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/eeg_ch_chkl_1_Date_taken",
+            "items/eeg_ch_chkl_1_Candidate_Age",
+            "items/eeg_ch_chkl_1_Window_Difference",
+            "items/eeg_ch_chkl_1_Examiner",
+            "items/eeg_ch_chkl_1_timestamp_start",
+            "items/eeg_ch_chkl_1_timestamp_stop",
+            "items/eeg_ch_chkl_1_Duration",
+            "items/eeg_ch_chkl_1_plt_001",
+            "items/eeg_ch_chkl_1_plt_002",
+            "items/eeg_ch_chkl_1_plt_003",
+            "items/eeg_ch_chkl_1_plt_004",
+            "items/eeg_ch_chkl_1_plt_005",
+            "items/eeg_ch_chkl_1_plt_005_status",
+            "items/eeg_ch_chkl_1_plt_006",
+            "items/eeg_ch_chkl_1_plt_006_status",
+            "items/eeg_ch_chkl_1_plt_007",
+            "items/eeg_ch_chkl_1_plt_008",
+            "items/eeg_ch_chkl_1_net_001",
+            "items/eeg_ch_chkl_1_net_002",
+            "items/eeg_ch_chkl_1_net_003",
+            "items/eeg_ch_chkl_1_net_004",
+            "items/eeg_ch_chkl_1_net_005",
+            "items/eeg_ch_chkl_1_net_006",
+            "items/eeg_ch_chkl_1_eeg_001",
+            "items/eeg_ch_chkl_1_eeg_001_i_01",
+            "items/eeg_ch_chkl_1_eeg_002",
+            "items/eeg_ch_chkl_1_eeg_003",
+            "items/eeg_ch_chkl_1_eeg_004",
+            "items/eeg_ch_chkl_1_eeg_005",
+            "items/eeg_ch_chkl_1_eeg_006",
+            "items/eeg_ch_chkl_1_eeg_006_status",
+            "items/eeg_ch_chkl_1_eeg_007",
+            "items/eeg_ch_chkl_1_eeg_007_status",
+            "items/eeg_ch_chkl_1_res_001",
+            "items/eeg_ch_chkl_1_res_001_i_01",
+            "items/eeg_ch_chkl_1_res_001_i_02",
+            "items/eeg_ch_chkl_1_res_002",
+            "items/eeg_ch_chkl_1_res_003",
+            "items/eeg_ch_chkl_1_vep_001",
+            "items/eeg_ch_chkl_1_vep_001_i_01",
+            "items/eeg_ch_chkl_1_vep_001_i_02",
+            "items/eeg_ch_chkl_1_vep_002",
+            "items/eeg_ch_chkl_1_vep_003",
+            "items/eeg_ch_chkl_1_mmn_001",
+            "items/eeg_ch_chkl_1_mmn_001_i_01",
+            "items/eeg_ch_chkl_1_mmn_001_i_02",
+            "items/eeg_ch_chkl_1_mmn_002",
+            "items/eeg_ch_chkl_1_mmn_003",
+            "items/eeg_ch_chkl_1_hum_001",
+            "items/eeg_ch_chkl_1_hum_001_i_01",
+            "items/eeg_ch_chkl_1_hum_001_i_02",
+            "items/eeg_ch_chkl_1_hum_001_i_03",
+            "items/eeg_ch_chkl_1_hum_001_i_04",
+            "items/eeg_ch_chkl_1_hum_002",
+            "items/eeg_ch_chkl_1_hum_002_i_01",
+            "items/eeg_ch_chkl_1_hum_002_i_02",
+            "items/eeg_ch_chkl_1_hum_002_i_03",
+            "items/eeg_ch_chkl_1_hum_002_i_04",
+            "items/eeg_ch_chkl_1_001",
+            "items/eeg_ch_chkl_1_002",
+            "items/eeg_ch_chkl_1_Validity",
+            "items/eeg_ch_chkl_1_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Date_taken"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Candidate_Age"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Window_Difference"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Examiner"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_timestamp_start"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_timestamp_stop"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Duration"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_004"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_005"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_005_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_005_status"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_006"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_006_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_006_status"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_007"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_plt_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_plt_008"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_004"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_005"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_net_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_net_006"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_001_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_004"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_005"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_006"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_006_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_006_status"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_007"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_eeg_007_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_eeg_007_status"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_res_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_res_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_res_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_res_001_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_res_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_res_001_i_02"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_res_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_res_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_res_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_res_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_vep_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_vep_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_vep_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_vep_001_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_vep_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_vep_001_i_02"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_vep_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_vep_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_vep_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_vep_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_mmn_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_mmn_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_mmn_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_mmn_001_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_mmn_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_mmn_001_i_02"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_mmn_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_mmn_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_mmn_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_mmn_003"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_001_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_001_i_02"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_001_i_03"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_001_i_04"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_002_i_01"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_002_i_02"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_002_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_002_i_03"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_hum_002_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_hum_002_i_04"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_001"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_002"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Validity"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_1_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_1_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

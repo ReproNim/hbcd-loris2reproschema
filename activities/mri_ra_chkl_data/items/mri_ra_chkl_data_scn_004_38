@@ -1,0 +1,80 @@
+{
+    "id": "mri_ra_chkl_data_scn_004_38",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "MRI"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "RA"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Empty"
+        }
+    ],
+    "description": {
+        "en": "Q[415] of mri_ra_chkl_data"
+    },
+    "prefLabel": {
+        "en": "mri_ra_chkl_data_scn_004_38"
+    },
+    "question": {
+        "en": ""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mechanical/Technical"
+                },
+                "value": "Mechanical_Technical"
+            },
+            {
+                "name": {
+                    "en": "Infant stirred/woke up"
+                },
+                "value": "Infant_stirred_wokeup"
+            },
+            {
+                "name": {
+                    "en": "Home Position Changed"
+                },
+                "value": "Home_Position_Changed"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,110 @@
+{
+    "id": "ph_cg_cnq_001_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[11] of ph_cg_cnq"
+    },
+    "prefLabel": {
+        "en": "ph_cg_cnq_001_i_01"
+    },
+    "question": {
+        "en": "What kind of milk does your child drink?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cows milk"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Lactose Free"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Chocolate milk"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Goats milk"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Soy milk"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Almond milk"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,108 @@
+{
+    "id": "adm_fd_visitdata_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "adm_fd_visitdata"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/adm_fd_visitdata_Date_taken",
+            "items/adm_fd_visitdata_Candidate_Age",
+            "items/adm_fd_visitdata_Window_Difference",
+            "items/adm_fd_visitdata_Examiner",
+            "items/adm_fd_visitdata_dtt",
+            "items/adm_fd_visitdata_timestamp_start",
+            "items/adm_fd_visitdata_timestamp_stop",
+            "items/adm_fd_visitdata_Duration",
+            "items/adm_fd_visitdata_adm_fd_visitdata_001",
+            "items/adm_fd_visitdata_visit_start",
+            "items/adm_fd_visitdata_visit_end",
+            "items/adm_fd_visitdata_Validity",
+            "items/adm_fd_visitdata_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/adm_fd_visitdata_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Date_taken"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Candidate_Age"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Window_Difference"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Examiner"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_dtt"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_timestamp_start"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_timestamp_stop"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Duration"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_adm_fd_visitdata_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_adm_fd_visitdata_001"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_visit_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_visit_start"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_visit_end",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_visit_end"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Validity"
+            },
+            {
+                "isAbout": "items/adm_fd_visitdata_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_fd_visitdata_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

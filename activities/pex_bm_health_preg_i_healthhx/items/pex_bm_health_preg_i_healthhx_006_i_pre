@@ -1,0 +1,116 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_006_i_pre",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[14] of pex_bm_health_preg_i_healthhx"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_006_i_pre"
+    },
+    "question": {
+        "en": "Just before you got pregnant with your current pregnancy (before your last menstrual period on [screening_arm_1][setup_lmp]), were you covered by any of the following types of health insurance or health insurance coverage plans?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Private health insurance from my job or the job of my spouse or partner"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Private health insurance from Marketplace or HealthCare.gov"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Medicaid"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "TRICARE or other military health care"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Indian Health Service or tribal"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other health insurance"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "I did not have any health insurance during the month before I got pregnant"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

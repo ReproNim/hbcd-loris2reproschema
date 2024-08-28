@@ -1,0 +1,104 @@
+{
+    "id": "ncl_ch_di_fev2_002_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[32] of ncl_ch_di"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_di_fev2_002_i_01"
+    },
+    "question": {
+        "en": "Arousal during recall:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1 - Vigorous Crying"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 - Fussy Crying"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 - Active Alert"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 - Quiet Alert"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 - Drowsy"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6 - Light Sleep"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7 - Deep Sleep"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

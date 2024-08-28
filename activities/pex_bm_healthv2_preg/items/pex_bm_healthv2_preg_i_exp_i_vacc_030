@@ -1,0 +1,92 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_030",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "description": {
+        "en": "Q[45] of pex_bm_healthv2_preg"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_030"
+    },
+    "question": {
+        "en": "Typhoid vaccine"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1st Trimester([v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001] - [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002])"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2nd Trimester([v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003] - [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004])"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3rd Trimester(after [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005])"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

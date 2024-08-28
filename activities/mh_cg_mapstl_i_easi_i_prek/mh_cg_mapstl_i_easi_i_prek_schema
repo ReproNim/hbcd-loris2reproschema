@@ -1,0 +1,143 @@
+{
+    "id": "mh_cg_mapstl_i_easi_i_prek_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_mapstl_i_easi_i_prek"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_mapstl_i_easi_i_prek_Date_taken",
+            "items/mh_cg_mapstl_i_easi_i_prek_Candidate_Age",
+            "items/mh_cg_mapstl_i_easi_i_prek_Window_Difference",
+            "items/mh_cg_mapstl_i_easi_i_prek_Examiner",
+            "items/mh_cg_mapstl_i_easi_i_prek_lang",
+            "items/mh_cg_mapstl_i_easi_i_prek_dtt",
+            "items/mh_cg_mapstl_i_easi_i_prek_timestamp_start",
+            "items/mh_cg_mapstl_i_easi_i_prek_timestamp_stop",
+            "items/mh_cg_mapstl_i_easi_i_prek_Duration",
+            "items/mh_cg_mapstl_i_easi_i_prek_location",
+            "items/mh_cg_mapstl_i_easi_i_prek_001",
+            "items/mh_cg_mapstl_i_easi_i_prek_002",
+            "items/mh_cg_mapstl_i_easi_i_prek_003",
+            "items/mh_cg_mapstl_i_easi_i_prek_004",
+            "items/mh_cg_mapstl_i_easi_i_prek_005",
+            "items/mh_cg_mapstl_i_easi_i_prek_006",
+            "items/mh_cg_mapstl_i_easi_i_prek_Validity",
+            "items/mh_cg_mapstl_i_easi_i_prek_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Candidate_Age"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Window_Difference"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_location"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_001"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_002"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_003"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_004"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_005"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_006"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
