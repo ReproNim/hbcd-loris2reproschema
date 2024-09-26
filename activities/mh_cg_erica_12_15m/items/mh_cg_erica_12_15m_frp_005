@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[55] of mh_cg_erica_12_15m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_12_15m_frp_005"
     },
     "question": {
-        "en": "<strong>Free Play:</strong>"
+        "en": "&lt;strong&gt;Free Play:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

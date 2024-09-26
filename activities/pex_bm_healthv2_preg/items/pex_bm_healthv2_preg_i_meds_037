@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[84] of pex_bm_healthv2_preg"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_meds_037"
     },
@@ -51,32 +48,38 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

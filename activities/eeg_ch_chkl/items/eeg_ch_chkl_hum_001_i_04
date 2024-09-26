@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[55] of eeg_ch_chkl"
-    },
     "prefLabel": {
         "en": "eeg_ch_chkl_hum_001_i_04"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1 - Screaming, fussed out"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2 - Crying intermittently"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3 - Whimpering or irritable"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4 - Calm but distracted"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "5 - Calm and attentive"
                 },
-                "value": 5
+                "value": "5"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

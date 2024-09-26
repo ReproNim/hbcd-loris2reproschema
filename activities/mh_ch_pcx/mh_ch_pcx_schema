@@ -1,6 +1,36 @@
 {
     "id": "mh_ch_pcx_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_a_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_b_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_c_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_d_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_e_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_f_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_g_raw"
+        }
+    ],
     "prefLabel": {
         "en": "mh_ch_pcx"
     },
@@ -125,7 +155,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_a_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_a_raw"
             },
@@ -137,7 +167,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_b_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_b_raw"
             },
@@ -149,7 +179,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_c_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_c_raw"
             },
@@ -161,7 +191,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_d_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_d_raw"
             },
@@ -173,7 +203,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_e_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_e_raw"
             },
@@ -185,7 +215,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_f_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_f_raw"
             },
@@ -197,7 +227,7 @@
             },
             {
                 "isAbout": "items/mh_ch_pcx_g_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_pcx_g_raw"
             },

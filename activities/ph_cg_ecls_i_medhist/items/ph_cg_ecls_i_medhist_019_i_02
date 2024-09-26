@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[65] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_019_i_02"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "No symptoms"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Mild symptoms (still able to play normally)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Moderate symptoms (impacted their daily activities)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Severe symptoms (prompted medical evaluation)"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

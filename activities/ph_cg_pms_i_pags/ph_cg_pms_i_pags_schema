@@ -1,6 +1,20 @@
 {
     "id": "ph_cg_pms_i_pags_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_pms_i_pags_total_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_pms_i_pags_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_pms_i_pags_se_score"
+        }
+    ],
     "prefLabel": {
         "en": "ph_cg_pms_i_pags"
     },
@@ -175,19 +189,19 @@
             },
             {
                 "isAbout": "items/ph_cg_pms_i_pags_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_pms_i_pags_total_score"
             },
             {
                 "isAbout": "items/ph_cg_pms_i_pags_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_pms_i_pags_t_score"
             },
             {
                 "isAbout": "items/ph_cg_pms_i_pags_se_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_pms_i_pags_se_score"
             }

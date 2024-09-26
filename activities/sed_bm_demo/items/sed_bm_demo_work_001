@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[148] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_work_001"
     },
     "question": {
-        "en": "Do you currently work for pay, either part time or full time? <br /><br />Note: please answer yes if you are currently employed, even if you are currently on paid or unpaid leave."
+        "en": "Do you currently work for pay, either part time or full time? &lt;br /&gt;&lt;br /&gt;Note: please answer yes if you are currently employed, even if you are currently on paid or unpaid leave."
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

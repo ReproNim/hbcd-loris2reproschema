@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[61] of eeg_ch_chkl_2"
-    },
     "prefLabel": {
         "en": "eeg_ch_chkl_2_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for eeg_ch_chkl_2"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of sed_cg_home_ec"
-    },
     "prefLabel": {
         "en": "sed_cg_home_ec_009"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Hardly ever"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Once a month"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Once a week"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Twice a week or more"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[44] of ph_ch_anthro"
-    },
     "prefLabel": {
         "en": "ph_ch_anthro_ant_003_i_01_status"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Not Answered"

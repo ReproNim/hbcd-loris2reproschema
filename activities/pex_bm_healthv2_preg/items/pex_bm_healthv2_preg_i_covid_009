@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of pex_bm_healthv2_preg"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_covid_009"
     },
@@ -51,32 +48,38 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 4
+                "value": "4"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[263] of mri_ra_chkl_data"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_data_scn_006_24"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Motion Artifact Unusable"
@@ -71,19 +74,19 @@
                 "name": {
                     "en": "good quality"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "questionable quality"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "poor quality"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
@@ -112,8 +115,7 @@
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

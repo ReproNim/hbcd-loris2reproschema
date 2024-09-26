@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[15] of pex_bm_epds"
-    },
     "prefLabel": {
         "en": "pex_bm_epds_006"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes, most of the time I haven't been able to cope at all"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Yes, sometimes I haven't been coping as well as usual"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "No, most of the time I have coped quite well"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No, I have been coping as well as ever"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[14] of mh_cg_pms_i_selfreg"
-    },
     "prefLabel": {
         "en": "mh_cg_pms_i_selfreg_001"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Rarely"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Sometimes"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Often"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

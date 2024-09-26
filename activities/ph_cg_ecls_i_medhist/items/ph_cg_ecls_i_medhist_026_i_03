@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[83] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_026_i_03"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "HIV"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Hepatitis C"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Hepatitis B"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "A different one not listed here"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

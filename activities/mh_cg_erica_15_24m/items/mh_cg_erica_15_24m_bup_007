@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[50] of mh_cg_erica_15_24m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_15_24m_bup_007"
     },
     "question": {
-        "en": "<strong>Busy Parent:</strong>"
+        "en": "&lt;strong&gt;Busy Parent:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of mh_cg_erica_cons_36_48m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_cons_36_48m_irr_002"
     },
     "question": {
-        "en": "<strong>Irritability:</strong>"
+        "en": "&lt;strong&gt;Irritability:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

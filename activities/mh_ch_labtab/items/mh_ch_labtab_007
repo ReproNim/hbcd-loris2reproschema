@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[25] of mh_ch_labtab"
-    },
     "prefLabel": {
         "en": "mh_ch_labtab_007"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Man"

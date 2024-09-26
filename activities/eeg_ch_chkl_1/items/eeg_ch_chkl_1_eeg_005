@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[28] of eeg_ch_chkl_1"
-    },
     "prefLabel": {
         "en": "eeg_ch_chkl_1_eeg_005"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "VEP"

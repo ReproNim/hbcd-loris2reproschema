@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[60] of eeg_ch_chkl_1"
-    },
     "prefLabel": {
         "en": "eeg_ch_chkl_1_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of eeg_ch_chkl_1"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

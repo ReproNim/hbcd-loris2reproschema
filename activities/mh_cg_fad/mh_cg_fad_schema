@@ -1,6 +1,12 @@
 {
     "id": "mh_cg_fad_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_fad_total_score"
+        }
+    ],
     "prefLabel": {
         "en": "mh_cg_fad"
     },
@@ -180,7 +186,7 @@
             },
             {
                 "isAbout": "items/mh_cg_fad_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_fad_total_score"
             }

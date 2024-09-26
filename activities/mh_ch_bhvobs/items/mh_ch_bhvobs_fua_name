@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[5] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_fua_name"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Other"

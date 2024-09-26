@@ -1,6 +1,12 @@
 {
     "id": "sed_bm_paces_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_paces_summary_score"
+        }
+    ],
     "prefLabel": {
         "en": "sed_bm_paces"
     },
@@ -154,7 +160,7 @@
             },
             {
                 "isAbout": "items/sed_bm_paces_summary_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_paces_summary_score"
             },

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[46] of mh_cg_erica_fcm_adm_3_7m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_fcm_adm_3_7m_imq_003"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "To be a leader"

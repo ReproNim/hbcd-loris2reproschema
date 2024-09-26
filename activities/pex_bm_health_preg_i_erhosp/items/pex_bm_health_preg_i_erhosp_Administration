@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[136] of pex_bm_health_preg_i_erhosp"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_erhosp_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for pex_bm_health_preg_i_erhosp"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

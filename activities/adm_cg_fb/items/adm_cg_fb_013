@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[24] of adm_cg_fb"
-    },
     "prefLabel": {
         "en": "adm_cg_fb_013"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Very Positive"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Positive"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Neutral (neither positive nor negative)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Negative"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Very negative"
                 },
-                "value": 5
+                "value": "5"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

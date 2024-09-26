@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[8] of adm_ra_fb"
-    },
     "prefLabel": {
         "en": "adm_ra_fb_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for adm_ra_fb"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of nt_ch_sens_i_qtn_3"
-    },
     "prefLabel": {
         "en": "nt_ch_sens_i_qtn_3_beh_001_i_01"
     },
@@ -53,72 +50,72 @@
                 "name": {
                     "en": "slept more than usual"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "slept less than usual"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "slept usual amount but sleep schedule was different"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "feeding schedule was different"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "spent more time in a vehicle than usual"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "was carried/held more than usual"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "fussier than usual"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "baby was sick or not feeling well"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "other"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

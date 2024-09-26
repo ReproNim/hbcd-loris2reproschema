@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of sed_cg_pedaces"
-    },
     "prefLabel": {
         "en": "sed_cg_pedaces_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of sed_cg_pedaces"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

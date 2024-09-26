@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[63] of ph_ch_anthro"
-    },
     "prefLabel": {
         "en": "ph_ch_anthro_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of ph_ch_anthro"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

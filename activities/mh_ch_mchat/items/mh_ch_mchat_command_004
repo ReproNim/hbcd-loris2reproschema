@@ -38,33 +38,36 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[262] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_command_004"
     },
     "question": {
-        "en": "If you say, \"Show me your shoe\" without pointing, making gestures, or giving hints (when you are not going out or getting dressed), does your child show you their shoe?"
+        "en": "If you say, &quot;Show me your shoe&quot; without pointing, making gestures, or giving hints (when you are not going out or getting dressed), does your child show you their shoe?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

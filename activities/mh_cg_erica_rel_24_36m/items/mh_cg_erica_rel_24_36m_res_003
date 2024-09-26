@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[29] of mh_cg_erica_rel_24_36m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_rel_24_36m_res_003"
     },
     "question": {
-        "en": "<strong>Responsive Behavior:</strong>"
+        "en": "&lt;strong&gt;Responsive Behavior:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

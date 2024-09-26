@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[38] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_if_partially_or_not_completed_page2"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Caregiver declined/refused participation"

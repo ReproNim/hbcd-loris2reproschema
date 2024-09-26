@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[75] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_024_i_01"
     },
@@ -53,54 +50,54 @@
                 "name": {
                     "en": "Asthma, Bronchitis, Pneumonia, or Bronchiolitis"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Severe gastrointestinal illness (vomiting/throwing up and/or diarrhea)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Injury"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Surgery"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Mood or behavior problem"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

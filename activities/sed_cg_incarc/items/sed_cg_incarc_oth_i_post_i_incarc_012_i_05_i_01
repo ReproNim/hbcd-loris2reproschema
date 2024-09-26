@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[163] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "0"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 4
+                "value": "4"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

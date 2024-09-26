@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[28] of ph_cg_cnq"
-    },
     "prefLabel": {
         "en": "ph_cg_cnq_011_i_01"
     },
@@ -53,66 +50,66 @@
                 "name": {
                     "en": "Seafood"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Peanuts"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Nuts"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Eggs"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Wheat"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Soy"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Milk"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

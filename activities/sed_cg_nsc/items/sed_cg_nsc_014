@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[34] of sed_cg_nsc"
-    },
     "prefLabel": {
         "en": "sed_cg_nsc_014"
     },
     "question": {
-        "en": "<div class=\"rich-text-field-label\"><p>Has <span style=\"text-decoration: underline;\"><em>a close friend or family member</em></span> ever called or summoned the police for assistance and the police either did not respond, responded too late, or responded inappropriately?</p></div>"
+        "en": "&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Has &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;em&gt;a close friend or family member&lt;/em&gt;&lt;/span&gt; ever called or summoned the police for assistance and the police either did not respond, responded too late, or responded inappropriately?&lt;/p&gt;&lt;/div&gt;"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

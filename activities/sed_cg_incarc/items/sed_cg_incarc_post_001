@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[31] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_post_001"
     },
     "question": {
-        "en": "<I>Since this child was born</i>, have you or any other people who are or were living in this child's household been arrested and/or held in jail or prison for one night or longer?"
+        "en": "&lt;I&gt;Since this child was born&lt;/i&gt;, have you or any other people who are or were living in this child's household been arrested and/or held in jail or prison for one night or longer?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Don't know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

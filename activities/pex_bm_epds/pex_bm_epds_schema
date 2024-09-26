@@ -1,6 +1,16 @@
 {
     "id": "pex_bm_epds_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "pex_bm_epds_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "pex_bm_epds_total_score"
+        }
+    ],
     "prefLabel": {
         "en": "pex_bm_epds"
     },
@@ -227,7 +237,7 @@
             },
             {
                 "isAbout": "items/pex_bm_epds_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "pex_bm_epds_score"
             },
@@ -245,7 +255,7 @@
             },
             {
                 "isAbout": "items/pex_bm_epds_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "pex_bm_epds_total_score"
             },

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[116] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01"
     },
@@ -51,68 +48,74 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "5"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "6"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "7"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "8"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "9"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "10 or more"
                 },
-                "value": 10
+                "value": "10"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

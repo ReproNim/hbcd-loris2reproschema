@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[21] of sed_bm_bfy"
-    },
     "prefLabel": {
         "en": "sed_bm_bfy_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for sed_bm_bfy"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

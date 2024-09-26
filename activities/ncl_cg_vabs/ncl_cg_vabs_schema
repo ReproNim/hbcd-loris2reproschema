@@ -1,6 +1,784 @@
 {
     "id": "ncl_cg_vabs_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_confidence_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_confidence_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_communication_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_communication_confidence_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_communication_confidence_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_socialization_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_socialization_confidence_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_socialization_confidence_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_living_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_living_confidence_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_living_confidence_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_confidence_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_confidence_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_receptive_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_expressive_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_written_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_personal_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_domestic_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_community_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_interpersonal_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_play_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_coping_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_gross_motor_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_v_fine_motor_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc2_standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_confidence_int_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_confidence_int_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_percentile_rank_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_ss_minus_mean_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_strength_weakness_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_abc_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_stand_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_conf_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_conf_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_percent_rank_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_ss_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_domain_base_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_stand_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_conf_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_conf_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_percent_rank_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_ss_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_social_domain_base_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_stand_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_conf_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_conf_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_percent_rank_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_ss_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_domain_base_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_stand_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_conf_high_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_conf_low_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_percent_rank_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_ss_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_motor_domain_base_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_receptive_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_expressive_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_written_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_personal_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_domestic_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_community_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_interpersonal_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_play_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_coping_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_motor_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_v_scale_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_age_equiv_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_growth_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_percent_est_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_vs_minus_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_strength_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_fine_motor_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_daily_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_daily_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_daily_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_daily_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_daily_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_soc_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_soc_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_soc_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_soc_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_soc_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_soc_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_soc_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_soc_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_soc_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_soc_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_motor_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_motor_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_motor_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_motor_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_comm_motor_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_motor_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_motor_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_motor_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_motor_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_daily_motor_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_soc_motor_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_soc_motor_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_soc_motor_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_soc_motor_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_soc_motor_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_reseptive_expressive_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_reseptive_expressive_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_reseptive_expressive_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_reseptive_expressive_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_reseptive_expressive_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_inter_relation_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_inter_relation_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_inter_relation_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_inter_relation_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_inter_relation_base_rate_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_fine_motor_std_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_fine_motor_std_score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_fine_motor_std_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_fine_motor_sig_diff_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_vabs_gross_fine_motor_base_rate_score"
+        }
+    ],
     "prefLabel": {
         "en": "ncl_cg_vabs"
     },
@@ -291,1165 +1069,1165 @@
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_confidence_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_confidence_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_confidence_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_confidence_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_communication_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_communication_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_communication_confidence_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_communication_confidence_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_communication_confidence_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_communication_confidence_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_socialization_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_socialization_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_socialization_confidence_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_socialization_confidence_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_socialization_confidence_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_socialization_confidence_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_living_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_living_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_living_confidence_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_living_confidence_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_living_confidence_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_living_confidence_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_confidence_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_confidence_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_confidence_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_confidence_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_receptive_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_receptive_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_expressive_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_expressive_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_written_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_written_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_personal_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_personal_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_domestic_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_domestic_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_community_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_community_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_interpersonal_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_interpersonal_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_play_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_play_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_coping_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_coping_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_gross_motor_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_gross_motor_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_v_fine_motor_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_v_fine_motor_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc2_standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc2_standard_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_confidence_int_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_confidence_int_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_confidence_int_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_confidence_int_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_percentile_rank_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_percentile_rank_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_ss_minus_mean_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_ss_minus_mean_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_strength_weakness_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_strength_weakness_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_abc_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_abc_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_stand_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_stand_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_conf_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_conf_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_conf_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_conf_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_percent_rank_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_percent_rank_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_ss_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_ss_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_domain_base_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_domain_base_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_stand_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_stand_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_conf_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_conf_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_conf_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_conf_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_percent_rank_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_percent_rank_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_ss_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_ss_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_social_domain_base_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_social_domain_base_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_stand_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_stand_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_conf_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_conf_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_conf_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_conf_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_percent_rank_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_percent_rank_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_ss_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_ss_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_domain_base_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_domain_base_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_stand_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_stand_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_conf_high_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_conf_high_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_conf_low_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_conf_low_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_percent_rank_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_percent_rank_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_ss_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_ss_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_motor_domain_base_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_motor_domain_base_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_receptive_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_receptive_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_expressive_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_expressive_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_written_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_written_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_personal_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_personal_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_domestic_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_domestic_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_community_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_community_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_interpersonal_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_interpersonal_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_play_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_play_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_coping_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_coping_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_motor_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_v_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_v_scale_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_age_equiv_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_age_equiv_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_growth_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_growth_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_percent_est_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_percent_est_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_vs_minus_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_vs_minus_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_strength_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_strength_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_fine_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_fine_motor_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_daily_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_daily_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_daily_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_daily_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_daily_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_daily_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_soc_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_soc_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_soc_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_soc_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_soc_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_soc_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_soc_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_soc_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_soc_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_soc_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_soc_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_soc_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_soc_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_soc_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_soc_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_soc_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_soc_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_soc_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_soc_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_soc_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_motor_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_motor_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_motor_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_motor_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_motor_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_motor_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_motor_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_motor_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_comm_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_comm_motor_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_motor_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_motor_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_motor_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_motor_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_motor_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_motor_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_motor_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_motor_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_daily_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_daily_motor_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_soc_motor_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_soc_motor_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_soc_motor_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_soc_motor_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_soc_motor_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_soc_motor_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_soc_motor_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_soc_motor_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_soc_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_soc_motor_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_reseptive_expressive_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_reseptive_expressive_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_reseptive_expressive_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_reseptive_expressive_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_reseptive_expressive_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_reseptive_expressive_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_reseptive_expressive_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_inter_relation_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_inter_relation_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_inter_relation_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_inter_relation_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_inter_relation_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_inter_relation_base_rate_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_fine_motor_std_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_fine_motor_std_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_fine_motor_std_score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_fine_motor_std_score_2"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_fine_motor_std_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_fine_motor_std_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_fine_motor_sig_diff_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_fine_motor_sig_diff_score"
             },
             {
                 "isAbout": "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_gross_fine_motor_base_rate_score"
             },

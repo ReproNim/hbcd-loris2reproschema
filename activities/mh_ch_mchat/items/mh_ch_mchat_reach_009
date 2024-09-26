@@ -38,33 +38,36 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[62] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_reach_009"
     },
     "question": {
-        "en": "If you said, \"Show me,\" would they point at it?"
+        "en": "If you said, &quot;Show me,&quot; would they point at it?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

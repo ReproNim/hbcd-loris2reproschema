@@ -38,57 +38,60 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[31] of sed_cg_nsc"
-    },
     "prefLabel": {
         "en": "sed_cg_nsc_012_i_01"
     },
     "question": {
-        "en": "How many times has this happened to <u><i>a close friend or family member</u></i> in the past year?</u></i>"
+        "en": "How many times has this happened to &lt;u&gt;&lt;i&gt;a close friend or family member&lt;/u&gt;&lt;/i&gt; in the past year?&lt;/u&gt;&lt;/i&gt;"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4 or more times"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[181] of pex_bm_assistv1"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv1_pre_during_i_use_i_unit_009"
     },
@@ -51,26 +48,32 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "pills"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "injectable"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "films"
                 },
-                "value": 3
+                "value": "3"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

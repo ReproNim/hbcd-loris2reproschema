@@ -38,63 +38,66 @@
             "value": "Modified"
         }
     ],
-    "description": {
-        "en": "Q[84] of pex_bm_healthv2_inf"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_inf_011"
     },
     "question": {
-        "en": "Since your infant went home from the hospital, in general, would you say your child&amp;#039;s health is:"
+        "en": "Since your infant went home from the hospital, in general, would you say your child&amp;amp;#039;s health is:"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Excellent"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Very good"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Good"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Fair"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Poor"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

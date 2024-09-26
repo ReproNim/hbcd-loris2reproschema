@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[63] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_fath_i_post_002_i_05_i_dk"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Don't know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

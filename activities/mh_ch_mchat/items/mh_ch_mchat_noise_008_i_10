@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[202] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_noise_008_i_10"
     },
@@ -51,14 +48,20 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Most often"
                 },
-                "value": 1
+                "value": "1"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

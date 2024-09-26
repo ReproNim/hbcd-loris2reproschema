@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[10] of sed_cg_nsc"
-    },
     "prefLabel": {
         "en": "sed_cg_nsc_001"
     },
     "question": {
-        "en": "Has a police officer ever provided assistance, protection, or any other service to <u><i>you</u></i>?"
+        "en": "Has a police officer ever provided assistance, protection, or any other service to &lt;u&gt;&lt;i&gt;you&lt;/u&gt;&lt;/i&gt;?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

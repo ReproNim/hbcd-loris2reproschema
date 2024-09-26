@@ -38,27 +38,30 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[24] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_point_009_i_08"
     },
     "question": {
-        "en": "Look if you point and say \"look!\""
+        "en": "Look if you point and say &quot;look!&quot;"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Most often"
                 },
-                "value": 1
+                "value": "1"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

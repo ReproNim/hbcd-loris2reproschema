@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[74] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_024"
     },
     "question": {
-        "en": "Has your baby ever stayed overnight in an emergency room or been hospitalized for <u>at least one night<u>? <i>(reminder: this is since discharge from /not including birth hospitalization)</i>"
+        "en": "Has your baby ever stayed overnight in an emergency room or been hospitalized for &lt;u&gt;at least one night&lt;u&gt;? &lt;i&gt;(reminder: this is since discharge from /not including birth hospitalization)&lt;/i&gt;"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

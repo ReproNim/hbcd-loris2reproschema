@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[75] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_roster_014_i_03_i_01"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Non-binary"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Transgender male"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Transgender female"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "None of these"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

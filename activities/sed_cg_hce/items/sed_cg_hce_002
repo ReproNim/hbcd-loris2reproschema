@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[11] of sed_cg_hce"
-    },
     "prefLabel": {
         "en": "sed_cg_hce_002"
     },
@@ -51,62 +48,68 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Single Family / Detached House"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Duplex/Triplex"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Row house"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Low rise apartment (1-3 floors)"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "High rise apartment (4 or more floors)"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Mobile home/trailer"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

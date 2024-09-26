@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[196] of mri_ra_chkl_scan"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_scan_s4_tfs_001"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Parent Transferred to Scanner"

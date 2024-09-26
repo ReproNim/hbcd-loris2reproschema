@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[94] of pex_bm_assistv2"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv2_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of pex_bm_assistv2"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

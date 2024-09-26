@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[65] of pex_bm_health_preg_i_healthhx"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012"
     },
     "question": {
-        "en": "Since your pregnancy began, have you taken aspirin to prevent preeclampsia? <br /><br /><br /><br />Please note, if you were told to take aspirin only after you developed preeclampsia, please answer this question 'no' and report the aspirin later when reporting medications. "
+        "en": "Since your pregnancy began, have you taken aspirin to prevent preeclampsia? &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Please note, if you were told to take aspirin only after you developed preeclampsia, please answer this question 'no' and report the aspirin later when reporting medications. "
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

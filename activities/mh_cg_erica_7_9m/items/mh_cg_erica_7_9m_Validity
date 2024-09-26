@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[117] of mh_cg_erica_7_9m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_7_9m_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of mh_cg_erica_7_9m"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

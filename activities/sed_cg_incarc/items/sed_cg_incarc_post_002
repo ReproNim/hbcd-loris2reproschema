@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[32] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_post_002"
     },
@@ -53,72 +50,72 @@
                 "name": {
                     "en": "Biological mother/birthing parent"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Biological father"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Adoptive mother"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Adoptive father"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Stepmother"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Stepfather"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Additional parent or parental figure in the child's home"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Grandparent or great grandparent living in the child's home"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "Other relative living in the child's home (e.g., sibling, aunt, uncle, cousin)"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "Don't know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

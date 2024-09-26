@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[200] of pex_bm_healthv2_preg"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_meds_054_i_03_i_01"
     },
@@ -51,32 +48,38 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Hour"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Day"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Month"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Year"
                 },
-                "value": 4
+                "value": "4"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

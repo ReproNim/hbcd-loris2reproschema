@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of mh_cg_pms_i_cc_i_inf"
-    },
     "prefLabel": {
         "en": "mh_cg_pms_i_cc_i_inf_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for mh_cg_pms_i_cc_i_inf"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

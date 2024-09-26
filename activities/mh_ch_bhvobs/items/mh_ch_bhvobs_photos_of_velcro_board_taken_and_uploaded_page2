@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[40] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_photos_of_velcro_board_taken_and_uploaded_page2"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Yes"

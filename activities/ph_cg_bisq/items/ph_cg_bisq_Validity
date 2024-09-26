@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[34] of ph_cg_bisq"
-    },
     "prefLabel": {
         "en": "ph_cg_bisq_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of ph_cg_bisq"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

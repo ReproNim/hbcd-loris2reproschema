@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[20] of mh_cg_erica_24_36m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_24_36m_chl_002"
     },
     "question": {
-        "en": "<strong>Challenging Shape Puzzle:</strong>"
+        "en": "&lt;strong&gt;Challenging Shape Puzzle:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

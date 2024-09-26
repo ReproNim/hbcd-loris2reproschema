@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[39] of mh_cg_erica_15_24m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_15_24m_trn2_003"
     },
     "question": {
-        "en": "<strong>Transition:</strong>"
+        "en": "&lt;strong&gt;Transition:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

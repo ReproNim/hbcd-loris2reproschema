@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[199] of mri_ra_chkl_scan"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_scan_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for mri_ra_chkl_scan"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

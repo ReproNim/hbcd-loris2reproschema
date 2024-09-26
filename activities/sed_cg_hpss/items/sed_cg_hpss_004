@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of sed_cg_hpss"
-    },
     "prefLabel": {
         "en": "sed_cg_hpss_004"
     },
@@ -51,62 +48,68 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "5"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "6"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Not applicable"
                 },
-                "value": 555
+                "value": "555"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

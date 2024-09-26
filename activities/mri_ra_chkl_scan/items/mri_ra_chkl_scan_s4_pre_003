@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[158] of mri_ra_chkl_scan"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_scan_s4_pre_003"
     },
     "question": {
-        "en": "Practice lifting & moving while baby asleep?"
+        "en": "Practice lifting &amp; moving while baby asleep?"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Yes"

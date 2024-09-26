@@ -38,45 +38,48 @@
             "value": "Modified"
         }
     ],
-    "description": {
-        "en": "Q[11] of pex_bm_health_preg_i_healthhx"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_003"
     },
     "question": {
-        "en": "In the year before you became pregnant, did you see a doctor &amp;lt;em&amp;gt;for a physical or check&amp;lt;/em&amp;gt;?"
+        "en": "In the year before you became pregnant, did you see a doctor &amp;amp;lt;em&amp;amp;gt;for a physical or check&amp;amp;lt;/em&amp;amp;gt;?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

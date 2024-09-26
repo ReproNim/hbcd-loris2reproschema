@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[39] of mh_cg_erica_rel_36_48m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_rel_36_48m_dir_003"
     },
     "question": {
-        "en": "<strong>Directive Behavior:</strong>"
+        "en": "&lt;strong&gt;Directive Behavior:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

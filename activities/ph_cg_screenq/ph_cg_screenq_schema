@@ -1,6 +1,28 @@
 {
     "id": "ph_cg_screenq_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_total_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_access_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_frequency_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_content_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_co_viewing_score"
+        }
+    ],
     "prefLabel": {
         "en": "ph_cg_screenq"
     },
@@ -219,31 +241,31 @@
             },
             {
                 "isAbout": "items/ph_cg_screenq_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_total_score"
             },
             {
                 "isAbout": "items/ph_cg_screenq_access_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_access_score"
             },
             {
                 "isAbout": "items/ph_cg_screenq_frequency_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_frequency_score"
             },
             {
                 "isAbout": "items/ph_cg_screenq_content_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_content_score"
             },
             {
                 "isAbout": "items/ph_cg_screenq_co_viewing_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_co_viewing_score"
             }

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[66] of pex_bm_assistv2"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv2_end_i_use_i_amount_009"
     },
@@ -51,80 +48,86 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "0.5"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "1"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "1.5"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "2.5"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "3.5"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "4.5"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "5"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

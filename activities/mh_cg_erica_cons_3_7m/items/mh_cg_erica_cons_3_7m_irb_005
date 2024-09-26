@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[36] of mh_cg_erica_cons_3_7m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_cons_3_7m_irb_005"
     },
     "question": {
-        "en": "<strong>Irritable Behavior:</strong>"
+        "en": "&lt;strong&gt;Irritable Behavior:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

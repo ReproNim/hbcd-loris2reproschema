@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[40] of sed_cg_nsc"
-    },
     "prefLabel": {
         "en": "sed_cg_nsc_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for sed_cg_nsc"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

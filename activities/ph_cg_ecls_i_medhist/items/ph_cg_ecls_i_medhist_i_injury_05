@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[121] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_i_injury_05"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "In a cabinet out of reach (above 4 feet high)"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "On a counter or cabinet (below 4 feet)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "In a locked cabinet/box"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

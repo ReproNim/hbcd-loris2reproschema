@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[176] of pex_bm_assistv1"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv1_pre_during_i_use_i_unit_007_i_01_dk"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": ""
                 },
-                "value": 999
+                "value": null
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 777
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

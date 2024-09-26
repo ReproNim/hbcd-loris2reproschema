@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[24] of mh_cg_erica_rel_24_36m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_rel_24_36m_soc_003"
     },
     "question": {
-        "en": "<strong>Social Engagement:</strong>"
+        "en": "&lt;strong&gt;Social Engagement:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

@@ -38,33 +38,36 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[264] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_command_006"
     },
     "question": {
-        "en": "If you say, \"Put the book on the chair\" without pointing, making gestures, or giving hints , does your child put the book on the chair?"
+        "en": "If you say, &quot;Put the book on the chair&quot; without pointing, making gestures, or giving hints , does your child put the book on the chair?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

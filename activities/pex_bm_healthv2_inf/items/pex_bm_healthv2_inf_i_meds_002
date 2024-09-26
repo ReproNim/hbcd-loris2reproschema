@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[29] of pex_bm_healthv2_inf"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_inf_i_meds_002"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "5"
                 },
-                "value": 5
+                "value": "5"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

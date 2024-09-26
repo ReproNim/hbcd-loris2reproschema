@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[16] of ph_cg_bisq"
-    },
     "prefLabel": {
         "en": "ph_cg_bisq_pb_006"
     },
@@ -51,266 +48,272 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "5:00 PM"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "5:15 PM"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "5:30 PM"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "5:45 PM"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "6:00 PM"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "6:15 PM"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "6:30 PM"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "6:45 PM"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "7:00 PM"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "7:15 PM"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "7:30 PM"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
                     "en": "7:45 PM"
                 },
-                "value": 12
+                "value": "12"
             },
             {
                 "name": {
                     "en": "8:00 PM"
                 },
-                "value": 13
+                "value": "13"
             },
             {
                 "name": {
                     "en": "8:15 PM"
                 },
-                "value": 14
+                "value": "14"
             },
             {
                 "name": {
                     "en": "8:30 PM"
                 },
-                "value": 15
+                "value": "15"
             },
             {
                 "name": {
                     "en": "8:45 PM"
                 },
-                "value": 16
+                "value": "16"
             },
             {
                 "name": {
                     "en": "9:00 PM"
                 },
-                "value": 17
+                "value": "17"
             },
             {
                 "name": {
                     "en": "9:15 PM"
                 },
-                "value": 18
+                "value": "18"
             },
             {
                 "name": {
                     "en": "9:30 PM"
                 },
-                "value": 19
+                "value": "19"
             },
             {
                 "name": {
                     "en": "9:45 PM"
                 },
-                "value": 20
+                "value": "20"
             },
             {
                 "name": {
                     "en": "10:00 PM"
                 },
-                "value": 21
+                "value": "21"
             },
             {
                 "name": {
                     "en": "10:15 PM"
                 },
-                "value": 22
+                "value": "22"
             },
             {
                 "name": {
                     "en": "10:30 PM"
                 },
-                "value": 23
+                "value": "23"
             },
             {
                 "name": {
                     "en": "10:45 PM"
                 },
-                "value": 24
+                "value": "24"
             },
             {
                 "name": {
                     "en": "11:00 PM"
                 },
-                "value": 25
+                "value": "25"
             },
             {
                 "name": {
                     "en": "11:15 PM"
                 },
-                "value": 26
+                "value": "26"
             },
             {
                 "name": {
                     "en": "11:30 PM"
                 },
-                "value": 27
+                "value": "27"
             },
             {
                 "name": {
                     "en": "11:45 PM"
                 },
-                "value": 28
+                "value": "28"
             },
             {
                 "name": {
                     "en": "12:00 AM"
                 },
-                "value": 29
+                "value": "29"
             },
             {
                 "name": {
                     "en": "12:15 AM"
                 },
-                "value": 30
+                "value": "30"
             },
             {
                 "name": {
                     "en": "12:30 AM"
                 },
-                "value": 31
+                "value": "31"
             },
             {
                 "name": {
                     "en": "12:45 AM"
                 },
-                "value": 32
+                "value": "32"
             },
             {
                 "name": {
                     "en": "1:00 AM"
                 },
-                "value": 33
+                "value": "33"
             },
             {
                 "name": {
                     "en": "1:15 AM"
                 },
-                "value": 34
+                "value": "34"
             },
             {
                 "name": {
                     "en": "1:30 AM"
                 },
-                "value": 35
+                "value": "35"
             },
             {
                 "name": {
                     "en": "1:45 AM"
                 },
-                "value": 36
+                "value": "36"
             },
             {
                 "name": {
                     "en": "2:00 AM"
                 },
-                "value": 37
+                "value": "37"
             },
             {
                 "name": {
                     "en": "2:15 AM"
                 },
-                "value": 38
+                "value": "38"
             },
             {
                 "name": {
                     "en": "2:30 AM"
                 },
-                "value": 39
+                "value": "39"
             },
             {
                 "name": {
                     "en": "2:45 AM"
                 },
-                "value": 40
+                "value": "40"
             },
             {
                 "name": {
                     "en": "3:00 AM"
                 },
-                "value": 41
+                "value": "41"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

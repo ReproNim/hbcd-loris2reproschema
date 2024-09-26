@@ -1,6 +1,12 @@
 {
     "id": "pex_bm_apa_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "pex_bm_apa_2_depr_score"
+        }
+    ],
     "prefLabel": {
         "en": "pex_bm_apa"
     },
@@ -422,7 +428,7 @@
             },
             {
                 "isAbout": "items/pex_bm_apa_2_depr_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "pex_bm_apa_2_depr_score"
             },

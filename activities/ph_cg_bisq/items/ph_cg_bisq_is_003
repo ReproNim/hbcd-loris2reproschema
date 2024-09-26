@@ -38,321 +38,324 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[23] of ph_cg_bisq"
-    },
     "prefLabel": {
         "en": "ph_cg_bisq_is_003"
     },
     "question": {
-        "en": "How much total time during the NIGHT is your child usually awake (between when your child goes to bed and wakes for the day? <br /><br /><br /><br />Example: If you child wakes 2 times and is awake for about 15 mins each time, your child's total time spent awake is 30 minutes."
+        "en": "How much total time during the NIGHT is your child usually awake (between when your child goes to bed and wakes for the day? &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Example: If you child wakes 2 times and is awake for about 15 mins each time, your child's total time spent awake is 30 minutes."
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "0 minutes"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "5 minutes"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "10 minutes"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "15 minutes"
                 },
-                "value": 15
+                "value": "15"
             },
             {
                 "name": {
                     "en": "20 minutes"
                 },
-                "value": 20
+                "value": "20"
             },
             {
                 "name": {
                     "en": "25 minutes"
                 },
-                "value": 25
+                "value": "25"
             },
             {
                 "name": {
                     "en": "30 minutes"
                 },
-                "value": 30
+                "value": "30"
             },
             {
                 "name": {
                     "en": "35 minutes"
                 },
-                "value": 35
+                "value": "35"
             },
             {
                 "name": {
                     "en": "40 minutes"
                 },
-                "value": 40
+                "value": "40"
             },
             {
                 "name": {
                     "en": "45 minutes"
                 },
-                "value": 45
+                "value": "45"
             },
             {
                 "name": {
                     "en": "50 minutes"
                 },
-                "value": 50
+                "value": "50"
             },
             {
                 "name": {
                     "en": "55 minutes"
                 },
-                "value": 55
+                "value": "55"
             },
             {
                 "name": {
                     "en": "1 hour"
                 },
-                "value": 60
+                "value": "60"
             },
             {
                 "name": {
                     "en": "1 hour and 5 minutes"
                 },
-                "value": 65
+                "value": "65"
             },
             {
                 "name": {
                     "en": "1 hour and 10 minutes"
                 },
-                "value": 70
+                "value": "70"
             },
             {
                 "name": {
                     "en": "1 hour and 15 minutes"
                 },
-                "value": 75
+                "value": "75"
             },
             {
                 "name": {
                     "en": "1 hour and 20 minutes"
                 },
-                "value": 80
+                "value": "80"
             },
             {
                 "name": {
                     "en": "1 hour and 25 minutes"
                 },
-                "value": 85
+                "value": "85"
             },
             {
                 "name": {
                     "en": "1 hour and 30 minutes"
                 },
-                "value": 90
+                "value": "90"
             },
             {
                 "name": {
                     "en": "1 hour and 35 minutes"
                 },
-                "value": 95
+                "value": "95"
             },
             {
                 "name": {
                     "en": "1 hour and 40 minute"
                 },
-                "value": 100
+                "value": "100"
             },
             {
                 "name": {
                     "en": "1 hour and 45 minutes"
                 },
-                "value": 105
+                "value": "105"
             },
             {
                 "name": {
                     "en": "1 hour and 50 minutes"
                 },
-                "value": 110
+                "value": "110"
             },
             {
                 "name": {
                     "en": "1 hour and 55 minutes"
                 },
-                "value": 115
+                "value": "115"
             },
             {
                 "name": {
                     "en": "2 hours"
                 },
-                "value": 120
+                "value": "120"
             },
             {
                 "name": {
                     "en": "2 hours and 5 minutes"
                 },
-                "value": 125
+                "value": "125"
             },
             {
                 "name": {
                     "en": "2 hours and 10 minutes"
                 },
-                "value": 130
+                "value": "130"
             },
             {
                 "name": {
                     "en": "2 hours and 15 minutes"
                 },
-                "value": 135
+                "value": "135"
             },
             {
                 "name": {
                     "en": "2 hours and 20 minutes"
                 },
-                "value": 140
+                "value": "140"
             },
             {
                 "name": {
                     "en": "2 hours and 25 minutes"
                 },
-                "value": 145
+                "value": "145"
             },
             {
                 "name": {
                     "en": "2 hours and 30 minutes"
                 },
-                "value": 150
+                "value": "150"
             },
             {
                 "name": {
                     "en": "2 hours and 35 minutes"
                 },
-                "value": 155
+                "value": "155"
             },
             {
                 "name": {
                     "en": "2 hours and 40 minutes"
                 },
-                "value": 160
+                "value": "160"
             },
             {
                 "name": {
                     "en": "2 hours and 45 minutes"
                 },
-                "value": 165
+                "value": "165"
             },
             {
                 "name": {
                     "en": "2 hours and 50 minutes"
                 },
-                "value": 170
+                "value": "170"
             },
             {
                 "name": {
                     "en": "2 hours and 55 minutes"
                 },
-                "value": 175
+                "value": "175"
             },
             {
                 "name": {
                     "en": "3 hours"
                 },
-                "value": 180
+                "value": "180"
             },
             {
                 "name": {
                     "en": "3 hours and 5 minutes"
                 },
-                "value": 185
+                "value": "185"
             },
             {
                 "name": {
                     "en": "3 hours and 10 minutes"
                 },
-                "value": 190
+                "value": "190"
             },
             {
                 "name": {
                     "en": "3 hours and 15 minutes"
                 },
-                "value": 195
+                "value": "195"
             },
             {
                 "name": {
                     "en": "3 hours and 20 minutes"
                 },
-                "value": 200
+                "value": "200"
             },
             {
                 "name": {
                     "en": "3 hours and 25 minutes"
                 },
-                "value": 205
+                "value": "205"
             },
             {
                 "name": {
                     "en": "3 hours and 30 minutes"
                 },
-                "value": 210
+                "value": "210"
             },
             {
                 "name": {
                     "en": "3 hours and 35 minutes"
                 },
-                "value": 215
+                "value": "215"
             },
             {
                 "name": {
                     "en": "3 hours and 40 minutes"
                 },
-                "value": 220
+                "value": "220"
             },
             {
                 "name": {
                     "en": "3 hours and 45 minutes"
                 },
-                "value": 225
+                "value": "225"
             },
             {
                 "name": {
                     "en": "3 hours and 50 minutes"
                 },
-                "value": 230
+                "value": "230"
             },
             {
                 "name": {
                     "en": "3 hours and 55 minutes"
                 },
-                "value": 235
+                "value": "235"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

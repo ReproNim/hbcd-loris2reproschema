@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[398] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_work_048_i_03"
     },
@@ -51,98 +48,104 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "I am still working at this job"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "January"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "February"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "March"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "April"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "May"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "June"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "July"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "August"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "September"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "October"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "November"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
                     "en": "December"
                 },
-                "value": 12
+                "value": "12"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

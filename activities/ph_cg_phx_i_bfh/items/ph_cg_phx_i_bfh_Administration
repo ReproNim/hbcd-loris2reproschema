@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[24] of ph_cg_phx_i_bfh"
-    },
     "prefLabel": {
         "en": "ph_cg_phx_i_bfh_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for ph_cg_phx_i_bfh"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

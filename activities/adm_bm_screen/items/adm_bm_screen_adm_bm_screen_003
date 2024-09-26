@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[7] of adm_bm_screen"
-    },
     "prefLabel": {
         "en": "adm_bm_screen_adm_bm_screen_003"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Never attended / Kindergarten only"
@@ -185,19 +188,18 @@
                 "name": {
                     "en": "Don\\'t know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -1,11 +1,11 @@
 {
-    "id": "HBCD_LORIS_schema",
+    "id": "HBCD-LORIS_schema",
     "category": "reproschema:Protocol",
     "description": {
-        "en": "This is an example protocol."
+        "en": "HEALthy Brain and Child Development (HBCD) Study Protocol (LORIS version)"
     },
     "prefLabel": {
-        "en": "Example Protocol Display Name"
+        "en": "HBCD Protocol (LORIS)"
     },
     "schemaVersion": "1.0.0",
     "ui": {

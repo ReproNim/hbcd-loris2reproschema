@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[209] of pex_bm_assistv1"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv1_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for pex_bm_assistv1"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

@@ -1,6 +1,12 @@
 {
     "id": "sed_cg_home_ec_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_cg_home_ec_total_score"
+        }
+    ],
     "prefLabel": {
         "en": "sed_cg_home_ec"
     },
@@ -236,7 +242,7 @@
             },
             {
                 "isAbout": "items/sed_cg_home_ec_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_cg_home_ec_total_score"
             }

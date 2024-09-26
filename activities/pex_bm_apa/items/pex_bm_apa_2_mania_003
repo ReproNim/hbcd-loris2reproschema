@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[69] of pex_bm_apa"
-    },
     "prefLabel": {
         "en": "pex_bm_apa_2_mania_003"
     },
@@ -51,50 +48,56 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "I do not need less sleep than usual"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "I occasionally need less sleep"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "I often need less sleep than usual"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "I frequently need less sleep than usual"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "I can go all day and night without any sleep and still not feel tired"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -1,6 +1,16 @@
 {
     "id": "sed_bm_ehits_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_ehits_total_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_ehits_score"
+        }
+    ],
     "prefLabel": {
         "en": "sed_bm_ehits"
     },
@@ -156,13 +166,13 @@
             },
             {
                 "isAbout": "items/sed_bm_ehits_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_ehits_total_score"
             },
             {
                 "isAbout": "items/sed_bm_ehits_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_ehits_score"
             },

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[23] of ph_cg_pedsql"
-    },
     "prefLabel": {
         "en": "ph_cg_pedsql_instr04"
     },
@@ -53,18 +50,18 @@
                 "name": {
                     "en": "My child does not interact with other children regularly"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

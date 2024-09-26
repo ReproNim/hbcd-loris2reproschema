@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[23] of sed_bm_ehits"
-    },
     "prefLabel": {
         "en": "sed_bm_ehits_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of sed_bm_ehits"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

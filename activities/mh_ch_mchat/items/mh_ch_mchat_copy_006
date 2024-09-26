@@ -38,33 +38,36 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[241] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_copy_006"
     },
     "question": {
-        "en": "Put your fingers to your lips to signal \"Shhh\"?"
+        "en": "Put your fingers to your lips to signal &quot;Shhh&quot;?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

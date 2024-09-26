@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[451] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_herit_i_oth_002_i_06"
     },
@@ -53,78 +50,78 @@
                 "name": {
                     "en": "Chamorro"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Chuukese"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Fijian"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Marshallese"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Native Hawaiian"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Palauan"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Samoan"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Tahitian"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Tongan"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "None of these fully describe the other biological parent / Other"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

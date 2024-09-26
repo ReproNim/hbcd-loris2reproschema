@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[16] of mh_cg_mapstl_i_easi"
-    },
     "prefLabel": {
         "en": "mh_cg_mapstl_i_easi_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for mh_cg_mapstl_i_easi"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

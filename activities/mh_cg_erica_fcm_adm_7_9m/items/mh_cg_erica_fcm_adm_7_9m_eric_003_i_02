@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[14] of mh_cg_erica_fcm_adm_7_9m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_fcm_adm_7_9m_eric_003_i_02"
     },
@@ -51,21 +48,27 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
@@ -76,8 +79,7 @@
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

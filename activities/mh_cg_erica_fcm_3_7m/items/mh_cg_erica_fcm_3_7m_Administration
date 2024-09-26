@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[76] of mh_cg_erica_fcm_3_7m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_fcm_3_7m_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for mh_cg_erica_fcm_3_7m"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

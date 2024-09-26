@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of adm_cg_fb"
-    },
     "prefLabel": {
         "en": "adm_cg_fb_003_i_01"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Strongly Agree"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Agree"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Neutral (neither agree nor disagree)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Disagree"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Strongly Disagree"
                 },
-                "value": 5
+                "value": "5"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

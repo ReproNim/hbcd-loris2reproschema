@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[21] of nt_ch_sens_i_qtn_2"
-    },
     "prefLabel": {
         "en": "nt_ch_sens_i_qtn_2_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for nt_ch_sens_i_qtn_2"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

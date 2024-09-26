@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[41] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_bm_i_post_002_i_01"
     },
     "question": {
-        "en": "<I>Since this child was born</i>, has this child's biological mother/birthing parent been incarcerated? "
+        "en": "&lt;I&gt;Since this child was born&lt;/i&gt;, has this child's biological mother/birthing parent been incarcerated? "
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Don't know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

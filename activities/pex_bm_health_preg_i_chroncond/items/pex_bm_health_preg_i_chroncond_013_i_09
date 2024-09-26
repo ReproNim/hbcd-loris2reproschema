@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[30] of pex_bm_health_preg_i_chroncond"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_chroncond_013_i_09"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
-                    "en": "1st Trimester  ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002])"
+                    "en": ""
                 },
-                "value": 1
+                "value": null
             },
             {
                 "name": {
-                    "en": "2nd Trimester  ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004])"
+                    "en": "1st Trimester <br> ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002])"
                 },
-                "value": 2
+                "value": "1"
             },
             {
                 "name": {
-                    "en": "3rd Trimester  (after [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005])"
+                    "en": "2nd Trimester <br> ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004])"
                 },
-                "value": 3
+                "value": "2"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "3rd Trimester <br> (after [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005])"
                 },
-                "value": 999
+                "value": "3"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 777
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

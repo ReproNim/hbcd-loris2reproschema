@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of sed_bm_demo_child"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_child_i_herit_002"
     },
@@ -53,66 +50,66 @@
                 "name": {
                     "en": "American Indian or Alaska Native"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Asian"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Black, African American, or African"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Hispanic, Latino, or Spanish"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Middle Eastern or North African"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Native Hawaiian or other Pacific Islander"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "White"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "None of these fully describe me"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

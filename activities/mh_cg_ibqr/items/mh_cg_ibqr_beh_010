@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[56] of mh_cg_ibqr"
-    },
     "prefLabel": {
         "en": "mh_cg_ibqr_beh_010"
     },
@@ -51,62 +48,68 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Very Rarely"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Less Than Half the Time"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "About Half the Time"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "More than Half the Time"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Almost Always"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Does Not Apply"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[11] of ph_cg_inq"
-    },
     "prefLabel": {
         "en": "ph_cg_inq_002"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Has not stopped"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Weeks old"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Months old"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

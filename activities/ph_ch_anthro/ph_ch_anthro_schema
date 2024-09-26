@@ -1,6 +1,40 @@
 {
     "id": "ph_ch_anthro_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_length_age_girls_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_head_c_age_girls_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_weight_age_girls_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_bmi_age_girls_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_length_age_boys_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_head_c_age_boys_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_weight_age_boys_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_ch_anthro_months_bmi_age_boys_score"
+        }
+    ],
     "prefLabel": {
         "en": "ph_ch_anthro"
     },
@@ -124,7 +158,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_length_age_girls_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_length_age_girls_score"
             },
@@ -148,7 +182,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_head_c_age_girls_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_head_c_age_girls_score"
             },
@@ -172,7 +206,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_weight_age_girls_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_weight_age_girls_score"
             },
@@ -196,7 +230,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_bmi_age_girls_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_bmi_age_girls_score"
             },
@@ -226,7 +260,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_length_age_boys_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_length_age_boys_score"
             },
@@ -244,7 +278,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_head_c_age_boys_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_head_c_age_boys_score"
             },
@@ -262,7 +296,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_weight_age_boys_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_weight_age_boys_score"
             },
@@ -280,7 +314,7 @@
             },
             {
                 "isAbout": "items/ph_ch_anthro_months_bmi_age_boys_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_ch_anthro_months_bmi_age_boys_score"
             },

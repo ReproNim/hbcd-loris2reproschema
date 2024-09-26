@@ -38,39 +38,42 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[14] of mh_cg_quic"
-    },
     "prefLabel": {
         "en": "mh_cg_quic_005"
     },
     "question": {
-        "en": "In my child's house, things they needed were often <br /><br />misplaced so that we could not find them."
+        "en": "In my child's house, things they needed were often &lt;br /&gt;&lt;br /&gt;misplaced so that we could not find them."
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

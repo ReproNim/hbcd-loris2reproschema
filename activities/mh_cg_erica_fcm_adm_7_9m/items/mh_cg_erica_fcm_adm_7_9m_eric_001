@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[6] of mh_cg_erica_fcm_adm_7_9m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_fcm_adm_7_9m_eric_001"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Completed"

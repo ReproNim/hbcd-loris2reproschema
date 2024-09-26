@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[29] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_hear_005"
     },
@@ -51,26 +48,32 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Hearing in normal range"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Hearing below normal"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Results inconclusive or not definitive"
                 },
-                "value": 3
+                "value": "3"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

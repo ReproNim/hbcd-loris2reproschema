@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[173] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_oth_i_post_i_arrest_013_i_04"
     },
@@ -53,48 +50,48 @@
                 "name": {
                     "en": "Immediate release (or within a few hours)"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Overnight stay in jail or longer"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Community supervision (probation)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Referral to treatment program"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Don't know"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
                     "en": "Decline to answer"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

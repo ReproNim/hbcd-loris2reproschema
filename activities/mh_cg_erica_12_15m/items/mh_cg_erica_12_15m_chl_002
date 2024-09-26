@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[10] of mh_cg_erica_12_15m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_12_15m_chl_002"
     },
     "question": {
-        "en": "<strong>Challenging Shape Sorter:</strong>"
+        "en": "&lt;strong&gt;Challenging Shape Sorter:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

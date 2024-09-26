@@ -38,9 +38,6 @@
             "value": "Empty"
         }
     ],
-    "description": {
-        "en": "Q[358] of mri_ra_chkl_data"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_data_scn_002_33"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "localizer_quiet"

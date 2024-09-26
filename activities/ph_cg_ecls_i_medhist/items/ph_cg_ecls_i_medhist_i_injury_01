@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[117] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_i_injury_01"
     },
@@ -53,54 +50,54 @@
                 "name": {
                     "en": "Front facing car seat in the back seat of the vehicle"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Rear facing car seat in the back seat of the vehicle"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Front or rear facing car seat in the front seat of the vehicle"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "On the lap of another passenger"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "My child doesn't ride in a personal vehicle"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

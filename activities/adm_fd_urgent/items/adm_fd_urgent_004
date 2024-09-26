@@ -38,14 +38,11 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[7] of adm_fd_urgent"
-    },
     "prefLabel": {
         "en": "adm_fd_urgent_004"
     },
     "question": {
-        "en": "<font style='color:red;'>* If 'No', please make sure to submit the form.</font>"
+        "en": "&lt;font style='color:red;'&gt;* If 'No', please make sure to submit the form.&lt;/font&gt;"
     },
     "responseOptions": {
         "choices": [],

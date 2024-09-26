@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[25] of eeg_ch_chkl"
-    },
     "prefLabel": {
         "en": "eeg_ch_chkl_eeg_002"
     },
     "question": {
-        "en": "Were there many (>10) electrodes which did not have good connectivity with the participant\u2019s scalp?"
+        "en": "Were there many (&gt;10) electrodes which did not have good connectivity with the participant\u2019s scalp?"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Yes"

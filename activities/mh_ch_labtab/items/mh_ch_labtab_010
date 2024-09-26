@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[28] of mh_ch_labtab"
-    },
     "prefLabel": {
         "en": "mh_ch_labtab_010"
     },
     "question": {
-        "en": "<strong>Bodily Distress (freezing):</strong>"
+        "en": "&lt;strong&gt;Bodily Distress (freezing):&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

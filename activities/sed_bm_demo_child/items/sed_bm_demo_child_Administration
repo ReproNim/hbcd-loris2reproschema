@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[269] of sed_bm_demo_child"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_child_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for sed_bm_demo_child"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

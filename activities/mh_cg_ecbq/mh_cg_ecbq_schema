@@ -1,6 +1,24 @@
 {
     "id": "mh_cg_ecbq_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_ecbq_surg_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_ecbq_neg_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_ecbq_efrt_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_ecbq_beh_score"
+        }
+    ],
     "prefLabel": {
         "en": "mh_cg_ecbq"
     },
@@ -435,25 +453,25 @@
             },
             {
                 "isAbout": "items/mh_cg_ecbq_surg_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_ecbq_surg_score"
             },
             {
                 "isAbout": "items/mh_cg_ecbq_neg_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_ecbq_neg_score"
             },
             {
                 "isAbout": "items/mh_cg_ecbq_efrt_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_ecbq_efrt_score"
             },
             {
                 "isAbout": "items/mh_cg_ecbq_beh_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_ecbq_beh_score"
             }

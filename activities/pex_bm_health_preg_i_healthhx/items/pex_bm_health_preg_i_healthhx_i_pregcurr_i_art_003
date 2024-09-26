@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[36] of pex_bm_health_preg_i_healthhx"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003"
     },
@@ -53,66 +50,66 @@
                 "name": {
                     "en": "Artificial insemination"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "In-vitro fertilization"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Fertility-enhancing medications"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "ICSI"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Pre-implantation genetic screening"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Donor egg"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Donor sperm"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Donor embryo"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

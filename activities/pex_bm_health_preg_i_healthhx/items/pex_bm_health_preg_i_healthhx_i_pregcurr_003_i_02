@@ -38,9 +38,6 @@
             "value": "Modified"
         }
     ],
-    "description": {
-        "en": "Q[47] of pex_bm_health_preg_i_healthhx"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "weeks"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "months"
                 },
-                "value": 2
+                "value": "2"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

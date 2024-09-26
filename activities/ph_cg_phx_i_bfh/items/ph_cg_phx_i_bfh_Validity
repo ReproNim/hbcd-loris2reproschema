@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[23] of ph_cg_phx_i_bfh"
-    },
     "prefLabel": {
         "en": "ph_cg_phx_i_bfh_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of ph_cg_phx_i_bfh"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

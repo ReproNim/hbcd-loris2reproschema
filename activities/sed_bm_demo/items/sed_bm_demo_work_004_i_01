@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[151] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_work_004_i_01"
     },
@@ -51,44 +48,50 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes, I had 1 job that I worked for 20 hours per week for at least a month"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Yes, I had more than one job that I worked for 20 hours per week for at least a month"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "No, I worked but none of them were at least 20 hours per week for a month"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "No, I did not work"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

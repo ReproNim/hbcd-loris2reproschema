@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[89] of nc_ch_bayley_4"
-    },
     "prefLabel": {
         "en": "nc_ch_bayley_4_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of nc_ch_bayley_4"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[66] of ncl_ch_di_i_v06"
-    },
     "prefLabel": {
         "en": "ncl_ch_di_i_v06_sev3_002"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Baseline was 1.5 to 2 min"

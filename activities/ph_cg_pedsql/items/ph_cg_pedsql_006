@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[15] of ph_cg_pedsql"
-    },
     "prefLabel": {
         "en": "ph_cg_pedsql_006"
     },
@@ -51,50 +48,56 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Almost Never"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Sometimes"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Often"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Almost Always"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

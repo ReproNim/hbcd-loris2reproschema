@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of adm_fd_visitdata"
-    },
     "prefLabel": {
         "en": "adm_fd_visitdata_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for adm_fd_visitdata"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

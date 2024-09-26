@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of sed_cg_tic"
-    },
     "prefLabel": {
         "en": "sed_cg_tic_002_i_03"
     },
@@ -51,50 +48,56 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Other parent (biological, step-, or adoptive)"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Foster parent"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Grandparent or great grandparent"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Other relative (sibling, aunt, uncle, cousin)"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Non-relative (e.g., family friend)"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

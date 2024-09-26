@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_004"
     },
@@ -51,50 +48,56 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes, on the schedule recommended by my pediatrician"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Yes, on an alternate schedule (for example did you ask to space out shots/vaccines, or only do one vaccination/shot at a time)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "No, because we don't have access"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "No, because I don't believe in shots or vaccines"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "No, for another reason"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

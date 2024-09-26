@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[42] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_very_important_value_choice_1_page2"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "To be a leader"

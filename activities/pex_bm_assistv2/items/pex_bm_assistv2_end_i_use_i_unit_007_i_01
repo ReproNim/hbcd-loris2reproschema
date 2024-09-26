@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[61] of pex_bm_assistv2"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv2_end_i_use_i_unit_007_i_01"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "grams"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "bags"
                 },
-                "value": 2
+                "value": "2"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

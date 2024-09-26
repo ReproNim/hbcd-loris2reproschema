@@ -1,6 +1,36 @@
 {
     "id": "mh_cg_erica_12_15m_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_a_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_b_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_c_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_d_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_e_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_f_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_12_15m_g_raw"
+        }
+    ],
     "prefLabel": {
         "en": "mh_cg_erica_12_15m"
     },
@@ -594,7 +624,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_a_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_a_raw"
             },
@@ -642,7 +672,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_b_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_b_raw"
             },
@@ -690,7 +720,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_c_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_c_raw"
             },
@@ -738,7 +768,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_d_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_d_raw"
             },
@@ -786,7 +816,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_e_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_e_raw"
             },
@@ -834,7 +864,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_f_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_f_raw"
             },
@@ -882,7 +912,7 @@
             },
             {
                 "isAbout": "items/mh_cg_erica_12_15m_g_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_12_15m_g_raw"
             },

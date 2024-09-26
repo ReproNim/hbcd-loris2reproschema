@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[8] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_did_fua_have_contact_if_yes"
     },
     "question": {
-        "en": "If yes, please select the category that best describes the contact between FUA and study child PRIOR to the BI task?<br> * (e.g., passing toys during <br> consent/distracting child, etc.). This option should be selected for interactions of any duration."
+        "en": "If yes, please select the category that best describes the contact between FUA and study child PRIOR to the BI task?&lt;br&gt; * (e.g., passing toys during &lt;br&gt; consent/distracting child, etc.). This option should be selected for interactions of any duration."
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Contact minimal and passing, no direct interaction (e.g., FUA passed child in hall)."

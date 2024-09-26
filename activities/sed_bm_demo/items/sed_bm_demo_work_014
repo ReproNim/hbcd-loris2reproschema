@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[160] of sed_bm_demo"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_work_014"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "20-30 hours"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "31-40 hours"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "More than 40 hours"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

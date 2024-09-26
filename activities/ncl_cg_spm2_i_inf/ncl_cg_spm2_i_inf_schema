@@ -1,6 +1,80 @@
 {
     "id": "ncl_cg_spm2_i_inf_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_tss_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_soc_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_vis_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_hea_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_tou_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_t_s_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_bod_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_bal_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_pla_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_tss_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_soc_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_vis_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_hea_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_tou_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_t_s_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_bod_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_bal_t_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_cg_spm2_i_inf_pla_t_score"
+        }
+    ],
     "prefLabel": {
         "en": "ncl_cg_spm2_i_inf"
     },
@@ -679,55 +753,55 @@
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_tss_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_tss_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_soc_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_soc_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_vis_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_vis_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_hea_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_hea_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_tou_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_tou_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_t_s_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_t_s_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_bod_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_bod_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_bal_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_bal_raw_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_pla_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_pla_raw_score"
             },
@@ -739,55 +813,55 @@
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_tss_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_tss_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_soc_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_soc_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_vis_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_vis_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_hea_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_hea_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_tou_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_tou_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_t_s_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_t_s_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_bod_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_bod_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_bal_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_bal_t_score"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_pla_t_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_pla_t_score"
             },

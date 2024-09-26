@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[14] of pex_bm_health_preg_i_healthhx"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_006_i_pre"
     },
@@ -53,60 +50,60 @@
                 "name": {
                     "en": "Private health insurance from my job or the job of my spouse or partner"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Private health insurance from Marketplace or HealthCare.gov"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Medicaid"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "TRICARE or other military health care"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Indian Health Service or tribal"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Other health insurance"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "I did not have any health insurance during the month before I got pregnant"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

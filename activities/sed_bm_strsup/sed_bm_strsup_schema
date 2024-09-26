@@ -1,6 +1,20 @@
 {
     "id": "sed_bm_strsup_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_total_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_total_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_scale_score"
+        }
+    ],
     "prefLabel": {
         "en": "sed_bm_strsup"
     },
@@ -162,19 +176,19 @@
             },
             {
                 "isAbout": "items/sed_bm_strsup_total_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_strsup_total_score"
             },
             {
                 "isAbout": "items/sed_bm_strsup_total_raw_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_strsup_total_raw_score"
             },
             {
                 "isAbout": "items/sed_bm_strsup_scale_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_bm_strsup_scale_score"
             },

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[206] of ncl_cg_vabs"
-    },
     "prefLabel": {
         "en": "ncl_cg_vabs_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of ncl_cg_vabs"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

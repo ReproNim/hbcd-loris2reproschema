@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of mh_cg_erica_9_12m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_9_12m_scd_005"
     },
     "question": {
-        "en": "<strong>Stacking Cups-Demo:</strong>"
+        "en": "&lt;strong&gt;Stacking Cups-Demo:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

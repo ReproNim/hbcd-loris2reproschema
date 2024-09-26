@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[4] of pex_bm_health_preg_i_exp_i_vacc"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_exp_i_vacc_lang"
     },
@@ -49,6 +46,12 @@
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "English"

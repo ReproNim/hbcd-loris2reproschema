@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of sed_cg_employ"
-    },
     "prefLabel": {
         "en": "sed_cg_employ_006"
     },
@@ -53,60 +50,60 @@
                 "name": {
                     "en": "Regular daytime schedule"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Regular evening shift"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Regular nighttime shift"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Rotating shifts (one that changes regularly from days to evenings or nights)"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Split shift (one consisting of two distinct periods each day)"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Irregular schedule (one that changes from day to day)"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[20] of nt_ch_sens_i_qtn_1"
-    },
     "prefLabel": {
         "en": "nt_ch_sens_i_qtn_1_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of nt_ch_sens_i_qtn_1"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

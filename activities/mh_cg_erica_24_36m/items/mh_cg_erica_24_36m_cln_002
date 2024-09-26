@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[15] of mh_cg_erica_24_36m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_24_36m_cln_002"
     },
     "question": {
-        "en": "<strong>Clean-up Crayons:</strong>"
+        "en": "&lt;strong&gt;Clean-up Crayons:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

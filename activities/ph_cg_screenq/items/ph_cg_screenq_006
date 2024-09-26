@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[15] of ph_cg_screenq"
-    },
     "prefLabel": {
         "en": "ph_cg_screenq_006"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "0-12 months"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "12-18 months"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": ">18 months"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

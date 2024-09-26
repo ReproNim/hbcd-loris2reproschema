@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of webcdi_en"
-    },
     "prefLabel": {
         "en": "webcdi_en_002"
     },
@@ -51,26 +48,32 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Not confident"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Somewhat confident"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Very confident"
                 },
-                "value": 3
+                "value": "3"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

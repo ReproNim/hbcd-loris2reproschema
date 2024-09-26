@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[25] of ph_cg_cnq"
-    },
     "prefLabel": {
         "en": "ph_cg_cnq_009"
     },
@@ -53,54 +50,54 @@
                 "name": {
                     "en": "Picky eater"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Leaves food on the plate"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Wants the same food all the time"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Begs for snacks between meals"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Wants milk or juice all day long"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "None of these"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

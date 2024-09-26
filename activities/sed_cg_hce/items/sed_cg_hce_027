@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[47] of sed_cg_hce"
-    },
     "prefLabel": {
         "en": "sed_cg_hce_027"
     },
@@ -53,90 +50,90 @@
                 "name": {
                     "en": "Cockroaches"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Bees/Wasps"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Ants"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Flies"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Mosquitos"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Termites"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Fleas"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Moths"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "Spiders"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "Snails"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "Rodents"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
                     "en": "None were treated"
                 },
-                "value": 12
+                "value": "12"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

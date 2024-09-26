@@ -38,9 +38,6 @@
             "value": "Empty"
         }
     ],
-    "description": {
-        "en": "Q[13] of webcdi_es"
-    },
     "prefLabel": {
         "en": "webcdi_es_completion_status"
     },
@@ -53,12 +50,18 @@
                 "name": {
                     "en": ""
                 },
-                "value": 1
+                "value": null
+            },
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": "1"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

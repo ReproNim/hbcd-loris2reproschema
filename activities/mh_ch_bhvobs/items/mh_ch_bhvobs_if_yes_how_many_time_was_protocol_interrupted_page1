@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[24] of mh_ch_bhvobs"
-    },
     "prefLabel": {
         "en": "mh_ch_bhvobs_if_yes_how_many_time_was_protocol_interrupted_page1"
     },
@@ -51,21 +48,27 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "1"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
@@ -76,8 +79,7 @@
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:string",
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

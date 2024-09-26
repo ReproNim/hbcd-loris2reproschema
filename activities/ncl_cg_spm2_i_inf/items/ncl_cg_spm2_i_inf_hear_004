@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[33] of ncl_cg_spm2_i_inf"
-    },
     "prefLabel": {
         "en": "ncl_cg_spm2_i_inf_hear_004"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Occasionally"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Frequently"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

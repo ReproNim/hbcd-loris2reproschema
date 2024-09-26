@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[17] of ph_cg_pms_i_sleep"
-    },
     "prefLabel": {
         "en": "ph_cg_pms_i_sleep_008"
     },
@@ -51,50 +48,56 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Almost Never"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Sometimes"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Almost Always"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

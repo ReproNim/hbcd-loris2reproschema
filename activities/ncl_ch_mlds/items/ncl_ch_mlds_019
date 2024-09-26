@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[174] of ncl_ch_mlds"
-    },
     "prefLabel": {
         "en": "ncl_ch_mlds_019"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "English"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Spanish"
                 },
-                "value": 2
+                "value": "2"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

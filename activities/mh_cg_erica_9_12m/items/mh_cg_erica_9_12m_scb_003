@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of mh_cg_erica_9_12m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_9_12m_scb_003"
     },
     "question": {
-        "en": "<strong>Stacking Cups-Baby</strong>"
+        "en": "&lt;strong&gt;Stacking Cups-Baby&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

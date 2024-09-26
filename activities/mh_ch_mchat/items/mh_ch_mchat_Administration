@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[274] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for mh_ch_mchat"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

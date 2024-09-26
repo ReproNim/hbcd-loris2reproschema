@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[26] of sed_bm_demo_child"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_child_i_relat_004_i_03"
     },
@@ -51,62 +48,68 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Parent"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "State foster care system"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Grandparent"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Sibling"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Other family"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Non-family (friend, or friend of the family)"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

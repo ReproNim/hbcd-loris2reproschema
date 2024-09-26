@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[89] of mh_cg_erica_cons_15_24m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_cons_15_24m_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of mh_cg_erica_cons_15_24m"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

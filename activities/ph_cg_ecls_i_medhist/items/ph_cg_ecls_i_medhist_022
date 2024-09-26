@@ -38,14 +38,11 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[72] of ph_cg_ecls_i_medhist"
-    },
     "prefLabel": {
         "en": "ph_cg_ecls_i_medhist_022"
     },
     "question": {
-        "en": "Has a doctor, nurse, or other medical professional <i>ever</i> told you that your child has or needed treatment for:"
+        "en": "Has a doctor, nurse, or other medical professional &lt;i&gt;ever&lt;/i&gt; told you that your child has or needed treatment for:"
     },
     "responseOptions": {
         "choices": [
@@ -53,84 +50,84 @@
                 "name": {
                     "en": "Asthma"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "A respiratory illness, such as bronchitis, pneumonia, or bronchiolitis (for example, RSV)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "A severe gastrointestinal illness with frequent vomiting, diarrhea, or dehydration"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "A mood or behavior problem"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Seizures"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Appendicitis"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Urinary tract infection"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Skin infection"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "Brain injury"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "Trauma, broken bone, or other injury from an accident"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "Other acute (transient or short lived) problem"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

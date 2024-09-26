@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[21] of pex_bm_health_preg_i_chroncond"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_chroncond_013"
     },
@@ -53,102 +50,102 @@
                 "name": {
                     "en": "Gonorrhea"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Chlamydia"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Herpes"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "HPV"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Syphilis"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "CMV"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Group B Strep"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Hepatitis A"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "Hepatitis B"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "Hepatitis C"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "HIV"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
                     "en": "Toxoplasmosis"
                 },
-                "value": 12
+                "value": "12"
             },
             {
                 "name": {
                     "en": "Urinary Tract Infection"
                 },
-                "value": 13
+                "value": "13"
             },
             {
                 "name": {
                     "en": "None"
                 },
-                "value": 14
+                "value": "14"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

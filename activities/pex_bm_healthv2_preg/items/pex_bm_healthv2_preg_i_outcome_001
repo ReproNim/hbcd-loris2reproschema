@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[545] of pex_bm_healthv2_preg"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_preg_i_outcome_001"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Spontaneous"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Induced"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Neither (I did not experience labor)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

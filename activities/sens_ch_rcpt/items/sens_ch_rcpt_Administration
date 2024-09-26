@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[18] of sens_ch_rcpt"
-    },
     "prefLabel": {
         "en": "sens_ch_rcpt_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for sens_ch_rcpt"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

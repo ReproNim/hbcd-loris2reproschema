@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[20] of mh_cg_fad"
-    },
     "prefLabel": {
         "en": "mh_cg_fad_001_i_11"
     },
@@ -51,38 +48,44 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Strongly Agree"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Agree"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Disagree"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Strongly Disagree"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

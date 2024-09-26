@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[178] of pex_bm_assistv1"
-    },
     "prefLabel": {
         "en": "pex_bm_assistv1_pre_during_i_use_i_amount_006"
     },
@@ -51,128 +48,134 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "0.5"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "1"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "1.5"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "2"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "2.5"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "3"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "3.5"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "4"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "4.5"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
                     "en": "5"
                 },
-                "value": 10
+                "value": "10"
             },
             {
                 "name": {
                     "en": "5.5"
                 },
-                "value": 11
+                "value": "11"
             },
             {
                 "name": {
                     "en": "6"
                 },
-                "value": 12
+                "value": "12"
             },
             {
                 "name": {
                     "en": "6.5"
                 },
-                "value": 13
+                "value": "13"
             },
             {
                 "name": {
                     "en": "7"
                 },
-                "value": 14
+                "value": "14"
             },
             {
                 "name": {
                     "en": "7.5"
                 },
-                "value": 15
+                "value": "15"
             },
             {
                 "name": {
                     "en": "8"
                 },
-                "value": 16
+                "value": "16"
             },
             {
                 "name": {
                     "en": "8.5"
                 },
-                "value": 17
+                "value": "17"
             },
             {
                 "name": {
                     "en": "9"
                 },
-                "value": 18
+                "value": "18"
             },
             {
                 "name": {
                     "en": "9.5"
                 },
-                "value": 19
+                "value": "19"
             },
             {
                 "name": {
                     "en": "10"
                 },
-                "value": 20
+                "value": "20"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

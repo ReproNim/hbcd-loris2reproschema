@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[59] of mh_cg_erica_7_9m"
-    },
     "prefLabel": {
         "en": "mh_cg_erica_7_9m_con_006"
     },
     "question": {
-        "en": "<strong>Connectedness:</strong>"
+        "en": "&lt;strong&gt;Connectedness:&lt;/strong&gt;"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "None"

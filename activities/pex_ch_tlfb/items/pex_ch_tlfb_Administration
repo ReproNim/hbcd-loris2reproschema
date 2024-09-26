@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[133] of pex_ch_tlfb"
-    },
     "prefLabel": {
         "en": "pex_ch_tlfb_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for pex_ch_tlfb"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

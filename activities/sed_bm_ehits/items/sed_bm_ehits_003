@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of sed_bm_ehits"
-    },
     "prefLabel": {
         "en": "sed_bm_ehits_003"
     },
@@ -51,56 +48,62 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Never"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
                     "en": "Rarely"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Sometimes"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Fairly often"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
-                    "en": "Freq-uently"
+                    "en": "Freq-<Br>uently"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Not Applicable"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

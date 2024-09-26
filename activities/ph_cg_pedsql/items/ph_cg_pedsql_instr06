@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[29] of ph_cg_pedsql"
-    },
     "prefLabel": {
         "en": "ph_cg_pedsql_instr06"
     },
@@ -53,18 +50,18 @@
                 "name": {
                     "en": "My child does not attend school or daycare"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

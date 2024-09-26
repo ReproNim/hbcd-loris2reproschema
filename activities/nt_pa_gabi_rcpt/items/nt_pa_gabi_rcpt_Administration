@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of nt_pa_gabi_rcpt"
-    },
     "prefLabel": {
         "en": "nt_pa_gabi_rcpt_Administration"
     },
@@ -48,9 +45,18 @@
         "en": "Administration for nt_pa_gabi_rcpt"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

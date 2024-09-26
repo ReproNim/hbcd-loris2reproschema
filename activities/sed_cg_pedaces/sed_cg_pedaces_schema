@@ -1,6 +1,12 @@
 {
     "id": "sed_cg_pedaces_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_cg_pedaces_summary_score"
+        }
+    ],
     "prefLabel": {
         "en": "sed_cg_pedaces"
     },
@@ -91,7 +97,7 @@
             },
             {
                 "isAbout": "items/sed_cg_pedaces_summary_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_cg_pedaces_summary_score"
             },

@@ -1,6 +1,160 @@
 {
     "id": "ncl_ch_bayley_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Cognitive_CG_RAW_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Cognitive_CG_Scaled_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Receptive_Communication_RC_RAW_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Receptive_Communication_RC_Scaled_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Expressive_Communication_EC_RAW_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Expressive_Communication_EC_Scaled_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Fine_Motor_FM_RAW_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Fine_Motor_FM_Scaled_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Gross_Motor_GM_RAW_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_Gross_Motor_GM_Scaled_Score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_COG_Sum_of_scaled_scores"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_COG_Standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LANG_Sum_of_scaled_scores"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LANG_Standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_MOT_Sum_of_scaled_scores"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_MOT_Standard_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_RC_EC_Score_1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_RC_EC_Score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_FM_GM_Score_1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_FM_GM_Score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Score_1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Critical_value"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Significant_difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CL_Score_Base_rate"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Score_1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Critical_value"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Significant_difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_CM_Score_Base_rate"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Score_1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Score_2"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Critical_value"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Significant_difference"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ncl_ch_bayley_LM_Score_Base_rate"
+        }
+    ],
     "prefLabel": {
         "en": "ncl_ch_bayley"
     },
@@ -231,13 +385,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Cognitive_CG_RAW_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Cognitive_CG_RAW_Score"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Cognitive_CG_Scaled_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Cognitive_CG_Scaled_Score"
             },
@@ -255,13 +409,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Receptive_Communication_RC_RAW_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Receptive_Communication_RC_RAW_Score"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Receptive_Communication_RC_Scaled_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Receptive_Communication_RC_Scaled_Score"
             },
@@ -279,13 +433,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Expressive_Communication_EC_RAW_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Expressive_Communication_EC_RAW_Score"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Expressive_Communication_EC_Scaled_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Expressive_Communication_EC_Scaled_Score"
             },
@@ -303,13 +457,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Fine_Motor_FM_RAW_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Fine_Motor_FM_RAW_Score"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Fine_Motor_FM_Scaled_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Fine_Motor_FM_Scaled_Score"
             },
@@ -327,13 +481,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Gross_Motor_GM_RAW_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Gross_Motor_GM_RAW_Score"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_Gross_Motor_GM_Scaled_Score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_Gross_Motor_GM_Scaled_Score"
             },
@@ -357,13 +511,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_COG_Sum_of_scaled_scores",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_COG_Sum_of_scaled_scores"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_COG_Standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_COG_Standard_score"
             },
@@ -387,13 +541,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LANG_Sum_of_scaled_scores",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LANG_Sum_of_scaled_scores"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LANG_Standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LANG_Standard_score"
             },
@@ -417,13 +571,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_MOT_Sum_of_scaled_scores",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_MOT_Sum_of_scaled_scores"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_MOT_Standard_score",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_MOT_Standard_score"
             },
@@ -459,13 +613,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_RC_EC_Score_1",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_RC_EC_Score_1"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_RC_EC_Score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_RC_EC_Score_2"
             },
@@ -495,13 +649,13 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_FM_GM_Score_1",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_FM_GM_Score_1"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_FM_GM_Score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_FM_GM_Score_2"
             },
@@ -543,109 +697,109 @@
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Score_1",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Score_1"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Score_2"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Critical_value",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Critical_value"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Significant_difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Significant_difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CL_Score_Base_rate",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CL_Score_Base_rate"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Score_1",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Score_1"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Score_2"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Critical_value",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Critical_value"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Significant_difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Significant_difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_CM_Score_Base_rate",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_CM_Score_Base_rate"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Score_1",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Score_1"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Score_2",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Score_2"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Critical_value",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Critical_value"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Significant_difference",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Significant_difference"
             },
             {
                 "isAbout": "items/ncl_ch_bayley_LM_Score_Base_rate",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "ncl_ch_bayley_LM_Score_Base_rate"
             },

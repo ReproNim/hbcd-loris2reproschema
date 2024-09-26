@@ -1,6 +1,24 @@
 {
     "id": "mh_ch_labtab_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_labtab_a_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_labtab_b_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_labtab_c_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_labtab_d_raw"
+        }
+    ],
     "prefLabel": {
         "en": "mh_ch_labtab"
     },
@@ -76,7 +94,7 @@
             },
             {
                 "isAbout": "items/mh_ch_labtab_a_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_a_raw"
             },
@@ -88,7 +106,7 @@
             },
             {
                 "isAbout": "items/mh_ch_labtab_b_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_b_raw"
             },
@@ -100,7 +118,7 @@
             },
             {
                 "isAbout": "items/mh_ch_labtab_c_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_c_raw"
             },
@@ -112,7 +130,7 @@
             },
             {
                 "isAbout": "items/mh_ch_labtab_d_raw",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_d_raw"
             },

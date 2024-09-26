@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[19] of sed_cg_employ"
-    },
     "prefLabel": {
         "en": "sed_cg_employ_007"
     },
@@ -53,60 +50,60 @@
                 "name": {
                     "en": "Upper management"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Middle/junior management"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Administrative/support staff"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Trained professional"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Skilled/unskilled laborer"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Researcher"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

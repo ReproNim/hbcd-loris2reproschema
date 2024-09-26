@@ -38,17 +38,20 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[12] of ph_ch_vs"
-    },
     "prefLabel": {
         "en": "ph_ch_vs_eye_004"
     },
     "question": {
-        "en": "4. [Hard Stop Question] Have you been told that your child cannot see at all? (cannot see shadows, cannot see light & dark)"
+        "en": "4. [Hard Stop Question] Have you been told that your child cannot see at all? (cannot see shadows, cannot see light &amp; dark)"
     },
     "responseOptions": {
         "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
             {
                 "name": {
                     "en": "Yes"

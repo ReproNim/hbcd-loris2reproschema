@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[19] of ph_cg_cnq"
-    },
     "prefLabel": {
         "en": "ph_cg_cnq_006_i_02"
     },
@@ -53,48 +50,48 @@
                 "name": {
                     "en": "Plain water"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Milk (including cow's milk and other milks)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Juice drinks (including Kool-Aid, 100% Juice, Sweet Tea and Gatorade)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Soda/Pop"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[9] of ncl_ch_nbtb"
-    },
     "prefLabel": {
         "en": "ncl_ch_nbtb_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of ncl_ch_nbtb"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"

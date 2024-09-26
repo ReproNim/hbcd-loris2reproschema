@@ -38,51 +38,54 @@
             "value": "Modified"
         }
     ],
-    "description": {
-        "en": "Q[88] of pex_bm_healthv2_inf"
-    },
     "prefLabel": {
         "en": "pex_bm_healthv2_inf_017"
     },
     "question": {
-        "en": "What was the result of your child&amp;#039;s hearing test when they were born?"
+        "en": "What was the result of your child&amp;amp;#039;s hearing test when they were born?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Pass"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Referred or Refer (didn't pass)"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Not tested"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

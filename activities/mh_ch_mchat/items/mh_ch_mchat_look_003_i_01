@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[250] of mh_ch_mchat"
-    },
     "prefLabel": {
         "en": "mh_ch_mchat_look_003_i_01"
     },
@@ -51,14 +48,20 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Most often"
                 },
-                "value": 1
+                "value": "1"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

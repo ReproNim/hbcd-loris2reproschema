@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[8] of sed_cg_incarc"
-    },
     "prefLabel": {
         "en": "sed_cg_incarc_location"
     },
@@ -51,20 +48,26 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Remote"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "On-site"
                 },
-                "value": 2
+                "value": "2"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

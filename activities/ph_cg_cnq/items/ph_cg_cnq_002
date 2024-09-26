@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of ph_cg_cnq"
-    },
     "prefLabel": {
         "en": "ph_cg_cnq_002"
     },
@@ -53,72 +50,72 @@
                 "name": {
                     "en": "Soda/Pop"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Kool-Aid"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "100% Juice"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Drinks in boxes/pouches"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Juice drinks (punch, cocktail)"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Sweet tea"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Gatorade"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Energy drinks"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
                     "en": "None of these"
                 },
-                "value": 9
+                "value": "9"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": true,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

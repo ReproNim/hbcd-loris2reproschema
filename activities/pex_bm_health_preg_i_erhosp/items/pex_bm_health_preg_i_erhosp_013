@@ -38,45 +38,48 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[72] of pex_bm_health_preg_i_erhosp"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_erhosp_013"
     },
     "question": {
-        "en": "Have you been <b>admitted</b> to the hospital since your last menstrual period on [screening_arm_1][setup_lmp]?"
+        "en": "Have you been &lt;b&gt;admitted&lt;/b&gt; to the hospital since your last menstrual period on [screening_arm_1][setup_lmp]?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Yes"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "No"
                 },
-                "value": 0
+                "value": "0"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

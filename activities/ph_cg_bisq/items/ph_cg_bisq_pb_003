@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[13] of ph_cg_bisq"
-    },
     "prefLabel": {
         "en": "ph_cg_bisq_pb_003"
     },
@@ -51,68 +48,74 @@
         "choices": [
             {
                 "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
                     "en": "Crib"
                 },
-                "value": 1
+                "value": "1"
             },
             {
                 "name": {
                     "en": "Bassinet/infant seat"
                 },
-                "value": 2
+                "value": "2"
             },
             {
                 "name": {
                     "en": "Own bed (any size)"
                 },
-                "value": 3
+                "value": "3"
             },
             {
                 "name": {
                     "en": "Swing/stroller"
                 },
-                "value": 4
+                "value": "4"
             },
             {
                 "name": {
                     "en": "Caregiver's bed"
                 },
-                "value": 5
+                "value": "5"
             },
             {
                 "name": {
                     "en": "Caregiver's arms"
                 },
-                "value": 6
+                "value": "6"
             },
             {
                 "name": {
                     "en": "Co-sleeper (attached to parent's bed)"
                 },
-                "value": 7
+                "value": "7"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": 8
+                "value": "8"
             },
             {
                 "name": {
-                    "en": "Don't know"
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
-                "value": 999
+                "value": "999"
             },
             {
                 "name": {
-                    "en": "Decline to answer"
+                    "en": "<font color=\"gray\">Decline to answer</font>"
                 },
-                "value": 777
+                "value": "777"
             }
         ],
         "multipleChoice": false,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

@@ -38,9 +38,6 @@
             "value": "Unchanged"
         }
     ],
-    "description": {
-        "en": "Q[483] of mri_ra_chkl_data"
-    },
     "prefLabel": {
         "en": "mri_ra_chkl_data_Validity"
     },
@@ -48,9 +45,18 @@
         "en": "Validity of mri_ra_chkl_data"
     },
     "responseOptions": {
-        "choices": [],
+        "choices": [
+            {
+                "name": {
+                    "en": "No valid choices"
+                },
+                "value": null
+            }
+        ],
         "multipleChoice": false,
-        "valueType": []
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "text"
