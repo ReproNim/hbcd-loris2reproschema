@@ -1,0 +1,113 @@
+{
+    "id": "mh_cg_cbq_011",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_cbq_011"
+    },
+    "question": {
+        "en": "Is afraid of burglars or the &quot;boogie man&quot;."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Extremely untrue of your child"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "Quite untrue of your child"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "Slightly untrue of your child"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "Neither true nor false of your child"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "Slightly true of your child"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "Quite true of your child"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "Extremly true of your child"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": "555"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

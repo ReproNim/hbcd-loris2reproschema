@@ -1,0 +1,94 @@
+{
+    "id": "ncl_ch_nbtb_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_ch_nbtb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_ch_nbtb_Date_taken",
+            "items/ncl_ch_nbtb_Candidate_Age",
+            "items/ncl_ch_nbtb_Window_Difference",
+            "items/ncl_ch_nbtb_Examiner",
+            "items/ncl_ch_nbtb_timestamp_start",
+            "items/ncl_ch_nbtb_timestamp_stop",
+            "items/ncl_ch_nbtb_Duration",
+            "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_before",
+            "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_after",
+            "items/ncl_ch_nbtb_Validity",
+            "items/ncl_ch_nbtb_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_ch_nbtb_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Date_taken"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Window_Difference"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Examiner"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_timestamp_start"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Duration"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_before",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_NIH_baby_toolbox_participant_before"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_after",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_NIH_baby_toolbox_participant_after"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Validity"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

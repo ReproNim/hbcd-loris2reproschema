@@ -1,0 +1,119 @@
+{
+    "id": "ph_cg_inq_003_i_01_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_inq_003_i_01_i_01"
+    },
+    "question": {
+        "en": "Started formula in days:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": "0"
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,570 @@
+{
+    "id": "mh_cg_erica_fcm_3_7m_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_fcm_3_7m_total_score_page1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_fcm_3_7m_total_score_cameras_page1"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_cg_erica_fcm_3_7m_total_score_page2"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_erica_fcm_3_7m"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_erica_fcm_3_7m_Date_taken",
+            "items/mh_cg_erica_fcm_3_7m_Examiner",
+            "items/mh_cg_erica_fcm_3_7m_timestamp_start",
+            "items/mh_cg_erica_fcm_3_7m_timestamp_stop",
+            "items/mh_cg_erica_fcm_3_7m_Duration",
+            "items/mh_cg_erica_fcm_3_7m_002",
+            "items/mh_cg_erica_fcm_3_7m_003",
+            "items/mh_cg_erica_fcm_3_7m_004_date",
+            "items/mh_cg_erica_fcm_3_7m_004_date_status",
+            "items/mh_cg_erica_fcm_3_7m_005",
+            "items/mh_cg_erica_fcm_3_7m_adm_001",
+            "items/mh_cg_erica_fcm_3_7m_adm_002",
+            "items/mh_cg_erica_fcm_3_7m_adm_003",
+            "items/mh_cg_erica_fcm_3_7m_adm_004",
+            "items/mh_cg_erica_fcm_3_7m_adm_005",
+            "items/mh_cg_erica_fcm_3_7m_adm_006",
+            "items/mh_cg_erica_fcm_3_7m_adm_007",
+            "items/mh_cg_erica_fcm_3_7m_adm_008",
+            "items/mh_cg_erica_fcm_3_7m_adm_009",
+            "items/mh_cg_erica_fcm_3_7m_adm_010",
+            "items/mh_cg_erica_fcm_3_7m_adm_011",
+            "items/mh_cg_erica_fcm_3_7m_adm_012",
+            "items/mh_cg_erica_fcm_3_7m_cam_001",
+            "items/mh_cg_erica_fcm_3_7m_cam_002",
+            "items/mh_cg_erica_fcm_3_7m_cam_003",
+            "items/mh_cg_erica_fcm_3_7m_cam_004",
+            "items/mh_cg_erica_fcm_3_7m_cam_005",
+            "items/mh_cg_erica_fcm_3_7m_a_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_b_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_c_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_d_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_e_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_f_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_g_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_h_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_i_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_j_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_k_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_l_raw_page1",
+            "items/mh_cg_erica_fcm_3_7m_total_score_page1",
+            "items/mh_cg_erica_fcm_3_7m_flag_administration_message_page1",
+            "items/mh_cg_erica_fcm_3_7m_a_raw_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_b_raw_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_c_raw_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_d_raw_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_e_raw_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_total_score_cameras_page1",
+            "items/mh_cg_erica_fcm_3_7m_flag_cameras_message_page1",
+            "items/mh_cg_erica_fcm_3_7m_006",
+            "items/mh_cg_erica_fcm_3_7m_007",
+            "items/mh_cg_erica_fcm_3_7m_008",
+            "items/mh_cg_erica_fcm_3_7m_009",
+            "items/mh_cg_erica_fcm_3_7m_fam_001",
+            "items/mh_cg_erica_fcm_3_7m_fam_002",
+            "items/mh_cg_erica_fcm_3_7m_fam_003",
+            "items/mh_cg_erica_fcm_3_7m_fam_004",
+            "items/mh_cg_erica_fcm_3_7m_fam_005",
+            "items/mh_cg_erica_fcm_3_7m_fam_006",
+            "items/mh_cg_erica_fcm_3_7m_fam_007",
+            "items/mh_cg_erica_fcm_3_7m_fam_008",
+            "items/mh_cg_erica_fcm_3_7m_fam_009",
+            "items/mh_cg_erica_fcm_3_7m_fam_010",
+            "items/mh_cg_erica_fcm_3_7m_a_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_b_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_c_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_d_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_e_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_f_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_g_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_h_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_i_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_j_raw_page2",
+            "items/mh_cg_erica_fcm_3_7m_total_score_page2",
+            "items/mh_cg_erica_fcm_3_7m_flag_message_page2",
+            "items/mh_cg_erica_fcm_3_7m_010",
+            "items/mh_cg_erica_fcm_3_7m_Validity",
+            "items/mh_cg_erica_fcm_3_7m_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_Examiner"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_Duration"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_004_date",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_004_date"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_004_date_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_004_date_status"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_006"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_007"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_008"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_009"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_010"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_011"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_adm_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_adm_012"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_cam_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_cam_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_cam_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_cam_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_cam_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_cam_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_cam_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_cam_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_cam_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_cam_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_a_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_a_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_b_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_b_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_c_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_c_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_d_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_d_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_e_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_e_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_f_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_f_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_g_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_g_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_h_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_h_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_i_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_i_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_j_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_j_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_k_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_k_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_l_raw_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_l_raw_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_total_score_page1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_total_score_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_flag_administration_message_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_flag_administration_message_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_a_raw_cameras_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_a_raw_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_b_raw_cameras_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_b_raw_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_c_raw_cameras_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_c_raw_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_d_raw_cameras_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_d_raw_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_e_raw_cameras_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_e_raw_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_total_score_cameras_page1",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_total_score_cameras_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_flag_cameras_message_page1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_flag_cameras_message_page1"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_006"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_007"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_008"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_009"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_001"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_002"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_003"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_004"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_005"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_006"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_007"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_008"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_009"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_fam_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_fam_010"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_a_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_a_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_b_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_b_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_c_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_c_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_d_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_d_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_e_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_e_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_f_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_f_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_g_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_g_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_h_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_h_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_i_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_i_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_j_raw_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_j_raw_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_total_score_page2",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_total_score_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_flag_message_page2",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_flag_message_page2"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_010"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_fcm_3_7m_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_fcm_3_7m_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

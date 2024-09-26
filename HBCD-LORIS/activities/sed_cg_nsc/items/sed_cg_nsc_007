@@ -1,0 +1,89 @@
+{
+    "id": "sed_cg_nsc_007",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_nsc_007"
+    },
+    "question": {
+        "en": "&lt;div class=&quot;rich-text-field-label&quot;&gt;&lt;p&gt;Have &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;em&gt;you&lt;/em&gt;&lt;/span&gt; ever called or summoned the police for assistance and the police either did not respond, responded too late, or responded inappropriately?&lt;/p&gt;&lt;/div&gt;"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "0"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

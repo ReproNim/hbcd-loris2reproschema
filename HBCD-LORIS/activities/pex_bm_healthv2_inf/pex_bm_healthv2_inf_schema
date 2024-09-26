@@ -1,0 +1,654 @@
+{
+    "id": "pex_bm_healthv2_inf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_healthv2_inf_Date_taken",
+            "items/pex_bm_healthv2_inf_Candidate_Age",
+            "items/pex_bm_healthv2_inf_Window_Difference",
+            "items/pex_bm_healthv2_inf_Examiner",
+            "items/pex_bm_healthv2_inf_lang",
+            "items/pex_bm_healthv2_inf_dtt",
+            "items/pex_bm_healthv2_inf_timestamp_start",
+            "items/pex_bm_healthv2_inf_timestamp_stop",
+            "items/pex_bm_healthv2_inf_Duration",
+            "items/pex_bm_healthv2_inf_001_i_01",
+            "items/pex_bm_healthv2_inf_001_i_02",
+            "items/pex_bm_healthv2_inf_001_i_dk",
+            "items/pex_bm_healthv2_inf_002",
+            "items/pex_bm_healthv2_inf_002_i_dk",
+            "items/pex_bm_healthv2_inf_002_i_01",
+            "items/pex_bm_healthv2_inf_004_i_01",
+            "items/pex_bm_healthv2_inf_004",
+            "items/pex_bm_healthv2_inf_004_i_dk",
+            "items/pex_bm_healthv2_inf_007",
+            "items/pex_bm_healthv2_inf_008",
+            "items/pex_bm_healthv2_inf_008_i_01",
+            "items/pex_bm_healthv2_inf_009",
+            "items/pex_bm_healthv2_inf_005",
+            "items/pex_bm_healthv2_inf_005_i_01",
+            "items/pex_bm_healthv2_inf_005_i_dk",
+            "items/pex_bm_healthv2_inf_010",
+            "items/pex_bm_healthv2_inf_010_i_01",
+            "items/pex_bm_healthv2_inf_006",
+            "items/pex_bm_healthv2_inf_i_meds_001",
+            "items/pex_bm_healthv2_inf_i_meds_002",
+            "items/pex_bm_healthv2_inf_i_meds_002_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_003",
+            "items/pex_bm_healthv2_inf_i_meds_003_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_003_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_003_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_003_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_004",
+            "items/pex_bm_healthv2_inf_i_meds_004_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_004_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_004_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_004_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_005",
+            "items/pex_bm_healthv2_inf_i_meds_005_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_005_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_005_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_005_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_006",
+            "items/pex_bm_healthv2_inf_i_meds_006_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_006_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_006_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_006_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_007",
+            "items/pex_bm_healthv2_inf_i_meds_007_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_007_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_007_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_007_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_008",
+            "items/pex_bm_healthv2_inf_i_meds_009",
+            "items/pex_bm_healthv2_inf_i_meds_009_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_010",
+            "items/pex_bm_healthv2_inf_i_meds_010_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_010_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_010_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_010_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_011",
+            "items/pex_bm_healthv2_inf_i_meds_011_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_011_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_011_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_011_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_012",
+            "items/pex_bm_healthv2_inf_i_meds_012_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_012_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_012_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_012_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_013",
+            "items/pex_bm_healthv2_inf_i_meds_013_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_013_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_013_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_013_i_02",
+            "items/pex_bm_healthv2_inf_i_meds_014",
+            "items/pex_bm_healthv2_inf_i_meds_014_i_dk",
+            "items/pex_bm_healthv2_inf_i_meds_014_i_01",
+            "items/pex_bm_healthv2_inf_i_meds_014_i_01_dk",
+            "items/pex_bm_healthv2_inf_i_meds_014_i_02",
+            "items/pex_bm_healthv2_inf_011",
+            "items/pex_bm_healthv2_inf_012",
+            "items/pex_bm_healthv2_inf_016",
+            "items/pex_bm_healthv2_inf_016_i_01",
+            "items/pex_bm_healthv2_inf_017",
+            "items/pex_bm_healthv2_inf_Validity",
+            "items/pex_bm_healthv2_inf_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Candidate_Age"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Window_Difference"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Examiner"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_timestamp_stop"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Duration"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_001_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_001_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_001_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_001_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_002"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_002_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_002_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_004"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_004_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_004_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_007"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_008"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_008_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_009"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_005"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_005_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_005_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_005_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_010"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_010_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_006"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_001"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_002"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_002_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_002_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_003"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_003_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_003_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_003_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_003_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_003_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_003_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_003_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_004"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_004_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_004_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_004_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_004_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_004_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_005"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_005_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_005_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_005_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_005_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_005_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_005_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_006"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_006_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_006_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_006_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_006_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_007"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_007_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_007_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_007_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_007_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_007_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_007_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_008"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_009"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_009_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_009_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_010"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_010_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_010_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_010_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_010_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_010_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_010_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_011"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_011_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_011_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_011_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_011_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_011_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_011_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_011_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_011_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_012"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_012_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_012_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_012_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_012_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_012_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_012_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_012_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_012_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_013"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_013_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_013_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_013_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_013_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_013_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_013_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_013_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_013_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_014"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_014_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_014_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_014_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_014_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_014_i_01_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_014_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_i_meds_014_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_i_meds_014_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_011"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_012"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_016"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_016_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_016_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_017"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Validity"
+            },
+            {
+                "isAbout": "items/pex_bm_healthv2_inf_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_healthv2_inf_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

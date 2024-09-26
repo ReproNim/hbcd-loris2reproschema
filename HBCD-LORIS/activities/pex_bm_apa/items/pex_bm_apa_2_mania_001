@@ -1,0 +1,107 @@
+{
+    "id": "pex_bm_apa_2_mania_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_apa_2_mania_001"
+    },
+    "question": {
+        "en": "Question 1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "I do not feel happier or more cheerful than usual"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "I occasionally feel happier than usual"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "I often feel happier than usual"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "I feel happier or more cheerful than usual most of the time"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "I feel happier or more cheerful than usual all of the time."
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

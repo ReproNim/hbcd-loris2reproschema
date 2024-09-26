@@ -1,0 +1,161 @@
+{
+    "id": "mh_ch_bhvobs_important_value_choice_1_page2",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_bhvobs_important_value_choice_1_page2"
+    },
+    "question": {
+        "en": "Value Choice 1:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "To be a leader"
+                },
+                "value": "to_be_a_leader"
+            },
+            {
+                "name": {
+                    "en": "To be emotionally independent (not clingy)"
+                },
+                "value": "to_be_emotionally_independent_not_clingy"
+            },
+            {
+                "name": {
+                    "en": "To be self-sufficient"
+                },
+                "value": "to_be_self-sufficient"
+            },
+            {
+                "name": {
+                    "en": "To have high self-esteem"
+                },
+                "value": "to_have_high_self-esteem"
+            },
+            {
+                "name": {
+                    "en": "To be honest"
+                },
+                "value": "to_be_honest"
+            },
+            {
+                "name": {
+                    "en": "To be polite and respectful"
+                },
+                "value": "to_be_polite_and_respectful"
+            },
+            {
+                "name": {
+                    "en": "To be obedient"
+                },
+                "value": "to_be_obedient"
+            },
+            {
+                "name": {
+                    "en": "To have good self-control"
+                },
+                "value": "to_have_good_self-control"
+            },
+            {
+                "name": {
+                    "en": "To have a calm temperament"
+                },
+                "value": "to_have_a_calm_temperament"
+            },
+            {
+                "name": {
+                    "en": "To be loving and affectionate"
+                },
+                "value": "to_be_loving_and_affectionate"
+            },
+            {
+                "name": {
+                    "en": "To be kind and compassionate to others"
+                },
+                "value": "to_be_kind_and_compassionate_to_others"
+            },
+            {
+                "name": {
+                    "en": "To be outgoing and sociable"
+                },
+                "value": "to_be_outgoing_and_sociable"
+            },
+            {
+                "name": {
+                    "en": "To work hard at school"
+                },
+                "value": "to_work_hard_at_school"
+            },
+            {
+                "name": {
+                    "en": "To be persistent"
+                },
+                "value": "to_be_persistent"
+            },
+            {
+                "name": {
+                    "en": "To be curious"
+                },
+                "value": "to_be_curious"
+            },
+            {
+                "name": {
+                    "en": "Blank(Other)"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,95 @@
+{
+    "id": "ncl_ch_di_fev2_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_di_fev2_002"
+    },
+    "question": {
+        "en": "Select one from a dropdown menu:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Recall was 2 min"
+                },
+                "value": "recall_was_2"
+            },
+            {
+                "name": {
+                    "en": "Recall was less than 2 because child recalled all target actions"
+                },
+                "value": "Recall_was_less_child_recalled"
+            },
+            {
+                "name": {
+                    "en": "Recall was less than 2 min because child became uninterested"
+                },
+                "value": "recall_was_less_uninterested"
+            },
+            {
+                "name": {
+                    "en": "Recall was less than 2 min because child became distressed"
+                },
+                "value": "recall_was_less_distressed"
+            },
+            {
+                "name": {
+                    "en": "Recall was more than 2 min"
+                },
+                "value": "recall_was_more_2"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

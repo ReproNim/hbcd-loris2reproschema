@@ -1,0 +1,137 @@
+{
+    "id": "nt_ch_sens_i_qtn_3_beh_005",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Novel Tech"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_3_beh_005"
+    },
+    "question": {
+        "en": "How much time (in total) do you estimate your infant slept last night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "More than 12 hours"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "11-12 hours"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "10-11 hours"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "9-10 hours"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "8-9 hours"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "7-8 hours"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "6-7 hours"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "5-6 hours"
+                },
+                "value": "8"
+            },
+            {
+                "name": {
+                    "en": "4-5 hours"
+                },
+                "value": "9"
+            },
+            {
+                "name": {
+                    "en": "less than 4 hours"
+                },
+                "value": "10"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

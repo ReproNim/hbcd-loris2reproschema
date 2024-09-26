@@ -1,0 +1,137 @@
+{
+    "id": "mh_ch_labtab_007",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_labtab_007"
+    },
+    "question": {
+        "en": "*Gender Identity: What terms best express how you describe your gender identity? (Check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Man"
+                },
+                "value": "man"
+            },
+            {
+                "name": {
+                    "en": "Woman"
+                },
+                "value": "woman"
+            },
+            {
+                "name": {
+                    "en": "Non-binary"
+                },
+                "value": "non_binary"
+            },
+            {
+                "name": {
+                    "en": "Transgender man"
+                },
+                "value": "transgender_man"
+            },
+            {
+                "name": {
+                    "en": "Transgender woman"
+                },
+                "value": "transgender_woman"
+            },
+            {
+                "name": {
+                    "en": "Genderqueer"
+                },
+                "value": "genderqueer"
+            },
+            {
+                "name": {
+                    "en": "Genderfluid"
+                },
+                "value": "genderfluid"
+            },
+            {
+                "name": {
+                    "en": "Gender variant"
+                },
+                "value": "gender_variant"
+            },
+            {
+                "name": {
+                    "en": "Questioning or unsure of my gender identity"
+                },
+                "value": "questioning_or_unsure_of_my_gender_identity"
+            },
+            {
+                "name": {
+                    "en": "None of these describe me"
+                },
+                "value": "none_of_these_describe_me"
+            },
+            {
+                "name": {
+                    "en": "Don\\'t know"
+                },
+                "value": "don't_know"
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": "decline_to_answer"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,122 @@
+{
+    "id": "sed_bm_nbhsaf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_nbhsaf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_nbhsaf_Date_taken",
+            "items/sed_bm_nbhsaf_Candidate_Age",
+            "items/sed_bm_nbhsaf_Window_Difference",
+            "items/sed_bm_nbhsaf_Examiner",
+            "items/sed_bm_nbhsaf_lang",
+            "items/sed_bm_nbhsaf_dtt",
+            "items/sed_bm_nbhsaf_timestamp_start",
+            "items/sed_bm_nbhsaf_timestamp_stop",
+            "items/sed_bm_nbhsaf_Duration",
+            "items/sed_bm_nbhsaf_location",
+            "items/sed_bm_nbhsaf_001",
+            "items/sed_bm_nbhsaf_002",
+            "items/sed_bm_nbhsaf_003",
+            "items/sed_bm_nbhsaf_Validity",
+            "items/sed_bm_nbhsaf_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Examiner"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Duration"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_location"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_001"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_002"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_003"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Validity"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_nbhsaf_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

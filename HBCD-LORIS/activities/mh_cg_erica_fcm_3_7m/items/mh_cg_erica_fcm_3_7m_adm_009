@@ -1,0 +1,77 @@
+{
+    "id": "mh_cg_erica_fcm_3_7m_adm_009",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_erica_fcm_3_7m_adm_009"
+    },
+    "question": {
+        "en": "9. Examiner correctly manages caregiver/child distress per the 'Managing Distress' protocol: (1) does NOT interrupt for distress when an interruption is not indicated (e.g., caregiver is managing child's upset, it is not escalating, child is not inconsolably or excessively distressed) and/or (2) initiates interruption per protocol in a timely manner when it is indicated (e.g., child is crying inconsolably and not responding to caregiver attempts to soothe, caregiver frustration is escalating to rough handling and/or threats of physical punishment). If no distress is displayed, score as '1.'"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

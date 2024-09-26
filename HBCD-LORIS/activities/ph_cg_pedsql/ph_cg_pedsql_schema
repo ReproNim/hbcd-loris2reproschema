@@ -1,0 +1,262 @@
+{
+    "id": "ph_cg_pedsql_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_pedsql"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_pedsql_Date_taken",
+            "items/ph_cg_pedsql_Candidate_Age",
+            "items/ph_cg_pedsql_Window_Difference",
+            "items/ph_cg_pedsql_Examiner",
+            "items/ph_cg_pedsql_lang",
+            "items/ph_cg_pedsql_dtt",
+            "items/ph_cg_pedsql_timestamp_start",
+            "items/ph_cg_pedsql_timestamp_stop",
+            "items/ph_cg_pedsql_Duration",
+            "items/ph_cg_pedsql_location",
+            "items/ph_cg_pedsql_001",
+            "items/ph_cg_pedsql_002",
+            "items/ph_cg_pedsql_003",
+            "items/ph_cg_pedsql_004",
+            "items/ph_cg_pedsql_005",
+            "items/ph_cg_pedsql_006",
+            "items/ph_cg_pedsql_007",
+            "items/ph_cg_pedsql_008",
+            "items/ph_cg_pedsql_009",
+            "items/ph_cg_pedsql_010",
+            "items/ph_cg_pedsql_011",
+            "items/ph_cg_pedsql_012",
+            "items/ph_cg_pedsql_013",
+            "items/ph_cg_pedsql_instr04",
+            "items/ph_cg_pedsql_014",
+            "items/ph_cg_pedsql_015",
+            "items/ph_cg_pedsql_016",
+            "items/ph_cg_pedsql_017",
+            "items/ph_cg_pedsql_018",
+            "items/ph_cg_pedsql_instr06",
+            "items/ph_cg_pedsql_019",
+            "items/ph_cg_pedsql_020",
+            "items/ph_cg_pedsql_021",
+            "items/ph_cg_pedsql_Validity",
+            "items/ph_cg_pedsql_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_pedsql_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Date_taken"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Window_Difference"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Examiner"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Duration"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_location"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_001"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_002"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_003"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_004"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_005"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_006"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_007"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_008"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_009"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_010"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_011"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_012"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_013"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_instr04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_instr04"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_014"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_015"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_016"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_017"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_018"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_instr06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_instr06"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_019",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_019"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_020",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_020"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_021",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_021"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Validity"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

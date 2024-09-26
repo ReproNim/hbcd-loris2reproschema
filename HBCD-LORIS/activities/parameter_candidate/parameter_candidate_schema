@@ -1,0 +1,31 @@
+{
+    "id": "parameter_candidate_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "parameter_candidate"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/initial_edc",
+            "items/family_pregnancyID"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/initial_edc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "initial_edc"
+            },
+            {
+                "isAbout": "items/family_pregnancyID",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "family_pregnancyID"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

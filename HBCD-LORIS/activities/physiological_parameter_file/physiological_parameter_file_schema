@@ -1,0 +1,24 @@
+{
+    "id": "physiological_parameter_file_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "physiological_parameter_file"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/HEDVersion"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/HEDVersion",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "HEDVersion"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

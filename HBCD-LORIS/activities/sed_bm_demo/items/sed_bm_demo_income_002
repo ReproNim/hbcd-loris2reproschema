@@ -1,0 +1,137 @@
+{
+    "id": "sed_bm_demo_income_002",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_income_002"
+    },
+    "question": {
+        "en": "Which of these categories best describes your TOTAL COMBINED HOUSEHOLD INCOME for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relative (include child payments and alimony), and so on."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Less than $10,000"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "$10,000 through $14,999"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "$15,000 through $19,999"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "$20,000 through $24,999"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": "8"
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": "9"
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater"
+                },
+                "value": "10"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

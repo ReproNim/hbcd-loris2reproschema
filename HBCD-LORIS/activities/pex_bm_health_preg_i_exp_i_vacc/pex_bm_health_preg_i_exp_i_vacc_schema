@@ -1,0 +1,206 @@
+{
+    "id": "pex_bm_health_preg_i_exp_i_vacc_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_exp_i_vacc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_health_preg_i_exp_i_vacc_Date_taken",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Candidate_Age",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Window_Difference",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Examiner",
+            "items/pex_bm_health_preg_i_exp_i_vacc_lang",
+            "items/pex_bm_health_preg_i_exp_i_vacc_dtt",
+            "items/pex_bm_health_preg_i_exp_i_vacc_timestamp_start",
+            "items/pex_bm_health_preg_i_exp_i_vacc_timestamp_stop",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Duration",
+            "items/pex_bm_health_preg_i_exp_i_vacc_001",
+            "items/pex_bm_health_preg_i_exp_i_vacc_002",
+            "items/pex_bm_health_preg_i_exp_i_vacc_003",
+            "items/pex_bm_health_preg_i_exp_i_vacc_004",
+            "items/pex_bm_health_preg_i_exp_i_vacc_005",
+            "items/pex_bm_health_preg_i_exp_i_vacc_006",
+            "items/pex_bm_health_preg_i_exp_i_vacc_007",
+            "items/pex_bm_health_preg_i_exp_i_vacc_008",
+            "items/pex_bm_health_preg_i_exp_i_vacc_009",
+            "items/pex_bm_health_preg_i_exp_i_vacc_010",
+            "items/pex_bm_health_preg_i_exp_i_vacc_011",
+            "items/pex_bm_health_preg_i_exp_i_vacc_012",
+            "items/pex_bm_health_preg_i_exp_i_vacc_013",
+            "items/pex_bm_health_preg_i_exp_i_vacc_014",
+            "items/pex_bm_health_preg_i_exp_i_vacc_015",
+            "items/pex_bm_health_preg_i_exp_i_vacc_016",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Validity",
+            "items/pex_bm_health_preg_i_exp_i_vacc_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Date_taken"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Candidate_Age"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Window_Difference"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Examiner"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_timestamp_stop"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Duration"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_007"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_009"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_010"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_012"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_013"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_014"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_015"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_016"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Validity"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

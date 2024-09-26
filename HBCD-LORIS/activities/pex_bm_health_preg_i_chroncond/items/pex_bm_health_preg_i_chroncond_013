@@ -1,0 +1,155 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_013",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Pregnancy/Exposure Including Substance"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_013"
+    },
+    "question": {
+        "en": "At any time since your last menstrual period ([screening_arm_1][setup_lmp]), have you been told that you have any of the following?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gonorrhea"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "Chlamydia"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "Herpes"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "HPV"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "Syphilis"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "CMV"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "Group B Strep"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "Hepatitis A"
+                },
+                "value": "8"
+            },
+            {
+                "name": {
+                    "en": "Hepatitis B"
+                },
+                "value": "9"
+            },
+            {
+                "name": {
+                    "en": "Hepatitis C"
+                },
+                "value": "10"
+            },
+            {
+                "name": {
+                    "en": "HIV"
+                },
+                "value": "11"
+            },
+            {
+                "name": {
+                    "en": "Toxoplasmosis"
+                },
+                "value": "12"
+            },
+            {
+                "name": {
+                    "en": "Urinary Tract Infection"
+                },
+                "value": "13"
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": "14"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

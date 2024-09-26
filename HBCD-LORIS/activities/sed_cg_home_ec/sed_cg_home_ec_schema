@@ -1,0 +1,254 @@
+{
+    "id": "sed_cg_home_ec_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_cg_home_ec_total_score"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_home_ec"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_home_ec_Date_taken",
+            "items/sed_cg_home_ec_Candidate_Age",
+            "items/sed_cg_home_ec_Window_Difference",
+            "items/sed_cg_home_ec_Examiner",
+            "items/sed_cg_home_ec_lang",
+            "items/sed_cg_home_ec_dtt",
+            "items/sed_cg_home_ec_timestamp_start",
+            "items/sed_cg_home_ec_timestamp_stop",
+            "items/sed_cg_home_ec_Duration",
+            "items/sed_cg_home_ec_location",
+            "items/sed_cg_home_ec_001",
+            "items/sed_cg_home_ec_002",
+            "items/sed_cg_home_ec_003",
+            "items/sed_cg_home_ec_004",
+            "items/sed_cg_home_ec_005",
+            "items/sed_cg_home_ec_006",
+            "items/sed_cg_home_ec_007",
+            "items/sed_cg_home_ec_008",
+            "items/sed_cg_home_ec_009",
+            "items/sed_cg_home_ec_010",
+            "items/sed_cg_home_ec_011",
+            "items/sed_cg_home_ec_012",
+            "items/sed_cg_home_ec_013",
+            "items/sed_cg_home_ec_014",
+            "items/sed_cg_home_ec_015",
+            "items/sed_cg_home_ec_016",
+            "items/sed_cg_home_ec_017",
+            "items/sed_cg_home_ec_018",
+            "items/sed_cg_home_ec_Validity",
+            "items/sed_cg_home_ec_Administration",
+            "items/sed_cg_home_ec_total_cognitive_stimulation",
+            "items/sed_cg_home_ec_total_emotional_support",
+            "items/sed_cg_home_ec_total_score"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_home_ec_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_location"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_001"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_002"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_003"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_004"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_005"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_006"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_007"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_008"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_009"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_010"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_011"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_012"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_013"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_014",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_014"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_015",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_015"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_016",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_016"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_017",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_017"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_018",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_018"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_total_cognitive_stimulation",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_total_cognitive_stimulation"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_total_emotional_support",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_total_emotional_support"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_total_score"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

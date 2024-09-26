@@ -1,0 +1,1340 @@
+{
+    "id": "sed_cg_incarc_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_incarc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_incarc_Date_taken",
+            "items/sed_cg_incarc_Candidate_Age",
+            "items/sed_cg_incarc_Window_Difference",
+            "items/sed_cg_incarc_Examiner",
+            "items/sed_cg_incarc_dtt",
+            "items/sed_cg_incarc_timestamp_start",
+            "items/sed_cg_incarc_timestamp_stop",
+            "items/sed_cg_incarc_Duration",
+            "items/sed_cg_incarc_location",
+            "items/sed_cg_incarc_bm_i_during_001",
+            "items/sed_cg_incarc_bm_i_during_002_i_01",
+            "items/sed_cg_incarc_bm_i_during_002_i_dk",
+            "items/sed_cg_incarc_bm_i_during_003",
+            "items/sed_cg_incarc_bm_i_during_004",
+            "items/sed_cg_incarc_bm_i_during_005",
+            "items/sed_cg_incarc_bm_i_during_005_i_01",
+            "items/sed_cg_incarc_bm_i_during_005_i_01_i_dk",
+            "items/sed_cg_incarc_bm_i_during_005_i_02",
+            "items/sed_cg_incarc_bm_i_during_005_i_02_i_01",
+            "items/sed_cg_incarc_bm_i_during_005_i_02_i_dk",
+            "items/sed_cg_incarc_fath_i_during_001",
+            "items/sed_cg_incarc_fath_i_during_002_i_01",
+            "items/sed_cg_incarc_fath_i_during_002_i_dk",
+            "items/sed_cg_incarc_fath_i_during_003",
+            "items/sed_cg_incarc_fath_i_during_004",
+            "items/sed_cg_incarc_fath_i_during_005",
+            "items/sed_cg_incarc_fath_i_during_005_i_01",
+            "items/sed_cg_incarc_fath_i_during_005_i_01_i_dk",
+            "items/sed_cg_incarc_fath_i_during_005_i_02",
+            "items/sed_cg_incarc_fath_i_during_005_i_02_i_01",
+            "items/sed_cg_incarc_fath_i_during_005_i_02_i_dk",
+            "items/sed_cg_incarc_post_001",
+            "items/sed_cg_incarc_post_002",
+            "items/sed_cg_incarc_bm_i_post_001_i_01",
+            "items/sed_cg_incarc_bm_i_post_001_i_02",
+            "items/sed_cg_incarc_bm_i_post_001_i_02_dk",
+            "items/sed_cg_incarc_bm_i_post_001_i_03",
+            "items/sed_cg_incarc_bm_i_post_001_i_04",
+            "items/sed_cg_incarc_bm_i_post_001_i_05_i_01",
+            "items/sed_cg_incarc_bm_i_post_001_i_05_i_02",
+            "items/sed_cg_incarc_bm_i_post_001_i_05_i_dk",
+            "items/sed_cg_incarc_bm_i_post_002_i_01",
+            "items/sed_cg_incarc_bm_i_post_002_i_02",
+            "items/sed_cg_incarc_bm_i_post_002_i_02_i_dk",
+            "items/sed_cg_incarc_bm_i_post_002_i_05_i_01",
+            "items/sed_cg_incarc_bm_i_post_002_i_05_i_02",
+            "items/sed_cg_incarc_bm_i_post_002_i_05_i_dk",
+            "items/sed_cg_incarc_bm_i_post_002_i_06",
+            "items/sed_cg_incarc_bm_i_post_002_i_06_i_01",
+            "items/sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_fath_i_post_001_i_01",
+            "items/sed_cg_incarc_fath_i_post_001_i_02",
+            "items/sed_cg_incarc_fath_i_post_001_i_02_dk",
+            "items/sed_cg_incarc_fath_i_post_001_i_03",
+            "items/sed_cg_incarc_fath_i_post_001_i_04",
+            "items/sed_cg_incarc_fath_i_post_001_i_05_i_01",
+            "items/sed_cg_incarc_fath_i_post_001_i_05_i_02",
+            "items/sed_cg_incarc_fath_i_post_001_i_05_i_dk",
+            "items/sed_cg_incarc_fath_i_post_002_i_01",
+            "items/sed_cg_incarc_fath_i_post_002_i_02",
+            "items/sed_cg_incarc_fath_i_post_002_i_02_i_dk",
+            "items/sed_cg_incarc_fath_i_post_002_i_05_i_01",
+            "items/sed_cg_incarc_fath_i_post_002_i_05_i_02",
+            "items/sed_cg_incarc_fath_i_post_002_i_05_i_dk",
+            "items/sed_cg_incarc_fath_i_post_002_i_06",
+            "items/sed_cg_incarc_fath_i_post_002_i_06_i_01",
+            "items/sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_03",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_04",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01",
+            "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk",
+            "items/sed_cg_incarc_Validity",
+            "items/sed_cg_incarc_Administration",
+            "items/sed_cg_incarc_lang"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_incarc_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_location"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_001"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_002_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_002_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_003"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_004"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_during_005_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_001"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_002_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_002_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_003"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_004"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_during_005_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_post_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_post_001"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_post_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_post_002"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_lang"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

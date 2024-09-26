@@ -1,0 +1,107 @@
+{
+    "id": "mh_ch_pcx_mh_ch_pcx_arousal_before",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_pcx_mh_ch_pcx_arousal_before"
+    },
+    "question": {
+        "en": "Participant's arousal 'Before':"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "1- Deep Sleep"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "2- Light Sleep"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "3- Drowsy"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "4-Quiet Alert"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "5- Active Alert"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "6- Fussy Crying"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "7- Vigorous Crying"
+                },
+                "value": "7"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

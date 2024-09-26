@@ -1,0 +1,199 @@
+{
+    "id": "ph_ch_vs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_ch_vs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_ch_vs_Date_taken",
+            "items/ph_ch_vs_Candidate_Age",
+            "items/ph_ch_vs_Window_Difference",
+            "items/ph_ch_vs_Examiner",
+            "items/ph_ch_vs_timestamp_start",
+            "items/ph_ch_vs_timestamp_stop",
+            "items/ph_ch_vs_Duration",
+            "items/ph_ch_vs_eye_001",
+            "items/ph_ch_vs_eye_002",
+            "items/ph_ch_vs_eye_002_i_01",
+            "items/ph_ch_vs_eye_002_i_02",
+            "items/ph_ch_vs_eye_003",
+            "items/ph_ch_vs_eye_004",
+            "items/ph_ch_vs_eye_005",
+            "items/ph_ch_vs_eye_006",
+            "items/ph_ch_vs_eye_006_i_01",
+            "items/ph_ch_vs_001",
+            "items/ph_ch_vs_001_i_01",
+            "items/ph_ch_vs_001_i_02",
+            "items/ph_ch_vs_001_i_03",
+            "items/ph_ch_vs_002",
+            "items/ph_ch_vs_002_i_01",
+            "items/ph_ch_vs_002_i_02",
+            "items/ph_ch_vs_003_i_01",
+            "items/ph_ch_vs_Validity",
+            "items/ph_ch_vs_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_ch_vs_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Date_taken"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Candidate_Age"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Window_Difference"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Examiner"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_timestamp_stop"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Duration"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_001"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_002"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_002_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_002_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_003"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_004"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_005"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_006"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_eye_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_eye_006_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_001"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_001_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_001_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_001_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_001_i_03"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_002"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_002_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_002_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_002_i_02"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_003_i_01"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Validity"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

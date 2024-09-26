@@ -1,0 +1,125 @@
+{
+    "id": "mri_ra_chkl_scan_s2_slp_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "MRI"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "RA"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mri_ra_chkl_scan_s2_slp_001"
+    },
+    "question": {
+        "en": "How long did it take for the baby to fall asleep?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "0 - 5min"
+                },
+                "value": "0_5min"
+            },
+            {
+                "name": {
+                    "en": "5 - 10 min"
+                },
+                "value": "5_10min"
+            },
+            {
+                "name": {
+                    "en": "10 - 20 min"
+                },
+                "value": "10_20min"
+            },
+            {
+                "name": {
+                    "en": "20 - 30 min"
+                },
+                "value": "20_30min"
+            },
+            {
+                "name": {
+                    "en": "30 - 45 min"
+                },
+                "value": "30_45min"
+            },
+            {
+                "name": {
+                    "en": "45 min - 1 hour"
+                },
+                "value": "45_1hour"
+            },
+            {
+                "name": {
+                    "en": "1 - 2 hours"
+                },
+                "value": "1_2hours"
+            },
+            {
+                "name": {
+                    "en": "2 - 3 hours"
+                },
+                "value": "2_3hours"
+            },
+            {
+                "name": {
+                    "en": "3 hours+"
+                },
+                "value": "3hours_plus"
+            },
+            {
+                "name": {
+                    "en": "Never fell asleep"
+                },
+                "value": "never_fell_asleep"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

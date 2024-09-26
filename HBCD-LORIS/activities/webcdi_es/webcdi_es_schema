@@ -1,0 +1,129 @@
+{
+    "id": "webcdi_es_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "webcdi_es"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/webcdi_es_Date_taken",
+            "items/webcdi_es_Candidate_Age",
+            "items/webcdi_es_Window_Difference",
+            "items/webcdi_es_Examiner",
+            "items/webcdi_es_lang",
+            "items/webcdi_es_dtt",
+            "items/webcdi_es_timestamp_start",
+            "items/webcdi_es_timestamp_stop",
+            "items/webcdi_es_Duration",
+            "items/webcdi_es_age",
+            "items/webcdi_es_url",
+            "items/webcdi_es_001",
+            "items/webcdi_es_002",
+            "items/webcdi_es_completion_status",
+            "items/webcdi_es_Validity",
+            "items/webcdi_es_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/webcdi_es_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Date_taken"
+            },
+            {
+                "isAbout": "items/webcdi_es_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Candidate_Age"
+            },
+            {
+                "isAbout": "items/webcdi_es_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Window_Difference"
+            },
+            {
+                "isAbout": "items/webcdi_es_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Examiner"
+            },
+            {
+                "isAbout": "items/webcdi_es_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_lang"
+            },
+            {
+                "isAbout": "items/webcdi_es_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_dtt"
+            },
+            {
+                "isAbout": "items/webcdi_es_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_timestamp_start"
+            },
+            {
+                "isAbout": "items/webcdi_es_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_timestamp_stop"
+            },
+            {
+                "isAbout": "items/webcdi_es_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Duration"
+            },
+            {
+                "isAbout": "items/webcdi_es_age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_age"
+            },
+            {
+                "isAbout": "items/webcdi_es_url",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_url"
+            },
+            {
+                "isAbout": "items/webcdi_es_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_001"
+            },
+            {
+                "isAbout": "items/webcdi_es_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_002"
+            },
+            {
+                "isAbout": "items/webcdi_es_completion_status",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_completion_status"
+            },
+            {
+                "isAbout": "items/webcdi_es_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Validity"
+            },
+            {
+                "isAbout": "items/webcdi_es_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_es_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,257 @@
+{
+    "id": "mh_ch_pcx_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_a_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_b_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_c_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_d_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_e_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_f_raw"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "mh_ch_pcx_g_raw"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_pcx"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_ch_pcx_Date_taken",
+            "items/mh_ch_pcx_Examiner",
+            "items/mh_ch_pcx_timestamp_start",
+            "items/mh_ch_pcx_timestamp_stop",
+            "items/mh_ch_pcx_Duration",
+            "items/mh_ch_pcx_mh_ch_pcx_001",
+            "items/mh_ch_pcx_mh_ch_pcx_arousal_before",
+            "items/mh_ch_pcx_positive_affect_1",
+            "items/mh_ch_pcx_irritability_1",
+            "items/mh_ch_pcx_social_engagement_1",
+            "items/mh_ch_pcx_responsive_behavior_1",
+            "items/mh_ch_pcx_irritable_behavior_1",
+            "items/mh_ch_pcx_directive_behavior_1",
+            "items/mh_ch_pcx_connectedness_1",
+            "items/mh_ch_pcx_a_raw",
+            "items/mh_ch_pcx_flag_positive_affect_1",
+            "items/mh_ch_pcx_b_raw",
+            "items/mh_ch_pcx_flag_irritability_1",
+            "items/mh_ch_pcx_c_raw",
+            "items/mh_ch_pcx_flag_social_engagement_1",
+            "items/mh_ch_pcx_d_raw",
+            "items/mh_ch_pcx_flag_responsive_behavior_1",
+            "items/mh_ch_pcx_e_raw",
+            "items/mh_ch_pcx_flag_irritable_behavior_1",
+            "items/mh_ch_pcx_f_raw",
+            "items/mh_ch_pcx_flag_directive_behavior_1",
+            "items/mh_ch_pcx_g_raw",
+            "items/mh_ch_pcx_flag_connectedness_1",
+            "items/mh_ch_pcx_Validity",
+            "items/mh_ch_pcx_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_ch_pcx_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_Date_taken"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_Examiner"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_timestamp_stop"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_Duration"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_mh_ch_pcx_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_mh_ch_pcx_001"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_mh_ch_pcx_arousal_before",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_mh_ch_pcx_arousal_before"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_positive_affect_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_positive_affect_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_irritability_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_irritability_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_social_engagement_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_social_engagement_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_responsive_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_responsive_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_irritable_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_irritable_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_directive_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_directive_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_connectedness_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_connectedness_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_a_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_a_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_positive_affect_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_positive_affect_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_b_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_b_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_irritability_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_irritability_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_c_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_c_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_social_engagement_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_social_engagement_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_d_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_d_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_responsive_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_responsive_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_e_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_e_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_irritable_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_irritable_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_f_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_f_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_directive_behavior_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_directive_behavior_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_g_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_g_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_flag_connectedness_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_flag_connectedness_1"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_Validity"
+            },
+            {
+                "isAbout": "items/mh_ch_pcx_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_pcx_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

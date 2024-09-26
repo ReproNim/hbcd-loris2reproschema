@@ -1,0 +1,101 @@
+{
+    "id": "sed_bm_demo_work_004_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_work_004_i_01"
+    },
+    "question": {
+        "en": "Since your first study visit, did you have a job that involved at least 20 hours per week of work, that you held for at least one month?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Yes, I had 1 job that I worked for 20 hours per week for at least a month"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "Yes, I had more than one job that I worked for 20 hours per week for at least a month"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "No, I worked but none of them were at least 20 hours per week for a month"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "No, I did not work"
+                },
+                "value": "0"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

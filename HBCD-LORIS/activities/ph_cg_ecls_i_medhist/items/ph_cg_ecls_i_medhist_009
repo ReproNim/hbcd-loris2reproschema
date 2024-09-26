@@ -1,0 +1,113 @@
+{
+    "id": "ph_cg_ecls_i_medhist_009",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_009"
+    },
+    "question": {
+        "en": "How old was your child when they got their first tooth?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "< 4 months"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "4-6 months"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "7-8 months"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "9-10 months"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "11-12 months"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "> 12 months"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

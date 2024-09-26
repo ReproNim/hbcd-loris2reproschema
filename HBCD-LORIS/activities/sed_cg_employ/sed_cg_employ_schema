@@ -1,0 +1,318 @@
+{
+    "id": "sed_cg_employ_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_employ"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_employ_Date_taken",
+            "items/sed_cg_employ_Candidate_Age",
+            "items/sed_cg_employ_Window_Difference",
+            "items/sed_cg_employ_Examiner",
+            "items/sed_cg_employ_lang",
+            "items/sed_cg_employ_dtt",
+            "items/sed_cg_employ_timestamp_start",
+            "items/sed_cg_employ_timestamp_stop",
+            "items/sed_cg_employ_Duration",
+            "items/sed_cg_employ_location",
+            "items/sed_cg_employ_001",
+            "items/sed_cg_employ_001_i_01",
+            "items/sed_cg_employ_001_i_02",
+            "items/sed_cg_employ_001_i_02_i_01",
+            "items/sed_cg_employ_002",
+            "items/sed_cg_employ_003",
+            "items/sed_cg_employ_004",
+            "items/sed_cg_employ_005",
+            "items/sed_cg_employ_006",
+            "items/sed_cg_employ_007",
+            "items/sed_cg_employ_008",
+            "items/sed_cg_employ_009",
+            "items/sed_cg_employ_003_i_01",
+            "items/sed_cg_employ_010",
+            "items/sed_cg_employ_010_i_01",
+            "items/sed_cg_employ_010_i_02",
+            "items/sed_cg_employ_010_i_03",
+            "items/sed_cg_employ_010_i_04",
+            "items/sed_cg_employ_010_i_05",
+            "items/sed_cg_employ_010_i_06",
+            "items/sed_cg_employ_010_i_07",
+            "items/sed_cg_employ_010_i_08",
+            "items/sed_cg_employ_010_i_09",
+            "items/sed_cg_employ_010_i_10",
+            "items/sed_cg_employ_010_i_11",
+            "items/sed_cg_employ_010_i_12",
+            "items/sed_cg_employ_010_i_13",
+            "items/sed_cg_employ_010_i_07_i_01",
+            "items/sed_cg_employ_011",
+            "items/sed_cg_employ_011_i_01",
+            "items/sed_cg_employ_011_i_02",
+            "items/sed_cg_employ_Validity",
+            "items/sed_cg_employ_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_employ_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Duration"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_location"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_001"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_001_i_02_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_001_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_002"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_003"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_004"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_005"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_006"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_007"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_008"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_009"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_03",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_04",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_05",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_05"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_06",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_06"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_07",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_07"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_08",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_08"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_09"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_10",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_10"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_11",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_11"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_12",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_12"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_13",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_13"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_010_i_07_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_010_i_07_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_011"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_011_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_employ_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_employ_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

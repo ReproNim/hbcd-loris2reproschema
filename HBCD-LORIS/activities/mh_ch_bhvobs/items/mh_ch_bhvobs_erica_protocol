@@ -1,0 +1,107 @@
+{
+    "id": "mh_ch_bhvobs_erica_protocol",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_bhvobs_erica_protocol"
+    },
+    "question": {
+        "en": "ERICA Protocol"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "3 to 7 Month"
+                },
+                "value": "3_to_7_month"
+            },
+            {
+                "name": {
+                    "en": "7 to 9 Month"
+                },
+                "value": "7_to_9_months"
+            },
+            {
+                "name": {
+                    "en": "9 to 12 Month"
+                },
+                "value": "9_to_12_month"
+            },
+            {
+                "name": {
+                    "en": "12 to 15 Month"
+                },
+                "value": "12_to_15_month"
+            },
+            {
+                "name": {
+                    "en": "15 to 24 Month"
+                },
+                "value": "15_to_24_month"
+            },
+            {
+                "name": {
+                    "en": "24 to 36 Month"
+                },
+                "value": "24_to_36_month"
+            },
+            {
+                "name": {
+                    "en": "36 to 48 Month"
+                },
+                "value": "36_to_48_month"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,171 @@
+{
+    "id": "nt_ch_sens_i_qtn_3_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_3"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nt_ch_sens_i_qtn_3_Date_taken",
+            "items/nt_ch_sens_i_qtn_3_Candidate_Age",
+            "items/nt_ch_sens_i_qtn_3_Window_Difference",
+            "items/nt_ch_sens_i_qtn_3_Examiner",
+            "items/nt_ch_sens_i_qtn_3_lang",
+            "items/nt_ch_sens_i_qtn_3_dtt",
+            "items/nt_ch_sens_i_qtn_3_timestamp_start",
+            "items/nt_ch_sens_i_qtn_3_timestamp_stop",
+            "items/nt_ch_sens_i_qtn_3_Duration",
+            "items/nt_ch_sens_i_qtn_3_location",
+            "items/nt_ch_sens_i_qtn_3_mv_002",
+            "items/nt_ch_sens_i_qtn_3_hr_002",
+            "items/nt_ch_sens_i_qtn_3_beh_001",
+            "items/nt_ch_sens_i_qtn_3_beh_001_i_01",
+            "items/nt_ch_sens_i_qtn_3_beh_002",
+            "items/nt_ch_sens_i_qtn_3_beh_003",
+            "items/nt_ch_sens_i_qtn_3_beh_004",
+            "items/nt_ch_sens_i_qtn_3_beh_005",
+            "items/nt_ch_sens_i_qtn_3_beh_006",
+            "items/nt_ch_sens_i_qtn_3_beh_007",
+            "items/nt_ch_sens_i_qtn_3_Validity",
+            "items/nt_ch_sens_i_qtn_3_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Date_taken"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Candidate_Age"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Window_Difference"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Examiner"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_lang"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_dtt"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_timestamp_start"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_timestamp_stop"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Duration"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_location"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_mv_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_mv_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_hr_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_hr_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_001"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_001_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_001_i_01"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_003"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_004"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_005"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_006",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_006"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_beh_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_beh_007"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Validity"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

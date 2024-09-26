@@ -1,0 +1,31 @@
+{
+    "id": "admin_alert_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "admin_alert"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/admin_alert_Validity",
+            "items/admin_alert_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/admin_alert_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "admin_alert_Validity"
+            },
+            {
+                "isAbout": "items/admin_alert_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "admin_alert_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,95 @@
+{
+    "id": "ph_ch_vs_001_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_ch_vs_001_i_01"
+    },
+    "question": {
+        "en": "If no, why?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Equipment unavailable or not functioning"
+                },
+                "value": "equipment_unavailable"
+            },
+            {
+                "name": {
+                    "en": "Parent refused"
+                },
+                "value": "parent_refused"
+            },
+            {
+                "name": {
+                    "en": "Child didn\u2019t cooperate"
+                },
+                "value": "child_didnt_cooperate"
+            },
+            {
+                "name": {
+                    "en": "Child cannot see"
+                },
+                "value": "child_cannot_see"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

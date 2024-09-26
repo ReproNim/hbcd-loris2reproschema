@@ -1,0 +1,119 @@
+{
+    "id": "mh_cg_ecbq_019",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_ecbq_019"
+    },
+    "question": {
+        "en": "While in a public place, how often did your child seem afraid of large, noisy vehicles?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "Very Rarely"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "Less Than Half the Time"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "About Half the Time"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "More than Half the Time"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "Does Not Apply"
+                },
+                "value": "0"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

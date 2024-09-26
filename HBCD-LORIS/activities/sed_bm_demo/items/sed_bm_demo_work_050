@@ -1,0 +1,107 @@
+{
+    "id": "sed_bm_demo_work_050",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_work_050"
+    },
+    "question": {
+        "en": "Which of the following best describes the hours you usually work at this job or business? &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Standard Shift Definitions are:&lt;br /&gt;&lt;br /&gt;A regular daytime schedule: &lt;em&gt;this is work anytime between 6am and 6pm. &lt;/em&gt;&lt;br /&gt;&lt;br /&gt;A regular evening shift: &lt;em&gt;this is work anytime between 2pm and midnight. &lt;/em&gt;&lt;br /&gt;&lt;br /&gt;A regular night shift: &lt;em&gt;this is work anytime between 9pm and 8am. &lt;/em&gt;&lt;br /&gt;&lt;br /&gt;A rotating shift: &lt;em&gt;a work shift that changes periodically from days to evenings or nights. &lt;/em&gt;&lt;br /&gt;&lt;br /&gt;Another schedule includes: &lt;em&gt; a split shift (consisting of two distinct work periods each day), an irregular schedule arranged by the employer, or any other schedule. &lt;/em&gt;"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "A regular daytime schedule"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "A regular evening shift"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "A regular night shift"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "A rotating shift"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "Another schedule"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

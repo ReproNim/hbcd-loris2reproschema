@@ -1,0 +1,137 @@
+{
+    "id": "adm_bm_screen_adm_bm_screen_005",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "adm_bm_screen_adm_bm_screen_005"
+    },
+    "question": {
+        "en": "Total combined household income:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Less than $10,000"
+                },
+                "value": "Less_than_$10,000"
+            },
+            {
+                "name": {
+                    "en": "$10,000 through $14,999"
+                },
+                "value": "$10,000_through_$14,999"
+            },
+            {
+                "name": {
+                    "en": "$15,000 through $19,999"
+                },
+                "value": "$15,000_through_$19,999"
+            },
+            {
+                "name": {
+                    "en": "$20,000 through $24,999"
+                },
+                "value": "$20,000_through_$24,999"
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": "$25,000_through_$34,999"
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": "$35,000_through_$49,999"
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": "$50,000_through_$74,999"
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": "$75,000_through_$99,999"
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": "$100,000_through_$199,999"
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater"
+                },
+                "value": "$200,000_and_greater"
+            },
+            {
+                "name": {
+                    "en": "Don\\'t know"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

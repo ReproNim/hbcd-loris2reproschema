@@ -1,0 +1,206 @@
+{
+    "id": "adm_cg_fb_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "adm_cg_fb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/adm_cg_fb_Date_taken",
+            "items/adm_cg_fb_Candidate_Age",
+            "items/adm_cg_fb_Window_Difference",
+            "items/adm_cg_fb_Examiner",
+            "items/adm_cg_fb_lang",
+            "items/adm_cg_fb_dtt",
+            "items/adm_cg_fb_timestamp_start",
+            "items/adm_cg_fb_timestamp_stop",
+            "items/adm_cg_fb_Duration",
+            "items/adm_cg_fb_location",
+            "items/adm_cg_fb_001",
+            "items/adm_cg_fb_002",
+            "items/adm_cg_fb_003_i_01",
+            "items/adm_cg_fb_003_i_02",
+            "items/adm_cg_fb_004",
+            "items/adm_cg_fb_005",
+            "items/adm_cg_fb_006_i_01",
+            "items/adm_cg_fb_006_i_02",
+            "items/adm_cg_fb_007",
+            "items/adm_cg_fb_008",
+            "items/adm_cg_fb_009",
+            "items/adm_cg_fb_010",
+            "items/adm_cg_fb_011",
+            "items/adm_cg_fb_012",
+            "items/adm_cg_fb_013",
+            "items/adm_cg_fb_Validity",
+            "items/adm_cg_fb_Administration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/adm_cg_fb_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Date_taken"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Candidate_Age"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Window_Difference"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Examiner"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_lang"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_dtt"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_timestamp_start"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_timestamp_stop"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Duration"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_location"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_001"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_002"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_003_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_003_i_01"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_003_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_003_i_02"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_004"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_005",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_005"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_006_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_006_i_01"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_006_i_02",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_006_i_02"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_007",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_007"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_008",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_008"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_009",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_009"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_010",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_010"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_011"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_012",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_012"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_013",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_013"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Validity"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Administration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

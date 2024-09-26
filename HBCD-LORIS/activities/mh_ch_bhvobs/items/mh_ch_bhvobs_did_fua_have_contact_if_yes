@@ -1,0 +1,89 @@
+{
+    "id": "mh_ch_bhvobs_did_fua_have_contact_if_yes",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_ch_bhvobs_did_fua_have_contact_if_yes"
+    },
+    "question": {
+        "en": "If yes, please select the category that best describes the contact between FUA and study child PRIOR to the BI task?&lt;br&gt; * (e.g., passing toys during &lt;br&gt; consent/distracting child, etc.). This option should be selected for interactions of any duration."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Contact minimal and passing, no direct interaction (e.g., FUA passed child in hall)."
+                },
+                "value": "contact_minimal_and_passing"
+            },
+            {
+                "name": {
+                    "en": "FUA occasionally in the same room as the child, but no direct interaction with the child."
+                },
+                "value": "fua_occasionally_in_same_room"
+            },
+            {
+                "name": {
+                    "en": "FUA directly interacted with the child on the visit day *"
+                },
+                "value": "fua_directly_interacted_with_child"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

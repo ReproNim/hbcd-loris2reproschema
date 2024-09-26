@@ -1,0 +1,1235 @@
+{
+    "id": "HBCD-LORIS_schema",
+    "category": "reproschema:Protocol",
+    "description": {
+        "en": "HEALthy Brain and Child Development (HBCD) Study Protocol (LORIS version)"
+    },
+    "prefLabel": {
+        "en": "HBCD Protocol (LORIS)"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "../activities/ERICA_3_to_7_months/ERICA_3_to_7_months_schema",
+            "../activities/adm_bm_screen/adm_bm_screen_schema",
+            "../activities/adm_cg_fb/adm_cg_fb_schema",
+            "../activities/adm_fd_urgent/adm_fd_urgent_schema",
+            "../activities/adm_fd_visitdata/adm_fd_visitdata_schema",
+            "../activities/adm_ra_fb/adm_ra_fb_schema",
+            "../activities/admin_alert/admin_alert_schema",
+            "../activities/candidate/candidate_schema",
+            "../activities/eeg_ch_chkl/eeg_ch_chkl_schema",
+            "../activities/eeg_ch_chkl_1/eeg_ch_chkl_1_schema",
+            "../activities/eeg_ch_chkl_2/eeg_ch_chkl_2_schema",
+            "../activities/mh_cg_cbcl_i_1to5/mh_cg_cbcl_i_1to5_schema",
+            "../activities/mh_cg_cbq/mh_cg_cbq_schema",
+            "../activities/mh_cg_chaos/mh_cg_chaos_schema",
+            "../activities/mh_cg_ecbq/mh_cg_ecbq_schema",
+            "../activities/mh_cg_erica_12_15m/mh_cg_erica_12_15m_schema",
+            "../activities/mh_cg_erica_15_24m/mh_cg_erica_15_24m_schema",
+            "../activities/mh_cg_erica_24_36m/mh_cg_erica_24_36m_schema",
+            "../activities/mh_cg_erica_36_48m/mh_cg_erica_36_48m_schema",
+            "../activities/mh_cg_erica_3_7m/mh_cg_erica_3_7m_schema",
+            "../activities/mh_cg_erica_7_9m/mh_cg_erica_7_9m_schema",
+            "../activities/mh_cg_erica_9_12m/mh_cg_erica_9_12m_schema",
+            "../activities/mh_cg_erica_cons_15_24m/mh_cg_erica_cons_15_24m_schema",
+            "../activities/mh_cg_erica_cons_24_36m/mh_cg_erica_cons_24_36m_schema",
+            "../activities/mh_cg_erica_cons_36_48m/mh_cg_erica_cons_36_48m_schema",
+            "../activities/mh_cg_erica_cons_3_7m/mh_cg_erica_cons_3_7m_schema",
+            "../activities/mh_cg_erica_cons_7_9m/mh_cg_erica_cons_7_9m_schema",
+            "../activities/mh_cg_erica_fcm_3_7m/mh_cg_erica_fcm_3_7m_schema",
+            "../activities/mh_cg_erica_fcm_7_9m/mh_cg_erica_fcm_7_9m_schema",
+            "../activities/mh_cg_erica_fcm_adm_3_7m/mh_cg_erica_fcm_adm_3_7m_schema",
+            "../activities/mh_cg_erica_fcm_adm_7_9m/mh_cg_erica_fcm_adm_7_9m_schema",
+            "../activities/mh_cg_erica_rel_15_24m/mh_cg_erica_rel_15_24m_schema",
+            "../activities/mh_cg_erica_rel_24_36m/mh_cg_erica_rel_24_36m_schema",
+            "../activities/mh_cg_erica_rel_36_48m/mh_cg_erica_rel_36_48m_schema",
+            "../activities/mh_cg_erica_rel_3_7m/mh_cg_erica_rel_3_7m_schema",
+            "../activities/mh_cg_erica_rel_7_9m/mh_cg_erica_rel_7_9m_schema",
+            "../activities/mh_cg_fad/mh_cg_fad_schema",
+            "../activities/mh_cg_ibqr/mh_cg_ibqr_schema",
+            "../activities/mh_cg_mapdb_i_inf/mh_cg_mapdb_i_inf_schema",
+            "../activities/mh_cg_mapstl_i_easi/mh_cg_mapstl_i_easi_schema",
+            "../activities/mh_cg_mapstl_i_easi_i_prek/mh_cg_mapstl_i_easi_i_prek_schema",
+            "../activities/mh_cg_mapstl_i_tod/mh_cg_mapstl_i_tod_schema",
+            "../activities/mh_cg_pms_i_anx/mh_cg_pms_i_anx_schema",
+            "../activities/mh_cg_pms_i_cc_i_1to5/mh_cg_pms_i_cc_i_1to5_schema",
+            "../activities/mh_cg_pms_i_cc_i_inf/mh_cg_pms_i_cc_i_inf_schema",
+            "../activities/mh_cg_pms_i_depr/mh_cg_pms_i_depr_schema",
+            "../activities/mh_cg_pms_i_peer/mh_cg_pms_i_peer_schema",
+            "../activities/mh_cg_pms_i_selfreg/mh_cg_pms_i_selfreg_schema",
+            "../activities/mh_cg_quic/mh_cg_quic_schema",
+            "../activities/mh_ch_bhvobs/mh_ch_bhvobs_schema",
+            "../activities/mh_ch_labtab/mh_ch_labtab_schema",
+            "../activities/mh_ch_mchat/mh_ch_mchat_schema",
+            "../activities/mh_ch_pcx/mh_ch_pcx_schema",
+            "../activities/mri_ra_chkl_data/mri_ra_chkl_data_schema",
+            "../activities/mri_ra_chkl_scan/mri_ra_chkl_scan_schema",
+            "../activities/mri_ra_prep/mri_ra_prep_schema",
+            "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+            "../activities/nc_ch_bayley_4/nc_ch_bayley_4_schema",
+            "../activities/ncl_cg_spm2_i_inf/ncl_cg_spm2_i_inf_schema",
+            "../activities/ncl_cg_spm2_i_tod/ncl_cg_spm2_i_tod_schema",
+            "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
+            "../activities/ncl_ch_bayley/ncl_ch_bayley_schema",
+            "../activities/ncl_ch_cdiwgen/ncl_ch_cdiwgen_schema",
+            "../activities/ncl_ch_cdiwges/ncl_ch_cdiwges_schema",
+            "../activities/ncl_ch_cdiwsen/ncl_ch_cdiwsen_schema",
+            "../activities/ncl_ch_cdiwses/ncl_ch_cdiwses_schema",
+            "../activities/ncl_ch_di/ncl_ch_di_schema",
+            "../activities/ncl_ch_di_i_v06/ncl_ch_di_i_v06_schema",
+            "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+            "../activities/ncl_ch_nbtb/ncl_ch_nbtb_schema",
+            "../activities/nt_ch_sens_i_qtn_1/nt_ch_sens_i_qtn_1_schema",
+            "../activities/nt_ch_sens_i_qtn_2/nt_ch_sens_i_qtn_2_schema",
+            "../activities/nt_ch_sens_i_qtn_3/nt_ch_sens_i_qtn_3_schema",
+            "../activities/nt_pa_gabi_rcpt/nt_pa_gabi_rcpt_schema",
+            "../activities/nt_pa_gabi_setup/nt_pa_gabi_setup_schema",
+            "../activities/parameter_candidate/parameter_candidate_schema",
+            "../activities/parameter_file/parameter_file_schema",
+            "../activities/pex_bm_apa/pex_bm_apa_schema",
+            "../activities/pex_bm_assistv1/pex_bm_assistv1_schema",
+            "../activities/pex_bm_assistv2/pex_bm_assistv2_schema",
+            "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
+            "../activities/pex_bm_epds/pex_bm_epds_schema",
+            "../activities/pex_bm_health_preg_i_chroncond/pex_bm_health_preg_i_chroncond_schema",
+            "../activities/pex_bm_health_preg_i_erhosp/pex_bm_health_preg_i_erhosp_schema",
+            "../activities/pex_bm_health_preg_i_exp_i_vacc/pex_bm_health_preg_i_exp_i_vacc_schema",
+            "../activities/pex_bm_health_preg_i_healthhx/pex_bm_health_preg_i_healthhx_schema",
+            "../activities/pex_bm_health_preg_i_illness/pex_bm_health_preg_i_illness_schema",
+            "../activities/pex_bm_health_preg_i_meds/pex_bm_health_preg_i_meds_schema",
+            "../activities/pex_bm_healthv2_inf/pex_bm_healthv2_inf_schema",
+            "../activities/pex_bm_healthv2_preg/pex_bm_healthv2_preg_schema",
+            "../activities/pex_bm_psych/pex_bm_psych_schema",
+            "../activities/pex_bm_str_i_ptsd/pex_bm_str_i_ptsd_schema",
+            "../activities/pex_ch_tlfb/pex_ch_tlfb_schema",
+            "../activities/ph_cg_bisq/ph_cg_bisq_schema",
+            "../activities/ph_cg_cnq/ph_cg_cnq_schema",
+            "../activities/ph_cg_ecls_i_medhist/ph_cg_ecls_i_medhist_schema",
+            "../activities/ph_cg_inq/ph_cg_inq_schema",
+            "../activities/ph_cg_pedsql/ph_cg_pedsql_schema",
+            "../activities/ph_cg_phx_i_bfh/ph_cg_phx_i_bfh_schema",
+            "../activities/ph_cg_pms_i_pags/ph_cg_pms_i_pags_schema",
+            "../activities/ph_cg_pms_i_sleep/ph_cg_pms_i_sleep_schema",
+            "../activities/ph_cg_screenq/ph_cg_screenq_schema",
+            "../activities/ph_ch_anthro/ph_ch_anthro_schema",
+            "../activities/ph_ch_vs/ph_ch_vs_schema",
+            "../activities/physiological_parameter_file/physiological_parameter_file_schema",
+            "../activities/sed_bm_bfy/sed_bm_bfy_schema",
+            "../activities/sed_bm_demo/sed_bm_demo_schema",
+            "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
+            "../activities/sed_bm_ehits/sed_bm_ehits_schema",
+            "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
+            "../activities/sed_bm_paces/sed_bm_paces_schema",
+            "../activities/sed_bm_phx_i_discr/sed_bm_phx_i_discr_schema",
+            "../activities/sed_bm_strsup/sed_bm_strsup_schema",
+            "../activities/sed_cg_ace/sed_cg_ace_schema",
+            "../activities/sed_cg_cabr_sf/sed_cg_cabr_sf_schema",
+            "../activities/sed_cg_employ/sed_cg_employ_schema",
+            "../activities/sed_cg_foodins/sed_cg_foodins_schema",
+            "../activities/sed_cg_hce/sed_cg_hce_schema",
+            "../activities/sed_cg_home_ec/sed_cg_home_ec_schema",
+            "../activities/sed_cg_home_it/sed_cg_home_it_schema",
+            "../activities/sed_cg_hpss/sed_cg_hpss_schema",
+            "../activities/sed_cg_incarc/sed_cg_incarc_schema",
+            "../activities/sed_cg_leadexp/sed_cg_leadexp_schema",
+            "../activities/sed_cg_nsc/sed_cg_nsc_schema",
+            "../activities/sed_cg_paces/sed_cg_paces_schema",
+            "../activities/sed_cg_pedaces/sed_cg_pedaces_schema",
+            "../activities/sed_cg_shs/sed_cg_shs_schema",
+            "../activities/sed_cg_tic/sed_cg_tic_schema",
+            "../activities/sed_cg_via/sed_cg_via_schema",
+            "../activities/sens_ch_rcpt/sens_ch_rcpt_schema",
+            "../activities/sens_ch_setup/sens_ch_setup_schema",
+            "../activities/session/session_schema",
+            "../activities/visit_start/visit_start_schema",
+            "../activities/webcdi_en/webcdi_en_schema",
+            "../activities/webcdi_es/webcdi_es_schema"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "../activities/ERICA_3_to_7_months/ERICA_3_to_7_months_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Erica 3 To 7 Months"
+                },
+                "variableName": "ERICA_3_to_7_months_schema"
+            },
+            {
+                "isAbout": "../activities/adm_bm_screen/adm_bm_screen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Adm Bm Screen"
+                },
+                "variableName": "adm_bm_screen_schema"
+            },
+            {
+                "isAbout": "../activities/adm_cg_fb/adm_cg_fb_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Adm Cg Fb"
+                },
+                "variableName": "adm_cg_fb_schema"
+            },
+            {
+                "isAbout": "../activities/adm_fd_urgent/adm_fd_urgent_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Adm Fd Urgent"
+                },
+                "variableName": "adm_fd_urgent_schema"
+            },
+            {
+                "isAbout": "../activities/adm_fd_visitdata/adm_fd_visitdata_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Adm Fd Visitdata"
+                },
+                "variableName": "adm_fd_visitdata_schema"
+            },
+            {
+                "isAbout": "../activities/adm_ra_fb/adm_ra_fb_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Adm Ra Fb"
+                },
+                "variableName": "adm_ra_fb_schema"
+            },
+            {
+                "isAbout": "../activities/admin_alert/admin_alert_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Admin Alert"
+                },
+                "variableName": "admin_alert_schema"
+            },
+            {
+                "isAbout": "../activities/candidate/candidate_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Candidate"
+                },
+                "variableName": "candidate_schema"
+            },
+            {
+                "isAbout": "../activities/eeg_ch_chkl/eeg_ch_chkl_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Eeg Ch Chkl"
+                },
+                "variableName": "eeg_ch_chkl_schema"
+            },
+            {
+                "isAbout": "../activities/eeg_ch_chkl_1/eeg_ch_chkl_1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Eeg Ch Chkl 1"
+                },
+                "variableName": "eeg_ch_chkl_1_schema"
+            },
+            {
+                "isAbout": "../activities/eeg_ch_chkl_2/eeg_ch_chkl_2_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Eeg Ch Chkl 2"
+                },
+                "variableName": "eeg_ch_chkl_2_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_cbcl_i_1to5/mh_cg_cbcl_i_1to5_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Cbcl I 1To5"
+                },
+                "variableName": "mh_cg_cbcl_i_1to5_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_cbq/mh_cg_cbq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Cbq"
+                },
+                "variableName": "mh_cg_cbq_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_chaos/mh_cg_chaos_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Chaos"
+                },
+                "variableName": "mh_cg_chaos_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_ecbq/mh_cg_ecbq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Ecbq"
+                },
+                "variableName": "mh_cg_ecbq_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_12_15m/mh_cg_erica_12_15m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 12 15M"
+                },
+                "variableName": "mh_cg_erica_12_15m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_15_24m/mh_cg_erica_15_24m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 15 24M"
+                },
+                "variableName": "mh_cg_erica_15_24m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_24_36m/mh_cg_erica_24_36m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 24 36M"
+                },
+                "variableName": "mh_cg_erica_24_36m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_36_48m/mh_cg_erica_36_48m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 36 48M"
+                },
+                "variableName": "mh_cg_erica_36_48m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_3_7m/mh_cg_erica_3_7m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 3 7M"
+                },
+                "variableName": "mh_cg_erica_3_7m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_7_9m/mh_cg_erica_7_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 7 9M"
+                },
+                "variableName": "mh_cg_erica_7_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_9_12m/mh_cg_erica_9_12m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica 9 12M"
+                },
+                "variableName": "mh_cg_erica_9_12m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_cons_15_24m/mh_cg_erica_cons_15_24m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Cons 15 24M"
+                },
+                "variableName": "mh_cg_erica_cons_15_24m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_cons_24_36m/mh_cg_erica_cons_24_36m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Cons 24 36M"
+                },
+                "variableName": "mh_cg_erica_cons_24_36m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_cons_36_48m/mh_cg_erica_cons_36_48m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Cons 36 48M"
+                },
+                "variableName": "mh_cg_erica_cons_36_48m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_cons_3_7m/mh_cg_erica_cons_3_7m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Cons 3 7M"
+                },
+                "variableName": "mh_cg_erica_cons_3_7m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_cons_7_9m/mh_cg_erica_cons_7_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Cons 7 9M"
+                },
+                "variableName": "mh_cg_erica_cons_7_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_fcm_3_7m/mh_cg_erica_fcm_3_7m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Fcm 3 7M"
+                },
+                "variableName": "mh_cg_erica_fcm_3_7m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_fcm_7_9m/mh_cg_erica_fcm_7_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Fcm 7 9M"
+                },
+                "variableName": "mh_cg_erica_fcm_7_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_fcm_adm_3_7m/mh_cg_erica_fcm_adm_3_7m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Fcm Adm 3 7M"
+                },
+                "variableName": "mh_cg_erica_fcm_adm_3_7m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_fcm_adm_7_9m/mh_cg_erica_fcm_adm_7_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Fcm Adm 7 9M"
+                },
+                "variableName": "mh_cg_erica_fcm_adm_7_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_15_24m/mh_cg_erica_rel_15_24m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 15 24M"
+                },
+                "variableName": "mh_cg_erica_rel_15_24m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_24_36m/mh_cg_erica_rel_24_36m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 24 36M"
+                },
+                "variableName": "mh_cg_erica_rel_24_36m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_36_48m/mh_cg_erica_rel_36_48m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 36 48M"
+                },
+                "variableName": "mh_cg_erica_rel_36_48m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_3_7m/mh_cg_erica_rel_3_7m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 3 7M"
+                },
+                "variableName": "mh_cg_erica_rel_3_7m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_erica_rel_7_9m/mh_cg_erica_rel_7_9m_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Erica Rel 7 9M"
+                },
+                "variableName": "mh_cg_erica_rel_7_9m_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_fad/mh_cg_fad_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Fad"
+                },
+                "variableName": "mh_cg_fad_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_ibqr/mh_cg_ibqr_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Ibqr"
+                },
+                "variableName": "mh_cg_ibqr_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapdb_i_inf/mh_cg_mapdb_i_inf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapdb I Inf"
+                },
+                "variableName": "mh_cg_mapdb_i_inf_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_easi/mh_cg_mapstl_i_easi_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapstl I Easi"
+                },
+                "variableName": "mh_cg_mapstl_i_easi_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_easi_i_prek/mh_cg_mapstl_i_easi_i_prek_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapstl I Easi I Prek"
+                },
+                "variableName": "mh_cg_mapstl_i_easi_i_prek_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_tod/mh_cg_mapstl_i_tod_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Mapstl I Tod"
+                },
+                "variableName": "mh_cg_mapstl_i_tod_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_anx/mh_cg_pms_i_anx_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Anx"
+                },
+                "variableName": "mh_cg_pms_i_anx_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_cc_i_1to5/mh_cg_pms_i_cc_i_1to5_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Cc I 1To5"
+                },
+                "variableName": "mh_cg_pms_i_cc_i_1to5_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_cc_i_inf/mh_cg_pms_i_cc_i_inf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Cc I Inf"
+                },
+                "variableName": "mh_cg_pms_i_cc_i_inf_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_depr/mh_cg_pms_i_depr_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Depr"
+                },
+                "variableName": "mh_cg_pms_i_depr_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_peer/mh_cg_pms_i_peer_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Peer"
+                },
+                "variableName": "mh_cg_pms_i_peer_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_selfreg/mh_cg_pms_i_selfreg_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Pms I Selfreg"
+                },
+                "variableName": "mh_cg_pms_i_selfreg_schema"
+            },
+            {
+                "isAbout": "../activities/mh_cg_quic/mh_cg_quic_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Cg Quic"
+                },
+                "variableName": "mh_cg_quic_schema"
+            },
+            {
+                "isAbout": "../activities/mh_ch_bhvobs/mh_ch_bhvobs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Ch Bhvobs"
+                },
+                "variableName": "mh_ch_bhvobs_schema"
+            },
+            {
+                "isAbout": "../activities/mh_ch_labtab/mh_ch_labtab_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Ch Labtab"
+                },
+                "variableName": "mh_ch_labtab_schema"
+            },
+            {
+                "isAbout": "../activities/mh_ch_mchat/mh_ch_mchat_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Ch Mchat"
+                },
+                "variableName": "mh_ch_mchat_schema"
+            },
+            {
+                "isAbout": "../activities/mh_ch_pcx/mh_ch_pcx_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mh Ch Pcx"
+                },
+                "variableName": "mh_ch_pcx_schema"
+            },
+            {
+                "isAbout": "../activities/mri_ra_chkl_data/mri_ra_chkl_data_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Ra Chkl Data"
+                },
+                "variableName": "mri_ra_chkl_data_schema"
+            },
+            {
+                "isAbout": "../activities/mri_ra_chkl_scan/mri_ra_chkl_scan_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Ra Chkl Scan"
+                },
+                "variableName": "mri_ra_chkl_scan_schema"
+            },
+            {
+                "isAbout": "../activities/mri_ra_prep/mri_ra_prep_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Mri Ra Prep"
+                },
+                "variableName": "mri_ra_prep_schema"
+            },
+            {
+                "isAbout": "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nc Cg Vabs"
+                },
+                "variableName": "nc_cg_vabs_schema"
+            },
+            {
+                "isAbout": "../activities/nc_ch_bayley_4/nc_ch_bayley_4_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nc Ch Bayley 4"
+                },
+                "variableName": "nc_ch_bayley_4_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_cg_spm2_i_inf/ncl_cg_spm2_i_inf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Cg Spm2 I Inf"
+                },
+                "variableName": "ncl_cg_spm2_i_inf_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_cg_spm2_i_tod/ncl_cg_spm2_i_tod_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Cg Spm2 I Tod"
+                },
+                "variableName": "ncl_cg_spm2_i_tod_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_cg_vabs/ncl_cg_vabs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Cg Vabs"
+                },
+                "variableName": "ncl_cg_vabs_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_bayley/ncl_ch_bayley_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Bayley"
+                },
+                "variableName": "ncl_ch_bayley_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_cdiwgen/ncl_ch_cdiwgen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Cdiwgen"
+                },
+                "variableName": "ncl_ch_cdiwgen_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_cdiwges/ncl_ch_cdiwges_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Cdiwges"
+                },
+                "variableName": "ncl_ch_cdiwges_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_cdiwsen/ncl_ch_cdiwsen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Cdiwsen"
+                },
+                "variableName": "ncl_ch_cdiwsen_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_cdiwses/ncl_ch_cdiwses_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Cdiwses"
+                },
+                "variableName": "ncl_ch_cdiwses_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_di/ncl_ch_di_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Di"
+                },
+                "variableName": "ncl_ch_di_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_di_i_v06/ncl_ch_di_i_v06_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Di I V06"
+                },
+                "variableName": "ncl_ch_di_i_v06_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Mlds"
+                },
+                "variableName": "ncl_ch_mlds_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_nbtb/ncl_ch_nbtb_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Nbtb"
+                },
+                "variableName": "ncl_ch_nbtb_schema"
+            },
+            {
+                "isAbout": "../activities/nt_ch_sens_i_qtn_1/nt_ch_sens_i_qtn_1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nt Ch Sens I Qtn 1"
+                },
+                "variableName": "nt_ch_sens_i_qtn_1_schema"
+            },
+            {
+                "isAbout": "../activities/nt_ch_sens_i_qtn_2/nt_ch_sens_i_qtn_2_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nt Ch Sens I Qtn 2"
+                },
+                "variableName": "nt_ch_sens_i_qtn_2_schema"
+            },
+            {
+                "isAbout": "../activities/nt_ch_sens_i_qtn_3/nt_ch_sens_i_qtn_3_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nt Ch Sens I Qtn 3"
+                },
+                "variableName": "nt_ch_sens_i_qtn_3_schema"
+            },
+            {
+                "isAbout": "../activities/nt_pa_gabi_rcpt/nt_pa_gabi_rcpt_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nt Pa Gabi Rcpt"
+                },
+                "variableName": "nt_pa_gabi_rcpt_schema"
+            },
+            {
+                "isAbout": "../activities/nt_pa_gabi_setup/nt_pa_gabi_setup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nt Pa Gabi Setup"
+                },
+                "variableName": "nt_pa_gabi_setup_schema"
+            },
+            {
+                "isAbout": "../activities/parameter_candidate/parameter_candidate_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Parameter Candidate"
+                },
+                "variableName": "parameter_candidate_schema"
+            },
+            {
+                "isAbout": "../activities/parameter_file/parameter_file_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Parameter File"
+                },
+                "variableName": "parameter_file_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_apa/pex_bm_apa_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Apa"
+                },
+                "variableName": "pex_bm_apa_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv1/pex_bm_assistv1_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Assistv1"
+                },
+                "variableName": "pex_bm_assistv1_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv2/pex_bm_assistv2_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Assistv2"
+                },
+                "variableName": "pex_bm_assistv2_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Assistv3"
+                },
+                "variableName": "pex_bm_assistv3_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_epds/pex_bm_epds_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Epds"
+                },
+                "variableName": "pex_bm_epds_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_chroncond/pex_bm_health_preg_i_chroncond_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Chroncond"
+                },
+                "variableName": "pex_bm_health_preg_i_chroncond_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_erhosp/pex_bm_health_preg_i_erhosp_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Erhosp"
+                },
+                "variableName": "pex_bm_health_preg_i_erhosp_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_exp_i_vacc/pex_bm_health_preg_i_exp_i_vacc_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Exp I Vacc"
+                },
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_healthhx/pex_bm_health_preg_i_healthhx_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Healthhx"
+                },
+                "variableName": "pex_bm_health_preg_i_healthhx_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_illness/pex_bm_health_preg_i_illness_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Illness"
+                },
+                "variableName": "pex_bm_health_preg_i_illness_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_meds/pex_bm_health_preg_i_meds_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Health Preg I Meds"
+                },
+                "variableName": "pex_bm_health_preg_i_meds_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_healthv2_inf/pex_bm_healthv2_inf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Healthv2 Inf"
+                },
+                "variableName": "pex_bm_healthv2_inf_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_healthv2_preg/pex_bm_healthv2_preg_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Healthv2 Preg"
+                },
+                "variableName": "pex_bm_healthv2_preg_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_psych/pex_bm_psych_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Psych"
+                },
+                "variableName": "pex_bm_psych_schema"
+            },
+            {
+                "isAbout": "../activities/pex_bm_str_i_ptsd/pex_bm_str_i_ptsd_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Bm Str I Ptsd"
+                },
+                "variableName": "pex_bm_str_i_ptsd_schema"
+            },
+            {
+                "isAbout": "../activities/pex_ch_tlfb/pex_ch_tlfb_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pex Ch Tlfb"
+                },
+                "variableName": "pex_ch_tlfb_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_bisq/ph_cg_bisq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Bisq"
+                },
+                "variableName": "ph_cg_bisq_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_cnq/ph_cg_cnq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Cnq"
+                },
+                "variableName": "ph_cg_cnq_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_ecls_i_medhist/ph_cg_ecls_i_medhist_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Ecls I Medhist"
+                },
+                "variableName": "ph_cg_ecls_i_medhist_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_inq/ph_cg_inq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Inq"
+                },
+                "variableName": "ph_cg_inq_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pedsql/ph_cg_pedsql_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Pedsql"
+                },
+                "variableName": "ph_cg_pedsql_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_phx_i_bfh/ph_cg_phx_i_bfh_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Phx I Bfh"
+                },
+                "variableName": "ph_cg_phx_i_bfh_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pms_i_pags/ph_cg_pms_i_pags_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Pms I Pags"
+                },
+                "variableName": "ph_cg_pms_i_pags_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pms_i_sleep/ph_cg_pms_i_sleep_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Pms I Sleep"
+                },
+                "variableName": "ph_cg_pms_i_sleep_schema"
+            },
+            {
+                "isAbout": "../activities/ph_cg_screenq/ph_cg_screenq_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Cg Screenq"
+                },
+                "variableName": "ph_cg_screenq_schema"
+            },
+            {
+                "isAbout": "../activities/ph_ch_anthro/ph_ch_anthro_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Ch Anthro"
+                },
+                "variableName": "ph_ch_anthro_schema"
+            },
+            {
+                "isAbout": "../activities/ph_ch_vs/ph_ch_vs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ph Ch Vs"
+                },
+                "variableName": "ph_ch_vs_schema"
+            },
+            {
+                "isAbout": "../activities/physiological_parameter_file/physiological_parameter_file_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Physiological Parameter File"
+                },
+                "variableName": "physiological_parameter_file_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_bfy/sed_bm_bfy_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Bfy"
+                },
+                "variableName": "sed_bm_bfy_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Demo"
+                },
+                "variableName": "sed_bm_demo_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Demo Child"
+                },
+                "variableName": "sed_bm_demo_child_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_ehits/sed_bm_ehits_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Ehits"
+                },
+                "variableName": "sed_bm_ehits_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Nbhsaf"
+                },
+                "variableName": "sed_bm_nbhsaf_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_paces/sed_bm_paces_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Paces"
+                },
+                "variableName": "sed_bm_paces_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_phx_i_discr/sed_bm_phx_i_discr_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Phx I Discr"
+                },
+                "variableName": "sed_bm_phx_i_discr_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_strsup/sed_bm_strsup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Strsup"
+                },
+                "variableName": "sed_bm_strsup_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_ace/sed_cg_ace_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Ace"
+                },
+                "variableName": "sed_cg_ace_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_cabr_sf/sed_cg_cabr_sf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Cabr Sf"
+                },
+                "variableName": "sed_cg_cabr_sf_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_employ/sed_cg_employ_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Employ"
+                },
+                "variableName": "sed_cg_employ_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_foodins/sed_cg_foodins_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Foodins"
+                },
+                "variableName": "sed_cg_foodins_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_hce/sed_cg_hce_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Hce"
+                },
+                "variableName": "sed_cg_hce_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_home_ec/sed_cg_home_ec_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Home Ec"
+                },
+                "variableName": "sed_cg_home_ec_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_home_it/sed_cg_home_it_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Home It"
+                },
+                "variableName": "sed_cg_home_it_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_hpss/sed_cg_hpss_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Hpss"
+                },
+                "variableName": "sed_cg_hpss_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_incarc/sed_cg_incarc_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Incarc"
+                },
+                "variableName": "sed_cg_incarc_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_leadexp/sed_cg_leadexp_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Leadexp"
+                },
+                "variableName": "sed_cg_leadexp_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_nsc/sed_cg_nsc_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Nsc"
+                },
+                "variableName": "sed_cg_nsc_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_paces/sed_cg_paces_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Paces"
+                },
+                "variableName": "sed_cg_paces_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_pedaces/sed_cg_pedaces_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Pedaces"
+                },
+                "variableName": "sed_cg_pedaces_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_shs/sed_cg_shs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Shs"
+                },
+                "variableName": "sed_cg_shs_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_tic/sed_cg_tic_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Tic"
+                },
+                "variableName": "sed_cg_tic_schema"
+            },
+            {
+                "isAbout": "../activities/sed_cg_via/sed_cg_via_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Cg Via"
+                },
+                "variableName": "sed_cg_via_schema"
+            },
+            {
+                "isAbout": "../activities/sens_ch_rcpt/sens_ch_rcpt_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sens Ch Rcpt"
+                },
+                "variableName": "sens_ch_rcpt_schema"
+            },
+            {
+                "isAbout": "../activities/sens_ch_setup/sens_ch_setup_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sens Ch Setup"
+                },
+                "variableName": "sens_ch_setup_schema"
+            },
+            {
+                "isAbout": "../activities/session/session_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Session"
+                },
+                "variableName": "session_schema"
+            },
+            {
+                "isAbout": "../activities/visit_start/visit_start_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Visit Start"
+                },
+                "variableName": "visit_start_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_en/webcdi_en_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi En"
+                },
+                "variableName": "webcdi_en_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_es/webcdi_es_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi Es"
+                },
+                "variableName": "webcdi_es_schema"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

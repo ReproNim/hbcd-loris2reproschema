@@ -1,0 +1,89 @@
+{
+    "id": "ncl_ch_bayley_bayley_survey_confirm",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_bayley_bayley_survey_confirm"
+    },
+    "question": {
+        "en": "Confirm that the Bayley link was clicked and the survey completed:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Could not click on link"
+                },
+                "value": "could_not_click_on_link"
+            },
+            {
+                "name": {
+                    "en": "Clicked on link but not redirected to survey"
+                },
+                "value": "clicked_on_link_but_not_redirected_to_survey"
+            },
+            {
+                "name": {
+                    "en": "Survey accessed, not completed"
+                },
+                "value": "survey_accessed_not_completed"
+            },
+            {
+                "name": {
+                    "en": "Survey accessed and completed"
+                },
+                "value": "survey_accessed_and_completed"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

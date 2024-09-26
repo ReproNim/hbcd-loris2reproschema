@@ -1,0 +1,107 @@
+{
+    "id": "adm_fd_urgent_rept_009",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Family Data"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "adm_fd_urgent_rept_009"
+    },
+    "question": {
+        "en": "9. What type of abuse was reported (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Neglect"
+                },
+                "value": "neglect"
+            },
+            {
+                "name": {
+                    "en": "Physical"
+                },
+                "value": "physical"
+            },
+            {
+                "name": {
+                    "en": "Sexual"
+                },
+                "value": "sexual"
+            },
+            {
+                "name": {
+                    "en": "Emotional"
+                },
+                "value": "emotional"
+            },
+            {
+                "name": {
+                    "en": "School Neglect"
+                },
+                "value": "school_neglect"
+            },
+            {
+                "name": {
+                    "en": "Domestic Violence"
+                },
+                "value": "domestic_violence"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": "other"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

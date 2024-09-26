@@ -1,0 +1,206 @@
+{
+    "id": "sed_bm_strsup_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_total_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_total_raw_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "sed_bm_strsup_scale_score"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_strsup"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_strsup_Date_taken",
+            "items/sed_bm_strsup_Candidate_Age",
+            "items/sed_bm_strsup_Window_Difference",
+            "items/sed_bm_strsup_Examiner",
+            "items/sed_bm_strsup_lang",
+            "items/sed_bm_strsup_dtt",
+            "items/sed_bm_strsup_timestamp_start",
+            "items/sed_bm_strsup_timestamp_stop",
+            "items/sed_bm_strsup_Duration",
+            "items/sed_bm_strsup_location",
+            "items/sed_bm_strsup_socspprt_001",
+            "items/sed_bm_strsup_socspprt_002",
+            "items/sed_bm_strsup_socspprt_003",
+            "items/sed_bm_strsup_socspprt_004",
+            "items/sed_bm_strsup_coping_001",
+            "items/sed_bm_strsup_coping_002",
+            "items/sed_bm_strsup_coping_003",
+            "items/sed_bm_strsup_coping_004",
+            "items/sed_bm_strsup_Validity",
+            "items/sed_bm_strsup_Administration",
+            "items/sed_bm_strsup_line",
+            "items/sed_bm_strsup_total_score",
+            "items/sed_bm_strsup_total_raw_score",
+            "items/sed_bm_strsup_scale_score",
+            "items/sed_bm_strsup_standard_error"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_strsup_Date_taken",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Date_taken"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Candidate_Age",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Candidate_Age"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Window_Difference",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Window_Difference"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Examiner",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Examiner"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_dtt",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_timestamp_start",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_timestamp_stop",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_timestamp_stop"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Duration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Duration"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_location",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_location"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_socspprt_001"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_socspprt_002"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_socspprt_003"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_socspprt_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_socspprt_004"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_001",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_coping_001"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_002",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_coping_002"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_003",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_coping_003"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_coping_004",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_coping_004"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Validity"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_line",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_line"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_total_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_total_raw_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_total_raw_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_scale_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_scale_score"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_standard_error",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_standard_error"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "v1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

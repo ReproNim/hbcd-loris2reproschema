@@ -1,0 +1,77 @@
+{
+    "id": "mh_cg_erica_fcm_3_7m_adm_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Mental Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "mh_cg_erica_fcm_3_7m_adm_001"
+    },
+    "question": {
+        "en": "1. Examiner follows correct set-up for the protocol: (1) materials are correctly set-up and positioned according to approved site-specific room layout and protocol (e.g., 3-7M, 7-9M, etc., materials include highchair, changing pad, floor pad, as well as toys and supplies for the activities), (2) caregiver instructions are readily visible on wall, and (3) bins are labeled correctly, filled with correct materials and set out in reach of caregiver but not child. Score as '1' if all '3' criteria are met; score as '0' if one or more is missed."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": "yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": "no"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

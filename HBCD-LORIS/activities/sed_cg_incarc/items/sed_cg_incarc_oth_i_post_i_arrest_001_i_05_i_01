@@ -1,0 +1,95 @@
+{
+    "id": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Social/Environmental Health Disparities"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Discrete"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01"
+    },
+    "question": {
+        "en": "Age in years"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": "0"
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": "4"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,83 @@
+{
+    "id": "ncl_ch_di_i_v06_fev3_003",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": NaN
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Child"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ncl_ch_di_i_v06_fev3_003"
+    },
+    "question": {
+        "en": "Select one from a dropdown menu:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "Child attentively watched all steps administered"
+                },
+                "value": "child_attentively"
+            },
+            {
+                "name": {
+                    "en": "Child did NOT attentively watch all steps administered because they were uninterested"
+                },
+                "value": "child_did_not_attentively_uninterested"
+            },
+            {
+                "name": {
+                    "en": "Child did NOT attentively watch all steps administered because they were fussy"
+                },
+                "value": "child_did_not_attentively_fussy"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

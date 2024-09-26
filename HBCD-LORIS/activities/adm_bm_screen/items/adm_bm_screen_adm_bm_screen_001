@@ -1,0 +1,125 @@
+{
+    "id": "adm_bm_screen_adm_bm_screen_001",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Administration"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Biological Mother"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "adm_bm_screen_adm_bm_screen_001"
+    },
+    "question": {
+        "en": "Race - Single option:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": null
+            },
+            {
+                "name": {
+                    "en": "American Indian"
+                },
+                "value": "american_indian"
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": "asian"
+            },
+            {
+                "name": {
+                    "en": "Hawaiian"
+                },
+                "value": "hawaiian "
+            },
+            {
+                "name": {
+                    "en": "Black African American"
+                },
+                "value": "black_african_american"
+            },
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": "white"
+            },
+            {
+                "name": {
+                    "en": "Black_or African American"
+                },
+                "value": "black_or_african_american"
+            },
+            {
+                "name": {
+                    "en": "American Indian or Alaskan native"
+                },
+                "value": "american_indian_or_alaskan_native"
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian or other Pacific Islander"
+                },
+                "value": "native_hawaiian_or_other_pacific_islander"
+            },
+            {
+                "name": {
+                    "en": "Two or more races"
+                },
+                "value": "two_or_more_races"
+            },
+            {
+                "name": {
+                    "en": "Other race"
+                },
+                "value": "other_race"
+            }
+        ],
+        "multipleChoice": false,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

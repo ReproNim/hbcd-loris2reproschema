@@ -1,0 +1,137 @@
+{
+    "id": "ph_cg_ecls_i_medhist_022",
+    "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Domain",
+            "source": "redcap",
+            "value": "Physical Health"
+        },
+        {
+            "column": "Study",
+            "source": "redcap",
+            "value": "Core"
+        },
+        {
+            "column": "Field Class",
+            "source": "redcap",
+            "value": "Nominal"
+        },
+        {
+            "column": "Field Category",
+            "source": "redcap",
+            "value": "Item"
+        },
+        {
+            "column": "Data Scope",
+            "source": "redcap",
+            "value": "Session"
+        },
+        {
+            "column": "Source/Respondent",
+            "source": "redcap",
+            "value": "Caregiver (Responsible Adult)"
+        },
+        {
+            "column": "Description Status",
+            "source": "redcap",
+            "value": "Unchanged"
+        }
+    ],
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_022"
+    },
+    "question": {
+        "en": "Has a doctor, nurse, or other medical professional &lt;i&gt;ever&lt;/i&gt; told you that your child has or needed treatment for:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Asthma"
+                },
+                "value": "1"
+            },
+            {
+                "name": {
+                    "en": "A respiratory illness, such as bronchitis, pneumonia, or bronchiolitis (for example, RSV)"
+                },
+                "value": "2"
+            },
+            {
+                "name": {
+                    "en": "A severe gastrointestinal illness with frequent vomiting, diarrhea, or dehydration"
+                },
+                "value": "3"
+            },
+            {
+                "name": {
+                    "en": "A mood or behavior problem"
+                },
+                "value": "4"
+            },
+            {
+                "name": {
+                    "en": "Seizures"
+                },
+                "value": "5"
+            },
+            {
+                "name": {
+                    "en": "Appendicitis"
+                },
+                "value": "6"
+            },
+            {
+                "name": {
+                    "en": "Urinary tract infection"
+                },
+                "value": "7"
+            },
+            {
+                "name": {
+                    "en": "Skin infection"
+                },
+                "value": "8"
+            },
+            {
+                "name": {
+                    "en": "Brain injury"
+                },
+                "value": "9"
+            },
+            {
+                "name": {
+                    "en": "Trauma, broken bone, or other injury from an accident"
+                },
+                "value": "10"
+            },
+            {
+                "name": {
+                    "en": "Other acute (transient or short lived) problem"
+                },
+                "value": "11"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": "999"
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": "777"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
