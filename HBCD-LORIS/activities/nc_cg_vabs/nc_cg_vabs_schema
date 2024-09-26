@@ -15,7 +15,8 @@
             "items/nc_cg_vabs_timestamp_stop",
             "items/nc_cg_vabs_Duration",
             "items/nc_cg_vabs_Validity",
-            "items/nc_cg_vabs_Administration"
+            "items/nc_cg_vabs_Administration",
+            "items/nc_cg_vabs_Informant"
         ],
         "addProperties": [
             {
@@ -71,10 +72,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "nc_cg_vabs_Administration"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_cg_vabs_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

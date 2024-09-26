@@ -281,7 +281,8 @@
             "items/mh_ch_mchat_movement_003",
             "items/mh_ch_mchat_movement_004",
             "items/mh_ch_mchat_Validity",
-            "items/mh_ch_mchat_Administration"
+            "items/mh_ch_mchat_Administration",
+            "items/mh_ch_mchat_Informant"
         ],
         "addProperties": [
             {
@@ -1933,10 +1934,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_ch_mchat_Administration"
+            },
+            {
+                "isAbout": "items/mh_ch_mchat_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_mchat_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

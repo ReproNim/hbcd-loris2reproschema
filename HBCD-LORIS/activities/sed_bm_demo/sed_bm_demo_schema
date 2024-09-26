@@ -475,7 +475,8 @@
             "items/sed_bm_demo_ses_i_oth_001",
             "items/sed_bm_demo_transp_001",
             "items/sed_bm_demo_Validity",
-            "items/sed_bm_demo_Administration"
+            "items/sed_bm_demo_Administration",
+            "items/sed_bm_demo_Informant"
         ],
         "addProperties": [
             {
@@ -3291,10 +3292,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_demo_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

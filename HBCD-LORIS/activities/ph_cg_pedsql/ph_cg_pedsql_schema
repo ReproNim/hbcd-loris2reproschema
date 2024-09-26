@@ -41,7 +41,8 @@
             "items/ph_cg_pedsql_020",
             "items/ph_cg_pedsql_021",
             "items/ph_cg_pedsql_Validity",
-            "items/ph_cg_pedsql_Administration"
+            "items/ph_cg_pedsql_Administration",
+            "items/ph_cg_pedsql_Informant"
         ],
         "addProperties": [
             {
@@ -253,10 +254,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_cg_pedsql_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_pedsql_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pedsql_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

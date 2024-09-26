@@ -32,7 +32,8 @@
             "items/ph_ch_vs_002_i_02",
             "items/ph_ch_vs_003_i_01",
             "items/ph_ch_vs_Validity",
-            "items/ph_ch_vs_Administration"
+            "items/ph_ch_vs_Administration",
+            "items/ph_ch_vs_Informant"
         ],
         "addProperties": [
             {
@@ -190,10 +191,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_ch_vs_Administration"
+            },
+            {
+                "isAbout": "items/ph_ch_vs_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_ch_vs_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

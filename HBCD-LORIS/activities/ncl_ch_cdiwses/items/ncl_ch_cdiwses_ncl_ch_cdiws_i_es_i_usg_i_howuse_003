@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwses_ncl_ch_cdiws_i_es_i_usg_i_howuse_003"
     },
     "question": {
-        "en": "usefuture"
+        "en": "\u00ac\u00f8Su hijo/a habla de situaciones que van a suceder en el futuro? Por ejemplo, al ponerse el su\u221a\u00a9ter, \u00ac\u00f8dice que va a ir a los columpios o le platica a otra persona que va a ver a su abuelita?"
     },
     "responseOptions": {
         "choices": [],

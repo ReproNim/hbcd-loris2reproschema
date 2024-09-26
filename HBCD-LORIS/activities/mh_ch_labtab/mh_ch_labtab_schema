@@ -30,17 +30,6 @@
             "items/mh_ch_labtab_timestamp_start",
             "items/mh_ch_labtab_timestamp_stop",
             "items/mh_ch_labtab_Duration",
-            "items/mh_ch_labtab_a_raw",
-            "items/mh_ch_labtab_flag_facial_distress_1",
-            "items/mh_ch_labtab_b_raw",
-            "items/mh_ch_labtab_flag_distress_vocalizations_1",
-            "items/mh_ch_labtab_c_raw",
-            "items/mh_ch_labtab_flag_bodily_distress_1",
-            "items/mh_ch_labtab_d_raw",
-            "items/mh_ch_labtab_flag_intensity_of_escape_1",
-            "items/mh_ch_labtab_bi_code",
-            "items/mh_ch_labtab_Validity",
-            "items/mh_ch_labtab_Administration",
             "items/mh_ch_labtab_001",
             "items/mh_ch_labtab_002",
             "items/mh_ch_labtab_002_status",
@@ -55,11 +44,23 @@
             "items/mh_ch_labtab_009",
             "items/mh_ch_labtab_010",
             "items/mh_ch_labtab_011",
+            "items/mh_ch_labtab_a_raw",
+            "items/mh_ch_labtab_flag_facial_distress_1",
+            "items/mh_ch_labtab_b_raw",
+            "items/mh_ch_labtab_flag_distress_vocalizations_1",
+            "items/mh_ch_labtab_c_raw",
+            "items/mh_ch_labtab_flag_bodily_distress_1",
+            "items/mh_ch_labtab_d_raw",
+            "items/mh_ch_labtab_flag_intensity_of_escape_1",
+            "items/mh_ch_labtab_bi_code",
             "items/mh_ch_labtab_012",
             "items/mh_ch_labtab_013",
             "items/mh_ch_labtab_014",
             "items/mh_ch_labtab_015",
-            "items/mh_ch_labtab_015_i_01"
+            "items/mh_ch_labtab_015_i_01",
+            "items/mh_ch_labtab_Validity",
+            "items/mh_ch_labtab_Administration",
+            "items/mh_ch_labtab_Informant"
         ],
         "addProperties": [
             {
@@ -91,72 +92,6 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_Duration"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_a_raw",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_a_raw"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_flag_facial_distress_1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_flag_facial_distress_1"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_b_raw",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_b_raw"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_flag_distress_vocalizations_1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_flag_distress_vocalizations_1"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_c_raw",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_c_raw"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_flag_bodily_distress_1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_flag_bodily_distress_1"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_d_raw",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_d_raw"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_flag_intensity_of_escape_1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_flag_intensity_of_escape_1"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_bi_code",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_bi_code"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_Validity"
-            },
-            {
-                "isAbout": "items/mh_ch_labtab_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_labtab_Administration"
             },
             {
                 "isAbout": "items/mh_ch_labtab_001",
@@ -243,6 +178,60 @@
                 "variableName": "mh_ch_labtab_011"
             },
             {
+                "isAbout": "items/mh_ch_labtab_a_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_a_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_flag_facial_distress_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_flag_facial_distress_1"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_b_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_b_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_flag_distress_vocalizations_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_flag_distress_vocalizations_1"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_c_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_c_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_flag_bodily_distress_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_flag_bodily_distress_1"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_d_raw",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_d_raw"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_flag_intensity_of_escape_1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_flag_intensity_of_escape_1"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_bi_code",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_bi_code"
+            },
+            {
                 "isAbout": "items/mh_ch_labtab_012",
                 "isVis": true,
                 "valueRequired": false,
@@ -271,10 +260,28 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_ch_labtab_015_i_01"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_Validity"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_Administration"
+            },
+            {
+                "isAbout": "items/mh_ch_labtab_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_labtab_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

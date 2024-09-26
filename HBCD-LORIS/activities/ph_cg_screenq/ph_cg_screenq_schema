@@ -4,10 +4,6 @@
     "compute": [
         {
             "jsExpression": "",
-            "variableName": "ph_cg_screenq_total_score"
-        },
-        {
-            "jsExpression": "",
             "variableName": "ph_cg_screenq_access_score"
         },
         {
@@ -21,6 +17,10 @@
         {
             "jsExpression": "",
             "variableName": "ph_cg_screenq_co_viewing_score"
+        },
+        {
+            "jsExpression": "",
+            "variableName": "ph_cg_screenq_total_score"
         }
     ],
     "prefLabel": {
@@ -56,13 +56,14 @@
             "items/ph_cg_screenq_015",
             "items/ph_cg_screenq_016",
             "items/ph_cg_screenq_017",
-            "items/ph_cg_screenq_Validity",
-            "items/ph_cg_screenq_Administration",
-            "items/ph_cg_screenq_total_score",
             "items/ph_cg_screenq_access_score",
             "items/ph_cg_screenq_frequency_score",
             "items/ph_cg_screenq_content_score",
-            "items/ph_cg_screenq_co_viewing_score"
+            "items/ph_cg_screenq_co_viewing_score",
+            "items/ph_cg_screenq_total_score",
+            "items/ph_cg_screenq_Validity",
+            "items/ph_cg_screenq_Administration",
+            "items/ph_cg_screenq_Informant"
         ],
         "addProperties": [
             {
@@ -228,24 +229,6 @@
                 "variableName": "ph_cg_screenq_017"
             },
             {
-                "isAbout": "items/ph_cg_screenq_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_screenq_Validity"
-            },
-            {
-                "isAbout": "items/ph_cg_screenq_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_screenq_Administration"
-            },
-            {
-                "isAbout": "items/ph_cg_screenq_total_score",
-                "isVis": false,
-                "valueRequired": false,
-                "variableName": "ph_cg_screenq_total_score"
-            },
-            {
                 "isAbout": "items/ph_cg_screenq_access_score",
                 "isVis": false,
                 "valueRequired": false,
@@ -268,10 +251,34 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_screenq_co_viewing_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_total_score"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Validity"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_screenq_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

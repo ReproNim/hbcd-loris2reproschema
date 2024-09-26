@@ -850,7 +850,8 @@
             "items/ncl_ch_cdiwsen_ncl_ch_cdiws_i_en_i_cmplx_036",
             "items/ncl_ch_cdiwsen_ncl_ch_cdiws_i_en_i_cmplx_037",
             "items/ncl_ch_cdiwsen_Validity",
-            "items/ncl_ch_cdiwsen_Administration"
+            "items/ncl_ch_cdiwsen_Administration",
+            "items/ncl_ch_cdiwsen_Informant"
         ],
         "addProperties": [
             {
@@ -5916,10 +5917,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_cdiwsen_Administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwsen_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_cdiwsen_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

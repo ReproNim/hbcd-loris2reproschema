@@ -379,14 +379,12 @@
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_001",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_002",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_003",
-            "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_004",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_005",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_006",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_007",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_008",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_009",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_010",
-            "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_011",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_012",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_013",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_014",
@@ -566,7 +564,8 @@
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_adult_013",
             "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_adult_014",
             "items/ncl_ch_cdiwges_Validity",
-            "items/ncl_ch_cdiwges_Administration"
+            "items/ncl_ch_cdiwges_Administration",
+            "items/ncl_ch_cdiwges_Informant"
         ],
         "addProperties": [
             {
@@ -2802,12 +2801,6 @@
                 "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_003"
             },
             {
-                "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_004",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_004"
-            },
-            {
                 "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_005",
                 "isVis": true,
                 "valueRequired": false,
@@ -2842,12 +2835,6 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_010"
-            },
-            {
-                "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_011",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_011"
             },
             {
                 "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_action_nmw_012",
@@ -3928,10 +3915,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_cdiwges_Administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_cdiwges_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_cdiwges_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

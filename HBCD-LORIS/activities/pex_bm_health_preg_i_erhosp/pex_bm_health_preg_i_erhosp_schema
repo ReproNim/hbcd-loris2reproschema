@@ -143,7 +143,8 @@
             "items/pex_bm_health_preg_i_erhosp_024_i_03",
             "items/pex_bm_health_preg_i_erhosp_024_i_03_dk",
             "items/pex_bm_health_preg_i_erhosp_Validity",
-            "items/pex_bm_health_preg_i_erhosp_Administration"
+            "items/pex_bm_health_preg_i_erhosp_Administration",
+            "items/pex_bm_health_preg_i_erhosp_Informant"
         ],
         "addProperties": [
             {
@@ -967,10 +968,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "pex_bm_health_preg_i_erhosp_Administration"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_erhosp_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

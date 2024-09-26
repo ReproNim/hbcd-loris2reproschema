@@ -72,7 +72,8 @@
             "items/pex_bm_assistv3_3m_i_perform_017",
             "items/pex_bm_assistv3_3m_i_perform_018",
             "items/pex_bm_assistv3_Validity",
-            "items/pex_bm_assistv3_Administration"
+            "items/pex_bm_assistv3_Administration",
+            "items/pex_bm_assistv3_Informant"
         ],
         "addProperties": [
             {
@@ -470,10 +471,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "pex_bm_assistv3_Administration"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_assistv3_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

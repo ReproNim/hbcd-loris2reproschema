@@ -41,11 +41,12 @@
             "items/sed_cg_home_ec_016",
             "items/sed_cg_home_ec_017",
             "items/sed_cg_home_ec_018",
-            "items/sed_cg_home_ec_Validity",
-            "items/sed_cg_home_ec_Administration",
             "items/sed_cg_home_ec_total_cognitive_stimulation",
             "items/sed_cg_home_ec_total_emotional_support",
-            "items/sed_cg_home_ec_total_score"
+            "items/sed_cg_home_ec_total_score",
+            "items/sed_cg_home_ec_Validity",
+            "items/sed_cg_home_ec_Administration",
+            "items/sed_cg_home_ec_Informant"
         ],
         "addProperties": [
             {
@@ -217,18 +218,6 @@
                 "variableName": "sed_cg_home_ec_018"
             },
             {
-                "isAbout": "items/sed_cg_home_ec_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_home_ec_Validity"
-            },
-            {
-                "isAbout": "items/sed_cg_home_ec_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_home_ec_Administration"
-            },
-            {
                 "isAbout": "items/sed_cg_home_ec_total_cognitive_stimulation",
                 "isVis": true,
                 "valueRequired": false,
@@ -245,10 +234,28 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_cg_home_ec_total_score"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_home_ec_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

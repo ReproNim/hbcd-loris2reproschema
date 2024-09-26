@@ -51,11 +51,12 @@
             "items/sed_cg_via_023",
             "items/sed_cg_via_021",
             "items/sed_cg_via_022",
-            "items/sed_cg_via_Validity",
-            "items/sed_cg_via_Administration",
             "items/sed_cg_via_line",
             "items/sed_cg_via_total_score_even",
-            "items/sed_cg_via_total_score_odd"
+            "items/sed_cg_via_total_score_odd",
+            "items/sed_cg_via_Validity",
+            "items/sed_cg_via_Administration",
+            "items/sed_cg_via_Informant"
         ],
         "addProperties": [
             {
@@ -263,18 +264,6 @@
                 "variableName": "sed_cg_via_022"
             },
             {
-                "isAbout": "items/sed_cg_via_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_via_Validity"
-            },
-            {
-                "isAbout": "items/sed_cg_via_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_via_Administration"
-            },
-            {
                 "isAbout": "items/sed_cg_via_line",
                 "isVis": true,
                 "valueRequired": false,
@@ -291,10 +280,28 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "sed_cg_via_total_score_odd"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_via_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_via_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -202,7 +202,8 @@
             "items/ncl_cg_spm2_i_inf_status_bal",
             "items/ncl_cg_spm2_i_inf_status_pla",
             "items/ncl_cg_spm2_i_inf_Validity",
-            "items/ncl_cg_spm2_i_inf_Administration"
+            "items/ncl_cg_spm2_i_inf_Administration",
+            "items/ncl_cg_spm2_i_inf_Informant"
         ],
         "addProperties": [
             {
@@ -936,10 +937,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_inf_Administration"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_cg_spm2_i_inf_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

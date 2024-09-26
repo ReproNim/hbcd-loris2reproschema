@@ -12,7 +12,8 @@
             "items/visit_start_Window_Difference",
             "items/visit_start_Examiner",
             "items/visit_start_Validity",
-            "items/visit_start_Administration"
+            "items/visit_start_Administration",
+            "items/visit_start_Informant"
         ],
         "addProperties": [
             {
@@ -50,10 +51,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "visit_start_Administration"
+            },
+            {
+                "isAbout": "items/visit_start_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "visit_start_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

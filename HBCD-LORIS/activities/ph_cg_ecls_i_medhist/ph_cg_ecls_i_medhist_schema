@@ -79,6 +79,8 @@
             "items/ph_cg_ecls_i_medhist_020_i_01",
             "items/ph_cg_ecls_i_medhist_021",
             "items/ph_cg_ecls_i_medhist_021_i_01",
+            "items/ph_cg_ecls_i_medhist_032",
+            "items/ph_cg_ecls_i_medhist_033",
             "items/ph_cg_ecls_i_medhist_022",
             "items/ph_cg_ecls_i_medhist_023",
             "items/ph_cg_ecls_i_medhist_024",
@@ -135,8 +137,7 @@
             "items/ph_cg_ecls_i_medhist_i_injury_09",
             "items/ph_cg_ecls_i_medhist_Validity",
             "items/ph_cg_ecls_i_medhist_Administration",
-            "items/ph_cg_ecls_i_medhist_032",
-            "items/ph_cg_ecls_i_medhist_033"
+            "items/ph_cg_ecls_i_medhist_Informant"
         ],
         "addProperties": [
             {
@@ -572,6 +573,18 @@
                 "variableName": "ph_cg_ecls_i_medhist_021_i_01"
             },
             {
+                "isAbout": "items/ph_cg_ecls_i_medhist_032",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_ecls_i_medhist_032"
+            },
+            {
+                "isAbout": "items/ph_cg_ecls_i_medhist_033",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_ecls_i_medhist_033"
+            },
+            {
                 "isAbout": "items/ph_cg_ecls_i_medhist_022",
                 "isVis": true,
                 "valueRequired": false,
@@ -908,20 +921,14 @@
                 "variableName": "ph_cg_ecls_i_medhist_Administration"
             },
             {
-                "isAbout": "items/ph_cg_ecls_i_medhist_032",
+                "isAbout": "items/ph_cg_ecls_i_medhist_Informant",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "ph_cg_ecls_i_medhist_032"
-            },
-            {
-                "isAbout": "items/ph_cg_ecls_i_medhist_033",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_ecls_i_medhist_033"
+                "variableName": "ph_cg_ecls_i_medhist_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

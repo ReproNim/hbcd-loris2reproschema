@@ -41,9 +41,10 @@
             "items/sed_cg_hpss_016",
             "items/sed_cg_hpss_017",
             "items/sed_cg_hpss_018",
+            "items/sed_cg_hpss_total_score",
             "items/sed_cg_hpss_Validity",
             "items/sed_cg_hpss_Administration",
-            "items/sed_cg_hpss_total_score"
+            "items/sed_cg_hpss_Informant"
         ],
         "addProperties": [
             {
@@ -215,6 +216,12 @@
                 "variableName": "sed_cg_hpss_018"
             },
             {
+                "isAbout": "items/sed_cg_hpss_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_cg_hpss_total_score"
+            },
+            {
                 "isAbout": "items/sed_cg_hpss_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -227,14 +234,14 @@
                 "variableName": "sed_cg_hpss_Administration"
             },
             {
-                "isAbout": "items/sed_cg_hpss_total_score",
-                "isVis": false,
+                "isAbout": "items/sed_cg_hpss_Informant",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "sed_cg_hpss_total_score"
+                "variableName": "sed_cg_hpss_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

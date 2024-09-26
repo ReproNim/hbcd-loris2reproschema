@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_strtalk_001"
     },
     "question": {
-        "en": "imitate"
+        "en": "Algunos ni\u221a\u00b1os repiten las cosas que escuchan. A veces repiten parte de una frase, por ejemplo, si oyen \u201a\u00c4\u00fael coche de pap\u221a\u00b0\u201a\u00c4\u00f9 dicen \u201a\u00c4\u00fapap\u221a\u00b0\u201a\u00c4\u00f9 o \u201a\u00c4\u00facoche\u201a\u00c4\u00f9. Otras veces pueden repetir una palabra nueva para ellos. \u00ac\u00f8Con qu\u221a\u00a9 frecuencia cree usted que su hijo/a imite palabras o partes de frases?"
     },
     "responseOptions": {
         "choices": [],

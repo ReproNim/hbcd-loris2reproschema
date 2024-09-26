@@ -38,59 +38,11 @@
             "items/mh_ch_bhvobs_if_yes_technical_quality_issues_page1",
             "items/mh_ch_bhvobs_if_other_please_describe_technical_page1",
             "items/mh_ch_bhvobs_if_yes_which_component_were_affected",
-            "items/mh_ch_bhvobs_how_alike_or_different_was_things_go_page1",
-            "items/mh_ch_bhvobs_if_not_at_all_typical_during",
-            "items/mh_ch_bhvobs_if_not_at_all_typical_page1",
             "items/mh_ch_bhvobs_administration_erica_notes_page1",
             "items/mh_ch_bhvobs_certify_that_there_are_no_personally",
-            "items/mh_ch_bhvobs_language_page2",
-            "items/mh_ch_bhvobs_completed_page2",
-            "items/mh_ch_bhvobs_if_partially_or_not_completed_page2",
-            "items/mh_ch_bhvobs_if_other_please_describe_incomplete_page2",
-            "items/mh_ch_bhvobs_photos_of_velcro_board_taken_and_uploaded_page2",
-            "items/mh_ch_bhvobs_if_no_reason_why_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_very_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_if_other_very_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_if_other_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_1_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_2_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_3_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_4_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_5_page2",
-            "items/mh_ch_bhvobs_not_as_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_6_page2",
-            "items/mh_ch_bhvobs_important_qualities_that_were_not_included_page2",
-            "items/mh_ch_bhvobs_Qualities_would_not_select_as_important_page2",
-            "items/mh_ch_bhvobs_other_fcm_feedback_page2",
-            "items/mh_ch_bhvobs_administration_fcm_notes_page2",
             "items/mh_ch_bhvobs_Validity",
-            "items/mh_ch_bhvobs_Administration"
+            "items/mh_ch_bhvobs_Administration",
+            "items/mh_ch_bhvobs_Informant"
         ],
         "addProperties": [
             {
@@ -280,24 +232,6 @@
                 "variableName": "mh_ch_bhvobs_if_yes_which_component_were_affected"
             },
             {
-                "isAbout": "items/mh_ch_bhvobs_how_alike_or_different_was_things_go_page1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_how_alike_or_different_was_things_go_page1"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_not_at_all_typical_during",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_not_at_all_typical_during"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_not_at_all_typical_page1",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_not_at_all_typical_page1"
-            },
-            {
                 "isAbout": "items/mh_ch_bhvobs_administration_erica_notes_page1",
                 "isVis": true,
                 "valueRequired": false,
@@ -310,282 +244,6 @@
                 "variableName": "mh_ch_bhvobs_certify_that_there_are_no_personally"
             },
             {
-                "isAbout": "items/mh_ch_bhvobs_language_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_language_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_completed_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_completed_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_partially_or_not_completed_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_partially_or_not_completed_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_please_describe_incomplete_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_please_describe_incomplete_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_photos_of_velcro_board_taken_and_uploaded_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_photos_of_velcro_board_taken_and_uploaded_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_no_reason_why_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_no_reason_why_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_very_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_very_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_very_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_very_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_1_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_1_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_2_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_2_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_3_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_3_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_4_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_4_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_5_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_5_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_not_as_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_not_as_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_if_other_not_as_important_value_choice_6_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_if_other_not_as_important_value_choice_6_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_important_qualities_that_were_not_included_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_important_qualities_that_were_not_included_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_Qualities_would_not_select_as_important_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_Qualities_would_not_select_as_important_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_other_fcm_feedback_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_other_fcm_feedback_page2"
-            },
-            {
-                "isAbout": "items/mh_ch_bhvobs_administration_fcm_notes_page2",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_ch_bhvobs_administration_fcm_notes_page2"
-            },
-            {
                 "isAbout": "items/mh_ch_bhvobs_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -596,10 +254,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_ch_bhvobs_Administration"
+            },
+            {
+                "isAbout": "items/mh_ch_bhvobs_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_ch_bhvobs_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

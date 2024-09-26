@@ -41,7 +41,8 @@
             "items/sed_bm_ehits_score",
             "items/sed_bm_ehits_flag01",
             "items/sed_bm_ehits_Validity",
-            "items/sed_bm_ehits_Administration"
+            "items/sed_bm_ehits_Administration",
+            "items/sed_bm_ehits_Informant"
         ],
         "addProperties": [
             {
@@ -193,10 +194,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_ehits_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_ehits_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

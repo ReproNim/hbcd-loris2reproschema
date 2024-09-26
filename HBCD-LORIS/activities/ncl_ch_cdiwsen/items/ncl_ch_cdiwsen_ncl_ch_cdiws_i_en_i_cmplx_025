@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwsen_ncl_ch_cdiws_i_en_i_cmplx_025"
     },
     "question": {
-        "en": "complx25"
+        "en": "I like read stories / I like to read stories"
     },
     "responseOptions": {
         "choices": [],

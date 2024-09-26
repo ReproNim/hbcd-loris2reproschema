@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwses_ncl_ch_cdiws_i_es_i_usg_i_howuse_004"
     },
     "question": {
-        "en": "misscomp"
+        "en": "\u00ac\u00f8Su hijo/a entiende cuando le piden que traiga algo de otro cuarto? Por ejemplo, si le preguntan, \u201a\u00c4\u00fa\u00ac\u00f8d\u221a\u2265nde est\u221a\u00b0 tu pelota?\u201a\u00c4\u00f9 \u00ac\u00f8el ni\u221a\u00b1o/a va a buscarla a otro cuarto?"
     },
     "responseOptions": {
         "choices": [],

@@ -101,7 +101,8 @@
             "items/ncl_ch_di_i_v06_sev4_005",
             "items/ncl_ch_di_i_v06_006",
             "items/ncl_ch_di_i_v06_Validity",
-            "items/ncl_ch_di_i_v06_Administration"
+            "items/ncl_ch_di_i_v06_Administration",
+            "items/ncl_ch_di_i_v06_Informant"
         ],
         "addProperties": [
             {
@@ -673,10 +674,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_di_i_v06_Administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_di_i_v06_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_di_i_v06_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

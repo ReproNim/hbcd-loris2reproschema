@@ -11,6 +11,7 @@
             "items/sed_cg_incarc_Candidate_Age",
             "items/sed_cg_incarc_Window_Difference",
             "items/sed_cg_incarc_Examiner",
+            "items/sed_cg_incarc_lang",
             "items/sed_cg_incarc_dtt",
             "items/sed_cg_incarc_timestamp_start",
             "items/sed_cg_incarc_timestamp_stop",
@@ -195,7 +196,7 @@
             "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk",
             "items/sed_cg_incarc_Validity",
             "items/sed_cg_incarc_Administration",
-            "items/sed_cg_incarc_lang"
+            "items/sed_cg_incarc_Informant"
         ],
         "addProperties": [
             {
@@ -221,6 +222,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_incarc_Examiner"
+            },
+            {
+                "isAbout": "items/sed_cg_incarc_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_incarc_lang"
             },
             {
                 "isAbout": "items/sed_cg_incarc_dtt",
@@ -1327,14 +1334,14 @@
                 "variableName": "sed_cg_incarc_Administration"
             },
             {
-                "isAbout": "items/sed_cg_incarc_lang",
+                "isAbout": "items/sed_cg_incarc_Informant",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "sed_cg_incarc_lang"
+                "variableName": "sed_cg_incarc_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

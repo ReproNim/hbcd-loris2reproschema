@@ -73,7 +73,8 @@
             "items/eeg_ch_chkl_001",
             "items/eeg_ch_chkl_002",
             "items/eeg_ch_chkl_Validity",
-            "items/eeg_ch_chkl_Administration"
+            "items/eeg_ch_chkl_Administration",
+            "items/eeg_ch_chkl_Informant"
         ],
         "addProperties": [
             {
@@ -477,10 +478,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "eeg_ch_chkl_Administration"
+            },
+            {
+                "isAbout": "items/eeg_ch_chkl_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "eeg_ch_chkl_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

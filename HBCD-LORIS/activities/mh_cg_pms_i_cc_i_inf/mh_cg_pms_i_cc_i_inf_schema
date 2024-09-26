@@ -31,7 +31,8 @@
             "items/mh_cg_pms_i_cc_i_inf_total_score",
             "items/mh_cg_pms_i_cc_i_inf_answered_count",
             "items/mh_cg_pms_i_cc_i_inf_Validity",
-            "items/mh_cg_pms_i_cc_i_inf_Administration"
+            "items/mh_cg_pms_i_cc_i_inf_Administration",
+            "items/mh_cg_pms_i_cc_i_inf_Informant"
         ],
         "addProperties": [
             {
@@ -147,10 +148,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_cg_pms_i_cc_i_inf_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_cc_i_inf_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_cc_i_inf_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

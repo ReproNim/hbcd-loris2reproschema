@@ -31,6 +31,7 @@
             "items/ncl_ch_mlds_001_i_05",
             "items/ncl_ch_mlds_002",
             "items/ncl_ch_mlds_002_i_01",
+            "items/ncl_ch_mlds_003_i_09",
             "items/ncl_ch_mlds_003_i_01",
             "items/ncl_ch_mlds_003_i_01_i_01",
             "items/ncl_ch_mlds_003_i_01_i_02",
@@ -46,6 +47,7 @@
             "items/ncl_ch_mlds_003_i_08_i_01",
             "items/ncl_ch_mlds_003_i_08_i_02",
             "items/ncl_ch_mlds_003_i_08_dk",
+            "items/ncl_ch_mlds_004_i_09",
             "items/ncl_ch_mlds_004_i_01",
             "items/ncl_ch_mlds_004_i_01_i_01",
             "items/ncl_ch_mlds_004_i_01_i_02",
@@ -61,6 +63,7 @@
             "items/ncl_ch_mlds_004_i_08_i_01",
             "items/ncl_ch_mlds_004_i_08_i_02",
             "items/ncl_ch_mlds_004_i_08_dk",
+            "items/ncl_ch_mlds_005_i_09",
             "items/ncl_ch_mlds_005_i_01",
             "items/ncl_ch_mlds_005_i_01_i_01",
             "items/ncl_ch_mlds_005_i_01_i_02",
@@ -76,6 +79,7 @@
             "items/ncl_ch_mlds_005_i_08_i_01",
             "items/ncl_ch_mlds_005_i_08_i_02",
             "items/ncl_ch_mlds_005_i_08_dk",
+            "items/ncl_ch_mlds_006_i_09",
             "items/ncl_ch_mlds_006_i_01",
             "items/ncl_ch_mlds_006_i_01_i_01",
             "items/ncl_ch_mlds_006_i_01_i_02",
@@ -91,6 +95,7 @@
             "items/ncl_ch_mlds_006_i_08_i_01",
             "items/ncl_ch_mlds_006_i_08_i_02",
             "items/ncl_ch_mlds_006_i_08_dk",
+            "items/ncl_ch_mlds_007_i_09",
             "items/ncl_ch_mlds_007_i_01",
             "items/ncl_ch_mlds_007_i_01_i_01",
             "items/ncl_ch_mlds_007_i_01_i_02",
@@ -106,6 +111,7 @@
             "items/ncl_ch_mlds_007_i_08_i_01",
             "items/ncl_ch_mlds_007_i_08_i_02",
             "items/ncl_ch_mlds_007_i_08_dk",
+            "items/ncl_ch_mlds_008_i_09",
             "items/ncl_ch_mlds_008_i_01",
             "items/ncl_ch_mlds_008_i_01_i_01",
             "items/ncl_ch_mlds_008_i_01_i_02",
@@ -121,6 +127,7 @@
             "items/ncl_ch_mlds_008_i_08_i_01",
             "items/ncl_ch_mlds_008_i_08_i_02",
             "items/ncl_ch_mlds_008_i_08_dk",
+            "items/ncl_ch_mlds_009_i_09",
             "items/ncl_ch_mlds_009_i_01",
             "items/ncl_ch_mlds_009_i_01_i_01",
             "items/ncl_ch_mlds_009_i_01_i_02",
@@ -136,6 +143,7 @@
             "items/ncl_ch_mlds_009_i_08_i_01",
             "items/ncl_ch_mlds_009_i_08_i_02",
             "items/ncl_ch_mlds_009_i_08_dk",
+            "items/ncl_ch_mlds_010_i_09",
             "items/ncl_ch_mlds_010_i_01",
             "items/ncl_ch_mlds_010_i_01_i_01",
             "items/ncl_ch_mlds_010_i_01_i_02",
@@ -151,6 +159,7 @@
             "items/ncl_ch_mlds_010_i_08_i_01",
             "items/ncl_ch_mlds_010_i_08_i_02",
             "items/ncl_ch_mlds_010_i_08_dk",
+            "items/ncl_ch_mlds_011_i_09",
             "items/ncl_ch_mlds_011_i_01",
             "items/ncl_ch_mlds_011_i_01_i_01",
             "items/ncl_ch_mlds_011_i_01_i_02",
@@ -166,6 +175,7 @@
             "items/ncl_ch_mlds_011_i_08_i_01",
             "items/ncl_ch_mlds_011_i_08_i_02",
             "items/ncl_ch_mlds_011_i_08_dk",
+            "items/ncl_ch_mlds_012_i_09",
             "items/ncl_ch_mlds_012_i_01",
             "items/ncl_ch_mlds_012_i_01_i_01",
             "items/ncl_ch_mlds_012_i_01_i_02",
@@ -219,7 +229,8 @@
             "items/ncl_ch_mlds_en",
             "items/ncl_ch_mlds_es",
             "items/ncl_ch_mlds_Validity",
-            "items/ncl_ch_mlds_Administration"
+            "items/ncl_ch_mlds_Administration",
+            "items/ncl_ch_mlds_Informant"
         ],
         "addProperties": [
             {
@@ -367,6 +378,12 @@
                 "variableName": "ncl_ch_mlds_002_i_01"
             },
             {
+                "isAbout": "items/ncl_ch_mlds_003_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_003_i_09"
+            },
+            {
                 "isAbout": "items/ncl_ch_mlds_003_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -455,6 +472,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_003_i_08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_004_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_004_i_09"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_004_i_01",
@@ -547,6 +570,12 @@
                 "variableName": "ncl_ch_mlds_004_i_08_dk"
             },
             {
+                "isAbout": "items/ncl_ch_mlds_005_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_005_i_09"
+            },
+            {
                 "isAbout": "items/ncl_ch_mlds_005_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -635,6 +664,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_005_i_08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_006_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_006_i_09"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_006_i_01",
@@ -727,6 +762,12 @@
                 "variableName": "ncl_ch_mlds_006_i_08_dk"
             },
             {
+                "isAbout": "items/ncl_ch_mlds_007_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_007_i_09"
+            },
+            {
                 "isAbout": "items/ncl_ch_mlds_007_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -815,6 +856,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_007_i_08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_008_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_008_i_09"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_008_i_01",
@@ -907,6 +954,12 @@
                 "variableName": "ncl_ch_mlds_008_i_08_dk"
             },
             {
+                "isAbout": "items/ncl_ch_mlds_009_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_009_i_09"
+            },
+            {
                 "isAbout": "items/ncl_ch_mlds_009_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -995,6 +1048,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_009_i_08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_010_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_010_i_09"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_010_i_01",
@@ -1087,6 +1146,12 @@
                 "variableName": "ncl_ch_mlds_010_i_08_dk"
             },
             {
+                "isAbout": "items/ncl_ch_mlds_011_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_011_i_09"
+            },
+            {
                 "isAbout": "items/ncl_ch_mlds_011_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -1175,6 +1240,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_011_i_08_dk"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_012_i_09",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_012_i_09"
             },
             {
                 "isAbout": "items/ncl_ch_mlds_012_i_01",
@@ -1499,10 +1570,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_mlds_Administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_mlds_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_mlds_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

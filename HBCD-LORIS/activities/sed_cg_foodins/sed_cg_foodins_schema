@@ -21,7 +21,8 @@
             "items/sed_cg_foodins_002",
             "items/sed_cg_foodins_sed_cg_foodins_category",
             "items/sed_cg_foodins_Validity",
-            "items/sed_cg_foodins_Administration"
+            "items/sed_cg_foodins_Administration",
+            "items/sed_cg_foodins_Informant"
         ],
         "addProperties": [
             {
@@ -113,10 +114,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_foodins_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_foodins_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

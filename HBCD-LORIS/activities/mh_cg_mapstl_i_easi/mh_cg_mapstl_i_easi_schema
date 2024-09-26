@@ -23,7 +23,8 @@
             "items/mh_cg_mapstl_i_easi_004",
             "items/mh_cg_mapstl_i_easi_005",
             "items/mh_cg_mapstl_i_easi_Validity",
-            "items/mh_cg_mapstl_i_easi_Administration"
+            "items/mh_cg_mapstl_i_easi_Administration",
+            "items/mh_cg_mapstl_i_easi_Informant"
         ],
         "addProperties": [
             {
@@ -127,10 +128,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_cg_mapstl_i_easi_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_mapstl_i_easi_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_mapstl_i_easi_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

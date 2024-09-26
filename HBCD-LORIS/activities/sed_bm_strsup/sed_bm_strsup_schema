@@ -39,13 +39,14 @@
             "items/sed_bm_strsup_coping_002",
             "items/sed_bm_strsup_coping_003",
             "items/sed_bm_strsup_coping_004",
-            "items/sed_bm_strsup_Validity",
-            "items/sed_bm_strsup_Administration",
             "items/sed_bm_strsup_line",
             "items/sed_bm_strsup_total_score",
             "items/sed_bm_strsup_total_raw_score",
             "items/sed_bm_strsup_scale_score",
-            "items/sed_bm_strsup_standard_error"
+            "items/sed_bm_strsup_standard_error",
+            "items/sed_bm_strsup_Validity",
+            "items/sed_bm_strsup_Administration",
+            "items/sed_bm_strsup_Informant"
         ],
         "addProperties": [
             {
@@ -157,18 +158,6 @@
                 "variableName": "sed_bm_strsup_coping_004"
             },
             {
-                "isAbout": "items/sed_bm_strsup_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_bm_strsup_Validity"
-            },
-            {
-                "isAbout": "items/sed_bm_strsup_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_bm_strsup_Administration"
-            },
-            {
                 "isAbout": "items/sed_bm_strsup_line",
                 "isVis": true,
                 "valueRequired": false,
@@ -197,10 +186,28 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_strsup_standard_error"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Validity"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_strsup_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_strsup_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

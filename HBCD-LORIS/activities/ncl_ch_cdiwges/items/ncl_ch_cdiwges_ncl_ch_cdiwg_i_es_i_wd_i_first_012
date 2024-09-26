@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_first_012"
     },
     "question": {
-        "en": "levhombr"
+        "en": "Levanta los hombros y/o extiendo sus manos hacia los lados como para decir \u201a\u00c4\u00fad\u221a\u2265nde est\u221a\u00b0\u201a\u00c4\u00f9 o \u201a\u00c4\u00fase fue\u201a\u00c4\u00f9."
     },
     "responseOptions": {
         "choices": [],

@@ -193,7 +193,6 @@
             "items/adm_ra_fb_visit4_036",
             "items/adm_ra_fb_visit4_037",
             "items/adm_ra_fb_visit4_038",
-            "items/adm_ra_fb_visit4_039",
             "items/adm_ra_fb_visit4_040",
             "items/adm_ra_fb_visit4_041",
             "items/adm_ra_fb_visit4_042",
@@ -252,7 +251,6 @@
             "items/adm_ra_fb_visit4_036_i_01",
             "items/adm_ra_fb_visit4_037_i_01",
             "items/adm_ra_fb_visit4_038_i_01",
-            "items/adm_ra_fb_visit4_039_i_01",
             "items/adm_ra_fb_visit4_040_i_01",
             "items/adm_ra_fb_visit4_041_i_01",
             "items/adm_ra_fb_visit4_042_i_01",
@@ -350,7 +348,6 @@
             "items/adm_ra_fb_visit6_030",
             "items/adm_ra_fb_visit6_031",
             "items/adm_ra_fb_visit6_032",
-            "items/adm_ra_fb_visit6_033",
             "items/adm_ra_fb_visit6_034",
             "items/adm_ra_fb_visit6_035",
             "items/adm_ra_fb_visit6_036",
@@ -410,7 +407,6 @@
             "items/adm_ra_fb_visit6_030_i_01",
             "items/adm_ra_fb_visit6_031_i_01",
             "items/adm_ra_fb_visit6_032_i_01",
-            "items/adm_ra_fb_visit6_033_i_01",
             "items/adm_ra_fb_visit6_034_i_01",
             "items/adm_ra_fb_visit6_035_i_01",
             "items/adm_ra_fb_visit6_036_i_01",
@@ -439,7 +435,10 @@
             "items/adm_ra_fb_visit6_059_i_01",
             "items/adm_ra_fb_visit6_060_i_01",
             "items/adm_ra_fb_visit6_061_i_01",
-            "items/adm_ra_fb_006"
+            "items/adm_ra_fb_006",
+            "items/adm_ra_fb_visit3_028",
+            "items/adm_ra_fb_visit3_028_i_01",
+            "items/adm_ra_fb_Informant"
         ],
         "addProperties": [
             {
@@ -1559,12 +1558,6 @@
                 "variableName": "adm_ra_fb_visit4_038"
             },
             {
-                "isAbout": "items/adm_ra_fb_visit4_039",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "adm_ra_fb_visit4_039"
-            },
-            {
                 "isAbout": "items/adm_ra_fb_visit4_040",
                 "isVis": true,
                 "valueRequired": false,
@@ -1911,12 +1904,6 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "adm_ra_fb_visit4_038_i_01"
-            },
-            {
-                "isAbout": "items/adm_ra_fb_visit4_039_i_01",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "adm_ra_fb_visit4_039_i_01"
             },
             {
                 "isAbout": "items/adm_ra_fb_visit4_040_i_01",
@@ -2501,12 +2488,6 @@
                 "variableName": "adm_ra_fb_visit6_032"
             },
             {
-                "isAbout": "items/adm_ra_fb_visit6_033",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "adm_ra_fb_visit6_033"
-            },
-            {
                 "isAbout": "items/adm_ra_fb_visit6_034",
                 "isVis": true,
                 "valueRequired": false,
@@ -2861,12 +2842,6 @@
                 "variableName": "adm_ra_fb_visit6_032_i_01"
             },
             {
-                "isAbout": "items/adm_ra_fb_visit6_033_i_01",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "adm_ra_fb_visit6_033_i_01"
-            },
-            {
                 "isAbout": "items/adm_ra_fb_visit6_034_i_01",
                 "isVis": true,
                 "valueRequired": false,
@@ -3039,10 +3014,28 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "adm_ra_fb_006"
+            },
+            {
+                "isAbout": "items/adm_ra_fb_visit3_028",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_ra_fb_visit3_028"
+            },
+            {
+                "isAbout": "items/adm_ra_fb_visit3_028_i_01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_ra_fb_visit3_028_i_01"
+            },
+            {
+                "isAbout": "items/adm_ra_fb_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_ra_fb_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

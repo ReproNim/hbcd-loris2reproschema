@@ -38,9 +38,10 @@
             "items/sed_cg_tic_003_i_02",
             "items/sed_cg_tic_003_i_03",
             "items/sed_cg_tic_003_i_04",
+            "items/sed_cg_tic_total_score",
             "items/sed_cg_tic_Validity",
             "items/sed_cg_tic_Administration",
-            "items/sed_cg_tic_total_score"
+            "items/sed_cg_tic_Informant"
         ],
         "addProperties": [
             {
@@ -194,6 +195,12 @@
                 "variableName": "sed_cg_tic_003_i_04"
             },
             {
+                "isAbout": "items/sed_cg_tic_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_cg_tic_total_score"
+            },
+            {
                 "isAbout": "items/sed_cg_tic_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -206,14 +213,14 @@
                 "variableName": "sed_cg_tic_Administration"
             },
             {
-                "isAbout": "items/sed_cg_tic_total_score",
-                "isVis": false,
+                "isAbout": "items/sed_cg_tic_Informant",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "sed_cg_tic_total_score"
+                "variableName": "sed_cg_tic_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

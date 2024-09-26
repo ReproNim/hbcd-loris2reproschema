@@ -22,7 +22,8 @@
             "items/webcdi_en_002",
             "items/webcdi_en_completion_status",
             "items/webcdi_en_Validity",
-            "items/webcdi_en_Administration"
+            "items/webcdi_en_Administration",
+            "items/webcdi_en_Informant"
         ],
         "addProperties": [
             {
@@ -120,10 +121,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "webcdi_en_Administration"
+            },
+            {
+                "isAbout": "items/webcdi_en_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "webcdi_en_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

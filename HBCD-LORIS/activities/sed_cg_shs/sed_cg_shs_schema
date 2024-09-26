@@ -22,7 +22,8 @@
             "items/sed_cg_shs_002",
             "items/sed_cg_shs_002_i_01",
             "items/sed_cg_shs_Validity",
-            "items/sed_cg_shs_Administration"
+            "items/sed_cg_shs_Administration",
+            "items/sed_cg_shs_Informant"
         ],
         "addProperties": [
             {
@@ -120,10 +121,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_shs_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_shs_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

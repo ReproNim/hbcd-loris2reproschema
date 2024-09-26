@@ -28,7 +28,8 @@
             "items/nt_ch_sens_i_qtn_3_beh_006",
             "items/nt_ch_sens_i_qtn_3_beh_007",
             "items/nt_ch_sens_i_qtn_3_Validity",
-            "items/nt_ch_sens_i_qtn_3_Administration"
+            "items/nt_ch_sens_i_qtn_3_Administration",
+            "items/nt_ch_sens_i_qtn_3_Informant"
         ],
         "addProperties": [
             {
@@ -162,10 +163,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "nt_ch_sens_i_qtn_3_Administration"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_3_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nt_ch_sens_i_qtn_3_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

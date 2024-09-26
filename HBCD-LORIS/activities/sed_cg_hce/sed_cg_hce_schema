@@ -63,7 +63,8 @@
             "items/sed_cg_hce_030",
             "items/sed_cg_hce_030_i_01",
             "items/sed_cg_hce_Validity",
-            "items/sed_cg_hce_Administration"
+            "items/sed_cg_hce_Administration",
+            "items/sed_cg_hce_Informant"
         ],
         "addProperties": [
             {
@@ -407,10 +408,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_hce_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_hce_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_hce_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

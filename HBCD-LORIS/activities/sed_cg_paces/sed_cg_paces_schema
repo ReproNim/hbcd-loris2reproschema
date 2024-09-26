@@ -35,9 +35,10 @@
             "items/sed_cg_paces_010",
             "items/sed_cg_paces_011",
             "items/sed_cg_paces_012",
+            "items/sed_cg_paces_total_score",
             "items/sed_cg_paces_Validity",
             "items/sed_cg_paces_Administration",
-            "items/sed_cg_paces_total_score"
+            "items/sed_cg_paces_Informant"
         ],
         "addProperties": [
             {
@@ -173,6 +174,12 @@
                 "variableName": "sed_cg_paces_012"
             },
             {
+                "isAbout": "items/sed_cg_paces_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "sed_cg_paces_total_score"
+            },
+            {
                 "isAbout": "items/sed_cg_paces_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -185,14 +192,14 @@
                 "variableName": "sed_cg_paces_Administration"
             },
             {
-                "isAbout": "items/sed_cg_paces_total_score",
-                "isVis": false,
+                "isAbout": "items/sed_cg_paces_Informant",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "sed_cg_paces_total_score"
+                "variableName": "sed_cg_paces_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

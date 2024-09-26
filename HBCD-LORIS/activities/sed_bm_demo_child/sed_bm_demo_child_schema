@@ -276,7 +276,8 @@
             "items/sed_bm_demo_child_i_roster_036_i_06",
             "items/sed_bm_demo_child_i_income_001",
             "items/sed_bm_demo_child_Validity",
-            "items/sed_bm_demo_child_Administration"
+            "items/sed_bm_demo_child_Administration",
+            "items/sed_bm_demo_child_Informant"
         ],
         "addProperties": [
             {
@@ -1898,10 +1899,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_demo_child_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_demo_child_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

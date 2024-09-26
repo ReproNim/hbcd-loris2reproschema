@@ -33,7 +33,8 @@
             "items/adm_cg_fb_012",
             "items/adm_cg_fb_013",
             "items/adm_cg_fb_Validity",
-            "items/adm_cg_fb_Administration"
+            "items/adm_cg_fb_Administration",
+            "items/adm_cg_fb_Informant"
         ],
         "addProperties": [
             {
@@ -197,10 +198,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "adm_cg_fb_Administration"
+            },
+            {
+                "isAbout": "items/adm_cg_fb_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_cg_fb_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

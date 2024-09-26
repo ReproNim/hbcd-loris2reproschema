@@ -491,7 +491,8 @@
             "items/mri_ra_chkl_data_s4_005_status",
             "items/mri_ra_chkl_data_s4_006",
             "items/mri_ra_chkl_data_Validity",
-            "items/mri_ra_chkl_data_Administration"
+            "items/mri_ra_chkl_data_Administration",
+            "items/mri_ra_chkl_data_Informant"
         ],
         "addProperties": [
             {
@@ -3403,10 +3404,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mri_ra_chkl_data_Administration"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_data_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_data_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -28,7 +28,8 @@
             "items/sed_cg_leadexp_009",
             "items/sed_cg_leadexp_010",
             "items/sed_cg_leadexp_Validity",
-            "items/sed_cg_leadexp_Administration"
+            "items/sed_cg_leadexp_Administration",
+            "items/sed_cg_leadexp_Informant"
         ],
         "addProperties": [
             {
@@ -162,10 +163,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_leadexp_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_leadexp_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

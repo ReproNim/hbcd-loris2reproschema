@@ -53,7 +53,8 @@
             "items/ph_cg_cnq_026",
             "items/ph_cg_cnq_027",
             "items/ph_cg_cnq_Validity",
-            "items/ph_cg_cnq_Administration"
+            "items/ph_cg_cnq_Administration",
+            "items/ph_cg_cnq_Informant"
         ],
         "addProperties": [
             {
@@ -337,10 +338,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_cg_cnq_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_cnq_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_cnq_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

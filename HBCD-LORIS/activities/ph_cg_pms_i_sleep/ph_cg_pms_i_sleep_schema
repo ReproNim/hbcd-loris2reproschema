@@ -39,11 +39,12 @@
             "items/ph_cg_pms_i_sleep_006",
             "items/ph_cg_pms_i_sleep_007",
             "items/ph_cg_pms_i_sleep_008",
-            "items/ph_cg_pms_i_sleep_Validity",
-            "items/ph_cg_pms_i_sleep_Administration",
             "items/ph_cg_pms_i_sleep_total_score",
             "items/ph_cg_pms_i_sleep_t_score",
-            "items/ph_cg_pms_i_sleep_se_score"
+            "items/ph_cg_pms_i_sleep_se_score",
+            "items/ph_cg_pms_i_sleep_Validity",
+            "items/ph_cg_pms_i_sleep_Administration",
+            "items/ph_cg_pms_i_sleep_Informant"
         ],
         "addProperties": [
             {
@@ -155,18 +156,6 @@
                 "variableName": "ph_cg_pms_i_sleep_008"
             },
             {
-                "isAbout": "items/ph_cg_pms_i_sleep_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_pms_i_sleep_Validity"
-            },
-            {
-                "isAbout": "items/ph_cg_pms_i_sleep_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_pms_i_sleep_Administration"
-            },
-            {
                 "isAbout": "items/ph_cg_pms_i_sleep_total_score",
                 "isVis": false,
                 "valueRequired": false,
@@ -183,10 +172,28 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_pms_i_sleep_se_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_sleep_Validity"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_sleep_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_sleep_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

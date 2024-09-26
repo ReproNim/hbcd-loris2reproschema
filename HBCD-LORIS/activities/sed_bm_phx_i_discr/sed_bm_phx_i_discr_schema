@@ -30,7 +30,8 @@
             "items/sed_bm_phx_i_discr_012",
             "items/sed_bm_phx_i_discr_006",
             "items/sed_bm_phx_i_discr_Validity",
-            "items/sed_bm_phx_i_discr_Administration"
+            "items/sed_bm_phx_i_discr_Administration",
+            "items/sed_bm_phx_i_discr_Informant"
         ],
         "addProperties": [
             {
@@ -176,10 +177,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_phx_i_discr_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_phx_i_discr_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

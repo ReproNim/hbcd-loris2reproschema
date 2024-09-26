@@ -82,7 +82,8 @@
             "items/ERICA_3_to_7_months_flag_connectedness_page4",
             "items/ERICA_3_to_7_months_flag_connectedness_page5",
             "items/ERICA_3_to_7_months_Validity",
-            "items/ERICA_3_to_7_months_Administration"
+            "items/ERICA_3_to_7_months_Administration",
+            "items/ERICA_3_to_7_months_Informant"
         ],
         "addProperties": [
             {
@@ -360,10 +361,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ERICA_3_to_7_months_Administration"
+            },
+            {
+                "isAbout": "items/ERICA_3_to_7_months_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ERICA_3_to_7_months_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

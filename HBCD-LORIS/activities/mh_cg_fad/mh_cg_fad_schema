@@ -35,9 +35,10 @@
             "items/mh_cg_fad_001_i_10",
             "items/mh_cg_fad_001_i_11",
             "items/mh_cg_fad_001_i_12",
+            "items/mh_cg_fad_total_score",
             "items/mh_cg_fad_Validity",
             "items/mh_cg_fad_Administration",
-            "items/mh_cg_fad_total_score"
+            "items/mh_cg_fad_Informant"
         ],
         "addProperties": [
             {
@@ -173,6 +174,12 @@
                 "variableName": "mh_cg_fad_001_i_12"
             },
             {
+                "isAbout": "items/mh_cg_fad_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_cg_fad_total_score"
+            },
+            {
                 "isAbout": "items/mh_cg_fad_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -185,14 +192,14 @@
                 "variableName": "mh_cg_fad_Administration"
             },
             {
-                "isAbout": "items/mh_cg_fad_total_score",
-                "isVis": false,
+                "isAbout": "items/mh_cg_fad_Informant",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "mh_cg_fad_total_score"
+                "variableName": "mh_cg_fad_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -251,7 +251,8 @@
             "items/nc_ch_bayley_4_LM_Score_Base_rate",
             "items/nc_ch_bayley_4_other_comments",
             "items/nc_ch_bayley_4_Validity",
-            "items/nc_ch_bayley_4_Administration"
+            "items/nc_ch_bayley_4_Administration",
+            "items/nc_ch_bayley_4_Informant"
         ],
         "addProperties": [
             {
@@ -799,10 +800,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "nc_ch_bayley_4_Administration"
+            },
+            {
+                "isAbout": "items/nc_ch_bayley_4_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "nc_ch_bayley_4_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

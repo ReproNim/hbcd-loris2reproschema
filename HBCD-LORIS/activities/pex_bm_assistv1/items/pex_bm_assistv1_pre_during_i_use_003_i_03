@@ -35,14 +35,14 @@
         {
             "column": "Description Status",
             "source": "redcap",
-            "value": "Unchanged"
+            "value": "Modified"
         }
     ],
     "prefLabel": {
         "en": "pex_bm_assistv1_pre_during_i_use_003_i_03"
     },
     "question": {
-        "en": "Marijuana that you eat, such as pot cookies, gummy bears, brownies? "
+        "en": "Marijuana that you eat, such as pot cookies, gummy bears, brownies?"
     },
     "responseOptions": {
         "choices": [

@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwgen_ncl_ch_cdiwg_i_en_i_strtalk_002"
     },
     "question": {
-        "en": "label"
+        "en": "Some children like to go around naming or labeling things, as though proud of knowing the names and wanting to show this. How often does your child do this?"
     },
     "responseOptions": {
         "choices": [],

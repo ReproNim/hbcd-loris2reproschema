@@ -57,11 +57,12 @@
             "items/sed_cg_cabr_sf_015_i_01",
             "items/sed_cg_cabr_sf_016",
             "items/sed_cg_cabr_sf_016_i_01",
-            "items/sed_cg_cabr_sf_Validity",
-            "items/sed_cg_cabr_sf_Administration",
             "items/sed_cg_cabr_sf_line",
             "items/sed_cg_cabr_sf_total_score",
-            "items/sed_cg_cabr_sf_message"
+            "items/sed_cg_cabr_sf_message",
+            "items/sed_cg_cabr_sf_Validity",
+            "items/sed_cg_cabr_sf_Administration",
+            "items/sed_cg_cabr_sf_Informant"
         ],
         "addProperties": [
             {
@@ -329,18 +330,6 @@
                 "variableName": "sed_cg_cabr_sf_016_i_01"
             },
             {
-                "isAbout": "items/sed_cg_cabr_sf_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_cabr_sf_Validity"
-            },
-            {
-                "isAbout": "items/sed_cg_cabr_sf_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "sed_cg_cabr_sf_Administration"
-            },
-            {
                 "isAbout": "items/sed_cg_cabr_sf_line",
                 "isVis": true,
                 "valueRequired": false,
@@ -357,10 +346,28 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_cg_cabr_sf_message"
+            },
+            {
+                "isAbout": "items/sed_cg_cabr_sf_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_cabr_sf_Validity"
+            },
+            {
+                "isAbout": "items/sed_cg_cabr_sf_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_cabr_sf_Administration"
+            },
+            {
+                "isAbout": "items/sed_cg_cabr_sf_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_cg_cabr_sf_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

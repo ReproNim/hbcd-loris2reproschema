@@ -992,7 +992,8 @@
             "items/ncl_cg_vabs_gross_fine_motor_sig_diff_score",
             "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
             "items/ncl_cg_vabs_Validity",
-            "items/ncl_cg_vabs_Administration"
+            "items/ncl_cg_vabs_Administration",
+            "items/ncl_cg_vabs_Informant"
         ],
         "addProperties": [
             {
@@ -2242,10 +2243,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_cg_vabs_Administration"
+            },
+            {
+                "isAbout": "items/ncl_cg_vabs_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_cg_vabs_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

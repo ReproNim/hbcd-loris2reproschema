@@ -117,7 +117,8 @@
             "items/mh_cg_cbcl_i_1to5_i_wthdr_008",
             "items/mh_cg_cbcl_i_1to5_i_emot_009",
             "items/mh_cg_cbcl_i_1to5_Validity",
-            "items/mh_cg_cbcl_i_1to5_Administration"
+            "items/mh_cg_cbcl_i_1to5_Administration",
+            "items/mh_cg_cbcl_i_1to5_Informant"
         ],
         "addProperties": [
             {
@@ -785,10 +786,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_cg_cbcl_i_1to5_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_cbcl_i_1to5_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_cbcl_i_1to5_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

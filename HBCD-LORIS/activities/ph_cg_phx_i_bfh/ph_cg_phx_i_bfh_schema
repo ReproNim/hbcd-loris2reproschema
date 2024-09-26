@@ -18,20 +18,25 @@
             "items/ph_cg_phx_i_bfh_Duration",
             "items/ph_cg_phx_i_bfh_location",
             "items/ph_cg_phx_i_bfh_001",
+            "items/ph_cg_phx_i_bfh_001_calc",
+            "items/ph_cg_phx_i_bfh_001_never_calc",
             "items/ph_cg_phx_i_bfh_002",
+            "items/ph_cg_phx_i_bfh_002_calc",
             "items/ph_cg_phx_i_bfh_002_i_01",
             "items/ph_cg_phx_i_bfh_002_i_01_i_01",
             "items/ph_cg_phx_i_bfh_002_i_02",
             "items/ph_cg_phx_i_bfh_002_i_dk",
             "items/ph_cg_phx_i_bfh_002_i_01_dk",
             "items/ph_cg_phx_i_bfh_003",
+            "items/ph_cg_phx_i_bfh_003_calc",
             "items/ph_cg_phx_i_bfh_003_i_01",
             "items/ph_cg_phx_i_bfh_003_i_01_i_01",
             "items/ph_cg_phx_i_bfh_003_i_02",
             "items/ph_cg_phx_i_bfh_003_i_dk",
             "items/ph_cg_phx_i_bfh_003_i_01_dk",
             "items/ph_cg_phx_i_bfh_Validity",
-            "items/ph_cg_phx_i_bfh_Administration"
+            "items/ph_cg_phx_i_bfh_Administration",
+            "items/ph_cg_phx_i_bfh_Informant"
         ],
         "addProperties": [
             {
@@ -101,10 +106,28 @@
                 "variableName": "ph_cg_phx_i_bfh_001"
             },
             {
+                "isAbout": "items/ph_cg_phx_i_bfh_001_calc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_phx_i_bfh_001_calc"
+            },
+            {
+                "isAbout": "items/ph_cg_phx_i_bfh_001_never_calc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_phx_i_bfh_001_never_calc"
+            },
+            {
                 "isAbout": "items/ph_cg_phx_i_bfh_002",
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_cg_phx_i_bfh_002"
+            },
+            {
+                "isAbout": "items/ph_cg_phx_i_bfh_002_calc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_phx_i_bfh_002_calc"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_01",
@@ -141,6 +164,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_cg_phx_i_bfh_003"
+            },
+            {
+                "isAbout": "items/ph_cg_phx_i_bfh_003_calc",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_phx_i_bfh_003_calc"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_01",
@@ -183,10 +212,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ph_cg_phx_i_bfh_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_phx_i_bfh_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_phx_i_bfh_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -127,7 +127,8 @@
             "items/mh_cg_erica_cons_15_24m_flag_con_004",
             "items/mh_cg_erica_cons_15_24m_flag_con_005",
             "items/mh_cg_erica_cons_15_24m_Validity",
-            "items/mh_cg_erica_cons_15_24m_Administration"
+            "items/mh_cg_erica_cons_15_24m_Administration",
+            "items/mh_cg_erica_cons_15_24m_Informant"
         ],
         "addProperties": [
             {
@@ -675,10 +676,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_cg_erica_cons_15_24m_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_erica_cons_15_24m_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_erica_cons_15_24m_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

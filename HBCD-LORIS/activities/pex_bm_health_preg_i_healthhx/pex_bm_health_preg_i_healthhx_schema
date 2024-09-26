@@ -69,15 +69,16 @@
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03",
-            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
-            "items/pex_bm_health_preg_i_healthhx_Validity",
-            "items/pex_bm_health_preg_i_healthhx_Administration",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_01_dk",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02",
             "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01",
-            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk"
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
+            "items/pex_bm_health_preg_i_healthhx_Validity",
+            "items/pex_bm_health_preg_i_healthhx_Administration",
+            "items/pex_bm_health_preg_i_healthhx_Informant"
         ],
         "addProperties": [
             {
@@ -453,24 +454,6 @@
                 "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03"
             },
             {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "pex_bm_health_preg_i_healthhx_Validity"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "pex_bm_health_preg_i_healthhx_Administration"
-            },
-            {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012",
                 "isVis": true,
                 "valueRequired": false,
@@ -505,10 +488,34 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_012_i_02_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_Validity"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_Administration"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_health_preg_i_healthhx_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

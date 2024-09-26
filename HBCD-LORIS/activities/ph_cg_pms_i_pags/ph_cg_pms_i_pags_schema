@@ -42,11 +42,12 @@
             "items/ph_cg_pms_i_pags_009",
             "items/ph_cg_pms_i_pags_010",
             "items/ph_cg_pms_i_pags_011",
-            "items/ph_cg_pms_i_pags_Validity",
-            "items/ph_cg_pms_i_pags_Administration",
             "items/ph_cg_pms_i_pags_total_score",
             "items/ph_cg_pms_i_pags_t_score",
-            "items/ph_cg_pms_i_pags_se_score"
+            "items/ph_cg_pms_i_pags_se_score",
+            "items/ph_cg_pms_i_pags_Validity",
+            "items/ph_cg_pms_i_pags_Administration",
+            "items/ph_cg_pms_i_pags_Informant"
         ],
         "addProperties": [
             {
@@ -176,18 +177,6 @@
                 "variableName": "ph_cg_pms_i_pags_011"
             },
             {
-                "isAbout": "items/ph_cg_pms_i_pags_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_pms_i_pags_Validity"
-            },
-            {
-                "isAbout": "items/ph_cg_pms_i_pags_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "ph_cg_pms_i_pags_Administration"
-            },
-            {
                 "isAbout": "items/ph_cg_pms_i_pags_total_score",
                 "isVis": false,
                 "valueRequired": false,
@@ -204,10 +193,28 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "ph_cg_pms_i_pags_se_score"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_pags_Validity"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_pags_Administration"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ph_cg_pms_i_pags_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

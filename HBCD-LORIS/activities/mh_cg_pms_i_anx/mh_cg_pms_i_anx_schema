@@ -27,9 +27,10 @@
             "items/mh_cg_pms_i_anx_002",
             "items/mh_cg_pms_i_anx_003",
             "items/mh_cg_pms_i_anx_004",
+            "items/mh_cg_pms_i_anx_total_score",
             "items/mh_cg_pms_i_anx_Validity",
             "items/mh_cg_pms_i_anx_Administration",
-            "items/mh_cg_pms_i_anx_total_score"
+            "items/mh_cg_pms_i_anx_Informant"
         ],
         "addProperties": [
             {
@@ -117,6 +118,12 @@
                 "variableName": "mh_cg_pms_i_anx_004"
             },
             {
+                "isAbout": "items/mh_cg_pms_i_anx_total_score",
+                "isVis": false,
+                "valueRequired": false,
+                "variableName": "mh_cg_pms_i_anx_total_score"
+            },
+            {
                 "isAbout": "items/mh_cg_pms_i_anx_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -129,14 +136,14 @@
                 "variableName": "mh_cg_pms_i_anx_Administration"
             },
             {
-                "isAbout": "items/mh_cg_pms_i_anx_total_score",
-                "isVis": false,
+                "isAbout": "items/mh_cg_pms_i_anx_Informant",
+                "isVis": true,
                 "valueRequired": false,
-                "variableName": "mh_cg_pms_i_anx_total_score"
+                "variableName": "mh_cg_pms_i_anx_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

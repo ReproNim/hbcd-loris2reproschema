@@ -77,6 +77,7 @@
             "items/pex_bm_assistv2_end_i_use_i_unit_009",
             "items/pex_bm_assistv2_end_i_use_i_unit_009_dk",
             "items/pex_bm_assistv2_end_i_use_i_amount_008",
+            "items/pex_bm_assistv2_end_i_use_i_amount_008_v01",
             "items/pex_bm_assistv2_end_i_use_i_unit_008",
             "items/pex_bm_assistv2_end_i_use_i_unit_008_dk",
             "items/pex_bm_assistv2_end_i_use_001_i_01",
@@ -103,7 +104,7 @@
             "items/pex_bm_assistv2_end_i_use_015_i_05",
             "items/pex_bm_assistv2_Validity",
             "items/pex_bm_assistv2_Administration",
-            "items/pex_bm_assistv2_end_i_use_i_amount_008_v01"
+            "items/pex_bm_assistv2_Informant"
         ],
         "addProperties": [
             {
@@ -527,6 +528,12 @@
                 "variableName": "pex_bm_assistv2_end_i_use_i_amount_008"
             },
             {
+                "isAbout": "items/pex_bm_assistv2_end_i_use_i_amount_008_v01",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_assistv2_end_i_use_i_amount_008_v01"
+            },
+            {
                 "isAbout": "items/pex_bm_assistv2_end_i_use_i_unit_008",
                 "isVis": true,
                 "valueRequired": false,
@@ -683,14 +690,14 @@
                 "variableName": "pex_bm_assistv2_Administration"
             },
             {
-                "isAbout": "items/pex_bm_assistv2_end_i_use_i_amount_008_v01",
+                "isAbout": "items/pex_bm_assistv2_Informant",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "pex_bm_assistv2_end_i_use_i_amount_008_v01"
+                "variableName": "pex_bm_assistv2_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

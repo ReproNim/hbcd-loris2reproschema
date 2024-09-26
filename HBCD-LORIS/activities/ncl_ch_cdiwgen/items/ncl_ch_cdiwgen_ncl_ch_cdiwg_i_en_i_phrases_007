@@ -5,7 +5,7 @@
         {
             "column": "Domain",
             "source": "redcap",
-            "value": NaN
+            "value": "Neurocognition and Language"
         },
         {
             "column": "Study",
@@ -42,7 +42,7 @@
         "en": "ncl_ch_cdiwgen_ncl_ch_cdiwg_i_en_i_phrases_007"
     },
     "question": {
-        "en": "comehere"
+        "en": "Come here/come on."
     },
     "responseOptions": {
         "choices": [],

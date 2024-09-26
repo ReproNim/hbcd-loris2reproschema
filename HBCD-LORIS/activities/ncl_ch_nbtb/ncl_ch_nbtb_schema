@@ -17,7 +17,8 @@
             "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_before",
             "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_after",
             "items/ncl_ch_nbtb_Validity",
-            "items/ncl_ch_nbtb_Administration"
+            "items/ncl_ch_nbtb_Administration",
+            "items/ncl_ch_nbtb_Informant"
         ],
         "addProperties": [
             {
@@ -85,10 +86,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_ch_nbtb_Administration"
+            },
+            {
+                "isAbout": "items/ncl_ch_nbtb_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_ch_nbtb_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

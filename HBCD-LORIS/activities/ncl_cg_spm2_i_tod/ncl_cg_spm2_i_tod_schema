@@ -98,7 +98,8 @@
             "items/ncl_cg_spm2_i_tod_plan_009",
             "items/ncl_cg_spm2_i_tod_plan_010",
             "items/ncl_cg_spm2_i_tod_Validity",
-            "items/ncl_cg_spm2_i_tod_Administration"
+            "items/ncl_cg_spm2_i_tod_Administration",
+            "items/ncl_cg_spm2_i_tod_Informant"
         ],
         "addProperties": [
             {
@@ -652,10 +653,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "ncl_cg_spm2_i_tod_Administration"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_tod_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "ncl_cg_spm2_i_tod_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -25,7 +25,8 @@
             "items/sens_ch_rcpt_fn_001_i_01",
             "items/sens_ch_rcpt_fn_002_i_01",
             "items/sens_ch_rcpt_Validity",
-            "items/sens_ch_rcpt_Administration"
+            "items/sens_ch_rcpt_Administration",
+            "items/sens_ch_rcpt_Informant"
         ],
         "addProperties": [
             {
@@ -141,10 +142,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sens_ch_rcpt_Administration"
+            },
+            {
+                "isAbout": "items/sens_ch_rcpt_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sens_ch_rcpt_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

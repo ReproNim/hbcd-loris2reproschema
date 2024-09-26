@@ -38,11 +38,12 @@
             "items/mh_cg_chaos_013",
             "items/mh_cg_chaos_014",
             "items/mh_cg_chaos_015",
-            "items/mh_cg_chaos_Validity",
-            "items/mh_cg_chaos_Administration",
             "items/mh_cg_chaos_line",
             "items/mh_cg_chaos_total_score",
-            "items/mh_cg_chaos_message"
+            "items/mh_cg_chaos_message",
+            "items/mh_cg_chaos_Validity",
+            "items/mh_cg_chaos_Administration",
+            "items/mh_cg_chaos_Informant"
         ],
         "addProperties": [
             {
@@ -196,18 +197,6 @@
                 "variableName": "mh_cg_chaos_015"
             },
             {
-                "isAbout": "items/mh_cg_chaos_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_cg_chaos_Validity"
-            },
-            {
-                "isAbout": "items/mh_cg_chaos_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_cg_chaos_Administration"
-            },
-            {
                 "isAbout": "items/mh_cg_chaos_line",
                 "isVis": true,
                 "valueRequired": false,
@@ -224,10 +213,28 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mh_cg_chaos_message"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_chaos_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_chaos_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_chaos_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_chaos_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

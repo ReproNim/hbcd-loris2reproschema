@@ -35,14 +35,14 @@
         {
             "column": "Description Status",
             "source": "redcap",
-            "value": "Unchanged"
+            "value": "Modified"
         }
     ],
     "prefLabel": {
         "en": "sed_bm_demo_edu_001"
     },
     "question": {
-        "en": "What is the highest grade or level of school you have completed or the highest degree you have received? "
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received?"
     },
     "responseOptions": {
         "choices": [

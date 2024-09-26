@@ -82,13 +82,14 @@
             "items/mh_cg_ecbq_045",
             "items/mh_cg_ecbq_046",
             "items/mh_cg_ecbq_047",
-            "items/mh_cg_ecbq_Validity",
-            "items/mh_cg_ecbq_Administration",
             "items/mh_cg_ecbq_line",
             "items/mh_cg_ecbq_surg_score",
             "items/mh_cg_ecbq_neg_score",
             "items/mh_cg_ecbq_efrt_score",
-            "items/mh_cg_ecbq_beh_score"
+            "items/mh_cg_ecbq_beh_score",
+            "items/mh_cg_ecbq_Validity",
+            "items/mh_cg_ecbq_Administration",
+            "items/mh_cg_ecbq_Informant"
         ],
         "addProperties": [
             {
@@ -434,18 +435,6 @@
                 "variableName": "mh_cg_ecbq_047"
             },
             {
-                "isAbout": "items/mh_cg_ecbq_Validity",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_cg_ecbq_Validity"
-            },
-            {
-                "isAbout": "items/mh_cg_ecbq_Administration",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "mh_cg_ecbq_Administration"
-            },
-            {
                 "isAbout": "items/mh_cg_ecbq_line",
                 "isVis": true,
                 "valueRequired": false,
@@ -474,10 +463,28 @@
                 "isVis": false,
                 "valueRequired": false,
                 "variableName": "mh_cg_ecbq_beh_score"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_Validity",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_ecbq_Validity"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_Administration",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_ecbq_Administration"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mh_cg_ecbq_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

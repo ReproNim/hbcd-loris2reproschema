@@ -35,7 +35,8 @@
             "items/sed_bm_paces_010",
             "items/sed_bm_paces_summary_score",
             "items/sed_bm_paces_Validity",
-            "items/sed_bm_paces_Administration"
+            "items/sed_bm_paces_Administration",
+            "items/sed_bm_paces_Informant"
         ],
         "addProperties": [
             {
@@ -175,10 +176,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "sed_bm_paces_Administration"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "sed_bm_paces_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

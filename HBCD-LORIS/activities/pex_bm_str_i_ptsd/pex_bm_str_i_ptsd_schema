@@ -21,6 +21,7 @@
             "items/pex_bm_str_i_ptsd_Candidate_Age",
             "items/pex_bm_str_i_ptsd_Window_Difference",
             "items/pex_bm_str_i_ptsd_Examiner",
+            "items/pex_bm_str_i_ptsd_lang",
             "items/pex_bm_str_i_ptsd_dtt",
             "items/pex_bm_str_i_ptsd_timestamp_start",
             "items/pex_bm_str_i_ptsd_timestamp_stop",
@@ -40,7 +41,7 @@
             "items/pex_bm_str_i_ptsd_total_raw_score_ptsd",
             "items/pex_bm_str_i_ptsd_Validity",
             "items/pex_bm_str_i_ptsd_Administration",
-            "items/pex_bm_str_i_ptsd_lang"
+            "items/pex_bm_str_i_ptsd_Informant"
         ],
         "addProperties": [
             {
@@ -66,6 +67,12 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "pex_bm_str_i_ptsd_Examiner"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_lang",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_bm_str_i_ptsd_lang"
             },
             {
                 "isAbout": "items/pex_bm_str_i_ptsd_dtt",
@@ -182,14 +189,14 @@
                 "variableName": "pex_bm_str_i_ptsd_Administration"
             },
             {
-                "isAbout": "items/pex_bm_str_i_ptsd_lang",
+                "isAbout": "items/pex_bm_str_i_ptsd_Informant",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "pex_bm_str_i_ptsd_lang"
+                "variableName": "pex_bm_str_i_ptsd_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

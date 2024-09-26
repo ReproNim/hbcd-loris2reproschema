@@ -19,7 +19,8 @@
             "items/adm_bm_screen_adm_bm_screen_005",
             "items/adm_bm_screen_adm_bm_screen_hashed_global_id",
             "items/adm_bm_screen_Validity",
-            "items/adm_bm_screen_Administration"
+            "items/adm_bm_screen_Administration",
+            "items/adm_bm_screen_Informant"
         ],
         "addProperties": [
             {
@@ -99,10 +100,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "adm_bm_screen_Administration"
+            },
+            {
+                "isAbout": "items/adm_bm_screen_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "adm_bm_screen_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -206,7 +206,8 @@
             "items/mri_ra_chkl_scan_s4_tfs_001",
             "items/mri_ra_chkl_scan_s4_tfs_002",
             "items/mri_ra_chkl_scan_Validity",
-            "items/mri_ra_chkl_scan_Administration"
+            "items/mri_ra_chkl_scan_Administration",
+            "items/mri_ra_chkl_scan_Informant"
         ],
         "addProperties": [
             {
@@ -1408,10 +1409,16 @@
                 "isVis": true,
                 "valueRequired": false,
                 "variableName": "mri_ra_chkl_scan_Administration"
+            },
+            {
+                "isAbout": "items/mri_ra_chkl_scan_Informant",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "mri_ra_chkl_scan_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -139,10 +139,11 @@
             "items/pex_ch_tlfb_self_report_cannabis",
             "items/pex_ch_tlfb_self_report_nicotine",
             "items/pex_ch_tlfb_self_report_stimulant",
+            "items/pex_ch_tlfb_self_report_alcohol_assist",
+            "items/pex_ch_tlfb_self_report_alcohol_v1",
             "items/pex_ch_tlfb_Validity",
             "items/pex_ch_tlfb_Administration",
-            "items/pex_ch_tlfb_self_report_alcohol_v1",
-            "items/pex_ch_tlfb_self_report_alcohol_assist"
+            "items/pex_ch_tlfb_Informant"
         ],
         "addProperties": [
             {
@@ -938,6 +939,18 @@
                 "variableName": "pex_ch_tlfb_self_report_stimulant"
             },
             {
+                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_assist",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_alcohol_assist"
+            },
+            {
+                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_v1",
+                "isVis": true,
+                "valueRequired": false,
+                "variableName": "pex_ch_tlfb_self_report_alcohol_v1"
+            },
+            {
                 "isAbout": "items/pex_ch_tlfb_Validity",
                 "isVis": true,
                 "valueRequired": false,
@@ -950,20 +963,14 @@
                 "variableName": "pex_ch_tlfb_Administration"
             },
             {
-                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_v1",
+                "isAbout": "items/pex_ch_tlfb_Informant",
                 "isVis": true,
                 "valueRequired": false,
-                "variableName": "pex_ch_tlfb_self_report_alcohol_v1"
-            },
-            {
-                "isAbout": "items/pex_ch_tlfb_self_report_alcohol_assist",
-                "isVis": true,
-                "valueRequired": false,
-                "variableName": "pex_ch_tlfb_self_report_alcohol_assist"
+                "variableName": "pex_ch_tlfb_Informant"
             }
         ],
         "shuffle": false
     },
-    "version": "v1.0.0",
+    "version": "2024.09.12",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
