@@ -1,0 +1,51 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "institution_name",
+  "prefLabel": {
+    "en": "institution_name"
+  },
+  "question": {
+    "en": "Institution or organization to which the identified individual is responsible or accountable May also refer to the institution or organization at which the relevant equipment is located. DICOM:0008_0080"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "parameter_file"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

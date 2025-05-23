@@ -1,0 +1,125 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "ncl_ch_di_sev_003_i_01",
+  "prefLabel": {
+    "en": "ncl_ch_di_sev_003_i_01"
+  },
+  "question": {
+    "en": "Arousal during modeling:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "1 - Vigorous Crying"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "2 - Fussy Crying"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "3 - Active Alert"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "4 - Quiet Alert"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "5 - Drowsy"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "6 - Light Sleep"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "7 - Deep Sleep"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "sev_003_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ncl_ch_di"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

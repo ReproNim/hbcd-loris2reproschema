@@ -1,0 +1,51 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "study_id",
+  "prefLabel": {
+    "en": "study_id"
+  },
+  "question": {
+    "en": "User or equipment generated Study identifier. DICOM:0020_0010"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "parameter_file"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

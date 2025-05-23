@@ -1,0 +1,95 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_cg_erica_fcm_3_9m_adm_005",
+  "prefLabel": {
+    "en": "mh_cg_erica_fcm_3_9m_adm_005"
+  },
+  "question": {
+    "en": "5. Examiner carefully and correctly reviews activity instructions with the caregiver: (1) explains activities accurately in a slow, deliberate and conversational style, (2) makes regular eye contact to check for understanding, (3) points to instructions on the wall as each activity is reviewed, and (4) demonstrates tasks as needed and/or required per protocol (e.g., stacking cups). Score as '1' if all 4 criteria are met; score as '0' if one or more is missed."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "adm_005"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_erica_fcm_3_9m"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

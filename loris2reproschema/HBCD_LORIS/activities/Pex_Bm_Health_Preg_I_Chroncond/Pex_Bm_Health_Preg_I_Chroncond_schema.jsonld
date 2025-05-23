@@ -1,0 +1,293 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Pex_Bm_Health_Preg_I_Chroncond_schema",
+  "prefLabel": {
+    "en": "Pex Bm Health Preg I Chroncond"
+  },
+  "description": {
+    "en": "Questions related to Pex Bm Health Preg I Chroncond"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/pex_bm_health_preg_i_chroncond_Date_taken",
+      "items/pex_bm_health_preg_i_chroncond_Candidate_Age",
+      "items/pex_bm_health_preg_i_chroncond_gestational_age",
+      "items/pex_bm_health_preg_i_chroncond_Window_Difference",
+      "items/pex_bm_health_preg_i_chroncond_Examiner",
+      "items/pex_bm_health_preg_i_chroncond_lang",
+      "items/pex_bm_health_preg_i_chroncond_dtt",
+      "items/pex_bm_health_preg_i_chroncond_timestamp_start",
+      "items/pex_bm_health_preg_i_chroncond_timestamp_stop",
+      "items/pex_bm_health_preg_i_chroncond_Duration",
+      "items/pex_bm_health_preg_i_chroncond_001",
+      "items/pex_bm_health_preg_i_chroncond_002",
+      "items/pex_bm_health_preg_i_chroncond_003",
+      "items/pex_bm_health_preg_i_chroncond_004",
+      "items/pex_bm_health_preg_i_chroncond_005",
+      "items/pex_bm_health_preg_i_chroncond_006",
+      "items/pex_bm_health_preg_i_chroncond_007",
+      "items/pex_bm_health_preg_i_chroncond_008",
+      "items/pex_bm_health_preg_i_chroncond_009",
+      "items/pex_bm_health_preg_i_chroncond_010",
+      "items/pex_bm_health_preg_i_chroncond_011",
+      "items/pex_bm_health_preg_i_chroncond_012",
+      "items/pex_bm_health_preg_i_chroncond_013",
+      "items/pex_bm_health_preg_i_chroncond_013_i_01",
+      "items/pex_bm_health_preg_i_chroncond_013_i_02",
+      "items/pex_bm_health_preg_i_chroncond_013_i_03",
+      "items/pex_bm_health_preg_i_chroncond_013_i_04",
+      "items/pex_bm_health_preg_i_chroncond_013_i_05",
+      "items/pex_bm_health_preg_i_chroncond_013_i_06",
+      "items/pex_bm_health_preg_i_chroncond_013_i_07",
+      "items/pex_bm_health_preg_i_chroncond_013_i_08",
+      "items/pex_bm_health_preg_i_chroncond_013_i_09",
+      "items/pex_bm_health_preg_i_chroncond_013_i_10",
+      "items/pex_bm_health_preg_i_chroncond_013_i_11",
+      "items/pex_bm_health_preg_i_chroncond_013_i_12",
+      "items/pex_bm_health_preg_i_chroncond_013_i_13",
+      "items/pex_bm_health_preg_i_chroncond_Validity",
+      "items/pex_bm_health_preg_i_chroncond_Administration",
+      "items/pex_bm_health_preg_i_chroncond_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Date_taken",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Candidate_Age",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_gestational_age",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Window_Difference",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Examiner",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_lang",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_dtt",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_dtt",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_timestamp_start",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_timestamp_stop",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Duration",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_001",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_002",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(1) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_003",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(2) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_004",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(3) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_005",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(4) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_006",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_006",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(5) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_007",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_007",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(6) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_008",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_008",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(7) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_009",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_009",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(8) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_010",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_010",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(9) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_011",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_011",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(10) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_012",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_012",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_001(11) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_01",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_01",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(1) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_02",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_02",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(2) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_03",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_03",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(3) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_04",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_04",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(4) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_05",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_05",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(5) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_06",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_06",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(6) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_07",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_07",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(7) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_08",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_08",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(8) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_09",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_09",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(9) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_10",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_10",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(10) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_11",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_11",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(11) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_12",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_12",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(12) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_013_i_13",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_13",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_chroncond_013(13) == '1'"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Validity",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Administration",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_Informant",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

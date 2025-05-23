@@ -1,0 +1,135 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "ph_cg_cnq_001_i_01",
+  "prefLabel": {
+    "en": "ph_cg_cnq_001_i_01"
+  },
+  "question": {
+    "en": "What kind of milk does your child drink?"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Cows milk"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Lactose Free"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Chocolate milk"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Goats milk"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Soy milk"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Almond milk"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ph_cg_cnq_001 !== '' AND (ph_cg_cnq_001 == '1' OR ph_cg_cnq_001 =='2' OR ph_cg_cnq_001 == '3')"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "001_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_cg_cnq"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

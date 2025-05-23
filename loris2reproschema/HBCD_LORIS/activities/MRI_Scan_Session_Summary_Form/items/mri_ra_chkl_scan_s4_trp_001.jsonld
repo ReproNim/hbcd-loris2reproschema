@@ -1,0 +1,107 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mri_ra_chkl_scan_s4_trp_001",
+  "prefLabel": {
+    "en": "mri_ra_chkl_scan_s4_trp_001"
+  },
+  "question": {
+    "en": "How did family get here?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "car_service_taxi"
+        },
+        "value": "Car service/taxi"
+      },
+      {
+        "name": {
+          "en": "drove"
+        },
+        "value": "Drove"
+      },
+      {
+        "name": {
+          "en": "public_transit"
+        },
+        "value": "Public transit"
+      },
+      {
+        "name": {
+          "en": "other"
+        },
+        "value": "Other"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "s4_trp_001"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mri_ra_chkl_scan"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "RA"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

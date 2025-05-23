@@ -1,0 +1,363 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "BISQ_SF_schema",
+  "prefLabel": {
+    "en": "BISQ-SF"
+  },
+  "description": {
+    "en": "Questions related to BISQ-SF"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ph_cg_bisq_Date_taken",
+      "items/ph_cg_bisq_Candidate_Age",
+      "items/ph_cg_bisq_gestational_age",
+      "items/ph_cg_bisq_Window_Difference",
+      "items/ph_cg_bisq_Examiner",
+      "items/ph_cg_bisq_lang",
+      "items/ph_cg_bisq_dtt",
+      "items/ph_cg_bisq_timestamp_start",
+      "items/ph_cg_bisq_timestamp_stop",
+      "items/ph_cg_bisq_Duration",
+      "items/ph_cg_bisq_location",
+      "items/ph_cg_bisq_instr01",
+      "items/ph_cg_bisq_001",
+      "items/ph_cg_bisq_instr02",
+      "items/ph_cg_bisq_pb_001",
+      "items/ph_cg_bisq_pb_002",
+      "items/ph_cg_bisq_pb_003",
+      "items/ph_cg_bisq_pb_004",
+      "items/ph_cg_bisq_pb_005",
+      "items/ph_cg_bisq_pb_006",
+      "items/ph_cg_bisq_pb_006_alert",
+      "items/ph_cg_bisq_pp_001",
+      "items/ph_cg_bisq_is_001",
+      "items/ph_cg_bisq_pb_007",
+      "items/ph_cg_bisq_pb_008",
+      "items/ph_cg_bisq_is_002",
+      "items/ph_cg_bisq_002",
+      "items/ph_cg_bisq_is_003",
+      "items/ph_cg_bisq_is_003_i_00",
+      "items/ph_cg_bisq_is_003_i_01",
+      "items/ph_cg_bisq_is_003_i_02",
+      "items/ph_cg_bisq_003",
+      "items/ph_cg_bisq_is_004_i_00",
+      "items/ph_cg_bisq_is_004_i_01",
+      "items/ph_cg_bisq_is_004_i_02",
+      "items/ph_cg_bisq_pp_002",
+      "items/ph_cg_bisq_004",
+      "items/ph_cg_bisq_005_i_00",
+      "items/ph_cg_bisq_005_i_01",
+      "items/ph_cg_bisq_005_i_02",
+      "items/ph_cg_bisq_pp_003",
+      "items/ph_cg_bisq_AGE_MO",
+      "items/ph_cg_bisq_Infant_Sleep_Score",
+      "items/ph_cg_bisq_Parent_Perception_Score",
+      "items/ph_cg_bisq_Parent_Behavior_Score",
+      "items/ph_cg_bisq_Total_Score",
+      "items/ph_cg_bisq_Validity",
+      "items/ph_cg_bisq_Administration",
+      "items/ph_cg_bisq_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ph_cg_bisq_Date_taken",
+        "isAbout": "items/ph_cg_bisq_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Candidate_Age",
+        "isAbout": "items/ph_cg_bisq_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_gestational_age",
+        "isAbout": "items/ph_cg_bisq_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Window_Difference",
+        "isAbout": "items/ph_cg_bisq_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Examiner",
+        "isAbout": "items/ph_cg_bisq_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_lang",
+        "isAbout": "items/ph_cg_bisq_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_bisq_dtt",
+        "isAbout": "items/ph_cg_bisq_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_bisq_timestamp_start",
+        "isAbout": "items/ph_cg_bisq_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_bisq_timestamp_stop",
+        "isAbout": "items/ph_cg_bisq_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Duration",
+        "isAbout": "items/ph_cg_bisq_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_location",
+        "isAbout": "items/ph_cg_bisq_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_bisq_instr01",
+        "isAbout": "items/ph_cg_bisq_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_001",
+        "isAbout": "items/ph_cg_bisq_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_instr02",
+        "isAbout": "items/ph_cg_bisq_instr02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_001",
+        "isAbout": "items/ph_cg_bisq_pb_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_002",
+        "isAbout": "items/ph_cg_bisq_pb_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_003",
+        "isAbout": "items/ph_cg_bisq_pb_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_004",
+        "isAbout": "items/ph_cg_bisq_pb_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_005",
+        "isAbout": "items/ph_cg_bisq_pb_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_006",
+        "isAbout": "items/ph_cg_bisq_pb_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_006_alert",
+        "isAbout": "items/ph_cg_bisq_pb_006_alert",
+        "valueRequired": false,
+        "isVis": "ph_cg_bisq_pb_006 < ph_cg_bisq_pb_001"
+      },
+      {
+        "variableName": "ph_cg_bisq_pp_001",
+        "isAbout": "items/ph_cg_bisq_pp_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_001",
+        "isAbout": "items/ph_cg_bisq_is_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_007",
+        "isAbout": "items/ph_cg_bisq_pb_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pb_008",
+        "isAbout": "items/ph_cg_bisq_pb_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_002",
+        "isAbout": "items/ph_cg_bisq_is_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_002",
+        "isAbout": "items/ph_cg_bisq_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_003",
+        "isAbout": "items/ph_cg_bisq_is_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_003_i_00",
+        "isAbout": "items/ph_cg_bisq_is_003_i_00",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_003_i_01",
+        "isAbout": "items/ph_cg_bisq_is_003_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_003_i_02",
+        "isAbout": "items/ph_cg_bisq_is_003_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_003",
+        "isAbout": "items/ph_cg_bisq_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_004_i_00",
+        "isAbout": "items/ph_cg_bisq_is_004_i_00",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_004_i_01",
+        "isAbout": "items/ph_cg_bisq_is_004_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_is_004_i_02",
+        "isAbout": "items/ph_cg_bisq_is_004_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pp_002",
+        "isAbout": "items/ph_cg_bisq_pp_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_004",
+        "isAbout": "items/ph_cg_bisq_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_005_i_00",
+        "isAbout": "items/ph_cg_bisq_005_i_00",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_005_i_01",
+        "isAbout": "items/ph_cg_bisq_005_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_005_i_02",
+        "isAbout": "items/ph_cg_bisq_005_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_pp_003",
+        "isAbout": "items/ph_cg_bisq_pp_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_AGE_MO",
+        "isAbout": "items/ph_cg_bisq_AGE_MO",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Infant_Sleep_Score",
+        "isAbout": "items/ph_cg_bisq_Infant_Sleep_Score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Parent_Perception_Score",
+        "isAbout": "items/ph_cg_bisq_Parent_Perception_Score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Parent_Behavior_Score",
+        "isAbout": "items/ph_cg_bisq_Parent_Behavior_Score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Total_Score",
+        "isAbout": "items/ph_cg_bisq_Total_Score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Validity",
+        "isAbout": "items/ph_cg_bisq_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Administration",
+        "isAbout": "items/ph_cg_bisq_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_bisq_Informant",
+        "isAbout": "items/ph_cg_bisq_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

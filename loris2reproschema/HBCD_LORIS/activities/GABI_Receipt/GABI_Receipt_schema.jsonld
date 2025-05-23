@@ -1,0 +1,132 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "GABI_Receipt_schema",
+  "prefLabel": {
+    "en": "GABI Receipt"
+  },
+  "description": {
+    "en": "Questions related to GABI Receipt"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/nt_pa_gabi_rcpt_Date_taken",
+      "items/nt_pa_gabi_rcpt_Candidate_Age",
+      "items/nt_pa_gabi_rcpt_Window_Difference",
+      "items/nt_pa_gabi_rcpt_gestational_age",
+      "items/nt_pa_gabi_rcpt_Examiner",
+      "items/nt_pa_gabi_rcpt_timestamp_start",
+      "items/nt_pa_gabi_rcpt_timestamp_stop",
+      "items/nt_pa_gabi_rcpt_Duration",
+      "items/nt_pa_gabi_rcpt_gsr_001",
+      "items/nt_pa_gabi_rcpt_gsr_001_i_01",
+      "items/nt_pa_gabi_rcpt_gsr_001_i_02",
+      "items/nt_pa_gabi_rcpt_dsb_001",
+      "items/nt_pa_gabi_rcpt_dsb_001_i_01",
+      "items/nt_pa_gabi_rcpt_Validity",
+      "items/nt_pa_gabi_rcpt_Administration",
+      "items/nt_pa_gabi_rcpt_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "nt_pa_gabi_rcpt_Date_taken",
+        "isAbout": "items/nt_pa_gabi_rcpt_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Candidate_Age",
+        "isAbout": "items/nt_pa_gabi_rcpt_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Window_Difference",
+        "isAbout": "items/nt_pa_gabi_rcpt_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_gestational_age",
+        "isAbout": "items/nt_pa_gabi_rcpt_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Examiner",
+        "isAbout": "items/nt_pa_gabi_rcpt_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_timestamp_start",
+        "isAbout": "items/nt_pa_gabi_rcpt_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_timestamp_stop",
+        "isAbout": "items/nt_pa_gabi_rcpt_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Duration",
+        "isAbout": "items/nt_pa_gabi_rcpt_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_gsr_001",
+        "isAbout": "items/nt_pa_gabi_rcpt_gsr_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_gsr_001_i_01",
+        "isAbout": "items/nt_pa_gabi_rcpt_gsr_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_gsr_001_i_02",
+        "isAbout": "items/nt_pa_gabi_rcpt_gsr_001_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_dsb_001",
+        "isAbout": "items/nt_pa_gabi_rcpt_dsb_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_dsb_001_i_01",
+        "isAbout": "items/nt_pa_gabi_rcpt_dsb_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Validity",
+        "isAbout": "items/nt_pa_gabi_rcpt_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Administration",
+        "isAbout": "items/nt_pa_gabi_rcpt_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_Informant",
+        "isAbout": "items/nt_pa_gabi_rcpt_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

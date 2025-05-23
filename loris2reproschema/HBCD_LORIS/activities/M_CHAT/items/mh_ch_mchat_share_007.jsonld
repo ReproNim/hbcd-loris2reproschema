@@ -1,0 +1,98 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_ch_mchat_share_007",
+  "prefLabel": {
+    "en": "mh_ch_mchat_share_007"
+  },
+  "question": {
+    "en": "Is it sometimes just to show you, not to get help?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: mh_ch_mchat_share_002 == '1' OR mh_ch_mchat_share_003 == '1' OR mh_ch_mchat_share_004 == '1' OR mh_ch_mchat_share_005 == '1' OR mh_ch_mchat_share_006 == '1' "
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "share_007"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_mchat"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

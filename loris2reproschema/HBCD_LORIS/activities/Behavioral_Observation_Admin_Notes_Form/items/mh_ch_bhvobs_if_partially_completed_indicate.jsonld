@@ -1,0 +1,101 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_ch_bhvobs_if_partially_completed_indicate",
+  "prefLabel": {
+    "en": "mh_ch_bhvobs_if_partially_completed_indicate"
+  },
+  "question": {
+    "en": "1C. If partially completed, please indicate which parts were NOT completed (check all that apply):"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "semi_structured_play"
+        },
+        "value": "Semi-structured play"
+      },
+      {
+        "name": {
+          "en": "lab_tab_bi"
+        },
+        "value": "Lab-TAB BI"
+      },
+      {
+        "name": {
+          "en": "clean_up"
+        },
+        "value": "Clean Up"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "if_partially_completed_indicate"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_bhvobs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

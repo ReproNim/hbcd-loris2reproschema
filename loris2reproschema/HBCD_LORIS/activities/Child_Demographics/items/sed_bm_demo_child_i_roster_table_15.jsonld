@@ -1,0 +1,84 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_bm_demo_child_i_roster_table_15",
+  "prefLabel": {
+    "en": "sed_bm_demo_child_i_roster_table_15"
+  },
+  "question": {
+    "en": "Person 15  Years of age {sed_bm_demo_child_i_roster_018_i_01} Months of age {sed_bm_demo_child_i_roster_018_i_02}   Sex {sed_bm_demo_child_i_roster_018_i_03} {sed_bm_demo_child_i_roster_018_i_03_i_01}   Relationship to YOU {sed_bm_demo_child_i_roster_018_i_04}   Relationship to Child {sed_bm_demo_child_i_roster_018_i_05}   Average\u00a0 days per month this person cares for the child? {sed_bm_demo_child_i_roster_018_i_06}"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_bm_demo_child_i_roster_002_i_02_i_03 >== 15"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "i_roster_table_15"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_demo_child"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

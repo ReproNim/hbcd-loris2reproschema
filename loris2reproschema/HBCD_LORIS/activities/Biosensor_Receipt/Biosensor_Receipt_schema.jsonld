@@ -1,0 +1,167 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Biosensor_Receipt_schema",
+  "prefLabel": {
+    "en": "Biosensor Receipt"
+  },
+  "description": {
+    "en": "Questions related to Biosensor Receipt"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sens_ch_rcpt_Date_taken",
+      "items/sens_ch_rcpt_Candidate_Age",
+      "items/sens_ch_rcpt_Window_Difference",
+      "items/sens_ch_rcpt_gestational_age",
+      "items/sens_ch_rcpt_Examiner",
+      "items/sens_ch_rcpt_timestamp_start",
+      "items/sens_ch_rcpt_timestamp_stop",
+      "items/sens_ch_rcpt_Duration",
+      "items/sens_ch_rcpt_rlg_001",
+      "items/sens_ch_rcpt_rlg_001_i_01",
+      "items/sens_ch_rcpt_rlg_001_i_02",
+      "items/sens_ch_rcpt_llg_001",
+      "items/sens_ch_rcpt_llg_001_i_01",
+      "items/sens_ch_rcpt_llg_001_i_02",
+      "items/sens_ch_rcpt_inf_001",
+      "items/sens_ch_rcpt_inf_001_i_01",
+      "items/sens_ch_rcpt_fn_001_i_01",
+      "items/sens_ch_rcpt_fn_002_i_01",
+      "items/sens_ch_rcpt_Validity",
+      "items/sens_ch_rcpt_Administration",
+      "items/sens_ch_rcpt_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sens_ch_rcpt_Date_taken",
+        "isAbout": "items/sens_ch_rcpt_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Candidate_Age",
+        "isAbout": "items/sens_ch_rcpt_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Window_Difference",
+        "isAbout": "items/sens_ch_rcpt_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_gestational_age",
+        "isAbout": "items/sens_ch_rcpt_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Examiner",
+        "isAbout": "items/sens_ch_rcpt_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_timestamp_start",
+        "isAbout": "items/sens_ch_rcpt_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_timestamp_stop",
+        "isAbout": "items/sens_ch_rcpt_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Duration",
+        "isAbout": "items/sens_ch_rcpt_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_rlg_001",
+        "isAbout": "items/sens_ch_rcpt_rlg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_rlg_001_i_01",
+        "isAbout": "items/sens_ch_rcpt_rlg_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_rlg_001_i_02",
+        "isAbout": "items/sens_ch_rcpt_rlg_001_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_llg_001",
+        "isAbout": "items/sens_ch_rcpt_llg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_llg_001_i_01",
+        "isAbout": "items/sens_ch_rcpt_llg_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_llg_001_i_02",
+        "isAbout": "items/sens_ch_rcpt_llg_001_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_inf_001",
+        "isAbout": "items/sens_ch_rcpt_inf_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_inf_001_i_01",
+        "isAbout": "items/sens_ch_rcpt_inf_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_fn_001_i_01",
+        "isAbout": "items/sens_ch_rcpt_fn_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_fn_002_i_01",
+        "isAbout": "items/sens_ch_rcpt_fn_002_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Validity",
+        "isAbout": "items/sens_ch_rcpt_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Administration",
+        "isAbout": "items/sens_ch_rcpt_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sens_ch_rcpt_Informant",
+        "isAbout": "items/sens_ch_rcpt_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

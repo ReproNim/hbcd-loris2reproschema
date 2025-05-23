@@ -1,0 +1,107 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_ch_bhvobs_did_fua_have_contact_if_yes",
+  "prefLabel": {
+    "en": "mh_ch_bhvobs_did_fua_have_contact_if_yes"
+  },
+  "question": {
+    "en": "If yes, please select the category that best describes the contact between FUA and study child PRIOR to the BI task? * (e.g., passing toys during  consent/distracting child, etc.). This option should be selected for interactions of any duration."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "contact_minimal_and_passing"
+        },
+        "value": "Contact minimal and passing, no direct interaction (e.g., FUA passed child in hall)."
+      },
+      {
+        "name": {
+          "en": "fua_occasionally_in_same_room"
+        },
+        "value": "FUA occasionally in the same room as the child, but no direct interaction with the child."
+      },
+      {
+        "name": {
+          "en": "fua_directly_interacted_with_child"
+        },
+        "value": "FUA directly interacted with the child on the visit day *"
+      },
+      {
+        "name": {
+          "en": "other"
+        },
+        "value": "Other"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "did_fua_have_contact_if_yes"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_bhvobs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

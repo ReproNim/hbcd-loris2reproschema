@@ -1,0 +1,51 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "frame_of_reference_uid",
+  "prefLabel": {
+    "en": "frame_of_reference_uid"
+  },
+  "question": {
+    "en": "Uniquely identifies the frame of reference for a Series. shall be used to uniquely identify a frame of reference for a series. Each series shall have a single Frame of Reference UID. However, multiple Series within a Study may share a Frame of Reference. DICOM:0020_0052"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "parameter_file"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

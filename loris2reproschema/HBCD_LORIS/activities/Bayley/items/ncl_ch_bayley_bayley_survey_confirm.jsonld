@@ -1,0 +1,107 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "ncl_ch_bayley_bayley_survey_confirm",
+  "prefLabel": {
+    "en": "ncl_ch_bayley_bayley_survey_confirm"
+  },
+  "question": {
+    "en": "Confirm that the Bayley link was clicked and the survey completed:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "could_not_click_on_link"
+        },
+        "value": "Could not click on link"
+      },
+      {
+        "name": {
+          "en": "clicked_on_link_but_not_redirected_to_survey"
+        },
+        "value": "Clicked on link but not redirected to survey"
+      },
+      {
+        "name": {
+          "en": "survey_accessed_not_completed"
+        },
+        "value": "Survey accessed, not completed"
+      },
+      {
+        "name": {
+          "en": "survey_accessed_and_completed"
+        },
+        "value": "Survey accessed and completed"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "bayley_survey_confirm"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ncl_ch_bayley"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "File-based"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

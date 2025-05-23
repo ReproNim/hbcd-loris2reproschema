@@ -1,0 +1,135 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "ph_cg_ecls_i_medhist_024_i_01",
+  "prefLabel": {
+    "en": "ph_cg_ecls_i_medhist_024_i_01"
+  },
+  "question": {
+    "en": "What were the reasons for the overnight stays (select all)"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Asthma, Bronchitis, Pneumonia, or Bronchiolitis"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Severe gastrointestinal illness (vomiting/throwing up and/or diarrhea)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Injury"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Surgery"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Mood or behavior problem"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ph_cg_ecls_i_medhist_024 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "024_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_cg_ecls_i_medhist"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

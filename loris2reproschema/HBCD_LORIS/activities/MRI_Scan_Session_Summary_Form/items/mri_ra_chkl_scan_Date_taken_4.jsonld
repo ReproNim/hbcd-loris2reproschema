@@ -1,0 +1,81 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mri_ra_chkl_scan_Date_taken_4",
+  "prefLabel": {
+    "en": "mri_ra_chkl_scan_Date_taken_4"
+  },
+  "question": {
+    "en": "Date of Administration"
+  },
+  "ui": {
+    "inputType": "date"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:date"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "Date_taken_4"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mri_ra_chkl_scan"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "RA"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Date"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Continuous"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

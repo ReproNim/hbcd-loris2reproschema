@@ -1,0 +1,41 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Clinical_Alert_schema",
+  "prefLabel": {
+    "en": "Clinical Alert"
+  },
+  "description": {
+    "en": "Questions related to Clinical Alert"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/admin_alert_Validity",
+      "items/admin_alert_Administration",
+      "items/admin_alert_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "admin_alert_Validity",
+        "isAbout": "items/admin_alert_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "admin_alert_Administration",
+        "isAbout": "items/admin_alert_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "admin_alert_Informant",
+        "isAbout": "items/admin_alert_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

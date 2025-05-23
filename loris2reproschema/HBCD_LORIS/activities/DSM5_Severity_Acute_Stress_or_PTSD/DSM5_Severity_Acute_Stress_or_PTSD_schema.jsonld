@@ -1,0 +1,209 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "DSM5_Severity_Acute_Stress_or_PTSD_schema",
+  "prefLabel": {
+    "en": "DSM5 Severity Acute Stress or PTSD"
+  },
+  "description": {
+    "en": "Questions related to DSM5 Severity Acute Stress or PTSD"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/pex_bm_str_i_ptsd_Date_taken",
+      "items/pex_bm_str_i_ptsd_Candidate_Age",
+      "items/pex_bm_str_i_ptsd_gestational_age",
+      "items/pex_bm_str_i_ptsd_Window_Difference",
+      "items/pex_bm_str_i_ptsd_Examiner",
+      "items/pex_bm_str_i_ptsd_lang",
+      "items/pex_bm_str_i_ptsd_dtt",
+      "items/pex_bm_str_i_ptsd_timestamp_start",
+      "items/pex_bm_str_i_ptsd_timestamp_stop",
+      "items/pex_bm_str_i_ptsd_Duration",
+      "items/pex_bm_str_i_ptsd_location",
+      "items/pex_bm_str_i_ptsd_instr01",
+      "items/pex_bm_str_i_ptsd_001",
+      "items/pex_bm_str_i_ptsd_002",
+      "items/pex_bm_str_i_ptsd_003",
+      "items/pex_bm_str_i_ptsd_004",
+      "items/pex_bm_str_i_ptsd_005",
+      "items/pex_bm_str_i_ptsd_006",
+      "items/pex_bm_str_i_ptsd_007",
+      "items/pex_bm_str_i_ptsd_008",
+      "items/pex_bm_str_i_ptsd_009",
+      "items/pex_bm_str_i_ptsd_010",
+      "items/pex_bm_str_i_ptsd_total_raw_score_acute_stress",
+      "items/pex_bm_str_i_ptsd_total_raw_score_ptsd",
+      "items/pex_bm_str_i_ptsd_Validity",
+      "items/pex_bm_str_i_ptsd_Administration",
+      "items/pex_bm_str_i_ptsd_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "pex_bm_str_i_ptsd_Date_taken",
+        "isAbout": "items/pex_bm_str_i_ptsd_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Candidate_Age",
+        "isAbout": "items/pex_bm_str_i_ptsd_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_gestational_age",
+        "isAbout": "items/pex_bm_str_i_ptsd_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Window_Difference",
+        "isAbout": "items/pex_bm_str_i_ptsd_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Examiner",
+        "isAbout": "items/pex_bm_str_i_ptsd_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_lang",
+        "isAbout": "items/pex_bm_str_i_ptsd_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_dtt",
+        "isAbout": "items/pex_bm_str_i_ptsd_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_timestamp_start",
+        "isAbout": "items/pex_bm_str_i_ptsd_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_timestamp_stop",
+        "isAbout": "items/pex_bm_str_i_ptsd_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Duration",
+        "isAbout": "items/pex_bm_str_i_ptsd_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_location",
+        "isAbout": "items/pex_bm_str_i_ptsd_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_instr01",
+        "isAbout": "items/pex_bm_str_i_ptsd_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_001",
+        "isAbout": "items/pex_bm_str_i_ptsd_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_002",
+        "isAbout": "items/pex_bm_str_i_ptsd_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_003",
+        "isAbout": "items/pex_bm_str_i_ptsd_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_004",
+        "isAbout": "items/pex_bm_str_i_ptsd_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_005",
+        "isAbout": "items/pex_bm_str_i_ptsd_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_006",
+        "isAbout": "items/pex_bm_str_i_ptsd_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_007",
+        "isAbout": "items/pex_bm_str_i_ptsd_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_008",
+        "isAbout": "items/pex_bm_str_i_ptsd_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_009",
+        "isAbout": "items/pex_bm_str_i_ptsd_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_010",
+        "isAbout": "items/pex_bm_str_i_ptsd_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_total_raw_score_acute_stress",
+        "isAbout": "items/pex_bm_str_i_ptsd_total_raw_score_acute_stress",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_total_raw_score_ptsd",
+        "isAbout": "items/pex_bm_str_i_ptsd_total_raw_score_ptsd",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Validity",
+        "isAbout": "items/pex_bm_str_i_ptsd_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Administration",
+        "isAbout": "items/pex_bm_str_i_ptsd_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_str_i_ptsd_Informant",
+        "isAbout": "items/pex_bm_str_i_ptsd_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

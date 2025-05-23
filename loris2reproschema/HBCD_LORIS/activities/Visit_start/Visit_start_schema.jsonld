@@ -1,0 +1,83 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Visit_start_schema",
+  "prefLabel": {
+    "en": "Visit start"
+  },
+  "description": {
+    "en": "Questions related to Visit start"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/visit_start_Date_taken",
+      "items/visit_start_Candidate_Age",
+      "items/visit_start_gestational_age",
+      "items/visit_start_Window_Difference",
+      "items/visit_start_Examiner",
+      "items/visit_start_instr01",
+      "items/visit_start_Validity",
+      "items/visit_start_Administration",
+      "items/visit_start_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "visit_start_Date_taken",
+        "isAbout": "items/visit_start_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Candidate_Age",
+        "isAbout": "items/visit_start_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_gestational_age",
+        "isAbout": "items/visit_start_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Window_Difference",
+        "isAbout": "items/visit_start_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Examiner",
+        "isAbout": "items/visit_start_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_instr01",
+        "isAbout": "items/visit_start_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Validity",
+        "isAbout": "items/visit_start_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Administration",
+        "isAbout": "items/visit_start_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_Informant",
+        "isAbout": "items/visit_start_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

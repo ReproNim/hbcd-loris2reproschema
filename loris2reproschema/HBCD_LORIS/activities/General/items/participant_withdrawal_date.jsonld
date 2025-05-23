@@ -1,0 +1,56 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "participant_withdrawal_date",
+  "prefLabel": {
+    "en": "participant_withdrawal_date"
+  },
+  "question": {
+    "en": "Participant Withdrawal Date"
+  },
+  "ui": {
+    "inputType": "date"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:date"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "participant_withdrawal_date"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "session"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Date"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

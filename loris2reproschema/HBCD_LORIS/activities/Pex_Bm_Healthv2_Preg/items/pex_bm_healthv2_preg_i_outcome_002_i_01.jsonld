@@ -1,0 +1,183 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "pex_bm_healthv2_preg_i_outcome_002_i_01",
+  "prefLabel": {
+    "en": "pex_bm_healthv2_preg_i_outcome_002_i_01"
+  },
+  "question": {
+    "en": "Why was your baby born by Cesarean delivery (C-Section)? Check all that apply"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "I had a previous cesarean delivery (c-section)"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "My baby was not positioned head down (for example, breech)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "I was past my due date"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "My health care provider worried that my baby was too big"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "I had a medical condition that made labor dangerous for me (such as a heart condition, physical disability)"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "I had a complication in my pregnancy (such as preeclampsia, placental problems, infection, preterm labor)"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "My health care provider tried to induce my labor but it didn't work"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Labor was taking too long"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "The fetal monitor showed that my baby was having problems before or during labor (fetal distress)"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "I wanted to schedule my delivery"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "My doctor wanted to schedule my delivery"
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": "I didn't want to have my baby vaginally"
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": "Multiple gestation (e.g. twins, triplets)"
+      },
+      {
+        "name": {
+          "en": "14"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_bm_healthv2_preg_i_outcome_002 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "i_outcome_002_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_healthv2_preg"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
