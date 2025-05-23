@@ -1,0 +1,137 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_cg_ibqr_neg_007",
+  "prefLabel": {
+    "en": "mh_cg_ibqr_neg_007"
+  },
+  "question": {
+    "en": "How often during the last week did the baby protest being placed in a confining place (infant seat, play pen, car seat, etc.)?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Very Rarely"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Less Than Half the Time"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "About Half the Time"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "More than Half the Time"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Almost Always"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Always"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Does Not Apply"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "neg_007"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_ibqr"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

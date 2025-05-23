@@ -1,0 +1,179 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_cg_erica_fcm_adm_15_36m_imq_006",
+  "prefLabel": {
+    "en": "mh_cg_erica_fcm_adm_15_36m_imq_006"
+  },
+  "question": {
+    "en": "Value Choice 6:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "to_be_a_leader"
+        },
+        "value": "To be a leader | Ser un l\u00edder"
+      },
+      {
+        "name": {
+          "en": "to_be_emotionally_independent_not_clingy"
+        },
+        "value": "To be emotionally independent (not clingy) | Ser emocionalmente independiente (no pegajoso)"
+      },
+      {
+        "name": {
+          "en": "to_be_self-sufficient"
+        },
+        "value": "To be self-sufficient | Ser autosuficiente"
+      },
+      {
+        "name": {
+          "en": "to_have_high_self-esteem"
+        },
+        "value": "To have high self-esteem | Tener alta autoestima"
+      },
+      {
+        "name": {
+          "en": "to_be_honest"
+        },
+        "value": "To be honest | Ser honesto"
+      },
+      {
+        "name": {
+          "en": "to_be_polite_and_respectful"
+        },
+        "value": "To be polite and respectful | Ser educado y respetuoso"
+      },
+      {
+        "name": {
+          "en": "to_be_obedient"
+        },
+        "value": "To be obedient | Ser obediente"
+      },
+      {
+        "name": {
+          "en": "to_have_good_self-control"
+        },
+        "value": "To have good self-control | Tener buen autocontrol"
+      },
+      {
+        "name": {
+          "en": "to_have_a_calm_temperament"
+        },
+        "value": "To have a calm temperament | Tener un temperamento tranquilo"
+      },
+      {
+        "name": {
+          "en": "to_be_loving_and_affectionate"
+        },
+        "value": "To be loving and affectionate | Ser amoroso y afectuoso"
+      },
+      {
+        "name": {
+          "en": "to_be_kind_and_compassionate_to_others"
+        },
+        "value": "To be kind and compassionate to others | Ser amable y compasivo con los dem\u00e1s"
+      },
+      {
+        "name": {
+          "en": "to_be_outgoing_and_sociable"
+        },
+        "value": "To be outgoing and sociable | Ser extrovertido y sociable"
+      },
+      {
+        "name": {
+          "en": "to_work_hard_at_school"
+        },
+        "value": "To work hard at school | Trabajar duro en la escuela"
+      },
+      {
+        "name": {
+          "en": "to_be_persistent"
+        },
+        "value": "To be persistent | Ser persistente"
+      },
+      {
+        "name": {
+          "en": "to_be_curious"
+        },
+        "value": "To be curious | Ser curioso"
+      },
+      {
+        "name": {
+          "en": "other"
+        },
+        "value": "Blank(Other) | En blanco(Otro)"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "imq_006"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_erica_fcm_adm_15_36m"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_cg_employ_010_i_11",
+  "prefLabel": {
+    "en": "sed_cg_employ_010_i_11"
+  },
+  "question": {
+    "en": "What is the role of your spouse/partner in your job? If your spouse/partner hase more than one job, describe the job at which your spouse/partner worked the most hours in the past week."
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Upper management"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Middle/junior management"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Administrative/support staff"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Trained professional"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Skilled/unskilled laborer"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Researcher"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_cg_employ_010 == '1' AND (sed_cg_employ_010_i_07 == '1' OR sed_cg_employ_010_i_07 == '2' OR sed_cg_employ_010_i_07 == '3' OR sed_cg_employ_010_i_07 == '4' OR sed_cg_employ_010_i_07 == '5' OR sed_cg_employ_010_i_07 == '6' OR sed_cg_employ_010_i_07 == '7') AND sed_cg_employ_010_i_07 !== 777 AND sed_cg_employ_010_i_07 !== '999'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "010_i_11"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_employ"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

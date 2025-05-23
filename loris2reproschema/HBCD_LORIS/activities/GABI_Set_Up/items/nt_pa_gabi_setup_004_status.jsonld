@@ -1,0 +1,101 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "nt_pa_gabi_setup_004_status",
+  "prefLabel": {
+    "en": "nt_pa_gabi_setup_004_status"
+  },
+  "question": {
+    "en": "4.What time did sensor data collection start?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "dnk"
+        },
+        "value": "DNK"
+      },
+      {
+        "name": {
+          "en": "refusal"
+        },
+        "value": "Refusal"
+      },
+      {
+        "name": {
+          "en": "not_answered"
+        },
+        "value": "Not Answered"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "004_status"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "nt_pa_gabi_setup"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Parent (Biological Father or Mother)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

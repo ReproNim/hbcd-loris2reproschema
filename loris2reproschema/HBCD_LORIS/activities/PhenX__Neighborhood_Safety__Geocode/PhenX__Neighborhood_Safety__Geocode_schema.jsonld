@@ -1,0 +1,139 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "PhenX__Neighborhood_Safety__Geocode_schema",
+  "prefLabel": {
+    "en": "PhenX+ Neighborhood Safety/ Geocode"
+  },
+  "description": {
+    "en": "Questions related to PhenX+ Neighborhood Safety/ Geocode"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_bm_nbhsaf_Date_taken",
+      "items/sed_bm_nbhsaf_Candidate_Age",
+      "items/sed_bm_nbhsaf_gestational_age",
+      "items/sed_bm_nbhsaf_Window_Difference",
+      "items/sed_bm_nbhsaf_Examiner",
+      "items/sed_bm_nbhsaf_lang",
+      "items/sed_bm_nbhsaf_dtt",
+      "items/sed_bm_nbhsaf_timestamp_start",
+      "items/sed_bm_nbhsaf_timestamp_stop",
+      "items/sed_bm_nbhsaf_Duration",
+      "items/sed_bm_nbhsaf_location",
+      "items/sed_bm_nbhsaf_001",
+      "items/sed_bm_nbhsaf_002",
+      "items/sed_bm_nbhsaf_003",
+      "items/sed_bm_nbhsaf_Validity",
+      "items/sed_bm_nbhsaf_Administration",
+      "items/sed_bm_nbhsaf_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_bm_nbhsaf_Date_taken",
+        "isAbout": "items/sed_bm_nbhsaf_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Candidate_Age",
+        "isAbout": "items/sed_bm_nbhsaf_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_gestational_age",
+        "isAbout": "items/sed_bm_nbhsaf_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Window_Difference",
+        "isAbout": "items/sed_bm_nbhsaf_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Examiner",
+        "isAbout": "items/sed_bm_nbhsaf_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_lang",
+        "isAbout": "items/sed_bm_nbhsaf_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_dtt",
+        "isAbout": "items/sed_bm_nbhsaf_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_timestamp_start",
+        "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_timestamp_stop",
+        "isAbout": "items/sed_bm_nbhsaf_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Duration",
+        "isAbout": "items/sed_bm_nbhsaf_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_location",
+        "isAbout": "items/sed_bm_nbhsaf_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_001",
+        "isAbout": "items/sed_bm_nbhsaf_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_002",
+        "isAbout": "items/sed_bm_nbhsaf_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_003",
+        "isAbout": "items/sed_bm_nbhsaf_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Validity",
+        "isAbout": "items/sed_bm_nbhsaf_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Administration",
+        "isAbout": "items/sed_bm_nbhsaf_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_nbhsaf_Informant",
+        "isAbout": "items/sed_bm_nbhsaf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

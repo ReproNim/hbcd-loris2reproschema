@@ -1,0 +1,147 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_bm_demo_child_i_roster_020_i_02_i_01",
+  "prefLabel": {
+    "en": "sed_bm_demo_child_i_roster_020_i_02_i_01"
+  },
+  "question": {
+    "en": "Number of adults (18 years of age or older)"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string",
+      "xsd:integer"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 5
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 6
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 7
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 8
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 9
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "10 or more"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: (event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND (sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >== 2"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "i_roster_020_i_02_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_demo_child"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

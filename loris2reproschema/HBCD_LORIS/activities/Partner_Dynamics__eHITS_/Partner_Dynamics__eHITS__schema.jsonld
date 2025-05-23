@@ -1,0 +1,209 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Partner_Dynamics__eHITS__schema",
+  "prefLabel": {
+    "en": "Partner Dynamics (eHITS)"
+  },
+  "description": {
+    "en": "Questions related to Partner Dynamics (eHITS)"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_bm_ehits_Date_taken",
+      "items/sed_bm_ehits_Candidate_Age",
+      "items/sed_bm_ehits_gestational_age",
+      "items/sed_bm_ehits_Window_Difference",
+      "items/sed_bm_ehits_Examiner",
+      "items/sed_bm_ehits_lang",
+      "items/sed_bm_ehits_dtt",
+      "items/sed_bm_ehits_timestamp_start",
+      "items/sed_bm_ehits_timestamp_stop",
+      "items/sed_bm_ehits_Duration",
+      "items/sed_bm_ehits_location",
+      "items/sed_bm_ehits_001",
+      "items/sed_bm_ehits_002",
+      "items/sed_bm_ehits_003",
+      "items/sed_bm_ehits_004",
+      "items/sed_bm_ehits_005",
+      "items/sed_bm_ehits_001_i_01",
+      "items/sed_bm_ehits_002_i_01",
+      "items/sed_bm_ehits_003_i_01",
+      "items/sed_bm_ehits_004_i_01",
+      "items/sed_bm_ehits_005_i_01",
+      "items/sed_bm_ehits_total_score",
+      "items/sed_bm_ehits_score",
+      "items/sed_bm_ehits_flag01",
+      "items/sed_bm_ehits_Validity",
+      "items/sed_bm_ehits_Administration",
+      "items/sed_bm_ehits_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_bm_ehits_Date_taken",
+        "isAbout": "items/sed_bm_ehits_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Candidate_Age",
+        "isAbout": "items/sed_bm_ehits_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_gestational_age",
+        "isAbout": "items/sed_bm_ehits_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Window_Difference",
+        "isAbout": "items/sed_bm_ehits_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Examiner",
+        "isAbout": "items/sed_bm_ehits_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_lang",
+        "isAbout": "items/sed_bm_ehits_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_dtt",
+        "isAbout": "items/sed_bm_ehits_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_timestamp_start",
+        "isAbout": "items/sed_bm_ehits_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_timestamp_stop",
+        "isAbout": "items/sed_bm_ehits_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Duration",
+        "isAbout": "items/sed_bm_ehits_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_location",
+        "isAbout": "items/sed_bm_ehits_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_001",
+        "isAbout": "items/sed_bm_ehits_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_002",
+        "isAbout": "items/sed_bm_ehits_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_003",
+        "isAbout": "items/sed_bm_ehits_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_004",
+        "isAbout": "items/sed_bm_ehits_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_005",
+        "isAbout": "items/sed_bm_ehits_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_001_i_01",
+        "isAbout": "items/sed_bm_ehits_001_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_002_i_01",
+        "isAbout": "items/sed_bm_ehits_002_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_003_i_01",
+        "isAbout": "items/sed_bm_ehits_003_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_004_i_01",
+        "isAbout": "items/sed_bm_ehits_004_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_005_i_01",
+        "isAbout": "items/sed_bm_ehits_005_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_total_score",
+        "isAbout": "items/sed_bm_ehits_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_score",
+        "isAbout": "items/sed_bm_ehits_score",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_flag01",
+        "isAbout": "items/sed_bm_ehits_flag01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_ehits_Validity",
+        "isAbout": "items/sed_bm_ehits_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Administration",
+        "isAbout": "items/sed_bm_ehits_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_ehits_Informant",
+        "isAbout": "items/sed_bm_ehits_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "ncl_ch_di_fev_003",
+  "prefLabel": {
+    "en": "ncl_ch_di_fev_003"
+  },
+  "question": {
+    "en": "Select one from a dropdown menu:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "child_attentively"
+        },
+        "value": "Child attentively watched all steps administered"
+      },
+      {
+        "name": {
+          "en": "child_did_not_attentively_uninterested"
+        },
+        "value": "Child did NOT attentively watch all steps administered because they were uninterested"
+      },
+      {
+        "name": {
+          "en": "child_did_not_attentively_fussy"
+        },
+        "value": "Child did NOT attentively watch all steps administered because they were fussy"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "fev_003"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ncl_ch_di"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

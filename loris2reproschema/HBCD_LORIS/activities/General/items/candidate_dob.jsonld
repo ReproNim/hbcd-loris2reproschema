@@ -1,0 +1,56 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "candidate_dob",
+  "prefLabel": {
+    "en": "candidate_dob"
+  },
+  "question": {
+    "en": "Candidate_Dob"
+  },
+  "ui": {
+    "inputType": "date"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:date"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "DoB"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "candidate"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Date"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

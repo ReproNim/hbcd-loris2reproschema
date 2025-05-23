@@ -1,0 +1,131 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "mh_cg_cbq_031",
+  "prefLabel": {
+    "en": "mh_cg_cbq_031"
+  },
+  "question": {
+    "en": "Is slow and unhurried in deciding what to do next."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Extremely untrue of your child"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Quite untrue of your child"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Slightly untrue of your child"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Neither true nor false of your child"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Slightly true of your child"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Quite true of your child"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Extremly true of your child"
+      },
+      {
+        "name": {
+          "en": "555"
+        },
+        "value": "Not applicable"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "031"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_cbq"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

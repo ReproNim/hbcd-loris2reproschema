@@ -1,0 +1,146 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_cg_employ_010_i_07_i_01",
+  "prefLabel": {
+    "en": "sed_cg_employ_010_i_07_i_01"
+  },
+  "question": {
+    "en": "If unemployed and not currently looking for work, what is the main reason your spouse/partner has been out of work?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "On sick or other unpaid leave"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "On layoff"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Unable to work for health reasons"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Disabled"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Retired"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Taking care of house/family"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Going to school"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_cg_employ_010_i_07 == '10'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "010_i_07_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_employ"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

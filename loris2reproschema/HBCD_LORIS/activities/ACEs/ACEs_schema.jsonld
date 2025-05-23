@@ -1,0 +1,202 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "ACEs_schema",
+  "prefLabel": {
+    "en": "ACEs"
+  },
+  "description": {
+    "en": "Questions related to ACEs"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_ace_Date_taken",
+      "items/sed_cg_ace_Candidate_Age",
+      "items/sed_cg_ace_gestational_age",
+      "items/sed_cg_ace_Window_Difference",
+      "items/sed_cg_ace_Examiner",
+      "items/sed_cg_ace_lang",
+      "items/sed_cg_ace_dtt",
+      "items/sed_cg_ace_timestamp_start",
+      "items/sed_cg_ace_timestamp_stop",
+      "items/sed_cg_ace_Duration",
+      "items/sed_cg_ace_location",
+      "items/sed_cg_ace_001",
+      "items/sed_cg_ace_002",
+      "items/sed_cg_ace_003",
+      "items/sed_cg_ace_004",
+      "items/sed_cg_ace_005",
+      "items/sed_cg_ace_006",
+      "items/sed_cg_ace_007",
+      "items/sed_cg_ace_008",
+      "items/sed_cg_ace_009",
+      "items/sed_cg_ace_010",
+      "items/sed_cg_ace_012",
+      "items/sed_cg_ace_011",
+      "items/sed_cg_ace_Validity",
+      "items/sed_cg_ace_Administration",
+      "items/sed_cg_ace_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_ace_Date_taken",
+        "isAbout": "items/sed_cg_ace_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Candidate_Age",
+        "isAbout": "items/sed_cg_ace_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_gestational_age",
+        "isAbout": "items/sed_cg_ace_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Window_Difference",
+        "isAbout": "items/sed_cg_ace_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Examiner",
+        "isAbout": "items/sed_cg_ace_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_lang",
+        "isAbout": "items/sed_cg_ace_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ace_dtt",
+        "isAbout": "items/sed_cg_ace_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ace_timestamp_start",
+        "isAbout": "items/sed_cg_ace_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ace_timestamp_stop",
+        "isAbout": "items/sed_cg_ace_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Duration",
+        "isAbout": "items/sed_cg_ace_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_location",
+        "isAbout": "items/sed_cg_ace_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ace_001",
+        "isAbout": "items/sed_cg_ace_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_002",
+        "isAbout": "items/sed_cg_ace_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_003",
+        "isAbout": "items/sed_cg_ace_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_004",
+        "isAbout": "items/sed_cg_ace_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_005",
+        "isAbout": "items/sed_cg_ace_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_006",
+        "isAbout": "items/sed_cg_ace_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_007",
+        "isAbout": "items/sed_cg_ace_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_008",
+        "isAbout": "items/sed_cg_ace_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_009",
+        "isAbout": "items/sed_cg_ace_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_010",
+        "isAbout": "items/sed_cg_ace_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_012",
+        "isAbout": "items/sed_cg_ace_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_011",
+        "isAbout": "items/sed_cg_ace_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Validity",
+        "isAbout": "items/sed_cg_ace_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Administration",
+        "isAbout": "items/sed_cg_ace_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ace_Informant",
+        "isAbout": "items/sed_cg_ace_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

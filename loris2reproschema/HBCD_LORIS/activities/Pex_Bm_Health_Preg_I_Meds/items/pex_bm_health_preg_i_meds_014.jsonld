@@ -1,0 +1,147 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "pex_bm_health_preg_i_meds_014",
+  "prefLabel": {
+    "en": "pex_bm_health_preg_i_meds_014"
+  },
+  "question": {
+    "en": "How many over-the-counter medications have you taken since your last menstrual period ([screening_arm_1][setup_lmp]) that we have not yet discussed?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string",
+      "xsd:integer"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 5
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 6
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 7
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 8
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 9
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": 10
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_bm_health_preg_i_meds_014_dk == '' "
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "014"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_health_preg_i_meds"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Integer"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

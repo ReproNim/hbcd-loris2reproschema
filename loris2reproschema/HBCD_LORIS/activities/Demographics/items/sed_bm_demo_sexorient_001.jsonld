@@ -1,0 +1,128 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_bm_demo_sexorient_001",
+  "prefLabel": {
+    "en": "sed_bm_demo_sexorient_001"
+  },
+  "question": {
+    "en": "Which of the following best represents how you think of yourself?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Gay"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Lesbian"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Straight; that is, not gay or lesbian, etc."
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Bisexual"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "None of these describe me, and I'd like to see additional options"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: event-name == 'v01_arm_1' OR (event-name == 'v02_arm_1' AND screening_arm_1recruitment_period == '2') OR event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "sexorient_001"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_demo"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

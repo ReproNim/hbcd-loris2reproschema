@@ -1,0 +1,377 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Activity",
+  "id": "Composite_Abuse_Scale_schema",
+  "prefLabel": {
+    "en": "Composite Abuse Scale"
+  },
+  "description": {
+    "en": "Questions related to Composite Abuse Scale"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_cabr_sf_Date_taken",
+      "items/sed_cg_cabr_sf_Candidate_Age",
+      "items/sed_cg_cabr_sf_gestational_age",
+      "items/sed_cg_cabr_sf_Window_Difference",
+      "items/sed_cg_cabr_sf_Examiner",
+      "items/sed_cg_cabr_sf_lang",
+      "items/sed_cg_cabr_sf_dtt",
+      "items/sed_cg_cabr_sf_timestamp_start",
+      "items/sed_cg_cabr_sf_timestamp_stop",
+      "items/sed_cg_cabr_sf_Duration",
+      "items/sed_cg_cabr_sf_location",
+      "items/sed_cg_cabr_sf_001",
+      "items/sed_cg_cabr_sf_001_i_01",
+      "items/sed_cg_cabr_sf_001_i_01_i_01",
+      "items/sed_cg_cabr_sf_001_i_02",
+      "items/sed_cg_cabr_sf_002",
+      "items/sed_cg_cabr_sf_002_i_01",
+      "items/sed_cg_cabr_sf_003",
+      "items/sed_cg_cabr_sf_003_i_01",
+      "items/sed_cg_cabr_sf_004",
+      "items/sed_cg_cabr_sf_004_i_01",
+      "items/sed_cg_cabr_sf_005",
+      "items/sed_cg_cabr_sf_005_i_01",
+      "items/sed_cg_cabr_sf_006",
+      "items/sed_cg_cabr_sf_006_i_01",
+      "items/sed_cg_cabr_sf_007",
+      "items/sed_cg_cabr_sf_007_i_01",
+      "items/sed_cg_cabr_sf_008",
+      "items/sed_cg_cabr_sf_008_i_01",
+      "items/sed_cg_cabr_sf_009",
+      "items/sed_cg_cabr_sf_009_i_01",
+      "items/sed_cg_cabr_sf_010",
+      "items/sed_cg_cabr_sf_010_i_01",
+      "items/sed_cg_cabr_sf_011",
+      "items/sed_cg_cabr_sf_011_i_01",
+      "items/sed_cg_cabr_sf_012",
+      "items/sed_cg_cabr_sf_012_i_01",
+      "items/sed_cg_cabr_sf_013",
+      "items/sed_cg_cabr_sf_013_i_01",
+      "items/sed_cg_cabr_sf_014",
+      "items/sed_cg_cabr_sf_014_i_01",
+      "items/sed_cg_cabr_sf_015",
+      "items/sed_cg_cabr_sf_015_i_01",
+      "items/sed_cg_cabr_sf_016",
+      "items/sed_cg_cabr_sf_016_i_01",
+      "items/sed_cg_cabr_sf_line",
+      "items/sed_cg_cabr_sf_total_score",
+      "items/sed_cg_cabr_sf_message",
+      "items/sed_cg_cabr_sf_Validity",
+      "items/sed_cg_cabr_sf_Administration",
+      "items/sed_cg_cabr_sf_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_cabr_sf_Date_taken",
+        "isAbout": "items/sed_cg_cabr_sf_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Candidate_Age",
+        "isAbout": "items/sed_cg_cabr_sf_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_gestational_age",
+        "isAbout": "items/sed_cg_cabr_sf_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Window_Difference",
+        "isAbout": "items/sed_cg_cabr_sf_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Examiner",
+        "isAbout": "items/sed_cg_cabr_sf_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_lang",
+        "isAbout": "items/sed_cg_cabr_sf_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_dtt",
+        "isAbout": "items/sed_cg_cabr_sf_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_timestamp_start",
+        "isAbout": "items/sed_cg_cabr_sf_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_timestamp_stop",
+        "isAbout": "items/sed_cg_cabr_sf_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Duration",
+        "isAbout": "items/sed_cg_cabr_sf_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_location",
+        "isAbout": "items/sed_cg_cabr_sf_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_001",
+        "isAbout": "items/sed_cg_cabr_sf_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_001_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_001_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_001_i_01_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_001_i_01_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001_i_01 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_001_i_02",
+        "isAbout": "items/sed_cg_cabr_sf_001_i_02",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_002",
+        "isAbout": "items/sed_cg_cabr_sf_002",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_002_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_002_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_002 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_003",
+        "isAbout": "items/sed_cg_cabr_sf_003",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_003_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_003_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_003 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_004",
+        "isAbout": "items/sed_cg_cabr_sf_004",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_004_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_004_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_004 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_005",
+        "isAbout": "items/sed_cg_cabr_sf_005",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_005_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_005_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_005 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_006",
+        "isAbout": "items/sed_cg_cabr_sf_006",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_006_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_006_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_006 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_007",
+        "isAbout": "items/sed_cg_cabr_sf_007",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_007_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_007_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_007 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_008",
+        "isAbout": "items/sed_cg_cabr_sf_008",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_008_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_008_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_008 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_009",
+        "isAbout": "items/sed_cg_cabr_sf_009",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_009_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_009_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_009 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_010",
+        "isAbout": "items/sed_cg_cabr_sf_010",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_010_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_010_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_010 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_011",
+        "isAbout": "items/sed_cg_cabr_sf_011",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_011_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_011_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_011 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_012",
+        "isAbout": "items/sed_cg_cabr_sf_012",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_012_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_012_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_012 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_013",
+        "isAbout": "items/sed_cg_cabr_sf_013",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_013_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_013_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_013 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_014",
+        "isAbout": "items/sed_cg_cabr_sf_014",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_014_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_014_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_014 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_015",
+        "isAbout": "items/sed_cg_cabr_sf_015",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_015_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_015_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_015 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_016",
+        "isAbout": "items/sed_cg_cabr_sf_016",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_016_i_01",
+        "isAbout": "items/sed_cg_cabr_sf_016_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_cabr_sf_016 == '1'"
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_line",
+        "isAbout": "items/sed_cg_cabr_sf_line",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_total_score",
+        "isAbout": "items/sed_cg_cabr_sf_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_message",
+        "isAbout": "items/sed_cg_cabr_sf_message",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Validity",
+        "isAbout": "items/sed_cg_cabr_sf_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Administration",
+        "isAbout": "items/sed_cg_cabr_sf_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_Informant",
+        "isAbout": "items/sed_cg_cabr_sf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

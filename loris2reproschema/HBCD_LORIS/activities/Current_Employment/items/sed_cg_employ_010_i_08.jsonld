@@ -1,0 +1,134 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_cg_employ_010_i_08",
+  "prefLabel": {
+    "en": "sed_cg_employ_010_i_08"
+  },
+  "question": {
+    "en": "During the past 12 months in the weeks in which your spouse/partner worked, how many hours per week did your spouse/partner typically work in ALL jobs?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Less than 5 hours"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "5-10 hours"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "11-20 hours"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "21-30 hours"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "31-40 hours"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "More than 40 hours"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_cg_employ_010 == '1' AND (sed_cg_employ_010_i_07 == '1' OR sed_cg_employ_010_i_07 == '2' OR sed_cg_employ_010_i_07 == '3' OR sed_cg_employ_010_i_07 == '4' OR sed_cg_employ_010_i_07 == '5' OR sed_cg_employ_010_i_07 == '6' OR sed_cg_employ_010_i_07 == '7') AND sed_cg_employ_010_i_07 !== 777 AND sed_cg_employ_010_i_07 !== '999'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "010_i_08"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_employ"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

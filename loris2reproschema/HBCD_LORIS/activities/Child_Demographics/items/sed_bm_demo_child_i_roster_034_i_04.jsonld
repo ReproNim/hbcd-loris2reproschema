@@ -1,0 +1,194 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_bm_demo_child_i_roster_034_i_04",
+  "prefLabel": {
+    "en": "sed_bm_demo_child_i_roster_034_i_04"
+  },
+  "question": {
+    "en": "Person 14 relationship household 2"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Biological Child"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Step Child"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Adopted Child"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Foster Child"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Child-in-Law"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Grandchild"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Spouse/Partner"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Friend/Roommate"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Roomer/Boarder"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Parent"
+      },
+      {
+        "name": {
+          "en": "16"
+        },
+        "value": "Step-parent"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "Parent-in-Law"
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": "Grandparent"
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": "Sibling"
+      },
+      {
+        "name": {
+          "en": "14"
+        },
+        "value": "Other Relative"
+      },
+      {
+        "name": {
+          "en": "15"
+        },
+        "value": "Other Non-relative"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_bm_demo_child_i_roster_020_i_02_i_03 >== 14"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "i_roster_034_i_04"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_demo_child"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

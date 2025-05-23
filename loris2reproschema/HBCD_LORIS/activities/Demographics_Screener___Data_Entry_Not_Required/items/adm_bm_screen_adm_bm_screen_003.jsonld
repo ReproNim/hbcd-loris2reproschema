@@ -1,0 +1,227 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "adm_bm_screen_adm_bm_screen_003",
+  "prefLabel": {
+    "en": "adm_bm_screen_adm_bm_screen_003"
+  },
+  "question": {
+    "en": "Highest level of education:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "never_attended"
+        },
+        "value": "Never attended / Kindergarten only"
+      },
+      {
+        "name": {
+          "en": "1st_grade"
+        },
+        "value": "1st grade"
+      },
+      {
+        "name": {
+          "en": "2nd_grade"
+        },
+        "value": "2nd grade"
+      },
+      {
+        "name": {
+          "en": "3rd_grade"
+        },
+        "value": "3rd grade"
+      },
+      {
+        "name": {
+          "en": "4th_grade"
+        },
+        "value": "4th grade"
+      },
+      {
+        "name": {
+          "en": "5th_grade"
+        },
+        "value": "5th grade"
+      },
+      {
+        "name": {
+          "en": "6th_grade"
+        },
+        "value": "6th grade"
+      },
+      {
+        "name": {
+          "en": "7th_grade"
+        },
+        "value": "7th grade"
+      },
+      {
+        "name": {
+          "en": "8th_grade"
+        },
+        "value": "8th grade"
+      },
+      {
+        "name": {
+          "en": "9th_grade"
+        },
+        "value": "9th grade"
+      },
+      {
+        "name": {
+          "en": "10th_grade"
+        },
+        "value": "10th grade"
+      },
+      {
+        "name": {
+          "en": "11th_grade"
+        },
+        "value": "11th grade"
+      },
+      {
+        "name": {
+          "en": "12th_grade"
+        },
+        "value": "12th grade, no diploma"
+      },
+      {
+        "name": {
+          "en": "high_school_graduate"
+        },
+        "value": "High school graduate"
+      },
+      {
+        "name": {
+          "en": "ged_or_equivalent"
+        },
+        "value": "GED or equivalent"
+      },
+      {
+        "name": {
+          "en": "some_college"
+        },
+        "value": "Some college, no degree"
+      },
+      {
+        "name": {
+          "en": "Occupational_vocational"
+        },
+        "value": "Occupational, Vocational, or Technical program"
+      },
+      {
+        "name": {
+          "en": "associate_degree"
+        },
+        "value": "Associate degree: Academic program"
+      },
+      {
+        "name": {
+          "en": "bachelor_degree"
+        },
+        "value": "Bachelor\\'s degree (ex: BA, AB, BS, BBA)"
+      },
+      {
+        "name": {
+          "en": "master_degree"
+        },
+        "value": "Master\\'s degree (ex: MA, MS, MEng, MEd, MBA)"
+      },
+      {
+        "name": {
+          "en": "professional_school_degree"
+        },
+        "value": "Professional school degree (ex: MD, DDS, DVM, JD)"
+      },
+      {
+        "name": {
+          "en": "doctoral_degree"
+        },
+        "value": "Doctoral degree (ex: PhD, EdD)"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don\\'t know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "adm_bm_screen_003"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "adm_bm_screen"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

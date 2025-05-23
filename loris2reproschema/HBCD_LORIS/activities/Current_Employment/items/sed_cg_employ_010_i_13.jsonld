@@ -1,0 +1,158 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_cg_employ_010_i_13",
+  "prefLabel": {
+    "en": "sed_cg_employ_010_i_13"
+  },
+  "question": {
+    "en": "What best describes your spouse/partner's current occupation? If your spouse/partner has more than one job, describe the job at which your spouse/partner worked the most hours in the past week."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Day laborer, janitor, house cleaner, farm worker, food counter sales, food preparation worker, busboy"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Garbage collector, short-order cook, cab driver, shoe sales, assembly line workers, masons, baggage porter"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Painter, skilled construction trade, sales clerk, truck driver, cook, sales counter or general office clerk"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Automobile mechanic, typist, locksmith, farmer, carpenter, receptionist, construction laborer, hairdresser"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Machinist, musician, bookkeeper, secretary, insurance sales, cabinet maker, personnel specialist, welder"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Supervisor, librarian, aircraft mechanic, artist and artisan, electrician, administrator, military enlisted personnel, buyer"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Nurse, skilled technician, medical technician, counselor, manager, police and fire personnel, financial manager, physical, occupational, speech therapist"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Mechanical, nuclear, and electrical engineer, educational administrator, veterinarian, military officer, elementary, high school and special education teacher"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Physician, attorney, professor, chemical and aerospace engineer, judge, CEO, senior manager, public official, psychologist, pharmacist, accountant"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_cg_employ_010 == '1' AND (sed_cg_employ_010_i_07 == '1' OR sed_cg_employ_010_i_07 == '2' OR sed_cg_employ_010_i_07 == '3' OR sed_cg_employ_010_i_07 == '4' OR sed_cg_employ_010_i_07 == '5' OR sed_cg_employ_010_i_07 == '6' OR sed_cg_employ_010_i_07 == '7') AND sed_cg_employ_010_i_07 !== 777 AND sed_cg_employ_010_i_07 !== '999'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "010_i_13"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_employ"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

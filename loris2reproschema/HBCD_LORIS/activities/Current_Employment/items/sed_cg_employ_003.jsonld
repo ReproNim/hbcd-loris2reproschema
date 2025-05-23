@@ -1,0 +1,155 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic",
+  "category": "reproschema:Item",
+  "id": "sed_cg_employ_003",
+  "prefLabel": {
+    "en": "sed_cg_employ_003"
+  },
+  "question": {
+    "en": "Select the category that best describes your current work or employment status:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Employed for wages, full time (30 hours per week or more)"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Employed for wages, part time (29 hours per week or less)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Self-employed or family business, for wages"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Work without pay in a family business or farm"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Active Duty in the United States Armed Forces (regular military, National Guard, Military Reserve Unit)"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "On paid leave and expect to return (for example, maternity, family, or sick leave)"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "On unpaid leave and expect to return (for example, maternity, family, or sick leave)"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Stay-at-home parent/caretaker, not working for pay"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Unemployed or laid off, looking for work"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Unemployed, not currently looking for work"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "003"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_employ"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
