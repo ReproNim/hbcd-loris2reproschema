@@ -187,7 +187,8 @@ def normalize_condition(condition_str: str) -> str:
     # Replace common operators
     condition = condition.replace("=", "==")
     
-    return condition
+    # Remove any trailing/leading whitespace
+    return condition.strip()
 
 
 def parse_html(html_str: str) -> Dict[str, str]:
@@ -207,11 +208,18 @@ def parse_html(html_str: str) -> Dict[str, str]:
         # Use BeautifulSoup to extract text
         if "<" in html_str and ">" in html_str:
             soup = BeautifulSoup(html_str, "html.parser")
-            return {"en": soup.get_text(separator=" ").strip()}
-        return {"en": html_str.strip()}
+            text = soup.get_text(separator=" ").strip()
+        else:
+            text = html_str.strip()
+            
+        # Fix known typos from LORIS data
+        text = text.replace("vaginalintercourse", "vaginal intercourse")
+        text = text.replace("less then usual", "less than usual")
+        
+        return {"en": text}
     except Exception as e:
         print(f"Error parsing HTML: {e}")
-        return {"en": html_str.strip()}
+        return {"en": str(html_str).strip()}
 
 
 def get_value_type(validation_type: str) -> str:
@@ -753,6 +761,23 @@ class ReproSchemaConverter:
                 item_name = f"item_{item_hash}"
                 self.log(f"Warning: Empty item name, using generated name: {item_name}", "WARNING")
 
+        # Fix redundant prefix in item names (e.g., sed_cg_foodins_sed_cg_foodins_category -> sed_cg_foodins_category)
+        # This pattern occurs when the instrument prefix is duplicated in the variable name
+        if item_name and '_' in item_name:
+            parts = item_name.split('_')
+            # Check if we have a pattern like prefix_prefix_suffix
+            if len(parts) >= 3:
+                # Find potential duplicated prefix
+                prefix_len = 0
+                for i in range(1, len(parts)):
+                    potential_prefix = '_'.join(parts[:i])
+                    remaining = '_'.join(parts[i:])
+                    if remaining.startswith(potential_prefix + '_'):
+                        # Found a redundant prefix
+                        item_name = remaining
+                        self.log(f"Fixed redundant prefix in item name: {item_name}", "DEBUG")
+                        break
+        
         # Clean up item name for use as an ID
         item_id = re.sub(r'[^a-zA-Z0-9_]', '_', str(item_name))
 
@@ -795,6 +820,19 @@ class ReproSchemaConverter:
         # Process response options
         response_options, choices_notes = self.process_response_options(row, item_name)
         item_data["responseOptions"] = response_options
+        
+        # If we have choices but inputType is text, update to select
+        if "choices" in response_options and response_options["choices"] and input_type == "text":
+            input_type = "select"
+            item_data["ui"]["inputType"] = input_type
+            
+        # If inputType is select but no choices provided, add empty choices array
+        # This prevents rendering issues but indicates that choices need to be configured
+        if input_type in ["select", "selectMultiple"] and "choices" not in response_options:
+            response_options["choices"] = []
+            # Add a note about missing choices
+            if not choices_notes:
+                choices_notes = {"note": "Choices need to be configured for this select field"}
 
         # Add description if available and different from question
         description_col = self.column_mappings["description"]
@@ -1014,6 +1052,12 @@ class ReproSchemaConverter:
             output_path (Path): The base output path.
             version (str): The version string to include in the schema.
         """
+        # Fix truncated activity names from LORIS data
+        if activity_name.endswith(" ("):
+            # This appears to be a truncated name
+            activity_name = activity_name[:-2].strip()  # Remove the incomplete parenthesis
+            self.log(f"Warning: Fixed truncated activity name to: {activity_name}", "WARNING")
+            
         # Handle special characters in activity name
         safe_activity_name = re.sub(r'[^a-zA-Z0-9_]', '_', str(activity_name))
 
