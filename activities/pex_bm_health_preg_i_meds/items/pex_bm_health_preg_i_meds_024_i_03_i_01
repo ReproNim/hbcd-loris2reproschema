@@ -1,86 +1,159 @@
 {
-    "id": "pex_bm_health_preg_i_meds_024_i_03_i_01",
-    "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Domain",
-            "source": "redcap",
-            "value": "Pregnancy/Exposure Including Substance"
-        },
-        {
-            "column": "Study",
-            "source": "redcap",
-            "value": "Core"
-        },
-        {
-            "column": "Field Class",
-            "source": "redcap",
-            "value": "Nominal"
-        },
-        {
-            "column": "Field Category",
-            "source": "redcap",
-            "value": "Item"
-        },
-        {
-            "column": "Data Scope",
-            "source": "redcap",
-            "value": "Session"
-        },
-        {
-            "column": "Source/Respondent",
-            "source": "redcap",
-            "value": "Biological Mother"
-        },
-        {
-            "column": "Description Status",
-            "source": "redcap",
-            "value": "Unchanged"
-        }
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_bm_health_preg_i_meds_024_i_03_i_01",
+  "prefLabel": {
+    "en": "pex_bm_health_preg_i_meds_024_i_03_i_01"
+  },
+  "question": {
+    "en": "Tenth otc per hour"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer",
+      "xsd:string"
     ],
-    "description": {
-        "en": "Q[248] of pex_bm_health_preg_i_meds"
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 5
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 6
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 7
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 8
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 9
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": 10
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": 11
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": 12
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_bm_health_preg_i_meds_014 ==10 AND pex_bm_health_preg_i_meds_024_i_03_dk =='' AND pex_bm_health_preg_i_meds_024_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_04 == ''"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "024_i_03_i_01"
     },
-    "prefLabel": {
-        "en": "pex_bm_health_preg_i_meds_024_i_03_i_01"
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_health_preg_i_meds"
     },
-    "question": {
-        "en": "Unit of frequency otc 10"
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
     },
-    "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "Hour"
-                },
-                "value": 1
-            },
-            {
-                "name": {
-                    "en": "Day"
-                },
-                "value": 2
-            },
-            {
-                "name": {
-                    "en": "Month"
-                },
-                "value": 3
-            },
-            {
-                "name": {
-                    "en": "Year"
-                },
-                "value": 4
-            }
-        ],
-        "multipleChoice": false,
-        "valueType": [
-            "xsd:integer"
-        ]
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
     },
-    "ui": {
-        "inputType": "select"
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Integer"
     },
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
 }

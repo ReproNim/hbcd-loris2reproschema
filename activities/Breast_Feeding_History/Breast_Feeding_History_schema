@@ -1,0 +1,272 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Breast_Feeding_History_schema",
+  "prefLabel": {
+    "en": "Breast Feeding History"
+  },
+  "description": {
+    "en": "Questions related to Breast Feeding History"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ph_cg_phx_i_bfh_Date_taken",
+      "items/ph_cg_phx_i_bfh_Candidate_Age",
+      "items/ph_cg_phx_i_bfh_gestational_age",
+      "items/ph_cg_phx_i_bfh_Window_Difference",
+      "items/ph_cg_phx_i_bfh_Examiner",
+      "items/ph_cg_phx_i_bfh_lang",
+      "items/ph_cg_phx_i_bfh_dtt",
+      "items/ph_cg_phx_i_bfh_timestamp_start",
+      "items/ph_cg_phx_i_bfh_timestamp_stop",
+      "items/ph_cg_phx_i_bfh_Duration",
+      "items/ph_cg_phx_i_bfh_location",
+      "items/ph_cg_phx_i_bfh_instr01",
+      "items/ph_cg_phx_i_bfh_001",
+      "items/ph_cg_phx_i_bfh_001_calc",
+      "items/ph_cg_phx_i_bfh_001_never_calc",
+      "items/ph_cg_phx_i_bfh_002",
+      "items/ph_cg_phx_i_bfh_002_calc",
+      "items/ph_cg_phx_i_bfh_002_i_00",
+      "items/ph_cg_phx_i_bfh_002_i_00_i_01",
+      "items/ph_cg_phx_i_bfh_002_i_01",
+      "items/ph_cg_phx_i_bfh_002_i_01_i_01",
+      "items/ph_cg_phx_i_bfh_002_i_02",
+      "items/ph_cg_phx_i_bfh_002_i_dk",
+      "items/ph_cg_phx_i_bfh_002_i_01_dk",
+      "items/ph_cg_phx_i_bfh_003",
+      "items/ph_cg_phx_i_bfh_003_calc",
+      "items/ph_cg_phx_i_bfh_003_i_00",
+      "items/ph_cg_phx_i_bfh_003_i_01_i_00",
+      "items/ph_cg_phx_i_bfh_003_i_01",
+      "items/ph_cg_phx_i_bfh_003_i_01_i_01",
+      "items/ph_cg_phx_i_bfh_003_i_02",
+      "items/ph_cg_phx_i_bfh_003_i_dk",
+      "items/ph_cg_phx_i_bfh_003_i_01_dk",
+      "items/ph_cg_phx_i_bfh_Validity",
+      "items/ph_cg_phx_i_bfh_Administration",
+      "items/ph_cg_phx_i_bfh_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ph_cg_phx_i_bfh_Date_taken",
+        "isAbout": "items/ph_cg_phx_i_bfh_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Candidate_Age",
+        "isAbout": "items/ph_cg_phx_i_bfh_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_gestational_age",
+        "isAbout": "items/ph_cg_phx_i_bfh_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Window_Difference",
+        "isAbout": "items/ph_cg_phx_i_bfh_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Examiner",
+        "isAbout": "items/ph_cg_phx_i_bfh_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_lang",
+        "isAbout": "items/ph_cg_phx_i_bfh_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_dtt",
+        "isAbout": "items/ph_cg_phx_i_bfh_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_timestamp_start",
+        "isAbout": "items/ph_cg_phx_i_bfh_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_timestamp_stop",
+        "isAbout": "items/ph_cg_phx_i_bfh_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Duration",
+        "isAbout": "items/ph_cg_phx_i_bfh_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_location",
+        "isAbout": "items/ph_cg_phx_i_bfh_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_instr01",
+        "isAbout": "items/ph_cg_phx_i_bfh_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_001",
+        "isAbout": "items/ph_cg_phx_i_bfh_001",
+        "valueRequired": false,
+        "isVis": "ph_cg_phx_i_bfh_001_calc !== '1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_001_calc",
+        "isAbout": "items/ph_cg_phx_i_bfh_001_calc",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_001_never_calc",
+        "isAbout": "items/ph_cg_phx_i_bfh_001_never_calc",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002",
+        "isAbout": "items/ph_cg_phx_i_bfh_002",
+        "valueRequired": false,
+        "isVis": "(ph_cg_phx_i_bfh_002_calc !== '1' AND ph_cg_phx_i_bfh_001_calc == '1' AND ph_cg_phx_i_bfh_001_never_calc !== '1') OR  (ph_cg_phx_i_bfh_001_calc == '0' AND ph_cg_phx_i_bfh_001 == '1')"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_calc",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_calc",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_00",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_00",
+        "valueRequired": false,
+        "isVis": "v02_arm_1ph_cg_phx_i_bfh_002 == '1' AND event-name == 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_00_i_01",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_00_i_01",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_002 == '1' AND event-name !== 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_01",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_01",
+        "valueRequired": false,
+        "isVis": "v02_arm_1ph_cg_phx_i_bfh_002_i_dk == '' AND event-name == 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_01_i_01",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_01_i_01",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_002 == '1'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_002_i_01_dk == '' AND event-nameph_cg_phx_i_bfh_002_i_02 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_02",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_02",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_002 == '1'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_002_i_01_dk == '' AND event-nameph_cg_phx_i_bfh_002_i_01_i_01 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_dk",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_dk",
+        "valueRequired": false,
+        "isVis": "v02_arm_1ph_cg_phx_i_bfh_002_i_01 =='' AND event-name == 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_002_i_01_dk",
+        "isAbout": "items/ph_cg_phx_i_bfh_002_i_01_dk",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_002 == '1'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_002_i_02 == '' AND event-nameph_cg_phx_i_bfh_002_i_01_i_01 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003",
+        "isAbout": "items/ph_cg_phx_i_bfh_003",
+        "valueRequired": false,
+        "isVis": "(ph_cg_phx_i_bfh_003_calc !== '1' AND ph_cg_phx_i_bfh_001_calc == '1' AND ph_cg_phx_i_bfh_001_never_calc !== '1') OR  (ph_cg_phx_i_bfh_001_calc == '0' AND ph_cg_phx_i_bfh_001 == '1')"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_calc",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_calc",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_00",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_00",
+        "valueRequired": false,
+        "isVis": "event-name == 'v02_arm_1' AND v02_arm_1ph_cg_phx_i_bfh_003 == '0'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_01_i_00",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_i_00",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_003 == '0' AND event-name !== 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_01",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_01",
+        "valueRequired": false,
+        "isVis": "v02_arm_1ph_cg_phx_i_bfh_003_i_dk == '' AND event-name == 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_01_i_01",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_i_01",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_003_i_01_dk == ''  AND event-nameph_cg_phx_i_bfh_003_i_02 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_02",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_02",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_003_i_01_dk == ''  AND event-nameph_cg_phx_i_bfh_003_i_01_i_01 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_dk",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_dk",
+        "valueRequired": false,
+        "isVis": "v02_arm_1ph_cg_phx_i_bfh_003 == '0' AND v02_arm_1ph_cg_phx_i_bfh_003_i_01 =='' AND event-name == 'v02_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_003_i_01_dk",
+        "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_dk",
+        "valueRequired": false,
+        "isVis": "event-nameph_cg_phx_i_bfh_003 == '0'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_003_i_01_i_01 == '' AND event-nameph_cg_phx_i_bfh_003_i_02 == ''"
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Validity",
+        "isAbout": "items/ph_cg_phx_i_bfh_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Administration",
+        "isAbout": "items/ph_cg_phx_i_bfh_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_phx_i_bfh_Informant",
+        "isAbout": "items/ph_cg_phx_i_bfh_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ncl_ch_di_i_v08_Administration",
+  "prefLabel": {
+    "en": "ncl_ch_di_i_v08_Administration"
+  },
+  "question": {
+    "en": "Administration for ncl_ch_di_i_v08"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "None"
+        },
+        "value": "None"
+      },
+      {
+        "name": {
+          "en": "Partial"
+        },
+        "value": "Partial"
+      },
+      {
+        "name": {
+          "en": "All"
+        },
+        "value": "All"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "Administration"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ncl_ch_di_i_v08"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Ordinal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

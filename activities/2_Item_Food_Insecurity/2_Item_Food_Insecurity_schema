@@ -1,0 +1,139 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "2_Item_Food_Insecurity_schema",
+  "prefLabel": {
+    "en": "2-Item Food Insecurity"
+  },
+  "description": {
+    "en": "Questions related to 2-Item Food Insecurity"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_foodins_Date_taken",
+      "items/sed_cg_foodins_Candidate_Age",
+      "items/sed_cg_foodins_gestational_age",
+      "items/sed_cg_foodins_Window_Difference",
+      "items/sed_cg_foodins_Examiner",
+      "items/sed_cg_foodins_lang",
+      "items/sed_cg_foodins_dtt",
+      "items/sed_cg_foodins_timestamp_start",
+      "items/sed_cg_foodins_timestamp_stop",
+      "items/sed_cg_foodins_Duration",
+      "items/sed_cg_foodins_location",
+      "items/sed_cg_foodins_001",
+      "items/sed_cg_foodins_002",
+      "items/sed_cg_foodins_sed_cg_foodins_category",
+      "items/sed_cg_foodins_Validity",
+      "items/sed_cg_foodins_Administration",
+      "items/sed_cg_foodins_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_foodins_Date_taken",
+        "isAbout": "items/sed_cg_foodins_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Candidate_Age",
+        "isAbout": "items/sed_cg_foodins_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_gestational_age",
+        "isAbout": "items/sed_cg_foodins_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Window_Difference",
+        "isAbout": "items/sed_cg_foodins_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Examiner",
+        "isAbout": "items/sed_cg_foodins_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_lang",
+        "isAbout": "items/sed_cg_foodins_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_foodins_dtt",
+        "isAbout": "items/sed_cg_foodins_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_foodins_timestamp_start",
+        "isAbout": "items/sed_cg_foodins_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_foodins_timestamp_stop",
+        "isAbout": "items/sed_cg_foodins_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Duration",
+        "isAbout": "items/sed_cg_foodins_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_location",
+        "isAbout": "items/sed_cg_foodins_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_foodins_001",
+        "isAbout": "items/sed_cg_foodins_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_002",
+        "isAbout": "items/sed_cg_foodins_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_sed_cg_foodins_category",
+        "isAbout": "items/sed_cg_foodins_sed_cg_foodins_category",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Validity",
+        "isAbout": "items/sed_cg_foodins_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Administration",
+        "isAbout": "items/sed_cg_foodins_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_Informant",
+        "isAbout": "items/sed_cg_foodins_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

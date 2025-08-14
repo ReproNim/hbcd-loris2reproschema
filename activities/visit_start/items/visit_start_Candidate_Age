@@ -1,61 +1,76 @@
 {
-    "id": "visit_start_Candidate_Age",
-    "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Domain",
-            "source": "redcap",
-            "value": NaN
-        },
-        {
-            "column": "Study",
-            "source": "redcap",
-            "value": "Core"
-        },
-        {
-            "column": "Field Class",
-            "source": "redcap",
-            "value": "Continuous"
-        },
-        {
-            "column": "Field Category",
-            "source": "redcap",
-            "value": "Item"
-        },
-        {
-            "column": "Data Scope",
-            "source": "redcap",
-            "value": "Session"
-        },
-        {
-            "column": "Source/Respondent",
-            "source": "redcap",
-            "value": NaN
-        },
-        {
-            "column": "Description Status",
-            "source": "redcap",
-            "value": "Unchanged"
-        }
-    ],
-    "description": {
-        "en": "Q[1] of visit_start"
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "visit_start_Candidate_Age",
+  "prefLabel": {
+    "en": "visit_start_Candidate_Age"
+  },
+  "question": {
+    "en": "Candidate Age (Years)"
+  },
+  "ui": {
+    "inputType": "number"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:float"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "Candidate_Age"
     },
-    "prefLabel": {
-        "en": "visit_start_Candidate_Age"
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "visit_start"
     },
-    "question": {
-        "en": "Candidate Age (Years)"
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
     },
-    "responseOptions": {
-        "choices": [],
-        "multipleChoice": false,
-        "valueType": [
-            "xsd:string"
-        ]
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Float"
     },
-    "ui": {
-        "inputType": "text"
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
     },
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Continuous"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
 }

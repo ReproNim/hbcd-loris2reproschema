@@ -1,0 +1,202 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "PhenX__Discrimination_schema",
+  "prefLabel": {
+    "en": "PhenX+ Discrimination"
+  },
+  "description": {
+    "en": "Questions related to PhenX+ Discrimination"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_bm_phx_i_discr_Date_taken",
+      "items/sed_bm_phx_i_discr_Candidate_Age",
+      "items/sed_bm_phx_i_discr_gestational_age",
+      "items/sed_bm_phx_i_discr_Window_Difference",
+      "items/sed_bm_phx_i_discr_Examiner",
+      "items/sed_bm_phx_i_discr_lang",
+      "items/sed_bm_phx_i_discr_dtt",
+      "items/sed_bm_phx_i_discr_timestamp_start",
+      "items/sed_bm_phx_i_discr_timestamp_stop",
+      "items/sed_bm_phx_i_discr_Duration",
+      "items/sed_bm_phx_i_discr_location",
+      "items/sed_bm_phx_i_discr_001",
+      "items/sed_bm_phx_i_discr_002",
+      "items/sed_bm_phx_i_discr_003",
+      "items/sed_bm_phx_i_discr_004",
+      "items/sed_bm_phx_i_discr_005",
+      "items/sed_bm_phx_i_discr_007",
+      "items/sed_bm_phx_i_discr_008",
+      "items/sed_bm_phx_i_discr_009",
+      "items/sed_bm_phx_i_discr_010",
+      "items/sed_bm_phx_i_discr_011",
+      "items/sed_bm_phx_i_discr_012",
+      "items/sed_bm_phx_i_discr_006",
+      "items/sed_bm_phx_i_discr_Validity",
+      "items/sed_bm_phx_i_discr_Administration",
+      "items/sed_bm_phx_i_discr_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_bm_phx_i_discr_Date_taken",
+        "isAbout": "items/sed_bm_phx_i_discr_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Candidate_Age",
+        "isAbout": "items/sed_bm_phx_i_discr_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_gestational_age",
+        "isAbout": "items/sed_bm_phx_i_discr_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Window_Difference",
+        "isAbout": "items/sed_bm_phx_i_discr_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Examiner",
+        "isAbout": "items/sed_bm_phx_i_discr_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_lang",
+        "isAbout": "items/sed_bm_phx_i_discr_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_dtt",
+        "isAbout": "items/sed_bm_phx_i_discr_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_timestamp_start",
+        "isAbout": "items/sed_bm_phx_i_discr_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_timestamp_stop",
+        "isAbout": "items/sed_bm_phx_i_discr_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Duration",
+        "isAbout": "items/sed_bm_phx_i_discr_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_location",
+        "isAbout": "items/sed_bm_phx_i_discr_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_001",
+        "isAbout": "items/sed_bm_phx_i_discr_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_002",
+        "isAbout": "items/sed_bm_phx_i_discr_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_003",
+        "isAbout": "items/sed_bm_phx_i_discr_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_004",
+        "isAbout": "items/sed_bm_phx_i_discr_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_005",
+        "isAbout": "items/sed_bm_phx_i_discr_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_007",
+        "isAbout": "items/sed_bm_phx_i_discr_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_008",
+        "isAbout": "items/sed_bm_phx_i_discr_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_009",
+        "isAbout": "items/sed_bm_phx_i_discr_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_010",
+        "isAbout": "items/sed_bm_phx_i_discr_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_011",
+        "isAbout": "items/sed_bm_phx_i_discr_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_012",
+        "isAbout": "items/sed_bm_phx_i_discr_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_006",
+        "isAbout": "items/sed_bm_phx_i_discr_006",
+        "valueRequired": false,
+        "isVis": "sed_bm_phx_i_discr_001 == '1' or sed_bm_phx_i_discr_001 == '2' or sed_bm_phx_i_discr_001 == '3' or sed_bm_phx_i_discr_001 == '4' or sed_bm_phx_i_discr_002 == '1' or sed_bm_phx_i_discr_002 == '2' or sed_bm_phx_i_discr_002 == '3' or sed_bm_phx_i_discr_002 == '4' or sed_bm_phx_i_discr_003 == '1' or sed_bm_phx_i_discr_003 == '2' or sed_bm_phx_i_discr_003 == '3' or sed_bm_phx_i_discr_003 == '4' or sed_bm_phx_i_discr_004 == '1' or sed_bm_phx_i_discr_004 == '3' or sed_bm_phx_i_discr_004 == '2' or sed_bm_phx_i_discr_004 == '4' or sed_bm_phx_i_discr_005 == '1' or sed_bm_phx_i_discr_005 == '2' or sed_bm_phx_i_discr_005 == '3' or sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1'  OR sed_bm_phx_i_discr_009 == '1' OR  sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'"
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Validity",
+        "isAbout": "items/sed_bm_phx_i_discr_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Administration",
+        "isAbout": "items/sed_bm_phx_i_discr_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_phx_i_discr_Informant",
+        "isAbout": "items/sed_bm_phx_i_discr_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

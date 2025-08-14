@@ -1,0 +1,138 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ph_ch_vs_eye_002_i_01",
+  "prefLabel": {
+    "en": "ph_ch_vs_eye_002_i_01"
+  },
+  "question": {
+    "en": "a. If yes, diagnosis: (check all that apply)"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "strabismus"
+        },
+        "value": "Strabismus"
+      },
+      {
+        "name": {
+          "en": "retinopathy_of_prematurity"
+        },
+        "value": "Retinopathy of Prematurity (ROP)"
+      },
+      {
+        "name": {
+          "en": "chalazion"
+        },
+        "value": "Chalazion"
+      },
+      {
+        "name": {
+          "en": "blocked_tear_duct"
+        },
+        "value": "Blocked Tear Duct (Nasolacrimal duct obstruction)"
+      },
+      {
+        "name": {
+          "en": "farsightedness"
+        },
+        "value": "Farsightedness (hyperopia)"
+      },
+      {
+        "name": {
+          "en": "astigmatism"
+        },
+        "value": "Astigmatism"
+      },
+      {
+        "name": {
+          "en": "nearsightedness"
+        },
+        "value": "Nearsightedness (myopia)"
+      },
+      {
+        "name": {
+          "en": "nystagmus"
+        },
+        "value": "Nystagmus"
+      },
+      {
+        "name": {
+          "en": "other"
+        },
+        "value": "Other"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "eye_002_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_ch_vs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

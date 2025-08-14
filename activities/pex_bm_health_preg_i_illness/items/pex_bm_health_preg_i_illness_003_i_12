@@ -1,61 +1,658 @@
 {
-    "id": "pex_bm_health_preg_i_illness_003_i_12",
-    "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Domain",
-            "source": "redcap",
-            "value": "Pregnancy/Exposure Including Substance"
-        },
-        {
-            "column": "Study",
-            "source": "redcap",
-            "value": "Core"
-        },
-        {
-            "column": "Field Class",
-            "source": "redcap",
-            "value": "Discrete"
-        },
-        {
-            "column": "Field Category",
-            "source": "redcap",
-            "value": "Item"
-        },
-        {
-            "column": "Data Scope",
-            "source": "redcap",
-            "value": "Session"
-        },
-        {
-            "column": "Source/Respondent",
-            "source": "redcap",
-            "value": "Biological Mother"
-        },
-        {
-            "column": "Description Status",
-            "source": "redcap",
-            "value": "Unchanged"
-        }
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_bm_health_preg_i_illness_003_i_12",
+  "prefLabel": {
+    "en": "pex_bm_health_preg_i_illness_003_i_12"
+  },
+  "question": {
+    "en": "What was the highest temperature of the fever?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer",
+      "xsd:string",
+      "xsd:float"
     ],
-    "description": {
-        "en": "Q[43] of pex_bm_health_preg_i_illness"
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 98.6
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 98.7
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 98.8
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 98.9
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 99
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 99.1
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 99.2
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 99.3
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 99.4
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": 99.5
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": 99.6
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": 99.7
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": 99.8
+      },
+      {
+        "name": {
+          "en": "14"
+        },
+        "value": 99.9
+      },
+      {
+        "name": {
+          "en": "15"
+        },
+        "value": 100
+      },
+      {
+        "name": {
+          "en": "16"
+        },
+        "value": 100.1
+      },
+      {
+        "name": {
+          "en": "17"
+        },
+        "value": 100.2
+      },
+      {
+        "name": {
+          "en": "18"
+        },
+        "value": 100.3
+      },
+      {
+        "name": {
+          "en": "19"
+        },
+        "value": 100.4
+      },
+      {
+        "name": {
+          "en": "20"
+        },
+        "value": 100.5
+      },
+      {
+        "name": {
+          "en": "21"
+        },
+        "value": 100.6
+      },
+      {
+        "name": {
+          "en": "22"
+        },
+        "value": 100.7
+      },
+      {
+        "name": {
+          "en": "23"
+        },
+        "value": 100.8
+      },
+      {
+        "name": {
+          "en": "24"
+        },
+        "value": 100.9
+      },
+      {
+        "name": {
+          "en": "25"
+        },
+        "value": 101
+      },
+      {
+        "name": {
+          "en": "26"
+        },
+        "value": 101.1
+      },
+      {
+        "name": {
+          "en": "27"
+        },
+        "value": 101.2
+      },
+      {
+        "name": {
+          "en": "28"
+        },
+        "value": 101.3
+      },
+      {
+        "name": {
+          "en": "29"
+        },
+        "value": 101.4
+      },
+      {
+        "name": {
+          "en": "30"
+        },
+        "value": 101.5
+      },
+      {
+        "name": {
+          "en": "31"
+        },
+        "value": 101.6
+      },
+      {
+        "name": {
+          "en": "32"
+        },
+        "value": 101.7
+      },
+      {
+        "name": {
+          "en": "33"
+        },
+        "value": 101.8
+      },
+      {
+        "name": {
+          "en": "34"
+        },
+        "value": 101.9
+      },
+      {
+        "name": {
+          "en": "35"
+        },
+        "value": 102
+      },
+      {
+        "name": {
+          "en": "36"
+        },
+        "value": 102.1
+      },
+      {
+        "name": {
+          "en": "37"
+        },
+        "value": 102.2
+      },
+      {
+        "name": {
+          "en": "38"
+        },
+        "value": 102.3
+      },
+      {
+        "name": {
+          "en": "39"
+        },
+        "value": 102.4
+      },
+      {
+        "name": {
+          "en": "40"
+        },
+        "value": 102.5
+      },
+      {
+        "name": {
+          "en": "41"
+        },
+        "value": 102.6
+      },
+      {
+        "name": {
+          "en": "42"
+        },
+        "value": 102.7
+      },
+      {
+        "name": {
+          "en": "43"
+        },
+        "value": 102.8
+      },
+      {
+        "name": {
+          "en": "44"
+        },
+        "value": 102.9
+      },
+      {
+        "name": {
+          "en": "45"
+        },
+        "value": 103
+      },
+      {
+        "name": {
+          "en": "46"
+        },
+        "value": 103.1
+      },
+      {
+        "name": {
+          "en": "47"
+        },
+        "value": 103.2
+      },
+      {
+        "name": {
+          "en": "48"
+        },
+        "value": 103.3
+      },
+      {
+        "name": {
+          "en": "49"
+        },
+        "value": 103.4
+      },
+      {
+        "name": {
+          "en": "50"
+        },
+        "value": 103.5
+      },
+      {
+        "name": {
+          "en": "51"
+        },
+        "value": 103.6
+      },
+      {
+        "name": {
+          "en": "52"
+        },
+        "value": 103.7
+      },
+      {
+        "name": {
+          "en": "53"
+        },
+        "value": 103.8
+      },
+      {
+        "name": {
+          "en": "54"
+        },
+        "value": 103.9
+      },
+      {
+        "name": {
+          "en": "55"
+        },
+        "value": 104
+      },
+      {
+        "name": {
+          "en": "56"
+        },
+        "value": 104.1
+      },
+      {
+        "name": {
+          "en": "57"
+        },
+        "value": 104.2
+      },
+      {
+        "name": {
+          "en": "58"
+        },
+        "value": 104.3
+      },
+      {
+        "name": {
+          "en": "59"
+        },
+        "value": 104.4
+      },
+      {
+        "name": {
+          "en": "60"
+        },
+        "value": 104.5
+      },
+      {
+        "name": {
+          "en": "61"
+        },
+        "value": 104.6
+      },
+      {
+        "name": {
+          "en": "62"
+        },
+        "value": 104.7
+      },
+      {
+        "name": {
+          "en": "63"
+        },
+        "value": 104.8
+      },
+      {
+        "name": {
+          "en": "64"
+        },
+        "value": 104.9
+      },
+      {
+        "name": {
+          "en": "65"
+        },
+        "value": 105
+      },
+      {
+        "name": {
+          "en": "66"
+        },
+        "value": 105.1
+      },
+      {
+        "name": {
+          "en": "67"
+        },
+        "value": 105.2
+      },
+      {
+        "name": {
+          "en": "68"
+        },
+        "value": 105.3
+      },
+      {
+        "name": {
+          "en": "69"
+        },
+        "value": 105.4
+      },
+      {
+        "name": {
+          "en": "70"
+        },
+        "value": 105.5
+      },
+      {
+        "name": {
+          "en": "71"
+        },
+        "value": 105.6
+      },
+      {
+        "name": {
+          "en": "72"
+        },
+        "value": 105.7
+      },
+      {
+        "name": {
+          "en": "73"
+        },
+        "value": 105.8
+      },
+      {
+        "name": {
+          "en": "74"
+        },
+        "value": 105.9
+      },
+      {
+        "name": {
+          "en": "75"
+        },
+        "value": 106
+      },
+      {
+        "name": {
+          "en": "76"
+        },
+        "value": 106.1
+      },
+      {
+        "name": {
+          "en": "77"
+        },
+        "value": 106.2
+      },
+      {
+        "name": {
+          "en": "78"
+        },
+        "value": 106.3
+      },
+      {
+        "name": {
+          "en": "79"
+        },
+        "value": 106.4
+      },
+      {
+        "name": {
+          "en": "80"
+        },
+        "value": 106.5
+      },
+      {
+        "name": {
+          "en": "81"
+        },
+        "value": 106.6
+      },
+      {
+        "name": {
+          "en": "82"
+        },
+        "value": 106.7
+      },
+      {
+        "name": {
+          "en": "83"
+        },
+        "value": 106.8
+      },
+      {
+        "name": {
+          "en": "84"
+        },
+        "value": 106.9
+      },
+      {
+        "name": {
+          "en": "85"
+        },
+        "value": 107
+      },
+      {
+        "name": {
+          "en": "86"
+        },
+        "value": 107.1
+      },
+      {
+        "name": {
+          "en": "87"
+        },
+        "value": 107.2
+      },
+      {
+        "name": {
+          "en": "88"
+        },
+        "value": 107.3
+      },
+      {
+        "name": {
+          "en": "89"
+        },
+        "value": 107.4
+      },
+      {
+        "name": {
+          "en": "90"
+        },
+        "value": 107.5
+      },
+      {
+        "name": {
+          "en": "91"
+        },
+        "value": 107.6
+      },
+      {
+        "name": {
+          "en": "92"
+        },
+        "value": 107.7
+      },
+      {
+        "name": {
+          "en": "93"
+        },
+        "value": 107.8
+      },
+      {
+        "name": {
+          "en": "94"
+        },
+        "value": 107.9
+      },
+      {
+        "name": {
+          "en": "95"
+        },
+        "value": 108
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display:  pex_bm_health_preg_i_illness_003_i_11 =='1' AND pex_bm_health_preg_i_illness_003_i_12_i_dk == '' AND  pex_bm_health_preg_i_illness_002 >== 1 "
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "003_i_12"
     },
-    "prefLabel": {
-        "en": "pex_bm_health_preg_i_illness_003_i_12"
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_health_preg_i_illness"
     },
-    "question": {
-        "en": "What was the highest temperature of the fever?"
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
     },
-    "responseOptions": {
-        "choices": [],
-        "multipleChoice": false,
-        "valueType": [
-            "xsd:string"
-        ]
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
     },
-    "ui": {
-        "inputType": "text"
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Float"
     },
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
 }

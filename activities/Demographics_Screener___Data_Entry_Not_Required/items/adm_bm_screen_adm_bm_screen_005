@@ -1,0 +1,155 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "adm_bm_screen_adm_bm_screen_005",
+  "prefLabel": {
+    "en": "adm_bm_screen_adm_bm_screen_005"
+  },
+  "question": {
+    "en": "Total combined household income:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "Less_than_$10,000"
+        },
+        "value": "Less than $10,000"
+      },
+      {
+        "name": {
+          "en": "$10,000_through_$14,999"
+        },
+        "value": "$10,000 through $14,999"
+      },
+      {
+        "name": {
+          "en": "$15,000_through_$19,999"
+        },
+        "value": "$15,000 through $19,999"
+      },
+      {
+        "name": {
+          "en": "$20,000_through_$24,999"
+        },
+        "value": "$20,000 through $24,999"
+      },
+      {
+        "name": {
+          "en": "$25,000_through_$34,999"
+        },
+        "value": "$25,000 through $34,999"
+      },
+      {
+        "name": {
+          "en": "$35,000_through_$49,999"
+        },
+        "value": "$35,000 through $49,999"
+      },
+      {
+        "name": {
+          "en": "$50,000_through_$74,999"
+        },
+        "value": "$50,000 through $74,999"
+      },
+      {
+        "name": {
+          "en": "$75,000_through_$99,999"
+        },
+        "value": "$75,000 through $99,999"
+      },
+      {
+        "name": {
+          "en": "$100,000_through_$199,999"
+        },
+        "value": "$100,000 through $199,999"
+      },
+      {
+        "name": {
+          "en": "$200,000_and_greater"
+        },
+        "value": "$200,000 and greater"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don\\'t know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "adm_bm_screen_005"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "adm_bm_screen"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

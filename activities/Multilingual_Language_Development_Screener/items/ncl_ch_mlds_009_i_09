@@ -1,0 +1,134 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ncl_ch_mlds_009_i_09",
+  "prefLabel": {
+    "en": "ncl_ch_mlds_009_i_09"
+  },
+  "question": {
+    "en": "What kind of arrangement is this?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "In-home babysitter (nonrelative)"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "In-home babysitter (relative-e.g. grandparent)"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Out-of-home babysitter (nonrelative)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Out-of-home babysitter (relative)"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Home-based daycare center"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Center Care"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ncl_ch_mlds_002_i_01 >== 7 AND ncl_ch_mlds_002_i_01 !== '777' AND  ncl_ch_mlds_002_i_01 !== '999' "
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "009_i_09"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ncl_ch_mlds"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

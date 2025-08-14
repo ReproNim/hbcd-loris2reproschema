@@ -1,0 +1,174 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_bm_bfy_bensvc_001",
+  "prefLabel": {
+    "en": "sed_bm_bfy_bensvc_001"
+  },
+  "question": {
+    "en": "Have you received any of these services in the past 12 months..."
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Food stamps SNAP / EBT"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Free or reduced childcare"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Early Head Start"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Head Start"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Women, Infants and Children (WIC)"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "State Unemployment"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Cash assistance"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Free or reduced school lunch"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Housing assistance"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "LIHEAP/heat/AC assistance"
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": "Home visitation"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": "None"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "bensvc_001"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_bfy"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

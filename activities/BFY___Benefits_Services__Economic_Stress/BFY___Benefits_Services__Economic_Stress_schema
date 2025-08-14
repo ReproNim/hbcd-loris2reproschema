@@ -1,0 +1,188 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "BFY___Benefits_Services__Economic_Stress_schema",
+  "prefLabel": {
+    "en": "BFY - Benefits/Services, Economic Stress"
+  },
+  "description": {
+    "en": "Questions related to BFY - Benefits/Services, Economic Stress"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_bm_bfy_Date_taken",
+      "items/sed_bm_bfy_Candidate_Age",
+      "items/sed_bm_bfy_gestational_age",
+      "items/sed_bm_bfy_Window_Difference",
+      "items/sed_bm_bfy_Examiner",
+      "items/sed_bm_bfy_lang",
+      "items/sed_bm_bfy_dtt",
+      "items/sed_bm_bfy_timestamp_start",
+      "items/sed_bm_bfy_timestamp_stop",
+      "items/sed_bm_bfy_Duration",
+      "items/sed_bm_bfy_location",
+      "items/sed_bm_bfy_bensvc_001",
+      "items/sed_bm_bfy_econstr_001",
+      "items/sed_bm_bfy_econstr_002",
+      "items/sed_bm_bfy_econstr_003",
+      "items/sed_bm_bfy_econstr_004",
+      "items/sed_bm_bfy_econstr_005",
+      "items/sed_bm_bfy_econstr_006",
+      "items/sed_bm_bfy_econstr_006_i_01",
+      "items/sed_bm_bfy_econstr_007",
+      "items/sed_bm_bfy_econstr_008",
+      "items/sed_bm_bfy_Validity",
+      "items/sed_bm_bfy_Administration",
+      "items/sed_bm_bfy_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_bm_bfy_Date_taken",
+        "isAbout": "items/sed_bm_bfy_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Candidate_Age",
+        "isAbout": "items/sed_bm_bfy_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_gestational_age",
+        "isAbout": "items/sed_bm_bfy_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Window_Difference",
+        "isAbout": "items/sed_bm_bfy_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Examiner",
+        "isAbout": "items/sed_bm_bfy_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_lang",
+        "isAbout": "items/sed_bm_bfy_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_bfy_dtt",
+        "isAbout": "items/sed_bm_bfy_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_bfy_timestamp_start",
+        "isAbout": "items/sed_bm_bfy_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_bfy_timestamp_stop",
+        "isAbout": "items/sed_bm_bfy_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Duration",
+        "isAbout": "items/sed_bm_bfy_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_location",
+        "isAbout": "items/sed_bm_bfy_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_bm_bfy_bensvc_001",
+        "isAbout": "items/sed_bm_bfy_bensvc_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_001",
+        "isAbout": "items/sed_bm_bfy_econstr_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_002",
+        "isAbout": "items/sed_bm_bfy_econstr_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_003",
+        "isAbout": "items/sed_bm_bfy_econstr_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_004",
+        "isAbout": "items/sed_bm_bfy_econstr_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_005",
+        "isAbout": "items/sed_bm_bfy_econstr_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_006",
+        "isAbout": "items/sed_bm_bfy_econstr_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_006_i_01",
+        "isAbout": "items/sed_bm_bfy_econstr_006_i_01",
+        "valueRequired": false,
+        "isVis": "sed_bm_bfy_econstr_006 == '1'"
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_007",
+        "isAbout": "items/sed_bm_bfy_econstr_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_econstr_008",
+        "isAbout": "items/sed_bm_bfy_econstr_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Validity",
+        "isAbout": "items/sed_bm_bfy_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Administration",
+        "isAbout": "items/sed_bm_bfy_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_Informant",
+        "isAbout": "items/sed_bm_bfy_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

@@ -1,0 +1,1288 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_bm_assistv2_end_i_use_i_amount_002_i_01",
+  "prefLabel": {
+    "en": "pex_bm_assistv2_end_i_use_i_amount_002_i_01"
+  },
+  "question": {
+    "en": "Wine (ounces)"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer",
+      "xsd:string",
+      "xsd:float"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 0.5
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 1.5
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 2.5
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 3.5
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 4.5
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": 5
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": 5.5
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": 6
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": 6.5
+      },
+      {
+        "name": {
+          "en": "14"
+        },
+        "value": 7
+      },
+      {
+        "name": {
+          "en": "15"
+        },
+        "value": 7.5
+      },
+      {
+        "name": {
+          "en": "16"
+        },
+        "value": 8
+      },
+      {
+        "name": {
+          "en": "17"
+        },
+        "value": 8.5
+      },
+      {
+        "name": {
+          "en": "18"
+        },
+        "value": 9
+      },
+      {
+        "name": {
+          "en": "19"
+        },
+        "value": 9.5
+      },
+      {
+        "name": {
+          "en": "20"
+        },
+        "value": 10
+      },
+      {
+        "name": {
+          "en": "21"
+        },
+        "value": 10.5
+      },
+      {
+        "name": {
+          "en": "22"
+        },
+        "value": 11
+      },
+      {
+        "name": {
+          "en": "23"
+        },
+        "value": 11.5
+      },
+      {
+        "name": {
+          "en": "24"
+        },
+        "value": 12
+      },
+      {
+        "name": {
+          "en": "25"
+        },
+        "value": 12.5
+      },
+      {
+        "name": {
+          "en": "26"
+        },
+        "value": 13
+      },
+      {
+        "name": {
+          "en": "27"
+        },
+        "value": 13.5
+      },
+      {
+        "name": {
+          "en": "28"
+        },
+        "value": 14
+      },
+      {
+        "name": {
+          "en": "29"
+        },
+        "value": 14.5
+      },
+      {
+        "name": {
+          "en": "30"
+        },
+        "value": 15
+      },
+      {
+        "name": {
+          "en": "31"
+        },
+        "value": 15.5
+      },
+      {
+        "name": {
+          "en": "32"
+        },
+        "value": 16
+      },
+      {
+        "name": {
+          "en": "33"
+        },
+        "value": 16.5
+      },
+      {
+        "name": {
+          "en": "34"
+        },
+        "value": 17
+      },
+      {
+        "name": {
+          "en": "35"
+        },
+        "value": 17.5
+      },
+      {
+        "name": {
+          "en": "36"
+        },
+        "value": 18
+      },
+      {
+        "name": {
+          "en": "37"
+        },
+        "value": 18.5
+      },
+      {
+        "name": {
+          "en": "38"
+        },
+        "value": 19
+      },
+      {
+        "name": {
+          "en": "39"
+        },
+        "value": 19.5
+      },
+      {
+        "name": {
+          "en": "40"
+        },
+        "value": 20
+      },
+      {
+        "name": {
+          "en": "41"
+        },
+        "value": 20.5
+      },
+      {
+        "name": {
+          "en": "42"
+        },
+        "value": 21
+      },
+      {
+        "name": {
+          "en": "43"
+        },
+        "value": 21.5
+      },
+      {
+        "name": {
+          "en": "44"
+        },
+        "value": 22
+      },
+      {
+        "name": {
+          "en": "45"
+        },
+        "value": 22.5
+      },
+      {
+        "name": {
+          "en": "46"
+        },
+        "value": 23
+      },
+      {
+        "name": {
+          "en": "47"
+        },
+        "value": 23.5
+      },
+      {
+        "name": {
+          "en": "48"
+        },
+        "value": 24
+      },
+      {
+        "name": {
+          "en": "49"
+        },
+        "value": 24.5
+      },
+      {
+        "name": {
+          "en": "50"
+        },
+        "value": 25
+      },
+      {
+        "name": {
+          "en": "51"
+        },
+        "value": 25.5
+      },
+      {
+        "name": {
+          "en": "52"
+        },
+        "value": 26
+      },
+      {
+        "name": {
+          "en": "53"
+        },
+        "value": 26.5
+      },
+      {
+        "name": {
+          "en": "54"
+        },
+        "value": 27
+      },
+      {
+        "name": {
+          "en": "55"
+        },
+        "value": 27.5
+      },
+      {
+        "name": {
+          "en": "56"
+        },
+        "value": 28
+      },
+      {
+        "name": {
+          "en": "57"
+        },
+        "value": 28.5
+      },
+      {
+        "name": {
+          "en": "58"
+        },
+        "value": 29
+      },
+      {
+        "name": {
+          "en": "59"
+        },
+        "value": 29.5
+      },
+      {
+        "name": {
+          "en": "60"
+        },
+        "value": 30
+      },
+      {
+        "name": {
+          "en": "61"
+        },
+        "value": 30.5
+      },
+      {
+        "name": {
+          "en": "62"
+        },
+        "value": 31
+      },
+      {
+        "name": {
+          "en": "63"
+        },
+        "value": 31.5
+      },
+      {
+        "name": {
+          "en": "64"
+        },
+        "value": 32
+      },
+      {
+        "name": {
+          "en": "65"
+        },
+        "value": 32.5
+      },
+      {
+        "name": {
+          "en": "66"
+        },
+        "value": 33
+      },
+      {
+        "name": {
+          "en": "67"
+        },
+        "value": 33.5
+      },
+      {
+        "name": {
+          "en": "68"
+        },
+        "value": 34
+      },
+      {
+        "name": {
+          "en": "69"
+        },
+        "value": 34.5
+      },
+      {
+        "name": {
+          "en": "70"
+        },
+        "value": 35
+      },
+      {
+        "name": {
+          "en": "71"
+        },
+        "value": 35.5
+      },
+      {
+        "name": {
+          "en": "72"
+        },
+        "value": 36
+      },
+      {
+        "name": {
+          "en": "73"
+        },
+        "value": 36.5
+      },
+      {
+        "name": {
+          "en": "74"
+        },
+        "value": 37
+      },
+      {
+        "name": {
+          "en": "75"
+        },
+        "value": 37.5
+      },
+      {
+        "name": {
+          "en": "76"
+        },
+        "value": 38
+      },
+      {
+        "name": {
+          "en": "77"
+        },
+        "value": 38.5
+      },
+      {
+        "name": {
+          "en": "78"
+        },
+        "value": 39
+      },
+      {
+        "name": {
+          "en": "79"
+        },
+        "value": 39.5
+      },
+      {
+        "name": {
+          "en": "80"
+        },
+        "value": 40
+      },
+      {
+        "name": {
+          "en": "81"
+        },
+        "value": 40.5
+      },
+      {
+        "name": {
+          "en": "82"
+        },
+        "value": 41
+      },
+      {
+        "name": {
+          "en": "83"
+        },
+        "value": 41.5
+      },
+      {
+        "name": {
+          "en": "84"
+        },
+        "value": 42
+      },
+      {
+        "name": {
+          "en": "85"
+        },
+        "value": 42.5
+      },
+      {
+        "name": {
+          "en": "86"
+        },
+        "value": 43
+      },
+      {
+        "name": {
+          "en": "87"
+        },
+        "value": 43.5
+      },
+      {
+        "name": {
+          "en": "88"
+        },
+        "value": 44
+      },
+      {
+        "name": {
+          "en": "89"
+        },
+        "value": 44.5
+      },
+      {
+        "name": {
+          "en": "90"
+        },
+        "value": 45
+      },
+      {
+        "name": {
+          "en": "91"
+        },
+        "value": 45.5
+      },
+      {
+        "name": {
+          "en": "92"
+        },
+        "value": 46
+      },
+      {
+        "name": {
+          "en": "93"
+        },
+        "value": 46.5
+      },
+      {
+        "name": {
+          "en": "94"
+        },
+        "value": 47
+      },
+      {
+        "name": {
+          "en": "95"
+        },
+        "value": 47.5
+      },
+      {
+        "name": {
+          "en": "96"
+        },
+        "value": 48
+      },
+      {
+        "name": {
+          "en": "97"
+        },
+        "value": 48.5
+      },
+      {
+        "name": {
+          "en": "98"
+        },
+        "value": 49
+      },
+      {
+        "name": {
+          "en": "99"
+        },
+        "value": 49.5
+      },
+      {
+        "name": {
+          "en": "100"
+        },
+        "value": 50
+      },
+      {
+        "name": {
+          "en": "101"
+        },
+        "value": 50.5
+      },
+      {
+        "name": {
+          "en": "102"
+        },
+        "value": 51
+      },
+      {
+        "name": {
+          "en": "103"
+        },
+        "value": 51.5
+      },
+      {
+        "name": {
+          "en": "104"
+        },
+        "value": 52
+      },
+      {
+        "name": {
+          "en": "105"
+        },
+        "value": 52.5
+      },
+      {
+        "name": {
+          "en": "106"
+        },
+        "value": 53
+      },
+      {
+        "name": {
+          "en": "107"
+        },
+        "value": 53.5
+      },
+      {
+        "name": {
+          "en": "108"
+        },
+        "value": 54
+      },
+      {
+        "name": {
+          "en": "109"
+        },
+        "value": 54.5
+      },
+      {
+        "name": {
+          "en": "110"
+        },
+        "value": 55
+      },
+      {
+        "name": {
+          "en": "111"
+        },
+        "value": 55.5
+      },
+      {
+        "name": {
+          "en": "112"
+        },
+        "value": 56
+      },
+      {
+        "name": {
+          "en": "113"
+        },
+        "value": 56.5
+      },
+      {
+        "name": {
+          "en": "114"
+        },
+        "value": 57
+      },
+      {
+        "name": {
+          "en": "115"
+        },
+        "value": 57.5
+      },
+      {
+        "name": {
+          "en": "116"
+        },
+        "value": 58
+      },
+      {
+        "name": {
+          "en": "117"
+        },
+        "value": 58.5
+      },
+      {
+        "name": {
+          "en": "118"
+        },
+        "value": 59
+      },
+      {
+        "name": {
+          "en": "119"
+        },
+        "value": 59.5
+      },
+      {
+        "name": {
+          "en": "120"
+        },
+        "value": 60
+      },
+      {
+        "name": {
+          "en": "121"
+        },
+        "value": 60.5
+      },
+      {
+        "name": {
+          "en": "122"
+        },
+        "value": 61
+      },
+      {
+        "name": {
+          "en": "123"
+        },
+        "value": 61.5
+      },
+      {
+        "name": {
+          "en": "124"
+        },
+        "value": 62
+      },
+      {
+        "name": {
+          "en": "125"
+        },
+        "value": 62.5
+      },
+      {
+        "name": {
+          "en": "126"
+        },
+        "value": 63
+      },
+      {
+        "name": {
+          "en": "127"
+        },
+        "value": 63.5
+      },
+      {
+        "name": {
+          "en": "128"
+        },
+        "value": 64
+      },
+      {
+        "name": {
+          "en": "129"
+        },
+        "value": 64.5
+      },
+      {
+        "name": {
+          "en": "130"
+        },
+        "value": 65
+      },
+      {
+        "name": {
+          "en": "131"
+        },
+        "value": 65.5
+      },
+      {
+        "name": {
+          "en": "132"
+        },
+        "value": 66
+      },
+      {
+        "name": {
+          "en": "133"
+        },
+        "value": 66.5
+      },
+      {
+        "name": {
+          "en": "134"
+        },
+        "value": 67
+      },
+      {
+        "name": {
+          "en": "135"
+        },
+        "value": 67.5
+      },
+      {
+        "name": {
+          "en": "136"
+        },
+        "value": 68
+      },
+      {
+        "name": {
+          "en": "137"
+        },
+        "value": 68.5
+      },
+      {
+        "name": {
+          "en": "138"
+        },
+        "value": 69
+      },
+      {
+        "name": {
+          "en": "139"
+        },
+        "value": 69.5
+      },
+      {
+        "name": {
+          "en": "140"
+        },
+        "value": 70
+      },
+      {
+        "name": {
+          "en": "141"
+        },
+        "value": 70.5
+      },
+      {
+        "name": {
+          "en": "142"
+        },
+        "value": 71
+      },
+      {
+        "name": {
+          "en": "143"
+        },
+        "value": 71.5
+      },
+      {
+        "name": {
+          "en": "144"
+        },
+        "value": 72
+      },
+      {
+        "name": {
+          "en": "145"
+        },
+        "value": 72.5
+      },
+      {
+        "name": {
+          "en": "146"
+        },
+        "value": 73
+      },
+      {
+        "name": {
+          "en": "147"
+        },
+        "value": 73.5
+      },
+      {
+        "name": {
+          "en": "148"
+        },
+        "value": 74
+      },
+      {
+        "name": {
+          "en": "149"
+        },
+        "value": 74.5
+      },
+      {
+        "name": {
+          "en": "150"
+        },
+        "value": 75
+      },
+      {
+        "name": {
+          "en": "151"
+        },
+        "value": 75.5
+      },
+      {
+        "name": {
+          "en": "152"
+        },
+        "value": 76
+      },
+      {
+        "name": {
+          "en": "153"
+        },
+        "value": 76.5
+      },
+      {
+        "name": {
+          "en": "154"
+        },
+        "value": 77
+      },
+      {
+        "name": {
+          "en": "155"
+        },
+        "value": 77.5
+      },
+      {
+        "name": {
+          "en": "156"
+        },
+        "value": 78
+      },
+      {
+        "name": {
+          "en": "157"
+        },
+        "value": 78.5
+      },
+      {
+        "name": {
+          "en": "158"
+        },
+        "value": 79
+      },
+      {
+        "name": {
+          "en": "159"
+        },
+        "value": 79.5
+      },
+      {
+        "name": {
+          "en": "160"
+        },
+        "value": 80
+      },
+      {
+        "name": {
+          "en": "161"
+        },
+        "value": 80.5
+      },
+      {
+        "name": {
+          "en": "162"
+        },
+        "value": 81
+      },
+      {
+        "name": {
+          "en": "163"
+        },
+        "value": 81.5
+      },
+      {
+        "name": {
+          "en": "164"
+        },
+        "value": 82
+      },
+      {
+        "name": {
+          "en": "165"
+        },
+        "value": 82.5
+      },
+      {
+        "name": {
+          "en": "166"
+        },
+        "value": 83
+      },
+      {
+        "name": {
+          "en": "167"
+        },
+        "value": 83.5
+      },
+      {
+        "name": {
+          "en": "168"
+        },
+        "value": 84
+      },
+      {
+        "name": {
+          "en": "169"
+        },
+        "value": 84.5
+      },
+      {
+        "name": {
+          "en": "170"
+        },
+        "value": 85
+      },
+      {
+        "name": {
+          "en": "171"
+        },
+        "value": 85.5
+      },
+      {
+        "name": {
+          "en": "172"
+        },
+        "value": 86
+      },
+      {
+        "name": {
+          "en": "173"
+        },
+        "value": 86.5
+      },
+      {
+        "name": {
+          "en": "174"
+        },
+        "value": 87
+      },
+      {
+        "name": {
+          "en": "175"
+        },
+        "value": 87.5
+      },
+      {
+        "name": {
+          "en": "176"
+        },
+        "value": 88
+      },
+      {
+        "name": {
+          "en": "177"
+        },
+        "value": 88.5
+      },
+      {
+        "name": {
+          "en": "178"
+        },
+        "value": 89
+      },
+      {
+        "name": {
+          "en": "179"
+        },
+        "value": 89.5
+      },
+      {
+        "name": {
+          "en": "180"
+        },
+        "value": 90
+      },
+      {
+        "name": {
+          "en": "181"
+        },
+        "value": 90.5
+      },
+      {
+        "name": {
+          "en": "182"
+        },
+        "value": 91
+      },
+      {
+        "name": {
+          "en": "183"
+        },
+        "value": 91.5
+      },
+      {
+        "name": {
+          "en": "184"
+        },
+        "value": 92
+      },
+      {
+        "name": {
+          "en": "185"
+        },
+        "value": 92.5
+      },
+      {
+        "name": {
+          "en": "186"
+        },
+        "value": 93
+      },
+      {
+        "name": {
+          "en": "187"
+        },
+        "value": 93.5
+      },
+      {
+        "name": {
+          "en": "188"
+        },
+        "value": 94
+      },
+      {
+        "name": {
+          "en": "189"
+        },
+        "value": 94.5
+      },
+      {
+        "name": {
+          "en": "190"
+        },
+        "value": 95
+      },
+      {
+        "name": {
+          "en": "191"
+        },
+        "value": 95.5
+      },
+      {
+        "name": {
+          "en": "192"
+        },
+        "value": 96
+      },
+      {
+        "name": {
+          "en": "193"
+        },
+        "value": 96.5
+      },
+      {
+        "name": {
+          "en": "194"
+        },
+        "value": 97
+      },
+      {
+        "name": {
+          "en": "195"
+        },
+        "value": 97.5
+      },
+      {
+        "name": {
+          "en": "196"
+        },
+        "value": 98
+      },
+      {
+        "name": {
+          "en": "197"
+        },
+        "value": 98.5
+      },
+      {
+        "name": {
+          "en": "198"
+        },
+        "value": 99
+      },
+      {
+        "name": {
+          "en": "199"
+        },
+        "value": 99.5
+      },
+      {
+        "name": {
+          "en": "200"
+        },
+        "value": 100
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_bm_assistv2_end_i_use_002_i_01 == '1' AND pex_bm_assistv2_end_i_use_i_amount_002_i_01_dk == ''"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "end_i_use_i_amount_002_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_assistv2"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Float"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Second_Hand_Smoke_schema",
+  "prefLabel": {
+    "en": "Second Hand Smoke"
+  },
+  "description": {
+    "en": "Questions related to Second Hand Smoke"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_shs_Date_taken",
+      "items/sed_cg_shs_Candidate_Age",
+      "items/sed_cg_shs_gestational_age",
+      "items/sed_cg_shs_Window_Difference",
+      "items/sed_cg_shs_Examiner",
+      "items/sed_cg_shs_lang",
+      "items/sed_cg_shs_dtt",
+      "items/sed_cg_shs_timestamp_start",
+      "items/sed_cg_shs_timestamp_stop",
+      "items/sed_cg_shs_Duration",
+      "items/sed_cg_shs_location",
+      "items/sed_cg_shs_001",
+      "items/sed_cg_shs_001_i_01",
+      "items/sed_cg_shs_002",
+      "items/sed_cg_shs_002_i_01",
+      "items/sed_cg_shs_Validity",
+      "items/sed_cg_shs_Administration",
+      "items/sed_cg_shs_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_shs_Date_taken",
+        "isAbout": "items/sed_cg_shs_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Candidate_Age",
+        "isAbout": "items/sed_cg_shs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_gestational_age",
+        "isAbout": "items/sed_cg_shs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Window_Difference",
+        "isAbout": "items/sed_cg_shs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Examiner",
+        "isAbout": "items/sed_cg_shs_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_lang",
+        "isAbout": "items/sed_cg_shs_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_shs_dtt",
+        "isAbout": "items/sed_cg_shs_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_shs_timestamp_start",
+        "isAbout": "items/sed_cg_shs_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_shs_timestamp_stop",
+        "isAbout": "items/sed_cg_shs_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Duration",
+        "isAbout": "items/sed_cg_shs_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_location",
+        "isAbout": "items/sed_cg_shs_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_shs_001",
+        "isAbout": "items/sed_cg_shs_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_001_i_01",
+        "isAbout": "items/sed_cg_shs_001_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_shs_001 == '1'"
+      },
+      {
+        "variableName": "sed_cg_shs_002",
+        "isAbout": "items/sed_cg_shs_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_002_i_01",
+        "isAbout": "items/sed_cg_shs_002_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_shs_002 == '1'"
+      },
+      {
+        "variableName": "sed_cg_shs_Validity",
+        "isAbout": "items/sed_cg_shs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Administration",
+        "isAbout": "items/sed_cg_shs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_Informant",
+        "isAbout": "items/sed_cg_shs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

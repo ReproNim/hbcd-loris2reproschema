@@ -1,0 +1,216 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Vision_Screener_schema",
+  "prefLabel": {
+    "en": "Vision Screener"
+  },
+  "description": {
+    "en": "Questions related to Vision Screener"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ph_ch_vs_Date_taken",
+      "items/ph_ch_vs_Candidate_Age",
+      "items/ph_ch_vs_Window_Difference",
+      "items/ph_ch_vs_gestational_age",
+      "items/ph_ch_vs_Examiner",
+      "items/ph_ch_vs_timestamp_start",
+      "items/ph_ch_vs_timestamp_stop",
+      "items/ph_ch_vs_Duration",
+      "items/ph_ch_vs_eye_001",
+      "items/ph_ch_vs_eye_002",
+      "items/ph_ch_vs_eye_002_i_01",
+      "items/ph_ch_vs_eye_002_i_02",
+      "items/ph_ch_vs_eye_003",
+      "items/ph_ch_vs_eye_004",
+      "items/ph_ch_vs_eye_005",
+      "items/ph_ch_vs_eye_006",
+      "items/ph_ch_vs_eye_006_i_01",
+      "items/ph_ch_vs_001",
+      "items/ph_ch_vs_001_i_01",
+      "items/ph_ch_vs_001_i_02",
+      "items/ph_ch_vs_001_i_03",
+      "items/ph_ch_vs_002",
+      "items/ph_ch_vs_002_i_01",
+      "items/ph_ch_vs_002_i_02",
+      "items/ph_ch_vs_003_i_01",
+      "items/ph_ch_vs_Validity",
+      "items/ph_ch_vs_Administration",
+      "items/ph_ch_vs_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ph_ch_vs_Date_taken",
+        "isAbout": "items/ph_ch_vs_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Candidate_Age",
+        "isAbout": "items/ph_ch_vs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Window_Difference",
+        "isAbout": "items/ph_ch_vs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_gestational_age",
+        "isAbout": "items/ph_ch_vs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Examiner",
+        "isAbout": "items/ph_ch_vs_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_timestamp_start",
+        "isAbout": "items/ph_ch_vs_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_timestamp_stop",
+        "isAbout": "items/ph_ch_vs_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Duration",
+        "isAbout": "items/ph_ch_vs_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_001",
+        "isAbout": "items/ph_ch_vs_eye_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_002",
+        "isAbout": "items/ph_ch_vs_eye_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_002_i_01",
+        "isAbout": "items/ph_ch_vs_eye_002_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_002_i_02",
+        "isAbout": "items/ph_ch_vs_eye_002_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_003",
+        "isAbout": "items/ph_ch_vs_eye_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_004",
+        "isAbout": "items/ph_ch_vs_eye_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_005",
+        "isAbout": "items/ph_ch_vs_eye_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_006",
+        "isAbout": "items/ph_ch_vs_eye_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_eye_006_i_01",
+        "isAbout": "items/ph_ch_vs_eye_006_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_001",
+        "isAbout": "items/ph_ch_vs_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_001_i_01",
+        "isAbout": "items/ph_ch_vs_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_001_i_02",
+        "isAbout": "items/ph_ch_vs_001_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_001_i_03",
+        "isAbout": "items/ph_ch_vs_001_i_03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_002",
+        "isAbout": "items/ph_ch_vs_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_002_i_01",
+        "isAbout": "items/ph_ch_vs_002_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_002_i_02",
+        "isAbout": "items/ph_ch_vs_002_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_003_i_01",
+        "isAbout": "items/ph_ch_vs_003_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Validity",
+        "isAbout": "items/ph_ch_vs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Administration",
+        "isAbout": "items/ph_ch_vs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_Informant",
+        "isAbout": "items/ph_ch_vs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

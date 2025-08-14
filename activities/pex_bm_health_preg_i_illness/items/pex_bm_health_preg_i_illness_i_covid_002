@@ -1,92 +1,117 @@
 {
-    "id": "pex_bm_health_preg_i_illness_i_covid_002",
-    "category": "reproschema:Item",
-    "additionalNotesObj": [
-        {
-            "column": "Domain",
-            "source": "redcap",
-            "value": "Pregnancy/Exposure Including Substance"
-        },
-        {
-            "column": "Study",
-            "source": "redcap",
-            "value": "Core"
-        },
-        {
-            "column": "Field Class",
-            "source": "redcap",
-            "value": "Discrete"
-        },
-        {
-            "column": "Field Category",
-            "source": "redcap",
-            "value": "Item"
-        },
-        {
-            "column": "Data Scope",
-            "source": "redcap",
-            "value": "Session"
-        },
-        {
-            "column": "Source/Respondent",
-            "source": "redcap",
-            "value": "Biological Mother"
-        },
-        {
-            "column": "Description Status",
-            "source": "redcap",
-            "value": "Unchanged"
-        }
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_bm_health_preg_i_illness_i_covid_002",
+  "prefLabel": {
+    "en": "pex_bm_health_preg_i_illness_i_covid_002"
+  },
+  "question": {
+    "en": "Since your last menstrual period on [screening_arm_1][setup_lmp], how many times have you tested positive for SARS-CoV-2, the virus that causes COVID-19?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer",
+      "xsd:string"
     ],
-    "description": {
-        "en": "Q[10] of pex_bm_health_preg_i_illness"
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 5
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display:  pex_bm_health_preg_i_illness_i_covid_002_i_dk == ''"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "i_covid_002"
     },
-    "prefLabel": {
-        "en": "pex_bm_health_preg_i_illness_i_covid_002"
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_health_preg_i_illness"
     },
-    "question": {
-        "en": "Since your last menstrual period on [screening_arm_1][setup_lmp], how many times have you tested positive for SARS-CoV-2, the virus that causes COVID-19?"
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
     },
-    "responseOptions": {
-        "choices": [
-            {
-                "name": {
-                    "en": "1"
-                },
-                "value": 1
-            },
-            {
-                "name": {
-                    "en": "2"
-                },
-                "value": 2
-            },
-            {
-                "name": {
-                    "en": "3"
-                },
-                "value": 3
-            },
-            {
-                "name": {
-                    "en": "4"
-                },
-                "value": 4
-            },
-            {
-                "name": {
-                    "en": "5"
-                },
-                "value": 5
-            }
-        ],
-        "multipleChoice": false,
-        "valueType": [
-            "xsd:integer"
-        ]
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
     },
-    "ui": {
-        "inputType": "select"
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Integer"
     },
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
 }

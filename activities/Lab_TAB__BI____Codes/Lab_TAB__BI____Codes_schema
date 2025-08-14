@@ -1,0 +1,258 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Lab_TAB__BI____Codes_schema",
+  "prefLabel": {
+    "en": "Lab-TAB (BI) - Codes"
+  },
+  "description": {
+    "en": "Questions related to Lab-TAB (BI) - Codes"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_ch_labtab_Date_taken",
+      "items/mh_ch_labtab_Examiner",
+      "items/mh_ch_labtab_timestamp_start",
+      "items/mh_ch_labtab_timestamp_stop",
+      "items/mh_ch_labtab_Duration",
+      "items/mh_ch_labtab_001",
+      "items/mh_ch_labtab_002",
+      "items/mh_ch_labtab_002_status",
+      "items/mh_ch_labtab_003",
+      "items/mh_ch_labtab_003_status",
+      "items/mh_ch_labtab_008",
+      "items/mh_ch_labtab_009",
+      "items/mh_ch_labtab_010",
+      "items/mh_ch_labtab_011",
+      "items/mh_ch_labtab_a_raw",
+      "items/mh_ch_labtab_flag_facial_distress_1",
+      "items/mh_ch_labtab_b_raw",
+      "items/mh_ch_labtab_flag_distress_vocalizations_1",
+      "items/mh_ch_labtab_c_raw",
+      "items/mh_ch_labtab_flag_bodily_distress_1",
+      "items/mh_ch_labtab_d_raw",
+      "items/mh_ch_labtab_flag_intensity_of_escape_1",
+      "items/mh_ch_labtab_bi_code",
+      "items/mh_ch_labtab_012",
+      "items/mh_ch_labtab_013",
+      "items/mh_ch_labtab_014",
+      "items/mh_ch_labtab_015",
+      "items/mh_ch_labtab_015_i_01",
+      "items/mh_ch_labtab_Validity",
+      "items/mh_ch_labtab_Administration",
+      "items/mh_ch_labtab_Informant",
+      "items/mh_ch_labtab_Candidate_Age",
+      "items/mh_ch_labtab_Window_Difference",
+      "items/mh_ch_labtab_gestational_age"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_ch_labtab_Date_taken",
+        "isAbout": "items/mh_ch_labtab_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Examiner",
+        "isAbout": "items/mh_ch_labtab_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_timestamp_start",
+        "isAbout": "items/mh_ch_labtab_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_timestamp_stop",
+        "isAbout": "items/mh_ch_labtab_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Duration",
+        "isAbout": "items/mh_ch_labtab_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_001",
+        "isAbout": "items/mh_ch_labtab_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_002",
+        "isAbout": "items/mh_ch_labtab_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_002_status",
+        "isAbout": "items/mh_ch_labtab_002_status",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_003",
+        "isAbout": "items/mh_ch_labtab_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_003_status",
+        "isAbout": "items/mh_ch_labtab_003_status",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_008",
+        "isAbout": "items/mh_ch_labtab_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_009",
+        "isAbout": "items/mh_ch_labtab_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_010",
+        "isAbout": "items/mh_ch_labtab_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_011",
+        "isAbout": "items/mh_ch_labtab_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_a_raw",
+        "isAbout": "items/mh_ch_labtab_a_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_flag_facial_distress_1",
+        "isAbout": "items/mh_ch_labtab_flag_facial_distress_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_b_raw",
+        "isAbout": "items/mh_ch_labtab_b_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_flag_distress_vocalizations_1",
+        "isAbout": "items/mh_ch_labtab_flag_distress_vocalizations_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_c_raw",
+        "isAbout": "items/mh_ch_labtab_c_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_flag_bodily_distress_1",
+        "isAbout": "items/mh_ch_labtab_flag_bodily_distress_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_d_raw",
+        "isAbout": "items/mh_ch_labtab_d_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_flag_intensity_of_escape_1",
+        "isAbout": "items/mh_ch_labtab_flag_intensity_of_escape_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_bi_code",
+        "isAbout": "items/mh_ch_labtab_bi_code",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_012",
+        "isAbout": "items/mh_ch_labtab_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_013",
+        "isAbout": "items/mh_ch_labtab_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_014",
+        "isAbout": "items/mh_ch_labtab_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_015",
+        "isAbout": "items/mh_ch_labtab_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_015_i_01",
+        "isAbout": "items/mh_ch_labtab_015_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Validity",
+        "isAbout": "items/mh_ch_labtab_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Administration",
+        "isAbout": "items/mh_ch_labtab_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Informant",
+        "isAbout": "items/mh_ch_labtab_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Candidate_Age",
+        "isAbout": "items/mh_ch_labtab_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Window_Difference",
+        "isAbout": "items/mh_ch_labtab_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_gestational_age",
+        "isAbout": "items/mh_ch_labtab_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

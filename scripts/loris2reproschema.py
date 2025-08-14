@@ -39,7 +39,7 @@ from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 # Context URL for ReproSchema
-CONTEXTFILE_URL = "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/generic"
+CONTEXTFILE_URL = "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 
 # Default mappings from LORIS CSV columns to ReproSchema properties
 DEFAULT_LORIS_TO_REPROSCHEMA_MAP = {
@@ -1049,13 +1049,13 @@ class ReproSchemaConverter:
         items_dir.mkdir(parents=True, exist_ok=True)
 
         # Write activity schema
-        schema_path = activity_dir / f"{safe_activity_name}_schema.jsonld"
+        schema_path = activity_dir / f"{safe_activity_name}_schema"
         with open(schema_path, 'w', encoding='utf-8') as f:
             json.dump(activity_schema, f, indent=2)
 
         # Write each item
         for item in activity_data["items"]:
-            item_path = items_dir / f"{item['id']}.jsonld"
+            item_path = items_dir / f"{item['id']}"
             with open(item_path, 'w', encoding='utf-8') as f:
                 json.dump(item, f, indent=2)
 
@@ -1119,7 +1119,7 @@ class ReproSchemaConverter:
         protocol_dir.mkdir(parents=True, exist_ok=True)
 
         # Write protocol schema
-        schema_path = protocol_dir / f"{safe_protocol_name}_schema.jsonld"
+        schema_path = protocol_dir / f"{safe_protocol_name}_schema"
         with open(schema_path, 'w', encoding='utf-8') as f:
             json.dump(protocol_schema, f, indent=2)
 

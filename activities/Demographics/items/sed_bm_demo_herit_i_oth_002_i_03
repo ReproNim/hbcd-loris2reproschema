@@ -1,0 +1,171 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_bm_demo_herit_i_oth_002_i_03",
+  "prefLabel": {
+    "en": "sed_bm_demo_herit_i_oth_002_i_03"
+  },
+  "question": {
+    "en": "Black, African American, or African"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "African American"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Barbadian"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Caribbean"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Ethiopian"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Ghanaian"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Haitian"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Jamaican"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Liberian"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Nigerian"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Somali"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "South African"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "None of these fully describe the other biological parent / Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: sed_bm_demo_herit_i_oth_002(2) == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "herit_i_oth_002_i_03"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_bm_demo"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
