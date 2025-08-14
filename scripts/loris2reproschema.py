@@ -262,6 +262,13 @@ class ReproSchemaConverter:
 
     This class provides methods to transform a LORIS CSV file into a ReproSchema
     compliant directory structure with JSON-LD files for protocols, activities, and items.
+    
+    Naming Convention:
+    - All names (protocol, activity, item) are sanitized for filesystem safety
+    - Special characters are replaced with underscores
+    - Multiple consecutive underscores are collapsed to single underscore
+    - Leading and trailing underscores are removed
+    - Example: "BFY - Benefits/Services, Economic Stress" becomes "BFY_Benefits_Services_Economic_Stress"
     """
 
     def __init__(self, config: Dict[str, Any]):
@@ -779,7 +786,12 @@ class ReproSchemaConverter:
                         break
         
         # Clean up item name for use as an ID
+        # Step 1: Replace all non-alphanumeric characters (except underscore) with underscore
         item_id = re.sub(r'[^a-zA-Z0-9_]', '_', str(item_name))
+        # Step 2: Collapse multiple consecutive underscores into a single underscore
+        # Step 3: Remove leading and trailing underscores
+        # Example: "__item__name___" becomes "item_name"
+        item_id = re.sub(r'_+', '_', item_id).strip('_')
 
         # Get question text - first try question, then fall back to description if needed
         question_col = self.column_mappings["question"]
@@ -1059,7 +1071,12 @@ class ReproSchemaConverter:
             self.log(f"Warning: Fixed truncated activity name to: {activity_name}", "WARNING")
             
         # Handle special characters in activity name
+        # Step 1: Replace all non-alphanumeric characters (except underscore) with underscore
         safe_activity_name = re.sub(r'[^a-zA-Z0-9_]', '_', str(activity_name))
+        # Step 2: Collapse multiple consecutive underscores into a single underscore
+        # Step 3: Remove leading and trailing underscores
+        # Example: "BFY - Benefits/Services, Economic Stress" becomes "BFY_Benefits_Services_Economic_Stress"
+        safe_activity_name = re.sub(r'_+', '_', safe_activity_name).strip('_')
 
         # Create activity schema
         activity_schema = {
@@ -1122,10 +1139,18 @@ class ReproSchemaConverter:
             output_path (Path): The base output path.
         """
         # Handle special characters in protocol name
+        # Convert to filesystem-safe name by replacing special characters with underscores
         safe_protocol_name = re.sub(r'[^a-zA-Z0-9_]', '_', protocol_name)
+        # Clean up multiple underscores for better readability
+        safe_protocol_name = re.sub(r'_+', '_', safe_protocol_name).strip('_')
 
         # Create safe activity names
-        safe_activities = [re.sub(r'[^a-zA-Z0-9_]', '_', str(act)) for act in activities]
+        # Apply same sanitization to all activity names for consistency
+        safe_activities = []
+        for act in activities:
+            safe_name = re.sub(r'[^a-zA-Z0-9_]', '_', str(act))
+            safe_name = re.sub(r'_+', '_', safe_name).strip('_')
+            safe_activities.append(safe_name)
 
         # Create protocol schema
         protocol_schema = {
@@ -1307,7 +1332,10 @@ class ReproSchemaConverter:
         try:
             # Get protocol name from config or use a default
             protocol_name = self.config.get("protocol_name", "LORIS_Protocol")
+            # Sanitize protocol name for filesystem safety
             safe_protocol_name = re.sub(r'[^a-zA-Z0-9_]', '_', protocol_name)
+            # Clean up multiple underscores for better readability
+            safe_protocol_name = re.sub(r'_+', '_', safe_protocol_name).strip('_')
 
             # Prepare absolute output path
             abs_output_path = Path(output_path) / safe_protocol_name
