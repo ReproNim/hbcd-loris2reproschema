@@ -93,7 +93,7 @@ The following fields are marked as "select" type but have no predefined examiner
 |---------|---------|-------|---------|
 | DICOM parameters | `dicom_0x0018:el_0x1090` | Colons invalid in file names | Auto-fixed in converter (replaced with underscore) |
 
-## Recommendations for LORIS Team
+## Recommendations
 
 1. **ACEs Response Options**: Add proper Yes/No/Don't know/Decline to answer choices for all ACEs items
 2. **Field Type Consistency**: Review fields with choices and ensure they use appropriate field types (Dropdown/Select)
