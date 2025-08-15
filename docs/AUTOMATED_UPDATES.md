@@ -125,7 +125,7 @@ The workflow runs weekly and:
 5. Includes quality report
 
 To enable:
-1. Set GitHub secrets: `LORIS_USER` and `LORIS_PASS`
+1. Set GitHub secrets: `HBCD_USERNAME` and `HBCD_PASSWORD`
 2. Enable GitHub Actions in repository
 3. Review and merge PRs as they're created
 

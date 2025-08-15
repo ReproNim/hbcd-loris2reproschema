@@ -67,7 +67,7 @@ The pipeline will:
 
 The repository includes GitHub Actions workflow for weekly automated updates:
 
-1. **Setup**: Add `LORIS_USER` and `LORIS_PASS` as GitHub secrets
+1. **Setup**: Add `HBCD_USERNAME` and `HBCD_PASSWORD` as GitHub secrets
 2. **Schedule**: Runs weekly on Mondays at 2 AM UTC
 3. **Process**: 
    - Fetches latest data dictionary

@@ -36,8 +36,8 @@ jobs:
     
     - name: Run automated update
       env:
-        LORIS_USER: ${{ secrets.LORIS_USER }}
-        LORIS_PASS: ${{ secrets.LORIS_PASS }}
+        LORIS_USER: ${{ secrets.HBCD_USERNAME }}
+        LORIS_PASS: ${{ secrets.HBCD_PASSWORD }}
       run: |
         python scripts/automated_update.py --config update_config.yml
     
