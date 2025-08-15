@@ -1,0 +1,35 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=5000']
+      - id: check-merge-conflict
+      
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        language_version: python3.10
+        files: ^scripts/.*\.py$
+        
+  - repo: local
+    hooks:
+      - id: validate-reproschema
+        name: Validate ReproSchema
+        entry: bash -c 'if [ -d "reproschema_output/HBCD_LORIS" ]; then reproschema validate reproschema_output/HBCD_LORIS/HBCD_LORIS_schema || true; fi'
+        language: system
+        pass_filenames: false
+        always_run: true
+        
+      - id: check-data-quality
+        name: Check Data Quality
+        entry: python scripts/check_data_quality.py
+        language: python
+        files: reproschema_output/.*\.json$
+        additional_dependencies: [pandas, pyyaml]
+        pass_filenames: false

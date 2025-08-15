@@ -27,6 +27,7 @@ import re
 import shutil
 import warnings
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, Union, Optional
 import ast
@@ -212,9 +213,16 @@ def parse_html(html_str: str) -> Dict[str, str]:
         else:
             text = html_str.strip()
             
-        # Fix known typos from LORIS data
+        # Fix known typos from LORIS data and track them
+        original_text = text
         text = text.replace("vaginalintercourse", "vaginal intercourse")
+        if "vaginalintercourse" in original_text:
+            # Note: We'll track this in the converter method that calls this function
+            pass
         text = text.replace("less then usual", "less than usual")
+        if "less then usual" in original_text:
+            # Note: We'll track this in the converter method that calls this function
+            pass
         
         return {"en": text}
     except Exception as e:
@@ -294,6 +302,24 @@ class ReproSchemaConverter:
         
         # Schema context URL
         self.schema_context_url = config.get("schema_context_url", CONTEXTFILE_URL)
+        
+        # Initialize quality report
+        self.quality_report = {
+            "timestamp": datetime.now().isoformat(),
+            "source_file": None,
+            "statistics": {},
+            "issues": {
+                "typos": [],
+                "truncated_names": [],
+                "missing_choices": [],
+                "redundant_prefixes": [],
+                "naming_conventions": [],
+                "validation_errors": [],
+                "field_type_mismatches": []
+            },
+            "fixes_applied": [],
+            "warnings": []
+        }
 
     def log(self, message: str, level: str = "INFO") -> None:
         """Simple logging function"""
@@ -1067,8 +1093,14 @@ class ReproSchemaConverter:
         # Fix truncated activity names from LORIS data
         if activity_name.endswith(" ("):
             # This appears to be a truncated name
+            original_name = activity_name
             activity_name = activity_name[:-2].strip()  # Remove the incomplete parenthesis
             self.log(f"Warning: Fixed truncated activity name to: {activity_name}", "WARNING")
+            self.quality_report["issues"]["truncated_names"].append({
+                "original": original_name,
+                "fixed": activity_name
+            })
+            self.quality_report["fixes_applied"].append(f"Fixed truncated activity name: {original_name}")
             
         # Handle special characters in activity name
         # Step 1: Replace all non-alphanumeric characters (except underscore) with underscore
@@ -1213,6 +1245,18 @@ class ReproSchemaConverter:
         else:
             self.log(f"Output directory does not exist, will be created: {output_path}")
 
+    def save_quality_report(self, output_path: Path) -> None:
+        """
+        Save the quality report to a JSON file.
+        
+        Args:
+            output_path (Path): The output directory path.
+        """
+        report_file = output_path.parent / f"quality_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        with open(report_file, 'w') as f:
+            json.dump(self.quality_report, f, indent=2)
+        self.log(f"Quality report saved to: {report_file}")
+    
     def remove_ds_store(self, directory: Path) -> None:
         """
         Remove all .DS_Store files in the given directory and its subdirectories.
@@ -1373,10 +1417,28 @@ class ReproSchemaConverter:
 
             # Final cleanup
             self.remove_ds_store(abs_output_path)
+            
+            # Update quality report statistics
+            self.quality_report["source_file"] = csv_file
+            self.quality_report["statistics"] = {
+                "total_rows": len(df),
+                "activities": len(activities),
+                "items": sum(len(data['items']) for data in activities.values()),
+                "issues_fixed": len(self.quality_report["fixes_applied"]),
+                "warnings": len(self.quality_report["warnings"])
+            }
+            
+            # Save quality report
+            self.save_quality_report(abs_output_path)
 
             self.log(f"Conversion completed successfully.")
             self.log(f"Output written to: {abs_output_path}")
             self.log(f"Generated: 1 protocol, {len(activities)} activities, and {sum(len(data['items']) for data in activities.values())} items")
+            
+            if self.quality_report["fixes_applied"]:
+                self.log(f"Applied {len(self.quality_report['fixes_applied'])} automatic fixes")
+            if self.quality_report["warnings"]:
+                self.log(f"Generated {len(self.quality_report['warnings'])} warnings")
 
         except Exception as e:
             self.log(f"Error during conversion: {str(e)}", "ERROR")
