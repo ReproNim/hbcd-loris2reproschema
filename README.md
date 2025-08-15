@@ -149,7 +149,7 @@ See [notes/ORIGINAL_DATA_ISSUES.md](notes/ORIGINAL_DATA_ISSUES.md) for documenta
 
 ## License
 
-[Add license information]
+MIT License - see [LICENSE](LICENSE) file for details
 
 ## Contact
 
