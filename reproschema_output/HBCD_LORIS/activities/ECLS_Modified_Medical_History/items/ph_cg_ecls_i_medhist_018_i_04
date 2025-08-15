@@ -1,0 +1,84 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ph_cg_ecls_i_medhist_018_i_04",
+  "prefLabel": {
+    "en": "ph_cg_ecls_i_medhist_018_i_04"
+  },
+  "question": {
+    "en": "Name of over the counter medication 3"
+  },
+  "ui": {
+    "inputType": "number"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer"
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ph_cg_ecls_i_medhist_018_i_01 >== 3"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "018_i_04"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_cg_ecls_i_medhist"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Integer"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

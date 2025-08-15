@@ -1,0 +1,160 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "ecPROMIS_Anxiety_schema",
+  "prefLabel": {
+    "en": "ecPROMIS - Anxiety"
+  },
+  "description": {
+    "en": "Questions related to ecPROMIS - Anxiety"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_pms_i_anx_Date_taken",
+      "items/mh_cg_pms_i_anx_Candidate_Age",
+      "items/mh_cg_pms_i_anx_Window_Difference",
+      "items/mh_cg_pms_i_anx_gestational_age",
+      "items/mh_cg_pms_i_anx_Examiner",
+      "items/mh_cg_pms_i_anx_lang",
+      "items/mh_cg_pms_i_anx_dtt",
+      "items/mh_cg_pms_i_anx_timestamp_start",
+      "items/mh_cg_pms_i_anx_timestamp_stop",
+      "items/mh_cg_pms_i_anx_Duration",
+      "items/mh_cg_pms_i_anx_location",
+      "items/mh_cg_pms_i_anx_instr01",
+      "items/mh_cg_pms_i_anx_001",
+      "items/mh_cg_pms_i_anx_002",
+      "items/mh_cg_pms_i_anx_003",
+      "items/mh_cg_pms_i_anx_004",
+      "items/mh_cg_pms_i_anx_total_score",
+      "items/mh_cg_pms_i_anx_Validity",
+      "items/mh_cg_pms_i_anx_Administration",
+      "items/mh_cg_pms_i_anx_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_pms_i_anx_Date_taken",
+        "isAbout": "items/mh_cg_pms_i_anx_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Candidate_Age",
+        "isAbout": "items/mh_cg_pms_i_anx_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Window_Difference",
+        "isAbout": "items/mh_cg_pms_i_anx_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_gestational_age",
+        "isAbout": "items/mh_cg_pms_i_anx_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Examiner",
+        "isAbout": "items/mh_cg_pms_i_anx_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_lang",
+        "isAbout": "items/mh_cg_pms_i_anx_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_dtt",
+        "isAbout": "items/mh_cg_pms_i_anx_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_timestamp_start",
+        "isAbout": "items/mh_cg_pms_i_anx_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_timestamp_stop",
+        "isAbout": "items/mh_cg_pms_i_anx_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Duration",
+        "isAbout": "items/mh_cg_pms_i_anx_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_location",
+        "isAbout": "items/mh_cg_pms_i_anx_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_instr01",
+        "isAbout": "items/mh_cg_pms_i_anx_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_001",
+        "isAbout": "items/mh_cg_pms_i_anx_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_002",
+        "isAbout": "items/mh_cg_pms_i_anx_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_003",
+        "isAbout": "items/mh_cg_pms_i_anx_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_004",
+        "isAbout": "items/mh_cg_pms_i_anx_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_total_score",
+        "isAbout": "items/mh_cg_pms_i_anx_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Validity",
+        "isAbout": "items/mh_cg_pms_i_anx_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Administration",
+        "isAbout": "items/mh_cg_pms_i_anx_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_anx_Informant",
+        "isAbout": "items/mh_cg_pms_i_anx_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

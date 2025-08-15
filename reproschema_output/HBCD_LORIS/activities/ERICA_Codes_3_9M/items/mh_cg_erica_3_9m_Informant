@@ -1,0 +1,125 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "mh_cg_erica_3_9m_Informant",
+  "prefLabel": {
+    "en": "mh_cg_erica_3_9m_Informant"
+  },
+  "question": {
+    "en": "Informant for mh_cg_erica_3_9m"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "None"
+        },
+        "value": "None"
+      },
+      {
+        "name": {
+          "en": "Parent"
+        },
+        "value": "Parent"
+      },
+      {
+        "name": {
+          "en": "Foster_parent"
+        },
+        "value": "Foster parent (child welfare or foster care)"
+      },
+      {
+        "name": {
+          "en": "Grandmother_or_Grandfather"
+        },
+        "value": "Grandmother or Grandfather (or great grandparent)"
+      },
+      {
+        "name": {
+          "en": "Other_family_member"
+        },
+        "value": "Other family member"
+      },
+      {
+        "name": {
+          "en": "Non_family_member"
+        },
+        "value": "Non-family member (fictive kin or friend)"
+      },
+      {
+        "name": {
+          "en": "Other"
+        },
+        "value": "Other"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "Informant"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_erica_3_9m"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Admin"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Ordinal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Lead_Exposures_schema",
+  "prefLabel": {
+    "en": "Lead Exposures"
+  },
+  "description": {
+    "en": "Questions related to Lead Exposures"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_leadexp_Date_taken",
+      "items/sed_cg_leadexp_Candidate_Age",
+      "items/sed_cg_leadexp_gestational_age",
+      "items/sed_cg_leadexp_Window_Difference",
+      "items/sed_cg_leadexp_Examiner",
+      "items/sed_cg_leadexp_lang",
+      "items/sed_cg_leadexp_dtt",
+      "items/sed_cg_leadexp_timestamp_start",
+      "items/sed_cg_leadexp_timestamp_stop",
+      "items/sed_cg_leadexp_Duration",
+      "items/sed_cg_leadexp_location",
+      "items/sed_cg_leadexp_001",
+      "items/sed_cg_leadexp_002",
+      "items/sed_cg_leadexp_003",
+      "items/sed_cg_leadexp_004",
+      "items/sed_cg_leadexp_005",
+      "items/sed_cg_leadexp_006",
+      "items/sed_cg_leadexp_007",
+      "items/sed_cg_leadexp_008",
+      "items/sed_cg_leadexp_009",
+      "items/sed_cg_leadexp_010",
+      "items/sed_cg_leadexp_Validity",
+      "items/sed_cg_leadexp_Administration",
+      "items/sed_cg_leadexp_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_leadexp_Date_taken",
+        "isAbout": "items/sed_cg_leadexp_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Candidate_Age",
+        "isAbout": "items/sed_cg_leadexp_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_gestational_age",
+        "isAbout": "items/sed_cg_leadexp_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Window_Difference",
+        "isAbout": "items/sed_cg_leadexp_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Examiner",
+        "isAbout": "items/sed_cg_leadexp_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_lang",
+        "isAbout": "items/sed_cg_leadexp_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_leadexp_dtt",
+        "isAbout": "items/sed_cg_leadexp_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_leadexp_timestamp_start",
+        "isAbout": "items/sed_cg_leadexp_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_leadexp_timestamp_stop",
+        "isAbout": "items/sed_cg_leadexp_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Duration",
+        "isAbout": "items/sed_cg_leadexp_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_location",
+        "isAbout": "items/sed_cg_leadexp_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_leadexp_001",
+        "isAbout": "items/sed_cg_leadexp_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_002",
+        "isAbout": "items/sed_cg_leadexp_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_003",
+        "isAbout": "items/sed_cg_leadexp_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_004",
+        "isAbout": "items/sed_cg_leadexp_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_005",
+        "isAbout": "items/sed_cg_leadexp_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_006",
+        "isAbout": "items/sed_cg_leadexp_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_007",
+        "isAbout": "items/sed_cg_leadexp_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_008",
+        "isAbout": "items/sed_cg_leadexp_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_009",
+        "isAbout": "items/sed_cg_leadexp_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_010",
+        "isAbout": "items/sed_cg_leadexp_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Validity",
+        "isAbout": "items/sed_cg_leadexp_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Administration",
+        "isAbout": "items/sed_cg_leadexp_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_leadexp_Informant",
+        "isAbout": "items/sed_cg_leadexp_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

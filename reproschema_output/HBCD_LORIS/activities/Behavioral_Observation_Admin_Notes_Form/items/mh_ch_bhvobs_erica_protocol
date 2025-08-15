@@ -1,0 +1,119 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "mh_ch_bhvobs_erica_protocol",
+  "prefLabel": {
+    "en": "mh_ch_bhvobs_erica_protocol"
+  },
+  "question": {
+    "en": "ERICA Protocol"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "3_to_9_months"
+        },
+        "value": "3 to 9 Month"
+      },
+      {
+        "name": {
+          "en": "9_to_12_month"
+        },
+        "value": "9 to 12 Month"
+      },
+      {
+        "name": {
+          "en": "12_to_15_month"
+        },
+        "value": "12 to 15 Month"
+      },
+      {
+        "name": {
+          "en": "15_to_24_month"
+        },
+        "value": "15 to 24 Month"
+      },
+      {
+        "name": {
+          "en": "24_to_36_month"
+        },
+        "value": "24 to 36 Month"
+      },
+      {
+        "name": {
+          "en": "36_to_48_month"
+        },
+        "value": "36 to 48 Month"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "erica_protocol"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_bhvobs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

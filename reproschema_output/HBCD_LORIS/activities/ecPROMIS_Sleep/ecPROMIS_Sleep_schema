@@ -1,0 +1,195 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "ecPROMIS_Sleep_schema",
+  "prefLabel": {
+    "en": "ecPROMIS - Sleep"
+  },
+  "description": {
+    "en": "Questions related to ecPROMIS - Sleep"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ph_cg_pms_i_sleep_Date_taken",
+      "items/ph_cg_pms_i_sleep_Candidate_Age",
+      "items/ph_cg_pms_i_sleep_gestational_age",
+      "items/ph_cg_pms_i_sleep_Window_Difference",
+      "items/ph_cg_pms_i_sleep_Examiner",
+      "items/ph_cg_pms_i_sleep_lang",
+      "items/ph_cg_pms_i_sleep_dtt",
+      "items/ph_cg_pms_i_sleep_timestamp_start",
+      "items/ph_cg_pms_i_sleep_timestamp_stop",
+      "items/ph_cg_pms_i_sleep_Duration",
+      "items/ph_cg_pms_i_sleep_location",
+      "items/ph_cg_pms_i_sleep_001",
+      "items/ph_cg_pms_i_sleep_002",
+      "items/ph_cg_pms_i_sleep_003",
+      "items/ph_cg_pms_i_sleep_004",
+      "items/ph_cg_pms_i_sleep_005",
+      "items/ph_cg_pms_i_sleep_006",
+      "items/ph_cg_pms_i_sleep_007",
+      "items/ph_cg_pms_i_sleep_008",
+      "items/ph_cg_pms_i_sleep_total_score",
+      "items/ph_cg_pms_i_sleep_t_score",
+      "items/ph_cg_pms_i_sleep_se_score",
+      "items/ph_cg_pms_i_sleep_Validity",
+      "items/ph_cg_pms_i_sleep_Administration",
+      "items/ph_cg_pms_i_sleep_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ph_cg_pms_i_sleep_Date_taken",
+        "isAbout": "items/ph_cg_pms_i_sleep_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Candidate_Age",
+        "isAbout": "items/ph_cg_pms_i_sleep_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_gestational_age",
+        "isAbout": "items/ph_cg_pms_i_sleep_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Window_Difference",
+        "isAbout": "items/ph_cg_pms_i_sleep_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Examiner",
+        "isAbout": "items/ph_cg_pms_i_sleep_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_lang",
+        "isAbout": "items/ph_cg_pms_i_sleep_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_dtt",
+        "isAbout": "items/ph_cg_pms_i_sleep_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_timestamp_start",
+        "isAbout": "items/ph_cg_pms_i_sleep_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_timestamp_stop",
+        "isAbout": "items/ph_cg_pms_i_sleep_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Duration",
+        "isAbout": "items/ph_cg_pms_i_sleep_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_location",
+        "isAbout": "items/ph_cg_pms_i_sleep_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_001",
+        "isAbout": "items/ph_cg_pms_i_sleep_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_002",
+        "isAbout": "items/ph_cg_pms_i_sleep_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_003",
+        "isAbout": "items/ph_cg_pms_i_sleep_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_004",
+        "isAbout": "items/ph_cg_pms_i_sleep_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_005",
+        "isAbout": "items/ph_cg_pms_i_sleep_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_006",
+        "isAbout": "items/ph_cg_pms_i_sleep_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_007",
+        "isAbout": "items/ph_cg_pms_i_sleep_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_008",
+        "isAbout": "items/ph_cg_pms_i_sleep_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_total_score",
+        "isAbout": "items/ph_cg_pms_i_sleep_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_t_score",
+        "isAbout": "items/ph_cg_pms_i_sleep_t_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_se_score",
+        "isAbout": "items/ph_cg_pms_i_sleep_se_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Validity",
+        "isAbout": "items/ph_cg_pms_i_sleep_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Administration",
+        "isAbout": "items/ph_cg_pms_i_sleep_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_Informant",
+        "isAbout": "items/ph_cg_pms_i_sleep_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

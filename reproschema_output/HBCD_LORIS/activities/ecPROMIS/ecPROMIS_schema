@@ -1,0 +1,174 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "ecPROMIS_schema",
+  "prefLabel": {
+    "en": "ecPROMIS"
+  },
+  "description": {
+    "en": "Questions related to ecPROMIS"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_pms_i_cc_i_inf_Date_taken",
+      "items/mh_cg_pms_i_cc_i_inf_Candidate_Age",
+      "items/mh_cg_pms_i_cc_i_inf_Window_Difference",
+      "items/mh_cg_pms_i_cc_i_inf_gestational_age",
+      "items/mh_cg_pms_i_cc_i_inf_Examiner",
+      "items/mh_cg_pms_i_cc_i_inf_lang",
+      "items/mh_cg_pms_i_cc_i_inf_dtt",
+      "items/mh_cg_pms_i_cc_i_inf_timestamp_start",
+      "items/mh_cg_pms_i_cc_i_inf_timestamp_stop",
+      "items/mh_cg_pms_i_cc_i_inf_Duration",
+      "items/mh_cg_pms_i_cc_i_inf_location",
+      "items/mh_cg_pms_i_cc_i_inf_instr01",
+      "items/mh_cg_pms_i_cc_i_inf_001",
+      "items/mh_cg_pms_i_cc_i_inf_002",
+      "items/mh_cg_pms_i_cc_i_inf_003",
+      "items/mh_cg_pms_i_cc_i_inf_004",
+      "items/mh_cg_pms_i_cc_i_inf_005",
+      "items/mh_cg_pms_i_cc_i_inf_total_score",
+      "items/mh_cg_pms_i_cc_i_inf_answered_count",
+      "items/mh_cg_pms_i_cc_i_inf_Validity",
+      "items/mh_cg_pms_i_cc_i_inf_Administration",
+      "items/mh_cg_pms_i_cc_i_inf_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Date_taken",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Candidate_Age",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Window_Difference",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_gestational_age",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Examiner",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_lang",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_dtt",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_timestamp_start",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_timestamp_stop",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Duration",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_location",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_instr01",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_001",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_002",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_003",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_004",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_005",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_total_score",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_answered_count",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_answered_count",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Validity",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Administration",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_Informant",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

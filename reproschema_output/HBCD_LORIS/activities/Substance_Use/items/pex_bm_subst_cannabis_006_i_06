@@ -1,0 +1,177 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_bm_subst_cannabis_006_i_06",
+  "prefLabel": {
+    "en": "pex_bm_subst_cannabis_006_i_06"
+  },
+  "question": {
+    "en": "Approximately how many weeks during the third trimester did you have any use?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer",
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 2
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": 3
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": 4
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": 5
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": 6
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": 7
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": 8
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": 9
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": 10
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": 11
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": 12
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": 13
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_bm_subst_cannabis_006(6) == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "cannabis_006_i_06"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_bm_subst"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Friendly_Unfamiliar_Adult_FUA_Demographics_schema",
+  "prefLabel": {
+    "en": "Friendly Unfamiliar Adult (FUA) - Demographics"
+  },
+  "description": {
+    "en": "Questions related to Friendly Unfamiliar Adult (FUA) - Demographics"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_ch_fua_Date_taken",
+      "items/mh_ch_fua_Examiner",
+      "items/mh_ch_fua_004",
+      "items/mh_ch_fua_005",
+      "items/mh_ch_fua_006",
+      "items/mh_ch_fua_006_i_01",
+      "items/mh_ch_fua_007",
+      "items/mh_ch_fua_Validity",
+      "items/mh_ch_fua_Administration",
+      "items/mh_ch_fua_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_ch_fua_Date_taken",
+        "isAbout": "items/mh_ch_fua_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Examiner",
+        "isAbout": "items/mh_ch_fua_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_004",
+        "isAbout": "items/mh_ch_fua_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_005",
+        "isAbout": "items/mh_ch_fua_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_006",
+        "isAbout": "items/mh_ch_fua_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_006_i_01",
+        "isAbout": "items/mh_ch_fua_006_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_007",
+        "isAbout": "items/mh_ch_fua_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Validity",
+        "isAbout": "items/mh_ch_fua_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Administration",
+        "isAbout": "items/mh_ch_fua_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Informant",
+        "isAbout": "items/mh_ch_fua_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

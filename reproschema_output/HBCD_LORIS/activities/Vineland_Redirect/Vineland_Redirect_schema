@@ -1,0 +1,97 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Vineland_Redirect_schema",
+  "prefLabel": {
+    "en": "Vineland Redirect"
+  },
+  "description": {
+    "en": "Questions related to Vineland Redirect"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ncl_cg_webvabs_Date_taken",
+      "items/ncl_cg_webvabs_Candidate_Age",
+      "items/ncl_cg_webvabs_gestational_age",
+      "items/ncl_cg_webvabs_Window_Difference",
+      "items/ncl_cg_webvabs_Examiner",
+      "items/ncl_cg_webvabs_redirect",
+      "items/ncl_cg_webvabs_banner_post",
+      "items/ncl_cg_webvabs_completion_status",
+      "items/ncl_cg_webvabs_Validity",
+      "items/ncl_cg_webvabs_Administration",
+      "items/ncl_cg_webvabs_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ncl_cg_webvabs_Date_taken",
+        "isAbout": "items/ncl_cg_webvabs_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Candidate_Age",
+        "isAbout": "items/ncl_cg_webvabs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_gestational_age",
+        "isAbout": "items/ncl_cg_webvabs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Window_Difference",
+        "isAbout": "items/ncl_cg_webvabs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Examiner",
+        "isAbout": "items/ncl_cg_webvabs_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_redirect",
+        "isAbout": "items/ncl_cg_webvabs_redirect",
+        "valueRequired": false,
+        "isVis": "ncl_cg_webvabs_completion_status !== '1'"
+      },
+      {
+        "variableName": "ncl_cg_webvabs_banner_post",
+        "isAbout": "items/ncl_cg_webvabs_banner_post",
+        "valueRequired": false,
+        "isVis": "ncl_cg_webvabs_completion_status == '1'"
+      },
+      {
+        "variableName": "ncl_cg_webvabs_completion_status",
+        "isAbout": "items/ncl_cg_webvabs_completion_status",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Validity",
+        "isAbout": "items/ncl_cg_webvabs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Administration",
+        "isAbout": "items/ncl_cg_webvabs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_Informant",
+        "isAbout": "items/ncl_cg_webvabs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

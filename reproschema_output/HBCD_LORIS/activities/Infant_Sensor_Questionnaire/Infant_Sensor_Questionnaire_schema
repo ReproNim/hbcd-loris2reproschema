@@ -1,0 +1,188 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Infant_Sensor_Questionnaire_schema",
+  "prefLabel": {
+    "en": "Infant Sensor Questionnaire"
+  },
+  "description": {
+    "en": "Questions related to Infant Sensor Questionnaire"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/nt_ch_sens_i_qtn_Date_taken",
+      "items/nt_ch_sens_i_qtn_Candidate_Age",
+      "items/nt_ch_sens_i_qtn_gestational_age",
+      "items/nt_ch_sens_i_qtn_Window_Difference",
+      "items/nt_ch_sens_i_qtn_Examiner",
+      "items/nt_ch_sens_i_qtn_lang",
+      "items/nt_ch_sens_i_qtn_dtt",
+      "items/nt_ch_sens_i_qtn_timestamp_start",
+      "items/nt_ch_sens_i_qtn_timestamp_stop",
+      "items/nt_ch_sens_i_qtn_Duration",
+      "items/nt_ch_sens_i_qtn_location",
+      "items/nt_ch_sens_i_qtn_mv_002",
+      "items/nt_ch_sens_i_qtn_hr_002",
+      "items/nt_ch_sens_i_qtn_beh_001",
+      "items/nt_ch_sens_i_qtn_beh_001_i_01",
+      "items/nt_ch_sens_i_qtn_beh_002",
+      "items/nt_ch_sens_i_qtn_beh_003",
+      "items/nt_ch_sens_i_qtn_beh_004",
+      "items/nt_ch_sens_i_qtn_beh_005",
+      "items/nt_ch_sens_i_qtn_beh_006",
+      "items/nt_ch_sens_i_qtn_beh_007",
+      "items/nt_ch_sens_i_qtn_Validity",
+      "items/nt_ch_sens_i_qtn_Administration",
+      "items/nt_ch_sens_i_qtn_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "nt_ch_sens_i_qtn_Date_taken",
+        "isAbout": "items/nt_ch_sens_i_qtn_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Candidate_Age",
+        "isAbout": "items/nt_ch_sens_i_qtn_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_gestational_age",
+        "isAbout": "items/nt_ch_sens_i_qtn_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Window_Difference",
+        "isAbout": "items/nt_ch_sens_i_qtn_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Examiner",
+        "isAbout": "items/nt_ch_sens_i_qtn_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_lang",
+        "isAbout": "items/nt_ch_sens_i_qtn_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_dtt",
+        "isAbout": "items/nt_ch_sens_i_qtn_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_timestamp_start",
+        "isAbout": "items/nt_ch_sens_i_qtn_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_timestamp_stop",
+        "isAbout": "items/nt_ch_sens_i_qtn_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Duration",
+        "isAbout": "items/nt_ch_sens_i_qtn_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_location",
+        "isAbout": "items/nt_ch_sens_i_qtn_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_mv_002",
+        "isAbout": "items/nt_ch_sens_i_qtn_mv_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_hr_002",
+        "isAbout": "items/nt_ch_sens_i_qtn_hr_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_001",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_001_i_01",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_001_i_01",
+        "valueRequired": false,
+        "isVis": "nt_ch_sens_i_qtn_beh_001 == '0'"
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_002",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_003",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_004",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_005",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_006",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_beh_007",
+        "isAbout": "items/nt_ch_sens_i_qtn_beh_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Validity",
+        "isAbout": "items/nt_ch_sens_i_qtn_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Administration",
+        "isAbout": "items/nt_ch_sens_i_qtn_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_Informant",
+        "isAbout": "items/nt_ch_sens_i_qtn_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

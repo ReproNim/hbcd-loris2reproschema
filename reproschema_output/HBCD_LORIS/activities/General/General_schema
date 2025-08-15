@@ -1,0 +1,902 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "General_schema",
+  "prefLabel": {
+    "en": "General"
+  },
+  "description": {
+    "en": "Questions related to General"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/md5hash",
+      "items/candidate_label",
+      "items/Visit_label",
+      "items/candidate_dob",
+      "items/slice_thickness",
+      "items/dicom_0x0018_el_0x0015",
+      "items/acquisition_num_slices",
+      "items/pixel_bandwidth",
+      "items/acquisition_matrix",
+      "items/study_id",
+      "items/modality",
+      "items/sequence_variant",
+      "items/mr_acquisition_type",
+      "items/dicom_0x0028_el_0x0002",
+      "items/patient_name",
+      "items/dicom_0x0028_el_0x0004",
+      "items/acquisition_start_time",
+      "items/number_of_phase_encoding_steps",
+      "items/percent_phase_field_of_view",
+      "items/study_field_value",
+      "items/largest_pixel_image_value",
+      "items/software_versions",
+      "items/spacing_between_slices",
+      "items/transmitting_coil",
+      "items/cols",
+      "items/number_of_averages",
+      "items/scanning_sequence",
+      "items/pixel_representation",
+      "items/phase_encoding_direction",
+      "items/acquisition_dose_units",
+      "items/manufacturer",
+      "items/bits_allocated",
+      "items/imaged_nucleus",
+      "items/image_position_patient",
+      "items/sequence_name",
+      "items/series_number",
+      "items/slice_location",
+      "items/window_center",
+      "items/echo_time",
+      "items/manufacturer_model_name",
+      "items/dicominfo_image_type",
+      "items/window_width",
+      "items/repetition_time",
+      "items/receiving_coil",
+      "items/sar",
+      "items/patient_position",
+      "items/window_center_width_explanation",
+      "items/high_bit",
+      "items/rows",
+      "items/acquisition_number",
+      "items/echo_numbers",
+      "items/percent_sampling",
+      "items/image_orientation_patient",
+      "items/instance_number",
+      "items/echo_train_length",
+      "items/bits_stored",
+      "items/protocol_name",
+      "items/series_description",
+      "items/magnetic_field_strength",
+      "items/dicom_0x0020_el_0x1002",
+      "items/dicom_0x0018_el_0x0025",
+      "items/dicom_0x0018_el_0x9075",
+      "items/study_instance_uid",
+      "items/pixel_spacing",
+      "items/patient_weight",
+      "items/variable_flip_angle_flag",
+      "items/dicom_0x0010_el_0x1030",
+      "items/imaging_frequency",
+      "items/acquisition_flip_angle",
+      "items/series_instance_uid",
+      "items/smallest_pixel_image_value",
+      "items/inversion_time",
+      "items/dicom_0x0018_el_0x0022",
+      "items/dicom_0x0020_el_0x0100",
+      "items/dicom_0x0008_el_0x9209",
+      "items/acquisition_time",
+      "items/dicom_0x0018_el_0x1090",
+      "items/dicom_0x0028_el_0x0006",
+      "items/dicom_0x0008_el_0x0064",
+      "items/dicom_0x0020_el_0x0020",
+      "items/dicom_0x0008_el_0x1032",
+      "items/dicom_0x0010_el_0x1020",
+      "items/dicom_0x0032_el_0x1064",
+      "items/image_date",
+      "items/acquisition_date",
+      "items/series_date",
+      "items/image_time",
+      "items/series_time",
+      "items/study_date",
+      "items/study_time",
+      "items/device_serial_number",
+      "items/frame_of_reference_uid",
+      "items/image_comments",
+      "items/dicom_0x0028_el_0x1053",
+      "items/dicom_0x0028_el_0x1054",
+      "items/dicom_0x0028_el_0x1052",
+      "items/institution_name",
+      "items/study_description",
+      "items/operator_name",
+      "items/patient_id",
+      "items/patient_dob",
+      "items/effective_series_duration",
+      "items/spatial_resolution",
+      "items/fov_dimensions",
+      "items/laterality",
+      "items/position_reference_indicator",
+      "items/pixel_padding_value",
+      "items/initial_edc",
+      "items/PhaseEncodingDirection",
+      "items/family_pregnancyID",
+      "items/HEDVersion",
+      "items/child_race",
+      "items/child_ethnicity",
+      "items/informant_pscid",
+      "items/informant_identity_legal_guardian",
+      "items/informant_identity_living_with_now",
+      "items/address_completeness",
+      "items/address_present",
+      "items/sufficient_coverage",
+      "items/missed_visit",
+      "items/reason_visit_missed",
+      "items/participant_withdrawal",
+      "items/participant_withdrawal_reason",
+      "items/participant_withdrawal_date",
+      "items/protocol_exception",
+      "items/protocol_exception_date"
+    ],
+    "addProperties": [
+      {
+        "variableName": "md5hash",
+        "isAbout": "items/md5hash",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "candidate_label",
+        "isAbout": "items/candidate_label",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "Visit_label",
+        "isAbout": "items/Visit_label",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "candidate_dob",
+        "isAbout": "items/candidate_dob",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "slice_thickness",
+        "isAbout": "items/slice_thickness",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0018_el_0x0015",
+        "isAbout": "items/dicom_0x0018_el_0x0015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_num_slices",
+        "isAbout": "items/acquisition_num_slices",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pixel_bandwidth",
+        "isAbout": "items/pixel_bandwidth",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_matrix",
+        "isAbout": "items/acquisition_matrix",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_id",
+        "isAbout": "items/study_id",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "modality",
+        "isAbout": "items/modality",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sequence_variant",
+        "isAbout": "items/sequence_variant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mr_acquisition_type",
+        "isAbout": "items/mr_acquisition_type",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x0002",
+        "isAbout": "items/dicom_0x0028_el_0x0002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "patient_name",
+        "isAbout": "items/patient_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x0004",
+        "isAbout": "items/dicom_0x0028_el_0x0004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_start_time",
+        "isAbout": "items/acquisition_start_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "number_of_phase_encoding_steps",
+        "isAbout": "items/number_of_phase_encoding_steps",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "percent_phase_field_of_view",
+        "isAbout": "items/percent_phase_field_of_view",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_field_value",
+        "isAbout": "items/study_field_value",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "largest_pixel_image_value",
+        "isAbout": "items/largest_pixel_image_value",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "software_versions",
+        "isAbout": "items/software_versions",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "spacing_between_slices",
+        "isAbout": "items/spacing_between_slices",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "transmitting_coil",
+        "isAbout": "items/transmitting_coil",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "cols",
+        "isAbout": "items/cols",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "number_of_averages",
+        "isAbout": "items/number_of_averages",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "scanning_sequence",
+        "isAbout": "items/scanning_sequence",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pixel_representation",
+        "isAbout": "items/pixel_representation",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "phase_encoding_direction",
+        "isAbout": "items/phase_encoding_direction",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_dose_units",
+        "isAbout": "items/acquisition_dose_units",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "manufacturer",
+        "isAbout": "items/manufacturer",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bits_allocated",
+        "isAbout": "items/bits_allocated",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "imaged_nucleus",
+        "isAbout": "items/imaged_nucleus",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "image_position_patient",
+        "isAbout": "items/image_position_patient",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sequence_name",
+        "isAbout": "items/sequence_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "series_number",
+        "isAbout": "items/series_number",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "slice_location",
+        "isAbout": "items/slice_location",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "window_center",
+        "isAbout": "items/window_center",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "echo_time",
+        "isAbout": "items/echo_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "manufacturer_model_name",
+        "isAbout": "items/manufacturer_model_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicominfo_image_type",
+        "isAbout": "items/dicominfo_image_type",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "window_width",
+        "isAbout": "items/window_width",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "repetition_time",
+        "isAbout": "items/repetition_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "receiving_coil",
+        "isAbout": "items/receiving_coil",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sar",
+        "isAbout": "items/sar",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "patient_position",
+        "isAbout": "items/patient_position",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "window_center_width_explanation",
+        "isAbout": "items/window_center_width_explanation",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "high_bit",
+        "isAbout": "items/high_bit",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "rows",
+        "isAbout": "items/rows",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_number",
+        "isAbout": "items/acquisition_number",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "echo_numbers",
+        "isAbout": "items/echo_numbers",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "percent_sampling",
+        "isAbout": "items/percent_sampling",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "image_orientation_patient",
+        "isAbout": "items/image_orientation_patient",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "instance_number",
+        "isAbout": "items/instance_number",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "echo_train_length",
+        "isAbout": "items/echo_train_length",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bits_stored",
+        "isAbout": "items/bits_stored",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "protocol_name",
+        "isAbout": "items/protocol_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "series_description",
+        "isAbout": "items/series_description",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "magnetic_field_strength",
+        "isAbout": "items/magnetic_field_strength",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0020_el_0x1002",
+        "isAbout": "items/dicom_0x0020_el_0x1002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0018_el_0x0025",
+        "isAbout": "items/dicom_0x0018_el_0x0025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0018_el_0x9075",
+        "isAbout": "items/dicom_0x0018_el_0x9075",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_instance_uid",
+        "isAbout": "items/study_instance_uid",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pixel_spacing",
+        "isAbout": "items/pixel_spacing",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "patient_weight",
+        "isAbout": "items/patient_weight",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "variable_flip_angle_flag",
+        "isAbout": "items/variable_flip_angle_flag",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0010_el_0x1030",
+        "isAbout": "items/dicom_0x0010_el_0x1030",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "imaging_frequency",
+        "isAbout": "items/imaging_frequency",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_flip_angle",
+        "isAbout": "items/acquisition_flip_angle",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "series_instance_uid",
+        "isAbout": "items/series_instance_uid",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "smallest_pixel_image_value",
+        "isAbout": "items/smallest_pixel_image_value",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "inversion_time",
+        "isAbout": "items/inversion_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0018_el_0x0022",
+        "isAbout": "items/dicom_0x0018_el_0x0022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0020_el_0x0100",
+        "isAbout": "items/dicom_0x0020_el_0x0100",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0008_el_0x9209",
+        "isAbout": "items/dicom_0x0008_el_0x9209",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_time",
+        "isAbout": "items/acquisition_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0018_el_0x1090",
+        "isAbout": "items/dicom_0x0018_el_0x1090",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x0006",
+        "isAbout": "items/dicom_0x0028_el_0x0006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0008_el_0x0064",
+        "isAbout": "items/dicom_0x0008_el_0x0064",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0020_el_0x0020",
+        "isAbout": "items/dicom_0x0020_el_0x0020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0008_el_0x1032",
+        "isAbout": "items/dicom_0x0008_el_0x1032",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0010_el_0x1020",
+        "isAbout": "items/dicom_0x0010_el_0x1020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0032_el_0x1064",
+        "isAbout": "items/dicom_0x0032_el_0x1064",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "image_date",
+        "isAbout": "items/image_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "acquisition_date",
+        "isAbout": "items/acquisition_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "series_date",
+        "isAbout": "items/series_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "image_time",
+        "isAbout": "items/image_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "series_time",
+        "isAbout": "items/series_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_date",
+        "isAbout": "items/study_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_time",
+        "isAbout": "items/study_time",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "device_serial_number",
+        "isAbout": "items/device_serial_number",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "frame_of_reference_uid",
+        "isAbout": "items/frame_of_reference_uid",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "image_comments",
+        "isAbout": "items/image_comments",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x1053",
+        "isAbout": "items/dicom_0x0028_el_0x1053",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x1054",
+        "isAbout": "items/dicom_0x0028_el_0x1054",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "dicom_0x0028_el_0x1052",
+        "isAbout": "items/dicom_0x0028_el_0x1052",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "institution_name",
+        "isAbout": "items/institution_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "study_description",
+        "isAbout": "items/study_description",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "operator_name",
+        "isAbout": "items/operator_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "patient_id",
+        "isAbout": "items/patient_id",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "patient_dob",
+        "isAbout": "items/patient_dob",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "effective_series_duration",
+        "isAbout": "items/effective_series_duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "spatial_resolution",
+        "isAbout": "items/spatial_resolution",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "fov_dimensions",
+        "isAbout": "items/fov_dimensions",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "laterality",
+        "isAbout": "items/laterality",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "position_reference_indicator",
+        "isAbout": "items/position_reference_indicator",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pixel_padding_value",
+        "isAbout": "items/pixel_padding_value",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "initial_edc",
+        "isAbout": "items/initial_edc",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "PhaseEncodingDirection",
+        "isAbout": "items/PhaseEncodingDirection",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "family_pregnancyID",
+        "isAbout": "items/family_pregnancyID",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "HEDVersion",
+        "isAbout": "items/HEDVersion",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "child_race",
+        "isAbout": "items/child_race",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "child_ethnicity",
+        "isAbout": "items/child_ethnicity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "informant_pscid",
+        "isAbout": "items/informant_pscid",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "informant_identity_legal_guardian",
+        "isAbout": "items/informant_identity_legal_guardian",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "informant_identity_living_with_now",
+        "isAbout": "items/informant_identity_living_with_now",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "address_completeness",
+        "isAbout": "items/address_completeness",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "address_present",
+        "isAbout": "items/address_present",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sufficient_coverage",
+        "isAbout": "items/sufficient_coverage",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "missed_visit",
+        "isAbout": "items/missed_visit",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "reason_visit_missed",
+        "isAbout": "items/reason_visit_missed",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "participant_withdrawal",
+        "isAbout": "items/participant_withdrawal",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "participant_withdrawal_reason",
+        "isAbout": "items/participant_withdrawal_reason",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "participant_withdrawal_date",
+        "isAbout": "items/participant_withdrawal_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "protocol_exception",
+        "isAbout": "items/protocol_exception",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "protocol_exception_date",
+        "isAbout": "items/protocol_exception_date",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

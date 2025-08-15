@@ -1,0 +1,1091 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "APA_Level_1_Level_2_schema",
+  "prefLabel": {
+    "en": "APA Level 1 / Level 2"
+  },
+  "description": {
+    "en": "Questions related to APA Level 1 / Level 2"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/pex_bm_apa_Date_taken",
+      "items/pex_bm_apa_Candidate_Age",
+      "items/pex_bm_apa_gestational_age",
+      "items/pex_bm_apa_Window_Difference",
+      "items/pex_bm_apa_Examiner",
+      "items/pex_bm_apa_lang",
+      "items/pex_bm_apa_dtt",
+      "items/pex_bm_apa_timestamp_start",
+      "items/pex_bm_apa_timestamp_stop",
+      "items/pex_bm_apa_Duration",
+      "items/pex_bm_apa_location",
+      "items/pex_bm_apa_1_depr_001",
+      "items/pex_bm_apa_1_depr_002",
+      "items/pex_bm_apa_1_anger_001",
+      "items/pex_bm_apa_1_mania_001",
+      "items/pex_bm_apa_1_mania_002",
+      "items/pex_bm_apa_1_anx_001",
+      "items/pex_bm_apa_1_anx_002",
+      "items/pex_bm_apa_1_anx_003",
+      "items/pex_bm_apa_1_somat_001",
+      "items/pex_bm_apa_1_somat_002",
+      "items/pex_bm_apa_1_suic_001",
+      "items/pex_bm_apa_1_psych_001",
+      "items/pex_bm_apa_1_psych_002",
+      "items/pex_bm_apa_1_sleep_001",
+      "items/pex_bm_apa_1_memo_001",
+      "items/pex_bm_apa_1_repet_001",
+      "items/pex_bm_apa_1_repet_002",
+      "items/pex_bm_apa_1_disso_001",
+      "items/pex_bm_apa_1_flag01",
+      "items/pex_bm_apa_2_depr_001",
+      "items/pex_bm_apa_2_depr_002",
+      "items/pex_bm_apa_2_depr_003",
+      "items/pex_bm_apa_2_depr_004",
+      "items/pex_bm_apa_2_depr_005",
+      "items/pex_bm_apa_2_depr_006",
+      "items/pex_bm_apa_2_depr_007",
+      "items/pex_bm_apa_2_depr_008",
+      "items/pex_bm_apa_2_depr_001_i_01",
+      "items/pex_bm_apa_2_depr_002_i_01",
+      "items/pex_bm_apa_2_depr_003_i_01",
+      "items/pex_bm_apa_2_depr_004_i_01",
+      "items/pex_bm_apa_2_depr_005_i_01",
+      "items/pex_bm_apa_2_depr_006_i_01",
+      "items/pex_bm_apa_2_depr_007_i_01",
+      "items/pex_bm_apa_2_depr_008_i_01",
+      "items/pex_bm_apa_2_depr_score",
+      "items/pex_bm_apa_2_depr_flag01",
+      "items/pex_bm_apa_2_anx_001",
+      "items/pex_bm_apa_2_anx_002",
+      "items/pex_bm_apa_2_anx_003",
+      "items/pex_bm_apa_2_anx_004",
+      "items/pex_bm_apa_2_anx_005",
+      "items/pex_bm_apa_2_anx_006",
+      "items/pex_bm_apa_2_anx_007",
+      "items/pex_bm_apa_2_anger_001",
+      "items/pex_bm_apa_2_anger_002",
+      "items/pex_bm_apa_2_anger_003",
+      "items/pex_bm_apa_2_anger_004",
+      "items/pex_bm_apa_2_anger_005",
+      "items/pex_bm_apa_2_sleep_001",
+      "items/pex_bm_apa_2_sleep_002",
+      "items/pex_bm_apa_2_sleep_003",
+      "items/pex_bm_apa_2_sleep_004",
+      "items/pex_bm_apa_2_sleep_005",
+      "items/pex_bm_apa_2_sleep_006",
+      "items/pex_bm_apa_2_sleep_007",
+      "items/pex_bm_apa_2_sleep_008",
+      "items/pex_bm_apa_2_mania_001",
+      "items/pex_bm_apa_2_mania_002",
+      "items/pex_bm_apa_2_mania_003",
+      "items/pex_bm_apa_2_mania_004",
+      "items/pex_bm_apa_2_mania_005",
+      "items/pex_bm_apa_2_repet_001",
+      "items/pex_bm_apa_2_repet_002",
+      "items/pex_bm_apa_2_repet_003",
+      "items/pex_bm_apa_2_repet_004",
+      "items/pex_bm_apa_2_repet_005",
+      "items/pex_bm_apa_2_pers_001",
+      "items/pex_bm_apa_2_pers_002",
+      "items/pex_bm_apa_2_pers_003",
+      "items/pex_bm_apa_2_pers_004",
+      "items/pex_bm_apa_2_pers_005",
+      "items/pex_bm_apa_2_pers_006",
+      "items/pex_bm_apa_2_pers_007",
+      "items/pex_bm_apa_2_pers_008",
+      "items/pex_bm_apa_2_pers_009",
+      "items/pex_bm_apa_2_pers_010",
+      "items/pex_bm_apa_2_pers_011",
+      "items/pex_bm_apa_2_pers_012",
+      "items/pex_bm_apa_2_pers_013",
+      "items/pex_bm_apa_2_pers_014",
+      "items/pex_bm_apa_2_pers_015",
+      "items/pex_bm_apa_2_pers_016",
+      "items/pex_bm_apa_2_pers_017",
+      "items/pex_bm_apa_2_pers_018",
+      "items/pex_bm_apa_2_pers_019",
+      "items/pex_bm_apa_2_pers_020",
+      "items/pex_bm_apa_2_pers_021",
+      "items/pex_bm_apa_2_pers_022",
+      "items/pex_bm_apa_2_pers_023",
+      "items/pex_bm_apa_2_pers_024",
+      "items/pex_bm_apa_2_pers_025",
+      "items/pex_bm_apa_2_somat_001",
+      "items/pex_bm_apa_2_somat_002",
+      "items/pex_bm_apa_2_somat_003",
+      "items/pex_bm_apa_2_somat_004",
+      "items/pex_bm_apa_2_somat_005",
+      "items/pex_bm_apa_2_somat_006",
+      "items/pex_bm_apa_2_somat_007",
+      "items/pex_bm_apa_2_somat_008",
+      "items/pex_bm_apa_2_somat_009",
+      "items/pex_bm_apa_2_somat_010",
+      "items/pex_bm_apa_2_somat_011",
+      "items/pex_bm_apa_2_somat_012",
+      "items/pex_bm_apa_2_somat_013",
+      "items/pex_bm_apa_2_somat_014",
+      "items/pex_bm_apa_2_somat_015",
+      "items/pex_bm_apa_apa1_depr",
+      "items/pex_bm_apa_apa1_anger",
+      "items/pex_bm_apa_apa1_mania",
+      "items/pex_bm_apa_apa1_anx",
+      "items/pex_bm_apa_apa1_somat",
+      "items/pex_bm_apa_apa1_suic",
+      "items/pex_bm_apa_apa1_psych",
+      "items/pex_bm_apa_apa1_sleep",
+      "items/pex_bm_apa_apa1_memo",
+      "items/pex_bm_apa_apa1_repet",
+      "items/pex_bm_apa_apa1_disso",
+      "items/pex_bm_apa_apa2_pers",
+      "items/pex_bm_apa_apa2_depr",
+      "items/pex_bm_apa_apa2_anger_PromisRawScore",
+      "items/pex_bm_apa_apa2_anger_PromisTScore",
+      "items/pex_bm_apa_apa2_anger_PromisTScoreInterpretation",
+      "items/pex_bm_apa_apa2_mania",
+      "items/pex_bm_apa_apa2_somat",
+      "items/pex_bm_apa_apa2_sleep",
+      "items/pex_bm_apa_apa2_repet_fociRawScore",
+      "items/pex_bm_apa_apa2_repet_fociInterpretationScore",
+      "items/pex_bm_apa_Validity",
+      "items/pex_bm_apa_Administration",
+      "items/pex_bm_apa_Informant",
+      "items/pex_bm_apa_apa2_pers_Note",
+      "items/pex_bm_apa_apa2_depr_PromisTScore",
+      "items/pex_bm_apa_apa2_anger_TScoreNote",
+      "items/pex_bm_apa_apa2_anx_PromisRawScore",
+      "items/pex_bm_apa_apa2_anx_PromisTScore",
+      "items/pex_bm_apa_apa2_anx_TScoreNote",
+      "items/pex_bm_apa_apa2_anx_PromisTScoreInterpretation",
+      "items/pex_bm_apa_apa2_somat_Note",
+      "items/pex_bm_apa_apa2_somat_InterpretationScore",
+      "items/pex_bm_apa_apa2_sleep_PromisTScore",
+      "items/pex_bm_apa_apa2_repet_fociNote"
+    ],
+    "addProperties": [
+      {
+        "variableName": "pex_bm_apa_Date_taken",
+        "isAbout": "items/pex_bm_apa_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Candidate_Age",
+        "isAbout": "items/pex_bm_apa_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_gestational_age",
+        "isAbout": "items/pex_bm_apa_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Window_Difference",
+        "isAbout": "items/pex_bm_apa_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Examiner",
+        "isAbout": "items/pex_bm_apa_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_lang",
+        "isAbout": "items/pex_bm_apa_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_dtt",
+        "isAbout": "items/pex_bm_apa_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_timestamp_start",
+        "isAbout": "items/pex_bm_apa_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_timestamp_stop",
+        "isAbout": "items/pex_bm_apa_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Duration",
+        "isAbout": "items/pex_bm_apa_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_location",
+        "isAbout": "items/pex_bm_apa_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_1_depr_001",
+        "isAbout": "items/pex_bm_apa_1_depr_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_depr_002",
+        "isAbout": "items/pex_bm_apa_1_depr_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_anger_001",
+        "isAbout": "items/pex_bm_apa_1_anger_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_mania_001",
+        "isAbout": "items/pex_bm_apa_1_mania_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_mania_002",
+        "isAbout": "items/pex_bm_apa_1_mania_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_anx_001",
+        "isAbout": "items/pex_bm_apa_1_anx_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_anx_002",
+        "isAbout": "items/pex_bm_apa_1_anx_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_anx_003",
+        "isAbout": "items/pex_bm_apa_1_anx_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_somat_001",
+        "isAbout": "items/pex_bm_apa_1_somat_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_somat_002",
+        "isAbout": "items/pex_bm_apa_1_somat_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_suic_001",
+        "isAbout": "items/pex_bm_apa_1_suic_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_psych_001",
+        "isAbout": "items/pex_bm_apa_1_psych_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_psych_002",
+        "isAbout": "items/pex_bm_apa_1_psych_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_sleep_001",
+        "isAbout": "items/pex_bm_apa_1_sleep_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_memo_001",
+        "isAbout": "items/pex_bm_apa_1_memo_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_repet_001",
+        "isAbout": "items/pex_bm_apa_1_repet_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_repet_002",
+        "isAbout": "items/pex_bm_apa_1_repet_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_disso_001",
+        "isAbout": "items/pex_bm_apa_1_disso_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_1_flag01",
+        "isAbout": "items/pex_bm_apa_1_flag01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_001",
+        "isAbout": "items/pex_bm_apa_2_depr_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_002",
+        "isAbout": "items/pex_bm_apa_2_depr_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_003",
+        "isAbout": "items/pex_bm_apa_2_depr_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_004",
+        "isAbout": "items/pex_bm_apa_2_depr_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_005",
+        "isAbout": "items/pex_bm_apa_2_depr_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_006",
+        "isAbout": "items/pex_bm_apa_2_depr_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_007",
+        "isAbout": "items/pex_bm_apa_2_depr_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_008",
+        "isAbout": "items/pex_bm_apa_2_depr_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_001_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_001_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_002_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_002_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_003_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_003_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_004_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_004_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_005_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_005_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_006_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_006_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_007_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_007_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_008_i_01",
+        "isAbout": "items/pex_bm_apa_2_depr_008_i_01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_score",
+        "isAbout": "items/pex_bm_apa_2_depr_score",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_depr_flag01",
+        "isAbout": "items/pex_bm_apa_2_depr_flag01",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_001",
+        "isAbout": "items/pex_bm_apa_2_anx_001",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_002",
+        "isAbout": "items/pex_bm_apa_2_anx_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_003",
+        "isAbout": "items/pex_bm_apa_2_anx_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_004",
+        "isAbout": "items/pex_bm_apa_2_anx_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_005",
+        "isAbout": "items/pex_bm_apa_2_anx_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_006",
+        "isAbout": "items/pex_bm_apa_2_anx_006",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anx_007",
+        "isAbout": "items/pex_bm_apa_2_anx_007",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anger_001",
+        "isAbout": "items/pex_bm_apa_2_anger_001",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anger_002",
+        "isAbout": "items/pex_bm_apa_2_anger_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anger_003",
+        "isAbout": "items/pex_bm_apa_2_anger_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anger_004",
+        "isAbout": "items/pex_bm_apa_2_anger_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_anger_005",
+        "isAbout": "items/pex_bm_apa_2_anger_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_001",
+        "isAbout": "items/pex_bm_apa_2_sleep_001",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_002",
+        "isAbout": "items/pex_bm_apa_2_sleep_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_003",
+        "isAbout": "items/pex_bm_apa_2_sleep_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_004",
+        "isAbout": "items/pex_bm_apa_2_sleep_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_005",
+        "isAbout": "items/pex_bm_apa_2_sleep_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_006",
+        "isAbout": "items/pex_bm_apa_2_sleep_006",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_007",
+        "isAbout": "items/pex_bm_apa_2_sleep_007",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_sleep_008",
+        "isAbout": "items/pex_bm_apa_2_sleep_008",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_mania_001",
+        "isAbout": "items/pex_bm_apa_2_mania_001",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_mania_002",
+        "isAbout": "items/pex_bm_apa_2_mania_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_mania_003",
+        "isAbout": "items/pex_bm_apa_2_mania_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_mania_004",
+        "isAbout": "items/pex_bm_apa_2_mania_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_mania_005",
+        "isAbout": "items/pex_bm_apa_2_mania_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_repet_001",
+        "isAbout": "items/pex_bm_apa_2_repet_001",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_repet_002",
+        "isAbout": "items/pex_bm_apa_2_repet_002",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_repet_003",
+        "isAbout": "items/pex_bm_apa_2_repet_003",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_repet_004",
+        "isAbout": "items/pex_bm_apa_2_repet_004",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_repet_005",
+        "isAbout": "items/pex_bm_apa_2_repet_005",
+        "valueRequired": false,
+        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_001",
+        "isAbout": "items/pex_bm_apa_2_pers_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_002",
+        "isAbout": "items/pex_bm_apa_2_pers_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_003",
+        "isAbout": "items/pex_bm_apa_2_pers_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_004",
+        "isAbout": "items/pex_bm_apa_2_pers_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_005",
+        "isAbout": "items/pex_bm_apa_2_pers_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_006",
+        "isAbout": "items/pex_bm_apa_2_pers_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_007",
+        "isAbout": "items/pex_bm_apa_2_pers_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_008",
+        "isAbout": "items/pex_bm_apa_2_pers_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_009",
+        "isAbout": "items/pex_bm_apa_2_pers_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_010",
+        "isAbout": "items/pex_bm_apa_2_pers_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_011",
+        "isAbout": "items/pex_bm_apa_2_pers_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_012",
+        "isAbout": "items/pex_bm_apa_2_pers_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_013",
+        "isAbout": "items/pex_bm_apa_2_pers_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_014",
+        "isAbout": "items/pex_bm_apa_2_pers_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_015",
+        "isAbout": "items/pex_bm_apa_2_pers_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_016",
+        "isAbout": "items/pex_bm_apa_2_pers_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_017",
+        "isAbout": "items/pex_bm_apa_2_pers_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_018",
+        "isAbout": "items/pex_bm_apa_2_pers_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_019",
+        "isAbout": "items/pex_bm_apa_2_pers_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_020",
+        "isAbout": "items/pex_bm_apa_2_pers_020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_021",
+        "isAbout": "items/pex_bm_apa_2_pers_021",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_022",
+        "isAbout": "items/pex_bm_apa_2_pers_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_023",
+        "isAbout": "items/pex_bm_apa_2_pers_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_024",
+        "isAbout": "items/pex_bm_apa_2_pers_024",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_pers_025",
+        "isAbout": "items/pex_bm_apa_2_pers_025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_001",
+        "isAbout": "items/pex_bm_apa_2_somat_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_002",
+        "isAbout": "items/pex_bm_apa_2_somat_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_003",
+        "isAbout": "items/pex_bm_apa_2_somat_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_004",
+        "isAbout": "items/pex_bm_apa_2_somat_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_005",
+        "isAbout": "items/pex_bm_apa_2_somat_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_006",
+        "isAbout": "items/pex_bm_apa_2_somat_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_007",
+        "isAbout": "items/pex_bm_apa_2_somat_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_008",
+        "isAbout": "items/pex_bm_apa_2_somat_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_009",
+        "isAbout": "items/pex_bm_apa_2_somat_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_010",
+        "isAbout": "items/pex_bm_apa_2_somat_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_011",
+        "isAbout": "items/pex_bm_apa_2_somat_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_012",
+        "isAbout": "items/pex_bm_apa_2_somat_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_013",
+        "isAbout": "items/pex_bm_apa_2_somat_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_014",
+        "isAbout": "items/pex_bm_apa_2_somat_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_2_somat_015",
+        "isAbout": "items/pex_bm_apa_2_somat_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_depr",
+        "isAbout": "items/pex_bm_apa_apa1_depr",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_anger",
+        "isAbout": "items/pex_bm_apa_apa1_anger",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_mania",
+        "isAbout": "items/pex_bm_apa_apa1_mania",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_anx",
+        "isAbout": "items/pex_bm_apa_apa1_anx",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_somat",
+        "isAbout": "items/pex_bm_apa_apa1_somat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_suic",
+        "isAbout": "items/pex_bm_apa_apa1_suic",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_psych",
+        "isAbout": "items/pex_bm_apa_apa1_psych",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_sleep",
+        "isAbout": "items/pex_bm_apa_apa1_sleep",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_memo",
+        "isAbout": "items/pex_bm_apa_apa1_memo",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_repet",
+        "isAbout": "items/pex_bm_apa_apa1_repet",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa1_disso",
+        "isAbout": "items/pex_bm_apa_apa1_disso",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_pers",
+        "isAbout": "items/pex_bm_apa_apa2_pers",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_depr",
+        "isAbout": "items/pex_bm_apa_apa2_depr",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anger_PromisRawScore",
+        "isAbout": "items/pex_bm_apa_apa2_anger_PromisRawScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anger_PromisTScore",
+        "isAbout": "items/pex_bm_apa_apa2_anger_PromisTScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anger_PromisTScoreInterpretation",
+        "isAbout": "items/pex_bm_apa_apa2_anger_PromisTScoreInterpretation",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_mania",
+        "isAbout": "items/pex_bm_apa_apa2_mania",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_somat",
+        "isAbout": "items/pex_bm_apa_apa2_somat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_sleep",
+        "isAbout": "items/pex_bm_apa_apa2_sleep",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_repet_fociRawScore",
+        "isAbout": "items/pex_bm_apa_apa2_repet_fociRawScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_repet_fociInterpretationScore",
+        "isAbout": "items/pex_bm_apa_apa2_repet_fociInterpretationScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Validity",
+        "isAbout": "items/pex_bm_apa_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Administration",
+        "isAbout": "items/pex_bm_apa_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_Informant",
+        "isAbout": "items/pex_bm_apa_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_pers_Note",
+        "isAbout": "items/pex_bm_apa_apa2_pers_Note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_depr_PromisTScore",
+        "isAbout": "items/pex_bm_apa_apa2_depr_PromisTScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anger_TScoreNote",
+        "isAbout": "items/pex_bm_apa_apa2_anger_TScoreNote",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anx_PromisRawScore",
+        "isAbout": "items/pex_bm_apa_apa2_anx_PromisRawScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anx_PromisTScore",
+        "isAbout": "items/pex_bm_apa_apa2_anx_PromisTScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anx_TScoreNote",
+        "isAbout": "items/pex_bm_apa_apa2_anx_TScoreNote",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_anx_PromisTScoreInterpretation",
+        "isAbout": "items/pex_bm_apa_apa2_anx_PromisTScoreInterpretation",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_somat_Note",
+        "isAbout": "items/pex_bm_apa_apa2_somat_Note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_somat_InterpretationScore",
+        "isAbout": "items/pex_bm_apa_apa2_somat_InterpretationScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_sleep_PromisTScore",
+        "isAbout": "items/pex_bm_apa_apa2_sleep_PromisTScore",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_apa_apa2_repet_fociNote",
+        "isAbout": "items/pex_bm_apa_apa2_repet_fociNote",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
