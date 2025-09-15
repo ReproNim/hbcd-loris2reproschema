@@ -18,7 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pandas pyyaml
 
       - name: Run script
         env:
@@ -26,12 +26,79 @@ jobs:
           HBCD_PASSWORD: ${{ secrets.HBCD_PASSWORD }}
         run: python scripts/retrieve_script.py # Replace your_script_name.py with the actual name of your script
 
-      - name: Commit and push if changed
+      - name: Smart change detection
+        id: change_detection
+        run: |
+          # Get the latest downloaded file
+          LATEST_FILE=$(ls -t loris_data_dictionaries/hbcd_data_dictionary_*.csv | head -1)
+          echo "latest_file=$LATEST_FILE" >> $GITHUB_OUTPUT
+
+          # Find the most recent existing file (excluding the just-downloaded one)
+          EXISTING_FILES=$(ls -t loris_data_dictionaries/hbcd_data_dictionary_*.csv 2>/dev/null | tail -n +2)
+
+          if [ -z "$EXISTING_FILES" ]; then
+            echo "No previous data dictionary found - treating as first run"
+            echo "trigger_conversion=true" >> $GITHUB_OUTPUT
+            echo "change_reason=First data dictionary download" >> $GITHUB_OUTPUT
+          else
+            PREVIOUS_FILE=$(echo "$EXISTING_FILES" | head -1)
+            echo "Comparing $PREVIOUS_FILE with $LATEST_FILE"
+
+            # Run smart change detection
+            if python scripts/detect_changes.py --old-file "$PREVIOUS_FILE" --new-file "$LATEST_FILE" --quiet; then
+              echo "trigger_conversion=true" >> $GITHUB_OUTPUT
+              echo "change_reason=Significant changes detected" >> $GITHUB_OUTPUT
+            else
+              echo "trigger_conversion=false" >> $GITHUB_OUTPUT
+              echo "change_reason=No significant changes detected" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Upload comparison report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: change-detection-report-${{ github.run_id }}
+          path: |
+            logs/comparison_report_*.json
+            logs/change_detection_*.log
+          if-no-files-found: ignore
+
+      - name: Commit new data dictionary
+        if: steps.change_detection.outputs.trigger_conversion == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add loris_data_dictionaries/hbcd_data_dictionary_*.csv
-          # Commit only if there are changes
-          git diff --staged --quiet || git commit -m "Update HBCD data dictionary"
-          # Push only if there was a commit
-          git push || echo "No changes to push" 
+          git commit -m "Update HBCD data dictionary - $(date +%Y-%m-%d)
+
+          ${{ steps.change_detection.outputs.change_reason }}
+
+          Automated change detection triggered conversion workflow."
+          git push
+
+      - name: Trigger conversion workflow
+        if: steps.change_detection.outputs.trigger_conversion == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const result = await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'automated_update.yml',
+              ref: 'main',
+              inputs: {
+                data_dictionary_file: '${{ steps.change_detection.outputs.latest_file }}',
+                manual_trigger: 'false'
+              }
+            });
+
+            console.log('✅ Triggered automated conversion workflow');
+            console.log('Reason:', '${{ steps.change_detection.outputs.change_reason }}');
+
+      - name: Log no-change decision
+        if: steps.change_detection.outputs.trigger_conversion == 'false'
+        run: |
+          echo "ℹ️  No conversion triggered: ${{ steps.change_detection.outputs.change_reason }}"
+          echo "The downloaded data dictionary does not contain significant changes."
+          echo "Check the comparison report artifact for detailed analysis." 

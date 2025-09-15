@@ -1,0 +1,53 @@
+change_detection:
+  # Columns to ignore during comparison (timestamps, metadata, etc.)
+  ignore_columns:
+    - data_dict_id
+    - export_date
+    - export_timestamp
+    - created_date
+    - modified_date
+    - last_updated
+    - row_id
+    - system_id
+
+  # Thresholds for triggering conversion
+  thresholds:
+    # Minimum number of field changes to trigger conversion
+    min_field_changes: 3
+
+    # Minimum number of new instruments to trigger conversion
+    min_new_instruments: 1
+
+    # Minimum number of modified instruments to trigger conversion
+    min_modified_instruments: 2
+
+    # Minimum number of deleted instruments to trigger conversion
+    min_deleted_instruments: 1
+
+    # Minimum number of choice option changes to trigger conversion
+    min_choice_changes: 5
+
+    # Percentage of total fields that must change (1.0 = 1%)
+    significant_change_percentage: 1.0
+
+  # Normalization options
+  ignore_whitespace: true
+  ignore_case: true
+  ignore_order: false
+
+  # Key columns for identifying records
+  key_columns:
+    - full_instrument_name
+    - field_name
+    - field_type
+
+  # Columns considered significant for change detection
+  significant_columns:
+    - field_type
+    - required
+    - choices
+    - field_label
+    - branching_logic
+    - validation_min
+    - validation_max
+    - field_annotation
