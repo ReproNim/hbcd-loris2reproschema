@@ -9,7 +9,7 @@ conversion:
 
 validation:
   enabled: true
-  stop_on_error: false
+  stop_on_error: true
 
 quality_checks:
   check_aces: true
