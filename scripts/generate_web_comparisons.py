@@ -5,8 +5,8 @@ This script creates comparisons between recent versions and saves them as JSON f
 that can be served by GitHub Pages.
 """
 
+import itertools
 import json
-import os
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -57,10 +57,10 @@ def generate_comparison_matrix(versions, output_dir):
     comparator = SchemaComparator()
     generated_files = []
 
-    # Generate comparisons between consecutive versions
-    for i in range(len(versions) - 1):
-        from_version = versions[i + 1]  # Older version
-        to_version = versions[i]       # Newer version
+    # Generate comparisons for all unique pairs of versions
+    # Assuming versions are sorted newest to oldest, we want pairs (older, newer).
+    # itertools.combinations on the reversed list gives us that.
+    for from_version, to_version in itertools.combinations(reversed(versions), 2):
 
         try:
             print(f"Generating comparison: {from_version} → {to_version}")
@@ -126,23 +126,23 @@ def update_html_versions(versions, html_file="docs/index.html"):
     # Generate JavaScript array
     versions_js = json.dumps(versions[:15], indent=12)  # Limit to 15 most recent
 
-    # Replace the availableVersions array
-    start_marker = "const availableVersions = ["
-    end_marker = "];"
+    # Replace the availableVersions array using robust comment markers
+    start_marker = "// START_VERSIONS"
+    end_marker = "// END_VERSIONS"
 
     start_idx = html_content.find(start_marker)
     if start_idx == -1:
-        print("Warning: Could not find availableVersions array in HTML")
+        print("Warning: Could not find START_VERSIONS marker in HTML")
         return
 
     end_idx = html_content.find(end_marker, start_idx)
     if end_idx == -1:
-        print("Warning: Could not find end of availableVersions array")
+        print("Warning: Could not find END_VERSIONS marker in HTML")
         return
 
-    # Replace the array
-    new_array = f"const availableVersions = {versions_js}"
-    new_html = html_content[:start_idx] + new_array + html_content[end_idx + len(end_marker):]
+    # Replace the section between markers
+    new_section = f"{start_marker}\n            const availableVersions = {versions_js};\n            {end_marker}"
+    new_html = html_content[:start_idx] + new_section + html_content[end_idx + len(end_marker):]
 
     # Write back
     with open(html_path, 'w') as f:

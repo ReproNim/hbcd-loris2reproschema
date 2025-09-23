@@ -312,6 +312,7 @@
 
         <script>
             // Available versions - this would be populated by CI
+            // START_VERSIONS
             const availableVersions = [
                 "HEAD",
                 "HEAD~1",
@@ -327,6 +328,7 @@
                 "c62de073",
                 "0df716b3",
             ];
+            // END_VERSIONS
 
             // HTML escaping function to prevent XSS
             function escapeHtml(unsafe) {
@@ -367,29 +369,54 @@
                 toSelect.value = "HEAD";
             }
 
-            // Load comparison (in real implementation, this would call the backend)
-            function loadComparison() {
+            // Load comparison from pre-generated JSON files
+            async function loadComparison() {
                 const fromVersion =
                     document.getElementById("fromVersion").value;
                 const toVersion = document.getElementById("toVersion").value;
 
                 if (!fromVersion || !toVersion) {
-                    showError("Please select both versions");
+                    showError("Please select both versions.");
+                    return;
+                }
+
+                if (fromVersion === toVersion) {
+                    showError(
+                        "Please select two different versions to compare.",
+                    );
                     return;
                 }
 
                 hideError();
-
                 showLoading();
 
-                // For demo purposes, simulate loading and show sample data
-                setTimeout(() => {
-                    const sampleData = generateSampleComparison(
-                        fromVersion,
-                        toVersion,
-                    );
-                    displayComparison(sampleData);
-                }, 1000);
+                // Construct filename based on Python script's logic
+                const fromVersionSafe = fromVersion.replace(/[\/~]/g, "_");
+                const toVersionSafe = toVersion.replace(/[\/~]/g, "_");
+                const filename = `data/${fromVersionSafe}_to_${toVersionSafe}.json`;
+
+                try {
+                    const response = await fetch(filename);
+                    if (!response.ok) {
+                        // The python script might generate files in one direction. Let's try the reverse.
+                        const reverseFilename = `data/${toVersionSafe}_to_${fromVersionSafe}.json`;
+                        const reverseResponse = await fetch(reverseFilename);
+                        if (reverseResponse.ok) {
+                            const data = await reverseResponse.json();
+                            displayComparison(data);
+                            return;
+                        }
+                        throw new Error(
+                            `Pre-generated comparison not found. You can generate one manually using 'schema_comparison.py' and paste the JSON below.`,
+                        );
+                    }
+                    const data = await response.json();
+                    displayComparison(data);
+                } catch (error) {
+                    showError(`Failed to load comparison: ${error.message}`);
+                    document.getElementById("loading").style.display = "none";
+                    document.getElementById("comparisonContent").innerHTML = "";
+                }
             }
 
             // Load manual JSON comparison
@@ -403,12 +430,16 @@
                     return;
                 }
 
+                hideError();
+                showLoading();
+
                 try {
                     const data = JSON.parse(jsonText);
-                    hideError();
                     displayComparison(data);
                 } catch (e) {
                     showError("Invalid JSON format: " + e.message);
+                    document.getElementById("loading").style.display = "none";
+                    document.getElementById("comparisonContent").innerHTML = "";
                 }
             }
 

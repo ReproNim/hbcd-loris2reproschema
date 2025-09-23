@@ -5,10 +5,9 @@ Focuses on semantic, human-readable changes rather than raw JSON diffs.
 """
 
 import json
-import os
 import subprocess
 import sys
-import tempfile
+import traceback
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from dataclasses import dataclass, asdict
@@ -66,6 +65,9 @@ class ComparisonReport:
 
 class SchemaComparator:
     """Compares ReproSchema versions with git integration."""
+
+    # Path structure constants
+    ACTIVITY_NAME_PATH_INDEX = 3  # reproschema_output/HBCD_LORIS/activities/ACTIVITY_NAME/...
 
     def __init__(self, repo_path: str = "."):
         self.repo_path = Path(repo_path)
@@ -184,8 +186,8 @@ class SchemaComparator:
             elif info['type'] == 'item':
                 # Extract activity name from file path
                 path_parts = file_path.split('/')
-                if len(path_parts) >= 4:  # reproschema_output/HBCD_LORIS/activities/ACTIVITY_NAME/items/ITEM
-                    activity_name = path_parts[3]
+                if len(path_parts) >= self.ACTIVITY_NAME_PATH_INDEX + 1:  # reproschema_output/HBCD_LORIS/activities/ACTIVITY_NAME/items/ITEM
+                    activity_name = path_parts[self.ACTIVITY_NAME_PATH_INDEX]
                     if activity_name not in activities:
                         activities[activity_name] = {'info': {'name': activity_name}, 'items': {}}
                     activities[activity_name]['items'][info['name']] = info
@@ -346,7 +348,8 @@ def main():
             print(output)
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error: {e}", file=sys.stderr)
+        traceback.print_exc()
         return 1
 
     return 0

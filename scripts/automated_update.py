@@ -282,7 +282,7 @@ class UpdatePipeline:
 
             # Get recent versions
             self.logger.info("Getting recent git versions...")
-            versions = get_recent_tags_and_commits(limit=15)
+            versions = get_recent_tags_and_commits(limit=self.config.get("comparisons", {}).get("limit", 15))
             self.logger.info(f"Found {len(versions)} versions for comparison")
 
             # Generate comparisons
