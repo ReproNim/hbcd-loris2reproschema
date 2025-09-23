@@ -268,7 +268,8 @@ class UpdatePipeline:
 
     def step5_generate_comparisons(self) -> bool:
         """Step 5: Generate comparison files for web interface."""
-        if not self.config.get("comparisons", {}).get("enabled", True):
+        comp_config = self.config.get("comparisons", {})
+        if not comp_config.get("enabled", True):
             self.logger.info("Comparison generation disabled in config")
             return True
 
@@ -282,11 +283,11 @@ class UpdatePipeline:
 
             # Get recent versions
             self.logger.info("Getting recent git versions...")
-            versions = get_recent_tags_and_commits(limit=self.config.get("comparisons", {}).get("limit", 15))
+            versions = get_recent_tags_and_commits(limit=comp_config.get("limit", 15))
             self.logger.info(f"Found {len(versions)} versions for comparison")
 
             # Generate comparisons
-            output_dir = self.config.get("comparisons", {}).get("output_dir", "docs/data")
+            output_dir = comp_config.get("output_dir", "docs/data")
             self.logger.info(f"Generating comparisons to {output_dir}...")
 
             comparisons = generate_comparison_matrix(versions, output_dir)

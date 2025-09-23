@@ -62,6 +62,17 @@ class ComparisonReport:
     def total_items_modified(self) -> int:
         return sum(len(a.modified_items) for a in self.activities.values())
 
+    def to_dict(self) -> Dict[str, Any]:
+        """Return a dictionary representation suitable for JSON serialization."""
+        report_dict = asdict(self)
+        report_dict['statistics'] = {
+            'activities_changed': self.total_activities_changed,
+            'items_added': self.total_items_added,
+            'items_removed': self.total_items_removed,
+            'items_modified': self.total_items_modified
+        }
+        return report_dict
+
 
 class SchemaComparator:
     """Compares ReproSchema versions with git integration."""
@@ -81,10 +92,7 @@ class SchemaComparator:
         try:
             result = subprocess.run([
                 "git", "ls-tree", "-r", "--name-only", git_ref, self.schema_base_path
-            ], capture_output=True, text=True, cwd=self.repo_path)
-
-            if result.returncode != 0:
-                raise ValueError(f"Failed to list files for git ref {git_ref}: {result.stderr}")
+            ], capture_output=True, text=True, cwd=self.repo_path, check=True)
 
             schema_files = [f for f in result.stdout.strip().split('\n')
                           if f.endswith('_schema') and f]
@@ -94,17 +102,16 @@ class SchemaComparator:
                 try:
                     file_content = subprocess.run([
                         "git", "show", f"{git_ref}:{file_path}"
-                    ], capture_output=True, text=True, cwd=self.repo_path)
+                    ], capture_output=True, text=True, cwd=self.repo_path, check=True)
 
-                    if file_content.returncode == 0:
-                        schemas[file_path] = json.loads(file_content.stdout)
+                    schemas[file_path] = json.loads(file_content.stdout)
                 except (json.JSONDecodeError, subprocess.CalledProcessError) as e:
                     print(f"Warning: Could not read or parse {file_path}: {e}", file=sys.stderr)
                     # Skip files that can't be read or parsed
                     continue
 
         except subprocess.CalledProcessError as e:
-            raise ValueError(f"Git operation failed: {e}")
+            raise ValueError(f"Git operation failed for ref '{git_ref}': {e.stderr}") from e
 
         return schemas
 
@@ -314,13 +321,7 @@ def main():
 
         if args.format == "json":
             # Convert dataclasses to dict for JSON serialization
-            report_dict = asdict(report)
-            report_dict['statistics'] = {
-                'activities_changed': report.total_activities_changed,
-                'items_added': report.total_items_added,
-                'items_removed': report.total_items_removed,
-                'items_modified': report.total_items_modified
-            }
+            report_dict = report.to_dict()
 
             output = json.dumps(report_dict, indent=2)
         else:

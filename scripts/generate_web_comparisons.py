@@ -22,20 +22,16 @@ def get_recent_tags_and_commits(limit=20):
         # Get recent tags
         result = subprocess.run([
             "git", "tag", "--sort=-version:refname"
-        ], capture_output=True, text=True)
-
-        if result.returncode == 0:
-            tags = result.stdout.strip().split('\n')
-            versions.extend([tag for tag in tags if tag][:10])  # Last 10 tags
+        ], capture_output=True, text=True, check=True)
+        tags = result.stdout.strip().split('\n')
+        versions.extend([tag for tag in tags if tag][:10])  # Last 10 tags
 
         # Get recent commits
         result = subprocess.run([
             "git", "log", "--oneline", "--format=%H", f"-{limit}"
-        ], capture_output=True, text=True)
-
-        if result.returncode == 0:
-            commits = result.stdout.strip().split('\n')
-            versions.extend([commit[:8] for commit in commits if commit][:10])  # Last 10 commits (short)
+        ], capture_output=True, text=True, check=True)
+        commits = result.stdout.strip().split('\n')
+        versions.extend([commit[:8] for commit in commits if commit][:10])  # Last 10 commits (short)
 
         # Add some common references
         versions.extend(['HEAD', 'main'])
@@ -68,13 +64,7 @@ def generate_comparison_matrix(versions, output_dir):
             report = comparator.compare_versions(from_version, to_version)
 
             # Convert to JSON-serializable format
-            report_dict = asdict(report)
-            report_dict['statistics'] = {
-                'activities_changed': report.total_activities_changed,
-                'items_added': report.total_items_added,
-                'items_removed': report.total_items_removed,
-                'items_modified': report.total_items_modified
-            }
+            report_dict = report.to_dict()
 
             # Save as JSON file
             filename = f"{from_version}_to_{to_version}.json".replace('/', '_').replace('~', '_')

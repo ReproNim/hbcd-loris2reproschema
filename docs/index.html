@@ -278,9 +278,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <button id="compareBtn" onclick="loadComparison()">
-                        Compare
-                    </button>
+                    <button id="compareBtn">Compare</button>
                 </div>
             </div>
 
@@ -293,10 +291,7 @@
                     rows="6"
                     placeholder="Paste JSON from schema_comparison.py output here..."
                 ></textarea>
-                <button
-                    onclick="loadManualComparison()"
-                    style="margin-top: 10px"
-                >
+                <button id="manualLoadBtn" style="margin-top: 10px">
                     Load Manual Comparison
                 </button>
             </div>
@@ -396,16 +391,13 @@
                 const filename = `data/${fromVersionSafe}_to_${toVersionSafe}.json`;
 
                 try {
-                    const response = await fetch(filename);
+                    let response = await fetch(filename);
                     if (!response.ok) {
-                        // The python script might generate files in one direction. Let's try the reverse.
                         const reverseFilename = `data/${toVersionSafe}_to_${fromVersionSafe}.json`;
-                        const reverseResponse = await fetch(reverseFilename);
-                        if (reverseResponse.ok) {
-                            const data = await reverseResponse.json();
-                            displayComparison(data);
-                            return;
-                        }
+                        response = await fetch(reverseFilename);
+                    }
+
+                    if (!response.ok) {
                         throw new Error(
                             `Pre-generated comparison not found. You can generate one manually using 'schema_comparison.py' and paste the JSON below.`,
                         );
@@ -568,7 +560,7 @@
                     (activity.modified_items?.length || 0);
 
                 return `
-                <div class="activity" onclick="toggleActivity(this)">
+                <div class="activity">
                     <div class="activity-header">
                         <span>${escapeHtml(name)} (${totalChanges} changes)</span>
                         <span class="expand-icon">▶</span>
@@ -633,6 +625,25 @@
             // Initialize the page
             document.addEventListener("DOMContentLoaded", function () {
                 populateVersions();
+
+                // Add event listeners
+                document
+                    .getElementById("compareBtn")
+                    .addEventListener("click", loadComparison);
+                document
+                    .getElementById("manualLoadBtn")
+                    .addEventListener("click", loadManualComparison);
+
+                // Event delegation for dynamic activity elements
+                document
+                    .getElementById("comparisonContent")
+                    .addEventListener("click", (event) => {
+                        const activityElement =
+                            event.target.closest(".activity");
+                        if (activityElement) {
+                            toggleActivity(activityElement);
+                        }
+                    });
             });
         </script>
     </body>
