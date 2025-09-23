@@ -435,60 +435,6 @@
                 }
             }
 
-            // Generate sample comparison data for demo
-            function generateSampleComparison(fromVersion, toVersion) {
-                // This generates sample data - in real implementation, this would come from the server
-                return {
-                    from_version: fromVersion,
-                    to_version: toVersion,
-                    summary:
-                        "Added 12 items, Modified 3 items across 4 activities",
-                    statistics: {
-                        activities_changed: 4,
-                        items_added: 12,
-                        items_removed: 0,
-                        items_modified: 3,
-                    },
-                    activities: {
-                        ERICA_3_to_7_months: {
-                            change_type: "modified",
-                            added_items: [
-                                "erica_sleep_001",
-                                "erica_sleep_002",
-                                "erica_mood_003",
-                            ],
-                            removed_items: [],
-                            modified_items: [
-                                {
-                                    name: "erica_mood_001",
-                                    change_type: "modified",
-                                    description: "Question text changed",
-                                    old_value:
-                                        "How often does your baby seem fussy?",
-                                    new_value:
-                                        "How frequently does your baby seem fussy or irritable?",
-                                },
-                            ],
-                        },
-                        adm_bm_screen: {
-                            change_type: "modified",
-                            added_items: ["screen_new_001", "screen_new_002"],
-                            removed_items: [],
-                            modified_items: [
-                                {
-                                    name: "screen_lang",
-                                    change_type: "modified",
-                                    description: "Response options changed",
-                                    old_value: "['English', 'Spanish']",
-                                    new_value:
-                                        "['English', 'Spanish', 'Other']",
-                                },
-                            ],
-                        },
-                    },
-                };
-            }
-
             // Show loading state
             function showLoading() {
                 document.getElementById("results").style.display = "block";
@@ -638,10 +584,9 @@
                 document
                     .getElementById("comparisonContent")
                     .addEventListener("click", (event) => {
-                        const activityElement =
-                            event.target.closest(".activity");
-                        if (activityElement) {
-                            toggleActivity(activityElement);
+                        const header = event.target.closest(".activity-header");
+                        if (header) {
+                            toggleActivity(header.closest(".activity"));
                         }
                     });
             });
