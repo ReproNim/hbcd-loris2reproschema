@@ -83,6 +83,7 @@ class UpdatePipeline:
     def _run_command(self, cmd: List[str], description: str) -> Tuple[bool, str]:
         """Run a shell command and capture output."""
         self.logger.info(f"Running: {description}")
+        self.logger.info(f"Command: {' '.join(cmd)}")
         try:
             result = subprocess.run(
                 cmd,
@@ -90,6 +91,9 @@ class UpdatePipeline:
                 text=True,
                 check=True
             )
+            self.logger.info(f"Command completed successfully")
+            if result.stdout:
+                self.logger.info(f"Stdout: {result.stdout[:500]}...")  # First 500 chars
             self.report["steps"].append({
                 "step": description,
                 "status": "success"
@@ -97,14 +101,23 @@ class UpdatePipeline:
             return True, result.stdout
         except subprocess.CalledProcessError as e:
             self.logger.error(f"Failed: {description}")
-            self.logger.error(f"Error: {e.stderr}")
+            self.logger.error(f"Exit code: {e.returncode}")
+            self.logger.error(f"Command: {' '.join(cmd)}")
+            if e.stdout:
+                self.logger.error(f"Stdout: {e.stdout}")
+            if e.stderr:
+                self.logger.error(f"Stderr: {e.stderr}")
+            else:
+                self.logger.error("No stderr output captured")
             self.report["steps"].append({
                 "step": description,
                 "status": "failed",
-                "error": e.stderr
+                "error": e.stderr or f"Exit code {e.returncode}, no stderr",
+                "exit_code": e.returncode,
+                "stdout": e.stdout
             })
             self.report["success"] = False
-            return False, e.stderr
+            return False, e.stderr or f"Exit code {e.returncode}"
 
     def _cleanup_partial_output(self) -> None:
         """Clean up any partial conversion output."""
