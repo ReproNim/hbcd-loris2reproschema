@@ -266,13 +266,72 @@ class UpdatePipeline:
 
         return True
 
+    def step5_generate_comparisons(self) -> bool:
+        """Step 5: Generate comparison files for web interface."""
+        comp_config = self.config.get("comparisons", {})
+        if not comp_config.get("enabled", True):
+            self.logger.info("Comparison generation disabled in config")
+            return True
+
+        self.logger.info("=" * 50)
+        self.logger.info("STEP 5: Generating Schema Comparisons")
+        self.logger.info("=" * 50)
+
+        try:
+            # Import here to avoid circular imports
+            from generate_web_comparisons import generate_comparison_matrix, get_recent_tags_and_commits
+
+            # Get recent versions
+            self.logger.info("Getting recent git versions...")
+            versions = get_recent_tags_and_commits(limit=comp_config.get("limit", 15))
+            self.logger.info(f"Found {len(versions)} versions for comparison")
+
+            # Generate comparisons
+            output_dir = comp_config.get("output_dir", "docs/data")
+            self.logger.info(f"Generating comparisons to {output_dir}...")
+
+            comparisons = generate_comparison_matrix(versions, output_dir)
+
+            self.logger.info(f"Generated {len(comparisons)} comparison files")
+
+            # Log some statistics
+            with_changes = sum(1 for comp in comparisons if comp["has_changes"])
+            self.logger.info(f"  - {with_changes} comparisons with changes")
+            self.logger.info(f"  - {len(comparisons) - with_changes} comparisons with no changes")
+
+            self.report["steps"].append({
+                "step": "generate_comparisons",
+                "status": "success",
+                "details": {
+                    "versions_processed": len(versions),
+                    "comparisons_generated": len(comparisons),
+                    "comparisons_with_changes": with_changes
+                }
+            })
+
+            return True
+
+        except ImportError as e:
+            self.logger.error(f"Could not import comparison modules: {e}")
+            self.logger.info("Skipping comparison generation")
+            return True  # Don't fail the pipeline for this
+
+        except Exception as e:
+            self.logger.error(f"Comparison generation failed: {e}", exc_info=True)
+            self.report["issues"].append(f"Comparison generation failed: {e}")
+
+            # Don't fail the pipeline for comparison issues
+            self.logger.info("Continuing despite comparison generation failure")
+            return True
+
     def run(self, csv_file_path: str = None) -> bool:
         """Run the complete update pipeline."""
         steps = [
             (self.step1_get_data, csv_file_path),
             (self.step2_convert_data, None),
             (self.step3_validate_schemas, None),
-            (self.step4_generate_report, None)
+            (self.step4_generate_report, None),
+            (self.step5_generate_comparisons, None)
         ]
 
         for step_func, param in steps:

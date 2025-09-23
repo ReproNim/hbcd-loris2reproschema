@@ -22,3 +22,8 @@ git:
   auto_commit: false
   branch_prefix: "auto-update"
   create_pr: false
+
+comparisons:
+  enabled: true
+  output_dir: "docs/data"
+  limit: 15
