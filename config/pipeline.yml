@@ -1,0 +1,24 @@
+loris:
+  username: "${LORIS_USER}"
+  password: "${LORIS_PASS}"
+  output_dir: "loris_data_dictionaries"
+
+conversion:
+  config_file: "hbcd-loris.yml"
+  output_path: "reproschema_output"
+
+validation:
+  enabled: true
+  stop_on_error: true
+
+quality_checks:
+  check_aces: true
+  check_typos: true
+  check_truncation: true
+  check_naming: true
+  max_issues_threshold: 50
+
+git:
+  auto_commit: false
+  branch_prefix: "auto-update"
+  create_pr: false

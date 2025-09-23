@@ -164,6 +164,11 @@ cython_debug/
 # macOS
 .DS_Store
 
-# Project specific
-CLAUDE.md
+# Project specific - runtime logs and temporary files
 logs/
+*.log
+change_detection_config.yml  # Will be created dynamically by detect_changes.py
+
+# Claude Code specific files and development documentation
+CLAUDE.md
+docs/
