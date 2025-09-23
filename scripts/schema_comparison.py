@@ -7,10 +7,11 @@ Focuses on semantic, human-readable changes rather than raw JSON diffs.
 import json
 import os
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 from typing import Dict, List, Any, Optional
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import argparse
 
 
@@ -95,7 +96,8 @@ class SchemaComparator:
 
                     if file_content.returncode == 0:
                         schemas[file_path] = json.loads(file_content.stdout)
-                except (json.JSONDecodeError, subprocess.CalledProcessError):
+                except (json.JSONDecodeError, subprocess.CalledProcessError) as e:
+                    print(f"Warning: Could not read or parse {file_path}: {e}", file=sys.stderr)
                     # Skip files that can't be read or parsed
                     continue
 
@@ -310,34 +312,12 @@ def main():
 
         if args.format == "json":
             # Convert dataclasses to dict for JSON serialization
-            report_dict = {
-                'from_version': report.from_version,
-                'to_version': report.to_version,
-                'summary': report.summary,
-                'statistics': {
-                    'activities_changed': report.total_activities_changed,
-                    'items_added': report.total_items_added,
-                    'items_removed': report.total_items_removed,
-                    'items_modified': report.total_items_modified
-                },
-                'activities': {
-                    name: {
-                        'change_type': activity.change_type,
-                        'added_items': activity.added_items,
-                        'removed_items': activity.removed_items,
-                        'modified_items': [
-                            {
-                                'name': item.name,
-                                'change_type': item.change_type,
-                                'description': item.description,
-                                'old_value': item.old_value,
-                                'new_value': item.new_value
-                            }
-                            for item in activity.modified_items
-                        ]
-                    }
-                    for name, activity in report.activities.items()
-                }
+            report_dict = asdict(report)
+            report_dict['statistics'] = {
+                'activities_changed': report.total_activities_changed,
+                'items_added': report.total_items_added,
+                'items_removed': report.total_items_removed,
+                'items_modified': report.total_items_modified
             }
 
             output = json.dumps(report_dict, indent=2)

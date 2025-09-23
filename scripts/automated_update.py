@@ -316,7 +316,7 @@ class UpdatePipeline:
             return True  # Don't fail the pipeline for this
 
         except Exception as e:
-            self.logger.error(f"Comparison generation failed: {e}")
+            self.logger.error(f"Comparison generation failed: {e}", exc_info=True)
             self.report["issues"].append(f"Comparison generation failed: {e}")
 
             # Don't fail the pipeline for comparison issues

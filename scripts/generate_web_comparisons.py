@@ -8,7 +8,9 @@ that can be served by GitHub Pages.
 import json
 import os
 import subprocess
+from datetime import datetime
 from pathlib import Path
+from dataclasses import asdict
 from schema_comparison import SchemaComparator
 
 
@@ -66,34 +68,12 @@ def generate_comparison_matrix(versions, output_dir):
             report = comparator.compare_versions(from_version, to_version)
 
             # Convert to JSON-serializable format
-            report_dict = {
-                'from_version': report.from_version,
-                'to_version': report.to_version,
-                'summary': report.summary,
-                'statistics': {
-                    'activities_changed': report.total_activities_changed,
-                    'items_added': report.total_items_added,
-                    'items_removed': report.total_items_removed,
-                    'items_modified': report.total_items_modified
-                },
-                'activities': {
-                    name: {
-                        'change_type': activity.change_type,
-                        'added_items': activity.added_items,
-                        'removed_items': activity.removed_items,
-                        'modified_items': [
-                            {
-                                'name': item.name,
-                                'change_type': item.change_type,
-                                'description': item.description,
-                                'old_value': item.old_value,
-                                'new_value': item.new_value
-                            }
-                            for item in activity.modified_items
-                        ]
-                    }
-                    for name, activity in report.activities.items()
-                }
+            report_dict = asdict(report)
+            report_dict['statistics'] = {
+                'activities_changed': report.total_activities_changed,
+                'items_added': report.total_items_added,
+                'items_removed': report.total_items_removed,
+                'items_modified': report.total_items_modified
             }
 
             # Save as JSON file
@@ -119,7 +99,7 @@ def generate_comparison_matrix(versions, output_dir):
 
     # Generate index file with available comparisons
     index_data = {
-        'generated_at': subprocess.run(['date', '-Iseconds'], capture_output=True, text=True).stdout.strip(),
+        'generated_at': datetime.now().isoformat(),
         'available_versions': versions,
         'comparisons': generated_files
     }
