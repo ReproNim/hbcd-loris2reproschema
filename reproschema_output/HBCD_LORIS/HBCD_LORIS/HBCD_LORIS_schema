@@ -21,14 +21,6 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/ACEs/ACEs_schema",
-        "variableName": "ACEs_schema",
-        "prefLabel": {
-          "en": "Aces"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/APA_Level_1_Level_2/APA_Level_1_Level_2_schema",
         "variableName": "APA_Level_1_Level_2_schema",
         "prefLabel": {
@@ -65,6 +57,22 @@
         "variableName": "ASSIST_V4_schema",
         "prefLabel": {
           "en": "Assist V4"
+        },
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/Adverse_Childhood_Experiences_ACEs/Adverse_Childhood_Experiences_ACEs_schema",
+        "variableName": "Adverse_Childhood_Experiences_ACEs_schema",
+        "prefLabel": {
+          "en": "Adverse Childhood Experiences (Aces)"
+        },
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/Anthropometrics/Anthropometrics_schema",
+        "variableName": "Anthropometrics_schema",
+        "prefLabel": {
+          "en": "Anthropometrics"
         },
         "isVis": true
       },
@@ -501,14 +509,6 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/Height_Weight_Head_Circumference/Height_Weight_Head_Circumference_schema",
-        "variableName": "Height_Weight_Head_Circumference_schema",
-        "prefLabel": {
-          "en": "Height/Weight/Head Circumference"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/Household_Chemical_Exposures/Household_Chemical_Exposures_schema",
         "variableName": "Household_Chemical_Exposures_schema",
         "prefLabel": {
@@ -537,14 +537,6 @@
         "variableName": "Infant_Nutrition_Questionnaire_schema",
         "prefLabel": {
           "en": "Infant Nutrition Questionnaire"
-        },
-        "isVis": true
-      },
-      {
-        "isAbout": "../activities/Infant_Sensor_Questionnaire/Infant_Sensor_Questionnaire_schema",
-        "variableName": "Infant_Sensor_Questionnaire_schema",
-        "prefLabel": {
-          "en": "Infant Sensor Questionnaire"
         },
         "isVis": true
       },
@@ -981,22 +973,6 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/ecPROMIS_Anxiety/ecPROMIS_Anxiety_schema",
-        "variableName": "ecPROMIS_Anxiety_schema",
-        "prefLabel": {
-          "en": "Ecpromis - Anxiety"
-        },
-        "isVis": true
-      },
-      {
-        "isAbout": "../activities/ecPROMIS_Depression/ecPROMIS_Depression_schema",
-        "variableName": "ecPROMIS_Depression_schema",
-        "prefLabel": {
-          "en": "Ecpromis - Depression"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/ecPROMIS_Peer_Relation/ecPROMIS_Peer_Relation_schema",
         "variableName": "ecPROMIS_Peer_Relation_schema",
         "prefLabel": {
@@ -1031,12 +1007,13 @@
     ],
     "order": [
       "../activities/2_Item_Food_Insecurity/2_Item_Food_Insecurity_schema",
-      "../activities/ACEs/ACEs_schema",
       "../activities/APA_Level_1_Level_2/APA_Level_1_Level_2_schema",
       "../activities/ASSIST_V1/ASSIST_V1_schema",
       "../activities/ASSIST_V2/ASSIST_V2_schema",
       "../activities/ASSIST_V3/ASSIST_V3_schema",
       "../activities/ASSIST_V4/ASSIST_V4_schema",
+      "../activities/Adverse_Childhood_Experiences_ACEs/Adverse_Childhood_Experiences_ACEs_schema",
+      "../activities/Anthropometrics/Anthropometrics_schema",
       "../activities/BFY_Benefits_Services_Economic_Stress/BFY_Benefits_Services_Economic_Stress_schema",
       "../activities/BISQ_SF/BISQ_SF_schema",
       "../activities/Bayley/Bayley_schema",
@@ -1091,12 +1068,10 @@
       "../activities/HOME21_Early_Childhood/HOME21_Early_Childhood_schema",
       "../activities/HOME21_Infant_Toddler/HOME21_Infant_Toddler_schema",
       "../activities/Healthy_Pregnancy_Stress_Scale/Healthy_Pregnancy_Stress_Scale_schema",
-      "../activities/Height_Weight_Head_Circumference/Height_Weight_Head_Circumference_schema",
       "../activities/Household_Chemical_Exposures/Household_Chemical_Exposures_schema",
       "../activities/IBQ_R_Very_Short_Form_Behavior_Inhibition/IBQ_R_Very_Short_Form_Behavior_Inhibition_schema",
       "../activities/Incarceration_Questionnaire/Incarceration_Questionnaire_schema",
       "../activities/Infant_Nutrition_Questionnaire/Infant_Nutrition_Questionnaire_schema",
-      "../activities/Infant_Sensor_Questionnaire/Infant_Sensor_Questionnaire_schema",
       "../activities/Infant_Sensor_Questionnaire_1/Infant_Sensor_Questionnaire_1_schema",
       "../activities/Infant_Sensor_Questionnaire_2/Infant_Sensor_Questionnaire_2_schema",
       "../activities/Infant_Sensor_Questionnaire_3/Infant_Sensor_Questionnaire_3_schema",
@@ -1151,8 +1126,6 @@
       "../activities/Visit_Start/Visit_Start_schema",
       "../activities/ecPROMIS/ecPROMIS_schema",
       "../activities/ecPROMIS_1_5_y_o_Caregiver_Child_Interactions/ecPROMIS_1_5_y_o_Caregiver_Child_Interactions_schema",
-      "../activities/ecPROMIS_Anxiety/ecPROMIS_Anxiety_schema",
-      "../activities/ecPROMIS_Depression/ecPROMIS_Depression_schema",
       "../activities/ecPROMIS_Peer_Relation/ecPROMIS_Peer_Relation_schema",
       "../activities/ecPROMIS_Physical_Activity_Greenspace/ecPROMIS_Physical_Activity_Greenspace_schema",
       "../activities/ecPROMIS_Self_regulation_Flexibility_Scale/ecPROMIS_Self_regulation_Flexibility_Scale_schema",

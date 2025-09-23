@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_illness_015_i_dk == '999' AND pex_bm_healthv2_preg_i_illness_014 >== 1"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

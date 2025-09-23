@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -108,9 +108,6 @@
         "value": 15
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: ph_cg_ecls_i_medhist_017_i_01_dk == ''"
   },
   "additionalNotesObj": [
     {

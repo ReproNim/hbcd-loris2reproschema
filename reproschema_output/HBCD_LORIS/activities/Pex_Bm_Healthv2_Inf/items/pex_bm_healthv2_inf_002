@@ -14,8 +14,8 @@
   "responseOptions": {
     "valueType": [
       "xsd:float",
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -1405,9 +1405,6 @@
         "value": 30
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_inf_002_i_dk == ''"
   },
   "additionalNotesObj": [
     {

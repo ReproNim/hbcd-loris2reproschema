@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -210,9 +210,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: (event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_relat_002 == '1'"
   },
   "additionalNotesObj": [
     {

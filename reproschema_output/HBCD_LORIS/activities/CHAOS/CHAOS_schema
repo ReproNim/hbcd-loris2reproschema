@@ -81,19 +81,19 @@
         "variableName": "mh_cg_chaos_lang",
         "isAbout": "items/mh_cg_chaos_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_chaos_dtt",
         "isAbout": "items/mh_cg_chaos_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_chaos_timestamp_start",
         "isAbout": "items/mh_cg_chaos_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_chaos_timestamp_stop",
@@ -111,7 +111,7 @@
         "variableName": "mh_cg_chaos_location",
         "isAbout": "items/mh_cg_chaos_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_chaos_instr01",

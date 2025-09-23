@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -78,9 +78,6 @@
         "value": "10 or more"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk == ''"
   },
   "additionalNotesObj": [
     {

@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -1218,9 +1218,6 @@
         "value": 200
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_assistv2_end_i_use_008 == '1' AND pex_bm_assistv2_end_i_use_i_unit_008_dk == ''"
   },
   "additionalNotesObj": [
     {

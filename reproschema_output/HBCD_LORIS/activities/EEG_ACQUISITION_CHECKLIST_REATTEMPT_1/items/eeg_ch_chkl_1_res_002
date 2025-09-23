@@ -6,15 +6,15 @@
     "en": "eeg_ch_chkl_1_res_002"
   },
   "question": {
-    "en": "2. Resting State EEG Mood Rating"
+    "en": "5. Resting State EEG Mood Rating"
   },
   "ui": {
     "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {

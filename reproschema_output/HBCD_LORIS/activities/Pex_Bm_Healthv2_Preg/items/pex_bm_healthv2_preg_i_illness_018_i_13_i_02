@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -78,9 +78,6 @@
         "value": 10
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_illness_018_i_13_i_dk == '' AND pex_bm_healthv2_preg_i_illness_018_i_13_i_01 == '' AND  pex_bm_healthv2_preg_i_illness_014 >== 4"
   },
   "additionalNotesObj": [
     {

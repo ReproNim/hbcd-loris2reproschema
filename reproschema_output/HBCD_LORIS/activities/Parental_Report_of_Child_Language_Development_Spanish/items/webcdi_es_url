@@ -9,8 +9,7 @@
     "en": "URL to redirect to WebCDI for given participant/event"
   },
   "ui": {
-    "inputType": "text",
-    "readonlyValue": true
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [

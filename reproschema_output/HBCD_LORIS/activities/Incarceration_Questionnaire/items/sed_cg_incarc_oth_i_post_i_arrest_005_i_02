@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -618,9 +618,6 @@
         "value": 100
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk == ''"
   },
   "additionalNotesObj": [
     {

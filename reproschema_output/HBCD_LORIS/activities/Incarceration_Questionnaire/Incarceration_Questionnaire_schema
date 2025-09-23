@@ -292,19 +292,19 @@
         "variableName": "sed_cg_incarc_lang",
         "isAbout": "items/sed_cg_incarc_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_dtt",
         "isAbout": "items/sed_cg_incarc_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_timestamp_start",
         "isAbout": "items/sed_cg_incarc_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_timestamp_stop",
@@ -322,7 +322,7 @@
         "variableName": "sed_cg_incarc_location",
         "isAbout": "items/sed_cg_incarc_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_instr01",
@@ -340,31 +340,31 @@
         "variableName": "sed_cg_incarc_bm_i_during_002_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_during_002_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_002_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_during_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_002_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_002_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_during_002_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_002_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_003",
         "isAbout": "items/sed_cg_incarc_bm_i_during_003",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_004",
         "isAbout": "items/sed_cg_incarc_bm_i_during_004",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005",
@@ -376,43 +376,43 @@
         "variableName": "sed_cg_incarc_bm_i_during_005_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_02",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005_i_02 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_02_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_during_005_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_during_005_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_during_005_i_02_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_001",
@@ -424,31 +424,31 @@
         "variableName": "sed_cg_incarc_fath_i_during_002_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_during_002_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_002_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_during_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_002_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_002_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_during_002_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_002_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_003",
         "isAbout": "items/sed_cg_incarc_fath_i_during_003",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_004",
         "isAbout": "items/sed_cg_incarc_fath_i_during_004",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005",
@@ -460,43 +460,43 @@
         "variableName": "sed_cg_incarc_fath_i_during_005_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_02",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005_i_02 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_02_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_during_005_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_during_005_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_during_005_i_02_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_post_001",
@@ -508,1201 +508,1201 @@
         "variableName": "sed_cg_incarc_post_002",
         "isAbout": "items/sed_cg_incarc_post_002",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_instr_02",
         "isAbout": "items/sed_cg_incarc_instr_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(1) == '1' OR sed_cg_incarc_post_002(2) == '1' OR sed_cg_incarc_post_002(3) == '1' OR sed_cg_incarc_post_002(4) == '1' OR sed_cg_incarc_post_002(5) == '1' OR sed_cg_incarc_post_002(6) == '1' OR sed_cg_incarc_post_002(7) == '1' OR sed_cg_incarc_post_002(8) == '1' OR sed_cg_incarc_post_002(9) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(1) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_02",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_02_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_03",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_04",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_001_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_post_001_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_001_i_05_i_01 == '' AND sed_cg_incarc_bm_i_post_001_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(1) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_02",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_05_i_01 == '' AND sed_cg_incarc_bm_i_post_002_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_06",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_bm_i_post_002_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_bm_i_post_002_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(2) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_02",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_02_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_03",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_04",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_001_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_post_001_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_001_i_05_i_01 == '' AND sed_cg_incarc_fath_i_post_001_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(2) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_02",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_05_i_01 == '' AND sed_cg_incarc_fath_i_post_002_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_06",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_fath_i_post_002_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_fath_i_post_002_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(3) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_001_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(3) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_002_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_002_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(4) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_003_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(4) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_004_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_004_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(5) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_005_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(5) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_006_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_006_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(6) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_007_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(6) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_008_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_008_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(7) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_009_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(7) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_010_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_010_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(8) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_011_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(8) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_012_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_012_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(9) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_02_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_03",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_04",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_arrest_013_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_post_002(9) == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_02_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_01 == '' AND sed_cg_incarc_oth_i_post_i_incarc_014_i_05_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_00",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_00",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06 == '5'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk",
         "isAbout": "items/sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01_i_dk",
         "valueRequired": false,
-        "isVis": "sed_cg_incarc_oth_i_post_i_incarc_014_i_06_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_incarc_Validity",

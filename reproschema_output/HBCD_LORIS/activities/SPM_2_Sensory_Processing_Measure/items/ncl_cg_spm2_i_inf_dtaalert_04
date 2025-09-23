@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ncl_cg_spm2_i_inf_touch_001 == '777' OR ncl_cg_spm2_i_inf_touch_002 == '777' OR ncl_cg_spm2_i_inf_touch_003 == '777' OR ncl_cg_spm2_i_inf_touch_004 == '777' OR ncl_cg_spm2_i_inf_touch_005 == '777' OR ncl_cg_spm2_i_inf_touch_006 == '777' OR ncl_cg_spm2_i_inf_touch_007 == '777' OR ncl_cg_spm2_i_inf_touch_008 == '777' OR ncl_cg_spm2_i_inf_touch_009 == '777' OR ncl_cg_spm2_i_inf_touch_010 == '777'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

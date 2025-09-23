@@ -105,19 +105,19 @@
         "variableName": "mh_cg_mapstl_i_tod_lang",
         "isAbout": "items/mh_cg_mapstl_i_tod_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_tod_dtt",
         "isAbout": "items/mh_cg_mapstl_i_tod_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_tod_timestamp_start",
         "isAbout": "items/mh_cg_mapstl_i_tod_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_tod_timestamp_stop",
@@ -135,7 +135,7 @@
         "variableName": "mh_cg_mapstl_i_tod_location",
         "isAbout": "items/mh_cg_mapstl_i_tod_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_tod_instr01",

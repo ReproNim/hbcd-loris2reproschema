@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -378,9 +378,6 @@
         "value": 60
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: v02_arm_1ph_cg_phx_i_bfh_003_i_dk == '' AND event-name == 'v02_arm_1'"
   },
   "additionalNotesObj": [
     {
