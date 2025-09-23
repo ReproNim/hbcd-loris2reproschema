@@ -4,7 +4,7 @@ loris:
   output_dir: "loris_data_dictionaries"
 
 conversion:
-  config_file: "hbcd-loris.yml"
+  config_file: "config/conversion.yml"
   output_path: "reproschema_output"
 
 validation:
