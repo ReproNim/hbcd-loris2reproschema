@@ -61,6 +61,10 @@ jobs:
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Set date variable
+        if: steps.check_changes.outputs.changes == 'true'
+        run: echo "CURRENT_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
         id: create_pr
@@ -68,11 +72,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: |
-            Automated update from LORIS data dictionary $(date +%Y-%m-%d)
+            Automated update from LORIS data dictionary ${{ env.CURRENT_DATE }}
 
             This update was automatically generated from the latest LORIS data dictionary.
-          branch: auto-update-$(date +%Y-%m-%d)
-          title: "[Auto] Update ReproSchema from LORIS - $(date +%Y-%m-%d)"
+          branch: auto-update-${{ env.CURRENT_DATE }}
+          title: "[Auto] Update ReproSchema from LORIS - ${{ env.CURRENT_DATE }}"
           add-paths: |
             reproschema_output/
             reports/
