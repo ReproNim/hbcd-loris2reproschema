@@ -161,11 +161,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `🚨 LORIS Data Retrieval Failed - ${new Date().toISOString().split('T')[0]}`,
-              body: `The automated LORIS data dictionary retrieval failed.
-
-**Workflow Run:** ${runUrl}
-**Date:** ${new Date().toISOString()}
-
-Check the workflow logs for details and re-run once the issue is resolved.`,
+              body: `The automated LORIS data dictionary retrieval failed.\n\n**Workflow Run:** ${runUrl}\n**Date:** ${new Date().toISOString()}\n\nCheck the workflow logs for details and re-run once the issue is resolved.`,
               labels: ['bug', 'automated']
             });
