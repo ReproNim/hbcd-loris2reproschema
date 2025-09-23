@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -48,9 +48,6 @@
         "value": 5
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_inf_i_meds_009_i_dk == ''"
   },
   "additionalNotesObj": [
     {

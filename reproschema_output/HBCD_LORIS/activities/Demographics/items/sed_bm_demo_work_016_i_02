@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -300,9 +300,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_bm_demo_work_i_env_002 == '1'"
   },
   "additionalNotesObj": [
     {

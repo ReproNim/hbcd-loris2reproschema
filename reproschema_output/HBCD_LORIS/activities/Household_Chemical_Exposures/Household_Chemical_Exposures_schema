@@ -110,19 +110,19 @@
         "variableName": "sed_cg_hce_lang",
         "isAbout": "items/sed_cg_hce_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_dtt",
         "isAbout": "items/sed_cg_hce_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_timestamp_start",
         "isAbout": "items/sed_cg_hce_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_timestamp_stop",
@@ -140,7 +140,7 @@
         "variableName": "sed_cg_hce_location",
         "isAbout": "items/sed_cg_hce_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_instruc_01",
@@ -164,271 +164,271 @@
         "variableName": "sed_cg_hce_002",
         "isAbout": "items/sed_cg_hce_002",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_003",
         "isAbout": "items/sed_cg_hce_003",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_004",
         "isAbout": "items/sed_cg_hce_004",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_005",
         "isAbout": "items/sed_cg_hce_005",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_006",
         "isAbout": "items/sed_cg_hce_006",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_006_i_01",
         "isAbout": "items/sed_cg_hce_006_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_006 =='1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_007",
         "isAbout": "items/sed_cg_hce_007",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_007_i_01",
         "isAbout": "items/sed_cg_hce_007_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_007 =='1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_008",
         "isAbout": "items/sed_cg_hce_008",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_008_i_01",
         "isAbout": "items/sed_cg_hce_008_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_008 =='1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_009",
         "isAbout": "items/sed_cg_hce_009",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_010",
         "isAbout": "items/sed_cg_hce_010",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_011",
         "isAbout": "items/sed_cg_hce_011",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_012",
         "isAbout": "items/sed_cg_hce_012",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_013",
         "isAbout": "items/sed_cg_hce_013",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_014",
         "isAbout": "items/sed_cg_hce_014",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_015",
         "isAbout": "items/sed_cg_hce_015",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_016",
         "isAbout": "items/sed_cg_hce_016",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_017",
         "isAbout": "items/sed_cg_hce_017",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_018",
         "isAbout": "items/sed_cg_hce_018",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_018_i_01",
         "isAbout": "items/sed_cg_hce_018_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_018 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_018_i_02",
         "isAbout": "items/sed_cg_hce_018_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_018 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_instruc_03",
         "isAbout": "items/sed_cg_hce_instruc_03",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_019",
         "isAbout": "items/sed_cg_hce_019",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_020",
         "isAbout": "items/sed_cg_hce_020",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_020_i_01",
         "isAbout": "items/sed_cg_hce_020_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_020 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_021",
         "isAbout": "items/sed_cg_hce_021",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_021_i_01",
         "isAbout": "items/sed_cg_hce_021_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_021 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_022",
         "isAbout": "items/sed_cg_hce_022",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_022_i_01",
         "isAbout": "items/sed_cg_hce_022_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_022 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_023",
         "isAbout": "items/sed_cg_hce_023",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_020 == '1' OR sed_cg_hce_021 == '1' OR sed_cg_hce_022 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_024",
         "isAbout": "items/sed_cg_hce_024",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_024_i_01",
         "isAbout": "items/sed_cg_hce_024_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_024 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_025",
         "isAbout": "items/sed_cg_hce_025",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_025_i_01",
         "isAbout": "items/sed_cg_hce_025_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_025 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_026",
         "isAbout": "items/sed_cg_hce_026",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_026_i_01",
         "isAbout": "items/sed_cg_hce_026_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_026 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_027",
         "isAbout": "items/sed_cg_hce_027",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_024 == '1' OR sed_cg_hce_025 == '1' OR sed_cg_hce_026 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_028",
         "isAbout": "items/sed_cg_hce_028",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_028_i_01",
         "isAbout": "items/sed_cg_hce_028_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_028 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_028_i_02",
         "isAbout": "items/sed_cg_hce_028_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_028 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_028_i_03",
         "isAbout": "items/sed_cg_hce_028_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_028_i_02 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_029",
         "isAbout": "items/sed_cg_hce_029",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_030",
         "isAbout": "items/sed_cg_hce_030",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_001 == '1' OR sed_cg_hce_001 == '2'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_030_i_01",
         "isAbout": "items/sed_cg_hce_030_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_hce_030 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hce_Validity",

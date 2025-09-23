@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -60,9 +60,6 @@
         "value": 7
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: ncl_ch_mlds_002_i_01 >== 5 AND ncl_ch_mlds_002_i_01 !== '777' AND  ncl_ch_mlds_002_i_01 !== '999' AND ncl_ch_mlds_007_i_08_dk == ''"
   },
   "additionalNotesObj": [
     {

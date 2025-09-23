@@ -9,14 +9,13 @@
     "en": "RETIRED FIELD: Methadone amount (mg)"
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:float",
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -6020,9 +6019,6 @@
         "value": 100
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_assistv1_pre_during_i_use_i_unit_008 == '1' AND pex_bm_assistv1_pre_during_i_use_i_unit_008_dk ==''"
   },
   "additionalNotesObj": [
     {

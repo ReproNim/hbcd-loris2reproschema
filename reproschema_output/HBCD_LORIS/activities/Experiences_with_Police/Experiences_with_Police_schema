@@ -91,19 +91,19 @@
         "variableName": "sed_cg_nsc_lang",
         "isAbout": "items/sed_cg_nsc_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_dtt",
         "isAbout": "items/sed_cg_nsc_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_timestamp_start",
         "isAbout": "items/sed_cg_nsc_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_timestamp_stop",
@@ -121,7 +121,7 @@
         "variableName": "sed_cg_nsc_location",
         "isAbout": "items/sed_cg_nsc_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_001",
@@ -133,7 +133,7 @@
         "variableName": "sed_cg_nsc_001_i_01",
         "isAbout": "items/sed_cg_nsc_001_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_002",
@@ -145,139 +145,139 @@
         "variableName": "sed_cg_nsc_003",
         "isAbout": "items/sed_cg_nsc_003",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_003_i_01",
         "isAbout": "items/sed_cg_nsc_003_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_004",
         "isAbout": "items/sed_cg_nsc_004",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_004_i_01",
         "isAbout": "items/sed_cg_nsc_004_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_005",
         "isAbout": "items/sed_cg_nsc_005",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_005_i_01",
         "isAbout": "items/sed_cg_nsc_005_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_006",
         "isAbout": "items/sed_cg_nsc_006",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_006_i_01",
         "isAbout": "items/sed_cg_nsc_006_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_007",
         "isAbout": "items/sed_cg_nsc_007",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_007_i_01",
         "isAbout": "items/sed_cg_nsc_007_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_008",
         "isAbout": "items/sed_cg_nsc_008",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_008_i_01",
         "isAbout": "items/sed_cg_nsc_008_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_009",
         "isAbout": "items/sed_cg_nsc_009",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_010",
         "isAbout": "items/sed_cg_nsc_010",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_010_i_01",
         "isAbout": "items/sed_cg_nsc_010_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_010 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_011",
         "isAbout": "items/sed_cg_nsc_011",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_011_i_01",
         "isAbout": "items/sed_cg_nsc_011_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_011 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_012",
         "isAbout": "items/sed_cg_nsc_012",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_012_i_01",
         "isAbout": "items/sed_cg_nsc_012_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_012 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_013",
         "isAbout": "items/sed_cg_nsc_013",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_013_i_01",
         "isAbout": "items/sed_cg_nsc_013_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_013 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_014",
         "isAbout": "items/sed_cg_nsc_014",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_014_i_01",
         "isAbout": "items/sed_cg_nsc_014_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_nsc_014 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_nsc_015",

@@ -25,7 +25,6 @@
       "items/mh_cg_erica_15_30_m_cod_002_status",
       "items/mh_cg_erica_15_30_m_cod_003",
       "items/mh_cg_erica_15_30_m_cod_003_status",
-      "items/mh_cg_erica_15_30_m_cod_005",
       "items/mh_cg_erica_15_30_m_ecn_001",
       "items/mh_cg_erica_15_30_m_ecn_002",
       "items/mh_cg_erica_15_30_m_ecn_002_i_01",
@@ -204,12 +203,6 @@
       {
         "variableName": "mh_cg_erica_15_30_m_cod_003_status",
         "isAbout": "items/mh_cg_erica_15_30_m_cod_003_status",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_erica_15_30_m_cod_005",
-        "isAbout": "items/mh_cg_erica_15_30_m_cod_005",
         "valueRequired": false,
         "isVis": true
       },

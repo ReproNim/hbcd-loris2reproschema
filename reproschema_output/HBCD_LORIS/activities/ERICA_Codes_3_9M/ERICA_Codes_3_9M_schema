@@ -25,7 +25,6 @@
       "items/mh_cg_erica_3_9m_cod_002_status",
       "items/mh_cg_erica_3_9m_cod_003",
       "items/mh_cg_erica_3_9m_cod_003_status",
-      "items/mh_cg_erica_3_9m_cod_005",
       "items/mh_cg_erica_3_9m_cod_006",
       "items/mh_cg_erica_3_9m_cod_007",
       "items/mh_cg_erica_3_9m_cod_007_i_01",
@@ -223,12 +222,6 @@
       {
         "variableName": "mh_cg_erica_3_9m_cod_003_status",
         "isAbout": "items/mh_cg_erica_3_9m_cod_003_status",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_erica_3_9m_cod_005",
-        "isAbout": "items/mh_cg_erica_3_9m_cod_005",
         "valueRequired": false,
         "isVis": true
       },

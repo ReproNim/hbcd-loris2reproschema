@@ -463,7 +463,7 @@
         "variableName": "pex_bm_health_preg_i_meds_lang",
         "isAbout": "items/pex_bm_health_preg_i_meds_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_dtt",
@@ -499,133 +499,133 @@
         "variableName": "pex_bm_health_preg_i_meds_002_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_002_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_002",
         "isAbout": "items/pex_bm_health_preg_i_meds_002",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_002_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_002_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_03_dk =='' AND pex_bm_health_preg_i_meds_003_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1  AND pex_bm_health_preg_i_meds_003_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_05_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_003_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_01_name",
@@ -637,97 +637,97 @@
         "variableName": "pex_bm_health_preg_i_meds_004_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_03_dk =='' AND pex_bm_health_preg_i_meds_004_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2  AND pex_bm_health_preg_i_meds_004_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_004_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_004_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_004_i_05_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_01_name",
@@ -739,97 +739,97 @@
         "variableName": "pex_bm_health_preg_i_meds_005_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_03_dk =='' AND pex_bm_health_preg_i_meds_005_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_005_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_005_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_005_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_01_name",
@@ -841,97 +841,97 @@
         "variableName": "pex_bm_health_preg_i_meds_006_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_03_dk =='' AND pex_bm_health_preg_i_meds_006_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_006_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_006_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_006_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_01_name",
@@ -943,97 +943,97 @@
         "variableName": "pex_bm_health_preg_i_meds_007_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_03_dk =='' AND pex_bm_health_preg_i_meds_007_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_007_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_007_i_05 == '1' AND pex_bm_health_preg_i_meds_007_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_007_i_05 == '1' AND pex_bm_health_preg_i_meds_007_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_01_name",
@@ -1045,97 +1045,97 @@
         "variableName": "pex_bm_health_preg_i_meds_008_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_03_dk =='' AND pex_bm_health_preg_i_meds_008_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_008_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_008_i_05 == '1' AND pex_bm_health_preg_i_meds_008_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_008_i_05 == '1' AND pex_bm_health_preg_i_meds_008_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_01_name",
@@ -1147,97 +1147,97 @@
         "variableName": "pex_bm_health_preg_i_meds_009_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_03_dk =='' AND pex_bm_health_preg_i_meds_009_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_009_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_009_i_05 == '1' AND pex_bm_health_preg_i_meds_009_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_009_i_05 == '1' AND pex_bm_health_preg_i_meds_009_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_01_name",
@@ -1249,97 +1249,97 @@
         "variableName": "pex_bm_health_preg_i_meds_010_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_03_dk =='' AND pex_bm_health_preg_i_meds_010_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_010_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_010_i_05 == '1' AND pex_bm_health_preg_i_meds_010_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_010_i_05 == '1' AND pex_bm_health_preg_i_meds_010_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_01_name",
@@ -1351,97 +1351,97 @@
         "variableName": "pex_bm_health_preg_i_meds_011_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_03_dk =='' AND pex_bm_health_preg_i_meds_011_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_011_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_011_i_05 == '1' AND pex_bm_health_preg_i_meds_011_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_011_i_05 == '1' AND pex_bm_health_preg_i_meds_011_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_01_name",
@@ -1453,79 +1453,79 @@
         "variableName": "pex_bm_health_preg_i_meds_012_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_03_dk =='' AND pex_bm_health_preg_i_meds_012_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_012_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_012_i_05 == '1' AND pex_bm_health_preg_i_meds_012_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_012_i_05 == '1' AND pex_bm_health_preg_i_meds_012_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_013",
@@ -1537,979 +1537,979 @@
         "variableName": "pex_bm_health_preg_i_meds_014_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_014_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_013 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_014",
         "isAbout": "items/pex_bm_health_preg_i_meds_014",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_014_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_014_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_03_dk =='' AND pex_bm_health_preg_i_meds_015_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_015_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_015_i_05 == '1' AND pex_bm_health_preg_i_meds_015_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_015_i_05 == '1' AND pex_bm_health_preg_i_meds_015_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_03_dk =='' AND pex_bm_health_preg_i_meds_016_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_016_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_016_i_05 == '1' AND pex_bm_health_preg_i_meds_016_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_016_i_05 == '1' AND pex_bm_health_preg_i_meds_016_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_03_dk =='' AND pex_bm_health_preg_i_meds_017_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_017_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_017_i_05 == '1' AND pex_bm_health_preg_i_meds_017_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_017_i_05 == '1' AND pex_bm_health_preg_i_meds_017_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_03_dk =='' AND pex_bm_health_preg_i_meds_018_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_018_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_018_i_05 == '1' AND pex_bm_health_preg_i_meds_018_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_018_i_05 == '1' AND pex_bm_health_preg_i_meds_018_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_03_dk =='' AND pex_bm_health_preg_i_meds_019_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_019_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_019_i_05 == '1' AND pex_bm_health_preg_i_meds_019_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_019_i_05 == '1' AND pex_bm_health_preg_i_meds_019_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_03_dk =='' AND pex_bm_health_preg_i_meds_020_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_020_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_020_i_05 == '1' AND pex_bm_health_preg_i_meds_020_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_020_i_05 == '1' AND pex_bm_health_preg_i_meds_020_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_03_dk =='' AND pex_bm_health_preg_i_meds_021_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_021_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_021_i_05 == '1' AND pex_bm_health_preg_i_meds_021_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_021_i_05 == '1' AND pex_bm_health_preg_i_meds_021_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_03_dk =='' AND pex_bm_health_preg_i_meds_022_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_022_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_022_i_05 == '1' AND pex_bm_health_preg_i_meds_022_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_022_i_05 == '1' AND pex_bm_health_preg_i_meds_022_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_03_dk =='' AND pex_bm_health_preg_i_meds_023_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_023_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_023_i_05 == '1' AND pex_bm_health_preg_i_meds_023_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_023_i_05 == '1' AND pex_bm_health_preg_i_meds_023_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_01_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_01_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_01_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_01 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_02_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_02_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_02_dk == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_02_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_02_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_02 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 ==10 AND pex_bm_health_preg_i_meds_024_i_03_dk =='' AND pex_bm_health_preg_i_meds_024_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_04_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_04_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_04_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_04_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_04_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_04 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_05",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_05",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_05_i_00",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_05_i_00",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_024_i_05 == '1'"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_05_i_01",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_05_i_01",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_024_i_05 == '1' AND pex_bm_health_preg_i_meds_024_i_05_i_01_dk ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_05_i_01_dk",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_05_i_01_dk",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_024_i_05 == '1' AND pex_bm_health_preg_i_meds_024_i_05_i_01 ==''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_025",
@@ -2545,361 +2545,361 @@
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_03_dk =='' AND pex_bm_health_preg_i_meds_003_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_03_dk =='' AND pex_bm_health_preg_i_meds_003_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_003_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 1 AND pex_bm_health_preg_i_meds_003_i_03_dk =='' AND pex_bm_health_preg_i_meds_003_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_003_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_03_dk =='' AND pex_bm_health_preg_i_meds_004_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_03_dk =='' AND pex_bm_health_preg_i_meds_004_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_004_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_004_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 2 AND pex_bm_health_preg_i_meds_004_i_03_dk =='' AND pex_bm_health_preg_i_meds_004_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_03_dk =='' AND pex_bm_health_preg_i_meds_005_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_03_dk =='' AND pex_bm_health_preg_i_meds_005_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_005_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_005_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 3 AND pex_bm_health_preg_i_meds_005_i_03_dk =='' AND pex_bm_health_preg_i_meds_005_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_005_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_03_dk =='' AND pex_bm_health_preg_i_meds_006_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_03_dk =='' AND pex_bm_health_preg_i_meds_006_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_006_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_006_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 4 AND pex_bm_health_preg_i_meds_006_i_03_dk =='' AND pex_bm_health_preg_i_meds_006_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_006_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_03_dk =='' AND pex_bm_health_preg_i_meds_007_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_03_dk =='' AND pex_bm_health_preg_i_meds_007_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_007_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_007_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 5 AND pex_bm_health_preg_i_meds_007_i_03_dk =='' AND pex_bm_health_preg_i_meds_007_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_007_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_03_dk =='' AND pex_bm_health_preg_i_meds_008_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_03_dk =='' AND pex_bm_health_preg_i_meds_008_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_008_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_008_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 6 AND pex_bm_health_preg_i_meds_008_i_03_dk =='' AND pex_bm_health_preg_i_meds_008_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_008_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_03_dk =='' AND pex_bm_health_preg_i_meds_009_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_03_dk =='' AND pex_bm_health_preg_i_meds_009_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_009_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_009_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_03_dk =='' AND pex_bm_health_preg_i_meds_009_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_009_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_03_dk =='' AND pex_bm_health_preg_i_meds_010_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_03_dk =='' AND pex_bm_health_preg_i_meds_010_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_010_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_010_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 8 AND pex_bm_health_preg_i_meds_010_i_03_dk =='' AND pex_bm_health_preg_i_meds_010_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_010_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_03_dk =='' AND pex_bm_health_preg_i_meds_011_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_03_dk =='' AND pex_bm_health_preg_i_meds_011_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_011_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_011_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 >== 9 AND pex_bm_health_preg_i_meds_011_i_03_dk =='' AND pex_bm_health_preg_i_meds_011_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_011_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_03_dk =='' AND pex_bm_health_preg_i_meds_012_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_03_dk =='' AND pex_bm_health_preg_i_meds_012_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_012_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_012_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_002 == 10 AND pex_bm_health_preg_i_meds_012_i_03_dk =='' AND pex_bm_health_preg_i_meds_012_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_012_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_03_dk =='' AND pex_bm_health_preg_i_meds_015_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_03_dk =='' AND pex_bm_health_preg_i_meds_015_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_015_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_015_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 1 AND pex_bm_health_preg_i_meds_015_i_03_dk =='' AND pex_bm_health_preg_i_meds_015_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_015_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_03_dk =='' AND pex_bm_health_preg_i_meds_016_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_03_dk =='' AND pex_bm_health_preg_i_meds_016_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_016_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_016_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 2 AND pex_bm_health_preg_i_meds_016_i_03_dk =='' AND pex_bm_health_preg_i_meds_016_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_016_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_03_dk =='' AND pex_bm_health_preg_i_meds_017_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_03_dk =='' AND pex_bm_health_preg_i_meds_017_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_017_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_017_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 3 AND pex_bm_health_preg_i_meds_017_i_03_dk =='' AND pex_bm_health_preg_i_meds_017_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_017_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_03_dk =='' AND pex_bm_health_preg_i_meds_018_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_03_dk =='' AND pex_bm_health_preg_i_meds_018_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_018_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_018_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 4 AND pex_bm_health_preg_i_meds_018_i_03_dk =='' AND pex_bm_health_preg_i_meds_018_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_018_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_03_dk =='' AND pex_bm_health_preg_i_meds_019_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_03_dk =='' AND pex_bm_health_preg_i_meds_019_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_019_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_019_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 5 AND pex_bm_health_preg_i_meds_019_i_03_dk =='' AND pex_bm_health_preg_i_meds_019_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_019_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_03_dk =='' AND pex_bm_health_preg_i_meds_020_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_03_dk =='' AND pex_bm_health_preg_i_meds_020_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_020_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_020_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 6 AND pex_bm_health_preg_i_meds_020_i_03_dk =='' AND pex_bm_health_preg_i_meds_020_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_020_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_03_dk =='' AND pex_bm_health_preg_i_meds_021_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_03_dk =='' AND pex_bm_health_preg_i_meds_021_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_021_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_021_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 7 AND pex_bm_health_preg_i_meds_021_i_03_dk =='' AND pex_bm_health_preg_i_meds_021_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_021_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_03_dk =='' AND pex_bm_health_preg_i_meds_022_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_03_dk =='' AND pex_bm_health_preg_i_meds_022_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_022_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_022_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 8 AND pex_bm_health_preg_i_meds_022_i_03_dk =='' AND pex_bm_health_preg_i_meds_022_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_022_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_03_dk =='' AND pex_bm_health_preg_i_meds_023_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_03_dk =='' AND pex_bm_health_preg_i_meds_023_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_023_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_023_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 >== 9 AND pex_bm_health_preg_i_meds_023_i_03_dk =='' AND pex_bm_health_preg_i_meds_023_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_023_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_i_02",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_i_02",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_03_dk =='' AND pex_bm_health_preg_i_meds_024_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_i_03",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_i_03",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_03_dk =='' AND pex_bm_health_preg_i_meds_024_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_04 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_024_i_03_i_04",
         "isAbout": "items/pex_bm_health_preg_i_meds_024_i_03_i_04",
         "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_meds_014 == 10 AND pex_bm_health_preg_i_meds_024_i_03_dk =='' AND pex_bm_health_preg_i_meds_024_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_024_i_03_i_03 == ''"
+        "isVis": true
       },
       {
         "variableName": "pex_bm_health_preg_i_meds_003_i_01_name",

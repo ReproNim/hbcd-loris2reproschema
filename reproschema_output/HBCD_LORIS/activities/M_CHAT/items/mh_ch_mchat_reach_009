@@ -30,9 +30,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: mh_ch_mchat_reach_003 == '1' OR mh_ch_mchat_reach_005 == '1' OR mh_ch_mchat_reach_006 == '1' OR mh_ch_mchat_reach_007 == '1'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

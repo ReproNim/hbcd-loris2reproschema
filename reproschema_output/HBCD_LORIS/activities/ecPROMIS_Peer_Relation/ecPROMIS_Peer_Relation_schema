@@ -69,19 +69,19 @@
         "variableName": "mh_cg_pms_i_peer_lang",
         "isAbout": "items/mh_cg_pms_i_peer_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_pms_i_peer_dtt",
         "isAbout": "items/mh_cg_pms_i_peer_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_pms_i_peer_timestamp_start",
         "isAbout": "items/mh_cg_pms_i_peer_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_pms_i_peer_timestamp_stop",
@@ -99,7 +99,7 @@
         "variableName": "mh_cg_pms_i_peer_location",
         "isAbout": "items/mh_cg_pms_i_peer_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_pms_i_peer_instr01",

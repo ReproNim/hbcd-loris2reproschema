@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -156,9 +156,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: ph_cg_inq_007_i_11 == '1' AND ph_cg_inq_007_i_11_i_01 == '' AND ph_cg_inq_007_i_11_i_03 == ''"
   },
   "additionalNotesObj": [
     {

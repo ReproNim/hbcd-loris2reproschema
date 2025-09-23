@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -72,9 +72,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_subst_tobacco_004(3) == '1'"
   },
   "additionalNotesObj": [
     {

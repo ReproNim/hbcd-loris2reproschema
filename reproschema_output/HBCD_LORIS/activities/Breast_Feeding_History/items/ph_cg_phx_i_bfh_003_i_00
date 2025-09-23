@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: event-name == 'v02_arm_1' AND v02_arm_1ph_cg_phx_i_bfh_003 == '0'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

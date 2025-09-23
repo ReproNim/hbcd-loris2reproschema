@@ -9,13 +9,12 @@
     "en": "How many times has this happened to a close friend or family member in the past year?"
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -55,9 +54,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_nsc_013 == '1'"
   },
   "additionalNotesObj": [
     {

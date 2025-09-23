@@ -9,8 +9,7 @@
     "en": "Age (in month) at time of WebCDI (English) administration"
   },
   "ui": {
-    "inputType": "number",
-    "readonlyValue": true
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [

@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -96,9 +96,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_bm_demo_child_i_roster_002_i_02_i_03 >== 16 AND sed_bm_demo_child_i_roster_019_i_01 == '0'"
   },
   "additionalNotesObj": [
     {

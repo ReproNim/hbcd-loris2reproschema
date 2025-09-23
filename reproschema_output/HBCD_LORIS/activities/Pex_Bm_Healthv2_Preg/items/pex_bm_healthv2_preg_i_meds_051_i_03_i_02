@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -306,9 +306,6 @@
         "value": 48
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_meds_046 >== 5 AND pex_bm_healthv2_preg_i_meds_051_i_03_dk =='' AND pex_bm_healthv2_preg_i_meds_051_i_03_i_01 == '' AND pex_bm_healthv2_preg_i_meds_051_i_03_i_03 == '' AND pex_bm_healthv2_preg_i_meds_051_i_03_i_04 == ''"
   },
   "additionalNotesObj": [
     {

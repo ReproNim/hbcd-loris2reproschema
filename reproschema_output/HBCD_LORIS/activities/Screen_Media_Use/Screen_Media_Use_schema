@@ -84,19 +84,19 @@
         "variableName": "ph_cg_screenq_lang",
         "isAbout": "items/ph_cg_screenq_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_dtt",
         "isAbout": "items/ph_cg_screenq_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_timestamp_start",
         "isAbout": "items/ph_cg_screenq_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_timestamp_stop",
@@ -114,37 +114,37 @@
         "variableName": "ph_cg_screenq_location",
         "isAbout": "items/ph_cg_screenq_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_001",
         "isAbout": "items/ph_cg_screenq_001",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_002",
         "isAbout": "items/ph_cg_screenq_002",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_003",
         "isAbout": "items/ph_cg_screenq_003",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_004",
         "isAbout": "items/ph_cg_screenq_004",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_005",
         "isAbout": "items/ph_cg_screenq_005",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_006",
@@ -156,67 +156,67 @@
         "variableName": "ph_cg_screenq_007",
         "isAbout": "items/ph_cg_screenq_007",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_008",
         "isAbout": "items/ph_cg_screenq_008",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_009",
         "isAbout": "items/ph_cg_screenq_009",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_010",
         "isAbout": "items/ph_cg_screenq_010",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_011",
         "isAbout": "items/ph_cg_screenq_011",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_012",
         "isAbout": "items/ph_cg_screenq_012",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_013",
         "isAbout": "items/ph_cg_screenq_013",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_014",
         "isAbout": "items/ph_cg_screenq_014",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_015",
         "isAbout": "items/ph_cg_screenq_015",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_016",
         "isAbout": "items/ph_cg_screenq_016",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_017",
         "isAbout": "items/ph_cg_screenq_017",
         "valueRequired": false,
-        "isVis": "ph_cg_screenq_006 !== '0'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_access_score",

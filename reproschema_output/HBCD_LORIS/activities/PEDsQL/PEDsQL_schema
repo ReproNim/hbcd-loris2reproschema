@@ -90,19 +90,19 @@
         "variableName": "ph_cg_pedsql_lang",
         "isAbout": "items/ph_cg_pedsql_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_dtt",
         "isAbout": "items/ph_cg_pedsql_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_timestamp_start",
         "isAbout": "items/ph_cg_pedsql_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_timestamp_stop",
@@ -120,7 +120,7 @@
         "variableName": "ph_cg_pedsql_location",
         "isAbout": "items/ph_cg_pedsql_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_instr01",
@@ -228,37 +228,37 @@
         "variableName": "ph_cg_pedsql_instr05",
         "isAbout": "items/ph_cg_pedsql_instr05",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_014",
         "isAbout": "items/ph_cg_pedsql_014",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_015",
         "isAbout": "items/ph_cg_pedsql_015",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_016",
         "isAbout": "items/ph_cg_pedsql_016",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_017",
         "isAbout": "items/ph_cg_pedsql_017",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_018",
         "isAbout": "items/ph_cg_pedsql_018",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr04(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_instr06",
@@ -270,25 +270,25 @@
         "variableName": "ph_cg_pedsql_instr07",
         "isAbout": "items/ph_cg_pedsql_instr07",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr06(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_019",
         "isAbout": "items/ph_cg_pedsql_019",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr06(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_020",
         "isAbout": "items/ph_cg_pedsql_020",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr06(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_021",
         "isAbout": "items/ph_cg_pedsql_021",
         "valueRequired": false,
-        "isVis": "ph_cg_pedsql_instr06(1) !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_Validity",

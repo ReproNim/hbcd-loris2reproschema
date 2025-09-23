@@ -9,8 +9,7 @@
     "en": "What terms best express how you describe your gender identity? (Check all that apply)"
   },
   "ui": {
-    "inputType": "selectMultiple",
-    "readonlyValue": true
+    "inputType": "selectMultiple"
   },
   "responseOptions": {
     "valueType": [
@@ -67,9 +66,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: event-name == 'v01_arm_1' OR (event-name == 'v02_arm_1' AND screening_arm_1recruitment_period == '2') OR event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'"
   },
   "additionalNotesObj": [
     {

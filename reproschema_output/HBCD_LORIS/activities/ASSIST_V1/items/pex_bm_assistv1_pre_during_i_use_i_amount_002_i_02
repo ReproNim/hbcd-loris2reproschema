@@ -14,8 +14,8 @@
   "responseOptions": {
     "valueType": [
       "xsd:float",
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -1231,9 +1231,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_assistv1_pre_during_i_use_002_i_02 == '1' AND pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk == ''"
   },
   "additionalNotesObj": [
     {

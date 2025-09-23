@@ -9,8 +9,7 @@
     "en": "Has a police officer ever been aggressive towards a close friend or family member in a non-physical way or used racial, ethnic, or other slurs towards them?"
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
@@ -42,9 +41,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_nsc_009 == '1'"
   },
   "additionalNotesObj": [
     {

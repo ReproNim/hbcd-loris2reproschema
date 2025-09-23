@@ -74,19 +74,19 @@
         "variableName": "sed_bm_phx_i_discr_lang",
         "isAbout": "items/sed_bm_phx_i_discr_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_phx_i_discr_dtt",
         "isAbout": "items/sed_bm_phx_i_discr_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_phx_i_discr_timestamp_start",
         "isAbout": "items/sed_bm_phx_i_discr_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_phx_i_discr_timestamp_stop",
@@ -104,7 +104,7 @@
         "variableName": "sed_bm_phx_i_discr_location",
         "isAbout": "items/sed_bm_phx_i_discr_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_phx_i_discr_001",
@@ -176,7 +176,7 @@
         "variableName": "sed_bm_phx_i_discr_006",
         "isAbout": "items/sed_bm_phx_i_discr_006",
         "valueRequired": false,
-        "isVis": "sed_bm_phx_i_discr_001 == '1' or sed_bm_phx_i_discr_001 == '2' or sed_bm_phx_i_discr_001 == '3' or sed_bm_phx_i_discr_001 == '4' or sed_bm_phx_i_discr_002 == '1' or sed_bm_phx_i_discr_002 == '2' or sed_bm_phx_i_discr_002 == '3' or sed_bm_phx_i_discr_002 == '4' or sed_bm_phx_i_discr_003 == '1' or sed_bm_phx_i_discr_003 == '2' or sed_bm_phx_i_discr_003 == '3' or sed_bm_phx_i_discr_003 == '4' or sed_bm_phx_i_discr_004 == '1' or sed_bm_phx_i_discr_004 == '3' or sed_bm_phx_i_discr_004 == '2' or sed_bm_phx_i_discr_004 == '4' or sed_bm_phx_i_discr_005 == '1' or sed_bm_phx_i_discr_005 == '2' or sed_bm_phx_i_discr_005 == '3' or sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1'  OR sed_bm_phx_i_discr_009 == '1' OR  sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_bm_phx_i_discr_Validity",
