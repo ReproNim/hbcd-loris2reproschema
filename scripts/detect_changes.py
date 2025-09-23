@@ -81,15 +81,15 @@ class DataDictionaryComparator:
                     "ignore_order": False,
                     "key_columns": [
                         "full_instrument_name",
-                        "field_name",
+                        "name",
                         "field_type"
                     ],
                     "significant_columns": [
                         "field_type",
-                        "required",
-                        "choices",
-                        "field_label",
-                        "branching_logic"
+                        "loris_required",
+                        "option_values",
+                        "question",
+                        "redcap_branching_logic"
                     ]
                 }
             }
@@ -161,9 +161,23 @@ class DataDictionaryComparator:
 
     def _compare_fields(self, old_df: pd.DataFrame, new_df: pd.DataFrame) -> Dict[str, Any]:
         """Compare individual fields between datasets."""
+        # Determine the field name column (could be 'field_name' or 'name')
+        field_name_col = 'field_name' if 'field_name' in old_df.columns else 'name'
+
+        if field_name_col not in old_df.columns or field_name_col not in new_df.columns:
+            self.logger.error(f"Required column '{field_name_col}' not found in data")
+            return {
+                "added_fields": [],
+                "removed_fields": [],
+                "modified_fields": [],
+                "choice_changes": 0,
+                "total_fields_old": 0,
+                "total_fields_new": 0
+            }
+
         # Create unique field identifiers
-        old_df['field_id'] = old_df['full_instrument_name'] + '::' + old_df['field_name']
-        new_df['field_id'] = new_df['full_instrument_name'] + '::' + new_df['field_name']
+        old_df['field_id'] = old_df['full_instrument_name'] + '::' + old_df[field_name_col]
+        new_df['field_id'] = new_df['full_instrument_name'] + '::' + new_df[field_name_col]
 
         old_fields = set(old_df['field_id'])
         new_fields = set(new_df['field_id'])
