@@ -241,7 +241,7 @@ class UpdatePipeline:
 
         return True
 
-    def step4_generate_report(self) -> None:
+    def step4_generate_report(self) -> bool:
         """Step 4: Generate simple report."""
         self.logger.info("=" * 50)
         self.logger.info("STEP 4: Generating Report")
@@ -263,6 +263,8 @@ class UpdatePipeline:
         print(f"Timestamp: {self.timestamp}")
         print(f"Success: {self.report['success']}")
         print(f"Steps completed: {sum(1 for s in self.report['steps'] if s['status'] == 'success')}/{len(self.report['steps'])}")
+
+        return True
 
     def run(self, csv_file_path: str = None) -> bool:
         """Run the complete update pipeline."""
