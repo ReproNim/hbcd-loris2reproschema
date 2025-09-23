@@ -47,9 +47,9 @@ jobs:
           LORIS_PASS: ${{ secrets.HBCD_PASSWORD }}
         run: |
           if [ -n "${{ github.event.inputs.data_dictionary_file }}" ]; then
-            python scripts/automated_update.py --config update_config.yml --csv-file "${{ github.event.inputs.data_dictionary_file }}"
+            python scripts/automated_update.py --config config/pipeline.yml --csv-file "${{ github.event.inputs.data_dictionary_file }}"
           else
-            python scripts/automated_update.py --config update_config.yml
+            python scripts/automated_update.py --config config/pipeline.yml
           fi
 
       - name: Check for changes

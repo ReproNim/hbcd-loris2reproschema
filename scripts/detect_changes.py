@@ -21,7 +21,7 @@ import yaml
 class DataDictionaryComparator:
     """Intelligent comparison of HBCD data dictionaries."""
 
-    def __init__(self, config_path: str = "change_detection_config.yml"):
+    def __init__(self, config_path: str = "config/change_detection.yml"):
         """Initialize comparator with configuration."""
         self.config = self._load_config(config_path)
         self.timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -341,7 +341,7 @@ def main():
     parser = argparse.ArgumentParser(description="Detect meaningful changes in HBCD data dictionary")
     parser.add_argument("--old-file", required=True, help="Path to previous data dictionary CSV")
     parser.add_argument("--new-file", required=True, help="Path to new data dictionary CSV")
-    parser.add_argument("--config", default="change_detection_config.yml", help="Configuration file")
+    parser.add_argument("--config", default="config/change_detection.yml", help="Configuration file")
     parser.add_argument("--output-report", help="Output path for comparison report")
     parser.add_argument("--quiet", action="store_true", help="Suppress output except for decision")
 

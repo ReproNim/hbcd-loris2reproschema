@@ -23,7 +23,7 @@ import yaml
 class UpdatePipeline:
     """Simple pipeline for LORIS to ReproSchema conversion."""
 
-    def __init__(self, config_path: str = "update_config.yml"):
+    def __init__(self, config_path: str = "config/pipeline.yml"):
         """Initialize the update pipeline."""
         self.config = self._load_config(config_path)
         self.timestamp = datetime.now().strftime("%Y-%m-%d")
@@ -59,7 +59,7 @@ class UpdatePipeline:
                     "output_dir": "loris_data_dictionaries"
                 },
                 "conversion": {
-                    "config_file": "hbcd-loris.yml",
+                    "config_file": "config/conversion.yml",
                     "output_path": "reproschema_output"
                 },
                 "validation": {
@@ -275,7 +275,7 @@ class UpdatePipeline:
 
 def main():
     parser = argparse.ArgumentParser(description="Simple automated HBCD LORIS to ReproSchema update")
-    parser.add_argument("--config", default="update_config.yml", help="Configuration file path")
+    parser.add_argument("--config", default="config/pipeline.yml", help="Configuration file path")
     parser.add_argument("--csv-file", help="Path to specific CSV file to use (optional)")
     args = parser.parse_args()
 
