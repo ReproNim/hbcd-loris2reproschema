@@ -168,3 +168,7 @@ cython_debug/
 logs/
 *.log
 change_detection_config.yml  # Will be created dynamically by detect_changes.py
+
+# Claude Code specific files and development documentation
+CLAUDE.md
+docs/
