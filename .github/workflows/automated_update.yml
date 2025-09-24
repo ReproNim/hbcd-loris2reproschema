@@ -40,15 +40,43 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pandas pyyaml beautifulsoup4 requests reproschema
+          # Install required packages with explicit versions for stability
+          pip install pandas>=1.5.0 pyyaml>=6.0 beautifulsoup4>=4.11.0 requests>=2.28.0
+          # Install reproschema - required for validation
+          pip install reproschema>=1.0.0
+          # Verify installations
+          python -c "import pandas, yaml, bs4, requests; print('All dependencies installed successfully')"
+
+      - name: Verify secrets and environment
+        run: |
+          echo "Checking environment variables..."
+          if [ -z "${{ secrets.HBCD_USERNAME }}" ]; then
+            echo "❌ HBCD_USERNAME secret is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.HBCD_PASSWORD }}" ]; then
+            echo "❌ HBCD_PASSWORD secret is not set"
+            exit 1
+          fi
+          echo "✅ Required secrets are configured"
 
       - name: Run automated update
         env:
           LORIS_USER: ${{ secrets.HBCD_USERNAME }}
           LORIS_PASS: ${{ secrets.HBCD_PASSWORD }}
         run: |
+          echo "Starting automated update pipeline..."
+          # Add debugging information
+          python --version
+          pwd
+          ls -la config/
+
+          # Run the update with proper error handling
           if [ -n "${{ github.event.inputs.data_dictionary_file }}" ]; then
+            echo "Using specified data dictionary: ${{ github.event.inputs.data_dictionary_file }}"
             python scripts/automated_update.py --config config/pipeline.yml --csv-file "${{ github.event.inputs.data_dictionary_file }}"
           else
+            echo "Running with default configuration"
             python scripts/automated_update.py --config config/pipeline.yml
           fi
 
@@ -57,8 +85,11 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+            git status --porcelain
           else
             echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected"
           fi
 
       - name: Set date variable
@@ -75,7 +106,7 @@ jobs:
             Automated update from LORIS data dictionary ${{ env.CURRENT_DATE }}
 
             This update was automatically generated from the latest LORIS data dictionary.
-          branch: auto-update-${{ env.CURRENT_DATE }}
+          branch: auto-update-${{ env.CURRENT_DATE }}-${{ github.run_number }}
           title: "[Auto] Update ReproSchema from LORIS - ${{ env.CURRENT_DATE }}"
           add-paths: |
             reproschema_output/
@@ -86,10 +117,15 @@ jobs:
 
             This PR contains an automated update generated from the latest LORIS data dictionary.
 
+            ### Generated Content
+            - **ReproSchema Files**: Updated schema definitions in `reproschema_output/`
+            - **Quality Report**: Data quality analysis in `reports/`
+            - **Processing Logs**: Detailed execution logs in `logs/`
+
             ### Checklist
-            - [ ] Review quality report
+            - [ ] Review quality report for any new issues
             - [ ] Validate schemas pass all tests
-            - [ ] Check for any new data quality issues
+            - [ ] Check schema comparison report for anysignificant new data quality issueschanges
             - [ ] Approve if all checks pass
 
             ---
@@ -167,6 +203,7 @@ jobs:
             }
 
       - name: Pull latest changes
+      - name: Summary
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -219,3 +256,9 @@ jobs:
           path: |
             reports/
             logs/
+          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+            echo "✅ Pipeline completed successfully - PR created"
+            echo "PR Number: ${{ steps.create_pr.outputs.pull-request-number }}"
+          else
+            echo "ℹ️ Pipeline completed successfully - no changes detected"
+          fi
