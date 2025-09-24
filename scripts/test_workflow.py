@@ -16,6 +16,11 @@ except ImportError:
     # Fallback for Python < 3.8
     import importlib_metadata
 
+try:
+    from packaging.version import parse as parse_version
+except ImportError:
+    parse_version = None
+
 
 def check_dependencies():
     """Check if all required Python packages are installed with correct versions."""
@@ -44,8 +49,8 @@ def check_dependencies():
                     version_issues.append(f"{pkg_info['package']}>={pkg_info['min_version']}")
                 else:
                     print(f"✅ {import_name} (v{installed_version})")
-            except Exception:
-                print(f"✅ {import_name} (version check skipped)")
+            except importlib_metadata.PackageNotFoundError:
+                print(f"✅ {import_name} (version check skipped: package metadata not found)")
 
         except ImportError:
             print(f"❌ {import_name}")
@@ -63,28 +68,44 @@ def check_dependencies():
 
 
 def _version_compare(version1, version2):
-    """Simple version comparison. Returns -1 if v1 < v2, 0 if equal, 1 if v1 > v2."""
-    def normalize(v):
-        return [int(x) for x in v.split('.')]
+    """Compares two version strings using the 'packaging' library if available.
 
-    try:
-        v1_parts = normalize(version1)
-        v2_parts = normalize(version2)
+    Returns -1 if v1 < v2, 0 if equal, 1 if v1 > v2.
+    """
+    if parse_version:
+        # Use packaging library for robust version comparison
+        v1_parsed = parse_version(version1)
+        v2_parsed = parse_version(version2)
 
-        # Pad shorter version with zeros
-        max_len = max(len(v1_parts), len(v2_parts))
-        v1_parts.extend([0] * (max_len - len(v1_parts)))
-        v2_parts.extend([0] * (max_len - len(v2_parts)))
-
-        if v1_parts < v2_parts:
+        if v1_parsed < v2_parsed:
             return -1
-        elif v1_parts > v2_parts:
+        elif v1_parsed > v2_parsed:
             return 1
         else:
             return 0
-    except ValueError:
-        # If version parsing fails, assume they're equal
-        return 0
+    else:
+        # Fallback to simple comparison if packaging not available
+        def normalize(v):
+            return [int(x) for x in v.split('.')]
+
+        try:
+            v1_parts = normalize(version1)
+            v2_parts = normalize(version2)
+
+            # Pad shorter version with zeros
+            max_len = max(len(v1_parts), len(v2_parts))
+            v1_parts.extend([0] * (max_len - len(v1_parts)))
+            v2_parts.extend([0] * (max_len - len(v2_parts)))
+
+            if v1_parts < v2_parts:
+                return -1
+            elif v1_parts > v2_parts:
+                return 1
+            else:
+                return 0
+        except ValueError:
+            # If version parsing fails, assume they're equal
+            return 0
 
 
 def check_files():
@@ -112,7 +133,7 @@ def check_files():
 
 def check_environment():
     """Check environment variables (optional for local testing)."""
-    env_vars = ['LORIS_USER', 'LORIS_PASS']
+    env_vars = ['HBCD_USERNAME', 'HBCD_PASSWORD']
 
     print("\nEnvironment variables (optional for local testing):")
     for var in env_vars:
@@ -148,7 +169,7 @@ def test_script_syntax():
                 print(f"❌ {script} has syntax errors:")
                 print(result.stderr)
                 all_valid = False
-        except Exception as e:
+        except OSError as e:
             print(f"❌ Error checking {script} syntax: {e}")
             all_valid = False
 
