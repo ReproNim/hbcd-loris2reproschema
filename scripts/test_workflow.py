@@ -10,28 +10,81 @@ import sys
 import subprocess
 import importlib
 from pathlib import Path
+try:
+    import importlib.metadata as importlib_metadata
+except ImportError:
+    # Fallback for Python < 3.8
+    import importlib_metadata
 
 
 def check_dependencies():
-    """Check if all required Python packages are installed."""
-    required_packages = [
-        'pandas', 'yaml', 'bs4', 'requests'
-    ]
+    """Check if all required Python packages are installed with correct versions."""
+    # Mapping of import names to package names and minimum versions
+    # Security fix: Use correct package names to avoid malicious packages
+    required_packages = {
+        'pandas': {'package': 'pandas', 'min_version': '1.5.0'},
+        'yaml': {'package': 'PyYAML', 'min_version': '6.0'},  # Security: use PyYAML not yaml
+        'bs4': {'package': 'beautifulsoup4', 'min_version': '4.11.0'},
+        'requests': {'package': 'requests', 'min_version': '2.28.0'}
+    }
 
     missing = []
-    for package in required_packages:
+    version_issues = []
+
+    for import_name, pkg_info in required_packages.items():
         try:
-            importlib.import_module(package)
-            print(f"✅ {package}")
+            # Check if package can be imported
+            importlib.import_module(import_name)
+
+            # Check version if available
+            try:
+                installed_version = importlib_metadata.version(pkg_info['package'])
+                if _version_compare(installed_version, pkg_info['min_version']) < 0:
+                    print(f"⚠️  {import_name} (v{installed_version} < {pkg_info['min_version']})")
+                    version_issues.append(f"{pkg_info['package']}>={pkg_info['min_version']}")
+                else:
+                    print(f"✅ {import_name} (v{installed_version})")
+            except Exception:
+                print(f"✅ {import_name} (version check skipped)")
+
         except ImportError:
-            print(f"❌ {package}")
-            missing.append(package)
+            print(f"❌ {import_name}")
+            missing.append(pkg_info['package'])
 
     if missing:
         print(f"\nMissing packages: {', '.join(missing)}")
         print("Install with: pip install " + " ".join(missing))
-        return False
-    return True
+
+    if version_issues:
+        print(f"\nVersion issues: {', '.join(version_issues)}")
+        print("Upgrade with: pip install --upgrade " + " ".join(version_issues))
+
+    return len(missing) == 0 and len(version_issues) == 0
+
+
+def _version_compare(version1, version2):
+    """Simple version comparison. Returns -1 if v1 < v2, 0 if equal, 1 if v1 > v2."""
+    def normalize(v):
+        return [int(x) for x in v.split('.')]
+
+    try:
+        v1_parts = normalize(version1)
+        v2_parts = normalize(version2)
+
+        # Pad shorter version with zeros
+        max_len = max(len(v1_parts), len(v2_parts))
+        v1_parts.extend([0] * (max_len - len(v1_parts)))
+        v2_parts.extend([0] * (max_len - len(v2_parts)))
+
+        if v1_parts < v2_parts:
+            return -1
+        elif v1_parts > v2_parts:
+            return 1
+        else:
+            return 0
+    except ValueError:
+        # If version parsing fails, assume they're equal
+        return 0
 
 
 def check_files():
@@ -70,22 +123,36 @@ def check_environment():
 
 
 def test_script_syntax():
-    """Test that the main script has valid syntax."""
-    try:
-        result = subprocess.run([
-            sys.executable, '-m', 'py_compile', 'scripts/automated_update.py'
-        ], capture_output=True, text=True)
+    """Test that all relevant scripts have valid syntax."""
+    # Comprehensive script validation as recommended by Gemini
+    scripts_to_check = [
+        'scripts/automated_update.py',
+        'scripts/loris2reproschema.py',
+        'scripts/retrieve_script.py'
+    ]
 
-        if result.returncode == 0:
-            print("✅ scripts/automated_update.py syntax is valid")
-            return True
-        else:
-            print("❌ scripts/automated_update.py has syntax errors:")
-            print(result.stderr)
-            return False
-    except Exception as e:
-        print(f"❌ Error checking syntax: {e}")
-        return False
+    all_valid = True
+    for script in scripts_to_check:
+        if not Path(script).exists():
+            print(f"⚠️  {script} not found (skipping syntax check)")
+            continue
+
+        try:
+            result = subprocess.run([
+                sys.executable, '-m', 'py_compile', script
+            ], capture_output=True, text=True)
+
+            if result.returncode == 0:
+                print(f"✅ {script} syntax is valid")
+            else:
+                print(f"❌ {script} has syntax errors:")
+                print(result.stderr)
+                all_valid = False
+        except Exception as e:
+            print(f"❌ Error checking {script} syntax: {e}")
+            all_valid = False
+
+    return all_valid
 
 
 def main():
