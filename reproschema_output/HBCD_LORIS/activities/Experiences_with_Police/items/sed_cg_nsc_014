@@ -9,8 +9,7 @@
     "en": "Has a close friend or family member ever called or summoned the police for assistance and the police either did not respond, responded too late, or responded inappropriately?"
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
@@ -42,9 +41,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_nsc_009 == '1'"
   },
   "additionalNotesObj": [
     {

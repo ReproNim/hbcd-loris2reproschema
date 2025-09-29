@@ -66,9 +66,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ncl_ch_mlds_002_i_01 >== 10 AND ncl_ch_mlds_002_i_01 !== '777' AND  ncl_ch_mlds_002_i_01 !== '999'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

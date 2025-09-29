@@ -16,9 +16,6 @@
       "xsd:date"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_covid_009 >== 3 AND pex_bm_healthv2_preg_i_covid_012_i_dk == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

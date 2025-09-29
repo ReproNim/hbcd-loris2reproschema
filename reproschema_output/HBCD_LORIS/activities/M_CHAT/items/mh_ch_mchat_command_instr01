@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: mh_ch_mchat_command_002 == '1' OR mh_ch_mchat_command_003 == '1'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

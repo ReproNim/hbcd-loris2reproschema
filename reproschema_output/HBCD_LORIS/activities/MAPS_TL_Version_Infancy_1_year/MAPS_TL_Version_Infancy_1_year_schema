@@ -82,19 +82,19 @@
         "variableName": "mh_cg_mapdb_i_inf_lang",
         "isAbout": "items/mh_cg_mapdb_i_inf_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapdb_i_inf_dtt",
         "isAbout": "items/mh_cg_mapdb_i_inf_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapdb_i_inf_timestamp_start",
         "isAbout": "items/mh_cg_mapdb_i_inf_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapdb_i_inf_timestamp_stop",
@@ -112,7 +112,7 @@
         "variableName": "mh_cg_mapdb_i_inf_location",
         "isAbout": "items/mh_cg_mapdb_i_inf_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapdb_i_inf_instr001",

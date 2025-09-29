@@ -42,9 +42,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: (v01_arm_1pex_bm_health_preg_i_meds_006_i_05 == '0' OR v01_arm_1pex_bm_health_preg_i_meds_006_i_05 == '777' OR v01_arm_1pex_bm_health_preg_i_meds_006_i_05 == '999' ) AND screening_arm_1recruitment_period =='1'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

@@ -77,19 +77,19 @@
         "variableName": "sed_cg_home_it_lang",
         "isAbout": "items/sed_cg_home_it_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_home_it_dtt",
         "isAbout": "items/sed_cg_home_it_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_home_it_timestamp_start",
         "isAbout": "items/sed_cg_home_it_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_home_it_timestamp_stop",
@@ -107,7 +107,7 @@
         "variableName": "sed_cg_home_it_location",
         "isAbout": "items/sed_cg_home_it_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_home_it_001",

@@ -65,19 +65,19 @@
         "variableName": "sed_bm_nbhsaf_lang",
         "isAbout": "items/sed_bm_nbhsaf_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_nbhsaf_dtt",
         "isAbout": "items/sed_bm_nbhsaf_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_nbhsaf_timestamp_start",
         "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_nbhsaf_timestamp_stop",
@@ -95,7 +95,7 @@
         "variableName": "sed_bm_nbhsaf_location",
         "isAbout": "items/sed_bm_nbhsaf_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_nbhsaf_001",

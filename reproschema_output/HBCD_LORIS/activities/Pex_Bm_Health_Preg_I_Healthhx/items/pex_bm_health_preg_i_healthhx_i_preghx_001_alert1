@@ -9,8 +9,7 @@
     "en": "AlertNumber of live births is higher than number of pregnancies reported. Please correct."
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
@@ -24,9 +23,6 @@
         "value": ""
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_health_preg_i_healthhx_i_preghx_002 > pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
   },
   "additionalNotesObj": [
     {

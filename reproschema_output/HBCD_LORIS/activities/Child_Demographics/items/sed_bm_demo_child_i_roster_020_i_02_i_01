@@ -79,9 +79,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: (event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND (sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >== 2"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

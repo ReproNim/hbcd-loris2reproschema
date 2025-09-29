@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ncl_cg_spm2_i_inf_balance_001 == '777' OR ncl_cg_spm2_i_inf_balance_002 == '777' OR ncl_cg_spm2_i_inf_balance_003 == '777' OR ncl_cg_spm2_i_inf_balance_004 == '777' OR ncl_cg_spm2_i_inf_balance_005 == '777' OR ncl_cg_spm2_i_inf_balance_006 == '777' OR ncl_cg_spm2_i_inf_balance_007 == '777' OR ncl_cg_spm2_i_inf_balance_008 == '777' OR ncl_cg_spm2_i_inf_balance_009 == '777' OR ncl_cg_spm2_i_inf_balance_010 == '777'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

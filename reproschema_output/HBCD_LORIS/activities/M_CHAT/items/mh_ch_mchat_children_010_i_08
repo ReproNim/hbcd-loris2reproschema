@@ -24,9 +24,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_008 == '1'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

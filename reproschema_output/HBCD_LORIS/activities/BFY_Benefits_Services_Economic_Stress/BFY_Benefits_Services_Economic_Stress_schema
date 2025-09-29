@@ -72,19 +72,19 @@
         "variableName": "sed_bm_bfy_lang",
         "isAbout": "items/sed_bm_bfy_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_bfy_dtt",
         "isAbout": "items/sed_bm_bfy_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_bfy_timestamp_start",
         "isAbout": "items/sed_bm_bfy_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_bfy_timestamp_stop",
@@ -102,7 +102,7 @@
         "variableName": "sed_bm_bfy_location",
         "isAbout": "items/sed_bm_bfy_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_bfy_bensvc_001",
@@ -150,7 +150,7 @@
         "variableName": "sed_bm_bfy_econstr_006_i_01",
         "isAbout": "items/sed_bm_bfy_econstr_006_i_01",
         "valueRequired": false,
-        "isVis": "sed_bm_bfy_econstr_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_bm_bfy_econstr_007",

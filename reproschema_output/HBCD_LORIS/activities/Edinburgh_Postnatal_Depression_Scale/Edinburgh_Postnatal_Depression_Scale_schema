@@ -87,19 +87,19 @@
         "variableName": "pex_bm_epds_lang",
         "isAbout": "items/pex_bm_epds_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_dtt",
         "isAbout": "items/pex_bm_epds_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_timestamp_start",
         "isAbout": "items/pex_bm_epds_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_timestamp_stop",
@@ -117,7 +117,7 @@
         "variableName": "pex_bm_epds_location",
         "isAbout": "items/pex_bm_epds_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_instr01",
@@ -189,79 +189,79 @@
         "variableName": "pex_bm_epds_001_i_01",
         "isAbout": "items/pex_bm_epds_001_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_002_i_01",
         "isAbout": "items/pex_bm_epds_002_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_003_i_01",
         "isAbout": "items/pex_bm_epds_003_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_004_i_01",
         "isAbout": "items/pex_bm_epds_004_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_005_i_01",
         "isAbout": "items/pex_bm_epds_005_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_006_i_01",
         "isAbout": "items/pex_bm_epds_006_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_007_i_01",
         "isAbout": "items/pex_bm_epds_007_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_008_i_01",
         "isAbout": "items/pex_bm_epds_008_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_009_i_01",
         "isAbout": "items/pex_bm_epds_009_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_010_i_01",
         "isAbout": "items/pex_bm_epds_010_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_score",
         "isAbout": "items/pex_bm_epds_score",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_flag01",
         "isAbout": "items/pex_bm_epds_flag01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_flag02",
         "isAbout": "items/pex_bm_epds_flag02",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_epds_total_score",
