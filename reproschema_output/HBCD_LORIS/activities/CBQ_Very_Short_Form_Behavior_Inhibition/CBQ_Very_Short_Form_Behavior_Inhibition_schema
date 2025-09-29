@@ -109,19 +109,19 @@
         "variableName": "mh_cg_cbq_lang",
         "isAbout": "items/mh_cg_cbq_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbq_dtt",
         "isAbout": "items/mh_cg_cbq_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbq_timestamp_start",
         "isAbout": "items/mh_cg_cbq_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbq_timestamp_stop",
@@ -139,7 +139,7 @@
         "variableName": "mh_cg_cbq_location",
         "isAbout": "items/mh_cg_cbq_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbq_instr01",

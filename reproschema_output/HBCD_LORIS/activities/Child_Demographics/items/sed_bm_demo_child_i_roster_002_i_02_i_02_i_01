@@ -9,16 +9,12 @@
     "en": "Total number children, Household 1"
   },
   "ui": {
-    "inputType": "number",
-    "readonlyValue": true
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [
       "xsd:integer"
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: (sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')"
   },
   "additionalNotesObj": [
     {

@@ -162,19 +162,19 @@
         "variableName": "mh_cg_cbcl_i_1to5_lang",
         "isAbout": "items/mh_cg_cbcl_i_1to5_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbcl_i_1to5_dtt",
         "isAbout": "items/mh_cg_cbcl_i_1to5_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbcl_i_1to5_timestamp_start",
         "isAbout": "items/mh_cg_cbcl_i_1to5_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbcl_i_1to5_timestamp_stop",
@@ -192,7 +192,7 @@
         "variableName": "mh_cg_cbcl_i_1to5_location",
         "isAbout": "items/mh_cg_cbcl_i_1to5_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_cbcl_i_1to5_instr01",

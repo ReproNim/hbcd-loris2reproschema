@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ncl_cg_spm2_i_tod_vsn_001 == '777' OR ncl_cg_spm2_i_tod_vsn_002 == '777' OR ncl_cg_spm2_i_tod_vsn_003 == '777' OR ncl_cg_spm2_i_tod_vsn_004 == '777' OR ncl_cg_spm2_i_tod_vsn_005 == '777' OR ncl_cg_spm2_i_tod_vsn_006 == '777' OR ncl_cg_spm2_i_tod_vsn_007 == '777' OR ncl_cg_spm2_i_tod_vsn_008 == '777' OR ncl_cg_spm2_i_tod_vsn_009 == '777' OR ncl_cg_spm2_i_tod_vsn_010 == '777'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

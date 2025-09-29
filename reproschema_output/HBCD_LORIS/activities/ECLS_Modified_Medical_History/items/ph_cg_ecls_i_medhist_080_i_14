@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhist_080_i_14"
   },
   "question": {
-    "en": "Apparent life-threatening even characterization by color change, decreased muscle tone, not breathing and which requires intervention (mouth to mouth breathing or CPR) to revive the child"
+    "en": "Apparent life-threatening event characterization by color change, decreased muscle tone, not breathing and which requires intervention (mouth to mouth breathing or CPR) to revive the child"
   },
   "ui": {
     "inputType": "select"
@@ -41,9 +41,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: ph_cg_ecls_i_medhist_079 == '1'"
   },
   "additionalNotesObj": [
     {

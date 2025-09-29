@@ -73,19 +73,19 @@
         "variableName": "sed_bm_paces_lang",
         "isAbout": "items/sed_bm_paces_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_paces_dtt",
         "isAbout": "items/sed_bm_paces_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_paces_timestamp_start",
         "isAbout": "items/sed_bm_paces_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_paces_timestamp_stop",
@@ -103,7 +103,7 @@
         "variableName": "sed_bm_paces_location",
         "isAbout": "items/sed_bm_paces_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_paces_001",

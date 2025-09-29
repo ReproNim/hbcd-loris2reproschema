@@ -65,19 +65,19 @@
         "variableName": "sed_cg_foodins_lang",
         "isAbout": "items/sed_cg_foodins_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_foodins_dtt",
         "isAbout": "items/sed_cg_foodins_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_foodins_timestamp_start",
         "isAbout": "items/sed_cg_foodins_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_foodins_timestamp_stop",
@@ -95,7 +95,7 @@
         "variableName": "sed_cg_foodins_location",
         "isAbout": "items/sed_cg_foodins_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_foodins_001",

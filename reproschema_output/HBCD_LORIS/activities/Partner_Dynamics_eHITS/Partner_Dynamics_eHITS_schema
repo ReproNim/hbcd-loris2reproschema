@@ -75,19 +75,19 @@
         "variableName": "sed_bm_ehits_lang",
         "isAbout": "items/sed_bm_ehits_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_dtt",
         "isAbout": "items/sed_bm_ehits_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_timestamp_start",
         "isAbout": "items/sed_bm_ehits_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_timestamp_stop",
@@ -105,7 +105,7 @@
         "variableName": "sed_bm_ehits_location",
         "isAbout": "items/sed_bm_ehits_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_001",
@@ -141,31 +141,31 @@
         "variableName": "sed_bm_ehits_001_i_01",
         "isAbout": "items/sed_bm_ehits_001_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_002_i_01",
         "isAbout": "items/sed_bm_ehits_002_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_003_i_01",
         "isAbout": "items/sed_bm_ehits_003_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_004_i_01",
         "isAbout": "items/sed_bm_ehits_004_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_005_i_01",
         "isAbout": "items/sed_bm_ehits_005_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_total_score",
@@ -177,13 +177,13 @@
         "variableName": "sed_bm_ehits_score",
         "isAbout": "items/sed_bm_ehits_score",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_flag01",
         "isAbout": "items/sed_bm_ehits_flag01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_ehits_Validity",

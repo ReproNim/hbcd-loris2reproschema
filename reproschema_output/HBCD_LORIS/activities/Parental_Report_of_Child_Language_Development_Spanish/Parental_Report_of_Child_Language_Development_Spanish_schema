@@ -68,19 +68,19 @@
         "variableName": "webcdi_es_lang",
         "isAbout": "items/webcdi_es_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_dtt",
         "isAbout": "items/webcdi_es_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_timestamp_start",
         "isAbout": "items/webcdi_es_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_timestamp_stop",
@@ -98,13 +98,13 @@
         "variableName": "webcdi_es_age",
         "isAbout": "items/webcdi_es_age",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_url",
         "isAbout": "items/webcdi_es_url",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_001",
@@ -122,13 +122,13 @@
         "variableName": "webcdi_es_instr",
         "isAbout": "items/webcdi_es_instr",
         "valueRequired": false,
-        "isVis": "webcdi_es_completion_status !== '1'"
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_banner_post",
         "isAbout": "items/webcdi_es_banner_post",
         "valueRequired": false,
-        "isVis": "webcdi_es_completion_status == '1'"
+        "isVis": true
       },
       {
         "variableName": "webcdi_es_completion_status",
