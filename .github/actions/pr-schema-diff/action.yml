@@ -1,0 +1,40 @@
+name: "PR Schema Diff"
+description: "Generate schema diff between two refs, upload artifact, and output summary"
+inputs:
+  base-ref:
+    description: "Base git ref"
+    required: true
+  head-ref:
+    description: "Head git ref"
+    required: true
+outputs:
+  summary:
+    description: "One-line summary of changes"
+    value: ${{ steps.make_summary.outputs.summary }}
+runs:
+  using: "composite"
+  steps:
+    - name: Generate diff report
+      shell: bash
+      run: |
+        python scripts/schema_comparison.py --from "${{ inputs.base-ref }}" --to "${{ inputs.head-ref }}" --format json --output pr_schema_diff.json
+
+    - name: Make summary
+      id: make_summary
+      shell: bash
+      run: |
+        python - <<'PY' > pr_summary.txt
+import json
+with open('pr_schema_diff.json') as f:
+    d=json.load(f)
+s=d.get('statistics',{})
+print(f"summary=Activities changed: {s.get('activities_changed',0)}, Items added: {s.get('items_added',0)}, removed: {s.get('items_removed',0)}, modified: {s.get('items_modified',0)}")
+PY
+        cat pr_summary.txt >> "$GITHUB_OUTPUT"
+
+    - name: Upload diff artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: pr-schema-diff
+        path: pr_schema_diff.json
+
