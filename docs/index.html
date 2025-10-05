@@ -590,6 +590,53 @@
                         }
                     });
             });
-        </script>
-    </body>
+    </script>
+  </body>
+  <!-- START_ON_DEMAND -->
+  <div class="controls" style="margin-top:20px;">
+    <h2>On‑Demand Comparison</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="ondemand-from">From ref (tag/commit/branch)</label>
+        <input id="ondemand-from" type="text" placeholder="e.g., v2025.09.15 or main" />
+      </div>
+      <div class="form-group">
+        <label for="ondemand-to">To ref (tag/commit/branch)</label>
+        <input id="ondemand-to" type="text" placeholder="e.g., v2025.10.05 or HEAD" />
+      </div>
+    </div>
+    <div class="form-row">
+      <button id="ondemand-load">Preview (if published)</button>
+      <span style="margin-left:12px;color:#666;">If not found, run the GitHub Action: <code>Generate On‑Demand Comparison</code> with these refs to publish.</span>
+    </div>
+    <div id="ondemand-status" style="margin-top:10px;color:#555;"></div>
+  </div>
+  <script>
+    (function(){
+      function sanitizeRef(ref){
+        return (ref||'').replace(/[\/~]/g,'_');
+      }
+      async function previewOnDemand(){
+        const from = document.getElementById('ondemand-from').value.trim();
+        const to = document.getElementById('ondemand-to').value.trim();
+        const status = document.getElementById('ondemand-status');
+        if(!from || !to){ status.textContent = 'Please provide both refs.'; return; }
+        const safe = `${sanitizeRef(from)}_to_${sanitizeRef(to)}.json`;
+        const url = `data/${safe}`;
+        status.textContent = 'Loading…';
+        try{
+          const res = await fetch(url, { cache: 'no-cache' });
+          if(!res.ok){ status.textContent = 'Not found in docs. Use the GitHub Action to publish this comparison.'; return; }
+          const report = await res.json();
+          status.textContent = `Loaded: ${report.from_version} → ${report.to_version}. Summary: ${report.summary}`;
+          // Optionally, integrate with existing rendering if available
+        }catch(e){
+          status.textContent = 'Failed to load comparison.';
+        }
+      }
+      const btn = document.getElementById('ondemand-load');
+      if(btn) btn.addEventListener('click', previewOnDemand);
+    })();
+  </script>
+  <!-- END_ON_DEMAND -->
 </html>
