@@ -64,7 +64,7 @@ class UpdatePipeline:
                 },
                 "validation": {
                     "enabled": True,
-                    "stop_on_error": true
+                    "stop_on_error": True
                 },
                 "quality_checks": {
                     "max_issues_threshold": 50

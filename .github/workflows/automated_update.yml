@@ -1,5 +1,9 @@
 name: Automated LORIS to ReproSchema Update
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   schedule:
     # Run weekly on Mondays at 6 AM UTC (after retrieve workflow has time to complete)

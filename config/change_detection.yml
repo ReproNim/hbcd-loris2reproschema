@@ -35,19 +35,19 @@ change_detection:
   ignore_case: true
   ignore_order: false
 
-  # Key columns for identifying records
+  # Key columns for identifying records (match CSV)
   key_columns:
     - full_instrument_name
-    - field_name
+    - name
     - field_type
 
-  # Columns considered significant for change detection
+  # Columns considered significant for change detection (match CSV)
   significant_columns:
     - field_type
-    - required
-    - choices
-    - field_label
-    - branching_logic
-    - validation_min
-    - validation_max
-    - field_annotation
+    - loris_required
+    - option_values
+    - question
+    - redcap_branching_logic
+    - redcap_text_validation_min
+    - redcap_text_validation_max
+    - redcap_field_annotation
