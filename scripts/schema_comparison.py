@@ -84,30 +84,40 @@ class SchemaComparator:
         self.repo_path = Path(repo_path)
         self.schema_base_path = "reproschema_output/HBCD_LORIS"
 
+    @staticmethod
+    def _get_en(value):
+        """Return plain string from localized or raw value."""
+        if isinstance(value, dict):
+            return value.get("en", next(iter(value.values()), ""))
+        return value if value is not None else ""
+
     def read_schemas_from_git(self, git_ref: str) -> Dict[str, Any]:
-        """Read all schema files from a specific git reference."""
+        """Read all activity schemas and item files from a specific git reference."""
         schemas = {}
 
-        # Get list of schema files from git
         try:
+            # List all files under schema base path at the given ref
             result = subprocess.run([
                 "git", "ls-tree", "-r", "--name-only", git_ref, self.schema_base_path
             ], capture_output=True, text=True, cwd=self.repo_path, check=True)
 
-            schema_files = [f for f in result.stdout.strip().split('\n')
-                          if f.endswith('_schema') and f]
+            all_files = [f for f in result.stdout.strip().split('\n') if f]
+            # Include activity schemas (end with _schema) and item files under items/
+            schema_files = [
+                f for f in all_files
+                if f.endswith('_schema') or "/items/" in f
+            ]
 
-            # Read each schema file
             for file_path in schema_files:
                 try:
                     file_content = subprocess.run([
                         "git", "show", f"{git_ref}:{file_path}"
                     ], capture_output=True, text=True, cwd=self.repo_path, check=True)
 
+                    # All schema and item files are JSON (without extension)
                     schemas[file_path] = json.loads(file_content.stdout)
                 except (json.JSONDecodeError, subprocess.CalledProcessError) as e:
                     print(f"Warning: Could not read or parse {file_path}: {e}", file=sys.stderr)
-                    # Skip files that can't be read or parsed
                     continue
 
         except subprocess.CalledProcessError as e:
@@ -117,25 +127,31 @@ class SchemaComparator:
 
     def extract_human_readable_info(self, schema: Dict[str, Any]) -> Dict[str, Any]:
         """Extract human-readable information from a schema."""
+        category = schema.get('category', '')
+        is_activity = category == 'reproschema:Activity'
+        is_item = category == 'reproschema:Item'
+
         info = {
-            'name': schema.get('@id', 'Unknown'),
-            'title': schema.get('prefLabel', 'Unknown'),
-            'description': schema.get('description', ''),
-            'type': 'activity' if 'ui' in schema else 'item'
+            'name': schema.get('id', 'Unknown'),
+            'title': self._get_en(schema.get('prefLabel', 'Unknown')),
+            'description': self._get_en(schema.get('description', '')),
+            'type': 'activity' if is_activity else ('item' if is_item else 'unknown')
         }
 
-        # For activities, get the item list
-        if info['type'] == 'activity':
+        if is_activity:
             ui_order = schema.get('ui', {}).get('order', [])
             info['items'] = [item.split('/')[-1] for item in ui_order if isinstance(item, str)]
-
-        # For items, get question text and response options
-        elif info['type'] == 'item':
-            info['question'] = schema.get('question', '')
-            response_options = schema.get('responseOptions', {})
-            if 'choices' in response_options:
-                info['choices'] = [choice.get('name', '') for choice in response_options['choices']]
-            info['input_type'] = response_options.get('inputType', '')
+        elif is_item:
+            info['question'] = self._get_en(schema.get('question', ''))
+            info['input_type'] = schema.get('ui', {}).get('inputType', '')
+            choices = schema.get('responseOptions', {}).get('choices', [])
+            # Use human-friendly values for comparison; fall back to names if value missing
+            normalized_choices = []
+            for ch in choices:
+                val = ch.get('value')
+                name = ch.get('name')
+                normalized_choices.append(self._get_en(val) if val is not None else self._get_en(name))
+            info['choices'] = normalized_choices
 
         return info
 
@@ -184,20 +200,21 @@ class SchemaComparator:
         for file_path, schema in schemas.items():
             info = self.extract_human_readable_info(schema)
 
-            if info['type'] == 'activity':
-                activity_name = info['name']
+            # Derive activity name from path for stability
+            path_parts = file_path.split('/')
+            activity_name = path_parts[self.ACTIVITY_NAME_PATH_INDEX] if len(path_parts) > self.ACTIVITY_NAME_PATH_INDEX else None
+
+            if info['type'] == 'activity' and activity_name:
                 activities[activity_name] = {
-                    'info': info,
+                    'info': {'name': activity_name, 'title': info.get('title', activity_name)},
                     'items': {}
                 }
-            elif info['type'] == 'item':
-                # Extract activity name from file path
-                path_parts = file_path.split('/')
-                if len(path_parts) >= self.ACTIVITY_NAME_PATH_INDEX + 1:  # reproschema_output/HBCD_LORIS/activities/ACTIVITY_NAME/items/ITEM
-                    activity_name = path_parts[self.ACTIVITY_NAME_PATH_INDEX]
-                    if activity_name not in activities:
-                        activities[activity_name] = {'info': {'name': activity_name}, 'items': {}}
-                    activities[activity_name]['items'][info['name']] = info
+            elif info['type'] == 'item' and activity_name:
+                if activity_name not in activities:
+                    activities[activity_name] = {'info': {'name': activity_name}, 'items': {}}
+                # Use item id as key
+                item_id = info['name']
+                activities[activity_name]['items'][item_id] = info
 
         return activities
 
