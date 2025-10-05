@@ -18,10 +18,4 @@ runs:
       run: |
         python -m pip install --upgrade pip
         pip install 'pandas>=1.5.0' 'PyYAML>=6.0' 'beautifulsoup4>=4.11.0' 'requests>=2.28.0' 'reproschema>=1.0.0'
-        python - <<'PY'
-import importlib
-for m in ('pandas','yaml','bs4','requests'):
-    importlib.import_module(m)
-print('All dependencies installed successfully')
-PY
-
+        python -c "import importlib; [importlib.import_module(m) for m in ('pandas','yaml','bs4','requests')]; print('All dependencies installed successfully')"
