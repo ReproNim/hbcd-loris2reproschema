@@ -362,6 +362,7 @@
                         }
                     }
                 } catch (e) {
+                    console.error("Failed to load versions from data/index.json:", e);
                     // ignore, will use fallback
                 }
                 if (!availableVersions || availableVersions.length === 0) {
@@ -374,6 +375,7 @@
                             availableVersions = (tags || []).map(t => t.name);
                         }
                     } catch (e) {
+                        console.error("Failed to fetch tags from GitHub API:", e);
                         // ignore, keep empty
                     }
                 }

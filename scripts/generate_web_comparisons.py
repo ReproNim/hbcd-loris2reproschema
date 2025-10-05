@@ -14,7 +14,7 @@ from dataclasses import asdict
 from schema_comparison import SchemaComparator
 
 
-def get_recent_tags_and_commits(limit=20):
+def get_git_tags(limit=20):
     """Get git tags only; optionally limit returned list for pair generation."""
     try:
         result = subprocess.run(["git", "tag", "--sort=-version:refname"], capture_output=True, text=True, check=True)
@@ -70,7 +70,7 @@ def generate_comparison_matrix(versions, output_dir):
 
     # Generate index file with available comparisons
     # Expose ALL tags for the website to list, even if we didn't generate all pairs
-    all_tags = get_recent_tags_and_commits(limit=None)
+    all_tags = get_git_tags(limit=None)
     index_data = {
         'generated_at': datetime.now().isoformat(),
         'available_versions': all_tags,
@@ -135,7 +135,7 @@ def main():
     args = parser.parse_args()
 
     print("Getting recent versions...")
-    versions = get_recent_tags_and_commits(args.limit)
+    versions = get_git_tags(args.limit)
     print(f"Found {len(versions)} versions: {versions[:10]}{'...' if len(versions) > 10 else ''}")
 
     print("\nGenerating comparison files...")
