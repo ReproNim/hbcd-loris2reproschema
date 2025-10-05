@@ -138,6 +138,51 @@ jobs:
             automated
             update
 
+      - name: Generate PR schema diff
+        if: steps.check_changes.outputs.changes == 'true'
+        id: pr_diff
+        run: |
+          echo "Generating PR schema diff (main → HEAD)..."
+          python scripts/schema_comparison.py --from main --to HEAD --format json --output pr_schema_diff.json
+          python - <<'PY'
+import json,sys
+with open('pr_schema_diff.json') as f:
+    d=json.load(f)
+stats=d.get('statistics',{})
+summary=(f"Activities changed: {stats.get('activities_changed',0)}, "
+         f"Items added: {stats.get('items_added',0)}, removed: {stats.get('items_removed',0)}, "
+         f"modified: {stats.get('items_modified',0)}")
+print(f"summary={summary}")
+PY
+          | sed 's/.*/&/' >> $GITHUB_OUTPUT
+
+      - name: Upload PR schema diff artifact
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-schema-diff
+          path: pr_schema_diff.json
+
+      - name: Append diff summary to PR
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = ${{ steps.create_pr.outputs.pull-request-number }};
+            const summary = `${{ steps.pr_diff.outputs.summary }}`;
+            const bodyAppend = `\n\n---\n**Schema Diff Summary**\n\n${summary}\n\nFull JSON diff attached as CI artifact (pr-schema-diff).`;
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+              body: (pr.body || '') + bodyAppend
+            });
+
       - name: Notify on failure
         if: failure()
         uses: actions/github-script@v7
@@ -250,6 +295,23 @@ jobs:
             });
 
             console.log(`✅ Created release: ${release.data.html_url}`);
+
+      - name: Generate comparisons for docs
+        run: |
+          echo "Generating web comparison files (recent versions)..."
+          python scripts/generate_web_comparisons.py --output-dir docs/data --update-html --limit 15
+
+      - name: Commit docs updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/data docs/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: update comparisons for ${{ steps.create_tag.outputs.tag_name }}"
+            git push origin main
+          else
+            echo "No docs changes to commit"
+          fi
 
       - name: Upload quality report
         if: always()
