@@ -78,19 +78,19 @@
         "variableName": "sed_cg_tic_lang",
         "isAbout": "items/sed_cg_tic_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_dtt",
         "isAbout": "items/sed_cg_tic_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_timestamp_start",
         "isAbout": "items/sed_cg_tic_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_timestamp_stop",
@@ -108,7 +108,7 @@
         "variableName": "sed_cg_tic_location",
         "isAbout": "items/sed_cg_tic_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_001",
@@ -120,85 +120,85 @@
         "variableName": "sed_cg_tic_001_i_01",
         "isAbout": "items/sed_cg_tic_001_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_001_i_02",
         "isAbout": "items/sed_cg_tic_001_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_001_i_03",
         "isAbout": "items/sed_cg_tic_001_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_001_i_04",
         "isAbout": "items/sed_cg_tic_001_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_002",
         "isAbout": "items/sed_cg_tic_002",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_002_i_01",
         "isAbout": "items/sed_cg_tic_002_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_002_i_02",
         "isAbout": "items/sed_cg_tic_002_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_002_i_03",
         "isAbout": "items/sed_cg_tic_002_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_002_i_04",
         "isAbout": "items/sed_cg_tic_002_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_003",
         "isAbout": "items/sed_cg_tic_003",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_003_i_01",
         "isAbout": "items/sed_cg_tic_003_i_01",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_003_i_02",
         "isAbout": "items/sed_cg_tic_003_i_02",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_003_i_03",
         "isAbout": "items/sed_cg_tic_003_i_03",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_003_i_04",
         "isAbout": "items/sed_cg_tic_003_i_04",
         "valueRequired": false,
-        "isVis": "sed_cg_tic_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "sed_cg_tic_total_score",

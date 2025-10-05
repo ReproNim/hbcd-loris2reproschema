@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float",
       "xsd:integer",
+      "xsd:float",
       "xsd:string"
     ],
     "choices": [
@@ -91,9 +91,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_assistv2_end_i_use_i_unit_009 == '1'"
   },
   "additionalNotesObj": [
     {

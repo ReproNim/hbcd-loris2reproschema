@@ -9,16 +9,12 @@
     "en": "fifth illness or symptom"
   },
   "ui": {
-    "inputType": "text",
-    "readonlyValue": true
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_health_preg_i_illness_002 >== 5"
   },
   "additionalNotesObj": [
     {

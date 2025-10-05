@@ -75,19 +75,19 @@
         "variableName": "sed_bm_strsup_lang",
         "isAbout": "items/sed_bm_strsup_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_strsup_dtt",
         "isAbout": "items/sed_bm_strsup_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_strsup_timestamp_start",
         "isAbout": "items/sed_bm_strsup_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_strsup_timestamp_stop",
@@ -105,7 +105,7 @@
         "variableName": "sed_bm_strsup_location",
         "isAbout": "items/sed_bm_strsup_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_bm_strsup_socspprt_001",

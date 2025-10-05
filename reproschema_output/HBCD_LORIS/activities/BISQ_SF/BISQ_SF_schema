@@ -97,19 +97,19 @@
         "variableName": "ph_cg_bisq_lang",
         "isAbout": "items/ph_cg_bisq_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_bisq_dtt",
         "isAbout": "items/ph_cg_bisq_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_bisq_timestamp_start",
         "isAbout": "items/ph_cg_bisq_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_bisq_timestamp_stop",
@@ -127,7 +127,7 @@
         "variableName": "ph_cg_bisq_location",
         "isAbout": "items/ph_cg_bisq_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_bisq_instr01",
@@ -187,7 +187,7 @@
         "variableName": "ph_cg_bisq_pb_006_alert",
         "isAbout": "items/ph_cg_bisq_pb_006_alert",
         "valueRequired": false,
-        "isVis": "ph_cg_bisq_pb_006 < ph_cg_bisq_pb_001"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_bisq_pp_001",

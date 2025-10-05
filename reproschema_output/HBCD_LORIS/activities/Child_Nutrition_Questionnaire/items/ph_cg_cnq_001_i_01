@@ -67,9 +67,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ph_cg_cnq_001 !== '' AND (ph_cg_cnq_001 == '1' OR ph_cg_cnq_001 =='2' OR ph_cg_cnq_001 == '3')"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

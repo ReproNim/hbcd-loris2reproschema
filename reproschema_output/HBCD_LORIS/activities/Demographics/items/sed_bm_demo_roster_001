@@ -85,9 +85,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: sed_bm_demo_roster_001_i_dk == '' AND (sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5' )"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

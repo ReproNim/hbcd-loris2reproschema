@@ -24,9 +24,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: mh_ch_mchat_look_003 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

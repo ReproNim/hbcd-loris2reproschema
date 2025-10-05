@@ -81,19 +81,19 @@
         "variableName": "sed_cg_hpss_lang",
         "isAbout": "items/sed_cg_hpss_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hpss_dtt",
         "isAbout": "items/sed_cg_hpss_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hpss_timestamp_start",
         "isAbout": "items/sed_cg_hpss_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hpss_timestamp_stop",
@@ -111,7 +111,7 @@
         "variableName": "sed_cg_hpss_location",
         "isAbout": "items/sed_cg_hpss_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "sed_cg_hpss_001",

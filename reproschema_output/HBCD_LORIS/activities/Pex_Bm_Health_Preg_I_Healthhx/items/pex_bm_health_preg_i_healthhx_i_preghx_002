@@ -115,9 +115,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: (pex_bm_health_preg_i_healthhx_i_preghx_001 >1 OR pex_bm_health_preg_i_healthhx_i_preghx_001_post > 1) AND pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

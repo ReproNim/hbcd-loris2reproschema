@@ -42,9 +42,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: (ph_cg_phx_i_bfh_003_calc !== '1' AND ph_cg_phx_i_bfh_001_calc == '1' AND ph_cg_phx_i_bfh_001_never_calc !== '1') OR  (ph_cg_phx_i_bfh_001_calc == '0' AND ph_cg_phx_i_bfh_001 == '1')"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

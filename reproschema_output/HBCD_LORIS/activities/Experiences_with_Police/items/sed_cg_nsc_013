@@ -9,8 +9,7 @@
     "en": "Has a police officer ever forced inappropriate sexual contact on a close friend or family member?"
   },
   "ui": {
-    "inputType": "select",
-    "readonlyValue": true
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
@@ -42,9 +41,6 @@
         "value": "Decline to answer"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: sed_cg_nsc_009 == '1'"
   },
   "additionalNotesObj": [
     {

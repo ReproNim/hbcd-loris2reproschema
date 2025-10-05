@@ -97,19 +97,19 @@
         "variableName": "ph_cg_cnq_lang",
         "isAbout": "items/ph_cg_cnq_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_dtt",
         "isAbout": "items/ph_cg_cnq_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_timestamp_start",
         "isAbout": "items/ph_cg_cnq_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_timestamp_stop",
@@ -127,7 +127,7 @@
         "variableName": "ph_cg_cnq_location",
         "isAbout": "items/ph_cg_cnq_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_001",
@@ -139,13 +139,13 @@
         "variableName": "ph_cg_cnq_001_i_01",
         "isAbout": "items/ph_cg_cnq_001_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_001 !== '' AND (ph_cg_cnq_001 == '1' OR ph_cg_cnq_001 =='2' OR ph_cg_cnq_001 == '3')"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_001_i_02",
         "isAbout": "items/ph_cg_cnq_001_i_02",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_001_i_01(1) == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_002",
@@ -157,7 +157,7 @@
         "variableName": "ph_cg_cnq_002_i_01",
         "isAbout": "items/ph_cg_cnq_002_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_002(9) == ''"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_004",
@@ -169,7 +169,7 @@
         "variableName": "ph_cg_cnq_004_i_01",
         "isAbout": "items/ph_cg_cnq_004_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_006",
@@ -181,13 +181,13 @@
         "variableName": "ph_cg_cnq_006_i_01",
         "isAbout": "items/ph_cg_cnq_006_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_006_i_02",
         "isAbout": "items/ph_cg_cnq_006_i_02",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_006_i_01 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_007",
@@ -205,19 +205,19 @@
         "variableName": "ph_cg_cnq_008_i_01",
         "isAbout": "items/ph_cg_cnq_008_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_008_i_02",
         "isAbout": "items/ph_cg_cnq_008_i_02",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_008_i_02_i_01",
         "isAbout": "items/ph_cg_cnq_008_i_02_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_008_i_02 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_009",
@@ -241,7 +241,7 @@
         "variableName": "ph_cg_cnq_011_i_01",
         "isAbout": "items/ph_cg_cnq_011_i_01",
         "valueRequired": false,
-        "isVis": "ph_cg_cnq_011 == '1'"
+        "isVis": true
       },
       {
         "variableName": "ph_cg_cnq_012",

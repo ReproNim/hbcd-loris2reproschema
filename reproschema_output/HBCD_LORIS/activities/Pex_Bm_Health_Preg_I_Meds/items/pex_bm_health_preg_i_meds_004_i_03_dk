@@ -30,9 +30,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: pex_bm_health_preg_i_meds_002 >== 2  AND pex_bm_health_preg_i_meds_004_i_03_i_01 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_02 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_03 == '' AND pex_bm_health_preg_i_meds_004_i_03_i_04 == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

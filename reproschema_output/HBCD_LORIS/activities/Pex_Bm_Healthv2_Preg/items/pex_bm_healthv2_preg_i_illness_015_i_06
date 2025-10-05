@@ -9,16 +9,12 @@
     "en": "Select symptom label"
   },
   "ui": {
-    "inputType": "text",
-    "readonlyValue": true
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_illness_014 >==1"
   },
   "additionalNotesObj": [
     {

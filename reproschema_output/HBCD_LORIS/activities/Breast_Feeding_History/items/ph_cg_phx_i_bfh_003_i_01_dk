@@ -30,9 +30,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: event-nameph_cg_phx_i_bfh_003 == '0'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_003_i_01_i_01 == '' AND event-nameph_cg_phx_i_bfh_003_i_02 == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

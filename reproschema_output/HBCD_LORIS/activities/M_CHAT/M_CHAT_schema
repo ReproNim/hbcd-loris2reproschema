@@ -370,19 +370,19 @@
         "variableName": "mh_ch_mchat_lang",
         "isAbout": "items/mh_ch_mchat_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_dtt",
         "isAbout": "items/mh_ch_mchat_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_timestamp_start",
         "isAbout": "items/mh_ch_mchat_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_timestamp_stop",
@@ -400,7 +400,7 @@
         "variableName": "mh_ch_mchat_location",
         "isAbout": "items/mh_ch_mchat_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_instr01",
@@ -418,97 +418,97 @@
         "variableName": "mh_ch_mchat_point_instr01",
         "isAbout": "items/mh_ch_mchat_point_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_002",
         "isAbout": "items/mh_ch_mchat_point_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_003",
         "isAbout": "items/mh_ch_mchat_point_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_004",
         "isAbout": "items/mh_ch_mchat_point_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_005",
         "isAbout": "items/mh_ch_mchat_point_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_006",
         "isAbout": "items/mh_ch_mchat_point_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_007",
         "isAbout": "items/mh_ch_mchat_point_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_008",
         "isAbout": "items/mh_ch_mchat_point_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_instr01",
         "isAbout": "items/mh_ch_mchat_point_009_instr01",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_02",
         "isAbout": "items/mh_ch_mchat_point_009_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_002 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_03",
         "isAbout": "items/mh_ch_mchat_point_009_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_003 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_04",
         "isAbout": "items/mh_ch_mchat_point_009_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_004 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_05",
         "isAbout": "items/mh_ch_mchat_point_009_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_005 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_06",
         "isAbout": "items/mh_ch_mchat_point_009_i_06",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_006 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_07",
         "isAbout": "items/mh_ch_mchat_point_009_i_07",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_007 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_point_009_i_08",
         "isAbout": "items/mh_ch_mchat_point_009_i_08",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_point_008 == '1' AND ((mh_ch_mchat_point_004 == '1' OR mh_ch_mchat_point_005 == '1' OR mh_ch_mchat_point_006 == '1' OR mh_ch_mchat_point_008 == '1') AND (mh_ch_mchat_point_002 == '1' OR mh_ch_mchat_point_003 == '1' OR mh_ch_mchat_point_007 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hear_001",
@@ -520,31 +520,31 @@
         "variableName": "mh_ch_mchat_hear_instr01",
         "isAbout": "items/mh_ch_mchat_hear_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hear_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hear_002",
         "isAbout": "items/mh_ch_mchat_hear_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hear_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hear_003",
         "isAbout": "items/mh_ch_mchat_hear_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hear_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hear_004",
         "isAbout": "items/mh_ch_mchat_hear_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hear_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hear_005",
         "isAbout": "items/mh_ch_mchat_hear_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hear_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_001",
@@ -556,67 +556,67 @@
         "variableName": "mh_ch_mchat_pretend_instr01",
         "isAbout": "items/mh_ch_mchat_pretend_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_002",
         "isAbout": "items/mh_ch_mchat_pretend_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_003",
         "isAbout": "items/mh_ch_mchat_pretend_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_004",
         "isAbout": "items/mh_ch_mchat_pretend_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_005",
         "isAbout": "items/mh_ch_mchat_pretend_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_006",
         "isAbout": "items/mh_ch_mchat_pretend_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_007",
         "isAbout": "items/mh_ch_mchat_pretend_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_008",
         "isAbout": "items/mh_ch_mchat_pretend_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_009",
         "isAbout": "items/mh_ch_mchat_pretend_009",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_010",
         "isAbout": "items/mh_ch_mchat_pretend_010",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_pretend_011",
         "isAbout": "items/mh_ch_mchat_pretend_011",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_pretend_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_climb_001",
@@ -628,31 +628,31 @@
         "variableName": "mh_ch_mchat_climb_instr01",
         "isAbout": "items/mh_ch_mchat_climb_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_climb_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_climb_002",
         "isAbout": "items/mh_ch_mchat_climb_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_climb_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_climb_003",
         "isAbout": "items/mh_ch_mchat_climb_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_climb_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_climb_004",
         "isAbout": "items/mh_ch_mchat_climb_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_climb_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_climb_005",
         "isAbout": "items/mh_ch_mchat_climb_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_climb_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_001",
@@ -664,49 +664,49 @@
         "variableName": "mh_ch_mchat_hands_instr01",
         "isAbout": "items/mh_ch_mchat_hands_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_002",
         "isAbout": "items/mh_ch_mchat_hands_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_003",
         "isAbout": "items/mh_ch_mchat_hands_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_004",
         "isAbout": "items/mh_ch_mchat_hands_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_005",
         "isAbout": "items/mh_ch_mchat_hands_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_006",
         "isAbout": "items/mh_ch_mchat_hands_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_007",
         "isAbout": "items/mh_ch_mchat_hands_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_hands_008",
         "isAbout": "items/mh_ch_mchat_hands_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_hands_002 == '1' OR mh_ch_mchat_hands_003 == '1' OR mh_ch_mchat_hands_004 == '1' OR mh_ch_mchat_hands_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_001",
@@ -718,55 +718,55 @@
         "variableName": "mh_ch_mchat_reach_instr01",
         "isAbout": "items/mh_ch_mchat_reach_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_002",
         "isAbout": "items/mh_ch_mchat_reach_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_003",
         "isAbout": "items/mh_ch_mchat_reach_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_004",
         "isAbout": "items/mh_ch_mchat_reach_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_005",
         "isAbout": "items/mh_ch_mchat_reach_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_006",
         "isAbout": "items/mh_ch_mchat_reach_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_007",
         "isAbout": "items/mh_ch_mchat_reach_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_008",
         "isAbout": "items/mh_ch_mchat_reach_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_reach_009",
         "isAbout": "items/mh_ch_mchat_reach_009",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_reach_003 == '1' OR mh_ch_mchat_reach_005 == '1' OR mh_ch_mchat_reach_006 == '1' OR mh_ch_mchat_reach_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_001",
@@ -778,43 +778,43 @@
         "variableName": "mh_ch_mchat_show_instr01",
         "isAbout": "items/mh_ch_mchat_show_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_002",
         "isAbout": "items/mh_ch_mchat_show_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_003",
         "isAbout": "items/mh_ch_mchat_show_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_004",
         "isAbout": "items/mh_ch_mchat_show_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_005",
         "isAbout": "items/mh_ch_mchat_show_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_006",
         "isAbout": "items/mh_ch_mchat_show_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_002 == '1' OR mh_ch_mchat_show_003 == '1' OR mh_ch_mchat_show_004 == '1' OR mh_ch_mchat_show_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_show_007",
         "isAbout": "items/mh_ch_mchat_show_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_show_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_001",
@@ -826,109 +826,109 @@
         "variableName": "mh_ch_mchat_children_instr01",
         "isAbout": "items/mh_ch_mchat_children_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_002",
         "isAbout": "items/mh_ch_mchat_children_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_003",
         "isAbout": "items/mh_ch_mchat_children_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_004",
         "isAbout": "items/mh_ch_mchat_children_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_005",
         "isAbout": "items/mh_ch_mchat_children_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_006",
         "isAbout": "items/mh_ch_mchat_children_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_007",
         "isAbout": "items/mh_ch_mchat_children_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_008",
         "isAbout": "items/mh_ch_mchat_children_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_009",
         "isAbout": "items/mh_ch_mchat_children_009",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_children_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_instr02",
         "isAbout": "items/mh_ch_mchat_children_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_02",
         "isAbout": "items/mh_ch_mchat_children_010_i_02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_03",
         "isAbout": "items/mh_ch_mchat_children_010_i_03",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_04",
         "isAbout": "items/mh_ch_mchat_children_010_i_04",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_05",
         "isAbout": "items/mh_ch_mchat_children_010_i_05",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_06",
         "isAbout": "items/mh_ch_mchat_children_010_i_06",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_07",
         "isAbout": "items/mh_ch_mchat_children_010_i_07",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_08",
         "isAbout": "items/mh_ch_mchat_children_010_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_children_010_i_09",
         "isAbout": "items/mh_ch_mchat_children_010_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_children_002 == '1' OR mh_ch_mchat_children_003 == '1' OR mh_ch_mchat_children_004 == '1' OR mh_ch_mchat_children_005 == '1' OR mh_ch_mchat_children_006 == '1' OR mh_ch_mchat_children_007 == '1' OR mh_ch_mchat_children_008 == '1') AND mh_ch_mchat_children_009 == '1') AND mh_ch_mchat_children_009 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_001",
@@ -940,43 +940,43 @@
         "variableName": "mh_ch_mchat_share_instr01",
         "isAbout": "items/mh_ch_mchat_share_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_002",
         "isAbout": "items/mh_ch_mchat_share_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_003",
         "isAbout": "items/mh_ch_mchat_share_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_004",
         "isAbout": "items/mh_ch_mchat_share_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_005",
         "isAbout": "items/mh_ch_mchat_share_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_006",
         "isAbout": "items/mh_ch_mchat_share_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_share_007",
         "isAbout": "items/mh_ch_mchat_share_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_share_002 == '1' OR mh_ch_mchat_share_003 == '1' OR mh_ch_mchat_share_004 == '1' OR mh_ch_mchat_share_005 == '1' OR mh_ch_mchat_share_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_001",
@@ -988,97 +988,97 @@
         "variableName": "mh_ch_mchat_name_instr01",
         "isAbout": "items/mh_ch_mchat_name_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_002",
         "isAbout": "items/mh_ch_mchat_name_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_003",
         "isAbout": "items/mh_ch_mchat_name_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_004",
         "isAbout": "items/mh_ch_mchat_name_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_005",
         "isAbout": "items/mh_ch_mchat_name_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_006",
         "isAbout": "items/mh_ch_mchat_name_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_007",
         "isAbout": "items/mh_ch_mchat_name_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_008",
         "isAbout": "items/mh_ch_mchat_name_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_name_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_instr02",
         "isAbout": "items/mh_ch_mchat_name_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_02",
         "isAbout": "items/mh_ch_mchat_name_009_i_02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_03",
         "isAbout": "items/mh_ch_mchat_name_009_i_03",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_04",
         "isAbout": "items/mh_ch_mchat_name_009_i_04",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_05",
         "isAbout": "items/mh_ch_mchat_name_009_i_05",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_06",
         "isAbout": "items/mh_ch_mchat_name_009_i_06",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_07",
         "isAbout": "items/mh_ch_mchat_name_009_i_07",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_name_009_i_08",
         "isAbout": "items/mh_ch_mchat_name_009_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_name_004 == '1' OR mh_ch_mchat_name_006 == '1' OR mh_ch_mchat_name_007 == '1') AND (mh_ch_mchat_name_002 == '1' OR mh_ch_mchat_name_003 == '1' OR mh_ch_mchat_name_005 == '1' OR mh_ch_mchat_name_008 == '1')) AND mh_ch_mchat_name_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_001",
@@ -1090,85 +1090,85 @@
         "variableName": "mh_ch_mchat_smile_instr01",
         "isAbout": "items/mh_ch_mchat_smile_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_002",
         "isAbout": "items/mh_ch_mchat_smile_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_005",
         "isAbout": "items/mh_ch_mchat_smile_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_003",
         "isAbout": "items/mh_ch_mchat_smile_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_004",
         "isAbout": "items/mh_ch_mchat_smile_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_007",
         "isAbout": "items/mh_ch_mchat_smile_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_006",
         "isAbout": "items/mh_ch_mchat_smile_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_smile_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_instr02",
         "isAbout": "items/mh_ch_mchat_smile_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_02",
         "isAbout": "items/mh_ch_mchat_smile_008_i_02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_05",
         "isAbout": "items/mh_ch_mchat_smile_008_i_05",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_005 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_03",
         "isAbout": "items/mh_ch_mchat_smile_008_i_03",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_04",
         "isAbout": "items/mh_ch_mchat_smile_008_i_04",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_004 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_07",
         "isAbout": "items/mh_ch_mchat_smile_008_i_07",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_007 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_smile_008_i_06",
         "isAbout": "items/mh_ch_mchat_smile_008_i_06",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_smile_002 == '1' OR mh_ch_mchat_smile_003 == '1' OR mh_ch_mchat_smile_004) AND (mh_ch_mchat_smile_005 == '1' OR mh_ch_mchat_smile_007 == '1' OR mh_ch_mchat_smile_006 == '1')) AND mh_ch_mchat_smile_006 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_001",
@@ -1180,715 +1180,715 @@
         "variableName": "mh_ch_mchat_noise_instr01",
         "isAbout": "items/mh_ch_mchat_noise_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002",
         "isAbout": "items/mh_ch_mchat_noise_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003",
         "isAbout": "items/mh_ch_mchat_noise_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004",
         "isAbout": "items/mh_ch_mchat_noise_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005",
         "isAbout": "items/mh_ch_mchat_noise_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006",
         "isAbout": "items/mh_ch_mchat_noise_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007",
         "isAbout": "items/mh_ch_mchat_noise_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008",
         "isAbout": "items/mh_ch_mchat_noise_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009",
         "isAbout": "items/mh_ch_mchat_noise_009",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010",
         "isAbout": "items/mh_ch_mchat_noise_010",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_001 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_calc1",
         "isAbout": "items/mh_ch_mchat_noise_calc1",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_instr01",
         "isAbout": "items/mh_ch_mchat_noise_002_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_01",
         "isAbout": "items/mh_ch_mchat_noise_002_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_02",
         "isAbout": "items/mh_ch_mchat_noise_002_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_03",
         "isAbout": "items/mh_ch_mchat_noise_002_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_04",
         "isAbout": "items/mh_ch_mchat_noise_002_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_05",
         "isAbout": "items/mh_ch_mchat_noise_002_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_instr02",
         "isAbout": "items/mh_ch_mchat_noise_002_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_06",
         "isAbout": "items/mh_ch_mchat_noise_002_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_01 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_07",
         "isAbout": "items/mh_ch_mchat_noise_002_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_02 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_08",
         "isAbout": "items/mh_ch_mchat_noise_002_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND mh_ch_mchat_noise_002_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_09",
         "isAbout": "items/mh_ch_mchat_noise_002_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND mh_ch_mchat_noise_002_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_10",
         "isAbout": "items/mh_ch_mchat_noise_002_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_05 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_instr01",
         "isAbout": "items/mh_ch_mchat_noise_003_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_01",
         "isAbout": "items/mh_ch_mchat_noise_003_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_02",
         "isAbout": "items/mh_ch_mchat_noise_003_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_03",
         "isAbout": "items/mh_ch_mchat_noise_003_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_04",
         "isAbout": "items/mh_ch_mchat_noise_003_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_05",
         "isAbout": "items/mh_ch_mchat_noise_003_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_003 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_instr02",
         "isAbout": "items/mh_ch_mchat_noise_003_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_003_i_01 == '1' OR mh_ch_mchat_noise_003_i_02 == '1' OR mh_ch_mchat_noise_003_i_05 == '1') AND (mh_ch_mchat_noise_003_i_03 == '1' OR mh_ch_mchat_noise_003_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_06",
         "isAbout": "items/mh_ch_mchat_noise_003_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_003_i_01 == '1' AND (mh_ch_mchat_noise_003_i_03 == '1' OR mh_ch_mchat_noise_003_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_07",
         "isAbout": "items/mh_ch_mchat_noise_003_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_003_i_02 == '1' AND (mh_ch_mchat_noise_003_i_03 == '1' OR mh_ch_mchat_noise_003_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_08",
         "isAbout": "items/mh_ch_mchat_noise_003_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_003_i_01 == '1' OR mh_ch_mchat_noise_003_i_02 == '1' OR mh_ch_mchat_noise_003_i_05 == '1') AND mh_ch_mchat_noise_003_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_09",
         "isAbout": "items/mh_ch_mchat_noise_003_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_003_i_01 == '1' OR mh_ch_mchat_noise_003_i_02 == '1' OR mh_ch_mchat_noise_003_i_05 == '1') AND mh_ch_mchat_noise_003_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_003_i_10",
         "isAbout": "items/mh_ch_mchat_noise_003_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_003_i_05 == '1' AND (mh_ch_mchat_noise_003_i_03 == '1' OR mh_ch_mchat_noise_003_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_instr01",
         "isAbout": "items/mh_ch_mchat_noise_004_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_01",
         "isAbout": "items/mh_ch_mchat_noise_004_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_02",
         "isAbout": "items/mh_ch_mchat_noise_004_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_03",
         "isAbout": "items/mh_ch_mchat_noise_004_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_04",
         "isAbout": "items/mh_ch_mchat_noise_004_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_05",
         "isAbout": "items/mh_ch_mchat_noise_004_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_004 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_instr02",
         "isAbout": "items/mh_ch_mchat_noise_004_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_004_i_01 == '1' OR mh_ch_mchat_noise_004_i_02 == '1' OR mh_ch_mchat_noise_004_i_05 == '1') AND (mh_ch_mchat_noise_004_i_03 == '1' OR mh_ch_mchat_noise_004_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_06",
         "isAbout": "items/mh_ch_mchat_noise_004_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_004_i_01 == '1' AND (mh_ch_mchat_noise_004_i_03 == '1' OR mh_ch_mchat_noise_004_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_07",
         "isAbout": "items/mh_ch_mchat_noise_004_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_004_i_02 == '1' AND (mh_ch_mchat_noise_004_i_03 == '1' OR mh_ch_mchat_noise_004_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_08",
         "isAbout": "items/mh_ch_mchat_noise_004_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_004_i_01 == '1' OR mh_ch_mchat_noise_004_i_02 == '1' OR mh_ch_mchat_noise_004_i_05 == '1') AND mh_ch_mchat_noise_004_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_09",
         "isAbout": "items/mh_ch_mchat_noise_004_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_004_i_01 == '1' OR mh_ch_mchat_noise_004_i_02 == '1' OR mh_ch_mchat_noise_004_i_05 == '1') AND mh_ch_mchat_noise_004_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_004_i_10",
         "isAbout": "items/mh_ch_mchat_noise_004_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_004_i_05 == '1' AND (mh_ch_mchat_noise_004_i_03 == '1' OR mh_ch_mchat_noise_004_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_instr01",
         "isAbout": "items/mh_ch_mchat_noise_005_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_01",
         "isAbout": "items/mh_ch_mchat_noise_005_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_02",
         "isAbout": "items/mh_ch_mchat_noise_005_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_03",
         "isAbout": "items/mh_ch_mchat_noise_005_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_04",
         "isAbout": "items/mh_ch_mchat_noise_005_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_05",
         "isAbout": "items/mh_ch_mchat_noise_005_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_005 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_instr02",
         "isAbout": "items/mh_ch_mchat_noise_005_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_005_i_01 == '1' OR mh_ch_mchat_noise_005_i_02 == '1' OR mh_ch_mchat_noise_005_i_05 == '1') AND (mh_ch_mchat_noise_005_i_03 == '1' OR mh_ch_mchat_noise_005_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_06",
         "isAbout": "items/mh_ch_mchat_noise_005_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_005_i_01 == '1' AND (mh_ch_mchat_noise_005_i_03 == '1' OR mh_ch_mchat_noise_005_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_07",
         "isAbout": "items/mh_ch_mchat_noise_005_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_005_i_02 == '1' AND (mh_ch_mchat_noise_005_i_03 == '1' OR mh_ch_mchat_noise_005_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_08",
         "isAbout": "items/mh_ch_mchat_noise_005_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_005_i_01 == '1' OR mh_ch_mchat_noise_005_i_02 == '1' OR mh_ch_mchat_noise_005_i_05 == '1') AND mh_ch_mchat_noise_005_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_09",
         "isAbout": "items/mh_ch_mchat_noise_005_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_005_i_01 == '1' OR mh_ch_mchat_noise_005_i_02 == '1' OR mh_ch_mchat_noise_005_i_05 == '1') AND mh_ch_mchat_noise_005_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_005_i_10",
         "isAbout": "items/mh_ch_mchat_noise_005_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_005_i_05 == '1' AND (mh_ch_mchat_noise_005_i_03 == '1' OR mh_ch_mchat_noise_005_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_instr01",
         "isAbout": "items/mh_ch_mchat_noise_006_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_01",
         "isAbout": "items/mh_ch_mchat_noise_006_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_02",
         "isAbout": "items/mh_ch_mchat_noise_006_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_03",
         "isAbout": "items/mh_ch_mchat_noise_006_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_04",
         "isAbout": "items/mh_ch_mchat_noise_006_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_05",
         "isAbout": "items/mh_ch_mchat_noise_006_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_006 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_instr02",
         "isAbout": "items/mh_ch_mchat_noise_006_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_006_i_01 == '1' OR mh_ch_mchat_noise_006_i_02 == '1' OR mh_ch_mchat_noise_006_i_05 == '1') AND (mh_ch_mchat_noise_006_i_03 == '1' OR mh_ch_mchat_noise_006_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_06",
         "isAbout": "items/mh_ch_mchat_noise_006_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_006_i_01 == '1' AND (mh_ch_mchat_noise_006_i_03 == '1' OR mh_ch_mchat_noise_006_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_07",
         "isAbout": "items/mh_ch_mchat_noise_006_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_006_i_02 == '1' AND (mh_ch_mchat_noise_006_i_03 == '1' OR mh_ch_mchat_noise_006_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_08",
         "isAbout": "items/mh_ch_mchat_noise_006_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_006_i_01 == '1' OR mh_ch_mchat_noise_006_i_02 == '1' OR mh_ch_mchat_noise_006_i_05 == '1') AND mh_ch_mchat_noise_006_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_09",
         "isAbout": "items/mh_ch_mchat_noise_006_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_006_i_01 == '1' OR mh_ch_mchat_noise_006_i_02 == '1' OR mh_ch_mchat_noise_006_i_05 == '1') AND mh_ch_mchat_noise_006_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_006_i_10",
         "isAbout": "items/mh_ch_mchat_noise_006_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_006_i_05 == '1' AND (mh_ch_mchat_noise_006_i_03 == '1' OR mh_ch_mchat_noise_006_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_instr01",
         "isAbout": "items/mh_ch_mchat_noise_007_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_01",
         "isAbout": "items/mh_ch_mchat_noise_007_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_02",
         "isAbout": "items/mh_ch_mchat_noise_007_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_03",
         "isAbout": "items/mh_ch_mchat_noise_007_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_04",
         "isAbout": "items/mh_ch_mchat_noise_007_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_05",
         "isAbout": "items/mh_ch_mchat_noise_007_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_007 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_instr02",
         "isAbout": "items/mh_ch_mchat_noise_007_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_007_i_01 == '1' OR mh_ch_mchat_noise_007_i_02 == '1' OR mh_ch_mchat_noise_007_i_05 == '1') AND (mh_ch_mchat_noise_007_i_03 == '1' OR mh_ch_mchat_noise_007_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_06",
         "isAbout": "items/mh_ch_mchat_noise_007_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_007_i_01 == '1' AND (mh_ch_mchat_noise_007_i_03 == '1' OR mh_ch_mchat_noise_007_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_07",
         "isAbout": "items/mh_ch_mchat_noise_007_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_007_i_02 == '1' AND (mh_ch_mchat_noise_007_i_03 == '1' OR mh_ch_mchat_noise_007_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_08",
         "isAbout": "items/mh_ch_mchat_noise_007_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_007_i_01 == '1' OR mh_ch_mchat_noise_007_i_02 == '1' OR mh_ch_mchat_noise_007_i_05 == '1') AND mh_ch_mchat_noise_007_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_09",
         "isAbout": "items/mh_ch_mchat_noise_007_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_007_i_01 == '1' OR mh_ch_mchat_noise_007_i_02 == '1' OR mh_ch_mchat_noise_007_i_05 == '1') AND mh_ch_mchat_noise_007_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_007_i_10",
         "isAbout": "items/mh_ch_mchat_noise_007_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_007_i_05 == '1' AND (mh_ch_mchat_noise_007_i_03 == '1' OR mh_ch_mchat_noise_007_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_instr01",
         "isAbout": "items/mh_ch_mchat_noise_008_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_01",
         "isAbout": "items/mh_ch_mchat_noise_008_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_02",
         "isAbout": "items/mh_ch_mchat_noise_008_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_03",
         "isAbout": "items/mh_ch_mchat_noise_008_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_04",
         "isAbout": "items/mh_ch_mchat_noise_008_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_05",
         "isAbout": "items/mh_ch_mchat_noise_008_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_008 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_instr02",
         "isAbout": "items/mh_ch_mchat_noise_008_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_008_i_01 == '1' OR mh_ch_mchat_noise_008_i_02 == '1' OR mh_ch_mchat_noise_008_i_05 == '1') AND (mh_ch_mchat_noise_008_i_03 == '1' OR mh_ch_mchat_noise_008_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_06",
         "isAbout": "items/mh_ch_mchat_noise_008_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_008_i_01 == '1' AND (mh_ch_mchat_noise_008_i_03 == '1' OR mh_ch_mchat_noise_008_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_07",
         "isAbout": "items/mh_ch_mchat_noise_008_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_008_i_02 == '1' AND (mh_ch_mchat_noise_008_i_03 == '1' OR mh_ch_mchat_noise_008_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_08",
         "isAbout": "items/mh_ch_mchat_noise_008_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_008_i_01 == '1' OR mh_ch_mchat_noise_008_i_02 == '1' OR mh_ch_mchat_noise_008_i_05 == '1') AND mh_ch_mchat_noise_008_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_09",
         "isAbout": "items/mh_ch_mchat_noise_008_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_008_i_01 == '1' OR mh_ch_mchat_noise_008_i_02 == '1' OR mh_ch_mchat_noise_008_i_05 == '1') AND mh_ch_mchat_noise_008_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_008_i_10",
         "isAbout": "items/mh_ch_mchat_noise_008_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_008_i_05 == '1' AND (mh_ch_mchat_noise_008_i_03 == '1' OR mh_ch_mchat_noise_008_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_instr01",
         "isAbout": "items/mh_ch_mchat_noise_009_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_01",
         "isAbout": "items/mh_ch_mchat_noise_009_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_02",
         "isAbout": "items/mh_ch_mchat_noise_009_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_03",
         "isAbout": "items/mh_ch_mchat_noise_009_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_04",
         "isAbout": "items/mh_ch_mchat_noise_009_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_05",
         "isAbout": "items/mh_ch_mchat_noise_009_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_009 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_instr02",
         "isAbout": "items/mh_ch_mchat_noise_009_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_009_i_01 == '1' OR mh_ch_mchat_noise_009_i_02 == '1' OR mh_ch_mchat_noise_009_i_05 == '1') AND (mh_ch_mchat_noise_009_i_03 == '1' OR mh_ch_mchat_noise_009_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_06",
         "isAbout": "items/mh_ch_mchat_noise_009_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_009_i_01 == '1' AND (mh_ch_mchat_noise_009_i_03 == '1' OR mh_ch_mchat_noise_009_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_07",
         "isAbout": "items/mh_ch_mchat_noise_009_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_009_i_02 == '1' AND (mh_ch_mchat_noise_009_i_03 == '1' OR mh_ch_mchat_noise_009_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_08",
         "isAbout": "items/mh_ch_mchat_noise_009_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_009_i_01 == '1' OR mh_ch_mchat_noise_009_i_02 == '1' OR mh_ch_mchat_noise_009_i_05 == '1') AND mh_ch_mchat_noise_009_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_09",
         "isAbout": "items/mh_ch_mchat_noise_009_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_009_i_01 == '1' OR mh_ch_mchat_noise_009_i_02 == '1' OR mh_ch_mchat_noise_009_i_05 == '1') AND mh_ch_mchat_noise_009_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_009_i_10",
         "isAbout": "items/mh_ch_mchat_noise_009_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_009_i_05 == '1' AND (mh_ch_mchat_noise_009_i_03 == '1' OR mh_ch_mchat_noise_009_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_instr01",
         "isAbout": "items/mh_ch_mchat_noise_010_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_01",
         "isAbout": "items/mh_ch_mchat_noise_010_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_02",
         "isAbout": "items/mh_ch_mchat_noise_010_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_03",
         "isAbout": "items/mh_ch_mchat_noise_010_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_04",
         "isAbout": "items/mh_ch_mchat_noise_010_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_05",
         "isAbout": "items/mh_ch_mchat_noise_010_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_010 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_instr02",
         "isAbout": "items/mh_ch_mchat_noise_010_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_010_i_01 == '1' OR mh_ch_mchat_noise_010_i_02 == '1' OR mh_ch_mchat_noise_010_i_05 == '1') AND (mh_ch_mchat_noise_010_i_03 == '1' OR mh_ch_mchat_noise_010_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_06",
         "isAbout": "items/mh_ch_mchat_noise_010_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_010_i_01 == '1' AND (mh_ch_mchat_noise_010_i_03 == '1' OR mh_ch_mchat_noise_010_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_07",
         "isAbout": "items/mh_ch_mchat_noise_010_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_010_i_02 == '1' AND (mh_ch_mchat_noise_010_i_03 == '1' OR mh_ch_mchat_noise_010_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_08",
         "isAbout": "items/mh_ch_mchat_noise_010_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_010_i_01 == '1' OR mh_ch_mchat_noise_010_i_02 == '1' OR mh_ch_mchat_noise_010_i_05 == '1') AND mh_ch_mchat_noise_010_i_03 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_09",
         "isAbout": "items/mh_ch_mchat_noise_010_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_010_i_01 == '1' OR mh_ch_mchat_noise_010_i_02 == '1' OR mh_ch_mchat_noise_010_i_05 == '1') AND mh_ch_mchat_noise_010_i_04 == '1')"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_noise_010_i_10",
         "isAbout": "items/mh_ch_mchat_noise_010_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_010_i_05 == '1' AND (mh_ch_mchat_noise_010_i_03 == '1' OR mh_ch_mchat_noise_010_i_04 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_walk_001",
@@ -1900,13 +1900,13 @@
         "variableName": "mh_ch_mchat_walk_002",
         "isAbout": "items/mh_ch_mchat_walk_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_walk_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_walk_003",
         "isAbout": "items/mh_ch_mchat_walk_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_walk_002 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_001",
@@ -1918,61 +1918,61 @@
         "variableName": "mh_ch_mchat_eyecontact_instr01",
         "isAbout": "items/mh_ch_mchat_eyecontact_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_002",
         "isAbout": "items/mh_ch_mchat_eyecontact_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_003",
         "isAbout": "items/mh_ch_mchat_eyecontact_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_004",
         "isAbout": "items/mh_ch_mchat_eyecontact_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_005",
         "isAbout": "items/mh_ch_mchat_eyecontact_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_006",
         "isAbout": "items/mh_ch_mchat_eyecontact_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_007",
         "isAbout": "items/mh_ch_mchat_eyecontact_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_calc01",
         "isAbout": "items/mh_ch_mchat_eyecontact_calc01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_008",
         "isAbout": "items/mh_ch_mchat_eyecontact_008",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_calc01 == 1"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_eyecontact_009",
         "isAbout": "items/mh_ch_mchat_eyecontact_009",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_eyecontact_008 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_001",
@@ -1984,43 +1984,43 @@
         "variableName": "mh_ch_mchat_copy_instr01",
         "isAbout": "items/mh_ch_mchat_copy_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_002",
         "isAbout": "items/mh_ch_mchat_copy_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_003",
         "isAbout": "items/mh_ch_mchat_copy_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_004",
         "isAbout": "items/mh_ch_mchat_copy_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_005",
         "isAbout": "items/mh_ch_mchat_copy_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_006",
         "isAbout": "items/mh_ch_mchat_copy_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_copy_007",
         "isAbout": "items/mh_ch_mchat_copy_007",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_copy_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_001",
@@ -2032,73 +2032,73 @@
         "variableName": "mh_ch_mchat_look_instr01",
         "isAbout": "items/mh_ch_mchat_look_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_002",
         "isAbout": "items/mh_ch_mchat_look_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_003",
         "isAbout": "items/mh_ch_mchat_look_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_004",
         "isAbout": "items/mh_ch_mchat_look_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_005",
         "isAbout": "items/mh_ch_mchat_look_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_006",
         "isAbout": "items/mh_ch_mchat_look_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_instr02",
         "isAbout": "items/mh_ch_mchat_look_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_002_i_01",
         "isAbout": "items/mh_ch_mchat_look_002_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_002 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_003_i_01",
         "isAbout": "items/mh_ch_mchat_look_003_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_003 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_004_i_01",
         "isAbout": "items/mh_ch_mchat_look_004_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_004 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_005_i_01",
         "isAbout": "items/mh_ch_mchat_look_005_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_005 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_look_006_i_01",
         "isAbout": "items/mh_ch_mchat_look_006_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_look_006 == '1' AND ((mh_ch_mchat_look_002 == '1' OR mh_ch_mchat_look_005 == '1') AND (mh_ch_mchat_look_003 == '1' OR mh_ch_mchat_look_004 == '1' OR mh_ch_mchat_look_006 == '1'))"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_watch_001",
@@ -2110,31 +2110,31 @@
         "variableName": "mh_ch_mchat_watch_instr01",
         "isAbout": "items/mh_ch_mchat_watch_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_watch_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_watch_002",
         "isAbout": "items/mh_ch_mchat_watch_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_watch_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_watch_003",
         "isAbout": "items/mh_ch_mchat_watch_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_watch_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_watch_004",
         "isAbout": "items/mh_ch_mchat_watch_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_watch_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_watch_005",
         "isAbout": "items/mh_ch_mchat_watch_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_watch_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_001",
@@ -2146,37 +2146,37 @@
         "variableName": "mh_ch_mchat_command_002",
         "isAbout": "items/mh_ch_mchat_command_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_003",
         "isAbout": "items/mh_ch_mchat_command_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_002 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_instr01",
         "isAbout": "items/mh_ch_mchat_command_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_002 == '1' OR mh_ch_mchat_command_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_004",
         "isAbout": "items/mh_ch_mchat_command_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_002 == '1' OR mh_ch_mchat_command_003 == '1'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_005",
         "isAbout": "items/mh_ch_mchat_command_005",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_004 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_command_006",
         "isAbout": "items/mh_ch_mchat_command_006",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_command_005 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_guidance_001",
@@ -2188,19 +2188,19 @@
         "variableName": "mh_ch_mchat_guidance_002",
         "isAbout": "items/mh_ch_mchat_guidance_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_guidance_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_guidance_003",
         "isAbout": "items/mh_ch_mchat_guidance_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_guidance_002 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_guidance_004",
         "isAbout": "items/mh_ch_mchat_guidance_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_guidance_003 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_movement_001",
@@ -2212,25 +2212,25 @@
         "variableName": "mh_ch_mchat_movement_instr01",
         "isAbout": "items/mh_ch_mchat_movement_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_movement_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_movement_002",
         "isAbout": "items/mh_ch_mchat_movement_002",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_movement_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_movement_003",
         "isAbout": "items/mh_ch_mchat_movement_003",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_movement_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_movement_004",
         "isAbout": "items/mh_ch_mchat_movement_004",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_movement_001 == '0'"
+        "isVis": true
       },
       {
         "variableName": "mh_ch_mchat_Validity",

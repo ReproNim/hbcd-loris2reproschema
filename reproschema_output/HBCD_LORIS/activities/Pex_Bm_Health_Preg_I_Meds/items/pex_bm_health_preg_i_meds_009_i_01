@@ -9,15 +9,12 @@
     "en": "What is the seventh medication (prescribed) you used?"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:string"
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: pex_bm_health_preg_i_meds_002 >== 7 AND pex_bm_health_preg_i_meds_009_i_01_dk == ''"
   },
   "additionalNotesObj": [
     {
@@ -43,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "String"
     },
     {
       "source": "loris",

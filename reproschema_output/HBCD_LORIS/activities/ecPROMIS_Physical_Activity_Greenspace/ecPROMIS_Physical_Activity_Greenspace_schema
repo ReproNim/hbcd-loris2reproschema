@@ -77,19 +77,19 @@
         "variableName": "ph_cg_pms_i_pags_lang",
         "isAbout": "items/ph_cg_pms_i_pags_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_pags_dtt",
         "isAbout": "items/ph_cg_pms_i_pags_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_pags_timestamp_start",
         "isAbout": "items/ph_cg_pms_i_pags_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_pags_timestamp_stop",
@@ -107,7 +107,7 @@
         "variableName": "ph_cg_pms_i_pags_location",
         "isAbout": "items/ph_cg_pms_i_pags_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_pags_instruc_01",

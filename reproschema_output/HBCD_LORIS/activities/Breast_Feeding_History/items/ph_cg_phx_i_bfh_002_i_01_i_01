@@ -379,9 +379,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: event-nameph_cg_phx_i_bfh_002 == '1'  AND event-name !== 'v02_arm_1' AND event-nameph_cg_phx_i_bfh_002_i_01_dk == '' AND event-nameph_cg_phx_i_bfh_002_i_02 == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

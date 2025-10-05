@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_outcome_004 == '1' OR pex_bm_healthv2_preg_i_outcome_004 == '2'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

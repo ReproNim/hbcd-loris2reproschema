@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: v04_arm_1admin_caregiver_002 == '6' AND (sed_bm_demo_work_004_i_01 == '1' OR sed_bm_demo_work_004_i_01 == '2')"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",
