@@ -9,8 +9,7 @@
     "en": "EPDS - Flag 2: Depression summary score above threshold."
   },
   "ui": {
-    "inputType": "number",
-    "readonlyValue": true
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [

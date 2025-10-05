@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: pex_bm_healthv2_preg_i_meds_046 >== 3 AND pex_bm_healthv2_preg_i_meds_049_i_02_dk == ''"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

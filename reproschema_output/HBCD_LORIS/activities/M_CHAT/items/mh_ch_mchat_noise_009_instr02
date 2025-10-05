@@ -16,9 +16,6 @@
       "xsd:string"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ((mh_ch_mchat_noise_009_i_01 == '1' OR mh_ch_mchat_noise_009_i_02 == '1' OR mh_ch_mchat_noise_009_i_05 == '1') AND (mh_ch_mchat_noise_009_i_03 == '1' OR mh_ch_mchat_noise_009_i_04 == '1'))"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

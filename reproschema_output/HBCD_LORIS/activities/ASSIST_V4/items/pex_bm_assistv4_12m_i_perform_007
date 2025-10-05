@@ -42,9 +42,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: (pex_bm_assistv4_12m_i_use_007 == '1' OR pex_bm_assistv4_12m_i_use_007 == '2' OR pex_bm_assistv4_12m_i_use_007 == '3' OR pex_bm_assistv4_12m_i_use_007 == '4')"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

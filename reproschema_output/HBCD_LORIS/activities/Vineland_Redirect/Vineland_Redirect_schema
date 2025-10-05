@@ -59,13 +59,13 @@
         "variableName": "ncl_cg_webvabs_redirect",
         "isAbout": "items/ncl_cg_webvabs_redirect",
         "valueRequired": false,
-        "isVis": "ncl_cg_webvabs_completion_status !== '1'"
+        "isVis": true
       },
       {
         "variableName": "ncl_cg_webvabs_banner_post",
         "isAbout": "items/ncl_cg_webvabs_banner_post",
         "valueRequired": false,
-        "isVis": "ncl_cg_webvabs_completion_status == '1'"
+        "isVis": true
       },
       {
         "variableName": "ncl_cg_webvabs_completion_status",

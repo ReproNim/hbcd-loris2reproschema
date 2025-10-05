@@ -77,19 +77,19 @@
         "variableName": "pex_bm_str_i_ptsd_lang",
         "isAbout": "items/pex_bm_str_i_ptsd_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_str_i_ptsd_dtt",
         "isAbout": "items/pex_bm_str_i_ptsd_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_str_i_ptsd_timestamp_start",
         "isAbout": "items/pex_bm_str_i_ptsd_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_str_i_ptsd_timestamp_stop",
@@ -107,7 +107,7 @@
         "variableName": "pex_bm_str_i_ptsd_location",
         "isAbout": "items/pex_bm_str_i_ptsd_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "pex_bm_str_i_ptsd_instr01",

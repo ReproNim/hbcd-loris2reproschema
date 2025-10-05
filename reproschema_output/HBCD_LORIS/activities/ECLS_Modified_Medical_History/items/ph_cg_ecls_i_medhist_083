@@ -9,18 +9,73 @@
     "en": "Since we last saw you, did your child receive any of the following assistance?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "selectMultiple"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
     ],
+    "multipleChoice": true,
     "choices": [
       {
         "name": {
-          "en": "1"
+          "en": "11"
         },
-        "value": "Yes"
+        "value": "Home nursing"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Early intervention services (before age 3)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Preschool early intervention (between age 3 and starting kindergarten)"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Special Education services"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Aid in school or on the bus"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Tutoring to keep up with homework"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Physical therapy"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Occupational therapy"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Speech therapy"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Behavioral therapy"
       },
       {
         "name": {
@@ -39,11 +94,14 @@
           "en": "777"
         },
         "value": "Decline to answer"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Yes"
       }
     ]
-  },
-  "preamble": {
-    "en": "Conditional display: event-name == 'v08_arm_1'"
   },
   "additionalNotesObj": [
     {

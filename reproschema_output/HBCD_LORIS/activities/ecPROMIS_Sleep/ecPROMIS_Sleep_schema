@@ -73,19 +73,19 @@
         "variableName": "ph_cg_pms_i_sleep_lang",
         "isAbout": "items/ph_cg_pms_i_sleep_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_sleep_dtt",
         "isAbout": "items/ph_cg_pms_i_sleep_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_sleep_timestamp_start",
         "isAbout": "items/ph_cg_pms_i_sleep_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_sleep_timestamp_stop",
@@ -103,7 +103,7 @@
         "variableName": "ph_cg_pms_i_sleep_location",
         "isAbout": "items/ph_cg_pms_i_sleep_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pms_i_sleep_001",

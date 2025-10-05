@@ -68,19 +68,19 @@
         "variableName": "mh_cg_mapstl_i_easi_lang",
         "isAbout": "items/mh_cg_mapstl_i_easi_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_easi_dtt",
         "isAbout": "items/mh_cg_mapstl_i_easi_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_easi_timestamp_start",
         "isAbout": "items/mh_cg_mapstl_i_easi_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_easi_timestamp_stop",
@@ -98,7 +98,7 @@
         "variableName": "mh_cg_mapstl_i_easi_location",
         "isAbout": "items/mh_cg_mapstl_i_easi_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_mapstl_i_easi_instr01",

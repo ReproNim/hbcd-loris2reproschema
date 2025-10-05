@@ -90,9 +90,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: sed_cg_employ_010 == '1' AND (sed_cg_employ_010_i_07 == '1' OR sed_cg_employ_010_i_07 == '2' OR sed_cg_employ_010_i_07 == '3' OR sed_cg_employ_010_i_07 == '4' OR sed_cg_employ_010_i_07 == '5' OR sed_cg_employ_010_i_07 == '6' OR sed_cg_employ_010_i_07 == '7') AND sed_cg_employ_010_i_07 !== 777 AND sed_cg_employ_010_i_07 !== '999'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

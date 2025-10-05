@@ -75,19 +75,19 @@
         "variableName": "mh_cg_fad_lang",
         "isAbout": "items/mh_cg_fad_lang",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_dtt",
         "isAbout": "items/mh_cg_fad_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_timestamp_start",
         "isAbout": "items/mh_cg_fad_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_timestamp_stop",
@@ -105,13 +105,13 @@
         "variableName": "mh_cg_fad_location",
         "isAbout": "items/mh_cg_fad_location",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_01",
         "isAbout": "items/mh_cg_fad_001_i_01",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_02",
@@ -123,7 +123,7 @@
         "variableName": "mh_cg_fad_001_i_03",
         "isAbout": "items/mh_cg_fad_001_i_03",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_04",
@@ -135,7 +135,7 @@
         "variableName": "mh_cg_fad_001_i_05",
         "isAbout": "items/mh_cg_fad_001_i_05",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_06",
@@ -147,7 +147,7 @@
         "variableName": "mh_cg_fad_001_i_07",
         "isAbout": "items/mh_cg_fad_001_i_07",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_08",
@@ -159,7 +159,7 @@
         "variableName": "mh_cg_fad_001_i_09",
         "isAbout": "items/mh_cg_fad_001_i_09",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_10",
@@ -171,7 +171,7 @@
         "variableName": "mh_cg_fad_001_i_11",
         "isAbout": "items/mh_cg_fad_001_i_11",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "mh_cg_fad_001_i_12",

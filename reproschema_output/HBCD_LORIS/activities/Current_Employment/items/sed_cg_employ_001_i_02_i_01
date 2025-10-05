@@ -91,9 +91,6 @@
       }
     ]
   },
-  "preamble": {
-    "en": "Conditional display: sed_cg_employ_001_i_02 == '1' OR sed_cg_employ_001_i_02 == '2' OR sed_cg_employ_001_i_02 == '3'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",

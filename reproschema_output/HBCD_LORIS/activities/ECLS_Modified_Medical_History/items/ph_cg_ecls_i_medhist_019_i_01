@@ -16,9 +16,6 @@
       "xsd:date"
     ]
   },
-  "preamble": {
-    "en": "Conditional display: ph_cg_ecls_i_medhist_019 == '1' OR ph_cg_ecls_i_medhist_019 == '2'"
-  },
   "additionalNotesObj": [
     {
       "source": "loris",
