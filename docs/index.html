@@ -309,19 +309,9 @@
             // Available versions - this would be populated by CI
             // START_VERSIONS
             const availableVersions = [
-                "HEAD",
-                "HEAD~1",
-                "HEAD~2",
-                "HEAD~3",
-                "HEAD~4",
-                "HEAD~5",
+                "v2025.10.05",
                 "v2025.09.15",
-                "main",
-                "ee50412a",
-                "a79e9b4d",
-                "76b2fcda",
-                "c62de073",
-                "0df716b3",
+                "v2024.09.12"
             ];
             // END_VERSIONS
 
@@ -360,8 +350,8 @@
                 });
 
                 // Set defaults
-                fromSelect.value = "HEAD~1";
-                toSelect.value = "HEAD";
+                fromSelect.value = availableVersions[1] || availableVersions[0] || "";
+                toSelect.value = availableVersions[0] || "";
             }
 
             // Load comparison from pre-generated JSON files

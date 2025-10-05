@@ -15,33 +15,15 @@ from schema_comparison import SchemaComparator
 
 
 def get_recent_tags_and_commits(limit=20):
-    """Get recent git tags and commits for comparison."""
-    versions = []
-
+    """Get recent git tags for comparison (tags only)."""
     try:
-        # Get recent tags
-        result = subprocess.run([
-            "git", "tag", "--sort=-version:refname"
-        ], capture_output=True, text=True, check=True)
-        tags = result.stdout.strip().split('\n')
-        versions.extend([tag for tag in tags if tag][:10])  # Last 10 tags
-
-        # Get recent commits
-        result = subprocess.run([
-            "git", "log", "--oneline", "--format=%H", f"-{limit}"
-        ], capture_output=True, text=True, check=True)
-        commits = result.stdout.strip().split('\n')
-        versions.extend([commit[:8] for commit in commits if commit][:10])  # Last 10 commits (short)
-
-        # Add some common references
-        versions.extend(['HEAD', 'main'])
-
+        result = subprocess.run(["git", "tag", "--sort=-version:refname"], capture_output=True, text=True, check=True)
+        tags = [t for t in result.stdout.strip().split("\n") if t]
+        # Return up to `limit` tags; tags only (no commits/branches)
+        return tags[:limit]
     except subprocess.CalledProcessError as e:
-        print(f"Warning: Could not get git history: {e}")
-        # Fallback to basic references
-        versions = ['HEAD', 'HEAD~1', 'HEAD~2', 'HEAD~3', 'main']
-
-    return list(dict.fromkeys(versions))  # Remove duplicates while preserving order
+        print(f"Warning: Could not get git tags: {e}")
+        return []
 
 
 def generate_comparison_matrix(versions, output_dir):
