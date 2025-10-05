@@ -64,7 +64,7 @@ class UpdatePipeline:
                 },
                 "validation": {
                     "enabled": True,
-                    "stop_on_error": true
+                    "stop_on_error": True
                 },
                 "quality_checks": {
                     "max_issues_threshold": 50
@@ -218,7 +218,8 @@ class UpdatePipeline:
         self.logger.info("=" * 50)
 
         output_path = Path(self.config["conversion"]["output_path"])
-        protocol_schema = output_path / "HBCD_LORIS" / "HBCD_LORIS" / "HBCD_LORIS_schema"
+        # Protocol schema now lives directly under the protocol folder (single level)
+        protocol_schema = output_path / "HBCD_LORIS" / "HBCD_LORIS_schema"
 
         if not protocol_schema.exists():
             self.logger.error("Protocol schema not found")

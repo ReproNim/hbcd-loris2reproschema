@@ -1215,11 +1215,11 @@ class ReproSchemaConverter:
         if protocol_data.get("protocol_preamble"):
             protocol_schema["preamble"] = {"en": protocol_data["protocol_preamble"]}
 
-        # Ensure protocol directory exists
-        protocol_dir = output_path / safe_protocol_name
+        # Ensure protocol directory exists (output_path already points to the protocol folder)
+        protocol_dir = output_path
         protocol_dir.mkdir(parents=True, exist_ok=True)
 
-        # Write protocol schema
+        # Write protocol schema directly under the protocol folder
         schema_path = protocol_dir / f"{safe_protocol_name}_schema"
         with open(schema_path, 'w', encoding='utf-8') as f:
             json.dump(protocol_schema, f, indent=2)
