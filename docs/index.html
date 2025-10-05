@@ -353,6 +353,7 @@
             }
 
             async function loadAvailableVersions() {
+                const GITHUB_API_TAGS_URL = 'https://api.github.com/repos/ReproNim/hbcd-loris2reproschema/tags';
                 try {
                     const res = await fetch('data/index.json', { cache: 'no-cache' });
                     if (res.ok) {
@@ -365,11 +366,10 @@
                     console.error("Failed to load versions from data/index.json:", e);
                     // ignore, will use fallback
                 }
-                if (!availableVersions || availableVersions.length === 0) {
+                if (availableVersions.length === 0) {
                     // Fallback: try GitHub API tags (public, unauthenticated)
                     try {
-                        const api = 'https://api.github.com/repos/ReproNim/hbcd-loris2reproschema/tags';
-                        const res = await fetch(api, { cache: 'no-cache' });
+                        const res = await fetch(GITHUB_API_TAGS_URL, { cache: 'no-cache' });
                         if (res.ok) {
                             const tags = await res.json();
                             availableVersions = (tags || []).map(t => t.name);
@@ -380,6 +380,9 @@
                     }
                 }
                 populateVersions();
+                if (availableVersions.length === 0) {
+                    showError("Could not load version list. Please check your network connection.");
+                }
             }
 
             // Load comparison from pre-generated JSON files
