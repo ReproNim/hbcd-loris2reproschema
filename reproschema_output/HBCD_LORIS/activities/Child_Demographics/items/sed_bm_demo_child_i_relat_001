@@ -73,7 +73,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: (event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')"
+    "en": "Conditional display: event-name == 'v04_arm_1' OR event-name == 'v06_arm_1' OR event-name == 'v08_arm_1'"
   },
   "additionalNotesObj": [
     {

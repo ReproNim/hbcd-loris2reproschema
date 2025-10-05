@@ -25,10 +25,10 @@
       "items/sed_cg_foodins_location",
       "items/sed_cg_foodins_001",
       "items/sed_cg_foodins_002",
-      "items/sed_cg_foodins_category",
       "items/sed_cg_foodins_Validity",
       "items/sed_cg_foodins_Administration",
-      "items/sed_cg_foodins_Informant"
+      "items/sed_cg_foodins_Informant",
+      "items/sed_cg_foodins_category"
     ],
     "addProperties": [
       {
@@ -110,12 +110,6 @@
         "isVis": true
       },
       {
-        "variableName": "sed_cg_foodins_category",
-        "isAbout": "items/sed_cg_foodins_category",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "sed_cg_foodins_Validity",
         "isAbout": "items/sed_cg_foodins_Validity",
         "valueRequired": false,
@@ -130,6 +124,12 @@
       {
         "variableName": "sed_cg_foodins_Informant",
         "isAbout": "items/sed_cg_foodins_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_foodins_category",
+        "isAbout": "items/sed_cg_foodins_category",
         "valueRequired": false,
         "isVis": true
       }

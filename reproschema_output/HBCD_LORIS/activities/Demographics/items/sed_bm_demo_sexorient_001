@@ -18,18 +18,6 @@
     "choices": [
       {
         "name": {
-          "en": "1"
-        },
-        "value": "Gay"
-      },
-      {
-        "name": {
-          "en": "2"
-        },
-        "value": "Lesbian"
-      },
-      {
-        "name": {
           "en": "3"
         },
         "value": "Straight; that is, not gay or lesbian, etc."
@@ -39,6 +27,18 @@
           "en": "4"
         },
         "value": "Bisexual"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Gay"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Lesbian"
       },
       {
         "name": {
@@ -61,7 +61,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: event-name == 'v01_arm_1' OR (event-name == 'v02_arm_1' AND screening_arm_1recruitment_period == '2') OR event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'"
+    "en": "Conditional display: event-name == 'v01_arm_1' OR (event-name == 'v02_arm_1' AND screening_arm_1recruitment_period == '2') OR event-name == 'v04_arm_1'"
   },
   "additionalNotesObj": [
     {

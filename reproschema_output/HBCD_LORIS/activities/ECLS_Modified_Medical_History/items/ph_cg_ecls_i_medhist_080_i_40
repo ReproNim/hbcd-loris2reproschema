@@ -42,6 +42,9 @@
       }
     ]
   },
+  "preamble": {
+    "en": "Conditional display: ph_cg_ecls_i_medhist_079 == '1'"
+  },
   "additionalNotesObj": [
     {
       "source": "loris",
@@ -96,7 +99,7 @@
     {
       "source": "loris",
       "column": "collection_required",
-      "value": "Required"
+      "value": "Optional"
     },
     {
       "source": "loris",

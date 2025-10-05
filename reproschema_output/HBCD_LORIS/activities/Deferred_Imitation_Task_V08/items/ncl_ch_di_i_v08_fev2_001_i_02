@@ -18,27 +18,51 @@
     "choices": [
       {
         "name": {
-          "en": "slide_it"
+          "en": "plant_seed"
         },
-        "value": "Slide it (Beary-Go-Round)"
+        "value": "Plant the seed (Garden)"
       },
       {
         "name": {
-          "en": "build_it"
+          "en": "water_it"
         },
-        "value": "Build it (Beary-Go-Round)"
+        "value": "Water it (Garden)"
       },
       {
         "name": {
-          "en": "jump_on"
+          "en": "sun_comes"
         },
-        "value": "Jump on (Beary-Go-Round)"
+        "value": "Out comes the sun (Garden)"
       },
       {
         "name": {
-          "en": "spin_it"
+          "en": "watch_grow"
         },
-        "value": "Spin it (Beary-Go-Round)"
+        "value": "Watch it grow! (Garden)"
+      },
+      {
+        "name": {
+          "en": "open_up"
+        },
+        "value": "Open it up (Farm)"
+      },
+      {
+        "name": {
+          "en": "load_hay"
+        },
+        "value": "Load the hay (Farm)"
+      },
+      {
+        "name": {
+          "en": "call_cow"
+        },
+        "value": "Call the cow (Farm)"
+      },
+      {
+        "name": {
+          "en": "feed_cow"
+        },
+        "value": "Feed the cow (Farm)"
       },
       {
         "name": {

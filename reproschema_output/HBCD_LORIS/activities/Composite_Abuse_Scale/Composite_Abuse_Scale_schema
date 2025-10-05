@@ -62,7 +62,8 @@
       "items/sed_cg_cabr_sf_message",
       "items/sed_cg_cabr_sf_Validity",
       "items/sed_cg_cabr_sf_Administration",
-      "items/sed_cg_cabr_sf_Informant"
+      "items/sed_cg_cabr_sf_Informant",
+      "items/sed_cg_cabr_sf_sensitive"
     ],
     "addProperties": [
       {
@@ -368,6 +369,12 @@
       {
         "variableName": "sed_cg_cabr_sf_Informant",
         "isAbout": "items/sed_cg_cabr_sf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cabr_sf_sensitive",
+        "isAbout": "items/sed_cg_cabr_sf_sensitive",
         "valueRequired": false,
         "isVis": true
       }

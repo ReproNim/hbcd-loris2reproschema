@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhist_081"
   },
   "question": {
-    "en": "Has your child received any of the following technology?"
+    "en": "Has your child received any of the following technology?  Example: Tracheostomy, Ventilator, CPAP, Feeding tube, Dialysis, Home IV infusion therapy, Apnea monitor, Cochlea implants, Shunt for hydrocephalus, Wheelchair, Walker, Braces for hand, arm, ankle, and/or foot, Spine Brace, Prosthetics, Assistive techonology (such as robotics, assistive communication, electrical stimulation)"
   },
   "ui": {
     "inputType": "select"
@@ -99,7 +99,7 @@
     {
       "source": "loris",
       "column": "collection_required",
-      "value": "Required"
+      "value": "Optional"
     },
     {
       "source": "loris",

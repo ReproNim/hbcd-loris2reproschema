@@ -9,11 +9,80 @@
     "en": "Has your child been prescribed any special medical equipment?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "selectMultiple"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Glasses"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Hearing aids or other device to help with hearing"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Braces or orthotics for feet/ankles"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Feeding tube"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Apnea monitor"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Oxygen, CPAP or other respiratory support equipment"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Orthodontic device (for example, for cleft palate)"
+      },
+      {
+        "name": {
+          "en": "555"
+        },
+        "value": "None of the above"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
     ]
   },
   "preamble": {
