@@ -46,6 +46,21 @@ logs/, reports/, docs/  # Artifacts, summaries, and comparison data
 - `config/change_detection.yml`: thresholds and column rules (aligned to CSV headers).
 - `config/pipeline.yml`: output paths, validation options, and comparison settings.
 
+## CI Overview
+- Orchestrator: `./.github/workflows/automated_update.yml` delegates to two reusable workflows.
+  - `reusable-update.yml`: checks out code, runs conversion + validation, opens an auto PR if changes exist, and posts a one‑line schema diff summary (main → HEAD). Attaches `pr-schema-diff` JSON as an artifact.
+  - `reusable-release.yml`: waits for that PR to be merged, then tags (`vYYYY.MM.DD(.N)`), creates a GitHub Release, and publishes comparison JSON for recent versions into `docs/data/` (updates `docs/index.html`).
+- Composite actions: live under `./.github/actions/` for easy reuse.
+  - `setup-python-deps`: sets up Python 3.10 and installs pinned deps.
+  - `pr-schema-diff`: generates a JSON diff and emits a concise summary for PRs.
+  - `publish-comparisons`: generates/commits website comparison data on main.
+- On‑demand comparisons: run any pair without regenerating everything.
+  - Action: “Generate On‑Demand Comparison” (workflow_dispatch). Inputs: `from_ref`, `to_ref`, `publish` (false by default).
+    - Always uploads the JSON as an artifact; when `publish=true`, it commits `docs/data/<from>_to_<to>.json` so the website can show it.
+  - CLI example: `gh workflow run compare_on_demand.yml -f from_ref=v2025.09.15 -f to_ref=v2025.10.05 -f publish=true --ref main`.
+- Diff website: `docs/index.html` lists recent pairs and includes an On‑Demand panel.
+  - Enter refs to preview a published pair; if not found, run the on‑demand Action with `publish=true`.
+
 ## Development & Quality
 - Pre-commit: `pre-commit install && pre-commit run --all-files` (Black, YAML/JSON checks, optional validation hook).
 - Validate schemas: `reproschema validate reproschema_output/HBCD_LORIS/HBCD_LORIS_schema`.
