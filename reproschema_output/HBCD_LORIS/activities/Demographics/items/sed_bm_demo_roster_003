@@ -9,12 +9,12 @@
     "en": "Total number living with"
   },
   "ui": {
-    "inputType": "text",
+    "inputType": "number",
     "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
-      "xsd:string"
+      "xsd:integer"
     ]
   },
   "additionalNotesObj": [
@@ -41,7 +41,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Integer"
     },
     {
       "source": "loris",

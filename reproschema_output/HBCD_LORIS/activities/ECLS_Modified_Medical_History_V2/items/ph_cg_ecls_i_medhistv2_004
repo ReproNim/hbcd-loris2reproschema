@@ -1,0 +1,125 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ph_cg_ecls_i_medhistv2_004",
+  "prefLabel": {
+    "en": "ph_cg_ecls_i_medhistv2_004"
+  },
+  "question": {
+    "en": "Have you taken your child to receive routine childhood immunizations (vaccines, shots)?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Yes, on the schedule recommended by my pediatrician"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Yes, on an alternate schedule (for example did you ask to space out shots/vaccines, or only do one vaccination/shot at a time)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "No, because we don't have access"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "No, because I don't believe in shots or vaccines"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "No, for another reason"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "004"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_cg_ecls_i_medhistv2"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

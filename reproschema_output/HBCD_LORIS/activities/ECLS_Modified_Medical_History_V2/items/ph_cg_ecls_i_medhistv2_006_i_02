@@ -1,0 +1,458 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ph_cg_ecls_i_medhistv2_006_i_02",
+  "prefLabel": {
+    "en": "ph_cg_ecls_i_medhistv2_006_i_02"
+  },
+  "question": {
+    "en": "At what age did your child stop sucking on their thumb, fingers or pacifier?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "0 months"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "1 month"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "2 months"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "3 months"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "4 months"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "5 months"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "6 months"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "7 months"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "8 months"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "9 months"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "10 months"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "11 months"
+      },
+      {
+        "name": {
+          "en": "12"
+        },
+        "value": "12 months"
+      },
+      {
+        "name": {
+          "en": "13"
+        },
+        "value": "13 months"
+      },
+      {
+        "name": {
+          "en": "14"
+        },
+        "value": "14 months"
+      },
+      {
+        "name": {
+          "en": "15"
+        },
+        "value": "15 months"
+      },
+      {
+        "name": {
+          "en": "16"
+        },
+        "value": "16 months"
+      },
+      {
+        "name": {
+          "en": "17"
+        },
+        "value": "17 months"
+      },
+      {
+        "name": {
+          "en": "18"
+        },
+        "value": "18 months"
+      },
+      {
+        "name": {
+          "en": "19"
+        },
+        "value": "19 months"
+      },
+      {
+        "name": {
+          "en": "20"
+        },
+        "value": "20 months"
+      },
+      {
+        "name": {
+          "en": "21"
+        },
+        "value": "21 months"
+      },
+      {
+        "name": {
+          "en": "22"
+        },
+        "value": "22 months"
+      },
+      {
+        "name": {
+          "en": "23"
+        },
+        "value": "23 months"
+      },
+      {
+        "name": {
+          "en": "24"
+        },
+        "value": "24 months"
+      },
+      {
+        "name": {
+          "en": "25"
+        },
+        "value": "2 years and 1 month"
+      },
+      {
+        "name": {
+          "en": "26"
+        },
+        "value": "2 years and 2 months"
+      },
+      {
+        "name": {
+          "en": "27"
+        },
+        "value": "2 years and 3 months"
+      },
+      {
+        "name": {
+          "en": "28"
+        },
+        "value": "2 years and 4 months"
+      },
+      {
+        "name": {
+          "en": "29"
+        },
+        "value": "2 years and 5 months"
+      },
+      {
+        "name": {
+          "en": "30"
+        },
+        "value": "2 years and 6 months"
+      },
+      {
+        "name": {
+          "en": "31"
+        },
+        "value": "2 years and 7 months"
+      },
+      {
+        "name": {
+          "en": "32"
+        },
+        "value": "2 years and 8 months"
+      },
+      {
+        "name": {
+          "en": "33"
+        },
+        "value": "2 years and 9 months"
+      },
+      {
+        "name": {
+          "en": "34"
+        },
+        "value": "2 years and 10 months"
+      },
+      {
+        "name": {
+          "en": "35"
+        },
+        "value": "2 years and 11 months"
+      },
+      {
+        "name": {
+          "en": "36"
+        },
+        "value": "3 years"
+      },
+      {
+        "name": {
+          "en": "37"
+        },
+        "value": "3 years and 1 month"
+      },
+      {
+        "name": {
+          "en": "38"
+        },
+        "value": "3 years and 2 months"
+      },
+      {
+        "name": {
+          "en": "39"
+        },
+        "value": "3 years and 3 months"
+      },
+      {
+        "name": {
+          "en": "40"
+        },
+        "value": "3 years and 4 months"
+      },
+      {
+        "name": {
+          "en": "41"
+        },
+        "value": "3 years and 5 months"
+      },
+      {
+        "name": {
+          "en": "42"
+        },
+        "value": "3 years and 6 months"
+      },
+      {
+        "name": {
+          "en": "43"
+        },
+        "value": "3 years and 7 months"
+      },
+      {
+        "name": {
+          "en": "44"
+        },
+        "value": "3 years and 8 months"
+      },
+      {
+        "name": {
+          "en": "45"
+        },
+        "value": "3 years and 9 months"
+      },
+      {
+        "name": {
+          "en": "46"
+        },
+        "value": "3 years and 10 months"
+      },
+      {
+        "name": {
+          "en": "47"
+        },
+        "value": "3 years and 11 months"
+      },
+      {
+        "name": {
+          "en": "48"
+        },
+        "value": "4 years"
+      },
+      {
+        "name": {
+          "en": "49"
+        },
+        "value": "4 years and 1 month"
+      },
+      {
+        "name": {
+          "en": "50"
+        },
+        "value": "4 years and 2 months"
+      },
+      {
+        "name": {
+          "en": "51"
+        },
+        "value": "4 years and 3 months"
+      },
+      {
+        "name": {
+          "en": "52"
+        },
+        "value": "4 years and 4 months"
+      },
+      {
+        "name": {
+          "en": "53"
+        },
+        "value": "4 years and 5 months"
+      },
+      {
+        "name": {
+          "en": "54"
+        },
+        "value": "4 years and 6 months"
+      },
+      {
+        "name": {
+          "en": "55"
+        },
+        "value": "4 years and 7 months"
+      },
+      {
+        "name": {
+          "en": "56"
+        },
+        "value": "4 years and 8 months"
+      },
+      {
+        "name": {
+          "en": "57"
+        },
+        "value": "4 years and 9 months"
+      },
+      {
+        "name": {
+          "en": "58"
+        },
+        "value": "4 years and 10 months"
+      },
+      {
+        "name": {
+          "en": "59"
+        },
+        "value": "4 years and 11 months"
+      },
+      {
+        "name": {
+          "en": "60"
+        },
+        "value": "5 years"
+      },
+      {
+        "name": {
+          "en": "61"
+        },
+        "value": "Still sucks on thumb, fingers, or pacifier"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ph_cg_ecls_i_medhistv2_006_i_01 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "006_i_02"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_cg_ecls_i_medhistv2"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

@@ -9,11 +9,11 @@
     "en": "Ketamine"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:string"
+      "xsd:integer"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Integer"
     },
     {
       "source": "loris",

@@ -163,7 +163,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: (event-name == 'v01_arm_1') OR (screening_arm_1recruitment_period == '2' AND event-name == 'v02_arm_1') OR (event-name == 'v02_arm_1' AND v02_arm_1admin_caregiver_001 == '1') OR (v03_arm_1admin_caregiver_001 == '1' AND event-name == 'v03_arm_1') OR event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'"
+    "en": "Conditional display: (event-name == 'v01_arm_1') OR (screening_arm_1recruitment_period == '2' AND event-name == 'v02_arm_1') OR (event-name == 'v02_arm_1' AND v02_arm_1admin_caregiver_001 == '1') OR (v03_arm_1admin_caregiver_001 == '1' AND event-name == 'v03_arm_1') OR event-name == 'v04_arm_1' OR event-name == 'v06_arm_1' OR event-name == 'v08_arm_1'"
   },
   "additionalNotesObj": [
     {
