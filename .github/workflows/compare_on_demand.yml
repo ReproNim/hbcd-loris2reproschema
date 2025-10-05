@@ -1,0 +1,92 @@
+name: Generate On-Demand Comparison
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_ref:
+        description: "Base git ref (tag/commit/branch)"
+        required: true
+      to_ref:
+        description: "Target git ref (tag/commit/branch)"
+        required: true
+      publish:
+        description: "Publish to docs (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: ./.github/actions/setup-python-deps
+        with:
+          python-version: "3.10"
+
+      - name: Generate comparison JSON
+        id: gen
+        shell: bash
+        run: |
+          FROM="${{ github.event.inputs.from_ref }}"
+          TO="${{ github.event.inputs.to_ref }}"
+          SAFE_FROM=$(echo "$FROM" | sed 's#[/~]#_#g')
+          SAFE_TO=$(echo "$TO" | sed 's#[/~]#_#g')
+          OUT="docs/data/${SAFE_FROM}_to_${SAFE_TO}.json"
+          echo "out_file=$OUT" >> $GITHUB_OUTPUT
+          mkdir -p docs/data
+          python scripts/schema_comparison.py --from "$FROM" --to "$TO" --format json --output "$OUT"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: on-demand-comparison
+          path: ${{ steps.gen.outputs.out_file }}
+
+      - name: Maybe publish to docs
+        if: ${{ github.event.inputs.publish == 'true' }}
+        shell: bash
+        run: |
+          # Rebuild docs/data/index.json from current files
+          python - <<'PY'
+import json, os
+from pathlib import Path
+data_dir = Path('docs/data')
+files = [p.name for p in data_dir.glob('*_to_*.json') if p.is_file()]
+index = {
+  'generated_at': __import__('datetime').datetime.now().isoformat(),
+  'available_versions': [],
+  'comparisons': []
+}
+for fn in files:
+  try:
+    d=json.load(open(data_dir/fn))
+    index['comparisons'].append({
+      'filename': fn,
+      'from_version': d.get('from_version',''),
+      'to_version': d.get('to_version',''),
+      'summary': d.get('summary',''),
+      'has_changes': d.get('statistics',{}).get('activities_changed',0) > 0
+    })
+  except Exception:
+    pass
+with open(data_dir/'index.json','w') as f:
+  json.dump(index,f,indent=2)
+PY
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: add on-demand comparison ${{ github.event.inputs.from_ref }} -> ${{ github.event.inputs.to_ref }}"
+            git push origin HEAD
+          else
+            echo "No docs changes to commit"
+          fi
+
