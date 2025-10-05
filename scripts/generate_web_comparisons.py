@@ -15,12 +15,11 @@ from schema_comparison import SchemaComparator
 
 
 def get_recent_tags_and_commits(limit=20):
-    """Get recent git tags for comparison (tags only)."""
+    """Get git tags only; optionally limit returned list for pair generation."""
     try:
         result = subprocess.run(["git", "tag", "--sort=-version:refname"], capture_output=True, text=True, check=True)
         tags = [t for t in result.stdout.strip().split("\n") if t]
-        # Return up to `limit` tags; tags only (no commits/branches)
-        return tags[:limit]
+        return tags if limit is None else tags[:limit]
     except subprocess.CalledProcessError as e:
         print(f"Warning: Could not get git tags: {e}")
         return []
@@ -70,9 +69,11 @@ def generate_comparison_matrix(versions, output_dir):
             continue
 
     # Generate index file with available comparisons
+    # Expose ALL tags for the website to list, even if we didn't generate all pairs
+    all_tags = get_recent_tags_and_commits(limit=None)
     index_data = {
         'generated_at': datetime.now().isoformat(),
-        'available_versions': versions,
+        'available_versions': all_tags,
         'comparisons': generated_files
     }
 
