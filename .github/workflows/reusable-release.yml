@@ -7,9 +7,6 @@ on:
         description: "PR number to wait for merge"
         required: true
         type: string
-    secrets:
-      GITHUB_TOKEN:
-        required: true
 
 permissions:
   contents: write
@@ -95,4 +92,3 @@ jobs:
         uses: ./.github/actions/publish-comparisons
         with:
           limit: "15"
-
