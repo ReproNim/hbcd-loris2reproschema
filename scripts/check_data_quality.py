@@ -118,7 +118,10 @@ def main():
     all_issues = []
     
     # Run checks
-    activities_path = output_path / "activities"
+    # Prefer activities nested under the protocol folder; fallback to root-level
+    activities_path = output_path / "HBCD_LORIS" / "activities"
+    if not activities_path.exists():
+        activities_path = output_path / "activities"
     if activities_path.exists():
         all_issues.extend(check_aces_items(activities_path))
         all_issues.extend(check_select_fields(activities_path))

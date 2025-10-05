@@ -125,7 +125,7 @@ jobs:
             ### Checklist
             - [ ] Review quality report for any new issues
             - [ ] Validate schemas pass all tests
-            - [ ] Check schema comparison report for anysignificant new data quality issueschanges
+            - [ ] Check schema comparison report for any significant new data quality issues
             - [ ] Approve if all checks pass
 
             ---
@@ -203,11 +203,10 @@ jobs:
             }
 
       - name: Pull latest changes
-      - name: Summary
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull origin main
+          git pull origin main --ff-only
 
       - name: Create release tag
         id: create_tag
@@ -256,9 +255,13 @@ jobs:
           path: |
             reports/
             logs/
-          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
-            echo "✅ Pipeline completed successfully - PR created"
-            echo "PR Number: ${{ steps.create_pr.outputs.pull-request-number }}"
+          if-no-files-found: ignore
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ needs.check-and-update.outputs.changes }}" = "true" ]; then
+            echo "✅ Pipeline completed successfully - PR created: #${{ needs.check-and-update.outputs.pr_number }}" | tee -a "$GITHUB_STEP_SUMMARY"
           else
-            echo "ℹ️ Pipeline completed successfully - no changes detected"
+            echo "ℹ️ Pipeline completed successfully - no changes detected" | tee -a "$GITHUB_STEP_SUMMARY"
           fi
