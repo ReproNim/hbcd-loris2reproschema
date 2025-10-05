@@ -144,17 +144,14 @@ jobs:
         run: |
           echo "Generating PR schema diff (main → HEAD)..."
           python scripts/schema_comparison.py --from main --to HEAD --format json --output pr_schema_diff.json
-          python - <<'PY'
-import json,sys
+          python - <<'PY' > pr_summary.txt
+import json
 with open('pr_schema_diff.json') as f:
     d=json.load(f)
-stats=d.get('statistics',{})
-summary=(f"Activities changed: {stats.get('activities_changed',0)}, "
-         f"Items added: {stats.get('items_added',0)}, removed: {stats.get('items_removed',0)}, "
-         f"modified: {stats.get('items_modified',0)}")
-print(f"summary={summary}")
+s=d.get('statistics',{})
+print(f"Activities changed: {s.get('activities_changed',0)}, Items added: {s.get('items_added',0)}, removed: {s.get('items_removed',0)}, modified: {s.get('items_modified',0)}")
 PY
-          | sed 's/.*/&/' >> $GITHUB_OUTPUT
+          echo "summary=$(cat pr_summary.txt)" >> $GITHUB_OUTPUT
 
       - name: Upload PR schema diff artifact
         if: steps.check_changes.outputs.changes == 'true'
