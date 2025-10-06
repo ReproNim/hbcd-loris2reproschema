@@ -11,18 +11,17 @@ runs:
     - name: Generate comparison files
       shell: bash
       run: |
-        python scripts/generate_web_comparisons.py --output-dir docs/data --update-html --limit "${{ inputs.limit }}"
+        python scripts/generate_web_comparisons.py --output-dir docs/data --limit "${{ inputs.limit }}"
 
     - name: Commit docs updates
       shell: bash
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add docs/data docs/index.html || true
+        git add docs/data || true
         if ! git diff --cached --quiet; then
           git commit -m "docs: update comparisons"
           git push origin HEAD
         else
           echo "No docs changes to commit"
         fi
-
