@@ -58,8 +58,9 @@ logs/, reports/, docs/  # Artifacts, summaries, and comparison data
   - Action: “Generate On‑Demand Comparison” (workflow_dispatch). Inputs: `from_ref`, `to_ref`, `publish` (false by default).
     - Always uploads the JSON as an artifact; when `publish=true`, it commits `docs/data/<from>_to_<to>.json` so the website can show it.
   - CLI example: `gh workflow run compare_on_demand.yml -f from_ref=v2025.09.15 -f to_ref=v2025.10.05 -f publish=true --ref main`.
-- Diff website: `docs/index.html` lists recent pairs and includes an On‑Demand panel.
-  - Enter refs to preview a published pair; if not found, run the on‑demand Action with `publish=true`.
+- Diff website: `docs/index.html` lists tag versions dynamically and includes an On‑Demand panel.
+  - Versions are tags only, loaded from `docs/data/index.json` (published on main) with a GitHub API fallback.
+  - Enter refs to preview a published pair; if not found, run the on‑demand Action with `publish=true` to publish `docs/data/<from>_to_<to>.json`.
 
 ## Development & Quality
 - Pre-commit: `pre-commit install && pre-commit run --all-files` (Black, YAML/JSON checks, optional validation hook).
