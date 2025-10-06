@@ -306,14 +306,8 @@
         </div>
 
         <script>
-            // Available versions - this would be populated by CI
-            // START_VERSIONS
-            const availableVersions = [
-                "v2025.10.05",
-                "v2025.09.15",
-                "v2024.09.12"
-            ];
-            // END_VERSIONS
+            // Versions are loaded dynamically from docs/data/index.json; fallback below if fetch fails
+            let availableVersions = [];
 
             // HTML escaping function to prevent XSS
             function escapeHtml(unsafe) {
@@ -342,6 +336,10 @@
                 const fromSelect = document.getElementById("fromVersion");
                 const toSelect = document.getElementById("toVersion");
 
+                // Clear existing
+                fromSelect.options.length = 0;
+                toSelect.options.length = 0;
+
                 availableVersions.forEach((version) => {
                     const option1 = new Option(version, version);
                     const option2 = new Option(version, version);
@@ -349,9 +347,42 @@
                     toSelect.add(option2);
                 });
 
-                // Set defaults
+                // Set defaults to two latest tags if available
                 fromSelect.value = availableVersions[1] || availableVersions[0] || "";
                 toSelect.value = availableVersions[0] || "";
+            }
+
+            async function loadAvailableVersions() {
+                const GITHUB_API_TAGS_URL = 'https://api.github.com/repos/ReproNim/hbcd-loris2reproschema/tags';
+                try {
+                    const res = await fetch('data/index.json', { cache: 'no-cache' });
+                    if (res.ok) {
+                        const idx = await res.json();
+                        if (Array.isArray(idx.available_versions)) {
+                            availableVersions = idx.available_versions;
+                        }
+                    }
+                } catch (e) {
+                    console.error("Failed to load versions from data/index.json:", e);
+                    // ignore, will use fallback
+                }
+                if (availableVersions.length === 0) {
+                    // Fallback: try GitHub API tags (public, unauthenticated)
+                    try {
+                        const res = await fetch(GITHUB_API_TAGS_URL, { cache: 'no-cache' });
+                        if (res.ok) {
+                            const tags = await res.json();
+                            availableVersions = (tags || []).map(t => t.name);
+                        }
+                    } catch (e) {
+                        console.error("Failed to fetch tags from GitHub API:", e);
+                        // ignore, keep empty
+                    }
+                }
+                populateVersions();
+                if (availableVersions.length === 0) {
+                    showError("Could not load version list. Please check your network connection.");
+                }
             }
 
             // Load comparison from pre-generated JSON files
@@ -560,7 +591,7 @@
 
             // Initialize the page
             document.addEventListener("DOMContentLoaded", function () {
-                populateVersions();
+                loadAvailableVersions();
 
                 // Add event listeners
                 document

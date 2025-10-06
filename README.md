@@ -49,7 +49,7 @@ logs/, reports/, docs/  # Artifacts, summaries, and comparison data
 ## CI Overview
 - Orchestrator: `./.github/workflows/automated_update.yml` delegates to two reusable workflows.
   - `reusable-update.yml`: checks out code, runs conversion + validation, opens an auto PR if changes exist, and posts a one‑line schema diff summary (main → HEAD). Attaches `pr-schema-diff` JSON as an artifact.
-  - `reusable-release.yml`: waits for that PR to be merged, then tags (`vYYYY.MM.DD(.N)`), creates a GitHub Release, and publishes comparison JSON for recent versions into `docs/data/` (updates `docs/index.html`).
+  - `reusable-release.yml`: waits for that PR to be merged, then tags (`vYYYY.MM.DD(.N)`), creates a GitHub Release, and publishes comparison JSON for recent tags into `docs/data/`.
 - Composite actions: live under `./.github/actions/` for easy reuse.
   - `setup-python-deps`: sets up Python 3.10 and installs pinned deps.
   - `pr-schema-diff`: generates a JSON diff and emits a concise summary for PRs.
@@ -58,8 +58,9 @@ logs/, reports/, docs/  # Artifacts, summaries, and comparison data
   - Action: “Generate On‑Demand Comparison” (workflow_dispatch). Inputs: `from_ref`, `to_ref`, `publish` (false by default).
     - Always uploads the JSON as an artifact; when `publish=true`, it commits `docs/data/<from>_to_<to>.json` so the website can show it.
   - CLI example: `gh workflow run compare_on_demand.yml -f from_ref=v2025.09.15 -f to_ref=v2025.10.05 -f publish=true --ref main`.
-- Diff website: `docs/index.html` lists recent pairs and includes an On‑Demand panel.
-  - Enter refs to preview a published pair; if not found, run the on‑demand Action with `publish=true`.
+- Diff website: `docs/index.html` lists tag versions dynamically and includes an On‑Demand panel.
+  - Versions are tags only, loaded from `docs/data/index.json` (published on main) with a GitHub API fallback.
+  - Enter refs to preview a published pair; if not found, run the on‑demand Action with `publish=true` to publish `docs/data/<from>_to_<to>.json`.
 
 ## Development & Quality
 - Pre-commit: `pre-commit install && pre-commit run --all-files` (Black, YAML/JSON checks, optional validation hook).
