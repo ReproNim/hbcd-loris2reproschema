@@ -49,7 +49,7 @@ logs/, reports/, docs/  # Artifacts, summaries, and comparison data
 ## CI Overview
 - Orchestrator: `./.github/workflows/automated_update.yml` delegates to two reusable workflows.
   - `reusable-update.yml`: checks out code, runs conversion + validation, opens an auto PR if changes exist, and posts a one‑line schema diff summary (main → HEAD). Attaches `pr-schema-diff` JSON as an artifact.
-- Release on merge: `release_on_auto_pr_merge.yml` triggers when the auto-update PR is merged, then tags (`vYYYY.MM.DD(.N)`), creates a GitHub Release, and publishes comparison JSON for recent tags into `docs/data/`.
+  - Release on merge: `release_on_auto_pr_merge.yml` triggers when the auto-update PR is merged, then tags (`vYYYY.MM.DD(.N)`), creates a GitHub Release, and publishes comparison JSON for recent tags into `docs/data/`.
 - Composite actions: live under `./.github/actions/` for easy reuse.
   - `setup-python-deps`: sets up Python 3.10 and installs pinned deps.
   - `pr-schema-diff`: generates a JSON diff and emits a concise summary for PRs.
