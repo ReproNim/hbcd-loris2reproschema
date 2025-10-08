@@ -24,11 +24,3 @@ jobs:
     secrets: inherit
     with:
       data_dictionary_file: ${{ github.event.inputs.data_dictionary_file }}
-
-  release:
-    needs: update
-    if: needs.update.outputs.changes == 'true' && needs.update.outputs.pr_number != ''
-    uses: ./.github/workflows/reusable-release.yml
-    secrets: inherit
-    with:
-      pr_number: ${{ needs.update.outputs.pr_number }}

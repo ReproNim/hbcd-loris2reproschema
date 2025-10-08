@@ -353,7 +353,8 @@
             }
 
             async function loadAvailableVersions() {
-                const GITHUB_API_TAGS_URL = 'https://api.github.com/repos/ReproNim/hbcd-loris2reproschema/tags';
+                const REPO_PATH = 'ReproNim/hbcd-loris2reproschema';
+                const GITHUB_API_TAGS_URL = `https://api.github.com/repos/${REPO_PATH}/tags`;
                 try {
                     const res = await fetch('data/index.json', { cache: 'no-cache' });
                     if (res.ok) {
