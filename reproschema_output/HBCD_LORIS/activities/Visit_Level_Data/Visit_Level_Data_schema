@@ -15,7 +15,6 @@
       "items/adm_fd_visitdata_Date_taken",
       "items/adm_fd_visitdata_Candidate_Age",
       "items/adm_fd_visitdata_Window_Difference",
-      "items/adm_fd_visitdata_gestational_age",
       "items/adm_fd_visitdata_Examiner",
       "items/adm_fd_visitdata_dtt",
       "items/adm_fd_visitdata_timestamp_start",
@@ -45,12 +44,6 @@
       {
         "variableName": "adm_fd_visitdata_Window_Difference",
         "isAbout": "items/adm_fd_visitdata_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_fd_visitdata_gestational_age",
-        "isAbout": "items/adm_fd_visitdata_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
