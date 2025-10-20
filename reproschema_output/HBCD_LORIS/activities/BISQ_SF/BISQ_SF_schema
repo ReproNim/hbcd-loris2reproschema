@@ -14,7 +14,6 @@
     "order": [
       "items/ph_cg_bisq_Date_taken",
       "items/ph_cg_bisq_Candidate_Age",
-      "items/ph_cg_bisq_gestational_age",
       "items/ph_cg_bisq_Window_Difference",
       "items/ph_cg_bisq_Examiner",
       "items/ph_cg_bisq_lang",
@@ -72,12 +71,6 @@
       {
         "variableName": "ph_cg_bisq_Candidate_Age",
         "isAbout": "items/ph_cg_bisq_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_cg_bisq_gestational_age",
-        "isAbout": "items/ph_cg_bisq_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
