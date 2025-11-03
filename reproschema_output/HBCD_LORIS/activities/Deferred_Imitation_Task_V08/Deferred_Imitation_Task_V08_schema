@@ -70,7 +70,9 @@
       "items/ncl_ch_di_i_v08_was_this_session_recorded",
       "items/ncl_ch_di_i_v08_Validity",
       "items/ncl_ch_di_i_v08_Administration",
-      "items/ncl_ch_di_i_v08_Informant"
+      "items/ncl_ch_di_i_v08_Informant",
+      "items/ncl_ch_di_i_v08_fev2_007",
+      "items/ncl_ch_di_i_v08_sev2_007"
     ],
     "addProperties": [
       {
@@ -424,6 +426,18 @@
       {
         "variableName": "ncl_ch_di_i_v08_Informant",
         "isAbout": "items/ncl_ch_di_i_v08_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_fev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_fev2_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_sev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_sev2_007",
         "valueRequired": false,
         "isVis": true
       }
