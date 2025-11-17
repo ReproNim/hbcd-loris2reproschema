@@ -733,7 +733,13 @@
       "items/ncl_ch_cdiwses_ncl_ch_cdiws_i_es_i_cmbn_004",
       "items/ncl_ch_cdiwses_Validity",
       "items/ncl_ch_cdiwses_Administration",
-      "items/ncl_ch_cdiwses_Informant"
+      "items/ncl_ch_cdiwses_Informant",
+      "items/ncl_ch_cdiwses_benchmark_age_adjusted",
+      "items/ncl_ch_cdiwses_palabras_que_dice_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwses_palabras_que_dice_percentile_both_adjusted",
+      "items/ncl_ch_cdiwses_complejidad_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwses_complejidad_percentile_both_adjusted",
+      "items/ncl_ch_cdiwses_combinar_palabras_yes_answers_at_age_sex_adjusted"
     ],
     "addProperties": [
       {
@@ -5065,6 +5071,42 @@
       {
         "variableName": "ncl_ch_cdiwses_Informant",
         "isAbout": "items/ncl_ch_cdiwses_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_benchmark_age_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_benchmark_age_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_palabras_que_dice_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_palabras_que_dice_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_palabras_que_dice_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_palabras_que_dice_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_complejidad_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_complejidad_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_complejidad_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_complejidad_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwses_combinar_palabras_yes_answers_at_age_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwses_combinar_palabras_yes_answers_at_age_sex_adjusted",
         "valueRequired": false,
         "isVis": true
       }
