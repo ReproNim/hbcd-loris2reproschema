@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_apa_Date_taken",
       "items/pex_bm_apa_Candidate_Age",
-      "items/pex_bm_apa_gestational_age",
       "items/pex_bm_apa_Window_Difference",
       "items/pex_bm_apa_Examiner",
       "items/pex_bm_apa_lang",
@@ -176,12 +175,6 @@
       {
         "variableName": "pex_bm_apa_Candidate_Age",
         "isAbout": "items/pex_bm_apa_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_apa_gestational_age",
-        "isAbout": "items/pex_bm_apa_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -459,181 +452,181 @@
         "variableName": "pex_bm_apa_2_anx_001",
         "isAbout": "items/pex_bm_apa_2_anx_001",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_002",
         "isAbout": "items/pex_bm_apa_2_anx_002",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_003",
         "isAbout": "items/pex_bm_apa_2_anx_003",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_004",
         "isAbout": "items/pex_bm_apa_2_anx_004",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_005",
         "isAbout": "items/pex_bm_apa_2_anx_005",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_006",
         "isAbout": "items/pex_bm_apa_2_anx_006",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anx_007",
         "isAbout": "items/pex_bm_apa_2_anx_007",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anx_001 >== '2' OR pex_bm_apa1_anx_002 >== '2' OR pex_bm_apa1_anx_003 >== '2'"
+        "isVis": "(pex_bm_apa1_anx_001 >== '2' AND pex_bm_apa1_anx_001 < '777') OR (pex_bm_apa1_anx_002 >== '2' AND pex_bm_apa1_anx_002 < '777') OR (pex_bm_apa1_anx_003 >== '2' AND pex_bm_apa1_anx_003 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_anger_001",
         "isAbout": "items/pex_bm_apa_2_anger_001",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+        "isVis": "pex_bm_apa1_anger_001 >== '2' AND pex_bm_apa1_anger_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_anger_002",
         "isAbout": "items/pex_bm_apa_2_anger_002",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+        "isVis": "pex_bm_apa1_anger_001 >== '2' AND pex_bm_apa1_anger_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_anger_003",
         "isAbout": "items/pex_bm_apa_2_anger_003",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+        "isVis": "pex_bm_apa1_anger_001 >== '2' AND pex_bm_apa1_anger_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_anger_004",
         "isAbout": "items/pex_bm_apa_2_anger_004",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+        "isVis": "pex_bm_apa1_anger_001 >== '2' AND pex_bm_apa1_anger_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_anger_005",
         "isAbout": "items/pex_bm_apa_2_anger_005",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_anger_001 >== '2'"
+        "isVis": "pex_bm_apa1_anger_001 >== '2' AND pex_bm_apa1_anger_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_001",
         "isAbout": "items/pex_bm_apa_2_sleep_001",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_002",
         "isAbout": "items/pex_bm_apa_2_sleep_002",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_003",
         "isAbout": "items/pex_bm_apa_2_sleep_003",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_004",
         "isAbout": "items/pex_bm_apa_2_sleep_004",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_005",
         "isAbout": "items/pex_bm_apa_2_sleep_005",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_006",
         "isAbout": "items/pex_bm_apa_2_sleep_006",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_007",
         "isAbout": "items/pex_bm_apa_2_sleep_007",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_sleep_008",
         "isAbout": "items/pex_bm_apa_2_sleep_008",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_sleep_001 >== '2'"
+        "isVis": "pex_bm_apa1_sleep_001 >== '2' AND pex_bm_apa1_sleep_001 < '777'"
       },
       {
         "variableName": "pex_bm_apa_2_mania_001",
         "isAbout": "items/pex_bm_apa_2_mania_001",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+        "isVis": "(pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_mania_002",
         "isAbout": "items/pex_bm_apa_2_mania_002",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+        "isVis": "(pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_mania_003",
         "isAbout": "items/pex_bm_apa_2_mania_003",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+        "isVis": "(pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_mania_004",
         "isAbout": "items/pex_bm_apa_2_mania_004",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+        "isVis": "(pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_mania_005",
         "isAbout": "items/pex_bm_apa_2_mania_005",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+        "isVis": "(pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_repet_001",
         "isAbout": "items/pex_bm_apa_2_repet_001",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+        "isVis": "(pex_bm_apa1_repet_001 >== '2' AND pex_bm_apa1_repet_001 < '777') OR (pex_bm_apa1_repet_002 >== '2' AND pex_bm_apa1_repet_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_repet_002",
         "isAbout": "items/pex_bm_apa_2_repet_002",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+        "isVis": "(pex_bm_apa1_repet_001 >== '2' AND pex_bm_apa1_repet_001 < '777') OR (pex_bm_apa1_repet_002 >== '2' AND pex_bm_apa1_repet_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_repet_003",
         "isAbout": "items/pex_bm_apa_2_repet_003",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+        "isVis": "(pex_bm_apa1_repet_001 >== '2' AND pex_bm_apa1_repet_001 < '777') OR (pex_bm_apa1_repet_002 >== '2' AND pex_bm_apa1_repet_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_repet_004",
         "isAbout": "items/pex_bm_apa_2_repet_004",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+        "isVis": "(pex_bm_apa1_repet_001 >== '2' AND pex_bm_apa1_repet_001 < '777') OR (pex_bm_apa1_repet_002 >== '2' AND pex_bm_apa1_repet_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_repet_005",
         "isAbout": "items/pex_bm_apa_2_repet_005",
         "valueRequired": false,
-        "isVis": "pex_bm_apa1_repet_001 >== '2' OR pex_bm_apa1_repet_002 >== '2'"
+        "isVis": "(pex_bm_apa1_repet_001 >== '2' AND pex_bm_apa1_repet_001 < '777') OR (pex_bm_apa1_repet_002 >== '2' AND pex_bm_apa1_repet_002 < '777')"
       },
       {
         "variableName": "pex_bm_apa_2_pers_001",

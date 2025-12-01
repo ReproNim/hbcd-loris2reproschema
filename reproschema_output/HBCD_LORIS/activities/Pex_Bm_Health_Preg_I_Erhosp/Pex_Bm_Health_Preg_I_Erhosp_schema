@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_health_preg_i_erhosp_Date_taken",
       "items/pex_bm_health_preg_i_erhosp_Candidate_Age",
-      "items/pex_bm_health_preg_i_erhosp_gestational_age",
       "items/pex_bm_health_preg_i_erhosp_Window_Difference",
       "items/pex_bm_health_preg_i_erhosp_Examiner",
       "items/pex_bm_health_preg_i_erhosp_lang",
@@ -212,7 +211,8 @@
       "items/pex_bm_health_preg_i_erhosp_024_i_03_dk",
       "items/pex_bm_health_preg_i_erhosp_Validity",
       "items/pex_bm_health_preg_i_erhosp_Administration",
-      "items/pex_bm_health_preg_i_erhosp_Informant"
+      "items/pex_bm_health_preg_i_erhosp_Informant",
+      "items/pex_bm_health_preg_i_erhosp_instr01"
     ],
     "addProperties": [
       {
@@ -224,12 +224,6 @@
       {
         "variableName": "pex_bm_health_preg_i_erhosp_Candidate_Age",
         "isAbout": "items/pex_bm_health_preg_i_erhosp_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_erhosp_gestational_age",
-        "isAbout": "items/pex_bm_health_preg_i_erhosp_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -1418,6 +1412,12 @@
       {
         "variableName": "pex_bm_health_preg_i_erhosp_Informant",
         "isAbout": "items/pex_bm_health_preg_i_erhosp_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_erhosp_instr01",
+        "isAbout": "items/pex_bm_health_preg_i_erhosp_instr01",
         "valueRequired": false,
         "isVis": true
       }

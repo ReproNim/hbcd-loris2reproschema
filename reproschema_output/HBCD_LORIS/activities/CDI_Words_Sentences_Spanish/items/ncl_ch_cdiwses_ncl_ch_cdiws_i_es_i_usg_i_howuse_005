@@ -9,11 +9,49 @@
     "en": "\u00ac\u00f8Al se\u221a\u00b1alar o tomar un objeto, su hijo/a dice el nombre de la persona a la que pertenece aunque esa persona no est\u221a\u00a9 presente? Por ejemplo, \u00ac\u00f8encuentra los lentes de su pap\u221a\u00b0 y dice \u201a\u00c4\u00fapap\u221a\u00b0\u201a\u00c4\u00f9?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      },
+      {
+        "name": {
+          "en": "simple"
+        },
+        "value": "Simple"
+      },
+      {
+        "name": {
+          "en": "complex"
+        },
+        "value": "Complex"
+      }
     ]
   },
   "additionalNotesObj": [
