@@ -15,7 +15,6 @@
       "items/mh_cg_fad_Date_taken",
       "items/mh_cg_fad_Candidate_Age",
       "items/mh_cg_fad_Window_Difference",
-      "items/mh_cg_fad_gestational_age",
       "items/mh_cg_fad_Examiner",
       "items/mh_cg_fad_lang",
       "items/mh_cg_fad_dtt",
@@ -38,7 +37,8 @@
       "items/mh_cg_fad_total_score",
       "items/mh_cg_fad_Validity",
       "items/mh_cg_fad_Administration",
-      "items/mh_cg_fad_Informant"
+      "items/mh_cg_fad_Informant",
+      "items/mh_cg_fad_gestational_age"
     ],
     "addProperties": [
       {
@@ -56,12 +56,6 @@
       {
         "variableName": "mh_cg_fad_Window_Difference",
         "isAbout": "items/mh_cg_fad_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_fad_gestational_age",
-        "isAbout": "items/mh_cg_fad_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -200,6 +194,12 @@
       {
         "variableName": "mh_cg_fad_Informant",
         "isAbout": "items/mh_cg_fad_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fad_gestational_age",
+        "isAbout": "items/mh_cg_fad_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
