@@ -108,7 +108,8 @@
       "items/ncl_ch_bayley_Informant",
       "items/ncl_ch_bayley_Examiner_cronjob",
       "items/ncl_ch_bayley_gestational_age",
-      "items/ncl_ch_bayley_par_altcg_instrumentName"
+      "items/ncl_ch_bayley_par_altcg_instrumentName",
+      "items/ncl_ch_bayley_language"
     ],
     "addProperties": [
       {
@@ -690,6 +691,12 @@
       {
         "variableName": "ncl_ch_bayley_par_altcg_instrumentName",
         "isAbout": "items/ncl_ch_bayley_par_altcg_instrumentName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_language",
+        "isAbout": "items/ncl_ch_bayley_language",
         "valueRequired": false,
         "isVis": true
       }

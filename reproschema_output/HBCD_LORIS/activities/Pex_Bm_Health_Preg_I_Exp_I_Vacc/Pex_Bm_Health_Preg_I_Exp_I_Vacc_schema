@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_health_preg_i_exp_i_vacc_Date_taken",
       "items/pex_bm_health_preg_i_exp_i_vacc_Candidate_Age",
-      "items/pex_bm_health_preg_i_exp_i_vacc_gestational_age",
       "items/pex_bm_health_preg_i_exp_i_vacc_Window_Difference",
       "items/pex_bm_health_preg_i_exp_i_vacc_Examiner",
       "items/pex_bm_health_preg_i_exp_i_vacc_lang",
@@ -40,7 +39,8 @@
       "items/pex_bm_health_preg_i_exp_i_vacc_016",
       "items/pex_bm_health_preg_i_exp_i_vacc_Validity",
       "items/pex_bm_health_preg_i_exp_i_vacc_Administration",
-      "items/pex_bm_health_preg_i_exp_i_vacc_Informant"
+      "items/pex_bm_health_preg_i_exp_i_vacc_Informant",
+      "items/pex_bm_health_preg_i_exp_i_vacc_gestational_age"
     ],
     "addProperties": [
       {
@@ -52,12 +52,6 @@
       {
         "variableName": "pex_bm_health_preg_i_exp_i_vacc_Candidate_Age",
         "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_exp_i_vacc_gestational_age",
-        "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -214,6 +208,12 @@
       {
         "variableName": "pex_bm_health_preg_i_exp_i_vacc_Informant",
         "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_exp_i_vacc_gestational_age",
+        "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

@@ -14,7 +14,6 @@
     "order": [
       "items/ph_cg_pedsql_Date_taken",
       "items/ph_cg_pedsql_Candidate_Age",
-      "items/ph_cg_pedsql_gestational_age",
       "items/ph_cg_pedsql_Window_Difference",
       "items/ph_cg_pedsql_Examiner",
       "items/ph_cg_pedsql_lang",
@@ -53,7 +52,8 @@
       "items/ph_cg_pedsql_021",
       "items/ph_cg_pedsql_Validity",
       "items/ph_cg_pedsql_Administration",
-      "items/ph_cg_pedsql_Informant"
+      "items/ph_cg_pedsql_Informant",
+      "items/ph_cg_pedsql_gestational_age"
     ],
     "addProperties": [
       {
@@ -65,12 +65,6 @@
       {
         "variableName": "ph_cg_pedsql_Candidate_Age",
         "isAbout": "items/ph_cg_pedsql_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_cg_pedsql_gestational_age",
-        "isAbout": "items/ph_cg_pedsql_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -305,6 +299,12 @@
       {
         "variableName": "ph_cg_pedsql_Informant",
         "isAbout": "items/ph_cg_pedsql_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_gestational_age",
+        "isAbout": "items/ph_cg_pedsql_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
