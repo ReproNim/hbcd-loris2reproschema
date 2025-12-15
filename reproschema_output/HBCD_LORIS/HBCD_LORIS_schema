@@ -341,14 +341,6 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/ERICA_Codes_12_15M/ERICA_Codes_12_15M_schema",
-        "variableName": "ERICA_Codes_12_15M_schema",
-        "prefLabel": {
-          "en": "Erica Codes (12-15M)"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/ERICA_Codes_15_30M/ERICA_Codes_15_30M_schema",
         "variableName": "ERICA_Codes_15_30M_schema",
         "prefLabel": {
@@ -357,26 +349,10 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/ERICA_Codes_15_30M_Consensus/ERICA_Codes_15_30M_Consensus_schema",
-        "variableName": "ERICA_Codes_15_30M_Consensus_schema",
-        "prefLabel": {
-          "en": "Erica Codes (15-30M) - Consensus"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/ERICA_Codes_3_9M/ERICA_Codes_3_9M_schema",
         "variableName": "ERICA_Codes_3_9M_schema",
         "prefLabel": {
           "en": "Erica Codes (3-9M)"
-        },
-        "isVis": true
-      },
-      {
-        "isAbout": "../activities/ERICA_Codes_3_9M_Consensus/ERICA_Codes_3_9M_Consensus_schema",
-        "variableName": "ERICA_Codes_3_9M_Consensus_schema",
-        "prefLabel": {
-          "en": "Erica Codes (3-9M) - Consensus"
         },
         "isVis": true
       },
@@ -397,26 +373,10 @@
         "isVis": true
       },
       {
-        "isAbout": "../activities/ERICA_Codes_36_48M_Consensus/ERICA_Codes_36_48M_Consensus_schema",
-        "variableName": "ERICA_Codes_36_48M_Consensus_schema",
-        "prefLabel": {
-          "en": "Erica Codes (36-48M) - Consensus"
-        },
-        "isVis": true
-      },
-      {
         "isAbout": "../activities/ERICA_Codes_36_48M_Reliability/ERICA_Codes_36_48M_Reliability_schema",
         "variableName": "ERICA_Codes_36_48M_Reliability_schema",
         "prefLabel": {
           "en": "Erica Codes (36-48M) - Reliability"
-        },
-        "isVis": true
-      },
-      {
-        "isAbout": "../activities/ERICA_Codes_9_12M/ERICA_Codes_9_12M_schema",
-        "variableName": "ERICA_Codes_9_12M_schema",
-        "prefLabel": {
-          "en": "Erica Codes (9-12M)"
         },
         "isVis": true
       },
@@ -909,10 +869,34 @@
         "isVis": true
       },
       {
+        "isAbout": "../activities/Transition_in_Care_TIC_Data_entry_not_required/Transition_in_Care_TIC_Data_entry_not_required_schema",
+        "variableName": "Transition_in_Care_TIC_Data_entry_not_required_schema",
+        "prefLabel": {
+          "en": "Transition In Care (Tic) - Data Entry Not Required"
+        },
+        "isVis": true
+      },
+      {
         "isAbout": "../activities/Transitions_in_Care_Questionnaire/Transitions_in_Care_Questionnaire_schema",
         "variableName": "Transitions_in_Care_Questionnaire_schema",
         "prefLabel": {
           "en": "Transitions In Care Questionnaire"
+        },
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/USDTL_Nail_Toxicology_results/USDTL_Nail_Toxicology_results_schema",
+        "variableName": "USDTL_Nail_Toxicology_results_schema",
+        "prefLabel": {
+          "en": "Usdtl Nail Toxicology Results"
+        },
+        "isVis": true
+      },
+      {
+        "isAbout": "../activities/USDTL_Urine_Toxicology_results/USDTL_Urine_Toxicology_results_schema",
+        "variableName": "USDTL_Urine_Toxicology_results_schema",
+        "prefLabel": {
+          "en": "Usdtl Urine Toxicology Results"
         },
         "isVis": true
       },
@@ -1063,16 +1047,11 @@
       "../activities/EEG_ACQUISITION_CHECKLIST_REATTEMPT_1/EEG_ACQUISITION_CHECKLIST_REATTEMPT_1_schema",
       "../activities/EEG_ACQUISITION_CHECKLIST_REATTEMPT_2/EEG_ACQUISITION_CHECKLIST_REATTEMPT_2_schema",
       "../activities/ERICA_FCM_Administration_15_36m/ERICA_FCM_Administration_15_36m_schema",
-      "../activities/ERICA_Codes_12_15M/ERICA_Codes_12_15M_schema",
       "../activities/ERICA_Codes_15_30M/ERICA_Codes_15_30M_schema",
-      "../activities/ERICA_Codes_15_30M_Consensus/ERICA_Codes_15_30M_Consensus_schema",
       "../activities/ERICA_Codes_3_9M/ERICA_Codes_3_9M_schema",
-      "../activities/ERICA_Codes_3_9M_Consensus/ERICA_Codes_3_9M_Consensus_schema",
       "../activities/ERICA_Codes_3_9M_Reliability/ERICA_Codes_3_9M_Reliability_schema",
       "../activities/ERICA_Codes_36_48M/ERICA_Codes_36_48M_schema",
-      "../activities/ERICA_Codes_36_48M_Consensus/ERICA_Codes_36_48M_Consensus_schema",
       "../activities/ERICA_Codes_36_48M_Reliability/ERICA_Codes_36_48M_Reliability_schema",
-      "../activities/ERICA_Codes_9_12M/ERICA_Codes_9_12M_schema",
       "../activities/ERICA_Reliability_15_30M_Reliability/ERICA_Reliability_15_30M_Reliability_schema",
       "../activities/ERICA_FCM_Administration_3_9M/ERICA_FCM_Administration_3_9M_schema",
       "../activities/ERICA_FCM_Fidelity_3_9M/ERICA_FCM_Fidelity_3_9M_schema",
@@ -1134,7 +1113,10 @@
       "../activities/Semi_Structure_Play_Task_Codes/Semi_Structure_Play_Task_Codes_schema",
       "../activities/Substance_Use/Substance_Use_schema",
       "../activities/Timeline_Follow_Back/Timeline_Follow_Back_schema",
+      "../activities/Transition_in_Care_TIC_Data_entry_not_required/Transition_in_Care_TIC_Data_entry_not_required_schema",
       "../activities/Transitions_in_Care_Questionnaire/Transitions_in_Care_Questionnaire_schema",
+      "../activities/USDTL_Nail_Toxicology_results/USDTL_Nail_Toxicology_results_schema",
+      "../activities/USDTL_Urine_Toxicology_results/USDTL_Urine_Toxicology_results_schema",
       "../activities/Urgent_Events/Urgent_Events_schema",
       "../activities/Vancouver_Index_of_Acculturation/Vancouver_Index_of_Acculturation_schema",
       "../activities/Vineland_Redirect/Vineland_Redirect_schema",

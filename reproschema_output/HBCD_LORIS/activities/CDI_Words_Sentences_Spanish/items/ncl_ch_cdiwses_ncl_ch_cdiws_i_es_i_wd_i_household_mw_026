@@ -9,11 +9,49 @@
     "en": "tijeras"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      },
+      {
+        "name": {
+          "en": "simple"
+        },
+        "value": "Simple"
+      },
+      {
+        "name": {
+          "en": "complex"
+        },
+        "value": "Complex"
+      }
     ]
   },
   "additionalNotesObj": [
