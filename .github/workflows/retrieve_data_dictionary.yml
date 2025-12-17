@@ -97,7 +97,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add loris_data_dictionaries/hbcd_data_dictionary_*.csv
+          git add "${{ steps.change_detection.outputs.latest_file }}"
 
           # Check if there are staged changes
           if git diff --staged --quiet; then
