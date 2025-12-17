@@ -10,25 +10,26 @@ change_detection:
     - row_id
     - system_id
 
-  # Thresholds for triggering conversion
+  # Thresholds for triggering conversion (lowered for better sensitivity)
+  # Any single threshold being met will trigger conversion
   thresholds:
     # Minimum number of field changes to trigger conversion
-    min_field_changes: 3
+    min_field_changes: 1
 
     # Minimum number of new instruments to trigger conversion
     min_new_instruments: 1
 
     # Minimum number of modified instruments to trigger conversion
-    min_modified_instruments: 2
+    min_modified_instruments: 1
 
     # Minimum number of deleted instruments to trigger conversion
     min_deleted_instruments: 1
 
     # Minimum number of choice option changes to trigger conversion
-    min_choice_changes: 5
+    min_choice_changes: 1
 
-    # Percentage of total fields that must change (1.0 = 1%)
-    significant_change_percentage: 1.0
+    # Percentage of total fields that must change (0.01 = 0.01%)
+    significant_change_percentage: 0.01
 
   # Normalization options
   ignore_whitespace: true

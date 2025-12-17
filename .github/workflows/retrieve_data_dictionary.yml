@@ -93,17 +93,25 @@ jobs:
           if-no-files-found: ignore
 
       - name: Commit new data dictionary
-        if: steps.change_detection.outputs.trigger_conversion == 'true'
+        id: commit_csv
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add loris_data_dictionaries/hbcd_data_dictionary_*.csv
-          git commit -m "Update HBCD data dictionary - $(date +%Y-%m-%d)
+          git add "${{ steps.change_detection.outputs.latest_file }}"
 
-          ${{ steps.change_detection.outputs.change_reason }}
+          # Check if there are staged changes
+          if git diff --staged --quiet; then
+            echo "📋 No new CSV changes to commit (file already exists)"
+            echo "committed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Add HBCD data dictionary - $(date +%Y-%m-%d)
 
-          Automated change detection triggered conversion workflow."
-          git push
+          Change detection result: ${{ steps.change_detection.outputs.change_reason }}
+          Conversion triggered: ${{ steps.change_detection.outputs.trigger_conversion }}"
+            git push
+            echo "✅ CSV committed to repository"
+            echo "committed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Trigger conversion workflow
         if: steps.change_detection.outputs.trigger_conversion == 'true'
