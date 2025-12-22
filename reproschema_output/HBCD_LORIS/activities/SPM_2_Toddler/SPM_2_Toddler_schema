@@ -15,7 +15,6 @@
       "items/ncl_cg_spm2_i_tod_Date_taken",
       "items/ncl_cg_spm2_i_tod_Candidate_Age",
       "items/ncl_cg_spm2_i_tod_Window_Difference",
-      "items/ncl_cg_spm2_i_tod_gestational_age",
       "items/ncl_cg_spm2_i_tod_Examiner",
       "items/ncl_cg_spm2_i_tod_lang",
       "items/ncl_cg_spm2_i_tod_dtt",
@@ -152,7 +151,8 @@
       "items/ncl_cg_spm2_i_tod_dtaalert_08",
       "items/ncl_cg_spm2_i_tod_tstsml_raw_score",
       "items/ncl_cg_spm2_i_tod_tstsml_t_score",
-      "items/ncl_cg_spm2_i_tod_status_tstsml"
+      "items/ncl_cg_spm2_i_tod_status_tstsml",
+      "items/ncl_cg_spm2_i_tod_gestational_age"
     ],
     "addProperties": [
       {
@@ -170,12 +170,6 @@
       {
         "variableName": "ncl_cg_spm2_i_tod_Window_Difference",
         "isAbout": "items/ncl_cg_spm2_i_tod_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_tod_gestational_age",
-        "isAbout": "items/ncl_cg_spm2_i_tod_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -998,6 +992,12 @@
       {
         "variableName": "ncl_cg_spm2_i_tod_status_tstsml",
         "isAbout": "items/ncl_cg_spm2_i_tod_status_tstsml",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_tod_gestational_age",
+        "isAbout": "items/ncl_cg_spm2_i_tod_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

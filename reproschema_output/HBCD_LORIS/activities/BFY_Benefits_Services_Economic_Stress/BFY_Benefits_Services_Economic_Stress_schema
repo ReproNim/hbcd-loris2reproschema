@@ -14,7 +14,6 @@
     "order": [
       "items/sed_bm_bfy_Date_taken",
       "items/sed_bm_bfy_Candidate_Age",
-      "items/sed_bm_bfy_gestational_age",
       "items/sed_bm_bfy_Window_Difference",
       "items/sed_bm_bfy_Examiner",
       "items/sed_bm_bfy_lang",
@@ -35,7 +34,8 @@
       "items/sed_bm_bfy_econstr_008",
       "items/sed_bm_bfy_Validity",
       "items/sed_bm_bfy_Administration",
-      "items/sed_bm_bfy_Informant"
+      "items/sed_bm_bfy_Informant",
+      "items/sed_bm_bfy_gestational_age"
     ],
     "addProperties": [
       {
@@ -47,12 +47,6 @@
       {
         "variableName": "sed_bm_bfy_Candidate_Age",
         "isAbout": "items/sed_bm_bfy_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_bm_bfy_gestational_age",
-        "isAbout": "items/sed_bm_bfy_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -179,6 +173,12 @@
       {
         "variableName": "sed_bm_bfy_Informant",
         "isAbout": "items/sed_bm_bfy_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_bfy_gestational_age",
+        "isAbout": "items/sed_bm_bfy_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
