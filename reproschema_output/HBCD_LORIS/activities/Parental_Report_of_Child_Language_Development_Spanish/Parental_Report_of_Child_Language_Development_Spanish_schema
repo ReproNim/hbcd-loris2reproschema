@@ -14,7 +14,6 @@
     "order": [
       "items/webcdi_es_Date_taken",
       "items/webcdi_es_Candidate_Age",
-      "items/webcdi_es_gestational_age",
       "items/webcdi_es_Window_Difference",
       "items/webcdi_es_Examiner",
       "items/webcdi_es_lang",
@@ -31,7 +30,8 @@
       "items/webcdi_es_completion_status",
       "items/webcdi_es_Validity",
       "items/webcdi_es_Administration",
-      "items/webcdi_es_Informant"
+      "items/webcdi_es_Informant",
+      "items/webcdi_es_gestational_age"
     ],
     "addProperties": [
       {
@@ -43,12 +43,6 @@
       {
         "variableName": "webcdi_es_Candidate_Age",
         "isAbout": "items/webcdi_es_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "webcdi_es_gestational_age",
-        "isAbout": "items/webcdi_es_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -151,6 +145,12 @@
       {
         "variableName": "webcdi_es_Informant",
         "isAbout": "items/webcdi_es_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "webcdi_es_gestational_age",
+        "isAbout": "items/webcdi_es_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

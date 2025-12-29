@@ -14,7 +14,6 @@
     "order": [
       "items/sed_cg_via_Date_taken",
       "items/sed_cg_via_Candidate_Age",
-      "items/sed_cg_via_gestational_age",
       "items/sed_cg_via_Window_Difference",
       "items/sed_cg_via_Examiner",
       "items/sed_cg_via_lang",
@@ -52,7 +51,8 @@
       "items/sed_cg_via_total_score_odd",
       "items/sed_cg_via_Validity",
       "items/sed_cg_via_Administration",
-      "items/sed_cg_via_Informant"
+      "items/sed_cg_via_Informant",
+      "items/sed_cg_via_gestational_age"
     ],
     "addProperties": [
       {
@@ -64,12 +64,6 @@
       {
         "variableName": "sed_cg_via_Candidate_Age",
         "isAbout": "items/sed_cg_via_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_cg_via_gestational_age",
-        "isAbout": "items/sed_cg_via_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -298,6 +292,12 @@
       {
         "variableName": "sed_cg_via_Informant",
         "isAbout": "items/sed_cg_via_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_via_gestational_age",
+        "isAbout": "items/sed_cg_via_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

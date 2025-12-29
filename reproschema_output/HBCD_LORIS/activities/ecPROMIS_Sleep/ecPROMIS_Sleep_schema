@@ -14,7 +14,6 @@
     "order": [
       "items/ph_cg_pms_i_sleep_Date_taken",
       "items/ph_cg_pms_i_sleep_Candidate_Age",
-      "items/ph_cg_pms_i_sleep_gestational_age",
       "items/ph_cg_pms_i_sleep_Window_Difference",
       "items/ph_cg_pms_i_sleep_Examiner",
       "items/ph_cg_pms_i_sleep_lang",
@@ -36,7 +35,8 @@
       "items/ph_cg_pms_i_sleep_se_score",
       "items/ph_cg_pms_i_sleep_Validity",
       "items/ph_cg_pms_i_sleep_Administration",
-      "items/ph_cg_pms_i_sleep_Informant"
+      "items/ph_cg_pms_i_sleep_Informant",
+      "items/ph_cg_pms_i_sleep_gestational_age"
     ],
     "addProperties": [
       {
@@ -48,12 +48,6 @@
       {
         "variableName": "ph_cg_pms_i_sleep_Candidate_Age",
         "isAbout": "items/ph_cg_pms_i_sleep_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_cg_pms_i_sleep_gestational_age",
-        "isAbout": "items/ph_cg_pms_i_sleep_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -186,6 +180,12 @@
       {
         "variableName": "ph_cg_pms_i_sleep_Informant",
         "isAbout": "items/ph_cg_pms_i_sleep_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_sleep_gestational_age",
+        "isAbout": "items/ph_cg_pms_i_sleep_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

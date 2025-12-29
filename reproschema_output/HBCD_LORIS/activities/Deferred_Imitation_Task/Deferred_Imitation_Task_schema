@@ -59,7 +59,9 @@
       "items/ncl_ch_di_sev2_005",
       "items/ncl_ch_di_Validity",
       "items/ncl_ch_di_Administration",
-      "items/ncl_ch_di_Informant"
+      "items/ncl_ch_di_Informant",
+      "items/ncl_ch_di_fev2_006",
+      "items/ncl_ch_di_sev2_006"
     ],
     "addProperties": [
       {
@@ -347,6 +349,18 @@
       {
         "variableName": "ncl_ch_di_Informant",
         "isAbout": "items/ncl_ch_di_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_fev2_006",
+        "isAbout": "items/ncl_ch_di_fev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_sev2_006",
+        "isAbout": "items/ncl_ch_di_sev2_006",
         "valueRequired": false,
         "isVis": true
       }
