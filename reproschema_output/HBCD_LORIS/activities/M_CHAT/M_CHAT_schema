@@ -15,7 +15,6 @@
       "items/mh_ch_mchat_Date_taken",
       "items/mh_ch_mchat_Candidate_Age",
       "items/mh_ch_mchat_Window_Difference",
-      "items/mh_ch_mchat_gestational_age",
       "items/mh_ch_mchat_Examiner",
       "items/mh_ch_mchat_lang",
       "items/mh_ch_mchat_dtt",
@@ -333,7 +332,8 @@
       "items/mh_ch_mchat_Informant",
       "items/mh_ch_mchat_line",
       "items/mh_ch_mchat_total_score",
-      "items/mh_ch_mchat_risk_level"
+      "items/mh_ch_mchat_risk_level",
+      "items/mh_ch_mchat_gestational_age"
     ],
     "addProperties": [
       {
@@ -351,12 +351,6 @@
       {
         "variableName": "mh_ch_mchat_Window_Difference",
         "isAbout": "items/mh_ch_mchat_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_gestational_age",
-        "isAbout": "items/mh_ch_mchat_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -2265,6 +2259,12 @@
       {
         "variableName": "mh_ch_mchat_risk_level",
         "isAbout": "items/mh_ch_mchat_risk_level",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_gestational_age",
+        "isAbout": "items/mh_ch_mchat_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

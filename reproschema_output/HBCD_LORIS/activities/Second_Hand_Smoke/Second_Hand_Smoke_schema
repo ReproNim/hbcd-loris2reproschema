@@ -14,7 +14,6 @@
     "order": [
       "items/sed_cg_shs_Date_taken",
       "items/sed_cg_shs_Candidate_Age",
-      "items/sed_cg_shs_gestational_age",
       "items/sed_cg_shs_Window_Difference",
       "items/sed_cg_shs_Examiner",
       "items/sed_cg_shs_lang",
@@ -29,7 +28,8 @@
       "items/sed_cg_shs_002_i_01",
       "items/sed_cg_shs_Validity",
       "items/sed_cg_shs_Administration",
-      "items/sed_cg_shs_Informant"
+      "items/sed_cg_shs_Informant",
+      "items/sed_cg_shs_gestational_age"
     ],
     "addProperties": [
       {
@@ -41,12 +41,6 @@
       {
         "variableName": "sed_cg_shs_Candidate_Age",
         "isAbout": "items/sed_cg_shs_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_cg_shs_gestational_age",
-        "isAbout": "items/sed_cg_shs_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -137,6 +131,12 @@
       {
         "variableName": "sed_cg_shs_Informant",
         "isAbout": "items/sed_cg_shs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_shs_gestational_age",
+        "isAbout": "items/sed_cg_shs_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_psych_Date_taken",
       "items/pex_bm_psych_Candidate_Age",
-      "items/pex_bm_psych_gestational_age",
       "items/pex_bm_psych_Window_Difference",
       "items/pex_bm_psych_Examiner",
       "items/pex_bm_psych_lang",
@@ -71,7 +70,8 @@
       "items/pex_bm_psych_bf_008",
       "items/pex_bm_psych_Validity",
       "items/pex_bm_psych_Administration",
-      "items/pex_bm_psych_Informant"
+      "items/pex_bm_psych_Informant",
+      "items/pex_bm_psych_gestational_age"
     ],
     "addProperties": [
       {
@@ -83,12 +83,6 @@
       {
         "variableName": "pex_bm_psych_Candidate_Age",
         "isAbout": "items/pex_bm_psych_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_psych_gestational_age",
-        "isAbout": "items/pex_bm_psych_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -431,6 +425,12 @@
       {
         "variableName": "pex_bm_psych_Informant",
         "isAbout": "items/pex_bm_psych_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_psych_gestational_age",
+        "isAbout": "items/pex_bm_psych_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
