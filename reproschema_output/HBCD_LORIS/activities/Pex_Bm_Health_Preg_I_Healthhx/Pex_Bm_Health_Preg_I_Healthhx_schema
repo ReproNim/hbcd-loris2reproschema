@@ -14,8 +14,8 @@
     "order": [
       "items/pex_bm_health_preg_i_healthhx_Date_taken",
       "items/pex_bm_health_preg_i_healthhx_Candidate_Age",
-      "items/pex_bm_health_preg_i_healthhx_gestational_age",
       "items/pex_bm_health_preg_i_healthhx_Window_Difference",
+      "items/pex_bm_health_preg_i_healthhx_gestational_age",
       "items/pex_bm_health_preg_i_healthhx_Examiner",
       "items/pex_bm_health_preg_i_healthhx_lang",
       "items/pex_bm_health_preg_i_healthhx_dtt",
@@ -24,6 +24,7 @@
       "items/pex_bm_health_preg_i_healthhx_Duration",
       "items/pex_bm_health_preg_i_healthhx_location",
       "items/pex_bm_health_preg_i_healthhx_002",
+      "items/pex_bm_health_preg_i_healthhx_002_i_01",
       "items/pex_bm_health_preg_i_healthhx_003",
       "items/pex_bm_health_preg_i_healthhx_004",
       "items/pex_bm_health_preg_i_healthhx_005",
@@ -45,8 +46,10 @@
       "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_001_post",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post",
+      "items/pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
+      "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
       "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
@@ -96,10 +99,7 @@
       "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
       "items/pex_bm_health_preg_i_healthhx_Validity",
       "items/pex_bm_health_preg_i_healthhx_Administration",
-      "items/pex_bm_health_preg_i_healthhx_Informant",
-      "items/pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
-      "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
-      "items/pex_bm_health_preg_i_healthhx_002_i_01"
+      "items/pex_bm_health_preg_i_healthhx_Informant"
     ],
     "addProperties": [
       {
@@ -115,14 +115,14 @@
         "isVis": true
       },
       {
-        "variableName": "pex_bm_health_preg_i_healthhx_gestational_age",
-        "isAbout": "items/pex_bm_health_preg_i_healthhx_gestational_age",
+        "variableName": "pex_bm_health_preg_i_healthhx_Window_Difference",
+        "isAbout": "items/pex_bm_health_preg_i_healthhx_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_health_preg_i_healthhx_Window_Difference",
-        "isAbout": "items/pex_bm_health_preg_i_healthhx_Window_Difference",
+        "variableName": "pex_bm_health_preg_i_healthhx_gestational_age",
+        "isAbout": "items/pex_bm_health_preg_i_healthhx_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -171,6 +171,12 @@
       {
         "variableName": "pex_bm_health_preg_i_healthhx_002",
         "isAbout": "items/pex_bm_health_preg_i_healthhx_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_healthhx_002_i_01",
+        "isAbout": "items/pex_bm_health_preg_i_healthhx_002_i_01",
         "valueRequired": false,
         "isVis": true
       },
@@ -301,6 +307,12 @@
         "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001_post == ''"
       },
       {
+        "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
+        "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
         "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
         "valueRequired": false,
@@ -311,6 +323,12 @@
         "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
         "valueRequired": false,
         "isVis": "(pex_bm_health_preg_i_healthhx_i_preghx_001 >1 OR pex_bm_health_preg_i_healthhx_i_preghx_001_post > 1) AND pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk == ''"
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
+        "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
+        "valueRequired": false,
+        "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_002 > pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
       },
       {
         "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
@@ -609,24 +627,6 @@
       {
         "variableName": "pex_bm_health_preg_i_healthhx_Informant",
         "isAbout": "items/pex_bm_health_preg_i_healthhx_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
-        "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_calc",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
-        "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_alert1",
-        "valueRequired": false,
-        "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_002 > pex_bm_health_preg_i_healthhx_i_preghx_001_calc"
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_healthhx_002_i_01",
-        "isAbout": "items/pex_bm_health_preg_i_healthhx_002_i_01",
         "valueRequired": false,
         "isVis": true
       }

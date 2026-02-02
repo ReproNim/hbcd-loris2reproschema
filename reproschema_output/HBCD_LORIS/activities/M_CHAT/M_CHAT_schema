@@ -328,12 +328,12 @@
       "items/mh_ch_mchat_movement_002",
       "items/mh_ch_mchat_movement_003",
       "items/mh_ch_mchat_movement_004",
-      "items/mh_ch_mchat_Validity",
-      "items/mh_ch_mchat_Administration",
-      "items/mh_ch_mchat_Informant",
       "items/mh_ch_mchat_line",
       "items/mh_ch_mchat_total_score",
-      "items/mh_ch_mchat_risk_level"
+      "items/mh_ch_mchat_risk_level",
+      "items/mh_ch_mchat_Validity",
+      "items/mh_ch_mchat_Administration",
+      "items/mh_ch_mchat_Informant"
     ],
     "addProperties": [
       {
@@ -2233,24 +2233,6 @@
         "isVis": "mh_ch_mchat_movement_001 == '0'"
       },
       {
-        "variableName": "mh_ch_mchat_Validity",
-        "isAbout": "items/mh_ch_mchat_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_Administration",
-        "isAbout": "items/mh_ch_mchat_Administration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_Informant",
-        "isAbout": "items/mh_ch_mchat_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "mh_ch_mchat_line",
         "isAbout": "items/mh_ch_mchat_line",
         "valueRequired": false,
@@ -2265,6 +2247,24 @@
       {
         "variableName": "mh_ch_mchat_risk_level",
         "isAbout": "items/mh_ch_mchat_risk_level",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_Validity",
+        "isAbout": "items/mh_ch_mchat_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_Administration",
+        "isAbout": "items/mh_ch_mchat_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_Informant",
+        "isAbout": "items/mh_ch_mchat_Informant",
         "valueRequired": false,
         "isVis": true
       }

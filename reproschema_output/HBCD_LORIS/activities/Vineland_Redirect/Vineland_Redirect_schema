@@ -14,8 +14,8 @@
     "order": [
       "items/ncl_cg_webvabs_Date_taken",
       "items/ncl_cg_webvabs_Candidate_Age",
-      "items/ncl_cg_webvabs_gestational_age",
       "items/ncl_cg_webvabs_Window_Difference",
+      "items/ncl_cg_webvabs_gestational_age",
       "items/ncl_cg_webvabs_Examiner",
       "items/ncl_cg_webvabs_redirect",
       "items/ncl_cg_webvabs_banner_post",
@@ -38,14 +38,14 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_cg_webvabs_gestational_age",
-        "isAbout": "items/ncl_cg_webvabs_gestational_age",
+        "variableName": "ncl_cg_webvabs_Window_Difference",
+        "isAbout": "items/ncl_cg_webvabs_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ncl_cg_webvabs_Window_Difference",
-        "isAbout": "items/ncl_cg_webvabs_Window_Difference",
+        "variableName": "ncl_cg_webvabs_gestational_age",
+        "isAbout": "items/ncl_cg_webvabs_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

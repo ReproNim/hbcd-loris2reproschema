@@ -13,7 +13,13 @@
   "ui": {
     "order": [
       "items/mh_ch_fua_Date_taken",
+      "items/mh_ch_fua_Candidate_Age",
+      "items/mh_ch_fua_Window_Difference",
+      "items/mh_ch_fua_gestational_age",
       "items/mh_ch_fua_Examiner",
+      "items/mh_ch_fua_timestamp_start",
+      "items/mh_ch_fua_timestamp_stop",
+      "items/mh_ch_fua_Duration",
       "items/mh_ch_fua_004",
       "items/mh_ch_fua_005",
       "items/mh_ch_fua_006",
@@ -31,9 +37,45 @@
         "isVis": true
       },
       {
+        "variableName": "mh_ch_fua_Candidate_Age",
+        "isAbout": "items/mh_ch_fua_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Window_Difference",
+        "isAbout": "items/mh_ch_fua_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_gestational_age",
+        "isAbout": "items/mh_ch_fua_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_ch_fua_Examiner",
         "isAbout": "items/mh_ch_fua_Examiner",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_timestamp_start",
+        "isAbout": "items/mh_ch_fua_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_timestamp_stop",
+        "isAbout": "items/mh_ch_fua_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_fua_Duration",
+        "isAbout": "items/mh_ch_fua_Duration",
+        "valueRequired": false,
         "isVis": true
       },
       {

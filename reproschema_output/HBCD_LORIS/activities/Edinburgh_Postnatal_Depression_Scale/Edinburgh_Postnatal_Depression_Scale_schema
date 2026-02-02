@@ -14,8 +14,8 @@
     "order": [
       "items/pex_bm_epds_Date_taken",
       "items/pex_bm_epds_Candidate_Age",
-      "items/pex_bm_epds_gestational_age",
       "items/pex_bm_epds_Window_Difference",
+      "items/pex_bm_epds_gestational_age",
       "items/pex_bm_epds_Examiner",
       "items/pex_bm_epds_lang",
       "items/pex_bm_epds_dtt",
@@ -66,14 +66,14 @@
         "isVis": true
       },
       {
-        "variableName": "pex_bm_epds_gestational_age",
-        "isAbout": "items/pex_bm_epds_gestational_age",
+        "variableName": "pex_bm_epds_Window_Difference",
+        "isAbout": "items/pex_bm_epds_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_epds_Window_Difference",
-        "isAbout": "items/pex_bm_epds_Window_Difference",
+        "variableName": "pex_bm_epds_gestational_age",
+        "isAbout": "items/pex_bm_epds_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

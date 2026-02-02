@@ -15,14 +15,18 @@
       "items/ncl_ch_bayley_Date_taken",
       "items/ncl_ch_bayley_Candidate_Age",
       "items/ncl_ch_bayley_Window_Difference",
+      "items/ncl_ch_bayley_gestational_age",
       "items/ncl_ch_bayley_Examiner",
       "items/ncl_ch_bayley_timestamp_start",
       "items/ncl_ch_bayley_timestamp_stop",
       "items/ncl_ch_bayley_Duration",
+      "items/ncl_ch_bayley_language",
+      "items/ncl_ch_bayley_par_altcg_instrumentName",
       "items/ncl_ch_bayley_bayley_participant_before",
       "items/ncl_ch_bayley_bayley_participant_after",
       "items/ncl_ch_bayley_bayley_survey_confirm",
       "items/ncl_ch_bayley_title",
+      "items/ncl_ch_bayley_Examiner_cronjob",
       "items/ncl_ch_bayley_File_name",
       "items/ncl_ch_bayley_ID",
       "items/ncl_ch_bayley_Name",
@@ -105,10 +109,7 @@
       "items/ncl_ch_bayley_other_comments",
       "items/ncl_ch_bayley_Validity",
       "items/ncl_ch_bayley_Administration",
-      "items/ncl_ch_bayley_Informant",
-      "items/ncl_ch_bayley_Examiner_cronjob",
-      "items/ncl_ch_bayley_gestational_age",
-      "items/ncl_ch_bayley_par_altcg_instrumentName"
+      "items/ncl_ch_bayley_Informant"
     ],
     "addProperties": [
       {
@@ -126,6 +127,12 @@
       {
         "variableName": "ncl_ch_bayley_Window_Difference",
         "isAbout": "items/ncl_ch_bayley_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_gestational_age",
+        "isAbout": "items/ncl_ch_bayley_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -154,6 +161,18 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_bayley_language",
+        "isAbout": "items/ncl_ch_bayley_language",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_par_altcg_instrumentName",
+        "isAbout": "items/ncl_ch_bayley_par_altcg_instrumentName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_bayley_bayley_participant_before",
         "isAbout": "items/ncl_ch_bayley_bayley_participant_before",
         "valueRequired": false,
@@ -174,6 +193,12 @@
       {
         "variableName": "ncl_ch_bayley_title",
         "isAbout": "items/ncl_ch_bayley_title",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_Examiner_cronjob",
+        "isAbout": "items/ncl_ch_bayley_Examiner_cronjob",
         "valueRequired": false,
         "isVis": true
       },
@@ -672,24 +697,6 @@
       {
         "variableName": "ncl_ch_bayley_Informant",
         "isAbout": "items/ncl_ch_bayley_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_Examiner_cronjob",
-        "isAbout": "items/ncl_ch_bayley_Examiner_cronjob",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_gestational_age",
-        "isAbout": "items/ncl_ch_bayley_gestational_age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_par_altcg_instrumentName",
-        "isAbout": "items/ncl_ch_bayley_par_altcg_instrumentName",
         "valueRequired": false,
         "isVis": true
       }
