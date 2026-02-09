@@ -20,6 +20,7 @@
       "items/ncl_ch_di_i_v08_timestamp_start",
       "items/ncl_ch_di_i_v08_timestamp_stop",
       "items/ncl_ch_di_i_v08_Duration",
+      "items/ncl_ch_di_i_v08_language",
       "items/ncl_ch_di_i_v08_number_of_actions_baseline",
       "items/ncl_ch_di_i_v08_pairs_of_actions_baseline",
       "items/ncl_ch_di_i_v08_number_of_actions",
@@ -56,6 +57,7 @@
       "items/ncl_ch_di_i_v08_fev2_004",
       "items/ncl_ch_di_i_v08_fev2_005",
       "items/ncl_ch_di_i_v08_fev2_006",
+      "items/ncl_ch_di_i_v08_fev2_007",
       "items/ncl_ch_di_i_v08_sev2_001",
       "items/ncl_ch_di_i_v08_sev2_001_i_01",
       "items/ncl_ch_di_i_v08_sev2_001_i_02",
@@ -67,6 +69,7 @@
       "items/ncl_ch_di_i_v08_sev2_004",
       "items/ncl_ch_di_i_v08_sev2_005",
       "items/ncl_ch_di_i_v08_sev2_006",
+      "items/ncl_ch_di_i_v08_sev2_007",
       "items/ncl_ch_di_i_v08_was_this_session_recorded",
       "items/ncl_ch_di_i_v08_Validity",
       "items/ncl_ch_di_i_v08_Administration",
@@ -118,6 +121,12 @@
       {
         "variableName": "ncl_ch_di_i_v08_Duration",
         "isAbout": "items/ncl_ch_di_i_v08_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_language",
+        "isAbout": "items/ncl_ch_di_i_v08_language",
         "valueRequired": false,
         "isVis": true
       },
@@ -338,6 +347,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_i_v08_fev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_fev2_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_i_v08_sev2_001",
         "isAbout": "items/ncl_ch_di_i_v08_sev2_001",
         "valueRequired": false,
@@ -400,6 +415,12 @@
       {
         "variableName": "ncl_ch_di_i_v08_sev2_006",
         "isAbout": "items/ncl_ch_di_i_v08_sev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_sev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_sev2_007",
         "valueRequired": false,
         "isVis": true
       },
