@@ -1,0 +1,41 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "USDTL_Blood_Toxicology_results_schema",
+  "prefLabel": {
+    "en": "USDTL Blood Toxicology results"
+  },
+  "description": {
+    "en": "Questions related to USDTL Blood Toxicology results"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/bio_bm_biosample_blood_results_bio_collect_date",
+      "items/bio_bm_biosample_blood_results_bio_receive_date",
+      "items/bio_bm_biosample_blood_results_bio_report_date"
+    ],
+    "addProperties": [
+      {
+        "variableName": "bio_bm_biosample_blood_results_bio_collect_date",
+        "isAbout": "items/bio_bm_biosample_blood_results_bio_collect_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_blood_results_bio_receive_date",
+        "isAbout": "items/bio_bm_biosample_blood_results_bio_receive_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_blood_results_bio_report_date",
+        "isAbout": "items/bio_bm_biosample_blood_results_bio_report_date",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

@@ -68,7 +68,8 @@
       "items/mh_cg_mapstl_i_tod_total_score",
       "items/mh_cg_mapstl_i_tod_Validity",
       "items/mh_cg_mapstl_i_tod_Administration",
-      "items/mh_cg_mapstl_i_tod_Informant"
+      "items/mh_cg_mapstl_i_tod_Informant",
+      "items/mh_cg_mapstl_i_tod_prorated_score"
     ],
     "addProperties": [
       {
@@ -410,6 +411,12 @@
       {
         "variableName": "mh_cg_mapstl_i_tod_Informant",
         "isAbout": "items/mh_cg_mapstl_i_tod_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_tod_prorated_score",
+        "isAbout": "items/mh_cg_mapstl_i_tod_prorated_score",
         "valueRequired": false,
         "isVis": true
       }

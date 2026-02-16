@@ -13,6 +13,9 @@
   "ui": {
     "order": [
       "items/mh_ch_pcx_Date_taken",
+      "items/mh_ch_pcx_Candidate_Age",
+      "items/mh_ch_pcx_Window_Difference",
+      "items/mh_ch_pcx_gestational_age",
       "items/mh_ch_pcx_Examiner",
       "items/mh_ch_pcx_timestamp_start",
       "items/mh_ch_pcx_timestamp_stop",
@@ -41,16 +44,31 @@
       "items/mh_ch_pcx_flag_connectedness_1",
       "items/mh_ch_pcx_Validity",
       "items/mh_ch_pcx_Administration",
-      "items/mh_ch_pcx_Informant",
-      "items/mh_ch_pcx_Candidate_Age",
-      "items/mh_ch_pcx_Window_Difference",
-      "items/mh_ch_pcx_gestational_age"
+      "items/mh_ch_pcx_Informant"
     ],
     "addProperties": [
       {
         "variableName": "mh_ch_pcx_Date_taken",
         "isAbout": "items/mh_ch_pcx_Date_taken",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_pcx_Candidate_Age",
+        "isAbout": "items/mh_ch_pcx_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_pcx_Window_Difference",
+        "isAbout": "items/mh_ch_pcx_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_pcx_gestational_age",
+        "isAbout": "items/mh_ch_pcx_gestational_age",
+        "valueRequired": false,
         "isVis": true
       },
       {
@@ -224,24 +242,6 @@
       {
         "variableName": "mh_ch_pcx_Informant",
         "isAbout": "items/mh_ch_pcx_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_pcx_Candidate_Age",
-        "isAbout": "items/mh_ch_pcx_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_pcx_Window_Difference",
-        "isAbout": "items/mh_ch_pcx_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_pcx_gestational_age",
-        "isAbout": "items/mh_ch_pcx_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
