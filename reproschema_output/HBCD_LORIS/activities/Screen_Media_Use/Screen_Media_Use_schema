@@ -14,8 +14,8 @@
     "order": [
       "items/ph_cg_screenq_Date_taken",
       "items/ph_cg_screenq_Candidate_Age",
-      "items/ph_cg_screenq_gestational_age",
       "items/ph_cg_screenq_Window_Difference",
+      "items/ph_cg_screenq_gestational_age",
       "items/ph_cg_screenq_Examiner",
       "items/ph_cg_screenq_lang",
       "items/ph_cg_screenq_dtt",
@@ -23,12 +23,12 @@
       "items/ph_cg_screenq_timestamp_stop",
       "items/ph_cg_screenq_Duration",
       "items/ph_cg_screenq_location",
+      "items/ph_cg_screenq_006",
       "items/ph_cg_screenq_001",
       "items/ph_cg_screenq_002",
       "items/ph_cg_screenq_003",
       "items/ph_cg_screenq_004",
       "items/ph_cg_screenq_005",
-      "items/ph_cg_screenq_006",
       "items/ph_cg_screenq_007",
       "items/ph_cg_screenq_008",
       "items/ph_cg_screenq_009",
@@ -63,14 +63,14 @@
         "isVis": true
       },
       {
-        "variableName": "ph_cg_screenq_gestational_age",
-        "isAbout": "items/ph_cg_screenq_gestational_age",
+        "variableName": "ph_cg_screenq_Window_Difference",
+        "isAbout": "items/ph_cg_screenq_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_cg_screenq_Window_Difference",
-        "isAbout": "items/ph_cg_screenq_Window_Difference",
+        "variableName": "ph_cg_screenq_gestational_age",
+        "isAbout": "items/ph_cg_screenq_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -117,6 +117,12 @@
         "isVis": false
       },
       {
+        "variableName": "ph_cg_screenq_006",
+        "isAbout": "items/ph_cg_screenq_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_screenq_001",
         "isAbout": "items/ph_cg_screenq_001",
         "valueRequired": false,
@@ -145,12 +151,6 @@
         "isAbout": "items/ph_cg_screenq_005",
         "valueRequired": false,
         "isVis": "ph_cg_screenq_006 !== '0'"
-      },
-      {
-        "variableName": "ph_cg_screenq_006",
-        "isAbout": "items/ph_cg_screenq_006",
-        "valueRequired": false,
-        "isVis": true
       },
       {
         "variableName": "ph_cg_screenq_007",

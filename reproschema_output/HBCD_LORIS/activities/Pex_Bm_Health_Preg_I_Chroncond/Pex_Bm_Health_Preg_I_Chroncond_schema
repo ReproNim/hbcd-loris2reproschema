@@ -14,14 +14,15 @@
     "order": [
       "items/pex_bm_health_preg_i_chroncond_Date_taken",
       "items/pex_bm_health_preg_i_chroncond_Candidate_Age",
-      "items/pex_bm_health_preg_i_chroncond_gestational_age",
       "items/pex_bm_health_preg_i_chroncond_Window_Difference",
+      "items/pex_bm_health_preg_i_chroncond_gestational_age",
       "items/pex_bm_health_preg_i_chroncond_Examiner",
       "items/pex_bm_health_preg_i_chroncond_lang",
       "items/pex_bm_health_preg_i_chroncond_dtt",
       "items/pex_bm_health_preg_i_chroncond_timestamp_start",
       "items/pex_bm_health_preg_i_chroncond_timestamp_stop",
       "items/pex_bm_health_preg_i_chroncond_Duration",
+      "items/pex_bm_health_preg_i_chroncond_instr01",
       "items/pex_bm_health_preg_i_chroncond_001",
       "items/pex_bm_health_preg_i_chroncond_002",
       "items/pex_bm_health_preg_i_chroncond_003",
@@ -66,14 +67,14 @@
         "isVis": true
       },
       {
-        "variableName": "pex_bm_health_preg_i_chroncond_gestational_age",
-        "isAbout": "items/pex_bm_health_preg_i_chroncond_gestational_age",
+        "variableName": "pex_bm_health_preg_i_chroncond_Window_Difference",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_health_preg_i_chroncond_Window_Difference",
-        "isAbout": "items/pex_bm_health_preg_i_chroncond_Window_Difference",
+        "variableName": "pex_bm_health_preg_i_chroncond_gestational_age",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -110,6 +111,12 @@
       {
         "variableName": "pex_bm_health_preg_i_chroncond_Duration",
         "isAbout": "items/pex_bm_health_preg_i_chroncond_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_chroncond_instr01",
+        "isAbout": "items/pex_bm_health_preg_i_chroncond_instr01",
         "valueRequired": false,
         "isVis": true
       },
