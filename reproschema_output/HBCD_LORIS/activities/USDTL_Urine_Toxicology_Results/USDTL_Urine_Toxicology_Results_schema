@@ -1,0 +1,1413 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "USDTL_Urine_Toxicology_Results_schema",
+  "prefLabel": {
+    "en": "USDTL Urine Toxicology Results"
+  },
+  "description": {
+    "en": "Questions related to USDTL Urine Toxicology Results"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/bio_bm_biosample_urine_results_bio_c_any_specimen_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_stim_u",
+      "items/bio_bm_biosample_urine_results_bio_s_amp_u",
+      "items/bio_bm_biosample_urine_results_bio_c_amp_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_amp_u",
+      "items/bio_bm_biosample_urine_results_bio_c_amp_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_meth_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_meth_u",
+      "items/bio_bm_biosample_urine_results_bio_c_meth_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_mdma_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mdm_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mdm_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mdm_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mda_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mda_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mda_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mdea_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mdea_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mdea_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_coc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ben_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_ben_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ben_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_cannabinoid_u",
+      "items/bio_bm_biosample_urine_results_bio_s_thc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_u",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_u",
+      "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_barb_u",
+      "items/bio_bm_biosample_urine_results_bio_s_bar_u",
+      "items/bio_bm_biosample_urine_results_bio_c_amobarb_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_amobarb_u",
+      "items/bio_bm_biosample_urine_results_bio_c_amobarb_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_secobarb_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_secobarb_u",
+      "items/bio_bm_biosample_urine_results_bio_c_secobarb_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_pentobarb_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_pentobarb_u",
+      "items/bio_bm_biosample_urine_results_bio_c_pentobarb_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_phenobarb_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_phenobarb_u",
+      "items/bio_bm_biosample_urine_results_bio_c_phenobarb_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_butalbital_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_butalbital_u",
+      "items/bio_bm_biosample_urine_results_bio_c_butalbital_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_benzo_u",
+      "items/bio_bm_biosample_urine_results_bio_s_benz_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxaz_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_oxaz_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxaz_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nord_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nord_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nord_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_tema_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_tema_u",
+      "items/bio_bm_biosample_urine_results_bio_c_tema_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_homi_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_homi_u",
+      "items/bio_bm_biosample_urine_results_bio_c_homi_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_aha_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_aha_u",
+      "items/bio_bm_biosample_urine_results_bio_c_aha_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_2hef_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_2hef_u",
+      "items/bio_bm_biosample_urine_results_bio_c_2hef_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7ac_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_7ac_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7ac_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7af_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_7af_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7af_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7an_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_7an_u",
+      "items/bio_bm_biosample_urine_results_bio_c_7an_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_aht_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_aht_u",
+      "items/bio_bm_biosample_urine_results_bio_c_aht_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_lor_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_lor_u",
+      "items/bio_bm_biosample_urine_results_bio_c_lor_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_opioid_u",
+      "items/bio_bm_biosample_urine_results_bio_s_opi_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cod_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_cod_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cod_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mor_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mor_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mor_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mam_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mam_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mam_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_hydroc_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_hydroc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_hydroc_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_hydrom_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_hydrom_u",
+      "items/bio_bm_biosample_urine_results_bio_c_hydrom_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_mtd_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mtd_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mtd_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mtd_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_eddp_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_eddp_u",
+      "items/bio_bm_biosample_urine_results_bio_c_eddp_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_ppx_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nppx_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nppx_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nppx_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_oxyc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxyc_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_oxyc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxyc_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxym_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_oxym_u",
+      "items/bio_bm_biosample_urine_results_bio_c_oxym_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_mep_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nmep_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nmep_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nmep_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_tram_u",
+      "items/bio_bm_biosample_urine_results_bio_c_tram_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_tram_u",
+      "items/bio_bm_biosample_urine_results_bio_c_tram_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_fent_u",
+      "items/bio_bm_biosample_urine_results_bio_c_fent_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_fent_u",
+      "items/bio_bm_biosample_urine_results_bio_c_fent_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nfent_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nfent_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nfent_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_afent_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_afent_u",
+      "items/bio_bm_biosample_urine_results_bio_c_afent_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_suf_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nsuf_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nsuf_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nsuf_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_suf_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_suf_u",
+      "items/bio_bm_biosample_urine_results_bio_c_suf_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_bup_u",
+      "items/bio_bm_biosample_urine_results_bio_c_bup_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_bup_u",
+      "items/bio_bm_biosample_urine_results_bio_c_bup_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nbup_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nbup_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nbup_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_any_mscrlx_u",
+      "items/bio_bm_biosample_urine_results_bio_s_crs_u",
+      "items/bio_bm_biosample_urine_results_bio_c_crs_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_crs_u",
+      "items/bio_bm_biosample_urine_results_bio_c_crs_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mepb_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_mepb_u",
+      "items/bio_bm_biosample_urine_results_bio_c_mepb_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ethanol_u",
+      "items/bio_bm_biosample_urine_results_bio_s_etgeia_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ethglu_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_ethglu_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ethglu_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ethsyl_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_ethsyl_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ethsyl_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_sedative_u",
+      "items/bio_bm_biosample_urine_results_bio_s_zol_u",
+      "items/bio_bm_biosample_urine_results_bio_c_zol_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_zol_u",
+      "items/bio_bm_biosample_urine_results_bio_c_zol_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_zolc_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_zolc_u",
+      "items/bio_bm_biosample_urine_results_bio_c_zolc_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_disanesth_u",
+      "items/bio_bm_biosample_urine_results_bio_s_ket_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ket_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_ket_u",
+      "items/bio_bm_biosample_urine_results_bio_c_ket_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nket_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_nket_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nket_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_s_pcp_u",
+      "items/bio_bm_biosample_urine_results_bio_c_pcp_u_cat",
+      "items/bio_bm_biosample_urine_results_bio_c_pcp_u",
+      "items/bio_bm_biosample_urine_results_bio_c_pcp_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_c_nicotine_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cot_u",
+      "items/bio_bm_biosample_urine_results_bio_c_cot_unit_u",
+      "items/bio_bm_biosample_urine_results_bio_creat_u",
+      "items/bio_bm_biosample_urine_results_bio_creat_u_units",
+      "items/bio_bm_biosample_urine_results_bio_spg_u",
+      "items/bio_bm_biosample_urine_results_bio_spg_u_units",
+      "items/bio_bm_biosample_urine_results_bio_collect_date",
+      "items/bio_bm_biosample_urine_results_bio_receive_date",
+      "items/bio_bm_biosample_urine_results_bio_report_date"
+    ],
+    "addProperties": [
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_specimen_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_specimen_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_stim_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_stim_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_amp_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_amp_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amp_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amp_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amp_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amp_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amp_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amp_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_meth_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_meth_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_meth_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_meth_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_meth_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_meth_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_mdma_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_mdma_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdm_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdm_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdm_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdm_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdm_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdm_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mda_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mda_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mda_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mda_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mda_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mda_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdea_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdea_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdea_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdea_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mdea_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mdea_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_coc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_coc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ben_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ben_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ben_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ben_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ben_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ben_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_cannabinoid_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_cannabinoid_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_thc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_thc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_9_THC_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_9_THC_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_9_THC_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_9_THC_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cannabidiol_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cannabidiol_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cannabidiol_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cannabidiol_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_8_THC_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_8_THC_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_delta_8_THC_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_delta_8_THC_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_barb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_barb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_bar_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_bar_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amobarb_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amobarb_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amobarb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amobarb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_amobarb_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_amobarb_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_secobarb_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_secobarb_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_secobarb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_secobarb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_secobarb_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_secobarb_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pentobarb_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pentobarb_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pentobarb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pentobarb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pentobarb_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pentobarb_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_phenobarb_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_phenobarb_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_phenobarb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_phenobarb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_phenobarb_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_phenobarb_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_butalbital_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_butalbital_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_butalbital_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_butalbital_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_butalbital_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_butalbital_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_benzo_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_benzo_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_benz_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_benz_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxaz_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxaz_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxaz_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxaz_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxaz_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxaz_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nord_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nord_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nord_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nord_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nord_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nord_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tema_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tema_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tema_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tema_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tema_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tema_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_homi_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_homi_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_homi_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_homi_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_homi_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_homi_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aha_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aha_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aha_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aha_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aha_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aha_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_2hef_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_2hef_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_2hef_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_2hef_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_2hef_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_2hef_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7ac_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7ac_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7ac_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7ac_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7ac_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7ac_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7af_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7af_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7af_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7af_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7af_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7af_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7an_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7an_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7an_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7an_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_7an_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_7an_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aht_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aht_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aht_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aht_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_aht_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_aht_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_lor_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_lor_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_lor_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_lor_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_lor_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_lor_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_opioid_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_opioid_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_opi_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_opi_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cod_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cod_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cod_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cod_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cod_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cod_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mor_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mor_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mor_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mor_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mor_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mor_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mam_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mam_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mam_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mam_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mam_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mam_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydroc_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydroc_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydroc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydroc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydroc_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydroc_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydrom_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydrom_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydrom_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydrom_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_hydrom_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_hydrom_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_mtd_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_mtd_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mtd_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mtd_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mtd_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mtd_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mtd_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mtd_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_eddp_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_eddp_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_eddp_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_eddp_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_eddp_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_eddp_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_ppx_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_ppx_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nppx_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nppx_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nppx_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nppx_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nppx_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nppx_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_oxyc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_oxyc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxyc_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxyc_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxyc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxyc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxyc_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxyc_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxym_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxym_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxym_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxym_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_oxym_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_oxym_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_mep_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_mep_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nmep_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nmep_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nmep_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nmep_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nmep_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nmep_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_tram_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_tram_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tram_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tram_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tram_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tram_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_tram_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_tram_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_fent_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_fent_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_fent_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_fent_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_fent_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_fent_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_fent_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_fent_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nfent_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nfent_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nfent_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nfent_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nfent_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nfent_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_afent_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_afent_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_afent_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_afent_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_afent_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_afent_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_suf_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_suf_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nsuf_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nsuf_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nsuf_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nsuf_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nsuf_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nsuf_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_suf_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_suf_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_suf_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_suf_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_suf_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_suf_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_bup_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_bup_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_bup_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_bup_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_bup_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_bup_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_bup_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_bup_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nbup_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nbup_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nbup_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nbup_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nbup_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nbup_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_any_mscrlx_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_any_mscrlx_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_crs_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_crs_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_crs_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_crs_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_crs_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_crs_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_crs_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_crs_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mepb_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mepb_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mepb_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mepb_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_mepb_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_mepb_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethanol_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethanol_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_etgeia_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_etgeia_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethglu_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethglu_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethglu_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethglu_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethglu_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethglu_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethsyl_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethsyl_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethsyl_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethsyl_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ethsyl_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ethsyl_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_sedative_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_sedative_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_zol_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_zol_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zol_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zol_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zol_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zol_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zol_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zol_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zolc_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zolc_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zolc_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zolc_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_zolc_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_zolc_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_disanesth_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_disanesth_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_ket_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_ket_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ket_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ket_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ket_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ket_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_ket_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_ket_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nket_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nket_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nket_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nket_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nket_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nket_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_s_pcp_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_s_pcp_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pcp_u_cat",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pcp_u_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pcp_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pcp_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_pcp_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_pcp_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_nicotine_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_nicotine_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cot_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cot_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_c_cot_unit_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_c_cot_unit_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_creat_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_creat_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_creat_u_units",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_creat_u_units",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_spg_u",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_spg_u",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_spg_u_units",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_spg_u_units",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_collect_date",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_collect_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_receive_date",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_receive_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_urine_results_bio_report_date",
+        "isAbout": "items/bio_bm_biosample_urine_results_bio_report_date",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
