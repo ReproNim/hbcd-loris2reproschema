@@ -1,0 +1,230 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Behavioral_Observation_Admin_Notes_Form_V08_schema",
+  "prefLabel": {
+    "en": "Behavioral Observation Admin Notes Form - V08"
+  },
+  "description": {
+    "en": "Questions related to Behavioral Observation Admin Notes Form - V08"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_ch_bhobs_v08_Date_taken",
+      "items/mh_ch_bhobs_v08_Candidate_Age",
+      "items/mh_ch_bhobs_v08_Window_Difference",
+      "items/mh_ch_bhobs_v08_gestational_age",
+      "items/mh_ch_bhobs_v08_adjusted_age",
+      "items/mh_ch_bhobs_v08_Examiner",
+      "items/mh_ch_bhobs_v08_timestamp_start",
+      "items/mh_ch_bhobs_v08_timestamp_stop",
+      "items/mh_ch_bhobs_v08_Duration",
+      "items/mh_ch_bhobs_v08_arousal_before",
+      "items/mh_ch_bhobs_v08_arousal_after",
+      "items/mh_ch_bhobs_v08_language_page1",
+      "items/mh_ch_bhobs_v08_completed_page1",
+      "items/mh_ch_bhobs_v08_if_partially_or_not_completed_page1",
+      "items/mh_ch_bhobs_v08_if_other_please_describe_incomplete_page1",
+      "items/mh_ch_bhobs_v08_breaks_were_taken_during_protocol_page1",
+      "items/mh_ch_bhobs_v08_if_yes_how_many_breaks_page1",
+      "items/mh_ch_bhobs_v08_if_yes_reason_for_breaks_page1",
+      "items/mh_ch_bhobs_v08_protocol_interrupted_due_to_caregiver_page1",
+      "items/mh_ch_bhobs_v08_if_yes_protocol_interrupted_by_caregiver_page1",
+      "items/mh_ch_bhobs_v08_if_yes_how_many_time_was_protocol_interrupted_page1",
+      "items/mh_ch_bhobs_v08_if_yes_describe_reason_interuption_page1",
+      "items/mh_ch_bhobs_v08_technical_quality_issues_videos_recording_page1",
+      "items/mh_ch_bhobs_v08_if_yes_technical_quality_issues_page1",
+      "items/mh_ch_bhobs_v08_if_other_please_describe_technical_page1",
+      "items/mh_ch_bhobs_v08_administration_erica_notes_page1",
+      "items/mh_ch_bhobs_v08_certify_that_there_are_no_personally",
+      "items/mh_ch_bhobs_v08_Validity",
+      "items/mh_ch_bhobs_v08_Administration",
+      "items/mh_ch_bhobs_v08_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_ch_bhobs_v08_Date_taken",
+        "isAbout": "items/mh_ch_bhobs_v08_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Candidate_Age",
+        "isAbout": "items/mh_ch_bhobs_v08_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Window_Difference",
+        "isAbout": "items/mh_ch_bhobs_v08_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_gestational_age",
+        "isAbout": "items/mh_ch_bhobs_v08_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_adjusted_age",
+        "isAbout": "items/mh_ch_bhobs_v08_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Examiner",
+        "isAbout": "items/mh_ch_bhobs_v08_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_timestamp_start",
+        "isAbout": "items/mh_ch_bhobs_v08_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_timestamp_stop",
+        "isAbout": "items/mh_ch_bhobs_v08_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Duration",
+        "isAbout": "items/mh_ch_bhobs_v08_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_arousal_before",
+        "isAbout": "items/mh_ch_bhobs_v08_arousal_before",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_arousal_after",
+        "isAbout": "items/mh_ch_bhobs_v08_arousal_after",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_language_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_language_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_completed_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_completed_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_partially_or_not_completed_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_partially_or_not_completed_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_other_please_describe_incomplete_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_other_please_describe_incomplete_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_breaks_were_taken_during_protocol_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_breaks_were_taken_during_protocol_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_how_many_breaks_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_how_many_breaks_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_reason_for_breaks_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_reason_for_breaks_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_protocol_interrupted_due_to_caregiver_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_protocol_interrupted_due_to_caregiver_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_protocol_interrupted_by_caregiver_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_protocol_interrupted_by_caregiver_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_how_many_time_was_protocol_interrupted_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_how_many_time_was_protocol_interrupted_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_describe_reason_interuption_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_describe_reason_interuption_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_technical_quality_issues_videos_recording_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_technical_quality_issues_videos_recording_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_yes_technical_quality_issues_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_yes_technical_quality_issues_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_if_other_please_describe_technical_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_if_other_please_describe_technical_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_administration_erica_notes_page1",
+        "isAbout": "items/mh_ch_bhobs_v08_administration_erica_notes_page1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_certify_that_there_are_no_personally",
+        "isAbout": "items/mh_ch_bhobs_v08_certify_that_there_are_no_personally",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Validity",
+        "isAbout": "items/mh_ch_bhobs_v08_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Administration",
+        "isAbout": "items/mh_ch_bhobs_v08_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhobs_v08_Informant",
+        "isAbout": "items/mh_ch_bhobs_v08_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

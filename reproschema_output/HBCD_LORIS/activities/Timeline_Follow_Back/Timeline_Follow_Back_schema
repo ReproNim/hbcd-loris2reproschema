@@ -16,6 +16,7 @@
       "items/pex_ch_tlfb_Candidate_Age",
       "items/pex_ch_tlfb_Window_Difference",
       "items/pex_ch_tlfb_gestational_age",
+      "items/pex_ch_tlfb_adjusted_age",
       "items/pex_ch_tlfb_Examiner",
       "items/pex_ch_tlfb_File_name",
       "items/pex_ch_tlfb_tlfb_time_first_session",
@@ -23,15 +24,6 @@
       "items/pex_ch_tlfb_tlfb_total_duration_seconds",
       "items/pex_ch_tlfb_tlfb_time_completion",
       "items/pex_ch_tlfb_tlfb_user_completion",
-      "items/pex_ch_tlfb_self_report_alcohol",
-      "items/pex_ch_tlfb_self_report_cannabis",
-      "items/pex_ch_tlfb_self_report_nicotine",
-      "items/pex_ch_tlfb_self_report_stimulant",
-      "items/pex_ch_tlfb_self_report_alcohol_assist",
-      "items/pex_ch_tlfb_self_report_alcohol_v1",
-      "items/pex_ch_tlfb_Validity",
-      "items/pex_ch_tlfb_Administration",
-      "items/pex_ch_tlfb_Informant",
       "items/pex_ch_tlfb_alc_wk_01",
       "items/pex_ch_tlfb_alc_wk_02",
       "items/pex_ch_tlfb_alc_wk_03",
@@ -149,7 +141,16 @@
       "items/pex_ch_tlfb_krtm_wk_07",
       "items/pex_ch_tlfb_krtm_wk_08",
       "items/pex_ch_tlfb_krtm_wk_09",
-      "items/pex_ch_tlfb_self_report_opioid"
+      "items/pex_ch_tlfb_self_report_alcohol",
+      "items/pex_ch_tlfb_self_report_opioid",
+      "items/pex_ch_tlfb_self_report_cannabis",
+      "items/pex_ch_tlfb_self_report_nicotine",
+      "items/pex_ch_tlfb_self_report_stimulant",
+      "items/pex_ch_tlfb_self_report_alcohol_assist",
+      "items/pex_ch_tlfb_self_report_alcohol_v1",
+      "items/pex_ch_tlfb_Validity",
+      "items/pex_ch_tlfb_Administration",
+      "items/pex_ch_tlfb_Informant"
     ],
     "addProperties": [
       {
@@ -173,6 +174,12 @@
       {
         "variableName": "pex_ch_tlfb_gestational_age",
         "isAbout": "items/pex_ch_tlfb_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_adjusted_age",
+        "isAbout": "items/pex_ch_tlfb_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -215,60 +222,6 @@
       {
         "variableName": "pex_ch_tlfb_tlfb_user_completion",
         "isAbout": "items/pex_ch_tlfb_tlfb_user_completion",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_alcohol",
-        "isAbout": "items/pex_ch_tlfb_self_report_alcohol",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_cannabis",
-        "isAbout": "items/pex_ch_tlfb_self_report_cannabis",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_nicotine",
-        "isAbout": "items/pex_ch_tlfb_self_report_nicotine",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_stimulant",
-        "isAbout": "items/pex_ch_tlfb_self_report_stimulant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_alcohol_assist",
-        "isAbout": "items/pex_ch_tlfb_self_report_alcohol_assist",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_self_report_alcohol_v1",
-        "isAbout": "items/pex_ch_tlfb_self_report_alcohol_v1",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_Validity",
-        "isAbout": "items/pex_ch_tlfb_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_Administration",
-        "isAbout": "items/pex_ch_tlfb_Administration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_ch_tlfb_Informant",
-        "isAbout": "items/pex_ch_tlfb_Informant",
         "valueRequired": false,
         "isVis": true
       },
@@ -975,8 +928,62 @@
         "isVis": true
       },
       {
+        "variableName": "pex_ch_tlfb_self_report_alcohol",
+        "isAbout": "items/pex_ch_tlfb_self_report_alcohol",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_ch_tlfb_self_report_opioid",
         "isAbout": "items/pex_ch_tlfb_self_report_opioid",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_self_report_cannabis",
+        "isAbout": "items/pex_ch_tlfb_self_report_cannabis",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_self_report_nicotine",
+        "isAbout": "items/pex_ch_tlfb_self_report_nicotine",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_self_report_stimulant",
+        "isAbout": "items/pex_ch_tlfb_self_report_stimulant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_self_report_alcohol_assist",
+        "isAbout": "items/pex_ch_tlfb_self_report_alcohol_assist",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_self_report_alcohol_v1",
+        "isAbout": "items/pex_ch_tlfb_self_report_alcohol_v1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_Validity",
+        "isAbout": "items/pex_ch_tlfb_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_Administration",
+        "isAbout": "items/pex_ch_tlfb_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_ch_tlfb_Informant",
+        "isAbout": "items/pex_ch_tlfb_Informant",
         "valueRequired": false,
         "isVis": true
       }
