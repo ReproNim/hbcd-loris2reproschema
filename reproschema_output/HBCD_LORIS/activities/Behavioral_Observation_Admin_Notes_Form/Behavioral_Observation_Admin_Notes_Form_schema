@@ -13,6 +13,10 @@
   "ui": {
     "order": [
       "items/mh_ch_bhvobs_Date_taken",
+      "items/mh_ch_bhvobs_Candidate_Age",
+      "items/mh_ch_bhvobs_Window_Difference",
+      "items/mh_ch_bhvobs_gestational_age",
+      "items/mh_ch_bhvobs_adjusted_age",
       "items/mh_ch_bhvobs_Examiner",
       "items/mh_ch_bhvobs_timestamp_start",
       "items/mh_ch_bhvobs_timestamp_stop",
@@ -23,6 +27,8 @@
       "items/mh_ch_bhvobs_did_fua_have_contact_if_yes",
       "items/mh_ch_bhvobs_fua_directly_interacted_with_child_other",
       "items/mh_ch_bhvobs_if_yes_estimate_amount_of_interaction",
+      "items/mh_ch_bhvobs_arousal_before",
+      "items/mh_ch_bhvobs_arousal_after",
       "items/mh_ch_bhvobs_language_page1",
       "items/mh_ch_bhvobs_erica_protocol",
       "items/mh_ch_bhvobs_lab_tab_bi_protocol",
@@ -47,18 +53,37 @@
       "items/mh_ch_bhvobs_certify_that_there_are_no_personally",
       "items/mh_ch_bhvobs_Validity",
       "items/mh_ch_bhvobs_Administration",
-      "items/mh_ch_bhvobs_Informant",
-      "items/mh_ch_bhvobs_Candidate_Age",
-      "items/mh_ch_bhvobs_Window_Difference",
-      "items/mh_ch_bhvobs_gestational_age",
-      "items/mh_ch_bhvobs_arousal_before",
-      "items/mh_ch_bhvobs_arousal_after"
+      "items/mh_ch_bhvobs_Informant"
     ],
     "addProperties": [
       {
         "variableName": "mh_ch_bhvobs_Date_taken",
         "isAbout": "items/mh_ch_bhvobs_Date_taken",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_Candidate_Age",
+        "isAbout": "items/mh_ch_bhvobs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_Window_Difference",
+        "isAbout": "items/mh_ch_bhvobs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_gestational_age",
+        "isAbout": "items/mh_ch_bhvobs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_adjusted_age",
+        "isAbout": "items/mh_ch_bhvobs_adjusted_age",
+        "valueRequired": false,
         "isVis": true
       },
       {
@@ -118,6 +143,18 @@
       {
         "variableName": "mh_ch_bhvobs_if_yes_estimate_amount_of_interaction",
         "isAbout": "items/mh_ch_bhvobs_if_yes_estimate_amount_of_interaction",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_arousal_before",
+        "isAbout": "items/mh_ch_bhvobs_arousal_before",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_bhvobs_arousal_after",
+        "isAbout": "items/mh_ch_bhvobs_arousal_after",
         "valueRequired": false,
         "isVis": true
       },
@@ -268,36 +305,6 @@
       {
         "variableName": "mh_ch_bhvobs_Informant",
         "isAbout": "items/mh_ch_bhvobs_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_bhvobs_Candidate_Age",
-        "isAbout": "items/mh_ch_bhvobs_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_bhvobs_Window_Difference",
-        "isAbout": "items/mh_ch_bhvobs_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_bhvobs_gestational_age",
-        "isAbout": "items/mh_ch_bhvobs_gestational_age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_bhvobs_arousal_before",
-        "isAbout": "items/mh_ch_bhvobs_arousal_before",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_bhvobs_arousal_after",
-        "isAbout": "items/mh_ch_bhvobs_arousal_after",
         "valueRequired": false,
         "isVis": true
       }

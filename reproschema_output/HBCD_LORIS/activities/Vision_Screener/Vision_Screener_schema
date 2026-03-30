@@ -16,6 +16,7 @@
       "items/ph_ch_vs_Candidate_Age",
       "items/ph_ch_vs_Window_Difference",
       "items/ph_ch_vs_gestational_age",
+      "items/ph_ch_vs_adjusted_age",
       "items/ph_ch_vs_Examiner",
       "items/ph_ch_vs_timestamp_start",
       "items/ph_ch_vs_timestamp_stop",
@@ -63,6 +64,12 @@
       {
         "variableName": "ph_ch_vs_gestational_age",
         "isAbout": "items/ph_ch_vs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_adjusted_age",
+        "isAbout": "items/ph_ch_vs_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },

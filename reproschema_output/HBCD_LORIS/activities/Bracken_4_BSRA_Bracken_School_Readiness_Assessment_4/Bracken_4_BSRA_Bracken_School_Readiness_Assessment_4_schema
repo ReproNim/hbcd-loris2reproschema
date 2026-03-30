@@ -1,0 +1,1273 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Bracken_4_BSRA_Bracken_School_Readiness_Assessment_4_schema",
+  "prefLabel": {
+    "en": "Bracken-4 (BSRA) - Bracken School Readiness Assessment - 4"
+  },
+  "description": {
+    "en": "Questions related to Bracken-4 (BSRA) - Bracken School Readiness Assessment - 4"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ncl_ch_bsra_Date_taken",
+      "items/ncl_ch_bsra_Candidate_Age",
+      "items/ncl_ch_bsra_Window_Difference",
+      "items/ncl_ch_bsra_gestational_age",
+      "items/ncl_ch_bsra_adjusted_age",
+      "items/ncl_ch_bsra_Examiner",
+      "items/ncl_ch_bsra_timestamp_start",
+      "items/ncl_ch_bsra_timestamp_stop",
+      "items/ncl_ch_bsra_Duration",
+      "items/ncl_ch_bsra_language",
+      "items/ncl_ch_bsra_par_altcg_instrumentName",
+      "items/ncl_ch_bsra_bracken_participant_before",
+      "items/ncl_ch_bsra_bracken_participant_after",
+      "items/ncl_ch_bsra_bracken_survey_confirm",
+      "items/ncl_ch_bsra_Examiner_cronjob",
+      "items/ncl_ch_bsra_File_name",
+      "items/ncl_ch_bsra_ID",
+      "items/ncl_ch_bsra_FirstName",
+      "items/ncl_ch_bsra_LastName",
+      "items/ncl_ch_bsra_Gender",
+      "items/ncl_ch_bsra_TestDate",
+      "items/ncl_ch_bsra_School",
+      "items/ncl_ch_bsra_Teacher",
+      "items/ncl_ch_bsra_Grade",
+      "items/ncl_ch_bsra_title1",
+      "items/ncl_ch_bsra_bsra4_src_co_raw",
+      "items/ncl_ch_bsra_bsra4_src_co_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_ls_raw",
+      "items/ncl_ch_bsra_bsra4_src_ls_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_nc_raw",
+      "items/ncl_ch_bsra_bsra4_src_nc_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_sc_raw",
+      "items/ncl_ch_bsra_bsra4_src_sc_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_sh_raw",
+      "items/ncl_ch_bsra_bsra4_src_sh_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_ssa_raw",
+      "items/ncl_ch_bsra_bsra4_src_ssa_pct_mast",
+      "items/ncl_ch_bsra_title2",
+      "items/ncl_ch_bsra_bsra4_src_pct_mast",
+      "items/ncl_ch_bsra_bsra4_src_ss",
+      "items/ncl_ch_bsra_bsra4_src_pr",
+      "items/ncl_ch_bsra_bsra4_src_cat",
+      "items/ncl_ch_bsra_bsra4_src_ae",
+      "items/ncl_ch_bsra_bsra4_src_co_s01",
+      "items/ncl_ch_bsra_bsra4_src_co_s02",
+      "items/ncl_ch_bsra_bsra4_src_co_s03",
+      "items/ncl_ch_bsra_bsra4_src_co_s04",
+      "items/ncl_ch_bsra_bsra4_src_co_s05",
+      "items/ncl_ch_bsra_bsra4_src_co_s06",
+      "items/ncl_ch_bsra_bsra4_src_co_s07",
+      "items/ncl_ch_bsra_bsra4_src_co_s08",
+      "items/ncl_ch_bsra_bsra4_src_co_s09",
+      "items/ncl_ch_bsra_bsra4_src_co_s10",
+      "items/ncl_ch_bsra_bsra4_src_co_s11",
+      "items/ncl_ch_bsra_bsra4_src_co_s12",
+      "items/ncl_ch_bsra_bsra4_src_ls_s01",
+      "items/ncl_ch_bsra_bsra4_src_ls_s02",
+      "items/ncl_ch_bsra_bsra4_src_ls_s03",
+      "items/ncl_ch_bsra_bsra4_src_ls_s04",
+      "items/ncl_ch_bsra_bsra4_src_ls_s05",
+      "items/ncl_ch_bsra_bsra4_src_ls_s06",
+      "items/ncl_ch_bsra_bsra4_src_ls_s07",
+      "items/ncl_ch_bsra_bsra4_src_ls_s08",
+      "items/ncl_ch_bsra_bsra4_src_ls_s09",
+      "items/ncl_ch_bsra_bsra4_src_ls_s10",
+      "items/ncl_ch_bsra_bsra4_src_ls_s11",
+      "items/ncl_ch_bsra_bsra4_src_ls_s12",
+      "items/ncl_ch_bsra_bsra4_src_ls_s13",
+      "items/ncl_ch_bsra_bsra4_src_ls_s14",
+      "items/ncl_ch_bsra_bsra4_src_ls_s15",
+      "items/ncl_ch_bsra_bsra4_src_ls_s16",
+      "items/ncl_ch_bsra_bsra4_src_ls_s17",
+      "items/ncl_ch_bsra_bsra4_src_nc_s01",
+      "items/ncl_ch_bsra_bsra4_src_nc_s02",
+      "items/ncl_ch_bsra_bsra4_src_nc_s03",
+      "items/ncl_ch_bsra_bsra4_src_nc_s04",
+      "items/ncl_ch_bsra_bsra4_src_nc_s05",
+      "items/ncl_ch_bsra_bsra4_src_nc_s06",
+      "items/ncl_ch_bsra_bsra4_src_nc_s07",
+      "items/ncl_ch_bsra_bsra4_src_nc_s08",
+      "items/ncl_ch_bsra_bsra4_src_nc_s09",
+      "items/ncl_ch_bsra_bsra4_src_nc_s10",
+      "items/ncl_ch_bsra_bsra4_src_nc_s11",
+      "items/ncl_ch_bsra_bsra4_src_nc_s12",
+      "items/ncl_ch_bsra_bsra4_src_nc_s13",
+      "items/ncl_ch_bsra_bsra4_src_nc_s14",
+      "items/ncl_ch_bsra_bsra4_src_nc_s15",
+      "items/ncl_ch_bsra_bsra4_src_nc_s16",
+      "items/ncl_ch_bsra_bsra4_src_nc_s17",
+      "items/ncl_ch_bsra_bsra4_src_nc_s18",
+      "items/ncl_ch_bsra_bsra4_src_nc_s19",
+      "items/ncl_ch_bsra_bsra4_src_nc_s20",
+      "items/ncl_ch_bsra_bsra4_src_nc_s21",
+      "items/ncl_ch_bsra_bsra4_src_nc_s22",
+      "items/ncl_ch_bsra_bsra4_src_nc_s23",
+      "items/ncl_ch_bsra_bsra4_src_nc_s24",
+      "items/ncl_ch_bsra_bsra4_src_nc_s25",
+      "items/ncl_ch_bsra_bsra4_src_sc_s01",
+      "items/ncl_ch_bsra_bsra4_src_sc_s02",
+      "items/ncl_ch_bsra_bsra4_src_sc_s03",
+      "items/ncl_ch_bsra_bsra4_src_sc_s04",
+      "items/ncl_ch_bsra_bsra4_src_sc_s05",
+      "items/ncl_ch_bsra_bsra4_src_sc_s06",
+      "items/ncl_ch_bsra_bsra4_src_sc_s07",
+      "items/ncl_ch_bsra_bsra4_src_sc_s08",
+      "items/ncl_ch_bsra_bsra4_src_sc_s09",
+      "items/ncl_ch_bsra_bsra4_src_sc_s10",
+      "items/ncl_ch_bsra_bsra4_src_sc_s11",
+      "items/ncl_ch_bsra_bsra4_src_sc_s12",
+      "items/ncl_ch_bsra_bsra4_src_sc_s13",
+      "items/ncl_ch_bsra_bsra4_src_sc_s14",
+      "items/ncl_ch_bsra_bsra4_src_sc_s15",
+      "items/ncl_ch_bsra_bsra4_src_sc_s16",
+      "items/ncl_ch_bsra_bsra4_src_sc_s17",
+      "items/ncl_ch_bsra_bsra4_src_sc_s18",
+      "items/ncl_ch_bsra_bsra4_src_sc_s19",
+      "items/ncl_ch_bsra_bsra4_src_sc_s20",
+      "items/ncl_ch_bsra_bsra4_src_sc_s21",
+      "items/ncl_ch_bsra_bsra4_src_sc_s22",
+      "items/ncl_ch_bsra_bsra4_src_sc_s23",
+      "items/ncl_ch_bsra_bsra4_src_sh_s01",
+      "items/ncl_ch_bsra_bsra4_src_sh_s02",
+      "items/ncl_ch_bsra_bsra4_src_sh_s03",
+      "items/ncl_ch_bsra_bsra4_src_sh_s04",
+      "items/ncl_ch_bsra_bsra4_src_sh_s05",
+      "items/ncl_ch_bsra_bsra4_src_sh_s06",
+      "items/ncl_ch_bsra_bsra4_src_sh_s07",
+      "items/ncl_ch_bsra_bsra4_src_sh_s08",
+      "items/ncl_ch_bsra_bsra4_src_sh_s09",
+      "items/ncl_ch_bsra_bsra4_src_sh_s10",
+      "items/ncl_ch_bsra_bsra4_src_sh_s11",
+      "items/ncl_ch_bsra_bsra4_src_sh_s12",
+      "items/ncl_ch_bsra_bsra4_src_sh_s13",
+      "items/ncl_ch_bsra_bsra4_src_sh_s14",
+      "items/ncl_ch_bsra_bsra4_src_sh_s15",
+      "items/ncl_ch_bsra_bsra4_src_sh_s16",
+      "items/ncl_ch_bsra_bsra4_src_sh_s17",
+      "items/ncl_ch_bsra_bsra4_src_sh_s18",
+      "items/ncl_ch_bsra_bsra4_src_sh_s19",
+      "items/ncl_ch_bsra_bsra4_src_sh_s20",
+      "items/ncl_ch_bsra_bsra4_src_sh_s21",
+      "items/ncl_ch_bsra_bsra4_src_sh_s22",
+      "items/ncl_ch_bsra_bsra4_src_sh_s23",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s01",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s02",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s03",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s04",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s05",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s06",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s07",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s08",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s09",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s10",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s11",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s12",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s13",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s14",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s15",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s16",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s17",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s18",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s19",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s20",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s21",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s23",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s24",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s25",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s26",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s27",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s28",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s29",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s30",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s31",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s32",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s33",
+      "items/ncl_ch_bsra_bsra4_src_ssa_s34",
+      "items/ncl_ch_bsra_Validity",
+      "items/ncl_ch_bsra_Administration",
+      "items/ncl_ch_bsra_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ncl_ch_bsra_Date_taken",
+        "isAbout": "items/ncl_ch_bsra_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Candidate_Age",
+        "isAbout": "items/ncl_ch_bsra_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Window_Difference",
+        "isAbout": "items/ncl_ch_bsra_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_gestational_age",
+        "isAbout": "items/ncl_ch_bsra_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_adjusted_age",
+        "isAbout": "items/ncl_ch_bsra_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Examiner",
+        "isAbout": "items/ncl_ch_bsra_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_timestamp_start",
+        "isAbout": "items/ncl_ch_bsra_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_timestamp_stop",
+        "isAbout": "items/ncl_ch_bsra_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Duration",
+        "isAbout": "items/ncl_ch_bsra_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_language",
+        "isAbout": "items/ncl_ch_bsra_language",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_par_altcg_instrumentName",
+        "isAbout": "items/ncl_ch_bsra_par_altcg_instrumentName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bracken_participant_before",
+        "isAbout": "items/ncl_ch_bsra_bracken_participant_before",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bracken_participant_after",
+        "isAbout": "items/ncl_ch_bsra_bracken_participant_after",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bracken_survey_confirm",
+        "isAbout": "items/ncl_ch_bsra_bracken_survey_confirm",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Examiner_cronjob",
+        "isAbout": "items/ncl_ch_bsra_Examiner_cronjob",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_File_name",
+        "isAbout": "items/ncl_ch_bsra_File_name",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_ID",
+        "isAbout": "items/ncl_ch_bsra_ID",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_FirstName",
+        "isAbout": "items/ncl_ch_bsra_FirstName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_LastName",
+        "isAbout": "items/ncl_ch_bsra_LastName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Gender",
+        "isAbout": "items/ncl_ch_bsra_Gender",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_TestDate",
+        "isAbout": "items/ncl_ch_bsra_TestDate",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_School",
+        "isAbout": "items/ncl_ch_bsra_School",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Teacher",
+        "isAbout": "items/ncl_ch_bsra_Teacher",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Grade",
+        "isAbout": "items/ncl_ch_bsra_Grade",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_title1",
+        "isAbout": "items/ncl_ch_bsra_title1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_raw",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_title2",
+        "isAbout": "items/ncl_ch_bsra_title2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_pct_mast",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_pct_mast",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ss",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_pr",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_pr",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_cat",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ae",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ae",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_co_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_co_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s13",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s14",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s15",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s16",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ls_s17",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ls_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s13",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s14",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s15",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s16",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s17",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s18",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s19",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s20",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s21",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s22",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s23",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s24",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_nc_s25",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_nc_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s13",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s14",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s15",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s16",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s17",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s18",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s19",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s20",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s21",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s22",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sc_s23",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sc_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s13",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s14",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s15",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s16",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s17",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s18",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s19",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s20",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s21",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s22",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_sh_s23",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_sh_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s01",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s02",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s03",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s04",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s05",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s06",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s07",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s08",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s09",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s10",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s11",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s12",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s13",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s14",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s15",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s16",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s17",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s18",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s19",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s20",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s21",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s23",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s24",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s25",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s26",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s27",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s28",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s29",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s30",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s31",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s32",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s33",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_bsra4_src_ssa_s34",
+        "isAbout": "items/ncl_ch_bsra_bsra4_src_ssa_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Validity",
+        "isAbout": "items/ncl_ch_bsra_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Administration",
+        "isAbout": "items/ncl_ch_bsra_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bsra_Informant",
+        "isAbout": "items/ncl_ch_bsra_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
