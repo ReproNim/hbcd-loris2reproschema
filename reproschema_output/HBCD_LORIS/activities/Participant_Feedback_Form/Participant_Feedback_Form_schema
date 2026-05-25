@@ -16,6 +16,7 @@
       "items/adm_cg_fb_Candidate_Age",
       "items/adm_cg_fb_Window_Difference",
       "items/adm_cg_fb_gestational_age",
+      "items/adm_cg_fb_adjusted_age",
       "items/adm_cg_fb_Examiner",
       "items/adm_cg_fb_lang",
       "items/adm_cg_fb_dtt",
@@ -64,6 +65,12 @@
       {
         "variableName": "adm_cg_fb_gestational_age",
         "isAbout": "items/adm_cg_fb_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_cg_fb_adjusted_age",
+        "isAbout": "items/adm_cg_fb_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
