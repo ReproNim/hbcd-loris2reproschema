@@ -14,8 +14,9 @@
     "order": [
       "items/pex_bm_assistv3_Date_taken",
       "items/pex_bm_assistv3_Candidate_Age",
-      "items/pex_bm_assistv3_gestational_age",
       "items/pex_bm_assistv3_Window_Difference",
+      "items/pex_bm_assistv3_gestational_age",
+      "items/pex_bm_assistv3_adjusted_age",
       "items/pex_bm_assistv3_Examiner",
       "items/pex_bm_assistv3_lang",
       "items/pex_bm_assistv3_dtt",
@@ -101,14 +102,20 @@
         "isVis": true
       },
       {
+        "variableName": "pex_bm_assistv3_Window_Difference",
+        "isAbout": "items/pex_bm_assistv3_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_bm_assistv3_gestational_age",
         "isAbout": "items/pex_bm_assistv3_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_assistv3_Window_Difference",
-        "isAbout": "items/pex_bm_assistv3_Window_Difference",
+        "variableName": "pex_bm_assistv3_adjusted_age",
+        "isAbout": "items/pex_bm_assistv3_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
