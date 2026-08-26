@@ -16,6 +16,7 @@
       "items/nt_pa_gabi_rcpt_Candidate_Age",
       "items/nt_pa_gabi_rcpt_Window_Difference",
       "items/nt_pa_gabi_rcpt_gestational_age",
+      "items/nt_pa_gabi_rcpt_adjusted_age",
       "items/nt_pa_gabi_rcpt_Examiner",
       "items/nt_pa_gabi_rcpt_timestamp_start",
       "items/nt_pa_gabi_rcpt_timestamp_stop",
@@ -27,7 +28,8 @@
       "items/nt_pa_gabi_rcpt_dsb_001_i_01",
       "items/nt_pa_gabi_rcpt_Validity",
       "items/nt_pa_gabi_rcpt_Administration",
-      "items/nt_pa_gabi_rcpt_Informant"
+      "items/nt_pa_gabi_rcpt_Informant",
+      "items/nt_pa_gabi_rcpt_lang"
     ],
     "addProperties": [
       {
@@ -51,6 +53,12 @@
       {
         "variableName": "nt_pa_gabi_rcpt_gestational_age",
         "isAbout": "items/nt_pa_gabi_rcpt_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_adjusted_age",
+        "isAbout": "items/nt_pa_gabi_rcpt_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -123,6 +131,12 @@
       {
         "variableName": "nt_pa_gabi_rcpt_Informant",
         "isAbout": "items/nt_pa_gabi_rcpt_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_rcpt_lang",
+        "isAbout": "items/nt_pa_gabi_rcpt_lang",
         "valueRequired": false,
         "isVis": true
       }

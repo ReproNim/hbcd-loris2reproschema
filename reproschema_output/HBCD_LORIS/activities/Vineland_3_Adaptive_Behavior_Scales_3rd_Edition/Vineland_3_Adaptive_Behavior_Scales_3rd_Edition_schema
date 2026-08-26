@@ -15,6 +15,8 @@
       "items/ncl_cg_vabs_Date_taken",
       "items/ncl_cg_vabs_Candidate_Age",
       "items/ncl_cg_vabs_Window_Difference",
+      "items/ncl_cg_vabs_gestational_age",
+      "items/ncl_cg_vabs_Examiner_cronjob",
       "items/ncl_cg_vabs_timestamp_start",
       "items/ncl_cg_vabs_timestamp_stop",
       "items/ncl_cg_vabs_Duration",
@@ -172,10 +174,6 @@
       "items/ncl_cg_vabs_fine_motor_vs_minus_score",
       "items/ncl_cg_vabs_fine_motor_strength_score",
       "items/ncl_cg_vabs_fine_motor_base_rate_score",
-      "items/ncl_cg_vabs_Validity",
-      "items/ncl_cg_vabs_Administration",
-      "items/ncl_cg_vabs_Informant",
-      "items/ncl_cg_vabs_Examiner_cronjob",
       "items/ncl_cg_vabs_comm_daily_std_score",
       "items/ncl_cg_vabs_comm_daily_std_score_2",
       "items/ncl_cg_vabs_comm_daily_std_diff_score",
@@ -206,11 +204,6 @@
       "items/ncl_cg_vabs_soc_motor_std_diff_score",
       "items/ncl_cg_vabs_soc_motor_sig_diff_score",
       "items/ncl_cg_vabs_soc_motor_base_rate_score",
-      "items/ncl_cg_vabs_reseptive_expressive_std_score",
-      "items/ncl_cg_vabs_reseptive_expressive_std_score_2",
-      "items/ncl_cg_vabs_reseptive_expressive_std_diff_score",
-      "items/ncl_cg_vabs_reseptive_expressive_sig_diff_score",
-      "items/ncl_cg_vabs_reseptive_expressive_base_rate_score",
       "items/ncl_cg_vabs_inter_relation_std_score",
       "items/ncl_cg_vabs_inter_relation_std_score_2",
       "items/ncl_cg_vabs_inter_relation_std_diff_score",
@@ -220,7 +213,17 @@
       "items/ncl_cg_vabs_gross_fine_motor_std_score_2",
       "items/ncl_cg_vabs_gross_fine_motor_std_diff_score",
       "items/ncl_cg_vabs_gross_fine_motor_sig_diff_score",
-      "items/ncl_cg_vabs_gross_fine_motor_base_rate_score"
+      "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
+      "items/ncl_cg_vabs_Validity",
+      "items/ncl_cg_vabs_Administration",
+      "items/ncl_cg_vabs_Informant",
+      "items/ncl_cg_vabs_lang",
+      "items/ncl_cg_vabs_lang_admin",
+      "items/ncl_cg_vabs_receptive_expressive_std_score",
+      "items/ncl_cg_vabs_receptive_expressive_std_score_2",
+      "items/ncl_cg_vabs_receptive_expressive_std_diff_score",
+      "items/ncl_cg_vabs_receptive_expressive_sig_diff_score",
+      "items/ncl_cg_vabs_receptive_expressive_base_rate_score"
     ],
     "addProperties": [
       {
@@ -238,6 +241,18 @@
       {
         "variableName": "ncl_cg_vabs_Window_Difference",
         "isAbout": "items/ncl_cg_vabs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_gestational_age",
+        "isAbout": "items/ncl_cg_vabs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_Examiner_cronjob",
+        "isAbout": "items/ncl_cg_vabs_Examiner_cronjob",
         "valueRequired": false,
         "isVis": true
       },
@@ -1184,30 +1199,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_cg_vabs_Validity",
-        "isAbout": "items/ncl_cg_vabs_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_Administration",
-        "isAbout": "items/ncl_cg_vabs_Administration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_Informant",
-        "isAbout": "items/ncl_cg_vabs_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_Examiner_cronjob",
-        "isAbout": "items/ncl_cg_vabs_Examiner_cronjob",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_cg_vabs_comm_daily_std_score",
         "isAbout": "items/ncl_cg_vabs_comm_daily_std_score",
         "valueRequired": false,
@@ -1388,36 +1379,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_cg_vabs_reseptive_expressive_std_score",
-        "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_reseptive_expressive_std_score_2",
-        "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_score_2",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_reseptive_expressive_std_diff_score",
-        "isAbout": "items/ncl_cg_vabs_reseptive_expressive_std_diff_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_reseptive_expressive_sig_diff_score",
-        "isAbout": "items/ncl_cg_vabs_reseptive_expressive_sig_diff_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_vabs_reseptive_expressive_base_rate_score",
-        "isAbout": "items/ncl_cg_vabs_reseptive_expressive_base_rate_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_cg_vabs_inter_relation_std_score",
         "isAbout": "items/ncl_cg_vabs_inter_relation_std_score",
         "valueRequired": false,
@@ -1474,6 +1435,66 @@
       {
         "variableName": "ncl_cg_vabs_gross_fine_motor_base_rate_score",
         "isAbout": "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_Validity",
+        "isAbout": "items/ncl_cg_vabs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_Administration",
+        "isAbout": "items/ncl_cg_vabs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_Informant",
+        "isAbout": "items/ncl_cg_vabs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_lang",
+        "isAbout": "items/ncl_cg_vabs_lang",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_lang_admin",
+        "isAbout": "items/ncl_cg_vabs_lang_admin",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_receptive_expressive_std_score",
+        "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_receptive_expressive_std_score_2",
+        "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_score_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_receptive_expressive_std_diff_score",
+        "isAbout": "items/ncl_cg_vabs_receptive_expressive_std_diff_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_receptive_expressive_sig_diff_score",
+        "isAbout": "items/ncl_cg_vabs_receptive_expressive_sig_diff_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_receptive_expressive_base_rate_score",
+        "isAbout": "items/ncl_cg_vabs_receptive_expressive_base_rate_score",
         "valueRequired": false,
         "isVis": true
       }

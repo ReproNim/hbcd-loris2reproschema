@@ -16,6 +16,7 @@
       "items/mh_ch_mchat_Candidate_Age",
       "items/mh_ch_mchat_Window_Difference",
       "items/mh_ch_mchat_gestational_age",
+      "items/mh_ch_mchat_adjusted_age",
       "items/mh_ch_mchat_Examiner",
       "items/mh_ch_mchat_lang",
       "items/mh_ch_mchat_dtt",
@@ -328,12 +329,55 @@
       "items/mh_ch_mchat_movement_002",
       "items/mh_ch_mchat_movement_003",
       "items/mh_ch_mchat_movement_004",
+      "items/mh_ch_mchat_line",
+      "items/mh_ch_mchat_followup_score",
+      "items/mh_ch_mchat_risk_level",
+      "items/mh_ch_mchat_score_summary_header",
+      "items/mh_ch_mchat_table_start",
+      "items/mh_ch_mchat_q1_yes_no",
+      "items/mh_ch_mchat_q1_pass_or_fail",
+      "items/mh_ch_mchat_q2_yes_no",
+      "items/mh_ch_mchat_q2_pass_or_fail",
+      "items/mh_ch_mchat_q3_yes_no",
+      "items/mh_ch_mchat_q3_pass_or_fail",
+      "items/mh_ch_mchat_q4_yes_no",
+      "items/mh_ch_mchat_q4_pass_or_fail",
+      "items/mh_ch_mchat_q5_yes_no",
+      "items/mh_ch_mchat_q5_pass_or_fail",
+      "items/mh_ch_mchat_q6_yes_no",
+      "items/mh_ch_mchat_q6_pass_or_fail",
+      "items/mh_ch_mchat_q7_yes_no",
+      "items/mh_ch_mchat_q7_pass_or_fail",
+      "items/mh_ch_mchat_q8_yes_no",
+      "items/mh_ch_mchat_q8_pass_or_fail",
+      "items/mh_ch_mchat_q9_yes_no",
+      "items/mh_ch_mchat_q9_pass_or_fail",
+      "items/mh_ch_mchat_q10_yes_no",
+      "items/mh_ch_mchat_q10_pass_or_fail",
+      "items/mh_ch_mchat_q11_yes_no",
+      "items/mh_ch_mchat_q11_pass_or_fail",
+      "items/mh_ch_mchat_q12_yes_no",
+      "items/mh_ch_mchat_q12_pass_or_fail",
+      "items/mh_ch_mchat_q13_yes_no",
+      "items/mh_ch_mchat_q13_pass_or_fail",
+      "items/mh_ch_mchat_q14_yes_no",
+      "items/mh_ch_mchat_q14_pass_or_fail",
+      "items/mh_ch_mchat_q15_yes_no",
+      "items/mh_ch_mchat_q15_pass_or_fail",
+      "items/mh_ch_mchat_q16_yes_no",
+      "items/mh_ch_mchat_q16_pass_or_fail",
+      "items/mh_ch_mchat_q17_yes_no",
+      "items/mh_ch_mchat_q17_pass_or_fail",
+      "items/mh_ch_mchat_q18_yes_no",
+      "items/mh_ch_mchat_q18_pass_or_fail",
+      "items/mh_ch_mchat_q19_yes_no",
+      "items/mh_ch_mchat_q19_pass_or_fail",
+      "items/mh_ch_mchat_q20_yes_no",
+      "items/mh_ch_mchat_q20_pass_or_fail",
+      "items/mh_ch_mchat_table_end",
       "items/mh_ch_mchat_Validity",
       "items/mh_ch_mchat_Administration",
-      "items/mh_ch_mchat_Informant",
-      "items/mh_ch_mchat_line",
-      "items/mh_ch_mchat_total_score",
-      "items/mh_ch_mchat_risk_level"
+      "items/mh_ch_mchat_Informant"
     ],
     "addProperties": [
       {
@@ -357,6 +401,12 @@
       {
         "variableName": "mh_ch_mchat_gestational_age",
         "isAbout": "items/mh_ch_mchat_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_adjusted_age",
+        "isAbout": "items/mh_ch_mchat_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -1246,73 +1296,73 @@
         "variableName": "mh_ch_mchat_noise_002_instr01",
         "isAbout": "items/mh_ch_mchat_noise_002_instr01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_01",
         "isAbout": "items/mh_ch_mchat_noise_002_i_01",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_02",
         "isAbout": "items/mh_ch_mchat_noise_002_i_02",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_03",
         "isAbout": "items/mh_ch_mchat_noise_002_i_03",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_04",
         "isAbout": "items/mh_ch_mchat_noise_002_i_04",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_05",
         "isAbout": "items/mh_ch_mchat_noise_002_i_05",
         "valueRequired": false,
-        "isVis": "mh_ch_mchat_noise_002 == '1' AND mh_ch_mchat_noise_calc1 >== 2"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_instr02",
         "isAbout": "items/mh_ch_mchat_noise_002_instr02",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": "mh_ch_mchat_noise_001 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_06",
         "isAbout": "items/mh_ch_mchat_noise_002_i_06",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_01 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": "mh_ch_mchat_noise_002_i_01 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_07",
         "isAbout": "items/mh_ch_mchat_noise_002_i_07",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_02 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": "mh_ch_mchat_noise_002_i_02 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_08",
         "isAbout": "items/mh_ch_mchat_noise_002_i_08",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND mh_ch_mchat_noise_002_i_03 == '1')"
+        "isVis": "mh_ch_mchat_noise_002_i_03 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_09",
         "isAbout": "items/mh_ch_mchat_noise_002_i_09",
         "valueRequired": false,
-        "isVis": "((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND mh_ch_mchat_noise_002_i_04 == '1')"
+        "isVis": "mh_ch_mchat_noise_002_i_04 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_002_i_10",
         "isAbout": "items/mh_ch_mchat_noise_002_i_10",
         "valueRequired": false,
-        "isVis": "(mh_ch_mchat_noise_002_i_05 == '1' AND (mh_ch_mchat_noise_002_i_03 == '1' OR mh_ch_mchat_noise_002_i_04 == '1'))"
+        "isVis": "mh_ch_mchat_noise_002_i_05 == '1'"
       },
       {
         "variableName": "mh_ch_mchat_noise_003_instr01",
@@ -2233,6 +2283,282 @@
         "isVis": "mh_ch_mchat_movement_001 == '0'"
       },
       {
+        "variableName": "mh_ch_mchat_line",
+        "isAbout": "items/mh_ch_mchat_line",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_followup_score",
+        "isAbout": "items/mh_ch_mchat_followup_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_risk_level",
+        "isAbout": "items/mh_ch_mchat_risk_level",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_score_summary_header",
+        "isAbout": "items/mh_ch_mchat_score_summary_header",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_table_start",
+        "isAbout": "items/mh_ch_mchat_table_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q1_yes_no",
+        "isAbout": "items/mh_ch_mchat_q1_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q1_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q1_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q2_yes_no",
+        "isAbout": "items/mh_ch_mchat_q2_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q2_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q2_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q3_yes_no",
+        "isAbout": "items/mh_ch_mchat_q3_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q3_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q3_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q4_yes_no",
+        "isAbout": "items/mh_ch_mchat_q4_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q4_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q4_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q5_yes_no",
+        "isAbout": "items/mh_ch_mchat_q5_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q5_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q5_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q6_yes_no",
+        "isAbout": "items/mh_ch_mchat_q6_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q6_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q6_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q7_yes_no",
+        "isAbout": "items/mh_ch_mchat_q7_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q7_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q7_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q8_yes_no",
+        "isAbout": "items/mh_ch_mchat_q8_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q8_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q8_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q9_yes_no",
+        "isAbout": "items/mh_ch_mchat_q9_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q9_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q9_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q10_yes_no",
+        "isAbout": "items/mh_ch_mchat_q10_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q10_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q10_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q11_yes_no",
+        "isAbout": "items/mh_ch_mchat_q11_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q11_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q11_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q12_yes_no",
+        "isAbout": "items/mh_ch_mchat_q12_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q12_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q12_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q13_yes_no",
+        "isAbout": "items/mh_ch_mchat_q13_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q13_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q13_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q14_yes_no",
+        "isAbout": "items/mh_ch_mchat_q14_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q14_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q14_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q15_yes_no",
+        "isAbout": "items/mh_ch_mchat_q15_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q15_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q15_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q16_yes_no",
+        "isAbout": "items/mh_ch_mchat_q16_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q16_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q16_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q17_yes_no",
+        "isAbout": "items/mh_ch_mchat_q17_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q17_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q17_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q18_yes_no",
+        "isAbout": "items/mh_ch_mchat_q18_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q18_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q18_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q19_yes_no",
+        "isAbout": "items/mh_ch_mchat_q19_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q19_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q19_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q20_yes_no",
+        "isAbout": "items/mh_ch_mchat_q20_yes_no",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_q20_pass_or_fail",
+        "isAbout": "items/mh_ch_mchat_q20_pass_or_fail",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_mchat_table_end",
+        "isAbout": "items/mh_ch_mchat_table_end",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_ch_mchat_Validity",
         "isAbout": "items/mh_ch_mchat_Validity",
         "valueRequired": false,
@@ -2247,24 +2573,6 @@
       {
         "variableName": "mh_ch_mchat_Informant",
         "isAbout": "items/mh_ch_mchat_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_line",
-        "isAbout": "items/mh_ch_mchat_line",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_total_score",
-        "isAbout": "items/mh_ch_mchat_total_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_mchat_risk_level",
-        "isAbout": "items/mh_ch_mchat_risk_level",
         "valueRequired": false,
         "isVis": true
       }

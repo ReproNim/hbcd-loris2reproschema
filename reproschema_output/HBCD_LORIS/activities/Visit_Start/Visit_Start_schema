@@ -14,13 +14,15 @@
     "order": [
       "items/visit_start_Date_taken",
       "items/visit_start_Candidate_Age",
-      "items/visit_start_gestational_age",
       "items/visit_start_Window_Difference",
+      "items/visit_start_gestational_age",
+      "items/visit_start_adjusted_age",
       "items/visit_start_Examiner",
       "items/visit_start_instr01",
       "items/visit_start_Validity",
       "items/visit_start_Administration",
-      "items/visit_start_Informant"
+      "items/visit_start_Informant",
+      "items/visit_start_lang"
     ],
     "addProperties": [
       {
@@ -36,14 +38,20 @@
         "isVis": true
       },
       {
+        "variableName": "visit_start_Window_Difference",
+        "isAbout": "items/visit_start_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "visit_start_gestational_age",
         "isAbout": "items/visit_start_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "visit_start_Window_Difference",
-        "isAbout": "items/visit_start_Window_Difference",
+        "variableName": "visit_start_adjusted_age",
+        "isAbout": "items/visit_start_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -74,6 +82,12 @@
       {
         "variableName": "visit_start_Informant",
         "isAbout": "items/visit_start_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "visit_start_lang",
+        "isAbout": "items/visit_start_lang",
         "valueRequired": false,
         "isVis": true
       }
