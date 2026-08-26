@@ -6,7 +6,7 @@
     "en": "ph_ch_anthro_warning_message"
   },
   "question": {
-    "en": ""
+    "en": "Warning message for cases flagged due to measurements entered being lower than previous visit."
   },
   "ui": {
     "inputType": "text"
@@ -75,7 +75,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "bio_bm_biosample_nails_results_bio_c_nord_n",
+  "prefLabel": {
+    "en": "bio_bm_biosample_nails_results_bio_c_nord_n"
+  },
+  "question": {
+    "en": "Confirmatory test in nails: nordiazepam (benz)"
+  },
+  "ui": {
+    "inputType": "number"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:integer"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "c_nord_n"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "bio_bm_biosample_nails_results"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Integer"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Discrete"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
