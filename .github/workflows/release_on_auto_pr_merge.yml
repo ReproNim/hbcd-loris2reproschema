@@ -18,10 +18,32 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Extract CSV date from branch name
+        id: extract_date
+        run: |
+          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
+          echo "Branch name: $BRANCH_NAME"
+
+          # Extract date from branch name (format: auto-update-YYYY-MM-DD)
+          CSV_DATE=$(echo "$BRANCH_NAME" | sed -n 's/auto-update-\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\).*/\1/p')
+
+          if [ -n "$CSV_DATE" ]; then
+            echo "csv_date=$CSV_DATE" >> $GITHUB_OUTPUT
+            echo "📅 Extracted CSV date: $CSV_DATE"
+          else
+            # Fallback to current date if extraction fails
+            CSV_DATE=$(date +%Y-%m-%d)
+            echo "csv_date=$CSV_DATE" >> $GITHUB_OUTPUT
+            echo "⚠️ Could not extract date from branch, using current date: $CSV_DATE"
+          fi
+
       - name: Create release tag
         id: tag
         run: |
-          TAG_NAME="v$(date +%Y.%m.%d)"
+          # Convert YYYY-MM-DD to vYYYY.MM.DD format
+          CSV_DATE="${{ steps.extract_date.outputs.csv_date }}"
+          TAG_NAME="v$(echo $CSV_DATE | tr '-' '.')"
+
           COUNTER=1
           ORIGINAL_TAG=$TAG_NAME
           while git tag -l | grep -q "^${TAG_NAME}$"; do
@@ -29,7 +51,8 @@ jobs:
             COUNTER=$((COUNTER + 1))
           done
           echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
-          git tag -a "$TAG_NAME" -m "Automated ReproSchema update $(date +%Y-%m-%d)"
+          echo "📦 Creating tag: $TAG_NAME (from CSV date: $CSV_DATE)"
+          git tag -a "$TAG_NAME" -m "ReproSchema update from LORIS data dictionary $CSV_DATE"
           git push origin "$TAG_NAME"
 
       - name: Create GitHub release
@@ -37,12 +60,13 @@ jobs:
         with:
           script: |
             const tagName = '${{ steps.tag.outputs.tag_name }}';
+            const csvDate = '${{ steps.extract_date.outputs.csv_date }}';
             const release = await github.rest.repos.createRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
               tag_name: tagName,
               name: `HBCD ReproSchema ${tagName}`,
-              body: `# HBCD ReproSchema Update ${tagName}\n\nAutomated release with updated schemas.`,
+              body: `# HBCD ReproSchema Update ${tagName}\n\nAutomated release with updated schemas from LORIS data dictionary dated **${csvDate}**.`,
               draft: false,
               prerelease: false
             });
@@ -57,4 +81,3 @@ jobs:
         uses: ./.github/actions/publish-comparisons
         with:
           limit: "15"
-

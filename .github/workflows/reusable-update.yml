@@ -49,15 +49,30 @@ jobs:
           [ -n "${{ secrets.HBCD_PASSWORD }}" ] || { echo "HBCD_PASSWORD missing"; exit 1; }
 
       - name: Run automated update
+        id: run_update
         env:
           LORIS_USER: ${{ secrets.HBCD_USERNAME }}
           LORIS_PASS: ${{ secrets.HBCD_PASSWORD }}
         shell: bash
         run: |
           if [ -n "${{ inputs.data_dictionary_file }}" ]; then
-            python scripts/automated_update.py --config config/pipeline.yml --csv-file "${{ inputs.data_dictionary_file }}"
+            CSV_FILE="${{ inputs.data_dictionary_file }}"
+            python scripts/automated_update.py --config config/pipeline.yml --csv-file "$CSV_FILE"
           else
+            # Find the most recent CSV file
+            CSV_FILE=$(ls -t loris_data_dictionaries/hbcd_data_dictionary_*.csv 2>/dev/null | head -1)
             python scripts/automated_update.py --config config/pipeline.yml
+          fi
+
+          # Extract date from CSV filename (format: hbcd_data_dictionary_YYYY-MM-DD.csv)
+          if [ -n "$CSV_FILE" ]; then
+            CSV_DATE=$(basename "$CSV_FILE" | sed -n 's/hbcd_data_dictionary_\([0-9-]*\)\.csv/\1/p')
+            echo "csv_date=$CSV_DATE" >> $GITHUB_OUTPUT
+            echo "csv_file=$CSV_FILE" >> $GITHUB_OUTPUT
+            echo "📅 Using CSV date: $CSV_DATE from $CSV_FILE"
+          else
+            echo "csv_date=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+            echo "⚠️ No CSV file found, using current date"
           fi
 
       - name: Check for changes
@@ -71,9 +86,12 @@ jobs:
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Set date variable
+      - name: Set date variables
         if: steps.check_changes.outputs.changes == 'true'
-        run: echo "CURRENT_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+        run: |
+          # Use CSV date for tagging, current date for reference
+          echo "CSV_DATE=${{ steps.run_update.outputs.csv_date }}" >> $GITHUB_ENV
+          echo "CURRENT_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
 
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
@@ -82,11 +100,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: |
-            Automated update from LORIS data dictionary ${{ env.CURRENT_DATE }}
+            Automated update from LORIS data dictionary ${{ env.CSV_DATE }}
 
-            This update was automatically generated from the latest LORIS data dictionary.
-          branch: auto-update-${{ env.CURRENT_DATE }}-${{ github.run_number }}
-          title: "[Auto] Update ReproSchema from LORIS - ${{ env.CURRENT_DATE }}"
+            This update was automatically generated from the LORIS data dictionary dated ${{ env.CSV_DATE }}.
+          branch: auto-update-${{ env.CSV_DATE }}
+          title: "[Auto] Update ReproSchema from LORIS - ${{ env.CSV_DATE }}"
           add-paths: |
             reproschema_output/
             reports/
@@ -94,7 +112,11 @@ jobs:
           body: |
             ## Automated Update from LORIS
 
-            This PR contains an automated update generated from the latest LORIS data dictionary.
+            This PR contains an automated update generated from the LORIS data dictionary dated **${{ env.CSV_DATE }}**.
+
+            ### Release Info
+            - **Data Dictionary Date**: ${{ env.CSV_DATE }}
+            - **Tag on Merge**: `v${{ env.CSV_DATE }}` (converted to dot format)
 
             ### Generated Content
             - **ReproSchema Files**: Updated schema definitions in `reproschema_output/`
