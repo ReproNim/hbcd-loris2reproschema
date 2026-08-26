@@ -24,10 +24,10 @@
       "items/adm_fd_visitdata_001",
       "items/adm_fd_visitdata_visit_start",
       "items/adm_fd_visitdata_visit_end",
+      "items/adm_fd_visitdata_alternate_caregiver_type",
       "items/adm_fd_visitdata_Validity",
       "items/adm_fd_visitdata_Administration",
-      "items/adm_fd_visitdata_Informant",
-      "items/adm_fd_visitdata_alternate_caregiver_type"
+      "items/adm_fd_visitdata_Informant"
     ],
     "addProperties": [
       {
@@ -103,6 +103,12 @@
         "isVis": true
       },
       {
+        "variableName": "adm_fd_visitdata_alternate_caregiver_type",
+        "isAbout": "items/adm_fd_visitdata_alternate_caregiver_type",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_fd_visitdata_Validity",
         "isAbout": "items/adm_fd_visitdata_Validity",
         "valueRequired": false,
@@ -117,12 +123,6 @@
       {
         "variableName": "adm_fd_visitdata_Informant",
         "isAbout": "items/adm_fd_visitdata_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_fd_visitdata_alternate_caregiver_type",
-        "isAbout": "items/adm_fd_visitdata_alternate_caregiver_type",
         "valueRequired": false,
         "isVis": true
       }
