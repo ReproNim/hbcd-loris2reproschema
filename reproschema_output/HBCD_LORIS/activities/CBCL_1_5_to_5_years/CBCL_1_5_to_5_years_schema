@@ -16,6 +16,7 @@
       "items/mh_cg_cbcl_i_1to5_Candidate_Age",
       "items/mh_cg_cbcl_i_1to5_Window_Difference",
       "items/mh_cg_cbcl_i_1to5_gestational_age",
+      "items/mh_cg_cbcl_i_1to5_adjusted_age",
       "items/mh_cg_cbcl_i_1to5_Examiner",
       "items/mh_cg_cbcl_i_1to5_lang",
       "items/mh_cg_cbcl_i_1to5_dtt",
@@ -125,7 +126,39 @@
       "items/mh_cg_cbcl_i_1to5_i_emot_009",
       "items/mh_cg_cbcl_i_1to5_Validity",
       "items/mh_cg_cbcl_i_1to5_Administration",
-      "items/mh_cg_cbcl_i_1to5_Informant"
+      "items/mh_cg_cbcl_i_1to5_Informant",
+      "items/mh_cg_cbcl_i_1to5_internal_raw",
+      "items/mh_cg_cbcl_i_1to5_internal_t",
+      "items/mh_cg_cbcl_i_1to5_external_raw",
+      "items/mh_cg_cbcl_i_1to5_external_t",
+      "items/mh_cg_cbcl_i_1to5_total_raw",
+      "items/mh_cg_cbcl_i_1to5_total_t",
+      "items/mh_cg_cbcl_i_1to5_emotional_raw",
+      "items/mh_cg_cbcl_i_1to5_anxious_raw",
+      "items/mh_cg_cbcl_i_1to5_somatic_raw",
+      "items/mh_cg_cbcl_i_1to5_withdrawn_raw",
+      "items/mh_cg_cbcl_i_1to5_sleep_raw",
+      "items/mh_cg_cbcl_i_1to5_attention_raw",
+      "items/mh_cg_cbcl_i_1to5_aggressive_raw",
+      "items/mh_cg_cbcl_i_1to5_other_raw",
+      "items/mh_cg_cbcl_i_1to5_emotional_t",
+      "items/mh_cg_cbcl_i_1to5_anxious_t",
+      "items/mh_cg_cbcl_i_1to5_somatic_t",
+      "items/mh_cg_cbcl_i_1to5_withdrawn_t",
+      "items/mh_cg_cbcl_i_1to5_sleep_t",
+      "items/mh_cg_cbcl_i_1to5_attention_t",
+      "items/mh_cg_cbcl_i_1to5_aggressive_t",
+      "items/mh_cg_cbcl_i_1to5_dsm_affective_raw",
+      "items/mh_cg_cbcl_i_1to5_dsm_anxiety_raw",
+      "items/mh_cg_cbcl_i_1to5_dsm_mental_raw",
+      "items/mh_cg_cbcl_i_1to5_dsm_attention_raw",
+      "items/mh_cg_cbcl_i_1to5_dsm_oppose_raw",
+      "items/mh_cg_cbcl_i_1to5_dsm_affective_t",
+      "items/mh_cg_cbcl_i_1to5_dsm_anxiety_t",
+      "items/mh_cg_cbcl_i_1to5_dsm_mental_t",
+      "items/mh_cg_cbcl_i_1to5_dsm_attention_t",
+      "items/mh_cg_cbcl_i_1to5_dsm_oppose_t",
+      "items/mh_cg_cbcl_i_1to5_clinical_range"
     ],
     "addProperties": [
       {
@@ -149,6 +182,12 @@
       {
         "variableName": "mh_cg_cbcl_i_1to5_gestational_age",
         "isAbout": "items/mh_cg_cbcl_i_1to5_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_adjusted_age",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -809,6 +848,198 @@
       {
         "variableName": "mh_cg_cbcl_i_1to5_Informant",
         "isAbout": "items/mh_cg_cbcl_i_1to5_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_internal_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_internal_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_internal_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_internal_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_external_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_external_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_external_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_external_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_total_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_total_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_total_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_total_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_emotional_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_emotional_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_anxious_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_anxious_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_somatic_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_somatic_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_withdrawn_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_withdrawn_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_sleep_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_sleep_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_attention_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_attention_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_aggressive_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_aggressive_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_other_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_other_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_emotional_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_emotional_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_anxious_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_anxious_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_somatic_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_somatic_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_withdrawn_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_withdrawn_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_sleep_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_sleep_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_attention_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_attention_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_aggressive_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_aggressive_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_affective_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_affective_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_anxiety_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_anxiety_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_mental_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_mental_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_attention_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_attention_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_oppose_raw",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_oppose_raw",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_affective_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_affective_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_anxiety_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_anxiety_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_mental_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_mental_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_attention_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_attention_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_dsm_oppose_t",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_dsm_oppose_t",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_clinical_range",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_clinical_range",
         "valueRequired": false,
         "isVis": true
       }
