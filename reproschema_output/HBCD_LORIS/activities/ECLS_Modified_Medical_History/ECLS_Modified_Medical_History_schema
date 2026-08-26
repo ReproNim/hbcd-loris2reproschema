@@ -14,7 +14,6 @@
     "order": [
       "items/ph_cg_ecls_i_medhist_Date_taken",
       "items/ph_cg_ecls_i_medhist_Candidate_Age",
-      "items/ph_cg_ecls_i_medhist_gestational_age",
       "items/ph_cg_ecls_i_medhist_Window_Difference",
       "items/ph_cg_ecls_i_medhist_Examiner",
       "items/ph_cg_ecls_i_medhist_lang",
@@ -298,12 +297,6 @@
       {
         "variableName": "ph_cg_ecls_i_medhist_Candidate_Age",
         "isAbout": "items/ph_cg_ecls_i_medhist_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_cg_ecls_i_medhist_gestational_age",
-        "isAbout": "items/ph_cg_ecls_i_medhist_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
