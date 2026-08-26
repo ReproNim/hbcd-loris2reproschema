@@ -497,7 +497,8 @@
       "items/mri_ra_chkl_data_s2_004",
       "items/mri_ra_chkl_data_s2_005",
       "items/mri_ra_chkl_data_s2_005_status",
-      "items/mri_ra_chkl_data_s2_006"
+      "items/mri_ra_chkl_data_s2_006",
+      "items/mri_ra_chkl_data_gestational_age"
     ],
     "addProperties": [
       {
@@ -3413,6 +3414,12 @@
       {
         "variableName": "mri_ra_chkl_data_s2_006",
         "isAbout": "items/mri_ra_chkl_data_s2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_gestational_age",
+        "isAbout": "items/mri_ra_chkl_data_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
