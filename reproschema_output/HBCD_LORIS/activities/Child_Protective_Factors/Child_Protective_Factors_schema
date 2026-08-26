@@ -15,6 +15,7 @@
       "items/sed_cg_cpf_Date_taken",
       "items/sed_cg_cpf_Candidate_Age",
       "items/sed_cg_cpf_Window_Difference",
+      "items/sed_cg_cpf_gestational_age",
       "items/sed_cg_cpf_Examiner",
       "items/sed_cg_cpf_lang",
       "items/sed_cg_cpf_dtt",
@@ -52,6 +53,12 @@
       {
         "variableName": "sed_cg_cpf_Window_Difference",
         "isAbout": "items/sed_cg_cpf_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cpf_gestational_age",
+        "isAbout": "items/sed_cg_cpf_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

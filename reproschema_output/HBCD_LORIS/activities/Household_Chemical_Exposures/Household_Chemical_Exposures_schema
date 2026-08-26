@@ -14,8 +14,8 @@
     "order": [
       "items/sed_cg_hce_Date_taken",
       "items/sed_cg_hce_Candidate_Age",
-      "items/sed_cg_hce_gestational_age",
       "items/sed_cg_hce_Window_Difference",
+      "items/sed_cg_hce_gestational_age",
       "items/sed_cg_hce_Examiner",
       "items/sed_cg_hce_lang",
       "items/sed_cg_hce_dtt",
@@ -89,14 +89,14 @@
         "isVis": true
       },
       {
-        "variableName": "sed_cg_hce_gestational_age",
-        "isAbout": "items/sed_cg_hce_gestational_age",
+        "variableName": "sed_cg_hce_Window_Difference",
+        "isAbout": "items/sed_cg_hce_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_cg_hce_Window_Difference",
-        "isAbout": "items/sed_cg_hce_Window_Difference",
+        "variableName": "sed_cg_hce_gestational_age",
+        "isAbout": "items/sed_cg_hce_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
