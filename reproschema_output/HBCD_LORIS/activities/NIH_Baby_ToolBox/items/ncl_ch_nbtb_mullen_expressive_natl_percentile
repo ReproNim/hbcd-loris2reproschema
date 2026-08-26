@@ -6,14 +6,14 @@
     "en": "ncl_ch_nbtb_mullen_expressive_natl_percentile"
   },
   "question": {
-    "en": "Mullen Expressive Prompt"
+    "en": ""
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:string"
+      "xsd:integer"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Integer"
     },
     {
       "source": "loris",
@@ -75,7 +75,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Unchanged"
+      "value": "Empty"
     }
   ]
 }
