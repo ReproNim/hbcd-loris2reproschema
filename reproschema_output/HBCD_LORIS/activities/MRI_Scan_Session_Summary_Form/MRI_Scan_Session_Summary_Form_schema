@@ -232,7 +232,24 @@
       "items/mri_ra_chkl_scan_s3_slp_003",
       "items/mri_ra_chkl_scan_s3_slp_003_i_01",
       "items/mri_ra_chkl_scan_s3_tfs_001",
-      "items/mri_ra_chkl_scan_s3_tfs_002"
+      "items/mri_ra_chkl_scan_s3_tfs_002",
+      "items/mri_ra_chkl_scan_gestational_age",
+      "items/mri_ra_chkl_scan_s1_pss_008",
+      "items/mri_ra_chkl_scan_s1_pss_009",
+      "items/mri_ra_chkl_scan_s1_slp_004",
+      "items/mri_ra_chkl_scan_s1_slp_005",
+      "items/mri_ra_chkl_scan_s2_pss_008",
+      "items/mri_ra_chkl_scan_s2_pss_009",
+      "items/mri_ra_chkl_scan_s2_slp_004",
+      "items/mri_ra_chkl_scan_s2_slp_005",
+      "items/mri_ra_chkl_scan_s3_pss_008",
+      "items/mri_ra_chkl_scan_s3_pss_009",
+      "items/mri_ra_chkl_scan_s3_slp_004",
+      "items/mri_ra_chkl_scan_s3_slp_005",
+      "items/mri_ra_chkl_scan_s4_pss_008",
+      "items/mri_ra_chkl_scan_s4_pss_009",
+      "items/mri_ra_chkl_scan_s4_slp_004",
+      "items/mri_ra_chkl_scan_s4_slp_005"
     ],
     "addProperties": [
       {
@@ -1558,6 +1575,108 @@
       {
         "variableName": "mri_ra_chkl_scan_s3_tfs_002",
         "isAbout": "items/mri_ra_chkl_scan_s3_tfs_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_gestational_age",
+        "isAbout": "items/mri_ra_chkl_scan_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s1_pss_008",
+        "isAbout": "items/mri_ra_chkl_scan_s1_pss_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s1_pss_009",
+        "isAbout": "items/mri_ra_chkl_scan_s1_pss_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s1_slp_004",
+        "isAbout": "items/mri_ra_chkl_scan_s1_slp_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s1_slp_005",
+        "isAbout": "items/mri_ra_chkl_scan_s1_slp_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s2_pss_008",
+        "isAbout": "items/mri_ra_chkl_scan_s2_pss_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s2_pss_009",
+        "isAbout": "items/mri_ra_chkl_scan_s2_pss_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s2_slp_004",
+        "isAbout": "items/mri_ra_chkl_scan_s2_slp_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s2_slp_005",
+        "isAbout": "items/mri_ra_chkl_scan_s2_slp_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s3_pss_008",
+        "isAbout": "items/mri_ra_chkl_scan_s3_pss_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s3_pss_009",
+        "isAbout": "items/mri_ra_chkl_scan_s3_pss_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s3_slp_004",
+        "isAbout": "items/mri_ra_chkl_scan_s3_slp_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s3_slp_005",
+        "isAbout": "items/mri_ra_chkl_scan_s3_slp_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s4_pss_008",
+        "isAbout": "items/mri_ra_chkl_scan_s4_pss_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s4_pss_009",
+        "isAbout": "items/mri_ra_chkl_scan_s4_pss_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s4_slp_004",
+        "isAbout": "items/mri_ra_chkl_scan_s4_slp_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_scan_s4_slp_005",
+        "isAbout": "items/mri_ra_chkl_scan_s4_slp_005",
         "valueRequired": false,
         "isVis": true
       }

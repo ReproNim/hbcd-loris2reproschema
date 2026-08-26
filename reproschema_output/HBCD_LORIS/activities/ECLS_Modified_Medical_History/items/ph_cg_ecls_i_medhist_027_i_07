@@ -55,7 +55,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: event-name !== 'v08_arm_1' AND ph_cg_ecls_i_medhist_027(7) == '1'"
+    "en": "Conditional display: ph_cg_ecls_i_medhist_027(7) == '1'"
   },
   "additionalNotesObj": [
     {

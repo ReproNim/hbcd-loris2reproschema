@@ -49,7 +49,13 @@
       "items/adm_fd_urgent_emeg_002",
       "items/adm_fd_urgent_emeg_002_i_01",
       "items/adm_fd_urgent_Informant",
-      "items/adm_fd_urgent_003"
+      "items/adm_fd_urgent_003",
+      "items/adm_fd_urgent_Candidate_Age",
+      "items/adm_fd_urgent_Window_Difference",
+      "items/adm_fd_urgent_gestational_age",
+      "items/adm_fd_urgent_timestamp_start",
+      "items/adm_fd_urgent_timestamp_stop",
+      "items/adm_fd_urgent_Duration"
     ],
     "addProperties": [
       {
@@ -277,6 +283,42 @@
       {
         "variableName": "adm_fd_urgent_003",
         "isAbout": "items/adm_fd_urgent_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_Candidate_Age",
+        "isAbout": "items/adm_fd_urgent_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_Window_Difference",
+        "isAbout": "items/adm_fd_urgent_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_gestational_age",
+        "isAbout": "items/adm_fd_urgent_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_timestamp_start",
+        "isAbout": "items/adm_fd_urgent_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_timestamp_stop",
+        "isAbout": "items/adm_fd_urgent_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_Duration",
+        "isAbout": "items/adm_fd_urgent_Duration",
         "valueRequired": false,
         "isVis": true
       }
