@@ -1,0 +1,66 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "bio_bm_biosample_nail_results_bio_Nail_weight",
+  "prefLabel": {
+    "en": "bio_bm_biosample_nail_results_bio_Nail_weight"
+  },
+  "question": {
+    "en": "Weight of nails available to assay"
+  },
+  "ui": {
+    "inputType": "number"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:float"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "Nail_weight"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "bio_bm_biosample_nail_results"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Biological Mother"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Float"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Candidate"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Continuous"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

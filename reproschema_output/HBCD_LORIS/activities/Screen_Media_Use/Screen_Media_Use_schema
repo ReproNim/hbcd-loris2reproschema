@@ -14,7 +14,6 @@
     "order": [
       "items/ph_cg_screenq_Date_taken",
       "items/ph_cg_screenq_Candidate_Age",
-      "items/ph_cg_screenq_gestational_age",
       "items/ph_cg_screenq_Window_Difference",
       "items/ph_cg_screenq_Examiner",
       "items/ph_cg_screenq_lang",
@@ -47,7 +46,8 @@
       "items/ph_cg_screenq_total_score",
       "items/ph_cg_screenq_Validity",
       "items/ph_cg_screenq_Administration",
-      "items/ph_cg_screenq_Informant"
+      "items/ph_cg_screenq_Informant",
+      "items/ph_cg_screenq_gestational_age"
     ],
     "addProperties": [
       {
@@ -59,12 +59,6 @@
       {
         "variableName": "ph_cg_screenq_Candidate_Age",
         "isAbout": "items/ph_cg_screenq_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_cg_screenq_gestational_age",
-        "isAbout": "items/ph_cg_screenq_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -263,6 +257,12 @@
       {
         "variableName": "ph_cg_screenq_Informant",
         "isAbout": "items/ph_cg_screenq_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_screenq_gestational_age",
+        "isAbout": "items/ph_cg_screenq_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
