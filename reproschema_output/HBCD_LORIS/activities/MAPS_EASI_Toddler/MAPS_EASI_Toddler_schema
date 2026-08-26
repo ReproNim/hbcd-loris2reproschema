@@ -14,7 +14,6 @@
     "order": [
       "items/mh_cg_mapstl_i_easi_Date_taken",
       "items/mh_cg_mapstl_i_easi_Candidate_Age",
-      "items/mh_cg_mapstl_i_easi_gestational_age",
       "items/mh_cg_mapstl_i_easi_Window_Difference",
       "items/mh_cg_mapstl_i_easi_Examiner",
       "items/mh_cg_mapstl_i_easi_lang",
@@ -43,12 +42,6 @@
       {
         "variableName": "mh_cg_mapstl_i_easi_Candidate_Age",
         "isAbout": "items/mh_cg_mapstl_i_easi_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_mapstl_i_easi_gestational_age",
-        "isAbout": "items/mh_cg_mapstl_i_easi_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
