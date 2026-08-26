@@ -1,0 +1,1210 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "USDTL_Nails_Toxicology_Results_schema",
+  "prefLabel": {
+    "en": "USDTL Nails Toxicology Results"
+  },
+  "description": {
+    "en": "Questions related to USDTL Nails Toxicology Results"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/bio_bm_biosample_nails_results_Nail_weight",
+      "items/bio_bm_biosample_nails_results_Nail_type",
+      "items/bio_bm_biosample_nails_results_test_ordered_n",
+      "items/bio_bm_biosample_nails_results_c_any_specimen_n",
+      "items/bio_bm_biosample_nails_results_c_any_stim_n",
+      "items/bio_bm_biosample_nails_results_s_amp_n",
+      "items/bio_bm_biosample_nails_results_s_mamp_n",
+      "items/bio_bm_biosample_nails_results_c_amp_n_cat",
+      "items/bio_bm_biosample_nails_results_c_amp_n",
+      "items/bio_bm_biosample_nails_results_c_amp_unit_n",
+      "items/bio_bm_biosample_nails_results_c_meth_n_cat",
+      "items/bio_bm_biosample_nails_results_c_meth_n",
+      "items/bio_bm_biosample_nails_results_c_meth_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mdma_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mdma_n",
+      "items/bio_bm_biosample_nails_results_c_mdma_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mda_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mda_n",
+      "items/bio_bm_biosample_nails_results_c_mda_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mdea_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mdea_n",
+      "items/bio_bm_biosample_nails_results_c_mdea_unit_n",
+      "items/bio_bm_biosample_nails_results_s_coc_n",
+      "items/bio_bm_biosample_nails_results_c_coc_n_cat",
+      "items/bio_bm_biosample_nails_results_c_coc_n",
+      "items/bio_bm_biosample_nails_results_c_coc_unit_n",
+      "items/bio_bm_biosample_nails_results_c_cocae_n_cat",
+      "items/bio_bm_biosample_nails_results_c_cocae_n",
+      "items/bio_bm_biosample_nails_results_c_cocae_unit_n",
+      "items/bio_bm_biosample_nails_results_c_ben_n_cat",
+      "items/bio_bm_biosample_nails_results_c_ben_n",
+      "items/bio_bm_biosample_nails_results_c_ben_unit_n",
+      "items/bio_bm_biosample_nails_results_c_ncoc_n_cat",
+      "items/bio_bm_biosample_nails_results_c_ncoc_n",
+      "items/bio_bm_biosample_nails_results_c_ncoc_unit_n",
+      "items/bio_bm_biosample_nails_results_c_any_cannabinoid_n",
+      "items/bio_bm_biosample_nails_results_s_thc_n",
+      "items/bio_bm_biosample_nails_results_c_delta_9_THC_n_cat",
+      "items/bio_bm_biosample_nails_results_c_delta_9_THC_n",
+      "items/bio_bm_biosample_nails_results_c_delta_9_THC_unit_n",
+      "items/bio_bm_biosample_nails_results_c_any_barb_n",
+      "items/bio_bm_biosample_nails_results_s_bar_n",
+      "items/bio_bm_biosample_nails_results_c_amobarb_n_cat",
+      "items/bio_bm_biosample_nails_results_c_amobarb_n",
+      "items/bio_bm_biosample_nails_results_c_amobarb_unit_n",
+      "items/bio_bm_biosample_nails_results_c_secobarb_n_cat",
+      "items/bio_bm_biosample_nails_results_c_secobarb_n",
+      "items/bio_bm_biosample_nails_results_c_secobarb_unit_n",
+      "items/bio_bm_biosample_nails_results_c_pentobarb_n_cat",
+      "items/bio_bm_biosample_nails_results_c_pentobarb_n",
+      "items/bio_bm_biosample_nails_results_c_pentobarb_unit_n",
+      "items/bio_bm_biosample_nails_results_c_phenobarb_n_cat",
+      "items/bio_bm_biosample_nails_results_c_phenobarb_n",
+      "items/bio_bm_biosample_nails_results_c_phenobarb_unit_n",
+      "items/bio_bm_biosample_nails_results_c_butalbital_n_cat",
+      "items/bio_bm_biosample_nails_results_c_butalbital_n",
+      "items/bio_bm_biosample_nails_results_c_butalbital_unit_n",
+      "items/bio_bm_biosample_nails_results_c_any_benzo_n",
+      "items/bio_bm_biosample_nails_results_s_benz_n",
+      "items/bio_bm_biosample_nails_results_c_diaz_n_cat",
+      "items/bio_bm_biosample_nails_results_c_diaz_n",
+      "items/bio_bm_biosample_nails_results_c_diaz_unit_n",
+      "items/bio_bm_biosample_nails_results_c_oxaz_n_cat",
+      "items/bio_bm_biosample_nails_results_c_oxaz_n",
+      "items/bio_bm_biosample_nails_results_c_oxaz_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nord_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nord_n",
+      "items/bio_bm_biosample_nails_results_c_nord_unit_n",
+      "items/bio_bm_biosample_nails_results_c_tema_n_cat",
+      "items/bio_bm_biosample_nails_results_c_tema_n",
+      "items/bio_bm_biosample_nails_results_c_tema_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mida_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mida_n",
+      "items/bio_bm_biosample_nails_results_c_mida_unit_n",
+      "items/bio_bm_biosample_nails_results_c_alpa_n_cat",
+      "items/bio_bm_biosample_nails_results_c_alpa_n",
+      "items/bio_bm_biosample_nails_results_c_alpa_unit_n",
+      "items/bio_bm_biosample_nails_results_c_any_opioid_n",
+      "items/bio_bm_biosample_nails_results_s_mtd_n",
+      "items/bio_bm_biosample_nails_results_c_mtd_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mtd_n",
+      "items/bio_bm_biosample_nails_results_c_mtd_unit_n",
+      "items/bio_bm_biosample_nails_results_c_eddp_n_cat",
+      "items/bio_bm_biosample_nails_results_c_eddp_n",
+      "items/bio_bm_biosample_nails_results_c_eddp_unit_n",
+      "items/bio_bm_biosample_nails_results_s_opi_n",
+      "items/bio_bm_biosample_nails_results_c_cod_n_cat",
+      "items/bio_bm_biosample_nails_results_c_cod_n",
+      "items/bio_bm_biosample_nails_results_c_cod_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mor_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mor_n",
+      "items/bio_bm_biosample_nails_results_c_mor_unit_n",
+      "items/bio_bm_biosample_nails_results_c_mam_n_cat",
+      "items/bio_bm_biosample_nails_results_c_mam_n",
+      "items/bio_bm_biosample_nails_results_c_mam_unit_n",
+      "items/bio_bm_biosample_nails_results_c_hydroc_n_cat",
+      "items/bio_bm_biosample_nails_results_c_hydroc_n",
+      "items/bio_bm_biosample_nails_results_c_hydroc_unit_n",
+      "items/bio_bm_biosample_nails_results_c_norh_n_cat",
+      "items/bio_bm_biosample_nails_results_c_norh_n",
+      "items/bio_bm_biosample_nails_results_c_norh_unit_n",
+      "items/bio_bm_biosample_nails_results_c_hydrom_n_cat",
+      "items/bio_bm_biosample_nails_results_c_hydrom_n",
+      "items/bio_bm_biosample_nails_results_c_hydrom_unit_n",
+      "items/bio_bm_biosample_nails_results_s_oxyc_n",
+      "items/bio_bm_biosample_nails_results_c_oxyc_n_cat",
+      "items/bio_bm_biosample_nails_results_c_oxyc_n",
+      "items/bio_bm_biosample_nails_results_c_oxyc_unit_n",
+      "items/bio_bm_biosample_nails_results_c_noxyc_n_cat",
+      "items/bio_bm_biosample_nails_results_c_noxyc_n",
+      "items/bio_bm_biosample_nails_results_c_noxyc_unit_n",
+      "items/bio_bm_biosample_nails_results_c_oxym_n_cat",
+      "items/bio_bm_biosample_nails_results_c_oxym_n",
+      "items/bio_bm_biosample_nails_results_c_oxym_unit_n",
+      "items/bio_bm_biosample_nails_results_s_fent_n",
+      "items/bio_bm_biosample_nails_results_c_fent_n_cat",
+      "items/bio_bm_biosample_nails_results_c_fent_n",
+      "items/bio_bm_biosample_nails_results_c_fent_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nfent_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nfent_n",
+      "items/bio_bm_biosample_nails_results_c_nfent_unit_n",
+      "items/bio_bm_biosample_nails_results_c_acfent_n_cat",
+      "items/bio_bm_biosample_nails_results_c_acfent_n",
+      "items/bio_bm_biosample_nails_results_c_acfent_unit_n",
+      "items/bio_bm_biosample_nails_results_c_acnfent_n_cat",
+      "items/bio_bm_biosample_nails_results_c_acnfent_n",
+      "items/bio_bm_biosample_nails_results_c_acnfent_unit_n",
+      "items/bio_bm_biosample_nails_results_s_suf_n",
+      "items/bio_bm_biosample_nails_results_c_suf_n_cat",
+      "items/bio_bm_biosample_nails_results_c_suf_n",
+      "items/bio_bm_biosample_nails_results_c_suf_unit_n",
+      "items/bio_bm_biosample_nails_results_c_afent_n_cat",
+      "items/bio_bm_biosample_nails_results_c_afent_n",
+      "items/bio_bm_biosample_nails_results_c_afent_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nsuf_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nsuf_n",
+      "items/bio_bm_biosample_nails_results_c_nsuf_unit_n",
+      "items/bio_bm_biosample_nails_results_s_bup_n",
+      "items/bio_bm_biosample_nails_results_c_bup_n_cat",
+      "items/bio_bm_biosample_nails_results_c_bup_n",
+      "items/bio_bm_biosample_nails_results_c_bup_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nbup_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nbup_n",
+      "items/bio_bm_biosample_nails_results_c_nbup_unit_n",
+      "items/bio_bm_biosample_nails_results_s_tram_n",
+      "items/bio_bm_biosample_nails_results_c_tram_n_cat",
+      "items/bio_bm_biosample_nails_results_c_tram_n",
+      "items/bio_bm_biosample_nails_results_c_tram_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nicotine_n",
+      "items/bio_bm_biosample_nails_results_s_cot_n",
+      "items/bio_bm_biosample_nails_results_c_cot_n_cat",
+      "items/bio_bm_biosample_nails_results_c_cot_n",
+      "items/bio_bm_biosample_nails_results_c_cot_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nic_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nic_n",
+      "items/bio_bm_biosample_nails_results_c_nic_unit_n",
+      "items/bio_bm_biosample_nails_results_c_disanesth_n",
+      "items/bio_bm_biosample_nails_results_s_ket_n",
+      "items/bio_bm_biosample_nails_results_c_ket_n_cat",
+      "items/bio_bm_biosample_nails_results_c_ket_n",
+      "items/bio_bm_biosample_nails_results_c_ket_unit_n",
+      "items/bio_bm_biosample_nails_results_c_nket_n_cat",
+      "items/bio_bm_biosample_nails_results_c_nket_n",
+      "items/bio_bm_biosample_nails_results_c_nket_unit_n",
+      "items/bio_bm_biosample_nails_results_c_ethanol_n",
+      "items/bio_bm_biosample_nails_results_c_etoh_n",
+      "items/bio_bm_biosample_nails_results_c_etoh_unit_n",
+      "items/bio_bm_biosample_nails_results_collect_date",
+      "items/bio_bm_biosample_nails_results_receive_date",
+      "items/bio_bm_biosample_nails_results_report_date"
+    ],
+    "addProperties": [
+      {
+        "variableName": "bio_bm_biosample_nails_results_Nail_weight",
+        "isAbout": "items/bio_bm_biosample_nails_results_Nail_weight",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_Nail_type",
+        "isAbout": "items/bio_bm_biosample_nails_results_Nail_type",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_test_ordered_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_test_ordered_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_specimen_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_specimen_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_stim_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_stim_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_amp_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_amp_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_mamp_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_mamp_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amp_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amp_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amp_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amp_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amp_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amp_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_meth_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_meth_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_meth_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_meth_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_meth_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_meth_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdma_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdma_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdma_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdma_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdma_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdma_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mda_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mda_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mda_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mda_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mda_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mda_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdea_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdea_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdea_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdea_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mdea_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mdea_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_coc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_coc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_coc_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_coc_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_coc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_coc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_coc_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_coc_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cocae_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cocae_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cocae_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cocae_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cocae_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cocae_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ben_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ben_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ben_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ben_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ben_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ben_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ncoc_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ncoc_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ncoc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ncoc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ncoc_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ncoc_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_cannabinoid_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_cannabinoid_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_thc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_thc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_delta_9_THC_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_delta_9_THC_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_delta_9_THC_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_delta_9_THC_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_delta_9_THC_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_delta_9_THC_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_barb_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_barb_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_bar_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_bar_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amobarb_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amobarb_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amobarb_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amobarb_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_amobarb_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_amobarb_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_secobarb_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_secobarb_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_secobarb_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_secobarb_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_secobarb_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_secobarb_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_pentobarb_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_pentobarb_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_pentobarb_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_pentobarb_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_pentobarb_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_pentobarb_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_phenobarb_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_phenobarb_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_phenobarb_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_phenobarb_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_phenobarb_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_phenobarb_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_butalbital_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_butalbital_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_butalbital_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_butalbital_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_butalbital_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_butalbital_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_benzo_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_benzo_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_benz_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_benz_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_diaz_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_diaz_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_diaz_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_diaz_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_diaz_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_diaz_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxaz_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxaz_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxaz_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxaz_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxaz_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxaz_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nord_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nord_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nord_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nord_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nord_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nord_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tema_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tema_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tema_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tema_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tema_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tema_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mida_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mida_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mida_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mida_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mida_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mida_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_alpa_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_alpa_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_alpa_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_alpa_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_alpa_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_alpa_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_any_opioid_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_any_opioid_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_mtd_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_mtd_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mtd_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mtd_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mtd_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mtd_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mtd_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mtd_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_eddp_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_eddp_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_eddp_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_eddp_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_eddp_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_eddp_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_opi_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_opi_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cod_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cod_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cod_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cod_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cod_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cod_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mor_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mor_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mor_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mor_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mor_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mor_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mam_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mam_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mam_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mam_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_mam_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_mam_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydroc_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydroc_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydroc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydroc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydroc_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydroc_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_norh_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_norh_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_norh_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_norh_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_norh_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_norh_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydrom_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydrom_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydrom_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydrom_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_hydrom_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_hydrom_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_oxyc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_oxyc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxyc_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxyc_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxyc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxyc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxyc_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxyc_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_noxyc_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_noxyc_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_noxyc_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_noxyc_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_noxyc_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_noxyc_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxym_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxym_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxym_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxym_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_oxym_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_oxym_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_fent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_fent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_fent_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_fent_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_fent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_fent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_fent_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_fent_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nfent_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nfent_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nfent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nfent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nfent_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nfent_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acfent_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acfent_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acfent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acfent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acfent_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acfent_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acnfent_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acnfent_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acnfent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acnfent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_acnfent_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_acnfent_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_suf_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_suf_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_suf_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_suf_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_suf_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_suf_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_suf_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_suf_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_afent_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_afent_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_afent_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_afent_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_afent_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_afent_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nsuf_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nsuf_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nsuf_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nsuf_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nsuf_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nsuf_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_bup_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_bup_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_bup_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_bup_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_bup_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_bup_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_bup_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_bup_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nbup_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nbup_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nbup_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nbup_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nbup_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nbup_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_tram_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_tram_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tram_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tram_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tram_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tram_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_tram_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_tram_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nicotine_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nicotine_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_cot_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_cot_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cot_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cot_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cot_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cot_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_cot_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_cot_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nic_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nic_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nic_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nic_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nic_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nic_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_disanesth_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_disanesth_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_s_ket_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_s_ket_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ket_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ket_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ket_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ket_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ket_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ket_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nket_n_cat",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nket_n_cat",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nket_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nket_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_nket_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_nket_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_ethanol_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_ethanol_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_etoh_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_etoh_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_c_etoh_unit_n",
+        "isAbout": "items/bio_bm_biosample_nails_results_c_etoh_unit_n",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_collect_date",
+        "isAbout": "items/bio_bm_biosample_nails_results_collect_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_receive_date",
+        "isAbout": "items/bio_bm_biosample_nails_results_receive_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "bio_bm_biosample_nails_results_report_date",
+        "isAbout": "items/bio_bm_biosample_nails_results_report_date",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
