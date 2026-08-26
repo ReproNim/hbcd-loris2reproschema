@@ -14,7 +14,6 @@
     "order": [
       "items/sed_cg_pedaces_Date_taken",
       "items/sed_cg_pedaces_Candidate_Age",
-      "items/sed_cg_pedaces_gestational_age",
       "items/sed_cg_pedaces_Window_Difference",
       "items/sed_cg_pedaces_Examiner",
       "items/sed_cg_pedaces_lang",
@@ -38,7 +37,8 @@
       "items/sed_cg_pedaces_Validity",
       "items/sed_cg_pedaces_Administration",
       "items/sed_cg_pedaces_Informant",
-      "items/sed_cg_pedaces_sensitive"
+      "items/sed_cg_pedaces_sensitive",
+      "items/sed_cg_pedaces_gestational_age"
     ],
     "addProperties": [
       {
@@ -50,12 +50,6 @@
       {
         "variableName": "sed_cg_pedaces_Candidate_Age",
         "isAbout": "items/sed_cg_pedaces_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_cg_pedaces_gestational_age",
-        "isAbout": "items/sed_cg_pedaces_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -200,6 +194,12 @@
       {
         "variableName": "sed_cg_pedaces_sensitive",
         "isAbout": "items/sed_cg_pedaces_sensitive",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_pedaces_gestational_age",
+        "isAbout": "items/sed_cg_pedaces_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

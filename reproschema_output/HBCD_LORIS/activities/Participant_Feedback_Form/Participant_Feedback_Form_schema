@@ -15,7 +15,6 @@
       "items/adm_cg_fb_Date_taken",
       "items/adm_cg_fb_Candidate_Age",
       "items/adm_cg_fb_Window_Difference",
-      "items/adm_cg_fb_gestational_age",
       "items/adm_cg_fb_Examiner",
       "items/adm_cg_fb_lang",
       "items/adm_cg_fb_dtt",
@@ -40,7 +39,8 @@
       "items/adm_cg_fb_013",
       "items/adm_cg_fb_Validity",
       "items/adm_cg_fb_Administration",
-      "items/adm_cg_fb_Informant"
+      "items/adm_cg_fb_Informant",
+      "items/adm_cg_fb_gestational_age"
     ],
     "addProperties": [
       {
@@ -58,12 +58,6 @@
       {
         "variableName": "adm_cg_fb_Window_Difference",
         "isAbout": "items/adm_cg_fb_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_cg_fb_gestational_age",
-        "isAbout": "items/adm_cg_fb_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -214,6 +208,12 @@
       {
         "variableName": "adm_cg_fb_Informant",
         "isAbout": "items/adm_cg_fb_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_cg_fb_gestational_age",
+        "isAbout": "items/adm_cg_fb_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
