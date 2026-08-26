@@ -14,8 +14,8 @@
     "order": [
       "items/sed_cg_via_Date_taken",
       "items/sed_cg_via_Candidate_Age",
-      "items/sed_cg_via_gestational_age",
       "items/sed_cg_via_Window_Difference",
+      "items/sed_cg_via_gestational_age",
       "items/sed_cg_via_Examiner",
       "items/sed_cg_via_lang",
       "items/sed_cg_via_dtt",
@@ -48,8 +48,8 @@
       "items/sed_cg_via_021",
       "items/sed_cg_via_022",
       "items/sed_cg_via_line",
-      "items/sed_cg_via_total_score_even",
       "items/sed_cg_via_total_score_odd",
+      "items/sed_cg_via_total_score_even",
       "items/sed_cg_via_Validity",
       "items/sed_cg_via_Administration",
       "items/sed_cg_via_Informant"
@@ -68,14 +68,14 @@
         "isVis": true
       },
       {
-        "variableName": "sed_cg_via_gestational_age",
-        "isAbout": "items/sed_cg_via_gestational_age",
+        "variableName": "sed_cg_via_Window_Difference",
+        "isAbout": "items/sed_cg_via_Window_Difference",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_cg_via_Window_Difference",
-        "isAbout": "items/sed_cg_via_Window_Difference",
+        "variableName": "sed_cg_via_gestational_age",
+        "isAbout": "items/sed_cg_via_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -272,14 +272,14 @@
         "isVis": true
       },
       {
-        "variableName": "sed_cg_via_total_score_even",
-        "isAbout": "items/sed_cg_via_total_score_even",
+        "variableName": "sed_cg_via_total_score_odd",
+        "isAbout": "items/sed_cg_via_total_score_odd",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_cg_via_total_score_odd",
-        "isAbout": "items/sed_cg_via_total_score_odd",
+        "variableName": "sed_cg_via_total_score_even",
+        "isAbout": "items/sed_cg_via_total_score_even",
         "valueRequired": false,
         "isVis": true
       },

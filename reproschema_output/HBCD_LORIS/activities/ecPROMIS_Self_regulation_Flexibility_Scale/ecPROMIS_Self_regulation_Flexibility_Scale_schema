@@ -30,6 +30,8 @@
       "items/mh_cg_pms_i_selfreg_005",
       "items/mh_cg_pms_i_selfreg_001",
       "items/mh_cg_pms_i_selfreg_total_score",
+      "items/mh_cg_pms_i_selfreg_answered_count",
+      "items/mh_cg_pms_i_selfreg_note",
       "items/mh_cg_pms_i_selfreg_Validity",
       "items/mh_cg_pms_i_selfreg_Administration",
       "items/mh_cg_pms_i_selfreg_Informant"
@@ -140,6 +142,18 @@
       {
         "variableName": "mh_cg_pms_i_selfreg_total_score",
         "isAbout": "items/mh_cg_pms_i_selfreg_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_selfreg_answered_count",
+        "isAbout": "items/mh_cg_pms_i_selfreg_answered_count",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_selfreg_note",
+        "isAbout": "items/mh_cg_pms_i_selfreg_note",
         "valueRequired": false,
         "isVis": true
       },
