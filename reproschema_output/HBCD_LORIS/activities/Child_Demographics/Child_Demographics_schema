@@ -14,7 +14,6 @@
     "order": [
       "items/sed_bm_demo_child_Date_taken",
       "items/sed_bm_demo_child_Candidate_Age",
-      "items/sed_bm_demo_child_gestational_age",
       "items/sed_bm_demo_child_Window_Difference",
       "items/sed_bm_demo_child_Examiner",
       "items/sed_bm_demo_child_lang",
@@ -322,7 +321,8 @@
       "items/sed_bm_demo_child_i_income_001",
       "items/sed_bm_demo_child_Validity",
       "items/sed_bm_demo_child_Administration",
-      "items/sed_bm_demo_child_Informant"
+      "items/sed_bm_demo_child_Informant",
+      "items/sed_bm_demo_child_gestational_age"
     ],
     "addProperties": [
       {
@@ -334,12 +334,6 @@
       {
         "variableName": "sed_bm_demo_child_Candidate_Age",
         "isAbout": "items/sed_bm_demo_child_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_bm_demo_child_gestational_age",
-        "isAbout": "items/sed_bm_demo_child_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -2188,6 +2182,12 @@
       {
         "variableName": "sed_bm_demo_child_Informant",
         "isAbout": "items/sed_bm_demo_child_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_bm_demo_child_gestational_age",
+        "isAbout": "items/sed_bm_demo_child_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
