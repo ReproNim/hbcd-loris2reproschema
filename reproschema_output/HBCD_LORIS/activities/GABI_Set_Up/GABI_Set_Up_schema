@@ -16,10 +16,12 @@
       "items/nt_pa_gabi_setup_Candidate_Age",
       "items/nt_pa_gabi_setup_Window_Difference",
       "items/nt_pa_gabi_setup_gestational_age",
+      "items/nt_pa_gabi_setup_adjusted_age",
       "items/nt_pa_gabi_setup_Examiner",
       "items/nt_pa_gabi_setup_timestamp_start",
       "items/nt_pa_gabi_setup_timestamp_stop",
       "items/nt_pa_gabi_setup_Duration",
+      "items/nt_pa_gabi_setup_lang",
       "items/nt_pa_gabi_setup_001",
       "items/nt_pa_gabi_setup_002_i_01",
       "items/nt_pa_gabi_setup_002_i_02",
@@ -62,6 +64,12 @@
         "isVis": true
       },
       {
+        "variableName": "nt_pa_gabi_setup_adjusted_age",
+        "isAbout": "items/nt_pa_gabi_setup_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "nt_pa_gabi_setup_Examiner",
         "isAbout": "items/nt_pa_gabi_setup_Examiner",
         "valueRequired": true,
@@ -82,6 +90,12 @@
       {
         "variableName": "nt_pa_gabi_setup_Duration",
         "isAbout": "items/nt_pa_gabi_setup_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_setup_lang",
+        "isAbout": "items/nt_pa_gabi_setup_lang",
         "valueRequired": false,
         "isVis": true
       },
