@@ -14,7 +14,6 @@
     "order": [
       "items/sed_cg_tic_Date_taken",
       "items/sed_cg_tic_Candidate_Age",
-      "items/sed_cg_tic_gestational_age",
       "items/sed_cg_tic_Window_Difference",
       "items/sed_cg_tic_Examiner",
       "items/sed_cg_tic_lang",
@@ -41,7 +40,8 @@
       "items/sed_cg_tic_total_score",
       "items/sed_cg_tic_Validity",
       "items/sed_cg_tic_Administration",
-      "items/sed_cg_tic_Informant"
+      "items/sed_cg_tic_Informant",
+      "items/sed_cg_tic_gestational_age"
     ],
     "addProperties": [
       {
@@ -53,12 +53,6 @@
       {
         "variableName": "sed_cg_tic_Candidate_Age",
         "isAbout": "items/sed_cg_tic_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_cg_tic_gestational_age",
-        "isAbout": "items/sed_cg_tic_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -221,6 +215,12 @@
       {
         "variableName": "sed_cg_tic_Informant",
         "isAbout": "items/sed_cg_tic_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_gestational_age",
+        "isAbout": "items/sed_cg_tic_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

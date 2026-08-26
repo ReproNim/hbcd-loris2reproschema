@@ -14,7 +14,6 @@
     "order": [
       "items/ncl_cg_webvabs_Date_taken",
       "items/ncl_cg_webvabs_Candidate_Age",
-      "items/ncl_cg_webvabs_gestational_age",
       "items/ncl_cg_webvabs_Window_Difference",
       "items/ncl_cg_webvabs_Examiner",
       "items/ncl_cg_webvabs_redirect",
@@ -22,7 +21,8 @@
       "items/ncl_cg_webvabs_completion_status",
       "items/ncl_cg_webvabs_Validity",
       "items/ncl_cg_webvabs_Administration",
-      "items/ncl_cg_webvabs_Informant"
+      "items/ncl_cg_webvabs_Informant",
+      "items/ncl_cg_webvabs_gestational_age"
     ],
     "addProperties": [
       {
@@ -34,12 +34,6 @@
       {
         "variableName": "ncl_cg_webvabs_Candidate_Age",
         "isAbout": "items/ncl_cg_webvabs_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_webvabs_gestational_age",
-        "isAbout": "items/ncl_cg_webvabs_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -88,6 +82,12 @@
       {
         "variableName": "ncl_cg_webvabs_Informant",
         "isAbout": "items/ncl_cg_webvabs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_webvabs_gestational_age",
+        "isAbout": "items/ncl_cg_webvabs_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

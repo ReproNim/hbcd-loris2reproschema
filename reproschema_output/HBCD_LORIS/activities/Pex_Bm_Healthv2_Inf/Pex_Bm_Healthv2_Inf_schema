@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_healthv2_inf_Date_taken",
       "items/pex_bm_healthv2_inf_Candidate_Age",
-      "items/pex_bm_healthv2_inf_gestational_age",
       "items/pex_bm_healthv2_inf_Window_Difference",
       "items/pex_bm_healthv2_inf_Examiner",
       "items/pex_bm_healthv2_inf_lang",
@@ -140,7 +139,9 @@
       "items/pex_bm_healthv2_inf_017",
       "items/pex_bm_healthv2_inf_Validity",
       "items/pex_bm_healthv2_inf_Administration",
-      "items/pex_bm_healthv2_inf_Informant"
+      "items/pex_bm_healthv2_inf_Informant",
+      "items/pex_bm_healthv2_inf_i_meds_instr01",
+      "items/pex_bm_healthv2_inf_gestational_age"
     ],
     "addProperties": [
       {
@@ -152,12 +153,6 @@
       {
         "variableName": "pex_bm_healthv2_inf_Candidate_Age",
         "isAbout": "items/pex_bm_healthv2_inf_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_healthv2_inf_gestational_age",
-        "isAbout": "items/pex_bm_healthv2_inf_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -914,6 +909,18 @@
       {
         "variableName": "pex_bm_healthv2_inf_Informant",
         "isAbout": "items/pex_bm_healthv2_inf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_healthv2_inf_i_meds_instr01",
+        "isAbout": "items/pex_bm_healthv2_inf_i_meds_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_healthv2_inf_gestational_age",
+        "isAbout": "items/pex_bm_healthv2_inf_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
