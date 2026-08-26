@@ -15,11 +15,8 @@
       "items/adm_bm_screen_Date_taken",
       "items/adm_bm_screen_Candidate_Age",
       "items/adm_bm_screen_Window_Difference",
-      "items/adm_bm_screen_Examiner",
-      "items/adm_bm_screen_Validity",
-      "items/adm_bm_screen_Administration",
-      "items/adm_bm_screen_Informant",
       "items/adm_bm_screen_gestational_age",
+      "items/adm_bm_screen_Examiner",
       "items/adm_bm_screen_mother_age_at_birth",
       "items/adm_bm_screen_001b",
       "items/adm_bm_screen_001",
@@ -27,7 +24,10 @@
       "items/adm_bm_screen_003",
       "items/adm_bm_screen_004",
       "items/adm_bm_screen_005",
-      "items/adm_bm_screen_hashed_global_id"
+      "items/adm_bm_screen_hashed_global_id",
+      "items/adm_bm_screen_Validity",
+      "items/adm_bm_screen_Administration",
+      "items/adm_bm_screen_Informant"
     ],
     "addProperties": [
       {
@@ -49,33 +49,15 @@
         "isVis": true
       },
       {
-        "variableName": "adm_bm_screen_Examiner",
-        "isAbout": "items/adm_bm_screen_Examiner",
-        "valueRequired": true,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_bm_screen_Validity",
-        "isAbout": "items/adm_bm_screen_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_bm_screen_Administration",
-        "isAbout": "items/adm_bm_screen_Administration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_bm_screen_Informant",
-        "isAbout": "items/adm_bm_screen_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "adm_bm_screen_gestational_age",
         "isAbout": "items/adm_bm_screen_gestational_age",
         "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_bm_screen_Examiner",
+        "isAbout": "items/adm_bm_screen_Examiner",
+        "valueRequired": true,
         "isVis": true
       },
       {
@@ -123,6 +105,24 @@
       {
         "variableName": "adm_bm_screen_hashed_global_id",
         "isAbout": "items/adm_bm_screen_hashed_global_id",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_bm_screen_Validity",
+        "isAbout": "items/adm_bm_screen_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_bm_screen_Administration",
+        "isAbout": "items/adm_bm_screen_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_bm_screen_Informant",
+        "isAbout": "items/adm_bm_screen_Informant",
         "valueRequired": false,
         "isVis": true
       }
