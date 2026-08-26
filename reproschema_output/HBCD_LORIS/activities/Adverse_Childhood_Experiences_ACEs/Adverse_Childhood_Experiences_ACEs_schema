@@ -14,8 +14,9 @@
     "order": [
       "items/sed_cg_ace_Date_taken",
       "items/sed_cg_ace_Candidate_Age",
-      "items/sed_cg_ace_gestational_age",
       "items/sed_cg_ace_Window_Difference",
+      "items/sed_cg_ace_gestational_age",
+      "items/sed_cg_ace_adjusted_age",
       "items/sed_cg_ace_Examiner",
       "items/sed_cg_ace_lang",
       "items/sed_cg_ace_dtt",
@@ -23,6 +24,7 @@
       "items/sed_cg_ace_timestamp_stop",
       "items/sed_cg_ace_Duration",
       "items/sed_cg_ace_location",
+      "items/sed_cg_ace_sensitive",
       "items/sed_cg_ace_001",
       "items/sed_cg_ace_002",
       "items/sed_cg_ace_003",
@@ -37,8 +39,7 @@
       "items/sed_cg_ace_011",
       "items/sed_cg_ace_Validity",
       "items/sed_cg_ace_Administration",
-      "items/sed_cg_ace_Informant",
-      "items/sed_cg_ace_sensitive"
+      "items/sed_cg_ace_Informant"
     ],
     "addProperties": [
       {
@@ -54,14 +55,20 @@
         "isVis": true
       },
       {
+        "variableName": "sed_cg_ace_Window_Difference",
+        "isAbout": "items/sed_cg_ace_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "sed_cg_ace_gestational_age",
         "isAbout": "items/sed_cg_ace_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_cg_ace_Window_Difference",
-        "isAbout": "items/sed_cg_ace_Window_Difference",
+        "variableName": "sed_cg_ace_adjusted_age",
+        "isAbout": "items/sed_cg_ace_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -106,6 +113,12 @@
         "isAbout": "items/sed_cg_ace_location",
         "valueRequired": false,
         "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ace_sensitive",
+        "isAbout": "items/sed_cg_ace_sensitive",
+        "valueRequired": false,
+        "isVis": true
       },
       {
         "variableName": "sed_cg_ace_001",
@@ -194,12 +207,6 @@
       {
         "variableName": "sed_cg_ace_Informant",
         "isAbout": "items/sed_cg_ace_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_cg_ace_sensitive",
-        "isAbout": "items/sed_cg_ace_sensitive",
         "valueRequired": false,
         "isVis": true
       }
