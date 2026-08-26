@@ -15,7 +15,6 @@
       "items/ncl_cg_spm2_i_tod_Date_taken",
       "items/ncl_cg_spm2_i_tod_Candidate_Age",
       "items/ncl_cg_spm2_i_tod_Window_Difference",
-      "items/ncl_cg_spm2_i_tod_gestational_age",
       "items/ncl_cg_spm2_i_tod_Examiner",
       "items/ncl_cg_spm2_i_tod_lang",
       "items/ncl_cg_spm2_i_tod_dtt",
@@ -170,12 +169,6 @@
       {
         "variableName": "ncl_cg_spm2_i_tod_Window_Difference",
         "isAbout": "items/ncl_cg_spm2_i_tod_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_tod_gestational_age",
-        "isAbout": "items/ncl_cg_spm2_i_tod_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

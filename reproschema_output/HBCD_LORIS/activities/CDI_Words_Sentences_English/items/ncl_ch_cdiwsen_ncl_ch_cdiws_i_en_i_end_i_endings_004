@@ -9,11 +9,49 @@
     "en": "To talk about things that happened in the past, we often add \u201a\u00c4\u00faed\u201a\u00c4\u00f9 to the verb. Examples include kissed, opened, and pushed. Has your child begun to do this?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      },
+      {
+        "name": {
+          "en": "simple"
+        },
+        "value": "Simple"
+      },
+      {
+        "name": {
+          "en": "complex"
+        },
+        "value": "Complex"
+      }
     ]
   },
   "additionalNotesObj": [

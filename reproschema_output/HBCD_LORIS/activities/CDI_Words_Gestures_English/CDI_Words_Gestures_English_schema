@@ -543,7 +543,19 @@
       "items/ncl_ch_cdiwgen_ncl_ch_cdiwg_i_en_i_wd_i_bodyparts_mw_018",
       "items/ncl_ch_cdiwgen_ncl_ch_cdiwg_i_en_i_wd_i_bodyparts_nmw_001",
       "items/ncl_ch_cdiwgen_ncl_ch_cdiwg_i_en_i_wd_i_bodyparts_nmw_002",
-      "items/ncl_ch_cdiwgen_Examiner_cronjob"
+      "items/ncl_ch_cdiwgen_Examiner_cronjob",
+      "items/ncl_ch_cdiwgen_benchmark_age_adjusted",
+      "items/ncl_ch_cdiwgen_phrases_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_words_understood_percentile_both_adjusted",
+      "items/ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_words_produced_percentile_both_adjusted",
+      "items/ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted",
+      "items/ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted",
+      "items/ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted"
     ],
     "addProperties": [
       {
@@ -3735,6 +3747,78 @@
       {
         "variableName": "ncl_ch_cdiwgen_Examiner_cronjob",
         "isAbout": "items/ncl_ch_cdiwgen_Examiner_cronjob",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_benchmark_age_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_benchmark_age_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_phrases_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_phrases_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_words_understood_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_words_understood_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_words_produced_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_words_produced_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_early_gestures_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_later_gestures_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwgen_total_gestures_percentile_both_adjusted",
         "valueRequired": false,
         "isVis": true
       }
