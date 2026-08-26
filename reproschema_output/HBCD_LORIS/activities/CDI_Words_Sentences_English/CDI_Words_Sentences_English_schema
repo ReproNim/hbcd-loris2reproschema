@@ -829,7 +829,26 @@
       "items/ncl_ch_cdiwsen_ncl_ch_cdiws_i_en_i_cmplx_037",
       "items/ncl_ch_cdiwsen_Validity",
       "items/ncl_ch_cdiwsen_Administration",
-      "items/ncl_ch_cdiwsen_Informant"
+      "items/ncl_ch_cdiwsen_Informant",
+      "items/ncl_ch_cdiwsen_benchmark_age_adjusted",
+      "items/ncl_ch_cdiwsen_total_produced_percentile_sex",
+      "items/ncl_ch_cdiwsen_total_produced_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwsen_total_produced_percentile_both",
+      "items/ncl_ch_cdiwsen_total_produced_percentile_both_adjusted",
+      "items/ncl_ch_cdiwsen_word_endings_1_percentile_sex",
+      "items/ncl_ch_cdiwsen_word_endings_1_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwsen_word_endings_1_percentile_both",
+      "items/ncl_ch_cdiwsen_word_endings_1_percentile_both_adjusted",
+      "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex",
+      "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both",
+      "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both_adjusted",
+      "items/ncl_ch_cdiwsen_combining_yes_answers_at_age_sex",
+      "items/ncl_ch_cdiwsen_combining_yes_answers_at_age_sex_adjusted",
+      "items/ncl_ch_cdiwsen_complexity_percentile_sex",
+      "items/ncl_ch_cdiwsen_complexity_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwsen_complexity_percentile_both",
+      "items/ncl_ch_cdiwsen_complexity_percentile_both_adjusted"
     ],
     "addProperties": [
       {
@@ -5737,6 +5756,120 @@
       {
         "variableName": "ncl_ch_cdiwsen_Informant",
         "isAbout": "items/ncl_ch_cdiwsen_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_benchmark_age_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_benchmark_age_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_total_produced_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwsen_total_produced_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_total_produced_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_total_produced_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_total_produced_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwsen_total_produced_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_total_produced_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_total_produced_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_endings_1_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwsen_word_endings_1_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_endings_1_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_word_endings_1_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_endings_1_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwsen_word_endings_1_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_endings_1_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_word_endings_1_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_word_forms_1_nouns_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_combining_yes_answers_at_age_sex",
+        "isAbout": "items/ncl_ch_cdiwsen_combining_yes_answers_at_age_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_combining_yes_answers_at_age_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_combining_yes_answers_at_age_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_complexity_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwsen_complexity_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_complexity_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_complexity_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_complexity_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwsen_complexity_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwsen_complexity_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwsen_complexity_percentile_both_adjusted",
         "valueRequired": false,
         "isVis": true
       }
