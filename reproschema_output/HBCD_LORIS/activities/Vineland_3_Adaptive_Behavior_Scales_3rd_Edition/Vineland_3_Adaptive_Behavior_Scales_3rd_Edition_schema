@@ -220,7 +220,8 @@
       "items/ncl_cg_vabs_gross_fine_motor_std_score_2",
       "items/ncl_cg_vabs_gross_fine_motor_std_diff_score",
       "items/ncl_cg_vabs_gross_fine_motor_sig_diff_score",
-      "items/ncl_cg_vabs_gross_fine_motor_base_rate_score"
+      "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
+      "items/ncl_cg_vabs_gestational_age"
     ],
     "addProperties": [
       {
@@ -1474,6 +1475,12 @@
       {
         "variableName": "ncl_cg_vabs_gross_fine_motor_base_rate_score",
         "isAbout": "items/ncl_cg_vabs_gross_fine_motor_base_rate_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_vabs_gestational_age",
+        "isAbout": "items/ncl_cg_vabs_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

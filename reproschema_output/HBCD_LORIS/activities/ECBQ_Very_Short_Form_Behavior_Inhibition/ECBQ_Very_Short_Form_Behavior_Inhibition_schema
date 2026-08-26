@@ -15,7 +15,6 @@
       "items/mh_cg_ecbq_Date_taken",
       "items/mh_cg_ecbq_Candidate_Age",
       "items/mh_cg_ecbq_Window_Difference",
-      "items/mh_cg_ecbq_gestational_age",
       "items/mh_cg_ecbq_Examiner",
       "items/mh_cg_ecbq_lang",
       "items/mh_cg_ecbq_dtt",
@@ -77,7 +76,8 @@
       "items/mh_cg_ecbq_beh_008",
       "items/mh_cg_ecbq_beh_009",
       "items/mh_cg_ecbq_beh_010",
-      "items/mh_cg_ecbq_beh_011"
+      "items/mh_cg_ecbq_beh_011",
+      "items/mh_cg_ecbq_gestational_age"
     ],
     "addProperties": [
       {
@@ -95,12 +95,6 @@
       {
         "variableName": "mh_cg_ecbq_Window_Difference",
         "isAbout": "items/mh_cg_ecbq_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_gestational_age",
-        "isAbout": "items/mh_cg_ecbq_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -473,6 +467,12 @@
       {
         "variableName": "mh_cg_ecbq_beh_011",
         "isAbout": "items/mh_cg_ecbq_beh_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_gestational_age",
+        "isAbout": "items/mh_cg_ecbq_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

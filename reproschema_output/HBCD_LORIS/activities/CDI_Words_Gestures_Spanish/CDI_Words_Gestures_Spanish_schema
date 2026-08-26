@@ -566,7 +566,20 @@
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002"
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
+      "items/ncl_ch_cdiwges_benchmark_age_adjusted",
+      "items/ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_gestational_age"
     ],
     "addProperties": [
       {
@@ -3896,6 +3909,84 @@
       {
         "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
         "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_benchmark_age_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_benchmark_age_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestational_age",
+        "isAbout": "items/ncl_ch_cdiwges_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
