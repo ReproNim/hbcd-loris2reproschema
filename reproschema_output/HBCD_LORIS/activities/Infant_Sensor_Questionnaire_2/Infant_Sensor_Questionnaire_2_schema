@@ -15,7 +15,6 @@
       "items/nt_ch_sens_i_qtn_2_Date_taken",
       "items/nt_ch_sens_i_qtn_2_Candidate_Age",
       "items/nt_ch_sens_i_qtn_2_Window_Difference",
-      "items/nt_ch_sens_i_qtn_2_gestational_age",
       "items/nt_ch_sens_i_qtn_2_Examiner",
       "items/nt_ch_sens_i_qtn_2_lang",
       "items/nt_ch_sens_i_qtn_2_dtt",
@@ -35,7 +34,8 @@
       "items/nt_ch_sens_i_qtn_2_beh_007",
       "items/nt_ch_sens_i_qtn_2_Validity",
       "items/nt_ch_sens_i_qtn_2_Administration",
-      "items/nt_ch_sens_i_qtn_2_Informant"
+      "items/nt_ch_sens_i_qtn_2_Informant",
+      "items/nt_ch_sens_i_qtn_2_gestational_age"
     ],
     "addProperties": [
       {
@@ -53,12 +53,6 @@
       {
         "variableName": "nt_ch_sens_i_qtn_2_Window_Difference",
         "isAbout": "items/nt_ch_sens_i_qtn_2_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "nt_ch_sens_i_qtn_2_gestational_age",
-        "isAbout": "items/nt_ch_sens_i_qtn_2_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -179,6 +173,12 @@
       {
         "variableName": "nt_ch_sens_i_qtn_2_Informant",
         "isAbout": "items/nt_ch_sens_i_qtn_2_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_2_gestational_age",
+        "isAbout": "items/nt_ch_sens_i_qtn_2_gestational_age",
         "valueRequired": false,
         "isVis": true
       }

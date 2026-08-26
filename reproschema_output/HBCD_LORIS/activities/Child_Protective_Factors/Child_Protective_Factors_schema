@@ -34,7 +34,8 @@
       "items/sed_cg_cpf_010",
       "items/sed_cg_cpf_Validity",
       "items/sed_cg_cpf_Administration",
-      "items/sed_cg_cpf_Informant"
+      "items/sed_cg_cpf_Informant",
+      "items/sed_cg_cpf_gestational_age"
     ],
     "addProperties": [
       {
@@ -172,6 +173,12 @@
       {
         "variableName": "sed_cg_cpf_Informant",
         "isAbout": "items/sed_cg_cpf_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_cpf_gestational_age",
+        "isAbout": "items/sed_cg_cpf_gestational_age",
         "valueRequired": false,
         "isVis": true
       }
