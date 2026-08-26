@@ -14,8 +14,9 @@
     "order": [
       "items/sed_bm_demo_Date_taken",
       "items/sed_bm_demo_Candidate_Age",
-      "items/sed_bm_demo_gestational_age",
       "items/sed_bm_demo_Window_Difference",
+      "items/sed_bm_demo_gestational_age",
+      "items/sed_bm_demo_adjusted_age",
       "items/sed_bm_demo_Examiner",
       "items/sed_bm_demo_lang",
       "items/sed_bm_demo_dtt",
@@ -159,6 +160,7 @@
       "items/sed_bm_demo_roster_023_i_03",
       "items/sed_bm_demo_roster_023_i_03_i_01",
       "items/sed_bm_demo_roster_023_i_04",
+      "items/sed_bm_demo_roster_023_i_05",
       "items/sed_bm_demo_herit_001",
       "items/sed_bm_demo_herit_001_i_01",
       "items/sed_bm_demo_herit_001_i_02",
@@ -537,14 +539,20 @@
         "isVis": true
       },
       {
+        "variableName": "sed_bm_demo_Window_Difference",
+        "isAbout": "items/sed_bm_demo_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "sed_bm_demo_gestational_age",
         "isAbout": "items/sed_bm_demo_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_bm_demo_Window_Difference",
-        "isAbout": "items/sed_bm_demo_Window_Difference",
+        "variableName": "sed_bm_demo_adjusted_age",
+        "isAbout": "items/sed_bm_demo_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -1405,6 +1413,12 @@
         "isAbout": "items/sed_bm_demo_roster_023_i_04",
         "valueRequired": false,
         "isVis": "sed_bm_demo_roster_003 == 20"
+      },
+      {
+        "variableName": "sed_bm_demo_roster_023_i_05",
+        "isAbout": "items/sed_bm_demo_roster_023_i_05",
+        "valueRequired": false,
+        "isVis": "event-name == 'v08_arm_1'"
       },
       {
         "variableName": "sed_bm_demo_herit_001",

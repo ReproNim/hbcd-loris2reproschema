@@ -16,6 +16,7 @@
       "items/mh_cg_erica_15_30_m_Candidate_Age",
       "items/mh_cg_erica_15_30_m_Window_Difference",
       "items/mh_cg_erica_15_30_m_gestational_age",
+      "items/mh_cg_erica_15_30_m_adjusted_age",
       "items/mh_cg_erica_15_30_m_Examiner",
       "items/mh_cg_erica_15_30_m_timestamp_start",
       "items/mh_cg_erica_15_30_m_timestamp_stop",
@@ -149,6 +150,12 @@
       {
         "variableName": "mh_cg_erica_15_30_m_gestational_age",
         "isAbout": "items/mh_cg_erica_15_30_m_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_15_30_m_adjusted_age",
+        "isAbout": "items/mh_cg_erica_15_30_m_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },

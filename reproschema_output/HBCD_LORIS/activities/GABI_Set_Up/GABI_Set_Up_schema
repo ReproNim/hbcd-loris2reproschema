@@ -16,6 +16,7 @@
       "items/nt_pa_gabi_setup_Candidate_Age",
       "items/nt_pa_gabi_setup_Window_Difference",
       "items/nt_pa_gabi_setup_gestational_age",
+      "items/nt_pa_gabi_setup_adjusted_age",
       "items/nt_pa_gabi_setup_Examiner",
       "items/nt_pa_gabi_setup_timestamp_start",
       "items/nt_pa_gabi_setup_timestamp_stop",
@@ -58,6 +59,12 @@
       {
         "variableName": "nt_pa_gabi_setup_gestational_age",
         "isAbout": "items/nt_pa_gabi_setup_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_pa_gabi_setup_adjusted_age",
+        "isAbout": "items/nt_pa_gabi_setup_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
