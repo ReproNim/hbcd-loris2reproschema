@@ -14,7 +14,6 @@
     "order": [
       "items/webcdi_en_Date_taken",
       "items/webcdi_en_Candidate_Age",
-      "items/webcdi_en_gestational_age",
       "items/webcdi_en_Window_Difference",
       "items/webcdi_en_Examiner",
       "items/webcdi_en_lang",
@@ -43,12 +42,6 @@
       {
         "variableName": "webcdi_en_Candidate_Age",
         "isAbout": "items/webcdi_en_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "webcdi_en_gestational_age",
-        "isAbout": "items/webcdi_en_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

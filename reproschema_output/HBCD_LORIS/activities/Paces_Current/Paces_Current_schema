@@ -14,7 +14,6 @@
     "order": [
       "items/sed_bm_paces_Date_taken",
       "items/sed_bm_paces_Candidate_Age",
-      "items/sed_bm_paces_gestational_age",
       "items/sed_bm_paces_Window_Difference",
       "items/sed_bm_paces_Examiner",
       "items/sed_bm_paces_lang",
@@ -48,12 +47,6 @@
       {
         "variableName": "sed_bm_paces_Candidate_Age",
         "isAbout": "items/sed_bm_paces_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "sed_bm_paces_gestational_age",
-        "isAbout": "items/sed_bm_paces_gestational_age",
         "valueRequired": false,
         "isVis": true
       },

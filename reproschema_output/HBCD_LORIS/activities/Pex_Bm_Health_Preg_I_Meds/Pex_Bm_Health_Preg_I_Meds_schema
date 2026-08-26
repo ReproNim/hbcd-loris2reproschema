@@ -14,7 +14,6 @@
     "order": [
       "items/pex_bm_health_preg_i_meds_Date_taken",
       "items/pex_bm_health_preg_i_meds_Candidate_Age",
-      "items/pex_bm_health_preg_i_meds_gestational_age",
       "items/pex_bm_health_preg_i_meds_Window_Difference",
       "items/pex_bm_health_preg_i_meds_Examiner",
       "items/pex_bm_health_preg_i_meds_lang",
@@ -438,12 +437,6 @@
       {
         "variableName": "pex_bm_health_preg_i_meds_Candidate_Age",
         "isAbout": "items/pex_bm_health_preg_i_meds_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "pex_bm_health_preg_i_meds_gestational_age",
-        "isAbout": "items/pex_bm_health_preg_i_meds_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
