@@ -14,14 +14,16 @@
     "order": [
       "items/pex_bm_health_preg_i_erhosp_Date_taken",
       "items/pex_bm_health_preg_i_erhosp_Candidate_Age",
-      "items/pex_bm_health_preg_i_erhosp_gestational_age",
       "items/pex_bm_health_preg_i_erhosp_Window_Difference",
+      "items/pex_bm_health_preg_i_erhosp_gestational_age",
+      "items/pex_bm_health_preg_i_erhosp_adjusted_age",
       "items/pex_bm_health_preg_i_erhosp_Examiner",
       "items/pex_bm_health_preg_i_erhosp_lang",
       "items/pex_bm_health_preg_i_erhosp_dtt",
       "items/pex_bm_health_preg_i_erhosp_timestamp_start",
       "items/pex_bm_health_preg_i_erhosp_timestamp_stop",
       "items/pex_bm_health_preg_i_erhosp_Duration",
+      "items/pex_bm_health_preg_i_erhosp_instr01",
       "items/pex_bm_health_preg_i_erhosp_001",
       "items/pex_bm_health_preg_i_erhosp_002_i_00",
       "items/pex_bm_health_preg_i_erhosp_002",
@@ -228,14 +230,20 @@
         "isVis": true
       },
       {
+        "variableName": "pex_bm_health_preg_i_erhosp_Window_Difference",
+        "isAbout": "items/pex_bm_health_preg_i_erhosp_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_bm_health_preg_i_erhosp_gestational_age",
         "isAbout": "items/pex_bm_health_preg_i_erhosp_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_health_preg_i_erhosp_Window_Difference",
-        "isAbout": "items/pex_bm_health_preg_i_erhosp_Window_Difference",
+        "variableName": "pex_bm_health_preg_i_erhosp_adjusted_age",
+        "isAbout": "items/pex_bm_health_preg_i_erhosp_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -272,6 +280,12 @@
       {
         "variableName": "pex_bm_health_preg_i_erhosp_Duration",
         "isAbout": "items/pex_bm_health_preg_i_erhosp_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_bm_health_preg_i_erhosp_instr01",
+        "isAbout": "items/pex_bm_health_preg_i_erhosp_instr01",
         "valueRequired": false,
         "isVis": true
       },
