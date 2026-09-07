@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhist_019_i_00"
   },
   "question": {
-    "en": "Has your child\u00a0ever:"
+    "en": "Has your child ever:"
   },
   "ui": {
     "inputType": "text"
@@ -43,7 +43,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -58,7 +58,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",

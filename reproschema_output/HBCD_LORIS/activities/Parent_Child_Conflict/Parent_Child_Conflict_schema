@@ -1,0 +1,286 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Parent_Child_Conflict_schema",
+  "prefLabel": {
+    "en": "Parent-Child Conflict"
+  },
+  "description": {
+    "en": "Questions related to Parent-Child Conflict"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_pcc_Date_taken",
+      "items/mh_cg_pcc_Candidate_Age",
+      "items/mh_cg_pcc_Window_Difference",
+      "items/mh_cg_pcc_gestational_age",
+      "items/mh_cg_pcc_adjusted_age",
+      "items/mh_cg_pcc_Examiner",
+      "items/mh_cg_pcc_lang",
+      "items/mh_cg_pcc_start_time",
+      "items/mh_cg_pcc_start_time_server",
+      "items/mh_cg_pcc_location",
+      "items/mh_cg_pcc_instr01",
+      "items/mh_cg_pcc_001",
+      "items/mh_cg_pcc_002",
+      "items/mh_cg_pcc_003",
+      "items/mh_cg_pcc_004",
+      "items/mh_cg_pcc_005",
+      "items/mh_cg_pcc_006",
+      "items/mh_cg_pcc_007",
+      "items/mh_cg_pcc_008",
+      "items/mh_cg_pcc_009",
+      "items/mh_cg_pcc_010",
+      "items/mh_cg_pcc_011",
+      "items/mh_cg_pcc_012",
+      "items/mh_cg_pcc_013",
+      "items/mh_cg_pcc_014",
+      "items/mh_cg_pcc_015",
+      "items/mh_cg_pcc_016",
+      "items/mh_cg_pcc_017",
+      "items/mh_cg_pcc_018",
+      "items/mh_cg_pcc_019",
+      "items/mh_cg_pcc_cps_001",
+      "items/mh_cg_pcc_cps_002",
+      "items/mh_cg_pcc_cps_003",
+      "items/mh_cg_pcc_cps_004",
+      "items/mh_cg_pcc_cps_005_date",
+      "items/mh_cg_pcc_Validity",
+      "items/mh_cg_pcc_Administration",
+      "items/mh_cg_pcc_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_pcc_Date_taken",
+        "isAbout": "items/mh_cg_pcc_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Candidate_Age",
+        "isAbout": "items/mh_cg_pcc_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Window_Difference",
+        "isAbout": "items/mh_cg_pcc_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_gestational_age",
+        "isAbout": "items/mh_cg_pcc_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_adjusted_age",
+        "isAbout": "items/mh_cg_pcc_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Examiner",
+        "isAbout": "items/mh_cg_pcc_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_lang",
+        "isAbout": "items/mh_cg_pcc_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pcc_start_time",
+        "isAbout": "items/mh_cg_pcc_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pcc_start_time_server",
+        "isAbout": "items/mh_cg_pcc_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pcc_location",
+        "isAbout": "items/mh_cg_pcc_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_pcc_instr01",
+        "isAbout": "items/mh_cg_pcc_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_001",
+        "isAbout": "items/mh_cg_pcc_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_002",
+        "isAbout": "items/mh_cg_pcc_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_003",
+        "isAbout": "items/mh_cg_pcc_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_004",
+        "isAbout": "items/mh_cg_pcc_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_005",
+        "isAbout": "items/mh_cg_pcc_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_006",
+        "isAbout": "items/mh_cg_pcc_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_007",
+        "isAbout": "items/mh_cg_pcc_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_008",
+        "isAbout": "items/mh_cg_pcc_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_009",
+        "isAbout": "items/mh_cg_pcc_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_010",
+        "isAbout": "items/mh_cg_pcc_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_011",
+        "isAbout": "items/mh_cg_pcc_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_012",
+        "isAbout": "items/mh_cg_pcc_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_013",
+        "isAbout": "items/mh_cg_pcc_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_014",
+        "isAbout": "items/mh_cg_pcc_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_015",
+        "isAbout": "items/mh_cg_pcc_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_016",
+        "isAbout": "items/mh_cg_pcc_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_017",
+        "isAbout": "items/mh_cg_pcc_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_018",
+        "isAbout": "items/mh_cg_pcc_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_019",
+        "isAbout": "items/mh_cg_pcc_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_cps_001",
+        "isAbout": "items/mh_cg_pcc_cps_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_cps_002",
+        "isAbout": "items/mh_cg_pcc_cps_002",
+        "valueRequired": false,
+        "isVis": "mh_cg_pcc_cps_001 == '1'"
+      },
+      {
+        "variableName": "mh_cg_pcc_cps_003",
+        "isAbout": "items/mh_cg_pcc_cps_003",
+        "valueRequired": false,
+        "isVis": "mh_cg_pcc_cps_002 == '1'"
+      },
+      {
+        "variableName": "mh_cg_pcc_cps_004",
+        "isAbout": "items/mh_cg_pcc_cps_004",
+        "valueRequired": false,
+        "isVis": "mh_cg_pcc_cps_002 == '1' AND mh_cg_pcc_cps_003 == '0'"
+      },
+      {
+        "variableName": "mh_cg_pcc_cps_005_date",
+        "isAbout": "items/mh_cg_pcc_cps_005_date",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Validity",
+        "isAbout": "items/mh_cg_pcc_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Administration",
+        "isAbout": "items/mh_cg_pcc_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pcc_Informant",
+        "isAbout": "items/mh_cg_pcc_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_tu_006",
+  "prefLabel": {
+    "en": "pex_cg_tu_006"
+  },
+  "question": {
+    "en": "During the past 12 months, was there any time when you needed medical care, but DID NOT GET IT because of the cost?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "No"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "006"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_tu"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

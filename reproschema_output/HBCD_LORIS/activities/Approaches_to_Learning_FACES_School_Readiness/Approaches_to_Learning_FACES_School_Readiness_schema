@@ -1,0 +1,160 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Approaches_to_Learning_FACES_School_Readiness_schema",
+  "prefLabel": {
+    "en": "Approaches to Learning (FACES - School Readiness)"
+  },
+  "description": {
+    "en": "Questions related to Approaches to Learning (FACES - School Readiness)"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_atl_Date_taken",
+      "items/mh_cg_atl_Candidate_Age",
+      "items/mh_cg_atl_Window_Difference",
+      "items/mh_cg_atl_gestational_age",
+      "items/mh_cg_atl_adjusted_age",
+      "items/mh_cg_atl_Examiner",
+      "items/mh_cg_atl_lang",
+      "items/mh_cg_atl_start_time",
+      "items/mh_cg_atl_start_time_server",
+      "items/mh_cg_atl_location",
+      "items/mh_cg_atl_instr01",
+      "items/mh_cg_atl_001",
+      "items/mh_cg_atl_002",
+      "items/mh_cg_atl_003",
+      "items/mh_cg_atl_004",
+      "items/mh_cg_atl_005",
+      "items/mh_cg_atl_006",
+      "items/mh_cg_atl_Validity",
+      "items/mh_cg_atl_Administration",
+      "items/mh_cg_atl_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_atl_Date_taken",
+        "isAbout": "items/mh_cg_atl_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Candidate_Age",
+        "isAbout": "items/mh_cg_atl_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Window_Difference",
+        "isAbout": "items/mh_cg_atl_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_gestational_age",
+        "isAbout": "items/mh_cg_atl_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_adjusted_age",
+        "isAbout": "items/mh_cg_atl_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Examiner",
+        "isAbout": "items/mh_cg_atl_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_lang",
+        "isAbout": "items/mh_cg_atl_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_atl_start_time",
+        "isAbout": "items/mh_cg_atl_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_atl_start_time_server",
+        "isAbout": "items/mh_cg_atl_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_atl_location",
+        "isAbout": "items/mh_cg_atl_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_atl_instr01",
+        "isAbout": "items/mh_cg_atl_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_001",
+        "isAbout": "items/mh_cg_atl_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_002",
+        "isAbout": "items/mh_cg_atl_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_003",
+        "isAbout": "items/mh_cg_atl_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_004",
+        "isAbout": "items/mh_cg_atl_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_005",
+        "isAbout": "items/mh_cg_atl_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_006",
+        "isAbout": "items/mh_cg_atl_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Validity",
+        "isAbout": "items/mh_cg_atl_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Administration",
+        "isAbout": "items/mh_cg_atl_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_atl_Informant",
+        "isAbout": "items/mh_cg_atl_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

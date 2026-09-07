@@ -15,7 +15,10 @@
       "items/mri_ra_chkl_data_Date_taken",
       "items/mri_ra_chkl_data_Candidate_Age",
       "items/mri_ra_chkl_data_Window_Difference",
+      "items/mri_ra_chkl_data_gestational_age",
+      "items/mri_ra_chkl_data_adjusted_age",
       "items/mri_ra_chkl_data_Examiner",
+      "items/mri_ra_chkl_data_lang",
       "items/mri_ra_chkl_data_error_message",
       "items/mri_ra_chkl_data_scn_001_1",
       "items/mri_ra_chkl_data_scn_002_1",
@@ -465,6 +468,16 @@
       "items/mri_ra_chkl_data_s1_005",
       "items/mri_ra_chkl_data_s1_005_status",
       "items/mri_ra_chkl_data_s1_006",
+      "items/mri_ra_chkl_data_Date_taken_2",
+      "items/mri_ra_chkl_data_Examiner_2",
+      "items/mri_ra_chkl_data_s2_001",
+      "items/mri_ra_chkl_data_s2_001_i_01",
+      "items/mri_ra_chkl_data_s2_002",
+      "items/mri_ra_chkl_data_s2_003",
+      "items/mri_ra_chkl_data_s2_004",
+      "items/mri_ra_chkl_data_s2_005",
+      "items/mri_ra_chkl_data_s2_005_status",
+      "items/mri_ra_chkl_data_s2_006",
       "items/mri_ra_chkl_data_Date_taken_3",
       "items/mri_ra_chkl_data_Examiner_3",
       "items/mri_ra_chkl_data_s3_001",
@@ -487,17 +500,7 @@
       "items/mri_ra_chkl_data_s4_006",
       "items/mri_ra_chkl_data_Validity",
       "items/mri_ra_chkl_data_Administration",
-      "items/mri_ra_chkl_data_Informant",
-      "items/mri_ra_chkl_data_Date_taken_2",
-      "items/mri_ra_chkl_data_Examiner_2",
-      "items/mri_ra_chkl_data_s2_001",
-      "items/mri_ra_chkl_data_s2_001_i_01",
-      "items/mri_ra_chkl_data_s2_002",
-      "items/mri_ra_chkl_data_s2_003",
-      "items/mri_ra_chkl_data_s2_004",
-      "items/mri_ra_chkl_data_s2_005",
-      "items/mri_ra_chkl_data_s2_005_status",
-      "items/mri_ra_chkl_data_s2_006"
+      "items/mri_ra_chkl_data_Informant"
     ],
     "addProperties": [
       {
@@ -519,9 +522,27 @@
         "isVis": true
       },
       {
+        "variableName": "mri_ra_chkl_data_gestational_age",
+        "isAbout": "items/mri_ra_chkl_data_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_adjusted_age",
+        "isAbout": "items/mri_ra_chkl_data_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mri_ra_chkl_data_Examiner",
         "isAbout": "items/mri_ra_chkl_data_Examiner",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_lang",
+        "isAbout": "items/mri_ra_chkl_data_lang",
+        "valueRequired": false,
         "isVis": true
       },
       {
@@ -3219,6 +3240,66 @@
         "isVis": true
       },
       {
+        "variableName": "mri_ra_chkl_data_Date_taken_2",
+        "isAbout": "items/mri_ra_chkl_data_Date_taken_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_Examiner_2",
+        "isAbout": "items/mri_ra_chkl_data_Examiner_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_001",
+        "isAbout": "items/mri_ra_chkl_data_s2_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_001_i_01",
+        "isAbout": "items/mri_ra_chkl_data_s2_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_002",
+        "isAbout": "items/mri_ra_chkl_data_s2_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_003",
+        "isAbout": "items/mri_ra_chkl_data_s2_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_004",
+        "isAbout": "items/mri_ra_chkl_data_s2_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_005",
+        "isAbout": "items/mri_ra_chkl_data_s2_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_005_status",
+        "isAbout": "items/mri_ra_chkl_data_s2_005_status",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mri_ra_chkl_data_s2_006",
+        "isAbout": "items/mri_ra_chkl_data_s2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mri_ra_chkl_data_Date_taken_3",
         "isAbout": "items/mri_ra_chkl_data_Date_taken_3",
         "valueRequired": false,
@@ -3353,66 +3434,6 @@
       {
         "variableName": "mri_ra_chkl_data_Informant",
         "isAbout": "items/mri_ra_chkl_data_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_Date_taken_2",
-        "isAbout": "items/mri_ra_chkl_data_Date_taken_2",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_Examiner_2",
-        "isAbout": "items/mri_ra_chkl_data_Examiner_2",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_001",
-        "isAbout": "items/mri_ra_chkl_data_s2_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_001_i_01",
-        "isAbout": "items/mri_ra_chkl_data_s2_001_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_002",
-        "isAbout": "items/mri_ra_chkl_data_s2_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_003",
-        "isAbout": "items/mri_ra_chkl_data_s2_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_004",
-        "isAbout": "items/mri_ra_chkl_data_s2_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_005",
-        "isAbout": "items/mri_ra_chkl_data_s2_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_005_status",
-        "isAbout": "items/mri_ra_chkl_data_s2_005_status",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mri_ra_chkl_data_s2_006",
-        "isAbout": "items/mri_ra_chkl_data_s2_006",
         "valueRequired": false,
         "isVis": true
       }

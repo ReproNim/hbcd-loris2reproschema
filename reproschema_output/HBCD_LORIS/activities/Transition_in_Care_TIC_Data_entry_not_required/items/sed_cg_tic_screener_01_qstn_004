@@ -1,0 +1,95 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_cg_tic_screener_01_qstn_004",
+  "prefLabel": {
+    "en": "sed_cg_tic_screener_01_qstn_004"
+  },
+  "question": {
+    "en": "Was there a change in caregiver since you have last seen this child? (Current caregiver type: {caregiver_type})"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "01_qstn_004"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_tic_screener"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
