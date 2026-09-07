@@ -1,0 +1,137 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_tu_001",
+  "prefLabel": {
+    "en": "pex_cg_tu_001"
+  },
+  "question": {
+    "en": "About how long has it been since you last saw a doctor or other health care professional about your health?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "0"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Within the past year (anytime less than 12 months ago)"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Within the last 2 years (1 year but less than 2 years ago)"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Within the last 3 years (2 years but less than 3 years ago)"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Within the last 5 years (3 years but less than 5 years ago)"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Within the last 10 years (5 years but less than 10 years ago)"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "10 years ago or more"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "001"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_tu"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

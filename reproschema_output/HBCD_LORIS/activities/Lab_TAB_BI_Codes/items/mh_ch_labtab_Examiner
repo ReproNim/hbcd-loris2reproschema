@@ -13,7 +13,7 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:string"
     ],
     "choices": []
   },
@@ -44,7 +44,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "String"
     },
     {
       "source": "loris",

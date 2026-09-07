@@ -9,11 +9,11 @@
     "en": "C. Social Engagement (score):"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float"
+      "xsd:string"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Float"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Continuous"
+      "value": "TBD"
     },
     {
       "source": "loris",

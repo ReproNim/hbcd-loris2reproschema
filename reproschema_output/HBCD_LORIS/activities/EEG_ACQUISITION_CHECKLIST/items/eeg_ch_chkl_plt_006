@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -70,6 +70,12 @@
           "en": "010379"
         },
         "value": "010379"
+      },
+      {
+        "name": {
+          "en": "011553"
+        },
+        "value": "011553"
       }
     ]
   },
@@ -97,7 +103,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -112,7 +118,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Discrete"
+      "value": "TBD"
     },
     {
       "source": "loris",

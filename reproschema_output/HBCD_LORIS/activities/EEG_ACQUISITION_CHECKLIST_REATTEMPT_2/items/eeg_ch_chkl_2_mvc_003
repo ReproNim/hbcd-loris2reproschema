@@ -1,0 +1,113 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "eeg_ch_chkl_2_mvc_003",
+  "prefLabel": {
+    "en": "eeg_ch_chkl_2_mvc_003"
+  },
+  "question": {
+    "en": "3. Movie Clips Task Mood Rating"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "1 - Fussed out"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "2 - Crying intermittently"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "3 - Whimpering or irritable"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "4 - Calm but distracted"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "5 - Calm and attentive"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "mvc_003"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "eeg_ch_chkl_2"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

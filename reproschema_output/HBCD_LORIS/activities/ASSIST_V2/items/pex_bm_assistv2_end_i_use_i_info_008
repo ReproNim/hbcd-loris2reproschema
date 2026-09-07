@@ -6,7 +6,7 @@
     "en": "pex_bm_assistv2_end_i_use_i_info_008"
   },
   "question": {
-    "en": "Methadone  \u00a0  {pex_bm_assistv2_end_i_use_i_amount_008_v01}{pex_bm_assistv2_end_i_use_i_unit_008} {pex_bm_assistv2_end_i_use_i_unit_008_dk}"
+    "en": "Methadone  \u00a0  {pex_bm_assistv2_end_i_use_i_amount_008_v01} mg {pex_bm_assistv2_end_i_use_i_unit_008_dk}"
   },
   "ui": {
     "inputType": "text"
@@ -43,7 +43,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -58,7 +58,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
