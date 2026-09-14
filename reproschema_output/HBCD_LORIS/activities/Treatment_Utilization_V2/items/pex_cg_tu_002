@@ -1,0 +1,116 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_tu_002",
+  "prefLabel": {
+    "en": "pex_cg_tu_002"
+  },
+  "question": {
+    "en": "Is there a place that you USUALLY go to if you are sick and need health care?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "There is NO place"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "There is MORE THAN ONE place"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_cg_tu_001 == '0' OR pex_cg_tu_001 == '999' OR pex_cg_tu_001 == '777' OR pex_cg_tu_001_i_01 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "002"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_tu"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
