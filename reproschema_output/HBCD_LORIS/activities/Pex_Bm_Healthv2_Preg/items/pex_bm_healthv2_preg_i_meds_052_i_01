@@ -9,11 +9,11 @@
     "en": "What is the sixth medication (prescribed) you used?"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:string"
     ]
   },
   "preamble": {
@@ -43,7 +43,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "String"
     },
     {
       "source": "loris",
