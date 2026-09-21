@@ -1,0 +1,84 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "mh_cg_crs_instr02",
+  "prefLabel": {
+    "en": "mh_cg_crs_instr02"
+  },
+  "question": {
+    "en": "These questions ask you to describe things you do when both you and your partner are physically present together with your child (i.e., in the same room, in the car, or on outings).How often in a typical week, when all 3 of you are together, do you:"
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: mh_cg_crs_001  =='1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "instr02"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_cg_crs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Static"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

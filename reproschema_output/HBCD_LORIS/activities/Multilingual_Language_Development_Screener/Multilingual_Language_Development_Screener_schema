@@ -14,8 +14,9 @@
     "order": [
       "items/ncl_ch_mlds_Date_taken",
       "items/ncl_ch_mlds_Candidate_Age",
-      "items/ncl_ch_mlds_gestational_age",
       "items/ncl_ch_mlds_Window_Difference",
+      "items/ncl_ch_mlds_gestational_age",
+      "items/ncl_ch_mlds_adjusted_age",
       "items/ncl_ch_mlds_Examiner",
       "items/ncl_ch_mlds_lang",
       "items/ncl_ch_mlds_dtt",
@@ -307,14 +308,20 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_mlds_Window_Difference",
+        "isAbout": "items/ncl_ch_mlds_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_mlds_gestational_age",
         "isAbout": "items/ncl_ch_mlds_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_mlds_Window_Difference",
-        "isAbout": "items/ncl_ch_mlds_Window_Difference",
+        "variableName": "ncl_ch_mlds_adjusted_age",
+        "isAbout": "items/ncl_ch_mlds_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },

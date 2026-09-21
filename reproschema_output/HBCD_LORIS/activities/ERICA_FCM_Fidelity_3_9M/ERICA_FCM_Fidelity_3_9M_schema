@@ -16,10 +16,12 @@
       "items/mh_cg_erica_fcm_3_9m_Candidate_Age",
       "items/mh_cg_erica_fcm_3_9m_Window_Difference",
       "items/mh_cg_erica_fcm_3_9m_gestational_age",
+      "items/mh_cg_erica_fcm_3_9m_adjusted_age",
       "items/mh_cg_erica_fcm_3_9m_Examiner",
       "items/mh_cg_erica_fcm_3_9m_timestamp_start",
       "items/mh_cg_erica_fcm_3_9m_timestamp_stop",
       "items/mh_cg_erica_fcm_3_9m_Duration",
+      "items/mh_cg_erica_fcm_3_9m_lang",
       "items/mh_cg_erica_fcm_3_9m_locomotor_ability",
       "items/mh_cg_erica_fcm_3_9m_002",
       "items/mh_cg_erica_fcm_3_9m_003",
@@ -121,6 +123,12 @@
         "isVis": true
       },
       {
+        "variableName": "mh_cg_erica_fcm_3_9m_adjusted_age",
+        "isAbout": "items/mh_cg_erica_fcm_3_9m_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_cg_erica_fcm_3_9m_Examiner",
         "isAbout": "items/mh_cg_erica_fcm_3_9m_Examiner",
         "valueRequired": true,
@@ -141,6 +149,12 @@
       {
         "variableName": "mh_cg_erica_fcm_3_9m_Duration",
         "isAbout": "items/mh_cg_erica_fcm_3_9m_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_fcm_3_9m_lang",
+        "isAbout": "items/mh_cg_erica_fcm_3_9m_lang",
         "valueRequired": false,
         "isVis": true
       },
