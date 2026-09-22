@@ -6,10 +6,11 @@
     "en": "mh_ch_mchat_noise_008_instr01"
   },
   "question": {
-    "en": "How does your child react to loud music? Does your child:"
+    "en": "RETIRED FIELDS: How does your child react to loud music? Does your child:"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "text",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
@@ -43,7 +44,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -58,7 +59,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",

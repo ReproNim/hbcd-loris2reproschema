@@ -16,10 +16,13 @@
       "items/mh_cg_erica_fcm_adm_15_36m_Candidate_Age",
       "items/mh_cg_erica_fcm_adm_15_36m_Window_Difference",
       "items/mh_cg_erica_fcm_adm_15_36m_gestational_age",
+      "items/mh_cg_erica_fcm_adm_15_36m_adjusted_age",
       "items/mh_cg_erica_fcm_adm_15_36m_Examiner",
       "items/mh_cg_erica_fcm_adm_15_36m_timestamp_start",
       "items/mh_cg_erica_fcm_adm_15_36m_timestamp_stop",
       "items/mh_cg_erica_fcm_adm_15_36m_Duration",
+      "items/mh_cg_erica_fcm_adm_15_36m_lang",
+      "items/mh_cg_erica_fcm_adm_15_36m_protocol_administered",
       "items/mh_cg_erica_fcm_adm_15_36m_002",
       "items/mh_cg_erica_fcm_adm_15_36m_eric_001",
       "items/mh_cg_erica_fcm_adm_15_36m_eric_001_i_01",
@@ -87,8 +90,7 @@
       "items/mh_cg_erica_fcm_adm_15_36m_fdan_004",
       "items/mh_cg_erica_fcm_adm_15_36m_Validity",
       "items/mh_cg_erica_fcm_adm_15_36m_Administration",
-      "items/mh_cg_erica_fcm_adm_15_36m_Informant",
-      "items/mh_cg_erica_fcm_adm_15_36m_protocol_administered"
+      "items/mh_cg_erica_fcm_adm_15_36m_Informant"
     ],
     "addProperties": [
       {
@@ -116,6 +118,12 @@
         "isVis": true
       },
       {
+        "variableName": "mh_cg_erica_fcm_adm_15_36m_adjusted_age",
+        "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_cg_erica_fcm_adm_15_36m_Examiner",
         "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_Examiner",
         "valueRequired": true,
@@ -136,6 +144,18 @@
       {
         "variableName": "mh_cg_erica_fcm_adm_15_36m_Duration",
         "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_fcm_adm_15_36m_lang",
+        "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_lang",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_fcm_adm_15_36m_protocol_administered",
+        "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_protocol_administered",
         "valueRequired": false,
         "isVis": true
       },
@@ -544,12 +564,6 @@
       {
         "variableName": "mh_cg_erica_fcm_adm_15_36m_Informant",
         "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_erica_fcm_adm_15_36m_protocol_administered",
-        "isAbout": "items/mh_cg_erica_fcm_adm_15_36m_protocol_administered",
         "valueRequired": false,
         "isVis": true
       }
