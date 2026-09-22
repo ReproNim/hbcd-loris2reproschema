@@ -16,6 +16,7 @@
       "items/mh_cg_pms_i_cc_i_inf_Candidate_Age",
       "items/mh_cg_pms_i_cc_i_inf_Window_Difference",
       "items/mh_cg_pms_i_cc_i_inf_gestational_age",
+      "items/mh_cg_pms_i_cc_i_inf_adjusted_age",
       "items/mh_cg_pms_i_cc_i_inf_Examiner",
       "items/mh_cg_pms_i_cc_i_inf_lang",
       "items/mh_cg_pms_i_cc_i_inf_dtt",
@@ -31,6 +32,7 @@
       "items/mh_cg_pms_i_cc_i_inf_005",
       "items/mh_cg_pms_i_cc_i_inf_total_score",
       "items/mh_cg_pms_i_cc_i_inf_answered_count",
+      "items/mh_cg_pms_i_cc_i_inf_note",
       "items/mh_cg_pms_i_cc_i_inf_Validity",
       "items/mh_cg_pms_i_cc_i_inf_Administration",
       "items/mh_cg_pms_i_cc_i_inf_Informant"
@@ -57,6 +59,12 @@
       {
         "variableName": "mh_cg_pms_i_cc_i_inf_gestational_age",
         "isAbout": "items/mh_cg_pms_i_cc_i_inf_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_adjusted_age",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -147,6 +155,12 @@
       {
         "variableName": "mh_cg_pms_i_cc_i_inf_answered_count",
         "isAbout": "items/mh_cg_pms_i_cc_i_inf_answered_count",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_pms_i_cc_i_inf_note",
+        "isAbout": "items/mh_cg_pms_i_cc_i_inf_note",
         "valueRequired": false,
         "isVis": true
       },

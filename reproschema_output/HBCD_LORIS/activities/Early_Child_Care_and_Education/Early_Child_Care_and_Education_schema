@@ -1,0 +1,244 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Early_Child_Care_and_Education_schema",
+  "prefLabel": {
+    "en": "Early Child Care and Education"
+  },
+  "description": {
+    "en": "Questions related to Early Child Care and Education"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_ecce_Date_taken",
+      "items/sed_cg_ecce_Candidate_Age",
+      "items/sed_cg_ecce_Window_Difference",
+      "items/sed_cg_ecce_gestational_age",
+      "items/sed_cg_ecce_adjusted_age",
+      "items/sed_cg_ecce_Examiner",
+      "items/sed_cg_ecce_lang",
+      "items/sed_cg_ecce_dtt",
+      "items/sed_cg_ecce_timestamp_start",
+      "items/sed_cg_ecce_timestamp_stop",
+      "items/sed_cg_ecce_Duration",
+      "items/sed_cg_ecce_location",
+      "items/sed_cg_ecce_001",
+      "items/sed_cg_ecce_001_i_01",
+      "items/sed_cg_ecce_001_i_02",
+      "items/sed_cg_ecce_001_i_03",
+      "items/sed_cg_ecce_002",
+      "items/sed_cg_ecce_003",
+      "items/sed_cg_ecce_004",
+      "items/sed_cg_ecce_004_i_01",
+      "items/sed_cg_ecce_004_i_02",
+      "items/sed_cg_ecce_004_i_03",
+      "items/sed_cg_ecce_005",
+      "items/sed_cg_ecce_005_i_01",
+      "items/sed_cg_ecce_005_i_01_i_01",
+      "items/sed_cg_ecce_005_i_02",
+      "items/sed_cg_ecce_005_i_02_i_01",
+      "items/sed_cg_ecce_005_i_03",
+      "items/sed_cg_ecce_005_i_03_i_01",
+      "items/sed_cg_ecce_Validity",
+      "items/sed_cg_ecce_Administration",
+      "items/sed_cg_ecce_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_ecce_Date_taken",
+        "isAbout": "items/sed_cg_ecce_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Candidate_Age",
+        "isAbout": "items/sed_cg_ecce_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Window_Difference",
+        "isAbout": "items/sed_cg_ecce_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_gestational_age",
+        "isAbout": "items/sed_cg_ecce_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_adjusted_age",
+        "isAbout": "items/sed_cg_ecce_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Examiner",
+        "isAbout": "items/sed_cg_ecce_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_lang",
+        "isAbout": "items/sed_cg_ecce_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ecce_dtt",
+        "isAbout": "items/sed_cg_ecce_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ecce_timestamp_start",
+        "isAbout": "items/sed_cg_ecce_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ecce_timestamp_stop",
+        "isAbout": "items/sed_cg_ecce_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Duration",
+        "isAbout": "items/sed_cg_ecce_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_location",
+        "isAbout": "items/sed_cg_ecce_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "sed_cg_ecce_001",
+        "isAbout": "items/sed_cg_ecce_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_001_i_01",
+        "isAbout": "items/sed_cg_ecce_001_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_001(1) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_001_i_02",
+        "isAbout": "items/sed_cg_ecce_001_i_02",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_001(2) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_001_i_03",
+        "isAbout": "items/sed_cg_ecce_001_i_03",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_001(3) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_002",
+        "isAbout": "items/sed_cg_ecce_002",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_001(555) == '0'"
+      },
+      {
+        "variableName": "sed_cg_ecce_003",
+        "isAbout": "items/sed_cg_ecce_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_004",
+        "isAbout": "items/sed_cg_ecce_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_004_i_01",
+        "isAbout": "items/sed_cg_ecce_004_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_004(1) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_004_i_02",
+        "isAbout": "items/sed_cg_ecce_004_i_02",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_004(2) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_004_i_03",
+        "isAbout": "items/sed_cg_ecce_004_i_03",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_004(3) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005",
+        "isAbout": "items/sed_cg_ecce_005",
+        "valueRequired": false,
+        "isVis": "event-name == 'v05_arm_1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_01",
+        "isAbout": "items/sed_cg_ecce_005_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(1) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_01_i_01",
+        "isAbout": "items/sed_cg_ecce_005_i_01_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(1) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_02",
+        "isAbout": "items/sed_cg_ecce_005_i_02",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(2) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_02_i_01",
+        "isAbout": "items/sed_cg_ecce_005_i_02_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(2) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_03",
+        "isAbout": "items/sed_cg_ecce_005_i_03",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(3) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_005_i_03_i_01",
+        "isAbout": "items/sed_cg_ecce_005_i_03_i_01",
+        "valueRequired": false,
+        "isVis": "sed_cg_ecce_005(3) == '1'"
+      },
+      {
+        "variableName": "sed_cg_ecce_Validity",
+        "isAbout": "items/sed_cg_ecce_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Administration",
+        "isAbout": "items/sed_cg_ecce_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_ecce_Informant",
+        "isAbout": "items/sed_cg_ecce_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
