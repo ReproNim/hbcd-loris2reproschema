@@ -9,11 +9,61 @@
     "en": "Deja de hacer lo que est\u221a\u00b0 haciendo (aunque sea por un momento) cuando se le dice \u201a\u00c4\u00fano\u201a\u00c4\u00f9?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      },
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "understands"
+        },
+        "value": "Understands"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "never"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      }
     ]
   },
   "additionalNotesObj": [

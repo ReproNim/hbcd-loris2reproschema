@@ -9,11 +9,61 @@
     "en": "Some children like to go around naming or labeling things, as though proud of knowing the names and wanting to show this. How often does your child do this?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      },
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "understands"
+        },
+        "value": "Understands"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "never"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      }
     ]
   },
   "additionalNotesObj": [

@@ -6,7 +6,7 @@
     "en": "mri_ra_chkl_data_scn_001_27"
   },
   "question": {
-    "en": ""
+    "en": "Session No."
   },
   "ui": {
     "inputType": "select"
@@ -101,7 +101,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

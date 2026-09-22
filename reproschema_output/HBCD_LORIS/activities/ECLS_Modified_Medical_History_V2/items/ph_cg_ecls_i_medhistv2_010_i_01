@@ -9,12 +9,13 @@
     "en": "What kind of specialist?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "selectMultiple"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
     ],
+    "multipleChoice": true,
     "choices": [
       {
         "name": {
@@ -148,7 +149,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",
