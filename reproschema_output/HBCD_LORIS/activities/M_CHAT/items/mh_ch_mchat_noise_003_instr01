@@ -6,10 +6,11 @@
     "en": "mh_ch_mchat_noise_003_instr01"
   },
   "question": {
-    "en": "How does your child react to babies crying? Does your child:"
+    "en": "RETIRED FIELDS: How does your child react to babies crying? Does your child:"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "text",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
