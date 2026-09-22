@@ -13,12 +13,17 @@
   "ui": {
     "order": [
       "items/adm_fd_urgent_Date_taken",
+      "items/adm_fd_urgent_Candidate_Age",
+      "items/adm_fd_urgent_Window_Difference",
+      "items/adm_fd_urgent_gestational_age",
+      "items/adm_fd_urgent_adjusted_age",
       "items/adm_fd_urgent_Examiner",
-      "items/adm_fd_urgent_Validity",
-      "items/adm_fd_urgent_Administration",
-      "items/adm_fd_urgent_warning_message_victim",
+      "items/adm_fd_urgent_timestamp_start",
+      "items/adm_fd_urgent_timestamp_stop",
+      "items/adm_fd_urgent_Duration",
       "items/adm_fd_urgent_001",
       "items/adm_fd_urgent_002",
+      "items/adm_fd_urgent_003",
       "items/adm_fd_urgent_004",
       "items/adm_fd_urgent_rept_001",
       "items/adm_fd_urgent_rept_001_i_01",
@@ -26,6 +31,7 @@
       "items/adm_fd_urgent_rept_002_i_01",
       "items/adm_fd_urgent_rept_003",
       "items/adm_fd_urgent_rept_003_i_01",
+      "items/adm_fd_urgent_warning_message_victim",
       "items/adm_fd_urgent_rept_004",
       "items/adm_fd_urgent_rept_005",
       "items/adm_fd_urgent_rept_006",
@@ -48,8 +54,10 @@
       "items/adm_fd_urgent_emeg_001_i_01",
       "items/adm_fd_urgent_emeg_002",
       "items/adm_fd_urgent_emeg_002_i_01",
+      "items/adm_fd_urgent_Validity",
+      "items/adm_fd_urgent_Administration",
       "items/adm_fd_urgent_Informant",
-      "items/adm_fd_urgent_003"
+      "items/adm_fd_urgent_lang"
     ],
     "addProperties": [
       {
@@ -59,26 +67,50 @@
         "isVis": true
       },
       {
+        "variableName": "adm_fd_urgent_Candidate_Age",
+        "isAbout": "items/adm_fd_urgent_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_Window_Difference",
+        "isAbout": "items/adm_fd_urgent_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_gestational_age",
+        "isAbout": "items/adm_fd_urgent_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_adjusted_age",
+        "isAbout": "items/adm_fd_urgent_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_fd_urgent_Examiner",
         "isAbout": "items/adm_fd_urgent_Examiner",
         "valueRequired": true,
         "isVis": true
       },
       {
-        "variableName": "adm_fd_urgent_Validity",
-        "isAbout": "items/adm_fd_urgent_Validity",
+        "variableName": "adm_fd_urgent_timestamp_start",
+        "isAbout": "items/adm_fd_urgent_timestamp_start",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "adm_fd_urgent_Administration",
-        "isAbout": "items/adm_fd_urgent_Administration",
+        "variableName": "adm_fd_urgent_timestamp_stop",
+        "isAbout": "items/adm_fd_urgent_timestamp_stop",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "adm_fd_urgent_warning_message_victim",
-        "isAbout": "items/adm_fd_urgent_warning_message_victim",
+        "variableName": "adm_fd_urgent_Duration",
+        "isAbout": "items/adm_fd_urgent_Duration",
         "valueRequired": false,
         "isVis": true
       },
@@ -91,6 +123,12 @@
       {
         "variableName": "adm_fd_urgent_002",
         "isAbout": "items/adm_fd_urgent_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_003",
+        "isAbout": "items/adm_fd_urgent_003",
         "valueRequired": false,
         "isVis": true
       },
@@ -133,6 +171,12 @@
       {
         "variableName": "adm_fd_urgent_rept_003_i_01",
         "isAbout": "items/adm_fd_urgent_rept_003_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_warning_message_victim",
+        "isAbout": "items/adm_fd_urgent_warning_message_victim",
         "valueRequired": false,
         "isVis": true
       },
@@ -269,14 +313,26 @@
         "isVis": true
       },
       {
+        "variableName": "adm_fd_urgent_Validity",
+        "isAbout": "items/adm_fd_urgent_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_urgent_Administration",
+        "isAbout": "items/adm_fd_urgent_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_fd_urgent_Informant",
         "isAbout": "items/adm_fd_urgent_Informant",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "adm_fd_urgent_003",
-        "isAbout": "items/adm_fd_urgent_003",
+        "variableName": "adm_fd_urgent_lang",
+        "isAbout": "items/adm_fd_urgent_lang",
         "valueRequired": false,
         "isVis": true
       }
