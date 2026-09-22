@@ -6,7 +6,7 @@
     "en": "mri_ra_chkl_data_scn_002_23"
   },
   "question": {
-    "en": ""
+    "en": "Scan Sequence"
   },
   "ui": {
     "inputType": "select"
@@ -54,21 +54,21 @@
       },
       {
         "name": {
-          "en": "fMRI"
+          "en": "fMRI-rest-asleep"
         },
-        "value": "fMRI"
+        "value": "fMRI-rest-asleep"
       },
       {
         "name": {
-          "en": "fMRI_Fieldmap_AP"
+          "en": "AP_Fieldmap_fMRI"
         },
-        "value": "fMRI_Fieldmap_AP"
+        "value": "AP_Fieldmap_fMRI"
       },
       {
         "name": {
-          "en": "fMRI_Fieldmap_PA"
+          "en": "PA_Fieldmap_fMRI"
         },
-        "value": "fMRI_Fieldmap_PA"
+        "value": "PA_Fieldmap_fMRI"
       },
       {
         "name": {
@@ -191,7 +191,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

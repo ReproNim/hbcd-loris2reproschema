@@ -14,8 +14,9 @@
     "order": [
       "items/ph_cg_pms_i_pags_Date_taken",
       "items/ph_cg_pms_i_pags_Candidate_Age",
-      "items/ph_cg_pms_i_pags_gestational_age",
       "items/ph_cg_pms_i_pags_Window_Difference",
+      "items/ph_cg_pms_i_pags_gestational_age",
+      "items/ph_cg_pms_i_pags_adjusted_age",
       "items/ph_cg_pms_i_pags_Examiner",
       "items/ph_cg_pms_i_pags_lang",
       "items/ph_cg_pms_i_pags_dtt",
@@ -36,8 +37,11 @@
       "items/ph_cg_pms_i_pags_010",
       "items/ph_cg_pms_i_pags_011",
       "items/ph_cg_pms_i_pags_total_score",
+      "items/ph_cg_pms_i_pags_total_score_note",
       "items/ph_cg_pms_i_pags_t_score",
+      "items/ph_cg_pms_i_pags_t_score_note",
       "items/ph_cg_pms_i_pags_se_score",
+      "items/ph_cg_pms_i_pags_se_score_note",
       "items/ph_cg_pms_i_pags_Validity",
       "items/ph_cg_pms_i_pags_Administration",
       "items/ph_cg_pms_i_pags_Informant"
@@ -56,14 +60,20 @@
         "isVis": true
       },
       {
+        "variableName": "ph_cg_pms_i_pags_Window_Difference",
+        "isAbout": "items/ph_cg_pms_i_pags_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_pms_i_pags_gestational_age",
         "isAbout": "items/ph_cg_pms_i_pags_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_cg_pms_i_pags_Window_Difference",
-        "isAbout": "items/ph_cg_pms_i_pags_Window_Difference",
+        "variableName": "ph_cg_pms_i_pags_adjusted_age",
+        "isAbout": "items/ph_cg_pms_i_pags_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -188,14 +198,32 @@
         "isVis": true
       },
       {
+        "variableName": "ph_cg_pms_i_pags_total_score_note",
+        "isAbout": "items/ph_cg_pms_i_pags_total_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_pms_i_pags_t_score",
         "isAbout": "items/ph_cg_pms_i_pags_t_score",
         "valueRequired": false,
         "isVis": true
       },
       {
+        "variableName": "ph_cg_pms_i_pags_t_score_note",
+        "isAbout": "items/ph_cg_pms_i_pags_t_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_pms_i_pags_se_score",
         "isAbout": "items/ph_cg_pms_i_pags_se_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pms_i_pags_se_score_note",
+        "isAbout": "items/ph_cg_pms_i_pags_se_score_note",
         "valueRequired": false,
         "isVis": true
       },
