@@ -16,30 +16,28 @@
       "items/ph_ch_anthro_Candidate_Age",
       "items/ph_ch_anthro_Window_Difference",
       "items/ph_ch_anthro_gestational_age",
+      "items/ph_ch_anthro_adjusted_age",
       "items/ph_ch_anthro_Examiner",
       "items/ph_ch_anthro_timestamp_start",
       "items/ph_ch_anthro_timestamp_stop",
       "items/ph_ch_anthro_Duration",
+      "items/ph_ch_anthro_warning_message",
+      "items/ph_ch_anthro_lang",
       "items/ph_ch_anthro_len_001_i_03",
-      "items/ph_ch_anthro_months_length_age_girls_score",
       "items/ph_ch_anthro_length_for_age_girls_z_score",
       "items/ph_ch_anthro_head_001_i_03",
-      "items/ph_ch_anthro_months_head_c_age_girls_score",
       "items/ph_ch_anthro_head_for_age_girls_z_score",
       "items/ph_ch_anthro_wei_001_i_03",
-      "items/ph_ch_anthro_months_weight_age_girls_score",
       "items/ph_ch_anthro_weight_for_age_girls_z_score",
       "items/ph_ch_anthro_average_bmi",
-      "items/ph_ch_anthro_months_bmi_age_girls_score",
       "items/ph_ch_anthro_bmi_for_length_girls_z_score",
       "items/ph_ch_anthro_weight_for_length_girls_z_score",
-      "items/ph_ch_anthro_months_length_age_boys_score",
+      "items/ph_ch_anthro_intergrowth_z_score",
+      "items/ph_ch_anthro_intergrowth_percentile",
+      "items/ph_ch_anthro_small_gestational_age",
       "items/ph_ch_anthro_length_for_age_boys_z_score",
-      "items/ph_ch_anthro_months_head_c_age_boys_score",
       "items/ph_ch_anthro_head_for_age_boys_z_score",
-      "items/ph_ch_anthro_months_weight_age_boys_score",
       "items/ph_ch_anthro_weight_for_age_boys_z_score",
-      "items/ph_ch_anthro_months_bmi_age_boys_score",
       "items/ph_ch_anthro_bmi_for_length_boys_z_score",
       "items/ph_ch_anthro_weight_for_length_boys_z_score",
       "items/ph_ch_anthro_ant_001",
@@ -64,7 +62,6 @@
       "items/ph_ch_anthro_head_001_i_02",
       "items/ph_ch_anthro_head_001_i_02_status",
       "items/ph_ch_anthro_001",
-      "items/ph_ch_anthro_warning_message",
       "items/ph_ch_anthro_002",
       "items/ph_ch_anthro_Validity",
       "items/ph_ch_anthro_Administration",
@@ -96,6 +93,12 @@
         "isVis": true
       },
       {
+        "variableName": "ph_ch_anthro_adjusted_age",
+        "isAbout": "items/ph_ch_anthro_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_ch_anthro_Examiner",
         "isAbout": "items/ph_ch_anthro_Examiner",
         "valueRequired": true,
@@ -120,14 +123,20 @@
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_len_001_i_03",
-        "isAbout": "items/ph_ch_anthro_len_001_i_03",
+        "variableName": "ph_ch_anthro_warning_message",
+        "isAbout": "items/ph_ch_anthro_warning_message",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_length_age_girls_score",
-        "isAbout": "items/ph_ch_anthro_months_length_age_girls_score",
+        "variableName": "ph_ch_anthro_lang",
+        "isAbout": "items/ph_ch_anthro_lang",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_anthro_len_001_i_03",
+        "isAbout": "items/ph_ch_anthro_len_001_i_03",
         "valueRequired": false,
         "isVis": true
       },
@@ -144,12 +153,6 @@
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_head_c_age_girls_score",
-        "isAbout": "items/ph_ch_anthro_months_head_c_age_girls_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_ch_anthro_head_for_age_girls_z_score",
         "isAbout": "items/ph_ch_anthro_head_for_age_girls_z_score",
         "valueRequired": false,
@@ -158,12 +161,6 @@
       {
         "variableName": "ph_ch_anthro_wei_001_i_03",
         "isAbout": "items/ph_ch_anthro_wei_001_i_03",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_ch_anthro_months_weight_age_girls_score",
-        "isAbout": "items/ph_ch_anthro_months_weight_age_girls_score",
         "valueRequired": false,
         "isVis": true
       },
@@ -180,12 +177,6 @@
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_bmi_age_girls_score",
-        "isAbout": "items/ph_ch_anthro_months_bmi_age_girls_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_ch_anthro_bmi_for_length_girls_z_score",
         "isAbout": "items/ph_ch_anthro_bmi_for_length_girls_z_score",
         "valueRequired": false,
@@ -198,8 +189,20 @@
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_length_age_boys_score",
-        "isAbout": "items/ph_ch_anthro_months_length_age_boys_score",
+        "variableName": "ph_ch_anthro_intergrowth_z_score",
+        "isAbout": "items/ph_ch_anthro_intergrowth_z_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_anthro_intergrowth_percentile",
+        "isAbout": "items/ph_ch_anthro_intergrowth_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_anthro_small_gestational_age",
+        "isAbout": "items/ph_ch_anthro_small_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -210,32 +213,14 @@
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_head_c_age_boys_score",
-        "isAbout": "items/ph_ch_anthro_months_head_c_age_boys_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_ch_anthro_head_for_age_boys_z_score",
         "isAbout": "items/ph_ch_anthro_head_for_age_boys_z_score",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_ch_anthro_months_weight_age_boys_score",
-        "isAbout": "items/ph_ch_anthro_months_weight_age_boys_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_ch_anthro_weight_for_age_boys_z_score",
         "isAbout": "items/ph_ch_anthro_weight_for_age_boys_z_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_ch_anthro_months_bmi_age_boys_score",
-        "isAbout": "items/ph_ch_anthro_months_bmi_age_boys_score",
         "valueRequired": false,
         "isVis": true
       },
@@ -380,12 +365,6 @@
       {
         "variableName": "ph_ch_anthro_001",
         "isAbout": "items/ph_ch_anthro_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ph_ch_anthro_warning_message",
-        "isAbout": "items/ph_ch_anthro_warning_message",
         "valueRequired": false,
         "isVis": true
       },
