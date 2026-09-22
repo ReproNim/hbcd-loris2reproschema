@@ -9,11 +9,11 @@
     "en": "A. Positive Affect (score):"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:string"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "String"
     },
     {
       "source": "loris",

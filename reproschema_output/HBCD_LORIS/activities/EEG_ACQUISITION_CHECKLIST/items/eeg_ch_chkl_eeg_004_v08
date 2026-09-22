@@ -1,0 +1,101 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "eeg_ch_chkl_eeg_004_v08",
+  "prefLabel": {
+    "en": "eeg_ch_chkl_eeg_004_v08"
+  },
+  "question": {
+    "en": "Paradigm Order 2:"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "statistical_learning"
+        },
+        "value": "Statistical Learning"
+      },
+      {
+        "name": {
+          "en": "emotional_faces"
+        },
+        "value": "Emotional Faces"
+      },
+      {
+        "name": {
+          "en": "movie_clips"
+        },
+        "value": "Movie Clips"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "eeg_004_v08"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "eeg_ch_chkl"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

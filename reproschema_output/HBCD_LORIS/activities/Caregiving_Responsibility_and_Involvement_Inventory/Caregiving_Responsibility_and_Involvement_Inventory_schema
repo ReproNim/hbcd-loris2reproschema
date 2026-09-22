@@ -1,0 +1,223 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Caregiving_Responsibility_and_Involvement_Inventory_schema",
+  "prefLabel": {
+    "en": "Caregiving Responsibility and Involvement Inventory"
+  },
+  "description": {
+    "en": "Questions related to Caregiving Responsibility and Involvement Inventory"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_cri_Date_taken",
+      "items/mh_cg_cri_Candidate_Age",
+      "items/mh_cg_cri_Window_Difference",
+      "items/mh_cg_cri_gestational_age",
+      "items/mh_cg_cri_adjusted_age",
+      "items/mh_cg_cri_Examiner",
+      "items/mh_cg_cri_lang",
+      "items/mh_cg_cri_start_time",
+      "items/mh_cg_cri_start_time_server",
+      "items/mh_cg_cri_location",
+      "items/mh_cg_cri_instr01",
+      "items/mh_cg_cri_001",
+      "items/mh_cg_cri_002",
+      "items/mh_cg_cri_003",
+      "items/mh_cg_cri_004",
+      "items/mh_cg_cri_005",
+      "items/mh_cg_cri_006",
+      "items/mh_cg_cri_007",
+      "items/mh_cg_cri_008",
+      "items/mh_cg_cri_009",
+      "items/mh_cg_cri_010",
+      "items/mh_cg_cri_011",
+      "items/mh_cg_cri_012",
+      "items/mh_cg_cri_013",
+      "items/mh_cg_cri_014",
+      "items/mh_cg_cri_015",
+      "items/mh_cg_cri_Validity",
+      "items/mh_cg_cri_Administration",
+      "items/mh_cg_cri_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_cri_Date_taken",
+        "isAbout": "items/mh_cg_cri_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Candidate_Age",
+        "isAbout": "items/mh_cg_cri_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Window_Difference",
+        "isAbout": "items/mh_cg_cri_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_gestational_age",
+        "isAbout": "items/mh_cg_cri_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_adjusted_age",
+        "isAbout": "items/mh_cg_cri_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Examiner",
+        "isAbout": "items/mh_cg_cri_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_lang",
+        "isAbout": "items/mh_cg_cri_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_cri_start_time",
+        "isAbout": "items/mh_cg_cri_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_cri_start_time_server",
+        "isAbout": "items/mh_cg_cri_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_cri_location",
+        "isAbout": "items/mh_cg_cri_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_cri_instr01",
+        "isAbout": "items/mh_cg_cri_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_001",
+        "isAbout": "items/mh_cg_cri_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_002",
+        "isAbout": "items/mh_cg_cri_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_003",
+        "isAbout": "items/mh_cg_cri_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_004",
+        "isAbout": "items/mh_cg_cri_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_005",
+        "isAbout": "items/mh_cg_cri_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_006",
+        "isAbout": "items/mh_cg_cri_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_007",
+        "isAbout": "items/mh_cg_cri_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_008",
+        "isAbout": "items/mh_cg_cri_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_009",
+        "isAbout": "items/mh_cg_cri_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_010",
+        "isAbout": "items/mh_cg_cri_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_011",
+        "isAbout": "items/mh_cg_cri_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_012",
+        "isAbout": "items/mh_cg_cri_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_013",
+        "isAbout": "items/mh_cg_cri_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_014",
+        "isAbout": "items/mh_cg_cri_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_015",
+        "isAbout": "items/mh_cg_cri_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Validity",
+        "isAbout": "items/mh_cg_cri_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Administration",
+        "isAbout": "items/mh_cg_cri_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cri_Informant",
+        "isAbout": "items/mh_cg_cri_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
