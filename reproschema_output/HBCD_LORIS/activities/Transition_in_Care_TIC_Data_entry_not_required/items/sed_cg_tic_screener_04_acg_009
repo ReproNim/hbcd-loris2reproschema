@@ -1,0 +1,198 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_cg_tic_screener_04_acg_009",
+  "prefLabel": {
+    "en": "sed_cg_tic_screener_04_acg_009"
+  },
+  "question": {
+    "en": "Why is {firstName} no longer living with their other parent? Record answer verbatim then code as many as apply from drop down menu"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "not_applicable_there_has_been_no_other_parent_in_childs_life"
+        },
+        "value": "Not applicable - there has been no other parent in child\\'s life"
+      },
+      {
+        "name": {
+          "en": "other_parent_has_a_legal_custody_agreement_that_the_child_would_live_with_the_new_caregiver"
+        },
+        "value": "Other parent has a legal custody agreement that the child would live with the new caregiver"
+      },
+      {
+        "name": {
+          "en": "other_parent_has_an_informal_agreement_that_the_new_caregiver_would_take_care_of_the_child"
+        },
+        "value": "Other parent has an informal agreement that the new caregiver would take care of the child"
+      },
+      {
+        "name": {
+          "en": "child_protective_services_or_the_court_removed_the_child"
+        },
+        "value": "Child protective services or the court removed the child"
+      },
+      {
+        "name": {
+          "en": "other_parent_is_in_jail_or_prison"
+        },
+        "value": "Other parent is in jail or prison"
+      },
+      {
+        "name": {
+          "en": "child_had_prenatal_exposure_to_substances"
+        },
+        "value": "Child had prenatal exposure to substances"
+      },
+      {
+        "name": {
+          "en": "other_parent_is_getting_treatment_for_substance_use_disorder"
+        },
+        "value": "Other parent is getting treatment for substance use disorder"
+      },
+      {
+        "name": {
+          "en": "other_parent_experienced_deportation"
+        },
+        "value": "Other parent experienced deportation"
+      },
+      {
+        "name": {
+          "en": "other_parent_had_health_problems_other_than_substance_use_disorder"
+        },
+        "value": "Other parent had health problems other than substance use disorder"
+      },
+      {
+        "name": {
+          "en": "child_had_health_problems_other_than_prenatal_exposure_to_substances"
+        },
+        "value": "Child had health problems other than prenatal exposure to substances"
+      },
+      {
+        "name": {
+          "en": "child_had_behavior_problems"
+        },
+        "value": "Child had behavior problems"
+      },
+      {
+        "name": {
+          "en": "other_parent_felt_that_the_child_was_no_longer_safe_in_the_home"
+        },
+        "value": "Other parent felt that the child was no longer safe in the home"
+      },
+      {
+        "name": {
+          "en": "other_parent_felt_that_the_child_was_no_longer_safe_in_their_neighborhood"
+        },
+        "value": "Other parent felt that the child was no longer safe in their neighborhood"
+      },
+      {
+        "name": {
+          "en": "economic_reasons"
+        },
+        "value": "Economic reasons"
+      },
+      {
+        "name": {
+          "en": "spouse_partner_of_other_parent_wanted_child_to_move"
+        },
+        "value": "Spouse/partner of other parent wanted child to move"
+      },
+      {
+        "name": {
+          "en": "other_parent_is_deceased"
+        },
+        "value": "Other parent is deceased"
+      },
+      {
+        "name": {
+          "en": "dont_know"
+        },
+        "value": "Don\\'t know"
+      },
+      {
+        "name": {
+          "en": "prefer_not_to_answer"
+        },
+        "value": "Prefer not to answer"
+      },
+      {
+        "name": {
+          "en": "other"
+        },
+        "value": "Other"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "04_acg_009"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_tic_screener"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
