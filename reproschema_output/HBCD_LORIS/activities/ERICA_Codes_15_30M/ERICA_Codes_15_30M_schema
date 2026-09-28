@@ -16,10 +16,12 @@
       "items/mh_cg_erica_15_30_m_Candidate_Age",
       "items/mh_cg_erica_15_30_m_Window_Difference",
       "items/mh_cg_erica_15_30_m_gestational_age",
+      "items/mh_cg_erica_15_30_m_adjusted_age",
       "items/mh_cg_erica_15_30_m_Examiner",
       "items/mh_cg_erica_15_30_m_timestamp_start",
       "items/mh_cg_erica_15_30_m_timestamp_stop",
       "items/mh_cg_erica_15_30_m_Duration",
+      "items/mh_cg_erica_15_30_m_lang",
       "items/mh_cg_erica_15_30_m_locomotor_administered",
       "items/mh_cg_erica_15_30_m_cod_002",
       "items/mh_cg_erica_15_30_m_cod_002_status",
@@ -153,6 +155,12 @@
         "isVis": true
       },
       {
+        "variableName": "mh_cg_erica_15_30_m_adjusted_age",
+        "isAbout": "items/mh_cg_erica_15_30_m_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_cg_erica_15_30_m_Examiner",
         "isAbout": "items/mh_cg_erica_15_30_m_Examiner",
         "valueRequired": true,
@@ -173,6 +181,12 @@
       {
         "variableName": "mh_cg_erica_15_30_m_Duration",
         "isAbout": "items/mh_cg_erica_15_30_m_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_15_30_m_lang",
+        "isAbout": "items/mh_cg_erica_15_30_m_lang",
         "valueRequired": false,
         "isVis": true
       },

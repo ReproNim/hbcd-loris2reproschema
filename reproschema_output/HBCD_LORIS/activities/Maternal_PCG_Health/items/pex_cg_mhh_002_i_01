@@ -1,0 +1,117 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_mhh_002_i_01",
+  "prefLabel": {
+    "en": "pex_cg_mhh_002_i_01"
+  },
+  "question": {
+    "en": "What type of diabetes? (Select all that apply)"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Type 1"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Type 2"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Unknown"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_cg_mhh_002 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "002_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_mhh"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
