@@ -9,8 +9,7 @@
     "en": "Start time (server)"
   },
   "ui": {
-    "inputType": "text",
-    "readonlyValue": true
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
@@ -56,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Discrete"
+      "value": "Nominal"
     },
     {
       "source": "loris",
@@ -66,7 +65,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",

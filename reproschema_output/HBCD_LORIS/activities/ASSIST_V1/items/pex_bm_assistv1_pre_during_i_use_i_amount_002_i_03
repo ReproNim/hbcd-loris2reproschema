@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float",
       "xsd:integer",
+      "xsd:float",
       "xsd:string"
     ],
     "choices": [

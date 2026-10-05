@@ -42,6 +42,9 @@
       }
     ]
   },
+  "preamble": {
+    "en": "Conditional display: event-name !== 'v09_arm_1' AND event-name !== 'v10_arm_1'"
+  },
   "additionalNotesObj": [
     {
       "source": "loris",
