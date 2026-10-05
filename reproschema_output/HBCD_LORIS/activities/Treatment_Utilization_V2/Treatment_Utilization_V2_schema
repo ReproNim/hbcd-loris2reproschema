@@ -1,0 +1,307 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Treatment_Utilization_V2_schema",
+  "prefLabel": {
+    "en": "Treatment Utilization V2"
+  },
+  "description": {
+    "en": "Questions related to Treatment Utilization V2"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/pex_cg_tu_Date_taken",
+      "items/pex_cg_tu_Candidate_Age",
+      "items/pex_cg_tu_Window_Difference",
+      "items/pex_cg_tu_gestational_age",
+      "items/pex_cg_tu_adjusted_age",
+      "items/pex_cg_tu_Examiner",
+      "items/pex_cg_tu_lang",
+      "items/pex_cg_tu_start_time",
+      "items/pex_cg_tu_start_time_server",
+      "items/pex_cg_tu_location",
+      "items/pex_cg_tu_instr01",
+      "items/pex_cg_tu_001",
+      "items/pex_cg_tu_001_i_01",
+      "items/pex_cg_tu_001_i_02",
+      "items/pex_cg_tu_002",
+      "items/pex_cg_tu_002_i_01",
+      "items/pex_cg_tu_003",
+      "items/pex_cg_tu_004",
+      "items/pex_cg_tu_005",
+      "items/pex_cg_tu_006",
+      "items/pex_cg_tu_007",
+      "items/pex_cg_tu_007_i_01",
+      "items/pex_cg_tu_008",
+      "items/pex_cg_tu_009",
+      "items/pex_cg_tu_010",
+      "items/pex_cg_tu_011",
+      "items/pex_cg_tu_012",
+      "items/pex_cg_tu_013",
+      "items/pex_cg_tu_014",
+      "items/pex_cg_tu_015",
+      "items/pex_cg_tu_015_i_01",
+      "items/pex_cg_tu_016",
+      "items/pex_cg_tu_017",
+      "items/pex_cg_tu_018",
+      "items/pex_cg_tu_019",
+      "items/pex_cg_tu_020",
+      "items/pex_cg_tu_021",
+      "items/pex_cg_tu_022",
+      "items/pex_cg_tu_Validity",
+      "items/pex_cg_tu_Administration",
+      "items/pex_cg_tu_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "pex_cg_tu_Date_taken",
+        "isAbout": "items/pex_cg_tu_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_Candidate_Age",
+        "isAbout": "items/pex_cg_tu_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_Window_Difference",
+        "isAbout": "items/pex_cg_tu_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_gestational_age",
+        "isAbout": "items/pex_cg_tu_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_adjusted_age",
+        "isAbout": "items/pex_cg_tu_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_Examiner",
+        "isAbout": "items/pex_cg_tu_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_lang",
+        "isAbout": "items/pex_cg_tu_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_cg_tu_start_time",
+        "isAbout": "items/pex_cg_tu_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_cg_tu_start_time_server",
+        "isAbout": "items/pex_cg_tu_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_cg_tu_location",
+        "isAbout": "items/pex_cg_tu_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "pex_cg_tu_instr01",
+        "isAbout": "items/pex_cg_tu_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_001",
+        "isAbout": "items/pex_cg_tu_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_001_i_01",
+        "isAbout": "items/pex_cg_tu_001_i_01",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_001 == '1' OR pex_cg_tu_001 == '2' OR pex_cg_tu_001 == '3' OR pex_cg_tu_001 == '4' OR pex_cg_tu_001 == '5' OR pex_cg_tu_001 == '6'"
+      },
+      {
+        "variableName": "pex_cg_tu_001_i_02",
+        "isAbout": "items/pex_cg_tu_001_i_02",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_001_i_01 == '0' OR pex_cg_tu_001_i_01 == '999' OR pex_cg_tu_001_i_01 == '777'"
+      },
+      {
+        "variableName": "pex_cg_tu_002",
+        "isAbout": "items/pex_cg_tu_002",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_001 == '0' OR pex_cg_tu_001 == '999' OR pex_cg_tu_001 == '777' OR pex_cg_tu_001_i_01 == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_002_i_01",
+        "isAbout": "items/pex_cg_tu_002_i_01",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_002 == '1' OR pex_cg_tu_002 == '3' OR pex_cg_tu_002 == '777' OR pex_cg_tu_002 == '999'"
+      },
+      {
+        "variableName": "pex_cg_tu_003",
+        "isAbout": "items/pex_cg_tu_003",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_002 == '2' OR pex_cg_tu_002_i_01 == '2'"
+      },
+      {
+        "variableName": "pex_cg_tu_004",
+        "isAbout": "items/pex_cg_tu_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_005",
+        "isAbout": "items/pex_cg_tu_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_006",
+        "isAbout": "items/pex_cg_tu_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_007",
+        "isAbout": "items/pex_cg_tu_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_007_i_01",
+        "isAbout": "items/pex_cg_tu_007_i_01",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007 == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_008",
+        "isAbout": "items/pex_cg_tu_008",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(1) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_009",
+        "isAbout": "items/pex_cg_tu_009",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(2) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_010",
+        "isAbout": "items/pex_cg_tu_010",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(3) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_011",
+        "isAbout": "items/pex_cg_tu_011",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(4) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_012",
+        "isAbout": "items/pex_cg_tu_012",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(5) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_013",
+        "isAbout": "items/pex_cg_tu_013",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(6) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_014",
+        "isAbout": "items/pex_cg_tu_014",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_007_i_01(1) == '1' OR pex_cg_tu_007_i_01(2) == '1' OR pex_cg_tu_007_i_01(3) == '1' OR pex_cg_tu_007_i_01(4) == '1' OR pex_cg_tu_007_i_01(5) == '1' OR pex_cg_tu_007_i_01(6) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_015",
+        "isAbout": "items/pex_cg_tu_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_015_i_01",
+        "isAbout": "items/pex_cg_tu_015_i_01",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015 == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_016",
+        "isAbout": "items/pex_cg_tu_016",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(1) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_017",
+        "isAbout": "items/pex_cg_tu_017",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(2) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_018",
+        "isAbout": "items/pex_cg_tu_018",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(3) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_019",
+        "isAbout": "items/pex_cg_tu_019",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(4) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_020",
+        "isAbout": "items/pex_cg_tu_020",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(5) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_021",
+        "isAbout": "items/pex_cg_tu_021",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(6) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_022",
+        "isAbout": "items/pex_cg_tu_022",
+        "valueRequired": false,
+        "isVis": "pex_cg_tu_015_i_01(1) == '1' OR pex_cg_tu_015_i_01(2) == '1' OR pex_cg_tu_015_i_01(3) == '1' OR pex_cg_tu_015_i_01(4) == '1' OR pex_cg_tu_015_i_01(5) == '1' OR pex_cg_tu_015_i_01(6) == '1'"
+      },
+      {
+        "variableName": "pex_cg_tu_Validity",
+        "isAbout": "items/pex_cg_tu_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_Administration",
+        "isAbout": "items/pex_cg_tu_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "pex_cg_tu_Informant",
+        "isAbout": "items/pex_cg_tu_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
