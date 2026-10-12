@@ -6,7 +6,7 @@
     "en": "ph_ch_anthro_002"
   },
   "question": {
-    "en": ""
+    "en": "Only check this box if you are unable to submit the form"
   },
   "ui": {
     "inputType": "checkbox"
@@ -76,7 +76,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

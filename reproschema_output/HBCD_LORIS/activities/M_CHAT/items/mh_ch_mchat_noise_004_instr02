@@ -9,7 +9,8 @@
     "en": "Which one do they do most often?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "text",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
