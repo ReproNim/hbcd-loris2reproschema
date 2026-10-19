@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhistv2_016_i_10"
   },
   "question": {
-    "en": "Tonsillectorym/Adenoidectomy"
+    "en": "Tonsillectory/Adenoidectomy"
   },
   "ui": {
     "inputType": "select"
@@ -94,7 +94,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",

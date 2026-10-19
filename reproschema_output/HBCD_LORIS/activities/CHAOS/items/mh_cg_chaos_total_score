@@ -13,7 +13,7 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:float"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "Float"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "Continuous"
     },
     {
       "source": "loris",
