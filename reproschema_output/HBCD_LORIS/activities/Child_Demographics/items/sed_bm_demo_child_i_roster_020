@@ -30,6 +30,36 @@
       },
       {
         "name": {
+          "en": "7"
+        },
+        "value": "Residence of a relative or friend (personal choice)"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Residence of a relative or friend due to housing or economic challenges"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Treatment facility, residential treatment program, or rehabilitation center"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Emergency shelter or homeless shelter"
+      },
+      {
+        "name": {
+          "en": "11"
+        },
+        "value": "None of these describe my primary residence, and I'd like to see additional options"
+      },
+      {
+        "name": {
           "en": "3"
         },
         "value": "Treatment facility"
@@ -67,7 +97,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: sed_bm_demo_child_i_roster_001_i_01 >== 2"
+    "en": "Conditional display: sed_bm_demo_child_i_roster_001_i_01 >== 2 AND sed_bm_demo_child_i_roster_001_i_01 < 777"
   },
   "additionalNotesObj": [
     {
