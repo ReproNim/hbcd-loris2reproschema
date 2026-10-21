@@ -16,6 +16,7 @@
       "items/mh_cg_cbcl_i_1to5_Candidate_Age",
       "items/mh_cg_cbcl_i_1to5_Window_Difference",
       "items/mh_cg_cbcl_i_1to5_gestational_age",
+      "items/mh_cg_cbcl_i_1to5_adjusted_age",
       "items/mh_cg_cbcl_i_1to5_Examiner",
       "items/mh_cg_cbcl_i_1to5_lang",
       "items/mh_cg_cbcl_i_1to5_dtt",
@@ -149,6 +150,12 @@
       {
         "variableName": "mh_cg_cbcl_i_1to5_gestational_age",
         "isAbout": "items/mh_cg_cbcl_i_1to5_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_cbcl_i_1to5_adjusted_age",
+        "isAbout": "items/mh_cg_cbcl_i_1to5_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
