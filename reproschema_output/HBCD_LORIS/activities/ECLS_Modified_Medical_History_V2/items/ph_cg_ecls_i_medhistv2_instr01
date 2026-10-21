@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhistv2_instr01"
   },
   "question": {
-    "en": "Since the last time we discussed your child's general health:"
+    "en": "What were the reasons or diagnoses for any hospital stays?"
   },
   "ui": {
     "inputType": "text"
@@ -68,7 +68,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",

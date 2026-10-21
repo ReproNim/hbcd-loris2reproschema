@@ -16,6 +16,7 @@
       "items/mh_cg_ibqr_Candidate_Age",
       "items/mh_cg_ibqr_Window_Difference",
       "items/mh_cg_ibqr_gestational_age",
+      "items/mh_cg_ibqr_adjusted_age",
       "items/mh_cg_ibqr_Examiner",
       "items/mh_cg_ibqr_lang",
       "items/mh_cg_ibqr_dtt",
@@ -78,7 +79,11 @@
       "items/mh_cg_ibqr_beh_score",
       "items/mh_cg_ibqr_Validity",
       "items/mh_cg_ibqr_Administration",
-      "items/mh_cg_ibqr_Informant"
+      "items/mh_cg_ibqr_Informant",
+      "items/mh_cg_ibqr_surg_score_note",
+      "items/mh_cg_ibqr_neg_score_note",
+      "items/mh_cg_ibqr_efrt_score_note",
+      "items/mh_cg_ibqr_beh_score_note"
     ],
     "addProperties": [
       {
@@ -102,6 +107,12 @@
       {
         "variableName": "mh_cg_ibqr_gestational_age",
         "isAbout": "items/mh_cg_ibqr_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ibqr_adjusted_age",
+        "isAbout": "items/mh_cg_ibqr_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -480,6 +491,30 @@
       {
         "variableName": "mh_cg_ibqr_Informant",
         "isAbout": "items/mh_cg_ibqr_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ibqr_surg_score_note",
+        "isAbout": "items/mh_cg_ibqr_surg_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ibqr_neg_score_note",
+        "isAbout": "items/mh_cg_ibqr_neg_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ibqr_efrt_score_note",
+        "isAbout": "items/mh_cg_ibqr_efrt_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ibqr_beh_score_note",
+        "isAbout": "items/mh_cg_ibqr_beh_score_note",
         "valueRequired": false,
         "isVis": true
       }

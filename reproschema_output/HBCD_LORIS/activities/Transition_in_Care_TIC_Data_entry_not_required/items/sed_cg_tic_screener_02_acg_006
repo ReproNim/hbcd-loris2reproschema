@@ -1,0 +1,113 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_cg_tic_screener_02_acg_006",
+  "prefLabel": {
+    "en": "sed_cg_tic_screener_02_acg_006"
+  },
+  "question": {
+    "en": "How long has {firstName} been living with you (the caregiver who assumed care of the child from the birth parent or most recent caregiver)? (If needed, PROBE: Are you the person who has primary responsibility for {firstName}?)"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "within_the_past_week"
+        },
+        "value": "Within the past week"
+      },
+      {
+        "name": {
+          "en": "was_more_than_1_week_ago_but_1_month_or_less_has_passed"
+        },
+        "value": "Was more than 1 week ago but 1 month or less has passed"
+      },
+      {
+        "name": {
+          "en": "was_more_than_1_month_ago_but_less_than_2_months"
+        },
+        "value": "Was more than 1 month ago but less than 2 months"
+      },
+      {
+        "name": {
+          "en": "was_more_than_2_months_ago_but_within_the_past_36_months"
+        },
+        "value": "Was more than 2 months ago but within the past 36 months"
+      },
+      {
+        "name": {
+          "en": "for_children_more_than_6_months_old_was_within_the_past_year"
+        },
+        "value": "For children more than 6 months old was within the past year"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "02_acg_006"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_tic_screener"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

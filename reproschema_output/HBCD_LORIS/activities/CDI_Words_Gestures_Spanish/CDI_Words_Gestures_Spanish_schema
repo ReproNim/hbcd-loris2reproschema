@@ -15,6 +15,8 @@
       "items/ncl_ch_cdiwges_Date_taken",
       "items/ncl_ch_cdiwges_Candidate_Age",
       "items/ncl_ch_cdiwges_Window_Difference",
+      "items/ncl_ch_cdiwges_gestational_age",
+      "items/ncl_ch_cdiwges_Examiner_cronjob",
       "items/ncl_ch_cdiwges_timestamp_start",
       "items/ncl_ch_cdiwges_timestamp_stop",
       "items/ncl_ch_cdiwges_Duration",
@@ -22,7 +24,44 @@
       "items/ncl_ch_cdiwges_born_on_due_date",
       "items/ncl_ch_cdiwges_early_or_late",
       "items/ncl_ch_cdiwges_due_date_diff",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwges",
       "items/ncl_ch_cdiwges_benchmark_age",
+      "items/ncl_ch_cdiwges_benchmark_age_adjusted",
+      "items/ncl_ch_cdiwges_comprension_temprana",
+      "items/ncl_ch_cdiwges_primeras_frases",
+      "items/ncl_ch_cdiwges_primeras_frases_percentile_sex",
+      "items/ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_nombrar",
+      "items/ncl_ch_cdiwges_palabras_que_comprende",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
+      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_dice",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both",
+      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_primeros_gestos",
+      "items/ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
+      "items/ncl_ch_cdiwges_acciones_con_objetos",
+      "items/ncl_ch_cdiwges_jugar_a_ser_adulto",
+      "items/ncl_ch_cdiwges_imitacion_adultos",
+      "items/ncl_ch_cdiwges_gestos_tempranos",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both",
+      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tardios",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_both",
+      "items/ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+      "items/ncl_ch_cdiwges_total_de_gestos",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_both",
+      "items/ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_firstsigns_001",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_firstsigns_002",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_firstsigns_003",
@@ -112,6 +151,83 @@
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_vehicles_mw_007",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_vehicles_mw_008",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_vehicles_nmw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
+      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_furniturerooms_mw_001",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_furniturerooms_mw_002",
       "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_furniturerooms_mw_003",
@@ -464,109 +580,7 @@
       "items/ncl_ch_cdiwges_Validity",
       "items/ncl_ch_cdiwges_Administration",
       "items/ncl_ch_cdiwges_Informant",
-      "items/ncl_ch_cdiwges_Examiner_cronjob",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwges",
-      "items/ncl_ch_cdiwges_comprension_temprana",
-      "items/ncl_ch_cdiwges_primeras_frases",
-      "items/ncl_ch_cdiwges_primeras_frases_percentile_sex",
-      "items/ncl_ch_cdiwges_nombrar",
-      "items/ncl_ch_cdiwges_palabras_que_comprende",
-      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
-      "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
-      "items/ncl_ch_cdiwges_palabras_que_dice",
-      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
-      "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both",
-      "items/ncl_ch_cdiwges_primeros_gestos",
-      "items/ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
-      "items/ncl_ch_cdiwges_acciones_con_objetos",
-      "items/ncl_ch_cdiwges_jugar_a_ser_adulto",
-      "items/ncl_ch_cdiwges_imitacion_adultos",
-      "items/ncl_ch_cdiwges_gestos_tempranos",
-      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
-      "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both",
-      "items/ncl_ch_cdiwges_gestos_tardios",
-      "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex",
-      "items/ncl_ch_cdiwges_gestos_tardios_percentile_both",
-      "items/ncl_ch_cdiwges_total_de_gestos",
-      "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex",
-      "items/ncl_ch_cdiwges_total_de_gestos_percentile_both",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
-      "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002"
+      "items/ncl_ch_cdiwges_lang"
     ],
     "addProperties": [
       {
@@ -584,6 +598,18 @@
       {
         "variableName": "ncl_ch_cdiwges_Window_Difference",
         "isAbout": "items/ncl_ch_cdiwges_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestational_age",
+        "isAbout": "items/ncl_ch_cdiwges_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_Examiner_cronjob",
+        "isAbout": "items/ncl_ch_cdiwges_Examiner_cronjob",
         "valueRequired": false,
         "isVis": true
       },
@@ -630,8 +656,230 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwges",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwges",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_cdiwges_benchmark_age",
         "isAbout": "items/ncl_ch_cdiwges_benchmark_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_benchmark_age_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_benchmark_age_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_comprension_temprana",
+        "isAbout": "items/ncl_ch_cdiwges_comprension_temprana",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_primeras_frases",
+        "isAbout": "items/ncl_ch_cdiwges_primeras_frases",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_primeras_frases_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_primeras_frases_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_primeras_frases_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_nombrar",
+        "isAbout": "items/ncl_ch_cdiwges_nombrar",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_primeros_gestos",
+        "isAbout": "items/ncl_ch_cdiwges_primeros_gestos",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
+        "isAbout": "items/ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_acciones_con_objetos",
+        "isAbout": "items/ncl_ch_cdiwges_acciones_con_objetos",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_jugar_a_ser_adulto",
+        "isAbout": "items/ncl_ch_cdiwges_jugar_a_ser_adulto",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_imitacion_adultos",
+        "isAbout": "items/ncl_ch_cdiwges_imitacion_adultos",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_both_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_sex",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex_adjusted",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_both",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_both",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
+        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_both_adjusted",
         "valueRequired": false,
         "isVis": true
       },
@@ -1166,6 +1414,468 @@
       {
         "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_vehicles_nmw_001",
         "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_vehicles_nmw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
+        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
         "valueRequired": false,
         "isVis": true
       },
@@ -3282,620 +3992,8 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_cdiwges_Examiner_cronjob",
-        "isAbout": "items/ncl_ch_cdiwges_Examiner_cronjob",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwges",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwges",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_comprension_temprana",
-        "isAbout": "items/ncl_ch_cdiwges_comprension_temprana",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_primeras_frases",
-        "isAbout": "items/ncl_ch_cdiwges_primeras_frases",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_primeras_frases_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_primeras_frases_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_nombrar",
-        "isAbout": "items/ncl_ch_cdiwges_nombrar",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_comprende",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_comprende_percentile_both",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_dice",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_palabras_que_dice_percentile_both",
-        "isAbout": "items/ncl_ch_cdiwges_palabras_que_dice_percentile_both",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_primeros_gestos",
-        "isAbout": "items/ncl_ch_cdiwges_primeros_gestos",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
-        "isAbout": "items/ncl_ch_cdiwges_juegos_con_adultos_y_rutinas",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_acciones_con_objetos",
-        "isAbout": "items/ncl_ch_cdiwges_acciones_con_objetos",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_jugar_a_ser_adulto",
-        "isAbout": "items/ncl_ch_cdiwges_jugar_a_ser_adulto",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_imitacion_adultos",
-        "isAbout": "items/ncl_ch_cdiwges_imitacion_adultos",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tempranos",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tempranos_percentile_both",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tempranos_percentile_both",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tardios",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_gestos_tardios_percentile_both",
-        "isAbout": "items/ncl_ch_cdiwges_gestos_tardios_percentile_both",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_total_de_gestos",
-        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_sex",
-        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_sex",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_total_de_gestos_percentile_both",
-        "isAbout": "items/ncl_ch_cdiwges_total_de_gestos_percentile_both",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_mw_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_toys_nmw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_007",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_008",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_009",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_010",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_011",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_012",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_013",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_014",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_015",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_016",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_017",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_mw_018",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_007",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_008",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_009",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_010",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_011",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_fooddrink_nmw_012",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_007",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_008",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_009",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_010",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_011",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_012",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_013",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_mw_014",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_clothing_nmw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_007",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_008",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_009",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_010",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_011",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_012",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_013",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_014",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_015",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_016",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_017",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_mw_018",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
-        "isAbout": "items/ncl_ch_cdiwges_ncl_ch_cdiwg_i_es_i_wd_i_bodyparts_nmw_002",
+        "variableName": "ncl_ch_cdiwges_lang",
+        "isAbout": "items/ncl_ch_cdiwges_lang",
         "valueRequired": false,
         "isVis": true
       }
