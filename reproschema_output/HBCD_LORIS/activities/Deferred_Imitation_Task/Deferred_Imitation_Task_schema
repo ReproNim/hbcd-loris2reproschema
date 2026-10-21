@@ -16,6 +16,7 @@
       "items/ncl_ch_di_Candidate_Age",
       "items/ncl_ch_di_Window_Difference",
       "items/ncl_ch_di_gestational_age",
+      "items/ncl_ch_di_adjusted_age",
       "items/ncl_ch_di_Examiner",
       "items/ncl_ch_di_timestamp_start",
       "items/ncl_ch_di_timestamp_stop",
@@ -49,6 +50,7 @@
       "items/ncl_ch_di_fev2_003",
       "items/ncl_ch_di_fev2_004",
       "items/ncl_ch_di_fev2_005",
+      "items/ncl_ch_di_fev2_006",
       "items/ncl_ch_di_sev2_001",
       "items/ncl_ch_di_sev2_001_i_01",
       "items/ncl_ch_di_sev2_001_i_02",
@@ -57,9 +59,11 @@
       "items/ncl_ch_di_sev2_003",
       "items/ncl_ch_di_sev2_004",
       "items/ncl_ch_di_sev2_005",
+      "items/ncl_ch_di_sev2_006",
       "items/ncl_ch_di_Validity",
       "items/ncl_ch_di_Administration",
-      "items/ncl_ch_di_Informant"
+      "items/ncl_ch_di_Informant",
+      "items/ncl_ch_di_lang"
     ],
     "addProperties": [
       {
@@ -83,6 +87,12 @@
       {
         "variableName": "ncl_ch_di_gestational_age",
         "isAbout": "items/ncl_ch_di_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_adjusted_age",
+        "isAbout": "items/ncl_ch_di_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -285,6 +295,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_fev2_006",
+        "isAbout": "items/ncl_ch_di_fev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_sev2_001",
         "isAbout": "items/ncl_ch_di_sev2_001",
         "valueRequired": false,
@@ -333,6 +349,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_sev2_006",
+        "isAbout": "items/ncl_ch_di_sev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_Validity",
         "isAbout": "items/ncl_ch_di_Validity",
         "valueRequired": false,
@@ -347,6 +369,12 @@
       {
         "variableName": "ncl_ch_di_Informant",
         "isAbout": "items/ncl_ch_di_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_lang",
+        "isAbout": "items/ncl_ch_di_lang",
         "valueRequired": false,
         "isVis": true
       }
