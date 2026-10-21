@@ -14,8 +14,9 @@
     "order": [
       "items/ph_cg_pedsql_Date_taken",
       "items/ph_cg_pedsql_Candidate_Age",
-      "items/ph_cg_pedsql_gestational_age",
       "items/ph_cg_pedsql_Window_Difference",
+      "items/ph_cg_pedsql_gestational_age",
+      "items/ph_cg_pedsql_adjusted_age",
       "items/ph_cg_pedsql_Examiner",
       "items/ph_cg_pedsql_lang",
       "items/ph_cg_pedsql_dtt",
@@ -51,6 +52,20 @@
       "items/ph_cg_pedsql_019",
       "items/ph_cg_pedsql_020",
       "items/ph_cg_pedsql_021",
+      "items/ph_cg_pedsql_physical_functioning_score",
+      "items/ph_cg_pedsql_physical_functioning_score_note",
+      "items/ph_cg_pedsql_emotional_functioning_score",
+      "items/ph_cg_pedsql_emotional_functioning_score_note",
+      "items/ph_cg_pedsql_social_functioning_score",
+      "items/ph_cg_pedsql_social_functioning_score_note",
+      "items/ph_cg_pedsql_school_functioning_score",
+      "items/ph_cg_pedsql_school_functioning_score_note",
+      "items/ph_cg_pedsql_psychosocial_health_summary_score",
+      "items/ph_cg_pedsql_psychosocial_health_summary_score_note",
+      "items/ph_cg_pedsql_physical_health_summary_score",
+      "items/ph_cg_pedsql_physical_health_summary_score_note",
+      "items/ph_cg_pedsql_total_score",
+      "items/ph_cg_pedsql_total_score_note",
       "items/ph_cg_pedsql_Validity",
       "items/ph_cg_pedsql_Administration",
       "items/ph_cg_pedsql_Informant"
@@ -69,14 +84,20 @@
         "isVis": true
       },
       {
+        "variableName": "ph_cg_pedsql_Window_Difference",
+        "isAbout": "items/ph_cg_pedsql_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_pedsql_gestational_age",
         "isAbout": "items/ph_cg_pedsql_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_cg_pedsql_Window_Difference",
-        "isAbout": "items/ph_cg_pedsql_Window_Difference",
+        "variableName": "ph_cg_pedsql_adjusted_age",
+        "isAbout": "items/ph_cg_pedsql_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -289,6 +310,90 @@
         "isAbout": "items/ph_cg_pedsql_021",
         "valueRequired": false,
         "isVis": "ph_cg_pedsql_instr06(1) !== '1'"
+      },
+      {
+        "variableName": "ph_cg_pedsql_physical_functioning_score",
+        "isAbout": "items/ph_cg_pedsql_physical_functioning_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_physical_functioning_score_note",
+        "isAbout": "items/ph_cg_pedsql_physical_functioning_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_emotional_functioning_score",
+        "isAbout": "items/ph_cg_pedsql_emotional_functioning_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_emotional_functioning_score_note",
+        "isAbout": "items/ph_cg_pedsql_emotional_functioning_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_social_functioning_score",
+        "isAbout": "items/ph_cg_pedsql_social_functioning_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_social_functioning_score_note",
+        "isAbout": "items/ph_cg_pedsql_social_functioning_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_school_functioning_score",
+        "isAbout": "items/ph_cg_pedsql_school_functioning_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_school_functioning_score_note",
+        "isAbout": "items/ph_cg_pedsql_school_functioning_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_psychosocial_health_summary_score",
+        "isAbout": "items/ph_cg_pedsql_psychosocial_health_summary_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_psychosocial_health_summary_score_note",
+        "isAbout": "items/ph_cg_pedsql_psychosocial_health_summary_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_physical_health_summary_score",
+        "isAbout": "items/ph_cg_pedsql_physical_health_summary_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_physical_health_summary_score_note",
+        "isAbout": "items/ph_cg_pedsql_physical_health_summary_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_total_score",
+        "isAbout": "items/ph_cg_pedsql_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_pedsql_total_score_note",
+        "isAbout": "items/ph_cg_pedsql_total_score_note",
+        "valueRequired": false,
+        "isVis": true
       },
       {
         "variableName": "ph_cg_pedsql_Validity",
