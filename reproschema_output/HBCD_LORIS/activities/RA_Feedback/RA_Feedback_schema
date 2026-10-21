@@ -15,12 +15,12 @@
       "items/adm_ra_fb_Date_taken",
       "items/adm_ra_fb_Candidate_Age",
       "items/adm_ra_fb_Window_Difference",
+      "items/adm_ra_fb_gestational_age",
+      "items/adm_ra_fb_adjusted_age",
       "items/adm_ra_fb_Examiner",
       "items/adm_ra_fb_timestamp_start",
       "items/adm_ra_fb_timestamp_stop",
       "items/adm_ra_fb_Duration",
-      "items/adm_ra_fb_Validity",
-      "items/adm_ra_fb_Administration",
       "items/adm_ra_fb_visit1_001",
       "items/adm_ra_fb_visit1_002",
       "items/adm_ra_fb_visit1_003",
@@ -38,6 +38,7 @@
       "items/adm_ra_fb_visit1_015",
       "items/adm_ra_fb_visit1_016",
       "items/adm_ra_fb_visit1_017",
+      "items/adm_ra_fb_visit1_018",
       "items/adm_ra_fb_visit1_001_i_01",
       "items/adm_ra_fb_visit1_002_i_01",
       "items/adm_ra_fb_visit1_003_i_01",
@@ -55,6 +56,7 @@
       "items/adm_ra_fb_visit1_015_i_01",
       "items/adm_ra_fb_visit1_016_i_01",
       "items/adm_ra_fb_visit1_017_i_01",
+      "items/adm_ra_fb_visit1_018_i_01",
       "items/adm_ra_fb_001",
       "items/adm_ra_fb_visit2_001",
       "items/adm_ra_fb_visit2_002",
@@ -105,6 +107,93 @@
       "items/adm_ra_fb_visit2_023_i_01",
       "items/adm_ra_fb_visit2_024_i_01",
       "items/adm_ra_fb_002",
+      "items/adm_ra_fb_visit3_001",
+      "items/adm_ra_fb_visit3_002",
+      "items/adm_ra_fb_visit3_003",
+      "items/adm_ra_fb_visit3_004",
+      "items/adm_ra_fb_visit3_005",
+      "items/adm_ra_fb_visit3_006",
+      "items/adm_ra_fb_visit3_007",
+      "items/adm_ra_fb_visit3_008",
+      "items/adm_ra_fb_visit3_029",
+      "items/adm_ra_fb_visit3_009",
+      "items/adm_ra_fb_visit3_010",
+      "items/adm_ra_fb_visit3_028",
+      "items/adm_ra_fb_visit3_011",
+      "items/adm_ra_fb_visit3_012",
+      "items/adm_ra_fb_visit3_013",
+      "items/adm_ra_fb_visit3_014",
+      "items/adm_ra_fb_visit3_015",
+      "items/adm_ra_fb_visit3_016",
+      "items/adm_ra_fb_visit3_017",
+      "items/adm_ra_fb_visit3_018",
+      "items/adm_ra_fb_visit3_019",
+      "items/adm_ra_fb_visit3_020",
+      "items/adm_ra_fb_visit3_021",
+      "items/adm_ra_fb_visit3_022",
+      "items/adm_ra_fb_visit3_023",
+      "items/adm_ra_fb_visit3_024",
+      "items/adm_ra_fb_visit3_025",
+      "items/adm_ra_fb_visit3_026",
+      "items/adm_ra_fb_visit3_027",
+      "items/adm_ra_fb_visit3_030",
+      "items/adm_ra_fb_visit3_031",
+      "items/adm_ra_fb_visit3_032",
+      "items/adm_ra_fb_visit3_033",
+      "items/adm_ra_fb_visit3_034",
+      "items/adm_ra_fb_visit3_035",
+      "items/adm_ra_fb_visit3_036",
+      "items/adm_ra_fb_visit3_037",
+      "items/adm_ra_fb_visit3_038",
+      "items/adm_ra_fb_visit3_039",
+      "items/adm_ra_fb_visit3_040",
+      "items/adm_ra_fb_visit3_041",
+      "items/adm_ra_fb_visit3_042",
+      "items/adm_ra_fb_visit3_043",
+      "items/adm_ra_fb_visit3_001_i_01",
+      "items/adm_ra_fb_visit3_002_i_01",
+      "items/adm_ra_fb_visit3_003_i_01",
+      "items/adm_ra_fb_visit3_004_i_01",
+      "items/adm_ra_fb_visit3_005_i_01",
+      "items/adm_ra_fb_visit3_006_i_01",
+      "items/adm_ra_fb_visit3_007_i_01",
+      "items/adm_ra_fb_visit3_008_i_01",
+      "items/adm_ra_fb_visit3_029_i_01",
+      "items/adm_ra_fb_visit3_009_i_01",
+      "items/adm_ra_fb_visit3_010_i_01",
+      "items/adm_ra_fb_visit3_028_i_01",
+      "items/adm_ra_fb_visit3_011_i_01",
+      "items/adm_ra_fb_visit3_012_i_01",
+      "items/adm_ra_fb_visit3_013_i_01",
+      "items/adm_ra_fb_visit3_014_i_01",
+      "items/adm_ra_fb_visit3_015_i_01",
+      "items/adm_ra_fb_visit3_016_i_01",
+      "items/adm_ra_fb_visit3_017_i_01",
+      "items/adm_ra_fb_visit3_018_i_01",
+      "items/adm_ra_fb_visit3_019_i_01",
+      "items/adm_ra_fb_visit3_020_i_01",
+      "items/adm_ra_fb_visit3_021_i_01",
+      "items/adm_ra_fb_visit3_022_i_01",
+      "items/adm_ra_fb_visit3_023_i_01",
+      "items/adm_ra_fb_visit3_024_i_01",
+      "items/adm_ra_fb_visit3_025_i_01",
+      "items/adm_ra_fb_visit3_026_i_01",
+      "items/adm_ra_fb_visit3_027_i_01",
+      "items/adm_ra_fb_visit3_030_i_01",
+      "items/adm_ra_fb_visit3_031_i_01",
+      "items/adm_ra_fb_visit3_032_i_01",
+      "items/adm_ra_fb_visit3_033_i_01",
+      "items/adm_ra_fb_visit3_034_i_01",
+      "items/adm_ra_fb_visit3_035_i_01",
+      "items/adm_ra_fb_visit3_036_i_01",
+      "items/adm_ra_fb_visit3_037_i_01",
+      "items/adm_ra_fb_visit3_038_i_01",
+      "items/adm_ra_fb_visit3_039_i_01",
+      "items/adm_ra_fb_visit3_040_i_01",
+      "items/adm_ra_fb_visit3_041_i_01",
+      "items/adm_ra_fb_visit3_042_i_01",
+      "items/adm_ra_fb_visit3_043_i_01",
+      "items/adm_ra_fb_003",
       "items/adm_ra_fb_visit4_001",
       "items/adm_ra_fb_visit4_002",
       "items/adm_ra_fb_visit4_003",
@@ -112,6 +201,7 @@
       "items/adm_ra_fb_visit4_005",
       "items/adm_ra_fb_visit4_006",
       "items/adm_ra_fb_visit4_007",
+      "items/adm_ra_fb_visit4_060",
       "items/adm_ra_fb_visit4_008",
       "items/adm_ra_fb_visit4_009",
       "items/adm_ra_fb_visit4_010",
@@ -170,6 +260,7 @@
       "items/adm_ra_fb_visit4_005_i_01",
       "items/adm_ra_fb_visit4_006_i_01",
       "items/adm_ra_fb_visit4_007_i_01",
+      "items/adm_ra_fb_visit4_060_i_01",
       "items/adm_ra_fb_visit4_008_i_01",
       "items/adm_ra_fb_visit4_009_i_01",
       "items/adm_ra_fb_visit4_010_i_01",
@@ -386,99 +477,97 @@
       "items/adm_ra_fb_visit6_060_i_01",
       "items/adm_ra_fb_visit6_061_i_01",
       "items/adm_ra_fb_006",
+      "items/adm_ra_fb_visit8_002",
+      "items/adm_ra_fb_visit8_003",
+      "items/adm_ra_fb_visit8_004",
+      "items/adm_ra_fb_visit8_005",
+      "items/adm_ra_fb_visit8_006",
+      "items/adm_ra_fb_visit8_007",
+      "items/adm_ra_fb_visit8_008",
+      "items/adm_ra_fb_visit8_009",
+      "items/adm_ra_fb_visit8_010",
+      "items/adm_ra_fb_visit8_011",
+      "items/adm_ra_fb_visit8_012",
+      "items/adm_ra_fb_visit8_013",
+      "items/adm_ra_fb_visit8_014",
+      "items/adm_ra_fb_visit8_015",
+      "items/adm_ra_fb_visit8_016",
+      "items/adm_ra_fb_visit8_017",
+      "items/adm_ra_fb_visit8_018",
+      "items/adm_ra_fb_visit8_019",
+      "items/adm_ra_fb_visit8_020",
+      "items/adm_ra_fb_visit8_021",
+      "items/adm_ra_fb_visit8_022",
+      "items/adm_ra_fb_visit8_023",
+      "items/adm_ra_fb_visit8_024",
+      "items/adm_ra_fb_visit8_025",
+      "items/adm_ra_fb_visit8_026",
+      "items/adm_ra_fb_visit8_027",
+      "items/adm_ra_fb_visit8_028",
+      "items/adm_ra_fb_visit8_029",
+      "items/adm_ra_fb_visit8_030",
+      "items/adm_ra_fb_visit8_031",
+      "items/adm_ra_fb_visit8_032",
+      "items/adm_ra_fb_visit8_033",
+      "items/adm_ra_fb_visit8_034",
+      "items/adm_ra_fb_visit8_035",
+      "items/adm_ra_fb_visit8_036",
+      "items/adm_ra_fb_visit8_037",
+      "items/adm_ra_fb_visit8_038",
+      "items/adm_ra_fb_visit8_039",
+      "items/adm_ra_fb_visit8_040",
+      "items/adm_ra_fb_visit8_041",
+      "items/adm_ra_fb_visit8_042",
+      "items/adm_ra_fb_visit8_043",
+      "items/adm_ra_fb_visit8_044",
+      "items/adm_ra_fb_visit8_002_i_01",
+      "items/adm_ra_fb_visit8_003_i_01",
+      "items/adm_ra_fb_visit8_004_i_01",
+      "items/adm_ra_fb_visit8_005_i_01",
+      "items/adm_ra_fb_visit8_006_i_01",
+      "items/adm_ra_fb_visit8_007_i_01",
+      "items/adm_ra_fb_visit8_008_i_01",
+      "items/adm_ra_fb_visit8_009_i_01",
+      "items/adm_ra_fb_visit8_010_i_01",
+      "items/adm_ra_fb_visit8_011_i_01",
+      "items/adm_ra_fb_visit8_012_i_01",
+      "items/adm_ra_fb_visit8_013_i_01",
+      "items/adm_ra_fb_visit8_014_i_01",
+      "items/adm_ra_fb_visit8_015_i_01",
+      "items/adm_ra_fb_visit8_016_i_01",
+      "items/adm_ra_fb_visit8_017_i_01",
+      "items/adm_ra_fb_visit8_018_i_01",
+      "items/adm_ra_fb_visit8_019_i_01",
+      "items/adm_ra_fb_visit8_020_i_01",
+      "items/adm_ra_fb_visit8_021_i_01",
+      "items/adm_ra_fb_visit8_022_i_01",
+      "items/adm_ra_fb_visit8_023_i_01",
+      "items/adm_ra_fb_visit8_024_i_01",
+      "items/adm_ra_fb_visit8_025_i_01",
+      "items/adm_ra_fb_visit8_026_i_01",
+      "items/adm_ra_fb_visit8_027_i_01",
+      "items/adm_ra_fb_visit8_028_i_01",
+      "items/adm_ra_fb_visit8_029_i_01",
+      "items/adm_ra_fb_visit8_030_i_01",
+      "items/adm_ra_fb_visit8_031_i_01",
+      "items/adm_ra_fb_visit8_032_i_01",
+      "items/adm_ra_fb_visit8_033_i_01",
+      "items/adm_ra_fb_visit8_034_i_01",
+      "items/adm_ra_fb_visit8_035_i_01",
+      "items/adm_ra_fb_visit8_036_i_01",
+      "items/adm_ra_fb_visit8_037_i_01",
+      "items/adm_ra_fb_visit8_038_i_01",
+      "items/adm_ra_fb_visit8_039_i_01",
+      "items/adm_ra_fb_visit8_040_i_01",
+      "items/adm_ra_fb_visit8_041_i_01",
+      "items/adm_ra_fb_visit8_042_i_01",
+      "items/adm_ra_fb_visit8_043_i_01",
+      "items/adm_ra_fb_visit8_044_i_01",
+      "items/adm_ra_fb_008",
+      "items/adm_ra_fb_Validity",
+      "items/adm_ra_fb_Administration",
       "items/adm_ra_fb_Informant",
-      "items/adm_ra_fb_gestational_age",
-      "items/adm_ra_fb_visit1_018",
-      "items/adm_ra_fb_visit1_018_i_01",
-      "items/adm_ra_fb_visit4_060",
-      "items/adm_ra_fb_visit4_060_i_01",
-      "items/adm_ra_fb_visit3_001",
-      "items/adm_ra_fb_visit3_002",
-      "items/adm_ra_fb_visit3_003",
-      "items/adm_ra_fb_visit3_004",
-      "items/adm_ra_fb_visit3_005",
-      "items/adm_ra_fb_visit3_006",
-      "items/adm_ra_fb_visit3_007",
-      "items/adm_ra_fb_visit3_008",
-      "items/adm_ra_fb_visit3_029",
-      "items/adm_ra_fb_visit3_009",
-      "items/adm_ra_fb_visit3_010",
-      "items/adm_ra_fb_visit3_028",
-      "items/adm_ra_fb_visit3_011",
-      "items/adm_ra_fb_visit3_012",
-      "items/adm_ra_fb_visit3_013",
-      "items/adm_ra_fb_visit3_014",
-      "items/adm_ra_fb_visit3_015",
-      "items/adm_ra_fb_visit3_016",
-      "items/adm_ra_fb_visit3_017",
-      "items/adm_ra_fb_visit3_018",
-      "items/adm_ra_fb_visit3_019",
-      "items/adm_ra_fb_visit3_020",
-      "items/adm_ra_fb_visit3_021",
-      "items/adm_ra_fb_visit3_022",
-      "items/adm_ra_fb_visit3_023",
-      "items/adm_ra_fb_visit3_024",
-      "items/adm_ra_fb_visit3_025",
-      "items/adm_ra_fb_visit3_026",
-      "items/adm_ra_fb_visit3_027",
-      "items/adm_ra_fb_visit3_030",
-      "items/adm_ra_fb_visit3_031",
-      "items/adm_ra_fb_visit3_032",
-      "items/adm_ra_fb_visit3_033",
-      "items/adm_ra_fb_visit3_034",
-      "items/adm_ra_fb_visit3_035",
-      "items/adm_ra_fb_visit3_036",
-      "items/adm_ra_fb_visit3_037",
-      "items/adm_ra_fb_visit3_038",
-      "items/adm_ra_fb_visit3_039",
-      "items/adm_ra_fb_visit3_040",
-      "items/adm_ra_fb_visit3_041",
-      "items/adm_ra_fb_visit3_042",
-      "items/adm_ra_fb_visit3_043",
-      "items/adm_ra_fb_visit3_001_i_01",
-      "items/adm_ra_fb_visit3_002_i_01",
-      "items/adm_ra_fb_visit3_003_i_01",
-      "items/adm_ra_fb_visit3_004_i_01",
-      "items/adm_ra_fb_visit3_005_i_01",
-      "items/adm_ra_fb_visit3_006_i_01",
-      "items/adm_ra_fb_visit3_007_i_01",
-      "items/adm_ra_fb_visit3_008_i_01",
-      "items/adm_ra_fb_visit3_029_i_01",
-      "items/adm_ra_fb_visit3_009_i_01",
-      "items/adm_ra_fb_visit3_010_i_01",
-      "items/adm_ra_fb_visit3_028_i_01",
-      "items/adm_ra_fb_visit3_011_i_01",
-      "items/adm_ra_fb_visit3_012_i_01",
-      "items/adm_ra_fb_visit3_013_i_01",
-      "items/adm_ra_fb_visit3_014_i_01",
-      "items/adm_ra_fb_visit3_015_i_01",
-      "items/adm_ra_fb_visit3_016_i_01",
-      "items/adm_ra_fb_visit3_017_i_01",
-      "items/adm_ra_fb_visit3_018_i_01",
-      "items/adm_ra_fb_visit3_019_i_01",
-      "items/adm_ra_fb_visit3_020_i_01",
-      "items/adm_ra_fb_visit3_021_i_01",
-      "items/adm_ra_fb_visit3_022_i_01",
-      "items/adm_ra_fb_visit3_023_i_01",
-      "items/adm_ra_fb_visit3_024_i_01",
-      "items/adm_ra_fb_visit3_025_i_01",
-      "items/adm_ra_fb_visit3_026_i_01",
-      "items/adm_ra_fb_visit3_027_i_01",
-      "items/adm_ra_fb_visit3_030_i_01",
-      "items/adm_ra_fb_visit3_031_i_01",
-      "items/adm_ra_fb_visit3_032_i_01",
-      "items/adm_ra_fb_visit3_033_i_01",
-      "items/adm_ra_fb_visit3_034_i_01",
-      "items/adm_ra_fb_visit3_035_i_01",
-      "items/adm_ra_fb_visit3_036_i_01",
-      "items/adm_ra_fb_visit3_037_i_01",
-      "items/adm_ra_fb_visit3_038_i_01",
-      "items/adm_ra_fb_visit3_039_i_01",
-      "items/adm_ra_fb_visit3_040_i_01",
-      "items/adm_ra_fb_visit3_041_i_01",
-      "items/adm_ra_fb_visit3_042_i_01",
-      "items/adm_ra_fb_visit3_043_i_01",
-      "items/adm_ra_fb_003"
+      "items/adm_ra_fb_lang"
     ],
     "addProperties": [
       {
@@ -496,6 +585,18 @@
       {
         "variableName": "adm_ra_fb_Window_Difference",
         "isAbout": "items/adm_ra_fb_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_gestational_age",
+        "isAbout": "items/adm_ra_fb_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_adjusted_age",
+        "isAbout": "items/adm_ra_fb_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -520,18 +621,6 @@
       {
         "variableName": "adm_ra_fb_Duration",
         "isAbout": "items/adm_ra_fb_Duration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_Validity",
-        "isAbout": "items/adm_ra_fb_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_Administration",
-        "isAbout": "items/adm_ra_fb_Administration",
         "valueRequired": false,
         "isVis": true
       },
@@ -638,6 +727,12 @@
         "isVis": true
       },
       {
+        "variableName": "adm_ra_fb_visit1_018",
+        "isAbout": "items/adm_ra_fb_visit1_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_ra_fb_visit1_001_i_01",
         "isAbout": "items/adm_ra_fb_visit1_001_i_01",
         "valueRequired": false,
@@ -736,6 +831,12 @@
       {
         "variableName": "adm_ra_fb_visit1_017_i_01",
         "isAbout": "items/adm_ra_fb_visit1_017_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit1_018_i_01",
+        "isAbout": "items/adm_ra_fb_visit1_018_i_01",
         "valueRequired": false,
         "isVis": true
       },
@@ -1040,6 +1141,528 @@
         "isVis": true
       },
       {
+        "variableName": "adm_ra_fb_visit3_001",
+        "isAbout": "items/adm_ra_fb_visit3_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_002",
+        "isAbout": "items/adm_ra_fb_visit3_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_003",
+        "isAbout": "items/adm_ra_fb_visit3_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_004",
+        "isAbout": "items/adm_ra_fb_visit3_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_005",
+        "isAbout": "items/adm_ra_fb_visit3_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_006",
+        "isAbout": "items/adm_ra_fb_visit3_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_007",
+        "isAbout": "items/adm_ra_fb_visit3_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_008",
+        "isAbout": "items/adm_ra_fb_visit3_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_029",
+        "isAbout": "items/adm_ra_fb_visit3_029",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_009",
+        "isAbout": "items/adm_ra_fb_visit3_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_010",
+        "isAbout": "items/adm_ra_fb_visit3_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_028",
+        "isAbout": "items/adm_ra_fb_visit3_028",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_011",
+        "isAbout": "items/adm_ra_fb_visit3_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_012",
+        "isAbout": "items/adm_ra_fb_visit3_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_013",
+        "isAbout": "items/adm_ra_fb_visit3_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_014",
+        "isAbout": "items/adm_ra_fb_visit3_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_015",
+        "isAbout": "items/adm_ra_fb_visit3_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_016",
+        "isAbout": "items/adm_ra_fb_visit3_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_017",
+        "isAbout": "items/adm_ra_fb_visit3_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_018",
+        "isAbout": "items/adm_ra_fb_visit3_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_019",
+        "isAbout": "items/adm_ra_fb_visit3_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_020",
+        "isAbout": "items/adm_ra_fb_visit3_020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_021",
+        "isAbout": "items/adm_ra_fb_visit3_021",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_022",
+        "isAbout": "items/adm_ra_fb_visit3_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_023",
+        "isAbout": "items/adm_ra_fb_visit3_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_024",
+        "isAbout": "items/adm_ra_fb_visit3_024",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_025",
+        "isAbout": "items/adm_ra_fb_visit3_025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_026",
+        "isAbout": "items/adm_ra_fb_visit3_026",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_027",
+        "isAbout": "items/adm_ra_fb_visit3_027",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_030",
+        "isAbout": "items/adm_ra_fb_visit3_030",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_031",
+        "isAbout": "items/adm_ra_fb_visit3_031",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_032",
+        "isAbout": "items/adm_ra_fb_visit3_032",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_033",
+        "isAbout": "items/adm_ra_fb_visit3_033",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_034",
+        "isAbout": "items/adm_ra_fb_visit3_034",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_035",
+        "isAbout": "items/adm_ra_fb_visit3_035",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_036",
+        "isAbout": "items/adm_ra_fb_visit3_036",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_037",
+        "isAbout": "items/adm_ra_fb_visit3_037",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_038",
+        "isAbout": "items/adm_ra_fb_visit3_038",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_039",
+        "isAbout": "items/adm_ra_fb_visit3_039",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_040",
+        "isAbout": "items/adm_ra_fb_visit3_040",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_041",
+        "isAbout": "items/adm_ra_fb_visit3_041",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_042",
+        "isAbout": "items/adm_ra_fb_visit3_042",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_043",
+        "isAbout": "items/adm_ra_fb_visit3_043",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_001_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_001_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_002_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_002_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_003_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_003_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_004_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_004_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_005_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_005_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_006_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_006_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_007_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_007_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_008_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_008_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_029_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_029_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_009_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_009_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_010_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_010_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_028_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_028_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_011_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_011_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_012_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_012_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_013_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_013_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_014_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_014_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_015_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_015_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_016_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_016_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_017_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_017_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_018_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_018_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_019_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_019_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_020_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_020_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_021_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_021_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_022_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_022_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_023_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_023_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_024_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_024_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_025_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_025_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_026_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_026_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_027_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_027_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_030_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_030_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_031_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_031_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_032_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_032_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_033_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_033_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_034_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_034_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_035_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_035_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_036_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_036_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_037_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_037_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_038_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_038_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_039_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_039_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_040_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_040_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_041_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_041_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_042_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_042_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit3_043_i_01",
+        "isAbout": "items/adm_ra_fb_visit3_043_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_003",
+        "isAbout": "items/adm_ra_fb_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_ra_fb_visit4_001",
         "isAbout": "items/adm_ra_fb_visit4_001",
         "valueRequired": false,
@@ -1078,6 +1701,12 @@
       {
         "variableName": "adm_ra_fb_visit4_007",
         "isAbout": "items/adm_ra_fb_visit4_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit4_060",
+        "isAbout": "items/adm_ra_fb_visit4_060",
         "valueRequired": false,
         "isVis": true
       },
@@ -1426,6 +2055,12 @@
       {
         "variableName": "adm_ra_fb_visit4_007_i_01",
         "isAbout": "items/adm_ra_fb_visit4_007_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit4_060_i_01",
+        "isAbout": "items/adm_ra_fb_visit4_060_i_01",
         "valueRequired": false,
         "isVis": true
       },
@@ -2726,560 +3361,548 @@
         "isVis": true
       },
       {
+        "variableName": "adm_ra_fb_visit8_002",
+        "isAbout": "items/adm_ra_fb_visit8_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_003",
+        "isAbout": "items/adm_ra_fb_visit8_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_004",
+        "isAbout": "items/adm_ra_fb_visit8_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_005",
+        "isAbout": "items/adm_ra_fb_visit8_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_006",
+        "isAbout": "items/adm_ra_fb_visit8_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_007",
+        "isAbout": "items/adm_ra_fb_visit8_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_008",
+        "isAbout": "items/adm_ra_fb_visit8_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_009",
+        "isAbout": "items/adm_ra_fb_visit8_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_010",
+        "isAbout": "items/adm_ra_fb_visit8_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_011",
+        "isAbout": "items/adm_ra_fb_visit8_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_012",
+        "isAbout": "items/adm_ra_fb_visit8_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_013",
+        "isAbout": "items/adm_ra_fb_visit8_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_014",
+        "isAbout": "items/adm_ra_fb_visit8_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_015",
+        "isAbout": "items/adm_ra_fb_visit8_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_016",
+        "isAbout": "items/adm_ra_fb_visit8_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_017",
+        "isAbout": "items/adm_ra_fb_visit8_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_018",
+        "isAbout": "items/adm_ra_fb_visit8_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_019",
+        "isAbout": "items/adm_ra_fb_visit8_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_020",
+        "isAbout": "items/adm_ra_fb_visit8_020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_021",
+        "isAbout": "items/adm_ra_fb_visit8_021",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_022",
+        "isAbout": "items/adm_ra_fb_visit8_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_023",
+        "isAbout": "items/adm_ra_fb_visit8_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_024",
+        "isAbout": "items/adm_ra_fb_visit8_024",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_025",
+        "isAbout": "items/adm_ra_fb_visit8_025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_026",
+        "isAbout": "items/adm_ra_fb_visit8_026",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_027",
+        "isAbout": "items/adm_ra_fb_visit8_027",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_028",
+        "isAbout": "items/adm_ra_fb_visit8_028",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_029",
+        "isAbout": "items/adm_ra_fb_visit8_029",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_030",
+        "isAbout": "items/adm_ra_fb_visit8_030",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_031",
+        "isAbout": "items/adm_ra_fb_visit8_031",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_032",
+        "isAbout": "items/adm_ra_fb_visit8_032",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_033",
+        "isAbout": "items/adm_ra_fb_visit8_033",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_034",
+        "isAbout": "items/adm_ra_fb_visit8_034",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_035",
+        "isAbout": "items/adm_ra_fb_visit8_035",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_036",
+        "isAbout": "items/adm_ra_fb_visit8_036",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_037",
+        "isAbout": "items/adm_ra_fb_visit8_037",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_038",
+        "isAbout": "items/adm_ra_fb_visit8_038",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_039",
+        "isAbout": "items/adm_ra_fb_visit8_039",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_040",
+        "isAbout": "items/adm_ra_fb_visit8_040",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_041",
+        "isAbout": "items/adm_ra_fb_visit8_041",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_042",
+        "isAbout": "items/adm_ra_fb_visit8_042",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_043",
+        "isAbout": "items/adm_ra_fb_visit8_043",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_044",
+        "isAbout": "items/adm_ra_fb_visit8_044",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_002_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_002_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_003_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_003_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_004_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_004_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_005_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_005_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_006_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_006_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_007_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_007_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_008_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_008_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_009_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_009_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_010_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_010_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_011_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_011_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_012_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_012_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_013_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_013_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_014_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_014_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_015_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_015_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_016_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_016_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_017_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_017_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_018_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_018_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_019_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_019_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_020_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_020_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_021_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_021_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_022_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_022_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_023_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_023_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_024_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_024_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_025_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_025_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_026_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_026_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_027_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_027_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_028_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_028_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_029_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_029_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_030_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_030_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_031_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_031_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_032_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_032_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_033_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_033_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_034_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_034_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_035_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_035_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_036_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_036_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_037_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_037_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_038_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_038_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_039_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_039_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_040_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_040_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_041_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_041_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_042_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_042_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_043_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_043_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_visit8_044_i_01",
+        "isAbout": "items/adm_ra_fb_visit8_044_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_008",
+        "isAbout": "items/adm_ra_fb_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_Validity",
+        "isAbout": "items/adm_ra_fb_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_ra_fb_Administration",
+        "isAbout": "items/adm_ra_fb_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_ra_fb_Informant",
         "isAbout": "items/adm_ra_fb_Informant",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "adm_ra_fb_gestational_age",
-        "isAbout": "items/adm_ra_fb_gestational_age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit1_018",
-        "isAbout": "items/adm_ra_fb_visit1_018",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit1_018_i_01",
-        "isAbout": "items/adm_ra_fb_visit1_018_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit4_060",
-        "isAbout": "items/adm_ra_fb_visit4_060",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit4_060_i_01",
-        "isAbout": "items/adm_ra_fb_visit4_060_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_001",
-        "isAbout": "items/adm_ra_fb_visit3_001",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_002",
-        "isAbout": "items/adm_ra_fb_visit3_002",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_003",
-        "isAbout": "items/adm_ra_fb_visit3_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_004",
-        "isAbout": "items/adm_ra_fb_visit3_004",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_005",
-        "isAbout": "items/adm_ra_fb_visit3_005",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_006",
-        "isAbout": "items/adm_ra_fb_visit3_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_007",
-        "isAbout": "items/adm_ra_fb_visit3_007",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_008",
-        "isAbout": "items/adm_ra_fb_visit3_008",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_029",
-        "isAbout": "items/adm_ra_fb_visit3_029",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_009",
-        "isAbout": "items/adm_ra_fb_visit3_009",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_010",
-        "isAbout": "items/adm_ra_fb_visit3_010",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_028",
-        "isAbout": "items/adm_ra_fb_visit3_028",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_011",
-        "isAbout": "items/adm_ra_fb_visit3_011",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_012",
-        "isAbout": "items/adm_ra_fb_visit3_012",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_013",
-        "isAbout": "items/adm_ra_fb_visit3_013",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_014",
-        "isAbout": "items/adm_ra_fb_visit3_014",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_015",
-        "isAbout": "items/adm_ra_fb_visit3_015",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_016",
-        "isAbout": "items/adm_ra_fb_visit3_016",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_017",
-        "isAbout": "items/adm_ra_fb_visit3_017",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_018",
-        "isAbout": "items/adm_ra_fb_visit3_018",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_019",
-        "isAbout": "items/adm_ra_fb_visit3_019",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_020",
-        "isAbout": "items/adm_ra_fb_visit3_020",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_021",
-        "isAbout": "items/adm_ra_fb_visit3_021",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_022",
-        "isAbout": "items/adm_ra_fb_visit3_022",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_023",
-        "isAbout": "items/adm_ra_fb_visit3_023",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_024",
-        "isAbout": "items/adm_ra_fb_visit3_024",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_025",
-        "isAbout": "items/adm_ra_fb_visit3_025",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_026",
-        "isAbout": "items/adm_ra_fb_visit3_026",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_027",
-        "isAbout": "items/adm_ra_fb_visit3_027",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_030",
-        "isAbout": "items/adm_ra_fb_visit3_030",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_031",
-        "isAbout": "items/adm_ra_fb_visit3_031",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_032",
-        "isAbout": "items/adm_ra_fb_visit3_032",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_033",
-        "isAbout": "items/adm_ra_fb_visit3_033",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_034",
-        "isAbout": "items/adm_ra_fb_visit3_034",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_035",
-        "isAbout": "items/adm_ra_fb_visit3_035",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_036",
-        "isAbout": "items/adm_ra_fb_visit3_036",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_037",
-        "isAbout": "items/adm_ra_fb_visit3_037",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_038",
-        "isAbout": "items/adm_ra_fb_visit3_038",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_039",
-        "isAbout": "items/adm_ra_fb_visit3_039",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_040",
-        "isAbout": "items/adm_ra_fb_visit3_040",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_041",
-        "isAbout": "items/adm_ra_fb_visit3_041",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_042",
-        "isAbout": "items/adm_ra_fb_visit3_042",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_043",
-        "isAbout": "items/adm_ra_fb_visit3_043",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_001_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_001_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_002_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_002_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_003_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_003_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_004_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_004_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_005_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_005_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_006_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_006_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_007_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_007_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_008_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_008_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_029_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_029_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_009_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_009_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_010_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_010_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_028_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_028_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_011_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_011_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_012_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_012_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_013_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_013_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_014_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_014_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_015_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_015_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_016_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_016_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_017_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_017_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_018_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_018_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_019_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_019_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_020_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_020_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_021_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_021_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_022_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_022_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_023_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_023_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_024_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_024_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_025_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_025_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_026_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_026_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_027_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_027_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_030_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_030_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_031_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_031_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_032_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_032_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_033_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_033_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_034_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_034_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_035_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_035_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_036_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_036_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_037_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_037_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_038_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_038_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_039_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_039_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_040_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_040_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_041_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_041_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_042_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_042_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_visit3_043_i_01",
-        "isAbout": "items/adm_ra_fb_visit3_043_i_01",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_ra_fb_003",
-        "isAbout": "items/adm_ra_fb_003",
+        "variableName": "adm_ra_fb_lang",
+        "isAbout": "items/adm_ra_fb_lang",
         "valueRequired": false,
         "isVis": true
       }

@@ -9,11 +9,49 @@
     "en": "\u00ac\u00f8Su hijo/a habla sobre objetos que no est\u221a\u00b0n presentes? Por ejemplo, \u00ac\u00f8pide un juguete favorito o un alimento o pregunta por una persona cuando no la puede ver?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      },
+      {
+        "name": {
+          "en": "simple"
+        },
+        "value": "Simple"
+      },
+      {
+        "name": {
+          "en": "complex"
+        },
+        "value": "Complex"
+      }
     ]
   },
   "additionalNotesObj": [
