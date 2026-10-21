@@ -135,7 +135,8 @@
       "items/mh_cg_erica_rel_3_9m_flag_con_005",
       "items/mh_cg_erica_rel_3_9m_Validity",
       "items/mh_cg_erica_rel_3_9m_Administration",
-      "items/mh_cg_erica_rel_3_9m_Informant"
+      "items/mh_cg_erica_rel_3_9m_Informant",
+      "items/mh_cg_erica_rel_3_9m_lang"
     ],
     "addProperties": [
       {
@@ -879,6 +880,12 @@
       {
         "variableName": "mh_cg_erica_rel_3_9m_Informant",
         "isAbout": "items/mh_cg_erica_rel_3_9m_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_rel_3_9m_lang",
+        "isAbout": "items/mh_cg_erica_rel_3_9m_lang",
         "valueRequired": false,
         "isVis": true
       }

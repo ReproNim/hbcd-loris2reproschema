@@ -1,0 +1,113 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "sed_cg_tic_screener_04_acg_007",
+  "prefLabel": {
+    "en": "sed_cg_tic_screener_04_acg_007"
+  },
+  "question": {
+    "en": "What is {firstName}'s relationship to you (current caregiver)?"
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "child_biological_adoptive_step"
+        },
+        "value": "Child biological/adoptive/step"
+      },
+      {
+        "name": {
+          "en": "foster_child"
+        },
+        "value": "Foster child"
+      },
+      {
+        "name": {
+          "en": "grandchild_or_great_grandchild"
+        },
+        "value": "Grandchild or great grandchild"
+      },
+      {
+        "name": {
+          "en": "other_family_member_eg_sibling"
+        },
+        "value": "Other family member (e.g., sibling)"
+      },
+      {
+        "name": {
+          "en": "nonfamily_member_fictive_kin_friend_of_the_family_or_friend"
+        },
+        "value": "Non-family member, fictive kin, friend of the family, or friend"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "04_acg_007"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "sed_cg_tic_screener"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "PHP"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "LORIS"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
