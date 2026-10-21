@@ -9,11 +9,11 @@
     "en": "Length 1 (in cm)"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float"
+      "xsd:string"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Float"
+      "value": "String"
     },
     {
       "source": "loris",

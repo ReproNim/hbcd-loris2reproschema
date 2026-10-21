@@ -9,12 +9,12 @@
     "en": "Frequency Spanish at arrangement 3"
   },
   "ui": {
-    "inputType": "number",
+    "inputType": "text",
     "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float"
+      "xsd:string"
     ]
   },
   "additionalNotesObj": [
@@ -41,7 +41,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Float"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -56,7 +56,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Continuous"
+      "value": "TBD"
     },
     {
       "source": "loris",
