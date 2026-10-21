@@ -9,7 +9,8 @@
     "en": "Cover their ears while upset?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "select",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [
@@ -57,7 +58,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -72,7 +73,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",

@@ -1,0 +1,159 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_tu_022",
+  "prefLabel": {
+    "en": "pex_cg_tu_022"
+  },
+  "question": {
+    "en": "What mental health disorder were you being treated for?"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Depression"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Anger"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Mania"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Anxiety"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Psychosis"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Sleep problems"
+      },
+      {
+        "name": {
+          "en": "7"
+        },
+        "value": "Repetitive thoughts or behaviors"
+      },
+      {
+        "name": {
+          "en": "8"
+        },
+        "value": "Dissociative disorder"
+      },
+      {
+        "name": {
+          "en": "9"
+        },
+        "value": "Personality disorder"
+      },
+      {
+        "name": {
+          "en": "10"
+        },
+        "value": "Other"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_cg_tu_015_i_01(1) == '1' OR pex_cg_tu_015_i_01(2) == '1' OR pex_cg_tu_015_i_01(3) == '1' OR pex_cg_tu_015_i_01(4) == '1' OR pex_cg_tu_015_i_01(5) == '1' OR pex_cg_tu_015_i_01(6) == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "022"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_tu"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

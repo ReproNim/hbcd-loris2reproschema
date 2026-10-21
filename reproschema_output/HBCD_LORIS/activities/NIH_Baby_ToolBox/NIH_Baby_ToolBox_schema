@@ -16,22 +16,156 @@
       "items/ncl_ch_nbtb_Candidate_Age",
       "items/ncl_ch_nbtb_Window_Difference",
       "items/ncl_ch_nbtb_gestational_age",
+      "items/ncl_ch_nbtb_adjusted_age",
       "items/ncl_ch_nbtb_Examiner",
       "items/ncl_ch_nbtb_timestamp_start",
       "items/ncl_ch_nbtb_timestamp_stop",
       "items/ncl_ch_nbtb_Duration",
+      "items/ncl_ch_nbtb_lang",
       "items/ncl_ch_nbtb_par_altcg_instrumentName",
       "items/ncl_ch_nbtb_RegistrationExport_file",
       "items/ncl_ch_nbtb_ScoresExport_file",
+      "items/ncl_ch_nbtb_ItemExport_file",
       "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_before",
       "items/ncl_ch_nbtb_NIH_baby_toolbox_participant_after",
       "items/ncl_ch_nbtb_RegistrationID",
       "items/ncl_ch_nbtb_iPadVersion",
       "items/ncl_ch_nbtb_Examiner_cronjob",
-      "items/ncl_ch_nbtb_Validity",
-      "items/ncl_ch_nbtb_Administration",
-      "items/ncl_ch_nbtb_Informant",
-      "items/ncl_ch_nbtb_ItemExport_file",
+      "items/ncl_ch_nbtb_mullen_receptive_computed_score",
+      "items/ncl_ch_nbtb_mullen_receptive_item_count",
+      "items/ncl_ch_nbtb_mullen_receptive_language",
+      "items/ncl_ch_nbtb_mullen_receptive_instrument_breakoff",
+      "items/ncl_ch_nbtb_mullen_receptive_instrument_status_2",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_computed_score",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_item_count",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_language",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_instrument_breakoff",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_instrument_status_2",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_computed_score",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_item_count",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_language",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_instrument_breakoff",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_instrument_status_2",
+      "items/ncl_ch_nbtb_mullen_receptive_key_1",
+      "items/ncl_ch_nbtb_mullen_receptive_value_1",
+      "items/ncl_ch_nbtb_mullen_receptive_key_2",
+      "items/ncl_ch_nbtb_mullen_receptive_value_2",
+      "items/ncl_ch_nbtb_mullen_receptive_key_3",
+      "items/ncl_ch_nbtb_mullen_receptive_value_3",
+      "items/ncl_ch_nbtb_mullen_receptive_key_4",
+      "items/ncl_ch_nbtb_mullen_receptive_value_4",
+      "items/ncl_ch_nbtb_mullen_receptive_key_5",
+      "items/ncl_ch_nbtb_mullen_receptive_value_5",
+      "items/ncl_ch_nbtb_mullen_receptive_key_6",
+      "items/ncl_ch_nbtb_mullen_receptive_value_6",
+      "items/ncl_ch_nbtb_mullen_receptive_key_7",
+      "items/ncl_ch_nbtb_mullen_receptive_value_7",
+      "items/ncl_ch_nbtb_mullen_receptive_key_8",
+      "items/ncl_ch_nbtb_mullen_receptive_value_8",
+      "items/ncl_ch_nbtb_mullen_receptive_key_9",
+      "items/ncl_ch_nbtb_mullen_receptive_value_9",
+      "items/ncl_ch_nbtb_mullen_receptive_key_10",
+      "items/ncl_ch_nbtb_mullen_receptive_value_10",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_1",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_1",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_2",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_2",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_3",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_3",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_4",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_4",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_5",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_5",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_6",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_6",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_7",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_7",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_8",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_8",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_9",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_9",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_key_10",
+      "items/ncl_ch_nbtb_mullen_expressive_prompted_value_10",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_1",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_1",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_2",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_2",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_3",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_3",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_4",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_4",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_5",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_5",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_6",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_6",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_7",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_7",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_8",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_8",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_9",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_9",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_key_10",
+      "items/ncl_ch_nbtb_mullen_expressive_observational_value_10",
+      "items/ncl_ch_nbtb_looklistening_key_1",
+      "items/ncl_ch_nbtb_looklistening_value_1",
+      "items/ncl_ch_nbtb_looklistening_key_2",
+      "items/ncl_ch_nbtb_looklistening_value_2",
+      "items/ncl_ch_nbtb_looklistening_key_3",
+      "items/ncl_ch_nbtb_looklistening_value_3",
+      "items/ncl_ch_nbtb_looklistening_key_4",
+      "items/ncl_ch_nbtb_looklistening_value_4",
+      "items/ncl_ch_nbtb_looklistening_key_5",
+      "items/ncl_ch_nbtb_looklistening_value_5",
+      "items/ncl_ch_nbtb_looklistening_key_6",
+      "items/ncl_ch_nbtb_looklistening_value_6",
+      "items/ncl_ch_nbtb_looklistening_key_7",
+      "items/ncl_ch_nbtb_looklistening_value_7",
+      "items/ncl_ch_nbtb_looklistening_key_8",
+      "items/ncl_ch_nbtb_looklistening_value_8",
+      "items/ncl_ch_nbtb_looklistening_key_9",
+      "items/ncl_ch_nbtb_looklistening_value_9",
+      "items/ncl_ch_nbtb_looklistening_key_10",
+      "items/ncl_ch_nbtb_looklistening_value_10",
+      "items/ncl_ch_nbtb_mvr_key_1",
+      "items/ncl_ch_nbtb_mvr_value_1",
+      "items/ncl_ch_nbtb_mvr_key_2",
+      "items/ncl_ch_nbtb_mvr_value_2",
+      "items/ncl_ch_nbtb_mvr_key_3",
+      "items/ncl_ch_nbtb_mvr_value_3",
+      "items/ncl_ch_nbtb_mvr_key_4",
+      "items/ncl_ch_nbtb_mvr_value_4",
+      "items/ncl_ch_nbtb_mvr_key_5",
+      "items/ncl_ch_nbtb_mvr_value_5",
+      "items/ncl_ch_nbtb_mvr_key_6",
+      "items/ncl_ch_nbtb_mvr_value_6",
+      "items/ncl_ch_nbtb_mvr_key_7",
+      "items/ncl_ch_nbtb_mvr_value_7",
+      "items/ncl_ch_nbtb_mvr_key_8",
+      "items/ncl_ch_nbtb_mvr_value_8",
+      "items/ncl_ch_nbtb_mvr_key_9",
+      "items/ncl_ch_nbtb_mvr_value_9",
+      "items/ncl_ch_nbtb_mvr_key_10",
+      "items/ncl_ch_nbtb_mvr_value_10",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_1",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_1",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_2",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_2",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_3",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_3",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_4",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_4",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_5",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_5",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_6",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_6",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_7",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_7",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_8",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_8",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_9",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_9",
+      "items/ncl_ch_nbtb_mullen_language_composite_key_10",
+      "items/ncl_ch_nbtb_mullen_language_composite_value_10",
       "items/ncl_ch_nbtb_mullen_receptive_instrument",
       "items/ncl_ch_nbtb_mullen_receptive_item_1",
       "items/ncl_ch_nbtb_mullen_receptive_item_1_0",
@@ -331,35 +465,239 @@
       "items/ncl_ch_nbtb_language_css_se",
       "items/ncl_ch_nbtb_language_ss",
       "items/ncl_ch_nbtb_language_ss_se",
-      "items/ncl_ch_nbtb_language_mr_css",
-      "items/ncl_ch_nbtb_language_me_css",
       "items/ncl_ch_nbtb_language_confidence_css_lower",
       "items/ncl_ch_nbtb_language_confidence_css_upper",
-      "items/ncl_ch_nbtb_language_confidence_ss_upper",
       "items/ncl_ch_nbtb_language_confidence_ss_lower",
+      "items/ncl_ch_nbtb_language_confidence_ss_upper",
       "items/ncl_ch_nbtb_language_natl_percentile",
+      "items/ncl_ch_nbtb_language_peak_look_round1",
+      "items/ncl_ch_nbtb_language_peak_look_round2",
+      "items/ncl_ch_nbtb_language_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_language_sum_look_round1",
+      "items/ncl_ch_nbtb_language_sum_look_round2",
+      "items/ncl_ch_nbtb_language_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_language_mean_look_round1",
+      "items/ncl_ch_nbtb_language_mean_look_round2",
+      "items/ncl_ch_nbtb_language_mean_look_both_rounds",
       "items/ncl_ch_nbtb_mullen_receptive_css",
       "items/ncl_ch_nbtb_mullen_receptive_css_se",
       "items/ncl_ch_nbtb_mullen_receptive_ss",
       "items/ncl_ch_nbtb_mullen_receptive_ss_se",
-      "items/ncl_ch_nbtb_mullen_receptive_mr_css",
-      "items/ncl_ch_nbtb_mullen_receptive_me_css",
       "items/ncl_ch_nbtb_mullen_receptive_confidence_css_lower",
       "items/ncl_ch_nbtb_mullen_receptive_confidence_css_upper",
-      "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
       "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_lower",
+      "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
       "items/ncl_ch_nbtb_mullen_receptive_natl_percentile",
+      "items/ncl_ch_nbtb_mullen_receptive_peak_look_round1",
+      "items/ncl_ch_nbtb_mullen_receptive_peak_look_round2",
+      "items/ncl_ch_nbtb_mullen_receptive_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_mullen_receptive_sum_look_round1",
+      "items/ncl_ch_nbtb_mullen_receptive_sum_look_round2",
+      "items/ncl_ch_nbtb_mullen_receptive_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_mullen_receptive_mean_look_round1",
+      "items/ncl_ch_nbtb_mullen_receptive_mean_look_round2",
+      "items/ncl_ch_nbtb_mullen_receptive_mean_look_both_rounds",
       "items/ncl_ch_nbtb_mullen_expressive_css",
       "items/ncl_ch_nbtb_mullen_expressive_css_se",
       "items/ncl_ch_nbtb_mullen_expressive_ss",
       "items/ncl_ch_nbtb_mullen_expressive_ss_se",
-      "items/ncl_ch_nbtb_mullen_expressive_mr_css",
-      "items/ncl_ch_nbtb_mullen_expressive_me_css",
       "items/ncl_ch_nbtb_mullen_expressive_confidence_css_lower",
       "items/ncl_ch_nbtb_mullen_expressive_confidence_css_upper",
-      "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
       "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_lower",
-      "items/ncl_ch_nbtb_mullen_expressive_natl_percentile"
+      "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
+      "items/ncl_ch_nbtb_mullen_expressive_natl_percentile",
+      "items/ncl_ch_nbtb_mullen_expressive_peak_look_round1",
+      "items/ncl_ch_nbtb_mullen_expressive_peak_look_round2",
+      "items/ncl_ch_nbtb_mullen_expressive_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_mullen_expressive_sum_look_round1",
+      "items/ncl_ch_nbtb_mullen_expressive_sum_look_round2",
+      "items/ncl_ch_nbtb_mullen_expressive_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_mullen_expressive_mean_look_round1",
+      "items/ncl_ch_nbtb_mullen_expressive_mean_look_round2",
+      "items/ncl_ch_nbtb_mullen_expressive_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_familiarization_css",
+      "items/ncl_ch_nbtb_familiarization_css_se",
+      "items/ncl_ch_nbtb_familiarization_ss",
+      "items/ncl_ch_nbtb_familiarization_ss_se",
+      "items/ncl_ch_nbtb_familiarization_confidence_css_lower",
+      "items/ncl_ch_nbtb_familiarization_confidence_css_upper",
+      "items/ncl_ch_nbtb_familiarization_confidence_ss_lower",
+      "items/ncl_ch_nbtb_familiarization_confidence_ss_upper",
+      "items/ncl_ch_nbtb_familiarization_natl_percentile",
+      "items/ncl_ch_nbtb_familiarization_peak_look_round1",
+      "items/ncl_ch_nbtb_familiarization_peak_look_round2",
+      "items/ncl_ch_nbtb_familiarization_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_familiarization_sum_look_round1",
+      "items/ncl_ch_nbtb_familiarization_sum_look_round2",
+      "items/ncl_ch_nbtb_familiarization_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_familiarization_mean_look_round1",
+      "items/ncl_ch_nbtb_familiarization_mean_look_round2",
+      "items/ncl_ch_nbtb_familiarization_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_mvr_css",
+      "items/ncl_ch_nbtb_mvr_css_se",
+      "items/ncl_ch_nbtb_mvr_ss",
+      "items/ncl_ch_nbtb_mvr_ss_se",
+      "items/ncl_ch_nbtb_mvr_confidence_css_lower",
+      "items/ncl_ch_nbtb_mvr_confidence_css_upper",
+      "items/ncl_ch_nbtb_mvr_confidence_ss_lower",
+      "items/ncl_ch_nbtb_mvr_confidence_ss_upper",
+      "items/ncl_ch_nbtb_mvr_natl_percentile",
+      "items/ncl_ch_nbtb_mvr_peak_look_round1",
+      "items/ncl_ch_nbtb_mvr_peak_look_round2",
+      "items/ncl_ch_nbtb_mvr_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_mvr_sum_look_round1",
+      "items/ncl_ch_nbtb_mvr_sum_look_round2",
+      "items/ncl_ch_nbtb_mvr_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_mvr_mean_look_round1",
+      "items/ncl_ch_nbtb_mvr_mean_look_round2",
+      "items/ncl_ch_nbtb_mvr_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_lwl_en_css",
+      "items/ncl_ch_nbtb_lwl_en_css_se",
+      "items/ncl_ch_nbtb_lwl_en_ss",
+      "items/ncl_ch_nbtb_lwl_en_ss_se",
+      "items/ncl_ch_nbtb_lwl_en_confidence_css_lower",
+      "items/ncl_ch_nbtb_lwl_en_confidence_css_upper",
+      "items/ncl_ch_nbtb_lwl_en_confidence_ss_lower",
+      "items/ncl_ch_nbtb_lwl_en_confidence_ss_upper",
+      "items/ncl_ch_nbtb_lwl_en_natl_percentile",
+      "items/ncl_ch_nbtb_lwl_en_peak_look_round1",
+      "items/ncl_ch_nbtb_lwl_en_peak_look_round2",
+      "items/ncl_ch_nbtb_lwl_en_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_lwl_en_sum_look_round1",
+      "items/ncl_ch_nbtb_lwl_en_sum_look_round2",
+      "items/ncl_ch_nbtb_lwl_en_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_lwl_en_mean_look_round1",
+      "items/ncl_ch_nbtb_lwl_en_mean_look_round2",
+      "items/ncl_ch_nbtb_lwl_en_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_mtl_css",
+      "items/ncl_ch_nbtb_mtl_css_se",
+      "items/ncl_ch_nbtb_mtl_ss",
+      "items/ncl_ch_nbtb_mtl_ss_se",
+      "items/ncl_ch_nbtb_mtl_confidence_css_lower",
+      "items/ncl_ch_nbtb_mtl_confidence_css_upper",
+      "items/ncl_ch_nbtb_mtl_confidence_ss_lower",
+      "items/ncl_ch_nbtb_mtl_confidence_ss_upper",
+      "items/ncl_ch_nbtb_mtl_natl_percentile",
+      "items/ncl_ch_nbtb_mtl_peak_look_round1",
+      "items/ncl_ch_nbtb_mtl_peak_look_round2",
+      "items/ncl_ch_nbtb_mtl_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_mtl_sum_look_round1",
+      "items/ncl_ch_nbtb_mtl_sum_look_round2",
+      "items/ncl_ch_nbtb_mtl_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_mtl_mean_look_round1",
+      "items/ncl_ch_nbtb_mtl_mean_look_round2",
+      "items/ncl_ch_nbtb_mtl_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_vdr_css",
+      "items/ncl_ch_nbtb_vdr_css_se",
+      "items/ncl_ch_nbtb_vdr_ss",
+      "items/ncl_ch_nbtb_vdr_ss_se",
+      "items/ncl_ch_nbtb_vdr_confidence_css_lower",
+      "items/ncl_ch_nbtb_vdr_confidence_css_upper",
+      "items/ncl_ch_nbtb_vdr_confidence_ss_lower",
+      "items/ncl_ch_nbtb_vdr_confidence_ss_upper",
+      "items/ncl_ch_nbtb_vdr_natl_percentile",
+      "items/ncl_ch_nbtb_vdr_peak_look_round1",
+      "items/ncl_ch_nbtb_vdr_peak_look_round2",
+      "items/ncl_ch_nbtb_vdr_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_vdr_sum_look_round1",
+      "items/ncl_ch_nbtb_vdr_sum_look_round2",
+      "items/ncl_ch_nbtb_vdr_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_vdr_mean_look_round1",
+      "items/ncl_ch_nbtb_vdr_mean_look_round2",
+      "items/ncl_ch_nbtb_vdr_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_whm_css",
+      "items/ncl_ch_nbtb_whm_css_se",
+      "items/ncl_ch_nbtb_whm_ss",
+      "items/ncl_ch_nbtb_whm_ss_se",
+      "items/ncl_ch_nbtb_whm_confidence_css_lower",
+      "items/ncl_ch_nbtb_whm_confidence_css_upper",
+      "items/ncl_ch_nbtb_whm_confidence_ss_lower",
+      "items/ncl_ch_nbtb_whm_confidence_ss_upper",
+      "items/ncl_ch_nbtb_whm_natl_percentile",
+      "items/ncl_ch_nbtb_whm_peak_look_round1",
+      "items/ncl_ch_nbtb_whm_peak_look_round2",
+      "items/ncl_ch_nbtb_whm_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_whm_sum_look_round1",
+      "items/ncl_ch_nbtb_whm_sum_look_round2",
+      "items/ncl_ch_nbtb_whm_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_whm_mean_look_round1",
+      "items/ncl_ch_nbtb_whm_mean_look_round2",
+      "items/ncl_ch_nbtb_whm_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_sub_css",
+      "items/ncl_ch_nbtb_sub_css_se",
+      "items/ncl_ch_nbtb_sub_ss",
+      "items/ncl_ch_nbtb_sub_ss_se",
+      "items/ncl_ch_nbtb_sub_confidence_css_lower",
+      "items/ncl_ch_nbtb_sub_confidence_css_upper",
+      "items/ncl_ch_nbtb_sub_confidence_ss_lower",
+      "items/ncl_ch_nbtb_sub_confidence_ss_upper",
+      "items/ncl_ch_nbtb_sub_natl_percentile",
+      "items/ncl_ch_nbtb_sub_peak_look_round1",
+      "items/ncl_ch_nbtb_sub_peak_look_round2",
+      "items/ncl_ch_nbtb_sub_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_sub_sum_look_round1",
+      "items/ncl_ch_nbtb_sub_sum_look_round2",
+      "items/ncl_ch_nbtb_sub_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_sub_mean_look_round1",
+      "items/ncl_ch_nbtb_sub_mean_look_round2",
+      "items/ncl_ch_nbtb_sub_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_mtt_css",
+      "items/ncl_ch_nbtb_mtt_css_se",
+      "items/ncl_ch_nbtb_mtt_ss",
+      "items/ncl_ch_nbtb_mtt_ss_se",
+      "items/ncl_ch_nbtb_mtt_confidence_css_lower",
+      "items/ncl_ch_nbtb_mtt_confidence_css_upper",
+      "items/ncl_ch_nbtb_mtt_confidence_ss_lower",
+      "items/ncl_ch_nbtb_mtt_confidence_ss_upper",
+      "items/ncl_ch_nbtb_mtt_natl_percentile",
+      "items/ncl_ch_nbtb_mtt_peak_look_round1",
+      "items/ncl_ch_nbtb_mtt_peak_look_round2",
+      "items/ncl_ch_nbtb_mtt_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_mtt_sum_look_round1",
+      "items/ncl_ch_nbtb_mtt_sum_look_round2",
+      "items/ncl_ch_nbtb_mtt_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_mtt_mean_look_round1",
+      "items/ncl_ch_nbtb_mtt_mean_look_round2",
+      "items/ncl_ch_nbtb_mtt_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_va_css",
+      "items/ncl_ch_nbtb_va_css_se",
+      "items/ncl_ch_nbtb_va_ss",
+      "items/ncl_ch_nbtb_va_ss_se",
+      "items/ncl_ch_nbtb_va_confidence_css_lower",
+      "items/ncl_ch_nbtb_va_confidence_css_upper",
+      "items/ncl_ch_nbtb_va_confidence_ss_lower",
+      "items/ncl_ch_nbtb_va_confidence_ss_upper",
+      "items/ncl_ch_nbtb_va_natl_percentile",
+      "items/ncl_ch_nbtb_va_peak_look_round1",
+      "items/ncl_ch_nbtb_va_peak_look_round2",
+      "items/ncl_ch_nbtb_va_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_va_sum_look_round1",
+      "items/ncl_ch_nbtb_va_sum_look_round2",
+      "items/ncl_ch_nbtb_va_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_va_mean_look_round1",
+      "items/ncl_ch_nbtb_va_mean_look_round2",
+      "items/ncl_ch_nbtb_va_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_counting_css",
+      "items/ncl_ch_nbtb_counting_css_se",
+      "items/ncl_ch_nbtb_counting_ss",
+      "items/ncl_ch_nbtb_counting_ss_se",
+      "items/ncl_ch_nbtb_counting_confidence_css_lower",
+      "items/ncl_ch_nbtb_counting_confidence_css_upper",
+      "items/ncl_ch_nbtb_counting_confidence_ss_lower",
+      "items/ncl_ch_nbtb_counting_confidence_ss_upper",
+      "items/ncl_ch_nbtb_counting_natl_percentile",
+      "items/ncl_ch_nbtb_counting_peak_look_round1",
+      "items/ncl_ch_nbtb_counting_peak_look_round2",
+      "items/ncl_ch_nbtb_counting_peak_look_both_rounds",
+      "items/ncl_ch_nbtb_counting_sum_look_round1",
+      "items/ncl_ch_nbtb_counting_sum_look_round2",
+      "items/ncl_ch_nbtb_counting_sum_look_both_rounds",
+      "items/ncl_ch_nbtb_counting_mean_look_round1",
+      "items/ncl_ch_nbtb_counting_mean_look_round2",
+      "items/ncl_ch_nbtb_counting_mean_look_both_rounds",
+      "items/ncl_ch_nbtb_Validity",
+      "items/ncl_ch_nbtb_Administration",
+      "items/ncl_ch_nbtb_Informant"
     ],
     "addProperties": [
       {
@@ -383,6 +721,12 @@
       {
         "variableName": "ncl_ch_nbtb_gestational_age",
         "isAbout": "items/ncl_ch_nbtb_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_adjusted_age",
+        "isAbout": "items/ncl_ch_nbtb_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -411,6 +755,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_nbtb_lang",
+        "isAbout": "items/ncl_ch_nbtb_lang",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_nbtb_par_altcg_instrumentName",
         "isAbout": "items/ncl_ch_nbtb_par_altcg_instrumentName",
         "valueRequired": false,
@@ -425,6 +775,12 @@
       {
         "variableName": "ncl_ch_nbtb_ScoresExport_file",
         "isAbout": "items/ncl_ch_nbtb_ScoresExport_file",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_ItemExport_file",
+        "isAbout": "items/ncl_ch_nbtb_ItemExport_file",
         "valueRequired": false,
         "isVis": true
       },
@@ -459,26 +815,812 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_Validity",
-        "isAbout": "items/ncl_ch_nbtb_Validity",
+        "variableName": "ncl_ch_nbtb_mullen_receptive_computed_score",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_computed_score",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_Administration",
-        "isAbout": "items/ncl_ch_nbtb_Administration",
+        "variableName": "ncl_ch_nbtb_mullen_receptive_item_count",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_item_count",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_Informant",
-        "isAbout": "items/ncl_ch_nbtb_Informant",
+        "variableName": "ncl_ch_nbtb_mullen_receptive_language",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_language",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_ItemExport_file",
-        "isAbout": "items/ncl_ch_nbtb_ItemExport_file",
+        "variableName": "ncl_ch_nbtb_mullen_receptive_instrument_breakoff",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_instrument_breakoff",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_instrument_status_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_instrument_status_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_computed_score",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_computed_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_item_count",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_item_count",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_language",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_language",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_instrument_breakoff",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_instrument_breakoff",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_instrument_status_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_instrument_status_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_computed_score",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_computed_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_item_count",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_item_count",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_language",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_language",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_instrument_breakoff",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_instrument_breakoff",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_instrument_status_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_instrument_status_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_key_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_value_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_value_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_key_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_prompted_value_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_prompted_value_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_key_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_observational_value_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_observational_value_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_1",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_1",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_2",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_2",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_3",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_3",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_4",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_4",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_5",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_5",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_6",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_6",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_7",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_7",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_8",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_8",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_9",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_9",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_key_10",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_looklistening_value_10",
+        "isAbout": "items/ncl_ch_nbtb_looklistening_value_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_1",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_1",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_2",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_2",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_3",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_3",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_4",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_4",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_5",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_5",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_6",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_6",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_7",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_7",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_8",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_8",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_9",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_9",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_key_10",
+        "isAbout": "items/ncl_ch_nbtb_mvr_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_value_10",
+        "isAbout": "items/ncl_ch_nbtb_mvr_value_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_3",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_4",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_5",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_6",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_7",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_8",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_9",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_key_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_key_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_language_composite_value_10",
+        "isAbout": "items/ncl_ch_nbtb_mullen_language_composite_value_10",
         "valueRequired": false,
         "isVis": true
       },
@@ -2277,18 +3419,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_language_mr_css",
-        "isAbout": "items/ncl_ch_nbtb_language_mr_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_nbtb_language_me_css",
-        "isAbout": "items/ncl_ch_nbtb_language_me_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_language_confidence_css_lower",
         "isAbout": "items/ncl_ch_nbtb_language_confidence_css_lower",
         "valueRequired": false,
@@ -2301,20 +3431,74 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_language_confidence_ss_upper",
-        "isAbout": "items/ncl_ch_nbtb_language_confidence_ss_upper",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_language_confidence_ss_lower",
         "isAbout": "items/ncl_ch_nbtb_language_confidence_ss_lower",
         "valueRequired": false,
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_nbtb_language_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_language_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_nbtb_language_natl_percentile",
         "isAbout": "items/ncl_ch_nbtb_language_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_language_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_language_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_language_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_language_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_language_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_language_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_language_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_language_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_language_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_language_mean_look_both_rounds",
         "valueRequired": false,
         "isVis": true
       },
@@ -2343,18 +3527,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_mullen_receptive_mr_css",
-        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_mr_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_nbtb_mullen_receptive_me_css",
-        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_me_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_mullen_receptive_confidence_css_lower",
         "isAbout": "items/ncl_ch_nbtb_mullen_receptive_confidence_css_lower",
         "valueRequired": false,
@@ -2367,20 +3539,74 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
-        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_mullen_receptive_confidence_ss_lower",
         "isAbout": "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_lower",
         "valueRequired": false,
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_nbtb_mullen_receptive_natl_percentile",
         "isAbout": "items/ncl_ch_nbtb_mullen_receptive_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_receptive_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_receptive_mean_look_both_rounds",
         "valueRequired": false,
         "isVis": true
       },
@@ -2409,18 +3635,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_mullen_expressive_mr_css",
-        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_mr_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_nbtb_mullen_expressive_me_css",
-        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_me_css",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_mullen_expressive_confidence_css_lower",
         "isAbout": "items/ncl_ch_nbtb_mullen_expressive_confidence_css_lower",
         "valueRequired": false,
@@ -2433,20 +3647,1172 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
-        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_nbtb_mullen_expressive_confidence_ss_lower",
         "isAbout": "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_lower",
         "valueRequired": false,
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_nbtb_mullen_expressive_natl_percentile",
         "isAbout": "items/ncl_ch_nbtb_mullen_expressive_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mullen_expressive_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mullen_expressive_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_css",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_css_se",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_ss",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_familiarization_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_familiarization_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_css",
+        "isAbout": "items/ncl_ch_nbtb_mvr_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_css_se",
+        "isAbout": "items/ncl_ch_nbtb_mvr_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_ss",
+        "isAbout": "items/ncl_ch_nbtb_mvr_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_mvr_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_mvr_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_mvr_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_mvr_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_mvr_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_mvr_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mvr_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mvr_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mvr_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mvr_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mvr_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mvr_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mvr_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mvr_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mvr_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mvr_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_css",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_css_se",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_ss",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_lwl_en_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_lwl_en_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_css",
+        "isAbout": "items/ncl_ch_nbtb_mtl_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_css_se",
+        "isAbout": "items/ncl_ch_nbtb_mtl_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_ss",
+        "isAbout": "items/ncl_ch_nbtb_mtl_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_mtl_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_mtl_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_mtl_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_mtl_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_mtl_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_mtl_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtl_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtl_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtl_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtl_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtl_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtl_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtl_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtl_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtl_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtl_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_css",
+        "isAbout": "items/ncl_ch_nbtb_vdr_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_css_se",
+        "isAbout": "items/ncl_ch_nbtb_vdr_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_ss",
+        "isAbout": "items/ncl_ch_nbtb_vdr_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_vdr_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_vdr_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_vdr_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_vdr_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_vdr_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_vdr_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_vdr_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_vdr_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_vdr_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_vdr_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_vdr_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_vdr_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_vdr_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_vdr_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_vdr_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_vdr_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_css",
+        "isAbout": "items/ncl_ch_nbtb_whm_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_css_se",
+        "isAbout": "items/ncl_ch_nbtb_whm_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_ss",
+        "isAbout": "items/ncl_ch_nbtb_whm_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_whm_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_whm_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_whm_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_whm_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_whm_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_whm_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_whm_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_whm_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_whm_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_whm_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_whm_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_whm_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_whm_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_whm_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_whm_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_whm_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_css",
+        "isAbout": "items/ncl_ch_nbtb_sub_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_css_se",
+        "isAbout": "items/ncl_ch_nbtb_sub_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_ss",
+        "isAbout": "items/ncl_ch_nbtb_sub_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_sub_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_sub_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_sub_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_sub_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_sub_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_sub_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_sub_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_sub_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_sub_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_sub_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_sub_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_sub_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_sub_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_sub_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_sub_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_sub_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_css",
+        "isAbout": "items/ncl_ch_nbtb_mtt_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_css_se",
+        "isAbout": "items/ncl_ch_nbtb_mtt_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_ss",
+        "isAbout": "items/ncl_ch_nbtb_mtt_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_mtt_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_mtt_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_mtt_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_mtt_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_mtt_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_mtt_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtt_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtt_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtt_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtt_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtt_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtt_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_mtt_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_mtt_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_mtt_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_mtt_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_css",
+        "isAbout": "items/ncl_ch_nbtb_va_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_css_se",
+        "isAbout": "items/ncl_ch_nbtb_va_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_ss",
+        "isAbout": "items/ncl_ch_nbtb_va_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_va_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_va_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_va_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_va_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_va_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_va_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_va_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_va_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_va_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_va_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_va_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_va_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_va_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_va_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_va_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_va_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_css",
+        "isAbout": "items/ncl_ch_nbtb_counting_css",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_css_se",
+        "isAbout": "items/ncl_ch_nbtb_counting_css_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_ss",
+        "isAbout": "items/ncl_ch_nbtb_counting_ss",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_ss_se",
+        "isAbout": "items/ncl_ch_nbtb_counting_ss_se",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_confidence_css_lower",
+        "isAbout": "items/ncl_ch_nbtb_counting_confidence_css_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_confidence_css_upper",
+        "isAbout": "items/ncl_ch_nbtb_counting_confidence_css_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_confidence_ss_lower",
+        "isAbout": "items/ncl_ch_nbtb_counting_confidence_ss_lower",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_confidence_ss_upper",
+        "isAbout": "items/ncl_ch_nbtb_counting_confidence_ss_upper",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_natl_percentile",
+        "isAbout": "items/ncl_ch_nbtb_counting_natl_percentile",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_peak_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_counting_peak_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_peak_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_counting_peak_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_peak_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_counting_peak_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_sum_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_counting_sum_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_sum_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_counting_sum_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_sum_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_counting_sum_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_mean_look_round1",
+        "isAbout": "items/ncl_ch_nbtb_counting_mean_look_round1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_mean_look_round2",
+        "isAbout": "items/ncl_ch_nbtb_counting_mean_look_round2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_counting_mean_look_both_rounds",
+        "isAbout": "items/ncl_ch_nbtb_counting_mean_look_both_rounds",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_Validity",
+        "isAbout": "items/ncl_ch_nbtb_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_Administration",
+        "isAbout": "items/ncl_ch_nbtb_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_nbtb_Informant",
+        "isAbout": "items/ncl_ch_nbtb_Informant",
         "valueRequired": false,
         "isVis": true
       }
