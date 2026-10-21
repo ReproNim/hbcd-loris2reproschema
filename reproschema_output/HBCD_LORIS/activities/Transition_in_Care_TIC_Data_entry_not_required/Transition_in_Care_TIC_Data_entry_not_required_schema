@@ -1,0 +1,552 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Transition_in_Care_TIC_Data_entry_not_required_schema",
+  "prefLabel": {
+    "en": "Transition in Care (TIC) - Data entry not required"
+  },
+  "description": {
+    "en": "Questions related to Transition in Care (TIC) - Data entry not required"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/sed_cg_tic_screener_Date_taken",
+      "items/sed_cg_tic_screener_Candidate_Age",
+      "items/sed_cg_tic_screener_Window_Difference",
+      "items/sed_cg_tic_screener_Examiner",
+      "items/sed_cg_tic_screener_01_qstn_001",
+      "items/sed_cg_tic_screener_01_qstn_003",
+      "items/sed_cg_tic_screener_01_qstn_004",
+      "items/sed_cg_tic_screener_01_acg_001",
+      "items/sed_cg_tic_screener_01_acg_002",
+      "items/sed_cg_tic_screener_01_acg_003",
+      "items/sed_cg_tic_screener_01_acg_004",
+      "items/sed_cg_tic_screener_01_acg_005",
+      "items/sed_cg_tic_screener_01_acg_006",
+      "items/sed_cg_tic_screener_01_acg_007",
+      "items/sed_cg_tic_screener_01_acg_008",
+      "items/sed_cg_tic_screener_01_acg_009",
+      "items/sed_cg_tic_screener_01_acg_010",
+      "items/sed_cg_tic_screener_01_gdn_001",
+      "items/sed_cg_tic_screener_01_gdn_002",
+      "items/sed_cg_tic_screener_01_gdn_003",
+      "items/sed_cg_tic_screener_01_gdn_004",
+      "items/sed_cg_tic_screener_02_qstn_001",
+      "items/sed_cg_tic_screener_02_qstn_003",
+      "items/sed_cg_tic_screener_02_qstn_004",
+      "items/sed_cg_tic_screener_02_acg_001",
+      "items/sed_cg_tic_screener_02_acg_002",
+      "items/sed_cg_tic_screener_02_acg_003",
+      "items/sed_cg_tic_screener_02_acg_004",
+      "items/sed_cg_tic_screener_02_acg_005",
+      "items/sed_cg_tic_screener_02_acg_006",
+      "items/sed_cg_tic_screener_02_acg_007",
+      "items/sed_cg_tic_screener_02_acg_008",
+      "items/sed_cg_tic_screener_02_acg_009",
+      "items/sed_cg_tic_screener_02_acg_010",
+      "items/sed_cg_tic_screener_02_gdn_001",
+      "items/sed_cg_tic_screener_02_gdn_002",
+      "items/sed_cg_tic_screener_02_gdn_003",
+      "items/sed_cg_tic_screener_02_gdn_004",
+      "items/sed_cg_tic_screener_03_qstn_001",
+      "items/sed_cg_tic_screener_03_qstn_003",
+      "items/sed_cg_tic_screener_03_qstn_004",
+      "items/sed_cg_tic_screener_03_acg_001",
+      "items/sed_cg_tic_screener_03_acg_002",
+      "items/sed_cg_tic_screener_03_acg_003",
+      "items/sed_cg_tic_screener_03_acg_004",
+      "items/sed_cg_tic_screener_03_acg_005",
+      "items/sed_cg_tic_screener_03_acg_006",
+      "items/sed_cg_tic_screener_03_acg_007",
+      "items/sed_cg_tic_screener_03_acg_008",
+      "items/sed_cg_tic_screener_03_acg_009",
+      "items/sed_cg_tic_screener_03_acg_010",
+      "items/sed_cg_tic_screener_03_gdn_001",
+      "items/sed_cg_tic_screener_03_gdn_002",
+      "items/sed_cg_tic_screener_03_gdn_003",
+      "items/sed_cg_tic_screener_03_gdn_004",
+      "items/sed_cg_tic_screener_04_qstn_001",
+      "items/sed_cg_tic_screener_04_qstn_003",
+      "items/sed_cg_tic_screener_04_qstn_004",
+      "items/sed_cg_tic_screener_04_acg_001",
+      "items/sed_cg_tic_screener_04_acg_002",
+      "items/sed_cg_tic_screener_04_acg_003",
+      "items/sed_cg_tic_screener_04_acg_004",
+      "items/sed_cg_tic_screener_04_acg_005",
+      "items/sed_cg_tic_screener_04_acg_006",
+      "items/sed_cg_tic_screener_04_acg_007",
+      "items/sed_cg_tic_screener_04_acg_008",
+      "items/sed_cg_tic_screener_04_acg_009",
+      "items/sed_cg_tic_screener_04_acg_010",
+      "items/sed_cg_tic_screener_04_gdn_001",
+      "items/sed_cg_tic_screener_04_gdn_002",
+      "items/sed_cg_tic_screener_04_gdn_003",
+      "items/sed_cg_tic_screener_04_gdn_004",
+      "items/sed_cg_tic_screener_Validity",
+      "items/sed_cg_tic_screener_Administration",
+      "items/sed_cg_tic_screener_Informant",
+      "items/sed_cg_tic_screener_lang"
+    ],
+    "addProperties": [
+      {
+        "variableName": "sed_cg_tic_screener_Date_taken",
+        "isAbout": "items/sed_cg_tic_screener_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Candidate_Age",
+        "isAbout": "items/sed_cg_tic_screener_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Window_Difference",
+        "isAbout": "items/sed_cg_tic_screener_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Examiner",
+        "isAbout": "items/sed_cg_tic_screener_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_qstn_001",
+        "isAbout": "items/sed_cg_tic_screener_01_qstn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_qstn_003",
+        "isAbout": "items/sed_cg_tic_screener_01_qstn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_qstn_004",
+        "isAbout": "items/sed_cg_tic_screener_01_qstn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_001",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_002",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_003",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_004",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_005",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_006",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_007",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_008",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_009",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_acg_010",
+        "isAbout": "items/sed_cg_tic_screener_01_acg_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_gdn_001",
+        "isAbout": "items/sed_cg_tic_screener_01_gdn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_gdn_002",
+        "isAbout": "items/sed_cg_tic_screener_01_gdn_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_gdn_003",
+        "isAbout": "items/sed_cg_tic_screener_01_gdn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_01_gdn_004",
+        "isAbout": "items/sed_cg_tic_screener_01_gdn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_qstn_001",
+        "isAbout": "items/sed_cg_tic_screener_02_qstn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_qstn_003",
+        "isAbout": "items/sed_cg_tic_screener_02_qstn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_qstn_004",
+        "isAbout": "items/sed_cg_tic_screener_02_qstn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_001",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_002",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_003",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_004",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_005",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_006",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_007",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_008",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_009",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_acg_010",
+        "isAbout": "items/sed_cg_tic_screener_02_acg_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_gdn_001",
+        "isAbout": "items/sed_cg_tic_screener_02_gdn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_gdn_002",
+        "isAbout": "items/sed_cg_tic_screener_02_gdn_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_gdn_003",
+        "isAbout": "items/sed_cg_tic_screener_02_gdn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_02_gdn_004",
+        "isAbout": "items/sed_cg_tic_screener_02_gdn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_qstn_001",
+        "isAbout": "items/sed_cg_tic_screener_03_qstn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_qstn_003",
+        "isAbout": "items/sed_cg_tic_screener_03_qstn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_qstn_004",
+        "isAbout": "items/sed_cg_tic_screener_03_qstn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_001",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_002",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_003",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_004",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_005",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_006",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_007",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_008",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_009",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_acg_010",
+        "isAbout": "items/sed_cg_tic_screener_03_acg_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_gdn_001",
+        "isAbout": "items/sed_cg_tic_screener_03_gdn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_gdn_002",
+        "isAbout": "items/sed_cg_tic_screener_03_gdn_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_gdn_003",
+        "isAbout": "items/sed_cg_tic_screener_03_gdn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_03_gdn_004",
+        "isAbout": "items/sed_cg_tic_screener_03_gdn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_qstn_001",
+        "isAbout": "items/sed_cg_tic_screener_04_qstn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_qstn_003",
+        "isAbout": "items/sed_cg_tic_screener_04_qstn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_qstn_004",
+        "isAbout": "items/sed_cg_tic_screener_04_qstn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_001",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_002",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_003",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_004",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_005",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_006",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_007",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_008",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_009",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_acg_010",
+        "isAbout": "items/sed_cg_tic_screener_04_acg_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_gdn_001",
+        "isAbout": "items/sed_cg_tic_screener_04_gdn_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_gdn_002",
+        "isAbout": "items/sed_cg_tic_screener_04_gdn_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_gdn_003",
+        "isAbout": "items/sed_cg_tic_screener_04_gdn_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_04_gdn_004",
+        "isAbout": "items/sed_cg_tic_screener_04_gdn_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Validity",
+        "isAbout": "items/sed_cg_tic_screener_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Administration",
+        "isAbout": "items/sed_cg_tic_screener_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_Informant",
+        "isAbout": "items/sed_cg_tic_screener_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "sed_cg_tic_screener_lang",
+        "isAbout": "items/sed_cg_tic_screener_lang",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
