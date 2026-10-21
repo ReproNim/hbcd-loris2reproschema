@@ -6,14 +6,14 @@
     "en": "pex_bm_health_preg_i_illness_gestational_age"
   },
   "question": {
-    "en": "Gestational Age (Weeks)"
+    "en": "Gestational Age at Administration (Weeks)"
   },
   "ui": {
-    "inputType": "number"
+    "inputType": "text"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer"
+      "xsd:string"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "Integer"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",

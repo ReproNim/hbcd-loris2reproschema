@@ -16,6 +16,7 @@
       "items/mh_cg_mapstl_i_easi_i_prek_Candidate_Age",
       "items/mh_cg_mapstl_i_easi_i_prek_Window_Difference",
       "items/mh_cg_mapstl_i_easi_i_prek_gestational_age",
+      "items/mh_cg_mapstl_i_easi_i_prek_adjusted_age",
       "items/mh_cg_mapstl_i_easi_i_prek_Examiner",
       "items/mh_cg_mapstl_i_easi_i_prek_lang",
       "items/mh_cg_mapstl_i_easi_i_prek_dtt",
@@ -30,6 +31,9 @@
       "items/mh_cg_mapstl_i_easi_i_prek_004",
       "items/mh_cg_mapstl_i_easi_i_prek_005",
       "items/mh_cg_mapstl_i_easi_i_prek_006",
+      "items/mh_cg_mapstl_i_easi_i_prek_line",
+      "items/mh_cg_mapstl_i_easi_i_prek_total_score",
+      "items/mh_cg_mapstl_i_easi_i_prek_total_score_note",
       "items/mh_cg_mapstl_i_easi_i_prek_Validity",
       "items/mh_cg_mapstl_i_easi_i_prek_Administration",
       "items/mh_cg_mapstl_i_easi_i_prek_Informant"
@@ -56,6 +60,12 @@
       {
         "variableName": "mh_cg_mapstl_i_easi_i_prek_gestational_age",
         "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_i_prek_adjusted_age",
+        "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -140,6 +150,24 @@
       {
         "variableName": "mh_cg_mapstl_i_easi_i_prek_006",
         "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_i_prek_line",
+        "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_line",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_i_prek_total_score",
+        "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_i_prek_total_score_note",
+        "isAbout": "items/mh_cg_mapstl_i_easi_i_prek_total_score_note",
         "valueRequired": false,
         "isVis": true
       },
