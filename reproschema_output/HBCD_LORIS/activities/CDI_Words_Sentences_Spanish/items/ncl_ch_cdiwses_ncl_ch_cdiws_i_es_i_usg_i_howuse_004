@@ -9,11 +9,49 @@
     "en": "\u00ac\u00f8Su hijo/a entiende cuando le piden que traiga algo de otro cuarto? Por ejemplo, si le preguntan, \u201a\u00c4\u00fa\u00ac\u00f8d\u221a\u2265nde est\u221a\u00b0 tu pelota?\u201a\u00c4\u00f9 \u00ac\u00f8el ni\u221a\u00b1o/a va a buscarla a otro cuarto?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      },
+      {
+        "name": {
+          "en": "simple"
+        },
+        "value": "Simple"
+      },
+      {
+        "name": {
+          "en": "complex"
+        },
+        "value": "Complex"
+      }
     ]
   },
   "additionalNotesObj": [
