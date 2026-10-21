@@ -16,6 +16,7 @@
       "items/ncl_cg_spm2_i_inf_Candidate_Age",
       "items/ncl_cg_spm2_i_inf_Window_Difference",
       "items/ncl_cg_spm2_i_inf_gestational_age",
+      "items/ncl_cg_spm2_i_inf_adjusted_age",
       "items/ncl_cg_spm2_i_inf_Examiner",
       "items/ncl_cg_spm2_i_inf_lang",
       "items/ncl_cg_spm2_i_inf_dtt",
@@ -34,6 +35,7 @@
       "items/ncl_cg_spm2_i_inf_soc_008",
       "items/ncl_cg_spm2_i_inf_soc_009",
       "items/ncl_cg_spm2_i_inf_soc_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_01",
       "items/ncl_cg_spm2_i_inf_instr02",
       "items/ncl_cg_spm2_i_inf_vsn_001",
       "items/ncl_cg_spm2_i_inf_vsn_002",
@@ -45,6 +47,7 @@
       "items/ncl_cg_spm2_i_inf_vsn_008",
       "items/ncl_cg_spm2_i_inf_vsn_009",
       "items/ncl_cg_spm2_i_inf_vsn_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_02",
       "items/ncl_cg_spm2_i_inf_instr03",
       "items/ncl_cg_spm2_i_inf_hear_001",
       "items/ncl_cg_spm2_i_inf_hear_002",
@@ -56,6 +59,7 @@
       "items/ncl_cg_spm2_i_inf_hear_008",
       "items/ncl_cg_spm2_i_inf_hear_009",
       "items/ncl_cg_spm2_i_inf_hear_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_03",
       "items/ncl_cg_spm2_i_inf_instr04",
       "items/ncl_cg_spm2_i_inf_touch_001",
       "items/ncl_cg_spm2_i_inf_touch_002",
@@ -67,6 +71,7 @@
       "items/ncl_cg_spm2_i_inf_touch_008",
       "items/ncl_cg_spm2_i_inf_touch_009",
       "items/ncl_cg_spm2_i_inf_touch_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_04",
       "items/ncl_cg_spm2_i_inf_instr05",
       "items/ncl_cg_spm2_i_inf_tstsml_001",
       "items/ncl_cg_spm2_i_inf_tstsml_002",
@@ -78,6 +83,7 @@
       "items/ncl_cg_spm2_i_inf_tstsml_008",
       "items/ncl_cg_spm2_i_inf_tstsml_009",
       "items/ncl_cg_spm2_i_inf_tstsml_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_05",
       "items/ncl_cg_spm2_i_inf_instr06",
       "items/ncl_cg_spm2_i_inf_bodyaware_001",
       "items/ncl_cg_spm2_i_inf_bodyaware_002",
@@ -89,6 +95,7 @@
       "items/ncl_cg_spm2_i_inf_bodyaware_008",
       "items/ncl_cg_spm2_i_inf_bodyaware_009",
       "items/ncl_cg_spm2_i_inf_bodyaware_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_06",
       "items/ncl_cg_spm2_i_inf_instr07",
       "items/ncl_cg_spm2_i_inf_balance_001",
       "items/ncl_cg_spm2_i_inf_balance_002",
@@ -100,6 +107,7 @@
       "items/ncl_cg_spm2_i_inf_balance_008",
       "items/ncl_cg_spm2_i_inf_balance_009",
       "items/ncl_cg_spm2_i_inf_balance_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_07",
       "items/ncl_cg_spm2_i_inf_instr08",
       "items/ncl_cg_spm2_i_inf_plan_001",
       "items/ncl_cg_spm2_i_inf_plan_002",
@@ -111,12 +119,14 @@
       "items/ncl_cg_spm2_i_inf_plan_008",
       "items/ncl_cg_spm2_i_inf_plan_009",
       "items/ncl_cg_spm2_i_inf_plan_010",
+      "items/ncl_cg_spm2_i_inf_dtaalert_08",
       "items/ncl_cg_spm2_i_inf_copyright",
       "items/ncl_cg_spm2_i_inf_line1",
       "items/ncl_cg_spm2_i_inf_soc_raw_score",
       "items/ncl_cg_spm2_i_inf_vis_raw_score",
       "items/ncl_cg_spm2_i_inf_hea_raw_score",
       "items/ncl_cg_spm2_i_inf_tou_raw_score",
+      "items/ncl_cg_spm2_i_inf_tstsml_raw_score",
       "items/ncl_cg_spm2_i_inf_bod_raw_score",
       "items/ncl_cg_spm2_i_inf_bal_raw_score",
       "items/ncl_cg_spm2_i_inf_pla_raw_score",
@@ -127,6 +137,7 @@
       "items/ncl_cg_spm2_i_inf_vis_t_score",
       "items/ncl_cg_spm2_i_inf_hea_t_score",
       "items/ncl_cg_spm2_i_inf_tou_t_score",
+      "items/ncl_cg_spm2_i_inf_tstsml_t_score",
       "items/ncl_cg_spm2_i_inf_bod_t_score",
       "items/ncl_cg_spm2_i_inf_bal_t_score",
       "items/ncl_cg_spm2_i_inf_pla_t_score",
@@ -136,23 +147,13 @@
       "items/ncl_cg_spm2_i_inf_status_vis",
       "items/ncl_cg_spm2_i_inf_status_hea",
       "items/ncl_cg_spm2_i_inf_status_tou",
+      "items/ncl_cg_spm2_i_inf_status_tstsml",
       "items/ncl_cg_spm2_i_inf_status_bod",
       "items/ncl_cg_spm2_i_inf_status_bal",
       "items/ncl_cg_spm2_i_inf_status_pla",
       "items/ncl_cg_spm2_i_inf_Validity",
       "items/ncl_cg_spm2_i_inf_Administration",
-      "items/ncl_cg_spm2_i_inf_Informant",
-      "items/ncl_cg_spm2_i_inf_dtaalert_01",
-      "items/ncl_cg_spm2_i_inf_dtaalert_02",
-      "items/ncl_cg_spm2_i_inf_dtaalert_03",
-      "items/ncl_cg_spm2_i_inf_dtaalert_04",
-      "items/ncl_cg_spm2_i_inf_dtaalert_05",
-      "items/ncl_cg_spm2_i_inf_dtaalert_06",
-      "items/ncl_cg_spm2_i_inf_dtaalert_07",
-      "items/ncl_cg_spm2_i_inf_dtaalert_08",
-      "items/ncl_cg_spm2_i_inf_tstsml_raw_score",
-      "items/ncl_cg_spm2_i_inf_tstsml_t_score",
-      "items/ncl_cg_spm2_i_inf_status_tstsml"
+      "items/ncl_cg_spm2_i_inf_Informant"
     ],
     "addProperties": [
       {
@@ -176,6 +177,12 @@
       {
         "variableName": "ncl_cg_spm2_i_inf_gestational_age",
         "isAbout": "items/ncl_cg_spm2_i_inf_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_inf_adjusted_age",
+        "isAbout": "items/ncl_cg_spm2_i_inf_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -288,6 +295,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_01",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_01",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_soc_001 == '777' OR ncl_cg_spm2_i_inf_soc_002 == '777' OR ncl_cg_spm2_i_inf_soc_003 == '777' OR ncl_cg_spm2_i_inf_soc_004 == '777' OR ncl_cg_spm2_i_inf_soc_005 == '777' OR ncl_cg_spm2_i_inf_soc_006 == '777' OR ncl_cg_spm2_i_inf_soc_007 == '777' OR ncl_cg_spm2_i_inf_soc_008 == '777' OR ncl_cg_spm2_i_inf_soc_009 == '777' OR ncl_cg_spm2_i_inf_soc_010 == '777'"
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_instr02",
         "isAbout": "items/ncl_cg_spm2_i_inf_instr02",
         "valueRequired": false,
@@ -352,6 +365,12 @@
         "isAbout": "items/ncl_cg_spm2_i_inf_vsn_010",
         "valueRequired": false,
         "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_02",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_02",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_vsn_001 == '777' OR ncl_cg_spm2_i_inf_vsn_002 == '777' OR ncl_cg_spm2_i_inf_vsn_003 == '777' OR ncl_cg_spm2_i_inf_vsn_004 == '777' OR ncl_cg_spm2_i_inf_vsn_005 == '777' OR ncl_cg_spm2_i_inf_vsn_006 == '777' OR ncl_cg_spm2_i_inf_vsn_007 == '777' OR ncl_cg_spm2_i_inf_vsn_008 == '777' OR ncl_cg_spm2_i_inf_vsn_009 == '777' OR ncl_cg_spm2_i_inf_vsn_010 == '777'"
       },
       {
         "variableName": "ncl_cg_spm2_i_inf_instr03",
@@ -420,6 +439,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_03",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_03",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_hear_001 == '777' OR ncl_cg_spm2_i_inf_hear_002 == '777' OR ncl_cg_spm2_i_inf_hear_003 == '777' OR ncl_cg_spm2_i_inf_hear_004 == '777' OR ncl_cg_spm2_i_inf_hear_005 == '777' OR ncl_cg_spm2_i_inf_hear_006 == '777' OR ncl_cg_spm2_i_inf_hear_007 == '777' OR ncl_cg_spm2_i_inf_hear_008 == '777' OR ncl_cg_spm2_i_inf_hear_009 == '777' OR ncl_cg_spm2_i_inf_hear_010 == '777'"
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_instr04",
         "isAbout": "items/ncl_cg_spm2_i_inf_instr04",
         "valueRequired": false,
@@ -484,6 +509,12 @@
         "isAbout": "items/ncl_cg_spm2_i_inf_touch_010",
         "valueRequired": false,
         "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_04",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_04",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_touch_001 == '777' OR ncl_cg_spm2_i_inf_touch_002 == '777' OR ncl_cg_spm2_i_inf_touch_003 == '777' OR ncl_cg_spm2_i_inf_touch_004 == '777' OR ncl_cg_spm2_i_inf_touch_005 == '777' OR ncl_cg_spm2_i_inf_touch_006 == '777' OR ncl_cg_spm2_i_inf_touch_007 == '777' OR ncl_cg_spm2_i_inf_touch_008 == '777' OR ncl_cg_spm2_i_inf_touch_009 == '777' OR ncl_cg_spm2_i_inf_touch_010 == '777'"
       },
       {
         "variableName": "ncl_cg_spm2_i_inf_instr05",
@@ -552,6 +583,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_05",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_05",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_tstsml_001 == '777' OR ncl_cg_spm2_i_inf_tstsml_002 == '777' OR ncl_cg_spm2_i_inf_tstsml_003 == '777' OR ncl_cg_spm2_i_inf_tstsml_004 == '777' OR ncl_cg_spm2_i_inf_tstsml_005 == '777' OR ncl_cg_spm2_i_inf_tstsml_006 == '777' OR ncl_cg_spm2_i_inf_tstsml_007 == '777' OR ncl_cg_spm2_i_inf_tstsml_008 == '777' OR ncl_cg_spm2_i_inf_tstsml_009 == '777' OR ncl_cg_spm2_i_inf_tstsml_010 == '777'"
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_instr06",
         "isAbout": "items/ncl_cg_spm2_i_inf_instr06",
         "valueRequired": false,
@@ -616,6 +653,12 @@
         "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_010",
         "valueRequired": false,
         "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_06",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_06",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_bodyaware_001 == '777' OR ncl_cg_spm2_i_inf_bodyaware_002 == '777' OR ncl_cg_spm2_i_inf_bodyaware_003 == '777' OR ncl_cg_spm2_i_inf_bodyaware_004 == '777' OR ncl_cg_spm2_i_inf_bodyaware_005 == '777' OR ncl_cg_spm2_i_inf_bodyaware_006 == '777' OR ncl_cg_spm2_i_inf_bodyaware_007 == '777' OR ncl_cg_spm2_i_inf_bodyaware_008 == '777' OR ncl_cg_spm2_i_inf_bodyaware_009 == '777' OR ncl_cg_spm2_i_inf_bodyaware_010 == '777'"
       },
       {
         "variableName": "ncl_cg_spm2_i_inf_instr07",
@@ -684,6 +727,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_07",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_07",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_balance_001 == '777' OR ncl_cg_spm2_i_inf_balance_002 == '777' OR ncl_cg_spm2_i_inf_balance_003 == '777' OR ncl_cg_spm2_i_inf_balance_004 == '777' OR ncl_cg_spm2_i_inf_balance_005 == '777' OR ncl_cg_spm2_i_inf_balance_006 == '777' OR ncl_cg_spm2_i_inf_balance_007 == '777' OR ncl_cg_spm2_i_inf_balance_008 == '777' OR ncl_cg_spm2_i_inf_balance_009 == '777' OR ncl_cg_spm2_i_inf_balance_010 == '777'"
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_instr08",
         "isAbout": "items/ncl_cg_spm2_i_inf_instr08",
         "valueRequired": false,
@@ -750,6 +799,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_dtaalert_08",
+        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_08",
+        "valueRequired": false,
+        "isVis": "ncl_cg_spm2_i_inf_plan_001 == '777' OR ncl_cg_spm2_i_inf_plan_002 == '777' OR ncl_cg_spm2_i_inf_plan_003 == '777' OR ncl_cg_spm2_i_inf_plan_004 == '777' OR ncl_cg_spm2_i_inf_plan_005 == '777' OR ncl_cg_spm2_i_inf_plan_006 == '777' OR ncl_cg_spm2_i_inf_plan_007 == '777' OR ncl_cg_spm2_i_inf_plan_008 == '777' OR ncl_cg_spm2_i_inf_plan_009 == '777' OR ncl_cg_spm2_i_inf_plan_010 == '777'"
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_copyright",
         "isAbout": "items/ncl_cg_spm2_i_inf_copyright",
         "valueRequired": false,
@@ -782,6 +837,12 @@
       {
         "variableName": "ncl_cg_spm2_i_inf_tou_raw_score",
         "isAbout": "items/ncl_cg_spm2_i_inf_tou_raw_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_cg_spm2_i_inf_tstsml_raw_score",
+        "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_raw_score",
         "valueRequired": false,
         "isVis": true
       },
@@ -846,6 +907,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_tstsml_t_score",
+        "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_t_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_bod_t_score",
         "isAbout": "items/ncl_cg_spm2_i_inf_bod_t_score",
         "valueRequired": false,
@@ -900,6 +967,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_cg_spm2_i_inf_status_tstsml",
+        "isAbout": "items/ncl_cg_spm2_i_inf_status_tstsml",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_cg_spm2_i_inf_status_bod",
         "isAbout": "items/ncl_cg_spm2_i_inf_status_bod",
         "valueRequired": false,
@@ -932,72 +1005,6 @@
       {
         "variableName": "ncl_cg_spm2_i_inf_Informant",
         "isAbout": "items/ncl_cg_spm2_i_inf_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_01",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_01",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_soc_001 == '777' OR ncl_cg_spm2_i_inf_soc_002 == '777' OR ncl_cg_spm2_i_inf_soc_003 == '777' OR ncl_cg_spm2_i_inf_soc_004 == '777' OR ncl_cg_spm2_i_inf_soc_005 == '777' OR ncl_cg_spm2_i_inf_soc_006 == '777' OR ncl_cg_spm2_i_inf_soc_007 == '777' OR ncl_cg_spm2_i_inf_soc_008 == '777' OR ncl_cg_spm2_i_inf_soc_009 == '777' OR ncl_cg_spm2_i_inf_soc_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_02",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_02",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_vsn_001 == '777' OR ncl_cg_spm2_i_inf_vsn_002 == '777' OR ncl_cg_spm2_i_inf_vsn_003 == '777' OR ncl_cg_spm2_i_inf_vsn_004 == '777' OR ncl_cg_spm2_i_inf_vsn_005 == '777' OR ncl_cg_spm2_i_inf_vsn_006 == '777' OR ncl_cg_spm2_i_inf_vsn_007 == '777' OR ncl_cg_spm2_i_inf_vsn_008 == '777' OR ncl_cg_spm2_i_inf_vsn_009 == '777' OR ncl_cg_spm2_i_inf_vsn_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_03",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_03",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_hear_001 == '777' OR ncl_cg_spm2_i_inf_hear_002 == '777' OR ncl_cg_spm2_i_inf_hear_003 == '777' OR ncl_cg_spm2_i_inf_hear_004 == '777' OR ncl_cg_spm2_i_inf_hear_005 == '777' OR ncl_cg_spm2_i_inf_hear_006 == '777' OR ncl_cg_spm2_i_inf_hear_007 == '777' OR ncl_cg_spm2_i_inf_hear_008 == '777' OR ncl_cg_spm2_i_inf_hear_009 == '777' OR ncl_cg_spm2_i_inf_hear_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_04",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_04",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_touch_001 == '777' OR ncl_cg_spm2_i_inf_touch_002 == '777' OR ncl_cg_spm2_i_inf_touch_003 == '777' OR ncl_cg_spm2_i_inf_touch_004 == '777' OR ncl_cg_spm2_i_inf_touch_005 == '777' OR ncl_cg_spm2_i_inf_touch_006 == '777' OR ncl_cg_spm2_i_inf_touch_007 == '777' OR ncl_cg_spm2_i_inf_touch_008 == '777' OR ncl_cg_spm2_i_inf_touch_009 == '777' OR ncl_cg_spm2_i_inf_touch_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_05",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_05",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_tstsml_001 == '777' OR ncl_cg_spm2_i_inf_tstsml_002 == '777' OR ncl_cg_spm2_i_inf_tstsml_003 == '777' OR ncl_cg_spm2_i_inf_tstsml_004 == '777' OR ncl_cg_spm2_i_inf_tstsml_005 == '777' OR ncl_cg_spm2_i_inf_tstsml_006 == '777' OR ncl_cg_spm2_i_inf_tstsml_007 == '777' OR ncl_cg_spm2_i_inf_tstsml_008 == '777' OR ncl_cg_spm2_i_inf_tstsml_009 == '777' OR ncl_cg_spm2_i_inf_tstsml_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_06",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_06",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_bodyaware_001 == '777' OR ncl_cg_spm2_i_inf_bodyaware_002 == '777' OR ncl_cg_spm2_i_inf_bodyaware_003 == '777' OR ncl_cg_spm2_i_inf_bodyaware_004 == '777' OR ncl_cg_spm2_i_inf_bodyaware_005 == '777' OR ncl_cg_spm2_i_inf_bodyaware_006 == '777' OR ncl_cg_spm2_i_inf_bodyaware_007 == '777' OR ncl_cg_spm2_i_inf_bodyaware_008 == '777' OR ncl_cg_spm2_i_inf_bodyaware_009 == '777' OR ncl_cg_spm2_i_inf_bodyaware_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_07",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_07",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_balance_001 == '777' OR ncl_cg_spm2_i_inf_balance_002 == '777' OR ncl_cg_spm2_i_inf_balance_003 == '777' OR ncl_cg_spm2_i_inf_balance_004 == '777' OR ncl_cg_spm2_i_inf_balance_005 == '777' OR ncl_cg_spm2_i_inf_balance_006 == '777' OR ncl_cg_spm2_i_inf_balance_007 == '777' OR ncl_cg_spm2_i_inf_balance_008 == '777' OR ncl_cg_spm2_i_inf_balance_009 == '777' OR ncl_cg_spm2_i_inf_balance_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_dtaalert_08",
-        "isAbout": "items/ncl_cg_spm2_i_inf_dtaalert_08",
-        "valueRequired": false,
-        "isVis": "ncl_cg_spm2_i_inf_plan_001 == '777' OR ncl_cg_spm2_i_inf_plan_002 == '777' OR ncl_cg_spm2_i_inf_plan_003 == '777' OR ncl_cg_spm2_i_inf_plan_004 == '777' OR ncl_cg_spm2_i_inf_plan_005 == '777' OR ncl_cg_spm2_i_inf_plan_006 == '777' OR ncl_cg_spm2_i_inf_plan_007 == '777' OR ncl_cg_spm2_i_inf_plan_008 == '777' OR ncl_cg_spm2_i_inf_plan_009 == '777' OR ncl_cg_spm2_i_inf_plan_010 == '777'"
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_tstsml_raw_score",
-        "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_raw_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_tstsml_t_score",
-        "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_t_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_cg_spm2_i_inf_status_tstsml",
-        "isAbout": "items/ncl_cg_spm2_i_inf_status_tstsml",
         "valueRequired": false,
         "isVis": true
       }

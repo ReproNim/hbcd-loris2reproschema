@@ -13,6 +13,10 @@
   "ui": {
     "order": [
       "items/mh_ch_labtab_Date_taken",
+      "items/mh_ch_labtab_Candidate_Age",
+      "items/mh_ch_labtab_Window_Difference",
+      "items/mh_ch_labtab_gestational_age",
+      "items/mh_ch_labtab_adjusted_age",
       "items/mh_ch_labtab_Examiner",
       "items/mh_ch_labtab_timestamp_start",
       "items/mh_ch_labtab_timestamp_stop",
@@ -43,15 +47,37 @@
       "items/mh_ch_labtab_Validity",
       "items/mh_ch_labtab_Administration",
       "items/mh_ch_labtab_Informant",
-      "items/mh_ch_labtab_Candidate_Age",
-      "items/mh_ch_labtab_Window_Difference",
-      "items/mh_ch_labtab_gestational_age"
+      "items/mh_ch_labtab_lang"
     ],
     "addProperties": [
       {
         "variableName": "mh_ch_labtab_Date_taken",
         "isAbout": "items/mh_ch_labtab_Date_taken",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Candidate_Age",
+        "isAbout": "items/mh_ch_labtab_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_Window_Difference",
+        "isAbout": "items/mh_ch_labtab_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_gestational_age",
+        "isAbout": "items/mh_ch_labtab_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_labtab_adjusted_age",
+        "isAbout": "items/mh_ch_labtab_adjusted_age",
+        "valueRequired": false,
         "isVis": true
       },
       {
@@ -235,20 +261,8 @@
         "isVis": true
       },
       {
-        "variableName": "mh_ch_labtab_Candidate_Age",
-        "isAbout": "items/mh_ch_labtab_Candidate_Age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_labtab_Window_Difference",
-        "isAbout": "items/mh_ch_labtab_Window_Difference",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_ch_labtab_gestational_age",
-        "isAbout": "items/mh_ch_labtab_gestational_age",
+        "variableName": "mh_ch_labtab_lang",
+        "isAbout": "items/mh_ch_labtab_lang",
         "valueRequired": false,
         "isVis": true
       }
