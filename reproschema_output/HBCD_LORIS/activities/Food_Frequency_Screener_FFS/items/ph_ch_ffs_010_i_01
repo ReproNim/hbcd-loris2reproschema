@@ -1,0 +1,117 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "ph_ch_ffs_010_i_01",
+  "prefLabel": {
+    "en": "ph_ch_ffs_010_i_01"
+  },
+  "question": {
+    "en": "How much in one day?If your child ate 1 apple and 1 banana, that would be 2 in one day."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string",
+      "xsd:integer"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "1/2"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": 1
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "2+"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: ph_ch_ffs_010 == '2' OR ph_ch_ffs_010 == '3' OR ph_ch_ffs_010 == '4' OR ph_ch_ffs_010 == '5' OR ph_ch_ffs_010 == '6'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "010_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "ph_ch_ffs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "String"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "Nominal"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
