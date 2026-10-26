@@ -14,8 +14,9 @@
     "order": [
       "items/pex_bm_psych_Date_taken",
       "items/pex_bm_psych_Candidate_Age",
-      "items/pex_bm_psych_gestational_age",
       "items/pex_bm_psych_Window_Difference",
+      "items/pex_bm_psych_gestational_age",
+      "items/pex_bm_psych_adjusted_age",
       "items/pex_bm_psych_Examiner",
       "items/pex_bm_psych_lang",
       "items/pex_bm_psych_dtt",
@@ -87,14 +88,20 @@
         "isVis": true
       },
       {
+        "variableName": "pex_bm_psych_Window_Difference",
+        "isAbout": "items/pex_bm_psych_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_bm_psych_gestational_age",
         "isAbout": "items/pex_bm_psych_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_psych_Window_Difference",
-        "isAbout": "items/pex_bm_psych_Window_Difference",
+        "variableName": "pex_bm_psych_adjusted_age",
+        "isAbout": "items/pex_bm_psych_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },

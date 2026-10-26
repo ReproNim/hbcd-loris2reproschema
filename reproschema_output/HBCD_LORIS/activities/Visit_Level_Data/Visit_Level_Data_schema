@@ -16,7 +16,9 @@
       "items/adm_fd_visitdata_Candidate_Age",
       "items/adm_fd_visitdata_Window_Difference",
       "items/adm_fd_visitdata_gestational_age",
+      "items/adm_fd_visitdata_adjusted_age",
       "items/adm_fd_visitdata_Examiner",
+      "items/adm_fd_visitdata_lang",
       "items/adm_fd_visitdata_dtt",
       "items/adm_fd_visitdata_timestamp_start",
       "items/adm_fd_visitdata_timestamp_stop",
@@ -24,10 +26,10 @@
       "items/adm_fd_visitdata_001",
       "items/adm_fd_visitdata_visit_start",
       "items/adm_fd_visitdata_visit_end",
+      "items/adm_fd_visitdata_alternate_caregiver_type",
       "items/adm_fd_visitdata_Validity",
       "items/adm_fd_visitdata_Administration",
-      "items/adm_fd_visitdata_Informant",
-      "items/adm_fd_visitdata_alternate_caregiver_type"
+      "items/adm_fd_visitdata_Informant"
     ],
     "addProperties": [
       {
@@ -55,9 +57,21 @@
         "isVis": true
       },
       {
+        "variableName": "adm_fd_visitdata_adjusted_age",
+        "isAbout": "items/adm_fd_visitdata_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_fd_visitdata_Examiner",
         "isAbout": "items/adm_fd_visitdata_Examiner",
         "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_fd_visitdata_lang",
+        "isAbout": "items/adm_fd_visitdata_lang",
+        "valueRequired": false,
         "isVis": true
       },
       {
@@ -103,6 +117,12 @@
         "isVis": true
       },
       {
+        "variableName": "adm_fd_visitdata_alternate_caregiver_type",
+        "isAbout": "items/adm_fd_visitdata_alternate_caregiver_type",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_fd_visitdata_Validity",
         "isAbout": "items/adm_fd_visitdata_Validity",
         "valueRequired": false,
@@ -117,12 +137,6 @@
       {
         "variableName": "adm_fd_visitdata_Informant",
         "isAbout": "items/adm_fd_visitdata_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "adm_fd_visitdata_alternate_caregiver_type",
-        "isAbout": "items/adm_fd_visitdata_alternate_caregiver_type",
         "valueRequired": false,
         "isVis": true
       }
