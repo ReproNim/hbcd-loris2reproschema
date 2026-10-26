@@ -16,6 +16,7 @@
       "items/mh_cg_mapstl_i_tod_Candidate_Age",
       "items/mh_cg_mapstl_i_tod_Window_Difference",
       "items/mh_cg_mapstl_i_tod_gestational_age",
+      "items/mh_cg_mapstl_i_tod_adjusted_age",
       "items/mh_cg_mapstl_i_tod_Examiner",
       "items/mh_cg_mapstl_i_tod_lang",
       "items/mh_cg_mapstl_i_tod_dtt",
@@ -66,6 +67,9 @@
       "items/mh_cg_mapstl_i_tod_040",
       "items/mh_cg_mapstl_i_tod_line",
       "items/mh_cg_mapstl_i_tod_total_score",
+      "items/mh_cg_mapstl_i_tod_total_score_note",
+      "items/mh_cg_mapstl_i_tod_prorated_score",
+      "items/mh_cg_mapstl_i_tod_prorated_score_note",
       "items/mh_cg_mapstl_i_tod_Validity",
       "items/mh_cg_mapstl_i_tod_Administration",
       "items/mh_cg_mapstl_i_tod_Informant"
@@ -92,6 +96,12 @@
       {
         "variableName": "mh_cg_mapstl_i_tod_gestational_age",
         "isAbout": "items/mh_cg_mapstl_i_tod_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_tod_adjusted_age",
+        "isAbout": "items/mh_cg_mapstl_i_tod_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -392,6 +402,24 @@
       {
         "variableName": "mh_cg_mapstl_i_tod_total_score",
         "isAbout": "items/mh_cg_mapstl_i_tod_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_tod_total_score_note",
+        "isAbout": "items/mh_cg_mapstl_i_tod_total_score_note",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_tod_prorated_score",
+        "isAbout": "items/mh_cg_mapstl_i_tod_prorated_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_tod_prorated_score_note",
+        "isAbout": "items/mh_cg_mapstl_i_tod_prorated_score_note",
         "valueRequired": false,
         "isVis": true
       },

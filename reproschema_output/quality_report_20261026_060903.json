@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-26T06:08:55.189233",
+  "source_file": "loris_data_dictionaries/hbcd_data_dictionary_2026-10-26.csv",
+  "statistics": {
+    "total_rows": 17261,
+    "activities": 144,
+    "items": 17261,
+    "issues_fixed": 1,
+    "warnings": 0
+  },
+  "issues": {
+    "typos": [],
+    "truncated_names": [
+      {
+        "original": "ecPROMIS (",
+        "fixed": "ecPROMIS"
+      }
+    ],
+    "missing_choices": [],
+    "redundant_prefixes": [],
+    "naming_conventions": [],
+    "validation_errors": [],
+    "field_type_mismatches": []
+  },
+  "fixes_applied": [
+    "Fixed truncated activity name: ecPROMIS ("
+  ],
+  "warnings": []
+}
