@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhistv2_014_i_27"
   },
   "question": {
-    "en": "Oppositional Defiance Disorder (ODD)"
+    "en": "Oppositional Defiant Disorder (ODD)"
   },
   "ui": {
     "inputType": "select"
@@ -91,7 +91,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",
