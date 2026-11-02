@@ -1,0 +1,279 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Cultural_Wealth_Survey_Family_Traditions_and_Support_schema",
+  "prefLabel": {
+    "en": "Cultural Wealth Survey/Family Traditions and Support"
+  },
+  "description": {
+    "en": "Questions related to Cultural Wealth Survey/Family Traditions and Support"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_fts_Date_taken",
+      "items/mh_cg_fts_Candidate_Age",
+      "items/mh_cg_fts_Window_Difference",
+      "items/mh_cg_fts_gestational_age",
+      "items/mh_cg_fts_adjusted_age",
+      "items/mh_cg_fts_Examiner",
+      "items/mh_cg_fts_lang",
+      "items/mh_cg_fts_start_time",
+      "items/mh_cg_fts_start_time_server",
+      "items/mh_cg_fts_location",
+      "items/mh_cg_fts_instr01",
+      "items/mh_cg_fts_001",
+      "items/mh_cg_fts_002",
+      "items/mh_cg_fts_003",
+      "items/mh_cg_fts_004",
+      "items/mh_cg_fts_005",
+      "items/mh_cg_fts_006",
+      "items/mh_cg_fts_007",
+      "items/mh_cg_fts_008",
+      "items/mh_cg_fts_009",
+      "items/mh_cg_fts_010",
+      "items/mh_cg_fts_011",
+      "items/mh_cg_fts_012",
+      "items/mh_cg_fts_013",
+      "items/mh_cg_fts_014",
+      "items/mh_cg_fts_015",
+      "items/mh_cg_fts_016",
+      "items/mh_cg_fts_017",
+      "items/mh_cg_fts_018",
+      "items/mh_cg_fts_019",
+      "items/mh_cg_fts_020",
+      "items/mh_cg_fts_021",
+      "items/mh_cg_fts_022",
+      "items/mh_cg_fts_023",
+      "items/mh_cg_fts_Validity",
+      "items/mh_cg_fts_Administration",
+      "items/mh_cg_fts_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_fts_Date_taken",
+        "isAbout": "items/mh_cg_fts_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Candidate_Age",
+        "isAbout": "items/mh_cg_fts_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Window_Difference",
+        "isAbout": "items/mh_cg_fts_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_gestational_age",
+        "isAbout": "items/mh_cg_fts_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_adjusted_age",
+        "isAbout": "items/mh_cg_fts_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Examiner",
+        "isAbout": "items/mh_cg_fts_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_lang",
+        "isAbout": "items/mh_cg_fts_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_fts_start_time",
+        "isAbout": "items/mh_cg_fts_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_fts_start_time_server",
+        "isAbout": "items/mh_cg_fts_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_fts_location",
+        "isAbout": "items/mh_cg_fts_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_fts_instr01",
+        "isAbout": "items/mh_cg_fts_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_001",
+        "isAbout": "items/mh_cg_fts_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_002",
+        "isAbout": "items/mh_cg_fts_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_003",
+        "isAbout": "items/mh_cg_fts_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_004",
+        "isAbout": "items/mh_cg_fts_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_005",
+        "isAbout": "items/mh_cg_fts_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_006",
+        "isAbout": "items/mh_cg_fts_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_007",
+        "isAbout": "items/mh_cg_fts_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_008",
+        "isAbout": "items/mh_cg_fts_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_009",
+        "isAbout": "items/mh_cg_fts_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_010",
+        "isAbout": "items/mh_cg_fts_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_011",
+        "isAbout": "items/mh_cg_fts_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_012",
+        "isAbout": "items/mh_cg_fts_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_013",
+        "isAbout": "items/mh_cg_fts_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_014",
+        "isAbout": "items/mh_cg_fts_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_015",
+        "isAbout": "items/mh_cg_fts_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_016",
+        "isAbout": "items/mh_cg_fts_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_017",
+        "isAbout": "items/mh_cg_fts_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_018",
+        "isAbout": "items/mh_cg_fts_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_019",
+        "isAbout": "items/mh_cg_fts_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_020",
+        "isAbout": "items/mh_cg_fts_020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_021",
+        "isAbout": "items/mh_cg_fts_021",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_022",
+        "isAbout": "items/mh_cg_fts_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_023",
+        "isAbout": "items/mh_cg_fts_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Validity",
+        "isAbout": "items/mh_cg_fts_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Administration",
+        "isAbout": "items/mh_cg_fts_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_fts_Informant",
+        "isAbout": "items/mh_cg_fts_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

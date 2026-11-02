@@ -14,8 +14,9 @@
     "order": [
       "items/ph_cg_inq_Date_taken",
       "items/ph_cg_inq_Candidate_Age",
-      "items/ph_cg_inq_gestational_age",
       "items/ph_cg_inq_Window_Difference",
+      "items/ph_cg_inq_gestational_age",
+      "items/ph_cg_inq_adjusted_age",
       "items/ph_cg_inq_Examiner",
       "items/ph_cg_inq_lang",
       "items/ph_cg_inq_dtt",
@@ -137,14 +138,20 @@
         "isVis": true
       },
       {
+        "variableName": "ph_cg_inq_Window_Difference",
+        "isAbout": "items/ph_cg_inq_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_inq_gestational_age",
         "isAbout": "items/ph_cg_inq_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "ph_cg_inq_Window_Difference",
-        "isAbout": "items/ph_cg_inq_Window_Difference",
+        "variableName": "ph_cg_inq_adjusted_age",
+        "isAbout": "items/ph_cg_inq_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
