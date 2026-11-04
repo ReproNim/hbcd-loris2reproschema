@@ -1,0 +1,699 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Social_Responsiveness_Scale_SRS_schema",
+  "prefLabel": {
+    "en": "Social Responsiveness Scale (SRS)"
+  },
+  "description": {
+    "en": "Questions related to Social Responsiveness Scale (SRS)"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_ch_srs_Date_taken",
+      "items/mh_ch_srs_Candidate_Age",
+      "items/mh_ch_srs_Window_Difference",
+      "items/mh_ch_srs_gestational_age",
+      "items/mh_ch_srs_adjusted_age",
+      "items/mh_ch_srs_Examiner",
+      "items/mh_ch_srs_lang",
+      "items/mh_ch_srs_dtt",
+      "items/mh_ch_srs_timestamp_start",
+      "items/mh_ch_srs_timestamp_stop",
+      "items/mh_ch_srs_Duration",
+      "items/mh_ch_srs_location",
+      "items/mh_ch_srs_instr01",
+      "items/mh_ch_srs_001",
+      "items/mh_ch_srs_002",
+      "items/mh_ch_srs_003",
+      "items/mh_ch_srs_004",
+      "items/mh_ch_srs_005",
+      "items/mh_ch_srs_006",
+      "items/mh_ch_srs_007",
+      "items/mh_ch_srs_008",
+      "items/mh_ch_srs_009",
+      "items/mh_ch_srs_010",
+      "items/mh_ch_srs_011",
+      "items/mh_ch_srs_012",
+      "items/mh_ch_srs_013",
+      "items/mh_ch_srs_014",
+      "items/mh_ch_srs_015",
+      "items/mh_ch_srs_016",
+      "items/mh_ch_srs_017",
+      "items/mh_ch_srs_018",
+      "items/mh_ch_srs_019",
+      "items/mh_ch_srs_020",
+      "items/mh_ch_srs_021",
+      "items/mh_ch_srs_022",
+      "items/mh_ch_srs_023",
+      "items/mh_ch_srs_024",
+      "items/mh_ch_srs_025",
+      "items/mh_ch_srs_026",
+      "items/mh_ch_srs_027",
+      "items/mh_ch_srs_028",
+      "items/mh_ch_srs_029",
+      "items/mh_ch_srs_030",
+      "items/mh_ch_srs_031",
+      "items/mh_ch_srs_032",
+      "items/mh_ch_srs_033",
+      "items/mh_ch_srs_034",
+      "items/mh_ch_srs_035",
+      "items/mh_ch_srs_036",
+      "items/mh_ch_srs_037",
+      "items/mh_ch_srs_038",
+      "items/mh_ch_srs_039",
+      "items/mh_ch_srs_040",
+      "items/mh_ch_srs_041",
+      "items/mh_ch_srs_042",
+      "items/mh_ch_srs_043",
+      "items/mh_ch_srs_044",
+      "items/mh_ch_srs_045",
+      "items/mh_ch_srs_046",
+      "items/mh_ch_srs_047",
+      "items/mh_ch_srs_048",
+      "items/mh_ch_srs_049",
+      "items/mh_ch_srs_050",
+      "items/mh_ch_srs_051",
+      "items/mh_ch_srs_052",
+      "items/mh_ch_srs_053",
+      "items/mh_ch_srs_054",
+      "items/mh_ch_srs_055",
+      "items/mh_ch_srs_056",
+      "items/mh_ch_srs_057",
+      "items/mh_ch_srs_058",
+      "items/mh_ch_srs_059",
+      "items/mh_ch_srs_060",
+      "items/mh_ch_srs_061",
+      "items/mh_ch_srs_062",
+      "items/mh_ch_srs_063",
+      "items/mh_ch_srs_064",
+      "items/mh_ch_srs_065",
+      "items/mh_ch_srs_thankyou",
+      "items/mh_ch_srs_total_score",
+      "items/mh_ch_srs_total_T_score",
+      "items/mh_ch_srs_Awr_score",
+      "items/mh_ch_srs_Awr_T_score",
+      "items/mh_ch_srs_Cog_score",
+      "items/mh_ch_srs_Cog_T_score",
+      "items/mh_ch_srs_Com_score",
+      "items/mh_ch_srs_Com_T_score",
+      "items/mh_ch_srs_Mot_score",
+      "items/mh_ch_srs_Mot_T_score",
+      "items/mh_ch_srs_DSM5_RRB_score",
+      "items/mh_ch_srs_DSM5_RRB_T_score",
+      "items/mh_ch_srs_DSM5_SCI_score",
+      "items/mh_ch_srs_DSM5_SCI_T_score",
+      "items/mh_ch_srs_score_range",
+      "items/mh_ch_srs_Validity",
+      "items/mh_ch_srs_Administration",
+      "items/mh_ch_srs_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_ch_srs_Date_taken",
+        "isAbout": "items/mh_ch_srs_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Candidate_Age",
+        "isAbout": "items/mh_ch_srs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Window_Difference",
+        "isAbout": "items/mh_ch_srs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_gestational_age",
+        "isAbout": "items/mh_ch_srs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_adjusted_age",
+        "isAbout": "items/mh_ch_srs_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Examiner",
+        "isAbout": "items/mh_ch_srs_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_lang",
+        "isAbout": "items/mh_ch_srs_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_ch_srs_dtt",
+        "isAbout": "items/mh_ch_srs_dtt",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_ch_srs_timestamp_start",
+        "isAbout": "items/mh_ch_srs_timestamp_start",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_ch_srs_timestamp_stop",
+        "isAbout": "items/mh_ch_srs_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Duration",
+        "isAbout": "items/mh_ch_srs_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_location",
+        "isAbout": "items/mh_ch_srs_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_ch_srs_instr01",
+        "isAbout": "items/mh_ch_srs_instr01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_001",
+        "isAbout": "items/mh_ch_srs_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_002",
+        "isAbout": "items/mh_ch_srs_002",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_003",
+        "isAbout": "items/mh_ch_srs_003",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_004",
+        "isAbout": "items/mh_ch_srs_004",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_005",
+        "isAbout": "items/mh_ch_srs_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_006",
+        "isAbout": "items/mh_ch_srs_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_007",
+        "isAbout": "items/mh_ch_srs_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_008",
+        "isAbout": "items/mh_ch_srs_008",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_009",
+        "isAbout": "items/mh_ch_srs_009",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_010",
+        "isAbout": "items/mh_ch_srs_010",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_011",
+        "isAbout": "items/mh_ch_srs_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_012",
+        "isAbout": "items/mh_ch_srs_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_013",
+        "isAbout": "items/mh_ch_srs_013",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_014",
+        "isAbout": "items/mh_ch_srs_014",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_015",
+        "isAbout": "items/mh_ch_srs_015",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_016",
+        "isAbout": "items/mh_ch_srs_016",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_017",
+        "isAbout": "items/mh_ch_srs_017",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_018",
+        "isAbout": "items/mh_ch_srs_018",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_019",
+        "isAbout": "items/mh_ch_srs_019",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_020",
+        "isAbout": "items/mh_ch_srs_020",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_021",
+        "isAbout": "items/mh_ch_srs_021",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_022",
+        "isAbout": "items/mh_ch_srs_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_023",
+        "isAbout": "items/mh_ch_srs_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_024",
+        "isAbout": "items/mh_ch_srs_024",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_025",
+        "isAbout": "items/mh_ch_srs_025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_026",
+        "isAbout": "items/mh_ch_srs_026",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_027",
+        "isAbout": "items/mh_ch_srs_027",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_028",
+        "isAbout": "items/mh_ch_srs_028",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_029",
+        "isAbout": "items/mh_ch_srs_029",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_030",
+        "isAbout": "items/mh_ch_srs_030",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_031",
+        "isAbout": "items/mh_ch_srs_031",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_032",
+        "isAbout": "items/mh_ch_srs_032",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_033",
+        "isAbout": "items/mh_ch_srs_033",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_034",
+        "isAbout": "items/mh_ch_srs_034",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_035",
+        "isAbout": "items/mh_ch_srs_035",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_036",
+        "isAbout": "items/mh_ch_srs_036",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_037",
+        "isAbout": "items/mh_ch_srs_037",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_038",
+        "isAbout": "items/mh_ch_srs_038",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_039",
+        "isAbout": "items/mh_ch_srs_039",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_040",
+        "isAbout": "items/mh_ch_srs_040",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_041",
+        "isAbout": "items/mh_ch_srs_041",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_042",
+        "isAbout": "items/mh_ch_srs_042",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_043",
+        "isAbout": "items/mh_ch_srs_043",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_044",
+        "isAbout": "items/mh_ch_srs_044",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_045",
+        "isAbout": "items/mh_ch_srs_045",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_046",
+        "isAbout": "items/mh_ch_srs_046",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_047",
+        "isAbout": "items/mh_ch_srs_047",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_048",
+        "isAbout": "items/mh_ch_srs_048",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_049",
+        "isAbout": "items/mh_ch_srs_049",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_050",
+        "isAbout": "items/mh_ch_srs_050",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_051",
+        "isAbout": "items/mh_ch_srs_051",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_052",
+        "isAbout": "items/mh_ch_srs_052",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_053",
+        "isAbout": "items/mh_ch_srs_053",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_054",
+        "isAbout": "items/mh_ch_srs_054",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_055",
+        "isAbout": "items/mh_ch_srs_055",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_056",
+        "isAbout": "items/mh_ch_srs_056",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_057",
+        "isAbout": "items/mh_ch_srs_057",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_058",
+        "isAbout": "items/mh_ch_srs_058",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_059",
+        "isAbout": "items/mh_ch_srs_059",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_060",
+        "isAbout": "items/mh_ch_srs_060",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_061",
+        "isAbout": "items/mh_ch_srs_061",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_062",
+        "isAbout": "items/mh_ch_srs_062",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_063",
+        "isAbout": "items/mh_ch_srs_063",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_064",
+        "isAbout": "items/mh_ch_srs_064",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_065",
+        "isAbout": "items/mh_ch_srs_065",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_thankyou",
+        "isAbout": "items/mh_ch_srs_thankyou",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_total_score",
+        "isAbout": "items/mh_ch_srs_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_total_T_score",
+        "isAbout": "items/mh_ch_srs_total_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Awr_score",
+        "isAbout": "items/mh_ch_srs_Awr_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Awr_T_score",
+        "isAbout": "items/mh_ch_srs_Awr_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Cog_score",
+        "isAbout": "items/mh_ch_srs_Cog_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Cog_T_score",
+        "isAbout": "items/mh_ch_srs_Cog_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Com_score",
+        "isAbout": "items/mh_ch_srs_Com_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Com_T_score",
+        "isAbout": "items/mh_ch_srs_Com_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Mot_score",
+        "isAbout": "items/mh_ch_srs_Mot_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Mot_T_score",
+        "isAbout": "items/mh_ch_srs_Mot_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_DSM5_RRB_score",
+        "isAbout": "items/mh_ch_srs_DSM5_RRB_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_DSM5_RRB_T_score",
+        "isAbout": "items/mh_ch_srs_DSM5_RRB_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_DSM5_SCI_score",
+        "isAbout": "items/mh_ch_srs_DSM5_SCI_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_DSM5_SCI_T_score",
+        "isAbout": "items/mh_ch_srs_DSM5_SCI_T_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_score_range",
+        "isAbout": "items/mh_ch_srs_score_range",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Validity",
+        "isAbout": "items/mh_ch_srs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Administration",
+        "isAbout": "items/mh_ch_srs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_ch_srs_Informant",
+        "isAbout": "items/mh_ch_srs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

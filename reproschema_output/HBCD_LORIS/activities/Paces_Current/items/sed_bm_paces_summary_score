@@ -9,11 +9,11 @@
     "en": "Summary score:"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "number"
   },
   "responseOptions": {
     "valueType": [
-      "xsd:string"
+      "xsd:float"
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Float"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "Continuous"
     },
     {
       "source": "loris",
