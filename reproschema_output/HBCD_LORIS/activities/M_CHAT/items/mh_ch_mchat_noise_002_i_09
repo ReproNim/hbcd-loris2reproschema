@@ -25,7 +25,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: ((mh_ch_mchat_noise_002_i_01 == '1' OR mh_ch_mchat_noise_002_i_02 == '1' OR mh_ch_mchat_noise_002_i_05 == '1') AND mh_ch_mchat_noise_002_i_04 == '1')"
+    "en": "Conditional display: mh_ch_mchat_noise_002_i_04 == '1' AND mh_ch_mchat_noise_calc2 >== 2 AND mh_ch_mchat_noise_calc3 == 1"
   },
   "additionalNotesObj": [
     {

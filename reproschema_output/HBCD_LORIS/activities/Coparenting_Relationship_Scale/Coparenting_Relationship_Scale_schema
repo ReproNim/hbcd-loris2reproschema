@@ -1,0 +1,230 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Coparenting_Relationship_Scale_schema",
+  "prefLabel": {
+    "en": "Coparenting Relationship Scale"
+  },
+  "description": {
+    "en": "Questions related to Coparenting Relationship Scale"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/mh_cg_crs_Date_taken",
+      "items/mh_cg_crs_Candidate_Age",
+      "items/mh_cg_crs_Window_Difference",
+      "items/mh_cg_crs_gestational_age",
+      "items/mh_cg_crs_adjusted_age",
+      "items/mh_cg_crs_Examiner",
+      "items/mh_cg_crs_lang",
+      "items/mh_cg_crs_start_time",
+      "items/mh_cg_crs_start_time_server",
+      "items/mh_cg_crs_location",
+      "items/mh_cg_crs_001",
+      "items/mh_cg_crs_instr01",
+      "items/mh_cg_crs_002",
+      "items/mh_cg_crs_003",
+      "items/mh_cg_crs_004",
+      "items/mh_cg_crs_005",
+      "items/mh_cg_crs_006",
+      "items/mh_cg_crs_007",
+      "items/mh_cg_crs_008",
+      "items/mh_cg_crs_009",
+      "items/mh_cg_crs_010",
+      "items/mh_cg_crs_011",
+      "items/mh_cg_crs_012",
+      "items/mh_cg_crs_013",
+      "items/mh_cg_crs_instr02",
+      "items/mh_cg_crs_014",
+      "items/mh_cg_crs_015",
+      "items/mh_cg_crs_Validity",
+      "items/mh_cg_crs_Administration",
+      "items/mh_cg_crs_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "mh_cg_crs_Date_taken",
+        "isAbout": "items/mh_cg_crs_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_Candidate_Age",
+        "isAbout": "items/mh_cg_crs_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_Window_Difference",
+        "isAbout": "items/mh_cg_crs_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_gestational_age",
+        "isAbout": "items/mh_cg_crs_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_adjusted_age",
+        "isAbout": "items/mh_cg_crs_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_Examiner",
+        "isAbout": "items/mh_cg_crs_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_lang",
+        "isAbout": "items/mh_cg_crs_lang",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_crs_start_time",
+        "isAbout": "items/mh_cg_crs_start_time",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_crs_start_time_server",
+        "isAbout": "items/mh_cg_crs_start_time_server",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_crs_location",
+        "isAbout": "items/mh_cg_crs_location",
+        "valueRequired": false,
+        "isVis": false
+      },
+      {
+        "variableName": "mh_cg_crs_001",
+        "isAbout": "items/mh_cg_crs_001",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_instr01",
+        "isAbout": "items/mh_cg_crs_instr01",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_002",
+        "isAbout": "items/mh_cg_crs_002",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_003",
+        "isAbout": "items/mh_cg_crs_003",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_004",
+        "isAbout": "items/mh_cg_crs_004",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_005",
+        "isAbout": "items/mh_cg_crs_005",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_006",
+        "isAbout": "items/mh_cg_crs_006",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_007",
+        "isAbout": "items/mh_cg_crs_007",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_008",
+        "isAbout": "items/mh_cg_crs_008",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_009",
+        "isAbout": "items/mh_cg_crs_009",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_010",
+        "isAbout": "items/mh_cg_crs_010",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_011",
+        "isAbout": "items/mh_cg_crs_011",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_012",
+        "isAbout": "items/mh_cg_crs_012",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_013",
+        "isAbout": "items/mh_cg_crs_013",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_instr02",
+        "isAbout": "items/mh_cg_crs_instr02",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_014",
+        "isAbout": "items/mh_cg_crs_014",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_015",
+        "isAbout": "items/mh_cg_crs_015",
+        "valueRequired": false,
+        "isVis": "mh_cg_crs_001  =='1'"
+      },
+      {
+        "variableName": "mh_cg_crs_Validity",
+        "isAbout": "items/mh_cg_crs_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_Administration",
+        "isAbout": "items/mh_cg_crs_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_crs_Informant",
+        "isAbout": "items/mh_cg_crs_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}

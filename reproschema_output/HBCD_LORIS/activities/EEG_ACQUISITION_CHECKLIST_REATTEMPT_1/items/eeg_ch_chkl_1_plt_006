@@ -13,8 +13,8 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:integer"
     ],
     "choices": [
       {
@@ -70,6 +70,12 @@
           "en": "010379"
         },
         "value": "010379"
+      },
+      {
+        "name": {
+          "en": "011553"
+        },
+        "value": "011553"
       }
     ]
   },
