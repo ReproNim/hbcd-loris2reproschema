@@ -14,8 +14,9 @@
     "order": [
       "items/pex_bm_assistv1_Date_taken",
       "items/pex_bm_assistv1_Candidate_Age",
-      "items/pex_bm_assistv1_gestational_age",
       "items/pex_bm_assistv1_Window_Difference",
+      "items/pex_bm_assistv1_gestational_age",
+      "items/pex_bm_assistv1_adjusted_age",
       "items/pex_bm_assistv1_Examiner",
       "items/pex_bm_assistv1_lang",
       "items/pex_bm_assistv1_dtt",
@@ -270,14 +271,20 @@
         "isVis": true
       },
       {
+        "variableName": "pex_bm_assistv1_Window_Difference",
+        "isAbout": "items/pex_bm_assistv1_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "pex_bm_assistv1_gestational_age",
         "isAbout": "items/pex_bm_assistv1_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "pex_bm_assistv1_Window_Difference",
-        "isAbout": "items/pex_bm_assistv1_Window_Difference",
+        "variableName": "pex_bm_assistv1_adjusted_age",
+        "isAbout": "items/pex_bm_assistv1_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -1359,7 +1366,7 @@
         "variableName": "pex_bm_assistv1_instr13",
         "isAbout": "items/pex_bm_assistv1_instr13",
         "valueRequired": false,
-        "isVis": "sum(pex_bm_assistv1_lt_i_use_001, pex_bm_assistv1_lt_i_use_002, pex_bm_assistv1_lt_i_use_003, pex_bm_assistv1_lt_i_use_004, pex_bm_assistv1_lt_i_use_005, pex_bm_assistv1_lt_i_use_006, pex_bm_assistv1_lt_i_use_007, pex_bm_assistv1_lt_i_use_008, pex_bm_assistv1_lt_i_use_009, pex_bm_assistv1_lt_i_use_010, pex_bm_assistv1_lt_i_use_011, pex_bm_assistv1_lt_i_use_012, pex_bm_assistv1_lt_i_use_013, pex_bm_assistv1_lt_i_use_014, pex_bm_assistv1_lt_i_use_015, pex_bm_assistv1_lt_i_use_016, pex_bm_assistv1_lt_i_use_017, pex_bm_assistv1_lt_i_use_018, pex_bm_assistv1_lt_i_use_019) > 0"
+        "isVis": "pex_bm_assistv1_pre_i_use_002 == '1' OR pex_bm_assistv1_during_i_use_002 == '1'"
       },
       {
         "variableName": "pex_bm_assistv1_instr14",
@@ -1539,7 +1546,7 @@
         "variableName": "pex_bm_assistv1_pre_during_i_use_i_unit_008_dk",
         "isAbout": "items/pex_bm_assistv1_pre_during_i_use_i_unit_008_dk",
         "valueRequired": false,
-        "isVis": "(pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1') AND pex_bm_assistv1_pre_during_i_use_i_unit_008 == ''"
+        "isVis": "(pex_bm_assistv1_pre_i_use_008 == '1' OR pex_bm_assistv1_during_i_use_008 == '1') AND pex_bm_assistv1_pre_during_i_use_i_amount_008_v01 == ''"
       },
       {
         "variableName": "pex_bm_assistv1_instr16",

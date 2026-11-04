@@ -15,11 +15,15 @@
       "items/ph_cg_ecls_i_medhistv2_Date_taken",
       "items/ph_cg_ecls_i_medhistv2_Candidate_Age",
       "items/ph_cg_ecls_i_medhistv2_Window_Difference",
+      "items/ph_cg_ecls_i_medhistv2_gestational_age",
+      "items/ph_cg_ecls_i_medhistv2_Examiner",
+      "items/ph_cg_ecls_i_medhistv2_adjusted_age",
       "items/ph_cg_ecls_i_medhistv2_lang",
       "items/ph_cg_ecls_i_medhistv2_dtt",
       "items/ph_cg_ecls_i_medhistv2_timestamp_start",
+      "items/ph_cg_ecls_i_medhistv2_timestamp_stop",
+      "items/ph_cg_ecls_i_medhistv2_Duration",
       "items/ph_cg_ecls_i_medhistv2_location",
-      "items/ph_cg_ecls_i_medhistv2_instr01",
       "items/ph_cg_ecls_i_medhistv2_001",
       "items/ph_cg_ecls_i_medhistv2_002",
       "items/ph_cg_ecls_i_medhistv2_003",
@@ -29,7 +33,6 @@
       "items/ph_cg_ecls_i_medhistv2_004_i_03",
       "items/ph_cg_ecls_i_medhistv2_004_i_04",
       "items/ph_cg_ecls_i_medhistv2_004_i_05",
-      "items/ph_cg_ecls_i_medhistv2_instr02",
       "items/ph_cg_ecls_i_medhistv2_005",
       "items/ph_cg_ecls_i_medhistv2_005_i_01",
       "items/ph_cg_ecls_i_medhistv2_005_i_02",
@@ -37,13 +40,15 @@
       "items/ph_cg_ecls_i_medhistv2_006",
       "items/ph_cg_ecls_i_medhistv2_006_i_01",
       "items/ph_cg_ecls_i_medhistv2_006_i_02",
-      "items/ph_cg_ecls_i_medhistv2_instr03",
+      "items/ph_cg_ecls_i_medhistv2_018",
       "items/ph_cg_ecls_i_medhistv2_007",
       "items/ph_cg_ecls_i_medhistv2_007_i_01",
       "items/ph_cg_ecls_i_medhistv2_007_i_02",
       "items/ph_cg_ecls_i_medhistv2_007_i_03",
       "items/ph_cg_ecls_i_medhistv2_007_i_04",
-      "items/ph_cg_ecls_i_medhistv2_instr04",
+      "items/ph_cg_ecls_i_medhistv2_019",
+      "items/ph_cg_ecls_i_medhistv2_020",
+      "items/ph_cg_ecls_i_medhistv2_021",
       "items/ph_cg_ecls_i_medhistv2_008",
       "items/ph_cg_ecls_i_medhistv2_008_i_00",
       "items/ph_cg_ecls_i_medhistv2_008_i_01",
@@ -82,7 +87,12 @@
       "items/ph_cg_ecls_i_medhistv2_009_i_14",
       "items/ph_cg_ecls_i_medhistv2_009_i_15",
       "items/ph_cg_ecls_i_medhistv2_009_i_16",
-      "items/ph_cg_ecls_i_medhistv2_instr05",
+      "items/ph_cg_ecls_i_medhistv2_022_i_00",
+      "items/ph_cg_ecls_i_medhistv2_022",
+      "items/ph_cg_ecls_i_medhistv2_022_i_01",
+      "items/ph_cg_ecls_i_medhistv2_022_i_02",
+      "items/ph_cg_ecls_i_medhistv2_022_i_03",
+      "items/ph_cg_ecls_i_medhistv2_022_i_04",
       "items/ph_cg_ecls_i_medhistv2_010",
       "items/ph_cg_ecls_i_medhistv2_010_i_01",
       "items/ph_cg_ecls_i_medhistv2_011",
@@ -93,7 +103,6 @@
       "items/ph_cg_ecls_i_medhistv2_013",
       "items/ph_cg_ecls_i_medhistv2_013_i_01",
       "items/ph_cg_ecls_i_medhistv2_013_i_02",
-      "items/ph_cg_ecls_i_medhistv2_instr06",
       "items/ph_cg_ecls_i_medhistv2_014_i_01",
       "items/ph_cg_ecls_i_medhistv2_014_i_02",
       "items/ph_cg_ecls_i_medhistv2_014_i_03",
@@ -141,9 +150,9 @@
       "items/ph_cg_ecls_i_medhistv2_014_i_29",
       "items/ph_cg_ecls_i_medhistv2_014_i_30",
       "items/ph_cg_ecls_i_medhistv2_014_i_31",
-      "items/ph_cg_ecls_i_medhistv2_instr07",
       "items/ph_cg_ecls_i_medhistv2_15",
       "items/ph_cg_ecls_i_medhistv2_015_i_01",
+      "items/ph_cg_ecls_i_medhistv2_instr01",
       "items/ph_cg_ecls_i_medhistv2_015_i_02",
       "items/ph_cg_ecls_i_medhistv2_015_i_03",
       "items/ph_cg_ecls_i_medhistv2_015_i_04",
@@ -187,6 +196,73 @@
       "items/ph_cg_ecls_i_medhistv2_016_i_09",
       "items/ph_cg_ecls_i_medhistv2_016_i_10",
       "items/ph_cg_ecls_i_medhistv2_016_i_11",
+      "items/ph_cg_ecls_i_medhistv2_023",
+      "items/ph_cg_ecls_i_medhistv2_023_i_01",
+      "items/ph_cg_ecls_i_medhistv2_023_i_02",
+      "items/ph_cg_ecls_i_medhistv2_023_i_03",
+      "items/ph_cg_ecls_i_medhistv2_023_i_04",
+      "items/ph_cg_ecls_i_medhistv2_023_i_05",
+      "items/ph_cg_ecls_i_medhistv2_023_i_06",
+      "items/ph_cg_ecls_i_medhistv2_023_i_07",
+      "items/ph_cg_ecls_i_medhistv2_023_i_08",
+      "items/ph_cg_ecls_i_medhistv2_023_i_09",
+      "items/ph_cg_ecls_i_medhistv2_023_i_10",
+      "items/ph_cg_ecls_i_medhistv2_023_i_11",
+      "items/ph_cg_ecls_i_medhistv2_023_i_12",
+      "items/ph_cg_ecls_i_medhistv2_023_i_13",
+      "items/ph_cg_ecls_i_medhistv2_023_i_14",
+      "items/ph_cg_ecls_i_medhistv2_023_i_15",
+      "items/ph_cg_ecls_i_medhistv2_023_i_16",
+      "items/ph_cg_ecls_i_medhistv2_023_i_17",
+      "items/ph_cg_ecls_i_medhistv2_023_i_18",
+      "items/ph_cg_ecls_i_medhistv2_023_i_19",
+      "items/ph_cg_ecls_i_medhistv2_023_i_20",
+      "items/ph_cg_ecls_i_medhistv2_023_i_21",
+      "items/ph_cg_ecls_i_medhistv2_023_i_22",
+      "items/ph_cg_ecls_i_medhistv2_034",
+      "items/ph_cg_ecls_i_medhistv2_034_i_01",
+      "items/ph_cg_ecls_i_medhistv2_034_i_02",
+      "items/ph_cg_ecls_i_medhistv2_034_i_03",
+      "items/ph_cg_ecls_i_medhistv2_034_i_04",
+      "items/ph_cg_ecls_i_medhistv2_034_i_05",
+      "items/ph_cg_ecls_i_medhistv2_034_i_06",
+      "items/ph_cg_ecls_i_medhistv2_034_i_07",
+      "items/ph_cg_ecls_i_medhistv2_034_i_08",
+      "items/ph_cg_ecls_i_medhistv2_034_i_09",
+      "items/ph_cg_ecls_i_medhistv2_034_i_10",
+      "items/ph_cg_ecls_i_medhistv2_034_i_11",
+      "items/ph_cg_ecls_i_medhistv2_034_i_12",
+      "items/ph_cg_ecls_i_medhistv2_034_i_13",
+      "items/ph_cg_ecls_i_medhistv2_034_i_14",
+      "items/ph_cg_ecls_i_medhistv2_034_i_15",
+      "items/ph_cg_ecls_i_medhistv2_024",
+      "items/ph_cg_ecls_i_medhistv2_025",
+      "items/ph_cg_ecls_i_medhistv2_026",
+      "items/ph_cg_ecls_i_medhistv2_036",
+      "items/ph_cg_ecls_i_medhistv2_035",
+      "items/ph_cg_ecls_i_medhistv2_035_i_01",
+      "items/ph_cg_ecls_i_medhistv2_035_i_02",
+      "items/ph_cg_ecls_i_medhistv2_035_i_03",
+      "items/ph_cg_ecls_i_medhistv2_035_i_04",
+      "items/ph_cg_ecls_i_medhistv2_035_i_05",
+      "items/ph_cg_ecls_i_medhistv2_035_i_06",
+      "items/ph_cg_ecls_i_medhistv2_035_i_07",
+      "items/ph_cg_ecls_i_medhistv2_035_i_08",
+      "items/ph_cg_ecls_i_medhistv2_035_i_09",
+      "items/ph_cg_ecls_i_medhistv2_035_i_10",
+      "items/ph_cg_ecls_i_medhistv2_037",
+      "items/ph_cg_ecls_i_medhistv2_017",
+      "items/ph_cg_ecls_i_medhistv2_017_i_01",
+      "items/ph_cg_ecls_i_medhistv2_017_i_02",
+      "items/ph_cg_ecls_i_medhistv2_017_i_03",
+      "items/ph_cg_ecls_i_medhistv2_017_i_04",
+      "items/ph_cg_ecls_i_medhistv2_017_i_05",
+      "items/ph_cg_ecls_i_medhistv2_038",
+      "items/ph_cg_ecls_i_medhistv2_039",
+      "items/ph_cg_ecls_i_medhistv2_040",
+      "items/ph_cg_ecls_i_medhistv2_041",
+      "items/ph_cg_ecls_i_medhistv2_042",
+      "items/ph_cg_ecls_i_medhistv2_043",
       "items/ph_cg_ecls_i_medhistv2_Validity",
       "items/ph_cg_ecls_i_medhistv2_Administration",
       "items/ph_cg_ecls_i_medhistv2_Informant"
@@ -211,6 +287,24 @@
         "isVis": true
       },
       {
+        "variableName": "ph_cg_ecls_i_medhistv2_gestational_age",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_Examiner",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_adjusted_age",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_cg_ecls_i_medhistv2_lang",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_lang",
         "valueRequired": false,
@@ -220,25 +314,31 @@
         "variableName": "ph_cg_ecls_i_medhistv2_dtt",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_dtt",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_timestamp_start",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_timestamp_start",
         "valueRequired": false,
-        "isVis": false
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_timestamp_stop",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_Duration",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_Duration",
+        "valueRequired": false,
+        "isVis": true
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_location",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_location",
         "valueRequired": false,
         "isVis": false
-      },
-      {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr01",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr01",
-        "valueRequired": false,
-        "isVis": "ph_cg_ecls_i_medhistv2_15 == '1'"
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_001",
@@ -295,12 +395,6 @@
         "isVis": true
       },
       {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr02",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr02",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_cg_ecls_i_medhistv2_005",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_005",
         "valueRequired": false,
@@ -343,10 +437,10 @@
         "isVis": "ph_cg_ecls_i_medhistv2_006_i_01 == '1'"
       },
       {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr03",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr03",
+        "variableName": "ph_cg_ecls_i_medhistv2_018",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_018",
         "valueRequired": false,
-        "isVis": true
+        "isVis": "event-name == 'v10_arm_1'"
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_007",
@@ -379,10 +473,22 @@
         "isVis": true
       },
       {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr04",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr04",
+        "variableName": "ph_cg_ecls_i_medhistv2_019",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_019",
         "valueRequired": false,
-        "isVis": true
+        "isVis": "event-name == 'v10_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_020",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_020",
+        "valueRequired": false,
+        "isVis": "event-name == 'v10_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_021",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_021",
+        "valueRequired": false,
+        "isVis": "event-name == 'v10_arm_1'"
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_008",
@@ -613,10 +719,40 @@
         "isVis": "ph_cg_ecls_i_medhistv2_009_i_01 >== 15"
       },
       {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr05",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr05",
+        "variableName": "ph_cg_ecls_i_medhistv2_022_i_00",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022_i_00",
         "valueRequired": false,
         "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_022",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_022_i_01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022_i_01",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_022 == '1' OR ph_cg_ecls_i_medhistv2_022 == '2'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_022_i_02",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022_i_02",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_022 == '1' OR ph_cg_ecls_i_medhistv2_022 == '2'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_022_i_03",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022_i_03",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_022 == '1' OR ph_cg_ecls_i_medhistv2_022 == '2'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_022_i_04",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_022_i_04",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_022_i_03 == '1' OR ph_cg_ecls_i_medhistv2_022_i_03 == '2'"
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_010",
@@ -677,12 +813,6 @@
         "isAbout": "items/ph_cg_ecls_i_medhistv2_013_i_02",
         "valueRequired": false,
         "isVis": "ph_cg_ecls_i_medhistv2_013 == '0'"
-      },
-      {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr06",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr06",
-        "valueRequired": false,
-        "isVis": true
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_014_i_01",
@@ -967,12 +1097,6 @@
         "isVis": true
       },
       {
-        "variableName": "ph_cg_ecls_i_medhistv2_instr07",
-        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr07",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ph_cg_ecls_i_medhistv2_15",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_15",
         "valueRequired": false,
@@ -981,6 +1105,12 @@
       {
         "variableName": "ph_cg_ecls_i_medhistv2_015_i_01",
         "isAbout": "items/ph_cg_ecls_i_medhistv2_015_i_01",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_15 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_instr01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_instr01",
         "valueRequired": false,
         "isVis": "ph_cg_ecls_i_medhistv2_15 == '1'"
       },
@@ -1241,6 +1371,408 @@
         "isAbout": "items/ph_cg_ecls_i_medhistv2_016_i_11",
         "valueRequired": false,
         "isVis": "ph_cg_ecls_i_medhistv2_016 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_02",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_03",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_04",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_05",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_06",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_07",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_08",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_09",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_10",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_11",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_12",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_13",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_14",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_15",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_16",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_17",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_18",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_19",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_20",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_21",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_023_i_22",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_023_i_22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_01",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_02",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_02",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_03",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_03",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_04",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_04",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_05",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_05",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_06",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_06",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_07",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_07",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_08",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_08",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_09",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_09",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_10",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_10",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_11",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_11",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_12",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_12",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_13",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_13",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_14",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_14",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_034_i_15",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_034_i_15",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_034 !== '0' AND ph_cg_ecls_i_medhistv2_034 !== '777' AND ph_cg_ecls_i_medhistv2_034 !== '999'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_024",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_024",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_025",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_025",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_026",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_026",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_036",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_036",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_01",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_02",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_02",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_03",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_03",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_04",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_04",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_05",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_05",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_06",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_06",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_07",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_07",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_08",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_08",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_09",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_09",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_035_i_10",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_035_i_10",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_035 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_037",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_037",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017",
+        "valueRequired": false,
+        "isVis": "event-name == 'v10_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017_i_01",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017_i_01",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_017 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017_i_02",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017_i_02",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_017 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017_i_03",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017_i_03",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_017 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017_i_04",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017_i_04",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_017 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_017_i_05",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_017_i_05",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_017 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_038",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_038",
+        "valueRequired": false,
+        "isVis": "event-name == 'v08_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_039",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_039",
+        "valueRequired": false,
+        "isVis": "event-name == 'v08_arm_1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_040",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_040",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_038 == '1' OR ph_cg_ecls_i_medhistv2_039 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_041",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_041",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_038 == '1' OR ph_cg_ecls_i_medhistv2_039 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_042",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_042",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_038 == '1' OR ph_cg_ecls_i_medhistv2_039 == '1'"
+      },
+      {
+        "variableName": "ph_cg_ecls_i_medhistv2_043",
+        "isAbout": "items/ph_cg_ecls_i_medhistv2_043",
+        "valueRequired": false,
+        "isVis": "ph_cg_ecls_i_medhistv2_038 == '1' OR ph_cg_ecls_i_medhistv2_039 == '1'"
       },
       {
         "variableName": "ph_cg_ecls_i_medhistv2_Validity",
