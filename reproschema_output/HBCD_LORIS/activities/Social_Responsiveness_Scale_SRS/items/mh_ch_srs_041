@@ -1,0 +1,119 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "mh_ch_srs_041",
+  "prefLabel": {
+    "en": "mh_ch_srs_041"
+  },
+  "question": {
+    "en": "41. Wanders aimlessly from one activity to another."
+  },
+  "ui": {
+    "inputType": "select"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "NOT TRUE"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "SOMETIMES TRUE"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "OFTEN TRUE"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "ALMOST ALWAYS TRUE"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "041"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_srs"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}
