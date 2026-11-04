@@ -16,6 +16,7 @@
       "items/mh_cg_ecbq_Candidate_Age",
       "items/mh_cg_ecbq_Window_Difference",
       "items/mh_cg_ecbq_gestational_age",
+      "items/mh_cg_ecbq_adjusted_age",
       "items/mh_cg_ecbq_Examiner",
       "items/mh_cg_ecbq_lang",
       "items/mh_cg_ecbq_dtt",
@@ -23,14 +24,6 @@
       "items/mh_cg_ecbq_timestamp_stop",
       "items/mh_cg_ecbq_Duration",
       "items/mh_cg_ecbq_location",
-      "items/mh_cg_ecbq_line",
-      "items/mh_cg_ecbq_surg_score",
-      "items/mh_cg_ecbq_neg_score",
-      "items/mh_cg_ecbq_efrt_score",
-      "items/mh_cg_ecbq_beh_score",
-      "items/mh_cg_ecbq_Validity",
-      "items/mh_cg_ecbq_Administration",
-      "items/mh_cg_ecbq_Informant",
       "items/mh_cg_ecbq_beh_i_neg_001",
       "items/mh_cg_ecbq_neg_001",
       "items/mh_cg_ecbq_surg_001",
@@ -77,7 +70,15 @@
       "items/mh_cg_ecbq_beh_008",
       "items/mh_cg_ecbq_beh_009",
       "items/mh_cg_ecbq_beh_010",
-      "items/mh_cg_ecbq_beh_011"
+      "items/mh_cg_ecbq_beh_011",
+      "items/mh_cg_ecbq_line",
+      "items/mh_cg_ecbq_surg_score",
+      "items/mh_cg_ecbq_neg_score",
+      "items/mh_cg_ecbq_efrt_score",
+      "items/mh_cg_ecbq_beh_score",
+      "items/mh_cg_ecbq_Validity",
+      "items/mh_cg_ecbq_Administration",
+      "items/mh_cg_ecbq_Informant"
     ],
     "addProperties": [
       {
@@ -101,6 +102,12 @@
       {
         "variableName": "mh_cg_ecbq_gestational_age",
         "isAbout": "items/mh_cg_ecbq_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_adjusted_age",
+        "isAbout": "items/mh_cg_ecbq_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -145,54 +152,6 @@
         "isAbout": "items/mh_cg_ecbq_location",
         "valueRequired": false,
         "isVis": false
-      },
-      {
-        "variableName": "mh_cg_ecbq_line",
-        "isAbout": "items/mh_cg_ecbq_line",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_surg_score",
-        "isAbout": "items/mh_cg_ecbq_surg_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_neg_score",
-        "isAbout": "items/mh_cg_ecbq_neg_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_efrt_score",
-        "isAbout": "items/mh_cg_ecbq_efrt_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_beh_score",
-        "isAbout": "items/mh_cg_ecbq_beh_score",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_Validity",
-        "isAbout": "items/mh_cg_ecbq_Validity",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_Administration",
-        "isAbout": "items/mh_cg_ecbq_Administration",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "mh_cg_ecbq_Informant",
-        "isAbout": "items/mh_cg_ecbq_Informant",
-        "valueRequired": false,
-        "isVis": true
       },
       {
         "variableName": "mh_cg_ecbq_beh_i_neg_001",
@@ -473,6 +432,54 @@
       {
         "variableName": "mh_cg_ecbq_beh_011",
         "isAbout": "items/mh_cg_ecbq_beh_011",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_line",
+        "isAbout": "items/mh_cg_ecbq_line",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_surg_score",
+        "isAbout": "items/mh_cg_ecbq_surg_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_neg_score",
+        "isAbout": "items/mh_cg_ecbq_neg_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_efrt_score",
+        "isAbout": "items/mh_cg_ecbq_efrt_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_beh_score",
+        "isAbout": "items/mh_cg_ecbq_beh_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_Validity",
+        "isAbout": "items/mh_cg_ecbq_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_Administration",
+        "isAbout": "items/mh_cg_ecbq_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_ecbq_Informant",
+        "isAbout": "items/mh_cg_ecbq_Informant",
         "valueRequired": false,
         "isVis": true
       }

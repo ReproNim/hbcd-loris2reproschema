@@ -6,7 +6,7 @@
     "en": "pex_bm_apa_apa2_anger_TScoreNote"
   },
   "question": {
-    "en": ""
+    "en": "Notes related to scoring output for 'APA-2 - Anger Subscale - t-score'"
   },
   "ui": {
     "inputType": "text"
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
@@ -75,7 +75,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

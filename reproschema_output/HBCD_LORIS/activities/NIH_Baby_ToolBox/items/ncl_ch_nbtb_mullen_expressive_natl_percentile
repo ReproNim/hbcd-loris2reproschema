@@ -6,7 +6,7 @@
     "en": "ncl_ch_nbtb_mullen_expressive_natl_percentile"
   },
   "question": {
-    "en": "Mullen Expressive Prompt"
+    "en": ""
   },
   "ui": {
     "inputType": "text"
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
@@ -75,7 +75,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Unchanged"
+      "value": "Empty"
     }
   ]
 }
