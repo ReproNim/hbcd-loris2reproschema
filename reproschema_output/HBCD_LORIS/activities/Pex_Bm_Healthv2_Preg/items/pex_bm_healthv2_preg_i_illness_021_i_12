@@ -13,9 +13,9 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float",
       "xsd:integer",
-      "xsd:string"
+      "xsd:string",
+      "xsd:float"
     ],
     "choices": [
       {
