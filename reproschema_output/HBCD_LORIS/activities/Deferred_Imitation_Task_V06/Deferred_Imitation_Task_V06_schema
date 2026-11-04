@@ -16,10 +16,12 @@
       "items/ncl_ch_di_i_v06_Candidate_Age",
       "items/ncl_ch_di_i_v06_Window_Difference",
       "items/ncl_ch_di_i_v06_gestational_age",
+      "items/ncl_ch_di_i_v06_adjusted_age",
       "items/ncl_ch_di_i_v06_Examiner",
       "items/ncl_ch_di_i_v06_timestamp_start",
       "items/ncl_ch_di_i_v06_timestamp_stop",
       "items/ncl_ch_di_i_v06_Duration",
+      "items/ncl_ch_di_i_v06_language",
       "items/ncl_ch_di_i_v06_number_of_actions_baseline",
       "items/ncl_ch_di_i_v06_pairs_of_actions_baseline",
       "items/ncl_ch_di_i_v06_number_of_actions",
@@ -43,8 +45,6 @@
       "items/ncl_ch_di_i_v06_sev_002_i_01",
       "items/ncl_ch_di_i_v06_sev_003",
       "items/ncl_ch_di_i_v06_sev_003_i_01",
-      "items/ncl_ch_di_i_v06_003",
-      "items/ncl_ch_di_i_v06_003_status",
       "items/ncl_ch_di_i_v06_fev2_001",
       "items/ncl_ch_di_i_v06_fev2_001_i_01",
       "items/ncl_ch_di_i_v06_fev2_001_i_02",
@@ -55,6 +55,8 @@
       "items/ncl_ch_di_i_v06_fev2_003",
       "items/ncl_ch_di_i_v06_fev2_004",
       "items/ncl_ch_di_i_v06_fev2_005",
+      "items/ncl_ch_di_i_v06_fev2_006",
+      "items/ncl_ch_di_i_v06_fev2_007",
       "items/ncl_ch_di_i_v06_sev2_001",
       "items/ncl_ch_di_i_v06_sev2_001_i_01",
       "items/ncl_ch_di_i_v06_sev2_001_i_02",
@@ -65,12 +67,12 @@
       "items/ncl_ch_di_i_v06_sev2_003",
       "items/ncl_ch_di_i_v06_sev2_004",
       "items/ncl_ch_di_i_v06_sev2_005",
+      "items/ncl_ch_di_i_v06_sev2_006",
+      "items/ncl_ch_di_i_v06_sev2_007",
       "items/ncl_ch_di_i_v06_was_this_session_recorded",
       "items/ncl_ch_di_i_v06_Validity",
       "items/ncl_ch_di_i_v06_Administration",
-      "items/ncl_ch_di_i_v06_Informant",
-      "items/ncl_ch_di_i_v06_fev2_006",
-      "items/ncl_ch_di_i_v06_sev2_006"
+      "items/ncl_ch_di_i_v06_Informant"
     ],
     "addProperties": [
       {
@@ -98,6 +100,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_i_v06_adjusted_age",
+        "isAbout": "items/ncl_ch_di_i_v06_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_i_v06_Examiner",
         "isAbout": "items/ncl_ch_di_i_v06_Examiner",
         "valueRequired": true,
@@ -118,6 +126,12 @@
       {
         "variableName": "ncl_ch_di_i_v06_Duration",
         "isAbout": "items/ncl_ch_di_i_v06_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v06_language",
+        "isAbout": "items/ncl_ch_di_i_v06_language",
         "valueRequired": false,
         "isVis": true
       },
@@ -260,18 +274,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_di_i_v06_003",
-        "isAbout": "items/ncl_ch_di_i_v06_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_di_i_v06_003_status",
-        "isAbout": "items/ncl_ch_di_i_v06_003_status",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_di_i_v06_fev2_001",
         "isAbout": "items/ncl_ch_di_i_v06_fev2_001",
         "valueRequired": false,
@@ -328,6 +330,18 @@
       {
         "variableName": "ncl_ch_di_i_v06_fev2_005",
         "isAbout": "items/ncl_ch_di_i_v06_fev2_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v06_fev2_006",
+        "isAbout": "items/ncl_ch_di_i_v06_fev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v06_fev2_007",
+        "isAbout": "items/ncl_ch_di_i_v06_fev2_007",
         "valueRequired": false,
         "isVis": true
       },
@@ -392,6 +406,18 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_i_v06_sev2_006",
+        "isAbout": "items/ncl_ch_di_i_v06_sev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v06_sev2_007",
+        "isAbout": "items/ncl_ch_di_i_v06_sev2_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_i_v06_was_this_session_recorded",
         "isAbout": "items/ncl_ch_di_i_v06_was_this_session_recorded",
         "valueRequired": false,
@@ -412,18 +438,6 @@
       {
         "variableName": "ncl_ch_di_i_v06_Informant",
         "isAbout": "items/ncl_ch_di_i_v06_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_di_i_v06_fev2_006",
-        "isAbout": "items/ncl_ch_di_i_v06_fev2_006",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_di_i_v06_sev2_006",
-        "isAbout": "items/ncl_ch_di_i_v06_sev2_006",
         "valueRequired": false,
         "isVis": true
       }

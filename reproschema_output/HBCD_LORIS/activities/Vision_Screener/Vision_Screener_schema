@@ -16,10 +16,12 @@
       "items/ph_ch_vs_Candidate_Age",
       "items/ph_ch_vs_Window_Difference",
       "items/ph_ch_vs_gestational_age",
+      "items/ph_ch_vs_adjusted_age",
       "items/ph_ch_vs_Examiner",
       "items/ph_ch_vs_timestamp_start",
       "items/ph_ch_vs_timestamp_stop",
       "items/ph_ch_vs_Duration",
+      "items/ph_ch_vs_lang",
       "items/ph_ch_vs_eye_001",
       "items/ph_ch_vs_eye_002",
       "items/ph_ch_vs_eye_002_i_01",
@@ -67,6 +69,12 @@
         "isVis": true
       },
       {
+        "variableName": "ph_ch_vs_adjusted_age",
+        "isAbout": "items/ph_ch_vs_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ph_ch_vs_Examiner",
         "isAbout": "items/ph_ch_vs_Examiner",
         "valueRequired": true,
@@ -87,6 +95,12 @@
       {
         "variableName": "ph_ch_vs_Duration",
         "isAbout": "items/ph_ch_vs_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ph_ch_vs_lang",
+        "isAbout": "items/ph_ch_vs_lang",
         "valueRequired": false,
         "isVis": true
       },

@@ -9,11 +9,61 @@
     "en": "Extiende su mano, a veces acompa\u221a\u00b1ado de un gemido u otro sonido para pedir algo."
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      },
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "understands"
+        },
+        "value": "Understands"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "never"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      }
     ]
   },
   "additionalNotesObj": [
