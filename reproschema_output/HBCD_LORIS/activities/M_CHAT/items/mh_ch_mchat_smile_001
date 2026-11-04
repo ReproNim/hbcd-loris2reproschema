@@ -6,7 +6,7 @@
     "en": "mh_ch_mchat_smile_001"
   },
   "question": {
-    "en": "When you smile at your child, do they smile back at you?"
+    "en": "11. When you smile at your child, do they smile back at you?"
   },
   "ui": {
     "inputType": "select"
@@ -54,7 +54,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -69,7 +69,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
