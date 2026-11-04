@@ -14,8 +14,9 @@
     "order": [
       "items/sed_bm_phx_i_discr_Date_taken",
       "items/sed_bm_phx_i_discr_Candidate_Age",
-      "items/sed_bm_phx_i_discr_gestational_age",
       "items/sed_bm_phx_i_discr_Window_Difference",
+      "items/sed_bm_phx_i_discr_gestational_age",
+      "items/sed_bm_phx_i_discr_adjusted_age",
       "items/sed_bm_phx_i_discr_Examiner",
       "items/sed_bm_phx_i_discr_lang",
       "items/sed_bm_phx_i_discr_dtt",
@@ -53,14 +54,20 @@
         "isVis": true
       },
       {
+        "variableName": "sed_bm_phx_i_discr_Window_Difference",
+        "isAbout": "items/sed_bm_phx_i_discr_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "sed_bm_phx_i_discr_gestational_age",
         "isAbout": "items/sed_bm_phx_i_discr_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "sed_bm_phx_i_discr_Window_Difference",
-        "isAbout": "items/sed_bm_phx_i_discr_Window_Difference",
+        "variableName": "sed_bm_phx_i_discr_adjusted_age",
+        "isAbout": "items/sed_bm_phx_i_discr_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
