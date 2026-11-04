@@ -1,0 +1,81 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "mh_ch_mchat_q18_pass_or_fail",
+  "prefLabel": {
+    "en": "mh_ch_mchat_q18_pass_or_fail"
+  },
+  "question": {
+    "en": ""
+  },
+  "ui": {
+    "inputType": "text"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ]
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "q18_pass_or_fail"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "mh_ch_mchat"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Child"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Static"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Optional"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Empty"
+    }
+  ]
+}

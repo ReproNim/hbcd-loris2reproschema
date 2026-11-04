@@ -1,0 +1,135 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Item",
+  "id": "pex_cg_tu_015_i_01",
+  "prefLabel": {
+    "en": "pex_cg_tu_015_i_01"
+  },
+  "question": {
+    "en": "What kind of treatment (check all that apply)"
+  },
+  "ui": {
+    "inputType": "selectMultiple"
+  },
+  "responseOptions": {
+    "valueType": [
+      "xsd:string"
+    ],
+    "multipleChoice": true,
+    "choices": [
+      {
+        "name": {
+          "en": "1"
+        },
+        "value": "Inpatient/ in the hospital"
+      },
+      {
+        "name": {
+          "en": "2"
+        },
+        "value": "Residential program"
+      },
+      {
+        "name": {
+          "en": "3"
+        },
+        "value": "Outpatient services"
+      },
+      {
+        "name": {
+          "en": "4"
+        },
+        "value": "Individual psychotherapy/ counseling"
+      },
+      {
+        "name": {
+          "en": "5"
+        },
+        "value": "Group therapy/ counseling"
+      },
+      {
+        "name": {
+          "en": "6"
+        },
+        "value": "Medication"
+      },
+      {
+        "name": {
+          "en": "999"
+        },
+        "value": "Don't know"
+      },
+      {
+        "name": {
+          "en": "777"
+        },
+        "value": "Decline to answer"
+      }
+    ]
+  },
+  "preamble": {
+    "en": "Conditional display: pex_cg_tu_015 == '1'"
+  },
+  "additionalNotesObj": [
+    {
+      "source": "loris",
+      "column": "source_field",
+      "value": "015_i_01"
+    },
+    {
+      "source": "loris",
+      "column": "source_from",
+      "value": "pex_cg_tu"
+    },
+    {
+      "source": "loris",
+      "column": "source_respondent",
+      "value": "Caregiver (Responsible Adult)"
+    },
+    {
+      "source": "loris",
+      "column": "study",
+      "value": "Core"
+    },
+    {
+      "source": "loris",
+      "column": "data_type",
+      "value": "Enum"
+    },
+    {
+      "source": "loris",
+      "column": "data_scope",
+      "value": "Session"
+    },
+    {
+      "source": "loris",
+      "column": "field_category",
+      "value": "Item"
+    },
+    {
+      "source": "loris",
+      "column": "field_class",
+      "value": "TBD"
+    },
+    {
+      "source": "loris",
+      "column": "coding_format",
+      "value": "LINST"
+    },
+    {
+      "source": "loris",
+      "column": "collection_platform",
+      "value": "REDCap"
+    },
+    {
+      "source": "loris",
+      "column": "collection_required",
+      "value": "Required"
+    },
+    {
+      "source": "loris",
+      "column": "description_status",
+      "value": "Unchanged"
+    }
+  ]
+}

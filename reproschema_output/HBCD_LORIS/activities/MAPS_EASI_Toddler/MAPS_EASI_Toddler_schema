@@ -14,8 +14,9 @@
     "order": [
       "items/mh_cg_mapstl_i_easi_Date_taken",
       "items/mh_cg_mapstl_i_easi_Candidate_Age",
-      "items/mh_cg_mapstl_i_easi_gestational_age",
       "items/mh_cg_mapstl_i_easi_Window_Difference",
+      "items/mh_cg_mapstl_i_easi_gestational_age",
+      "items/mh_cg_mapstl_i_easi_adjusted_age",
       "items/mh_cg_mapstl_i_easi_Examiner",
       "items/mh_cg_mapstl_i_easi_lang",
       "items/mh_cg_mapstl_i_easi_dtt",
@@ -29,6 +30,9 @@
       "items/mh_cg_mapstl_i_easi_003",
       "items/mh_cg_mapstl_i_easi_004",
       "items/mh_cg_mapstl_i_easi_005",
+      "items/mh_cg_mapstl_i_easi_line",
+      "items/mh_cg_mapstl_i_easi_total_score",
+      "items/mh_cg_mapstl_i_easi_total_score_note",
       "items/mh_cg_mapstl_i_easi_Validity",
       "items/mh_cg_mapstl_i_easi_Administration",
       "items/mh_cg_mapstl_i_easi_Informant"
@@ -47,14 +51,20 @@
         "isVis": true
       },
       {
+        "variableName": "mh_cg_mapstl_i_easi_Window_Difference",
+        "isAbout": "items/mh_cg_mapstl_i_easi_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "mh_cg_mapstl_i_easi_gestational_age",
         "isAbout": "items/mh_cg_mapstl_i_easi_gestational_age",
         "valueRequired": false,
         "isVis": true
       },
       {
-        "variableName": "mh_cg_mapstl_i_easi_Window_Difference",
-        "isAbout": "items/mh_cg_mapstl_i_easi_Window_Difference",
+        "variableName": "mh_cg_mapstl_i_easi_adjusted_age",
+        "isAbout": "items/mh_cg_mapstl_i_easi_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -133,6 +143,24 @@
       {
         "variableName": "mh_cg_mapstl_i_easi_005",
         "isAbout": "items/mh_cg_mapstl_i_easi_005",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_line",
+        "isAbout": "items/mh_cg_mapstl_i_easi_line",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_total_score",
+        "isAbout": "items/mh_cg_mapstl_i_easi_total_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_mapstl_i_easi_total_score_note",
+        "isAbout": "items/mh_cg_mapstl_i_easi_total_score_note",
         "valueRequired": false,
         "isVis": true
       },

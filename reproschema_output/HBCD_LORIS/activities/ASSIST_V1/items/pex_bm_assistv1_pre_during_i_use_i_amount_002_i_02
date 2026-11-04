@@ -13,9 +13,9 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:float",
+      "xsd:string",
       "xsd:integer",
-      "xsd:string"
+      "xsd:float"
     ],
     "choices": [
       {
@@ -1259,7 +1259,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -1274,7 +1274,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
