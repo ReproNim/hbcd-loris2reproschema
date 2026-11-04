@@ -16,10 +16,12 @@
       "items/ncl_ch_di_i_v08_Candidate_Age",
       "items/ncl_ch_di_i_v08_Window_Difference",
       "items/ncl_ch_di_i_v08_gestational_age",
+      "items/ncl_ch_di_i_v08_adjusted_age",
       "items/ncl_ch_di_i_v08_Examiner",
       "items/ncl_ch_di_i_v08_timestamp_start",
       "items/ncl_ch_di_i_v08_timestamp_stop",
       "items/ncl_ch_di_i_v08_Duration",
+      "items/ncl_ch_di_i_v08_language",
       "items/ncl_ch_di_i_v08_number_of_actions_baseline",
       "items/ncl_ch_di_i_v08_pairs_of_actions_baseline",
       "items/ncl_ch_di_i_v08_number_of_actions",
@@ -43,8 +45,6 @@
       "items/ncl_ch_di_i_v08_sev_002_i_01",
       "items/ncl_ch_di_i_v08_sev_003",
       "items/ncl_ch_di_i_v08_sev_003_i_01",
-      "items/ncl_ch_di_i_v08_003",
-      "items/ncl_ch_di_i_v08_003_status",
       "items/ncl_ch_di_i_v08_fev2_001",
       "items/ncl_ch_di_i_v08_fev2_001_i_01",
       "items/ncl_ch_di_i_v08_fev2_001_i_02",
@@ -56,6 +56,7 @@
       "items/ncl_ch_di_i_v08_fev2_004",
       "items/ncl_ch_di_i_v08_fev2_005",
       "items/ncl_ch_di_i_v08_fev2_006",
+      "items/ncl_ch_di_i_v08_fev2_007",
       "items/ncl_ch_di_i_v08_sev2_001",
       "items/ncl_ch_di_i_v08_sev2_001_i_01",
       "items/ncl_ch_di_i_v08_sev2_001_i_02",
@@ -67,10 +68,14 @@
       "items/ncl_ch_di_i_v08_sev2_004",
       "items/ncl_ch_di_i_v08_sev2_005",
       "items/ncl_ch_di_i_v08_sev2_006",
+      "items/ncl_ch_di_i_v08_sev2_007",
       "items/ncl_ch_di_i_v08_was_this_session_recorded",
       "items/ncl_ch_di_i_v08_Validity",
       "items/ncl_ch_di_i_v08_Administration",
-      "items/ncl_ch_di_i_v08_Informant"
+      "items/ncl_ch_di_i_v08_Informant",
+      "items/ncl_ch_di_i_v08_003_length_delay",
+      "items/ncl_ch_di_i_v08_003_minutes",
+      "items/ncl_ch_di_i_v08_003_seconds"
     ],
     "addProperties": [
       {
@@ -98,6 +103,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_i_v08_adjusted_age",
+        "isAbout": "items/ncl_ch_di_i_v08_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_i_v08_Examiner",
         "isAbout": "items/ncl_ch_di_i_v08_Examiner",
         "valueRequired": true,
@@ -118,6 +129,12 @@
       {
         "variableName": "ncl_ch_di_i_v08_Duration",
         "isAbout": "items/ncl_ch_di_i_v08_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_language",
+        "isAbout": "items/ncl_ch_di_i_v08_language",
         "valueRequired": false,
         "isVis": true
       },
@@ -260,18 +277,6 @@
         "isVis": true
       },
       {
-        "variableName": "ncl_ch_di_i_v08_003",
-        "isAbout": "items/ncl_ch_di_i_v08_003",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_di_i_v08_003_status",
-        "isAbout": "items/ncl_ch_di_i_v08_003_status",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
         "variableName": "ncl_ch_di_i_v08_fev2_001",
         "isAbout": "items/ncl_ch_di_i_v08_fev2_001",
         "valueRequired": false,
@@ -334,6 +339,12 @@
       {
         "variableName": "ncl_ch_di_i_v08_fev2_006",
         "isAbout": "items/ncl_ch_di_i_v08_fev2_006",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_fev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_fev2_007",
         "valueRequired": false,
         "isVis": true
       },
@@ -404,6 +415,12 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_di_i_v08_sev2_007",
+        "isAbout": "items/ncl_ch_di_i_v08_sev2_007",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_di_i_v08_was_this_session_recorded",
         "isAbout": "items/ncl_ch_di_i_v08_was_this_session_recorded",
         "valueRequired": false,
@@ -424,6 +441,24 @@
       {
         "variableName": "ncl_ch_di_i_v08_Informant",
         "isAbout": "items/ncl_ch_di_i_v08_Informant",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_003_length_delay",
+        "isAbout": "items/ncl_ch_di_i_v08_003_length_delay",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_003_minutes",
+        "isAbout": "items/ncl_ch_di_i_v08_003_minutes",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_di_i_v08_003_seconds",
+        "isAbout": "items/ncl_ch_di_i_v08_003_seconds",
         "valueRequired": false,
         "isVis": true
       }
