@@ -1,0 +1,335 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema",
+  "category": "reproschema:Activity",
+  "id": "Speed_Naming_DIAL_4_schema",
+  "prefLabel": {
+    "en": "Speed Naming DIAL - 4"
+  },
+  "description": {
+    "en": "Questions related to Speed Naming DIAL - 4"
+  },
+  "schemaVersion": "1.0.0",
+  "version": "1.0.0",
+  "ui": {
+    "order": [
+      "items/ncl_ch_dial_Date_taken",
+      "items/ncl_ch_dial_Candidate_Age",
+      "items/ncl_ch_dial_Window_Difference",
+      "items/ncl_ch_dial_gestational_age",
+      "items/ncl_ch_dial_adjusted_age",
+      "items/ncl_ch_dial_Examiner",
+      "items/ncl_ch_dial_timestamp_start",
+      "items/ncl_ch_dial_timestamp_stop",
+      "items/ncl_ch_dial_Duration",
+      "items/ncl_ch_dial_item_03_a_raw_score",
+      "items/ncl_ch_dial_item_03_b_raw_score",
+      "items/ncl_ch_dial_item_03_weighted_score",
+      "items/ncl_ch_dial_item_03_i_1",
+      "items/ncl_ch_dial_item_03_i_2",
+      "items/ncl_ch_dial_item_03_i_3",
+      "items/ncl_ch_dial_item_03_i_4",
+      "items/ncl_ch_dial_item_03_i_5",
+      "items/ncl_ch_dial_item_03_b_i_1",
+      "items/ncl_ch_dial_item_03_b_i_2",
+      "items/ncl_ch_dial_item_03_b_i_3",
+      "items/ncl_ch_dial_item_03_b_i_4",
+      "items/ncl_ch_dial_item_03_b_i_5",
+      "items/ncl_ch_dial_item_03_b_i_6",
+      "items/ncl_ch_dial_item_03_b_i_7",
+      "items/ncl_ch_dial_item_03_b_i_8",
+      "items/ncl_ch_dial_item_03_b_i_9",
+      "items/ncl_ch_dial_item_03_b_i_10",
+      "items/ncl_ch_dial_item_03_b_i_11",
+      "items/ncl_ch_dial_item_03_b_i_12",
+      "items/ncl_ch_dial_item_03_b_i_13",
+      "items/ncl_ch_dial_item_03_b_i_14",
+      "items/ncl_ch_dial_item_03_b_i_15",
+      "items/ncl_ch_dial_item_03_b_i_16",
+      "items/ncl_ch_dial_item_03_b_i_17",
+      "items/ncl_ch_dial_item_03_b_i_18",
+      "items/ncl_ch_dial_item_03_b_i_19",
+      "items/ncl_ch_dial_item_03_b_i_20",
+      "items/ncl_ch_dial_item_03_b_i_21",
+      "items/ncl_ch_dial_item_03_b_i_22",
+      "items/ncl_ch_dial_item_03_b_i_23",
+      "items/ncl_ch_dial_item_03_b_i_24",
+      "items/ncl_ch_dial_item_03_b_i_25",
+      "items/ncl_ch_dial_Validity",
+      "items/ncl_ch_dial_Administration",
+      "items/ncl_ch_dial_Informant"
+    ],
+    "addProperties": [
+      {
+        "variableName": "ncl_ch_dial_Date_taken",
+        "isAbout": "items/ncl_ch_dial_Date_taken",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Candidate_Age",
+        "isAbout": "items/ncl_ch_dial_Candidate_Age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Window_Difference",
+        "isAbout": "items/ncl_ch_dial_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_gestational_age",
+        "isAbout": "items/ncl_ch_dial_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_adjusted_age",
+        "isAbout": "items/ncl_ch_dial_adjusted_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Examiner",
+        "isAbout": "items/ncl_ch_dial_Examiner",
+        "valueRequired": true,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_timestamp_start",
+        "isAbout": "items/ncl_ch_dial_timestamp_start",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_timestamp_stop",
+        "isAbout": "items/ncl_ch_dial_timestamp_stop",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Duration",
+        "isAbout": "items/ncl_ch_dial_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_a_raw_score",
+        "isAbout": "items/ncl_ch_dial_item_03_a_raw_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_raw_score",
+        "isAbout": "items/ncl_ch_dial_item_03_b_raw_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_weighted_score",
+        "isAbout": "items/ncl_ch_dial_item_03_weighted_score",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_i_1",
+        "isAbout": "items/ncl_ch_dial_item_03_i_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_i_2",
+        "isAbout": "items/ncl_ch_dial_item_03_i_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_i_3",
+        "isAbout": "items/ncl_ch_dial_item_03_i_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_i_4",
+        "isAbout": "items/ncl_ch_dial_item_03_i_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_i_5",
+        "isAbout": "items/ncl_ch_dial_item_03_i_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_1",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_2",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_3",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_4",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_5",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_6",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_7",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_8",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_9",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_10",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_11",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_12",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_13",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_14",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_15",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_16",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_17",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_18",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_19",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_20",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_21",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_22",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_23",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_24",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_item_03_b_i_25",
+        "isAbout": "items/ncl_ch_dial_item_03_b_i_25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Validity",
+        "isAbout": "items/ncl_ch_dial_Validity",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Administration",
+        "isAbout": "items/ncl_ch_dial_Administration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_dial_Informant",
+        "isAbout": "items/ncl_ch_dial_Informant",
+        "valueRequired": false,
+        "isVis": true
+      }
+    ],
+    "shuffle": false
+  }
+}
