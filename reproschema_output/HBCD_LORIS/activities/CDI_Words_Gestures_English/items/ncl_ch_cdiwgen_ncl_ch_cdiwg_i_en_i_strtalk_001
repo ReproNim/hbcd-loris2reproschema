@@ -9,11 +9,61 @@
     "en": "Some children like to 'parrot' or imitate things that they've just heard (including new words that they are just learning, and/or parts of sentences, for example, repeating 'work now' after mother says 'Mommy's going to work now.') How often does your children imitate words?"
   },
   "ui": {
-    "inputType": "text"
+    "inputType": "select"
   },
   "responseOptions": {
     "valueType": [
       "xsd:string"
+    ],
+    "choices": [
+      {
+        "name": {
+          "en": "no"
+        },
+        "value": "No"
+      },
+      {
+        "name": {
+          "en": "yes"
+        },
+        "value": "Yes"
+      },
+      {
+        "name": {
+          "en": "produces"
+        },
+        "value": "Produces"
+      },
+      {
+        "name": {
+          "en": "understands"
+        },
+        "value": "Understands"
+      },
+      {
+        "name": {
+          "en": "not_yet"
+        },
+        "value": "Not yet"
+      },
+      {
+        "name": {
+          "en": "never"
+        },
+        "value": "Never"
+      },
+      {
+        "name": {
+          "en": "sometimes"
+        },
+        "value": "Sometimes"
+      },
+      {
+        "name": {
+          "en": "often"
+        },
+        "value": "Often"
+      }
     ]
   },
   "additionalNotesObj": [
@@ -40,7 +90,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -55,7 +105,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
