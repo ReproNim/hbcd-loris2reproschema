@@ -15,14 +15,19 @@
       "items/ncl_ch_bayley_Date_taken",
       "items/ncl_ch_bayley_Candidate_Age",
       "items/ncl_ch_bayley_Window_Difference",
+      "items/ncl_ch_bayley_gestational_age",
+      "items/ncl_ch_bayley_adjusted_age",
       "items/ncl_ch_bayley_Examiner",
       "items/ncl_ch_bayley_timestamp_start",
       "items/ncl_ch_bayley_timestamp_stop",
       "items/ncl_ch_bayley_Duration",
+      "items/ncl_ch_bayley_language",
+      "items/ncl_ch_bayley_par_altcg_instrumentName",
       "items/ncl_ch_bayley_bayley_participant_before",
       "items/ncl_ch_bayley_bayley_participant_after",
       "items/ncl_ch_bayley_bayley_survey_confirm",
       "items/ncl_ch_bayley_title",
+      "items/ncl_ch_bayley_Examiner_cronjob",
       "items/ncl_ch_bayley_File_name",
       "items/ncl_ch_bayley_ID",
       "items/ncl_ch_bayley_Name",
@@ -103,12 +108,414 @@
       "items/ncl_ch_bayley_LM_Score_Significant_difference",
       "items/ncl_ch_bayley_LM_Score_Base_rate",
       "items/ncl_ch_bayley_other_comments",
+      "items/ncl_ch_bayley_bay4_cg_s01",
+      "items/ncl_ch_bayley_bay4_cg_s02",
+      "items/ncl_ch_bayley_bay4_cg_s03",
+      "items/ncl_ch_bayley_bay4_cg_s04",
+      "items/ncl_ch_bayley_bay4_cg_s05",
+      "items/ncl_ch_bayley_bay4_cg_s06",
+      "items/ncl_ch_bayley_bay4_cg_s07",
+      "items/ncl_ch_bayley_bay4_cg_s08",
+      "items/ncl_ch_bayley_bay4_cg_s09",
+      "items/ncl_ch_bayley_bay4_cg_s10",
+      "items/ncl_ch_bayley_bay4_cg_s11",
+      "items/ncl_ch_bayley_bay4_cg_s12",
+      "items/ncl_ch_bayley_bay4_cg_s13",
+      "items/ncl_ch_bayley_bay4_cg_s14",
+      "items/ncl_ch_bayley_bay4_cg_s15",
+      "items/ncl_ch_bayley_bay4_cg_s16",
+      "items/ncl_ch_bayley_bay4_cg_s17",
+      "items/ncl_ch_bayley_bay4_cg_s18",
+      "items/ncl_ch_bayley_bay4_cg_s19",
+      "items/ncl_ch_bayley_bay4_cg_s20",
+      "items/ncl_ch_bayley_bay4_cg_s21",
+      "items/ncl_ch_bayley_bay4_cg_s22",
+      "items/ncl_ch_bayley_bay4_cg_s23",
+      "items/ncl_ch_bayley_bay4_cg_s24",
+      "items/ncl_ch_bayley_bay4_cg_s25",
+      "items/ncl_ch_bayley_bay4_cg_s26",
+      "items/ncl_ch_bayley_bay4_cg_s27",
+      "items/ncl_ch_bayley_bay4_cg_s28",
+      "items/ncl_ch_bayley_bay4_cg_s29",
+      "items/ncl_ch_bayley_bay4_cg_s30",
+      "items/ncl_ch_bayley_bay4_cg_s31",
+      "items/ncl_ch_bayley_bay4_cg_s32",
+      "items/ncl_ch_bayley_bay4_cg_s33",
+      "items/ncl_ch_bayley_bay4_cg_s34",
+      "items/ncl_ch_bayley_bay4_cg_s35",
+      "items/ncl_ch_bayley_bay4_cg_s36",
+      "items/ncl_ch_bayley_bay4_cg_s37",
+      "items/ncl_ch_bayley_bay4_cg_s38",
+      "items/ncl_ch_bayley_bay4_cg_s39",
+      "items/ncl_ch_bayley_bay4_cg_s40",
+      "items/ncl_ch_bayley_bay4_cg_s41",
+      "items/ncl_ch_bayley_bay4_cg_s42",
+      "items/ncl_ch_bayley_bay4_cg_s43",
+      "items/ncl_ch_bayley_bay4_cg_s44",
+      "items/ncl_ch_bayley_bay4_cg_s45",
+      "items/ncl_ch_bayley_bay4_cg_s46",
+      "items/ncl_ch_bayley_bay4_cg_s47",
+      "items/ncl_ch_bayley_bay4_cg_s48",
+      "items/ncl_ch_bayley_bay4_cg_s49",
+      "items/ncl_ch_bayley_bay4_cg_s50",
+      "items/ncl_ch_bayley_bay4_cg_s51",
+      "items/ncl_ch_bayley_bay4_cg_s52",
+      "items/ncl_ch_bayley_bay4_cg_s53",
+      "items/ncl_ch_bayley_bay4_cg_s54",
+      "items/ncl_ch_bayley_bay4_cg_s55",
+      "items/ncl_ch_bayley_bay4_cg_s56",
+      "items/ncl_ch_bayley_bay4_cg_s57",
+      "items/ncl_ch_bayley_bay4_cg_s58",
+      "items/ncl_ch_bayley_bay4_cg_s59",
+      "items/ncl_ch_bayley_bay4_cg_s60",
+      "items/ncl_ch_bayley_bay4_cg_s61",
+      "items/ncl_ch_bayley_bay4_cg_s62",
+      "items/ncl_ch_bayley_bay4_cg_s63",
+      "items/ncl_ch_bayley_bay4_cg_s64",
+      "items/ncl_ch_bayley_bay4_cg_s65",
+      "items/ncl_ch_bayley_bay4_cg_s66",
+      "items/ncl_ch_bayley_bay4_cg_s67",
+      "items/ncl_ch_bayley_bay4_cg_s68",
+      "items/ncl_ch_bayley_bay4_cg_s69",
+      "items/ncl_ch_bayley_bay4_cg_s70",
+      "items/ncl_ch_bayley_bay4_cg_s71",
+      "items/ncl_ch_bayley_bay4_cg_s72",
+      "items/ncl_ch_bayley_bay4_cg_s73",
+      "items/ncl_ch_bayley_bay4_cg_s74",
+      "items/ncl_ch_bayley_bay4_cg_s75",
+      "items/ncl_ch_bayley_bay4_cg_s76",
+      "items/ncl_ch_bayley_bay4_cg_s77",
+      "items/ncl_ch_bayley_bay4_cg_s78",
+      "items/ncl_ch_bayley_bay4_cg_s79",
+      "items/ncl_ch_bayley_bay4_cg_s80",
+      "items/ncl_ch_bayley_bay4_cg_s81",
+      "items/ncl_ch_bayley_bay4_cg_r30",
+      "items/ncl_ch_bayley_bay4_cg_r38",
+      "items/ncl_ch_bayley_bay4_cg_r40",
+      "items/ncl_ch_bayley_bay4_cg_r43",
+      "items/ncl_ch_bayley_bay4_cg_r45",
+      "items/ncl_ch_bayley_bay4_cg_r46",
+      "items/ncl_ch_bayley_bay4_cg_r47",
+      "items/ncl_ch_bayley_bay4_cg_r49",
+      "items/ncl_ch_bayley_bay4_cg_r55",
+      "items/ncl_ch_bayley_bay4_cg_cr15",
+      "items/ncl_ch_bayley_bay4_cg_cr19",
+      "items/ncl_ch_bayley_bay4_cg_cr26",
+      "items/ncl_ch_bayley_bay4_cg_cr39",
+      "items/ncl_ch_bayley_bay4_cg_cr41",
+      "items/ncl_ch_bayley_bay4_cg_cr50",
+      "items/ncl_ch_bayley_bay4_ec_s01",
+      "items/ncl_ch_bayley_bay4_ec_s02",
+      "items/ncl_ch_bayley_bay4_ec_s03",
+      "items/ncl_ch_bayley_bay4_ec_s04",
+      "items/ncl_ch_bayley_bay4_ec_s05",
+      "items/ncl_ch_bayley_bay4_ec_s06",
+      "items/ncl_ch_bayley_bay4_ec_s07",
+      "items/ncl_ch_bayley_bay4_ec_s08",
+      "items/ncl_ch_bayley_bay4_ec_s09",
+      "items/ncl_ch_bayley_bay4_ec_s10",
+      "items/ncl_ch_bayley_bay4_ec_s11",
+      "items/ncl_ch_bayley_bay4_ec_s12",
+      "items/ncl_ch_bayley_bay4_ec_s13",
+      "items/ncl_ch_bayley_bay4_ec_s14",
+      "items/ncl_ch_bayley_bay4_ec_s15",
+      "items/ncl_ch_bayley_bay4_ec_s16",
+      "items/ncl_ch_bayley_bay4_ec_s17",
+      "items/ncl_ch_bayley_bay4_ec_s18",
+      "items/ncl_ch_bayley_bay4_ec_s19",
+      "items/ncl_ch_bayley_bay4_ec_s20",
+      "items/ncl_ch_bayley_bay4_ec_s21",
+      "items/ncl_ch_bayley_bay4_ec_s22",
+      "items/ncl_ch_bayley_bay4_ec_s23",
+      "items/ncl_ch_bayley_bay4_ec_s24",
+      "items/ncl_ch_bayley_bay4_ec_s25",
+      "items/ncl_ch_bayley_bay4_ec_s26",
+      "items/ncl_ch_bayley_bay4_ec_s27",
+      "items/ncl_ch_bayley_bay4_ec_s28",
+      "items/ncl_ch_bayley_bay4_ec_s29",
+      "items/ncl_ch_bayley_bay4_ec_s30",
+      "items/ncl_ch_bayley_bay4_ec_s31",
+      "items/ncl_ch_bayley_bay4_ec_s32",
+      "items/ncl_ch_bayley_bay4_ec_s33",
+      "items/ncl_ch_bayley_bay4_ec_s34",
+      "items/ncl_ch_bayley_bay4_ec_s35",
+      "items/ncl_ch_bayley_bay4_ec_s36",
+      "items/ncl_ch_bayley_bay4_ec_s37",
+      "items/ncl_ch_bayley_bay4_ec_s38",
+      "items/ncl_ch_bayley_bay4_ec_s39",
+      "items/ncl_ch_bayley_bay4_ec_s40",
+      "items/ncl_ch_bayley_bay4_ec_s41",
+      "items/ncl_ch_bayley_bay4_ec_s42",
+      "items/ncl_ch_bayley_bay4_ec_r20_1",
+      "items/ncl_ch_bayley_bay4_ec_r20_2",
+      "items/ncl_ch_bayley_bay4_ec_r20_3",
+      "items/ncl_ch_bayley_bay4_ec_r20_4",
+      "items/ncl_ch_bayley_bay4_ec_r20_5",
+      "items/ncl_ch_bayley_bay4_ec_r20_6",
+      "items/ncl_ch_bayley_bay4_ec_r20_7",
+      "items/ncl_ch_bayley_bay4_ec_r20_8",
+      "items/ncl_ch_bayley_bay4_ec_r20_9",
+      "items/ncl_ch_bayley_bay4_ec_r20_10",
+      "items/ncl_ch_bayley_bay4_ec_r20_11",
+      "items/ncl_ch_bayley_bay4_ec_r20_12",
+      "items/ncl_ch_bayley_bay4_ec_r31_1",
+      "items/ncl_ch_bayley_bay4_ec_r31_2",
+      "items/ncl_ch_bayley_bay4_ec_r31_3",
+      "items/ncl_ch_bayley_bay4_ec_r31_4",
+      "items/ncl_ch_bayley_bay4_ec_r31_5",
+      "items/ncl_ch_bayley_bay4_ec_r31_6",
+      "items/ncl_ch_bayley_bay4_ec_r31_7",
+      "items/ncl_ch_bayley_bay4_ec_r31_8",
+      "items/ncl_ch_bayley_bay4_ec_r31_9",
+      "items/ncl_ch_bayley_bay4_ec_r31_10",
+      "items/ncl_ch_bayley_bay4_ec_cr02",
+      "items/ncl_ch_bayley_bay4_ec_cr04",
+      "items/ncl_ch_bayley_bay4_ec_cr06",
+      "items/ncl_ch_bayley_bay4_ec_cr07",
+      "items/ncl_ch_bayley_bay4_ec_cr09",
+      "items/ncl_ch_bayley_bay4_ec_cr10",
+      "items/ncl_ch_bayley_bay4_ec_cr11",
+      "items/ncl_ch_bayley_bay4_ec_cr12",
+      "items/ncl_ch_bayley_bay4_ec_cr13",
+      "items/ncl_ch_bayley_bay4_ec_cr14",
+      "items/ncl_ch_bayley_bay4_ec_cr15",
+      "items/ncl_ch_bayley_bay4_ec_cr17",
+      "items/ncl_ch_bayley_bay4_ec_cr19",
+      "items/ncl_ch_bayley_bay4_ec_cr21",
+      "items/ncl_ch_bayley_bay4_ec_cr22",
+      "items/ncl_ch_bayley_bay4_ec_cr23",
+      "items/ncl_ch_bayley_bay4_ec_cr24",
+      "items/ncl_ch_bayley_bay4_ec_cr25",
+      "items/ncl_ch_bayley_bay4_ec_cr26",
+      "items/ncl_ch_bayley_bay4_rc_s01",
+      "items/ncl_ch_bayley_bay4_rc_s02",
+      "items/ncl_ch_bayley_bay4_rc_s03",
+      "items/ncl_ch_bayley_bay4_rc_s04",
+      "items/ncl_ch_bayley_bay4_rc_s05",
+      "items/ncl_ch_bayley_bay4_rc_s06",
+      "items/ncl_ch_bayley_bay4_rc_s07",
+      "items/ncl_ch_bayley_bay4_rc_s08",
+      "items/ncl_ch_bayley_bay4_rc_s09",
+      "items/ncl_ch_bayley_bay4_rc_s10",
+      "items/ncl_ch_bayley_bay4_rc_s11",
+      "items/ncl_ch_bayley_bay4_rc_s12",
+      "items/ncl_ch_bayley_bay4_rc_s13",
+      "items/ncl_ch_bayley_bay4_rc_s14",
+      "items/ncl_ch_bayley_bay4_rc_s15",
+      "items/ncl_ch_bayley_bay4_rc_s16",
+      "items/ncl_ch_bayley_bay4_rc_s17",
+      "items/ncl_ch_bayley_bay4_rc_s18",
+      "items/ncl_ch_bayley_bay4_rc_s19",
+      "items/ncl_ch_bayley_bay4_rc_s20",
+      "items/ncl_ch_bayley_bay4_rc_s21",
+      "items/ncl_ch_bayley_bay4_rc_s22",
+      "items/ncl_ch_bayley_bay4_rc_s23",
+      "items/ncl_ch_bayley_bay4_rc_s24",
+      "items/ncl_ch_bayley_bay4_rc_s25",
+      "items/ncl_ch_bayley_bay4_rc_s26",
+      "items/ncl_ch_bayley_bay4_rc_s27",
+      "items/ncl_ch_bayley_bay4_rc_s28",
+      "items/ncl_ch_bayley_bay4_rc_s29",
+      "items/ncl_ch_bayley_bay4_rc_s30",
+      "items/ncl_ch_bayley_bay4_rc_s31",
+      "items/ncl_ch_bayley_bay4_rc_s32",
+      "items/ncl_ch_bayley_bay4_rc_s33",
+      "items/ncl_ch_bayley_bay4_rc_s34",
+      "items/ncl_ch_bayley_bay4_rc_s35",
+      "items/ncl_ch_bayley_bay4_rc_s36",
+      "items/ncl_ch_bayley_bay4_rc_s37",
+      "items/ncl_ch_bayley_bay4_rc_cr11",
+      "items/ncl_ch_bayley_bay4_rc_cr12",
+      "items/ncl_ch_bayley_bay4_rc_cr13",
+      "items/ncl_ch_bayley_bay4_rc_cr14",
+      "items/ncl_ch_bayley_bay4_rc_s13_1",
+      "items/ncl_ch_bayley_bay4_rc_s13_2",
+      "items/ncl_ch_bayley_bay4_rc_s13_3",
+      "items/ncl_ch_bayley_bay4_rc_s13_4",
+      "items/ncl_ch_bayley_bay4_rc_s13_5",
+      "items/ncl_ch_bayley_bay4_rc_s16_1",
+      "items/ncl_ch_bayley_bay4_rc_s16_2",
+      "items/ncl_ch_bayley_bay4_rc_s16_3",
+      "items/ncl_ch_bayley_bay4_rc_s16_4",
+      "items/ncl_ch_bayley_bay4_rc_s16_5",
+      "items/ncl_ch_bayley_bay4_rc_s17_1",
+      "items/ncl_ch_bayley_bay4_rc_s17_2",
+      "items/ncl_ch_bayley_bay4_rc_s17_3",
+      "items/ncl_ch_bayley_bay4_rc_s17_4",
+      "items/ncl_ch_bayley_bay4_rc_s17_5",
+      "items/ncl_ch_bayley_bay4_rc_s19_1",
+      "items/ncl_ch_bayley_bay4_rc_s19_2",
+      "items/ncl_ch_bayley_bay4_rc_s19_3",
+      "items/ncl_ch_bayley_bay4_rc_s19_4",
+      "items/ncl_ch_bayley_bay4_rc_s19_5",
+      "items/ncl_ch_bayley_bay4_rc_s19_6",
+      "items/ncl_ch_bayley_bay4_rc_s19_7",
+      "items/ncl_ch_bayley_bay4_rc_s19_8",
+      "items/ncl_ch_bayley_bay4_rc_s19_9",
+      "items/ncl_ch_bayley_bay4_rc_s20_1",
+      "items/ncl_ch_bayley_bay4_rc_s20_2",
+      "items/ncl_ch_bayley_bay4_rc_s20_3",
+      "items/ncl_ch_bayley_bay4_rc_s20_4",
+      "items/ncl_ch_bayley_bay4_rc_s20_5",
+      "items/ncl_ch_bayley_bay4_rc_s20_6",
+      "items/ncl_ch_bayley_bay4_rc_s20_7",
+      "items/ncl_ch_bayley_bay4_rc_s20_8",
+      "items/ncl_ch_bayley_bay4_rc_s20_9",
+      "items/ncl_ch_bayley_bay4_rc_s21_1",
+      "items/ncl_ch_bayley_bay4_rc_s21_2",
+      "items/ncl_ch_bayley_bay4_rc_s21_3",
+      "items/ncl_ch_bayley_bay4_rc_s23_1",
+      "items/ncl_ch_bayley_bay4_rc_s23_2",
+      "items/ncl_ch_bayley_bay4_rc_s23_3",
+      "items/ncl_ch_bayley_bay4_rc_s23_4",
+      "items/ncl_ch_bayley_bay4_rc_s23_5",
+      "items/ncl_ch_bayley_bay4_rc_s23_6",
+      "items/ncl_ch_bayley_bay4_rc_s23_7",
+      "items/ncl_ch_bayley_bay4_rc_s24_1",
+      "items/ncl_ch_bayley_bay4_rc_s24_2",
+      "items/ncl_ch_bayley_bay4_rc_s24_3",
+      "items/ncl_ch_bayley_bay4_rc_s24_4",
+      "items/ncl_ch_bayley_bay4_rc_s24_5",
+      "items/ncl_ch_bayley_bay4_rc_s24_6",
+      "items/ncl_ch_bayley_bay4_rc_s24_7",
+      "items/ncl_ch_bayley_bay4_rc_s24_8",
+      "items/ncl_ch_bayley_bay4_rc_s24_9",
+      "items/ncl_ch_bayley_bay4_rc_r18_1",
+      "items/ncl_ch_bayley_bay4_rc_r18_3",
+      "items/ncl_ch_bayley_bay4_rc_r18_4",
+      "items/ncl_ch_bayley_bay4_rc_r18_5",
+      "items/ncl_ch_bayley_bay4_rc_r18_6",
+      "items/ncl_ch_bayley_bay4_rc_r18_7",
+      "items/ncl_ch_bayley_bay4_rc_r18_8",
+      "items/ncl_ch_bayley_bay4_rc_r18_9",
+      "items/ncl_ch_bayley_bay4_rc_r18_10",
+      "items/ncl_ch_bayley_bay4_rc_r18_11",
+      "items/ncl_ch_bayley_bay4_rc_r18_12",
+      "items/ncl_ch_bayley_bay4_rc_r22_1",
+      "items/ncl_ch_bayley_bay4_rc_r22_3",
+      "items/ncl_ch_bayley_bay4_rc_r22_4",
+      "items/ncl_ch_bayley_bay4_rc_r22_5",
+      "items/ncl_ch_bayley_bay4_rc_r22_6",
+      "items/ncl_ch_bayley_bay4_rc_r22_7",
+      "items/ncl_ch_bayley_bay4_rc_r22_8",
+      "items/ncl_ch_bayley_bay4_rc_r22_9",
+      "items/ncl_ch_bayley_bay4_rc_r22_10",
+      "items/ncl_ch_bayley_bay4_rc_r22_11",
+      "items/ncl_ch_bayley_bay4_rc_r22_12",
+      "items/ncl_ch_bayley_bay4_fm_s01",
+      "items/ncl_ch_bayley_bay4_fm_s02",
+      "items/ncl_ch_bayley_bay4_fm_s03",
+      "items/ncl_ch_bayley_bay4_fm_s04",
+      "items/ncl_ch_bayley_bay4_fm_s05",
+      "items/ncl_ch_bayley_bay4_fm_s06",
+      "items/ncl_ch_bayley_bay4_fm_s07",
+      "items/ncl_ch_bayley_bay4_fm_s08",
+      "items/ncl_ch_bayley_bay4_fm_s09",
+      "items/ncl_ch_bayley_bay4_fm_s10",
+      "items/ncl_ch_bayley_bay4_fm_s11",
+      "items/ncl_ch_bayley_bay4_fm_s12",
+      "items/ncl_ch_bayley_bay4_fm_s13",
+      "items/ncl_ch_bayley_bay4_fm_s14",
+      "items/ncl_ch_bayley_bay4_fm_s15",
+      "items/ncl_ch_bayley_bay4_fm_s16",
+      "items/ncl_ch_bayley_bay4_fm_s17",
+      "items/ncl_ch_bayley_bay4_fm_s18",
+      "items/ncl_ch_bayley_bay4_fm_s19",
+      "items/ncl_ch_bayley_bay4_fm_s20",
+      "items/ncl_ch_bayley_bay4_fm_s21",
+      "items/ncl_ch_bayley_bay4_fm_s22",
+      "items/ncl_ch_bayley_bay4_fm_s23",
+      "items/ncl_ch_bayley_bay4_fm_s24",
+      "items/ncl_ch_bayley_bay4_fm_s25",
+      "items/ncl_ch_bayley_bay4_fm_s26",
+      "items/ncl_ch_bayley_bay4_fm_s27",
+      "items/ncl_ch_bayley_bay4_fm_s28",
+      "items/ncl_ch_bayley_bay4_fm_s29",
+      "items/ncl_ch_bayley_bay4_fm_s30",
+      "items/ncl_ch_bayley_bay4_fm_s31",
+      "items/ncl_ch_bayley_bay4_fm_s32",
+      "items/ncl_ch_bayley_bay4_fm_s33",
+      "items/ncl_ch_bayley_bay4_fm_s34",
+      "items/ncl_ch_bayley_bay4_fm_s35",
+      "items/ncl_ch_bayley_bay4_fm_s36",
+      "items/ncl_ch_bayley_bay4_fm_s37",
+      "items/ncl_ch_bayley_bay4_fm_s38",
+      "items/ncl_ch_bayley_bay4_fm_s39",
+      "items/ncl_ch_bayley_bay4_fm_s40",
+      "items/ncl_ch_bayley_bay4_fm_s41",
+      "items/ncl_ch_bayley_bay4_fm_s42",
+      "items/ncl_ch_bayley_bay4_fm_s43",
+      "items/ncl_ch_bayley_bay4_fm_s44",
+      "items/ncl_ch_bayley_bay4_fm_s45",
+      "items/ncl_ch_bayley_bay4_fm_s46",
+      "items/ncl_ch_bayley_bay4_fm_r24",
+      "items/ncl_ch_bayley_bay4_fm_r30",
+      "items/ncl_ch_bayley_bay4_fm_r33",
+      "items/ncl_ch_bayley_bay4_fm_cr11",
+      "items/ncl_ch_bayley_bay4_fm_cr17",
+      "items/ncl_ch_bayley_bay4_gm_s01",
+      "items/ncl_ch_bayley_bay4_gm_s02",
+      "items/ncl_ch_bayley_bay4_gm_s03",
+      "items/ncl_ch_bayley_bay4_gm_s04",
+      "items/ncl_ch_bayley_bay4_gm_s05",
+      "items/ncl_ch_bayley_bay4_gm_s06",
+      "items/ncl_ch_bayley_bay4_gm_s07",
+      "items/ncl_ch_bayley_bay4_gm_s08",
+      "items/ncl_ch_bayley_bay4_gm_s09",
+      "items/ncl_ch_bayley_bay4_gm_s10",
+      "items/ncl_ch_bayley_bay4_gm_s11",
+      "items/ncl_ch_bayley_bay4_gm_s12",
+      "items/ncl_ch_bayley_bay4_gm_s13",
+      "items/ncl_ch_bayley_bay4_gm_s14",
+      "items/ncl_ch_bayley_bay4_gm_s15",
+      "items/ncl_ch_bayley_bay4_gm_s16",
+      "items/ncl_ch_bayley_bay4_gm_s17",
+      "items/ncl_ch_bayley_bay4_gm_s18",
+      "items/ncl_ch_bayley_bay4_gm_s19",
+      "items/ncl_ch_bayley_bay4_gm_s20",
+      "items/ncl_ch_bayley_bay4_gm_s21",
+      "items/ncl_ch_bayley_bay4_gm_s22",
+      "items/ncl_ch_bayley_bay4_gm_s23",
+      "items/ncl_ch_bayley_bay4_gm_s24",
+      "items/ncl_ch_bayley_bay4_gm_s25",
+      "items/ncl_ch_bayley_bay4_gm_s26",
+      "items/ncl_ch_bayley_bay4_gm_s27",
+      "items/ncl_ch_bayley_bay4_gm_s28",
+      "items/ncl_ch_bayley_bay4_gm_s29",
+      "items/ncl_ch_bayley_bay4_gm_s30",
+      "items/ncl_ch_bayley_bay4_gm_s31",
+      "items/ncl_ch_bayley_bay4_gm_s32",
+      "items/ncl_ch_bayley_bay4_gm_s33",
+      "items/ncl_ch_bayley_bay4_gm_s34",
+      "items/ncl_ch_bayley_bay4_gm_s35",
+      "items/ncl_ch_bayley_bay4_gm_s36",
+      "items/ncl_ch_bayley_bay4_gm_s37",
+      "items/ncl_ch_bayley_bay4_gm_s38",
+      "items/ncl_ch_bayley_bay4_gm_s39",
+      "items/ncl_ch_bayley_bay4_gm_s40",
+      "items/ncl_ch_bayley_bay4_gm_s41",
+      "items/ncl_ch_bayley_bay4_gm_s42",
+      "items/ncl_ch_bayley_bay4_gm_s43",
+      "items/ncl_ch_bayley_bay4_gm_s44",
+      "items/ncl_ch_bayley_bay4_gm_s45",
+      "items/ncl_ch_bayley_bay4_gm_s46",
+      "items/ncl_ch_bayley_bay4_gm_s47",
+      "items/ncl_ch_bayley_bay4_gm_s48",
+      "items/ncl_ch_bayley_bay4_gm_s49",
+      "items/ncl_ch_bayley_bay4_gm_s50",
+      "items/ncl_ch_bayley_bay4_gm_s51",
+      "items/ncl_ch_bayley_bay4_gm_s52",
+      "items/ncl_ch_bayley_bay4_gm_s53",
+      "items/ncl_ch_bayley_bay4_gm_s54",
+      "items/ncl_ch_bayley_bay4_gm_s55",
+      "items/ncl_ch_bayley_bay4_gm_s56",
+      "items/ncl_ch_bayley_bay4_gm_s57",
+      "items/ncl_ch_bayley_bay4_gm_s58",
+      "items/ncl_ch_bayley_bay4_gm_cr32",
+      "items/ncl_ch_bayley_bay4_gm_cr37",
       "items/ncl_ch_bayley_Validity",
       "items/ncl_ch_bayley_Administration",
-      "items/ncl_ch_bayley_Informant",
-      "items/ncl_ch_bayley_Examiner_cronjob",
-      "items/ncl_ch_bayley_gestational_age",
-      "items/ncl_ch_bayley_par_altcg_instrumentName"
+      "items/ncl_ch_bayley_Informant"
     ],
     "addProperties": [
       {
@@ -126,6 +533,18 @@
       {
         "variableName": "ncl_ch_bayley_Window_Difference",
         "isAbout": "items/ncl_ch_bayley_Window_Difference",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_gestational_age",
+        "isAbout": "items/ncl_ch_bayley_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_adjusted_age",
+        "isAbout": "items/ncl_ch_bayley_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -154,6 +573,18 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_bayley_language",
+        "isAbout": "items/ncl_ch_bayley_language",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_par_altcg_instrumentName",
+        "isAbout": "items/ncl_ch_bayley_par_altcg_instrumentName",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_bayley_bayley_participant_before",
         "isAbout": "items/ncl_ch_bayley_bayley_participant_before",
         "valueRequired": false,
@@ -174,6 +605,12 @@
       {
         "variableName": "ncl_ch_bayley_title",
         "isAbout": "items/ncl_ch_bayley_title",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_Examiner_cronjob",
+        "isAbout": "items/ncl_ch_bayley_Examiner_cronjob",
         "valueRequired": false,
         "isVis": true
       },
@@ -658,6 +1095,2436 @@
         "isVis": true
       },
       {
+        "variableName": "ncl_ch_bayley_bay4_cg_s01",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s02",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s03",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s04",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s05",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s06",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s07",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s08",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s09",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s10",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s11",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s12",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s13",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s14",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s15",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s16",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s17",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s18",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s19",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s20",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s21",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s22",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s23",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s24",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s25",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s26",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s27",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s28",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s29",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s30",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s31",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s32",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s33",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s34",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s35",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s35",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s36",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s36",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s37",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s38",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s38",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s39",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s39",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s40",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s40",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s41",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s41",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s42",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s42",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s43",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s43",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s44",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s44",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s45",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s45",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s46",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s46",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s47",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s47",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s48",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s48",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s49",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s49",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s50",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s50",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s51",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s51",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s52",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s52",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s53",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s53",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s54",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s54",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s55",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s55",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s56",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s56",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s57",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s57",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s58",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s58",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s59",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s59",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s60",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s60",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s61",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s61",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s62",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s62",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s63",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s63",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s64",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s64",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s65",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s65",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s66",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s66",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s67",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s67",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s68",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s68",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s69",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s69",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s70",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s70",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s71",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s71",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s72",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s72",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s73",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s73",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s74",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s74",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s75",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s75",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s76",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s76",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s77",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s77",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s78",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s78",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s79",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s79",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s80",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s80",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_s81",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_s81",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r30",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r38",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r38",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r40",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r40",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r43",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r43",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r45",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r45",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r46",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r46",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r47",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r47",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r49",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r49",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_r55",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_r55",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr15",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr19",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr26",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr39",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr39",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr41",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr41",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_cg_cr50",
+        "isAbout": "items/ncl_ch_bayley_bay4_cg_cr50",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s01",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s02",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s03",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s04",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s05",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s06",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s07",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s08",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s09",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s10",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s11",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s12",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s13",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s14",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s15",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s16",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s17",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s18",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s19",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s20",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s21",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s22",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s23",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s24",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s25",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s26",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s27",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s28",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s29",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s30",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s31",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s32",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s33",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s34",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s35",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s35",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s36",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s36",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s37",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s38",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s38",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s39",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s39",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s40",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s40",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s41",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s41",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_s42",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_s42",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_10",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_11",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r20_12",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r20_12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_r31_10",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_r31_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr02",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr04",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr06",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr07",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr09",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr10",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr11",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr12",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr13",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr14",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr15",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr17",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr19",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr21",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr22",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr23",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr24",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr25",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_ec_cr26",
+        "isAbout": "items/ncl_ch_bayley_bay4_ec_cr26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s01",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s02",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s03",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s04",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s05",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s06",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s07",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s08",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s09",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s10",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s11",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s12",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s14",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s15",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s18",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s21",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s22",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s25",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s26",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s27",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s28",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s29",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s30",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s31",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s32",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s33",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s34",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s35",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s35",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s36",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s36",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s37",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_cr11",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_cr11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_cr12",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_cr12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_cr13",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_cr13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_cr14",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_cr14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s13_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s13_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s16_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s16_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s17_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s17_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s19_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s19_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s20_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s20_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s21_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s21_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s21_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s21_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s21_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s21_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s23_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s23_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_2",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_2",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_s24_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_s24_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_10",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_11",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r18_12",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r18_12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_1",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_1",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_3",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_3",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_4",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_4",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_5",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_5",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_6",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_6",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_7",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_7",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_8",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_8",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_9",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_9",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_10",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_11",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_rc_r22_12",
+        "isAbout": "items/ncl_ch_bayley_bay4_rc_r22_12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s01",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s02",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s03",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s04",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s05",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s06",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s07",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s08",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s09",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s10",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s11",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s12",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s13",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s14",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s15",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s16",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s17",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s18",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s19",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s20",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s21",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s22",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s23",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s24",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s25",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s26",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s27",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s28",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s29",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s30",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s31",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s32",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s33",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s34",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s35",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s35",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s36",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s36",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s37",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s38",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s38",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s39",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s39",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s40",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s40",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s41",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s41",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s42",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s42",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s43",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s43",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s44",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s44",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s45",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s45",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_s46",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_s46",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_r24",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_r24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_r30",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_r30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_r33",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_r33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_cr11",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_cr11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_fm_cr17",
+        "isAbout": "items/ncl_ch_bayley_bay4_fm_cr17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s01",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s02",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s02",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s03",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s03",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s04",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s04",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s05",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s05",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s06",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s06",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s07",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s07",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s08",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s08",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s09",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s09",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s10",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s10",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s11",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s11",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s12",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s12",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s13",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s13",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s14",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s14",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s15",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s15",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s16",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s16",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s17",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s17",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s18",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s18",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s19",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s19",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s20",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s20",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s21",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s21",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s22",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s22",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s23",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s23",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s24",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s24",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s25",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s25",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s26",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s26",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s27",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s27",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s28",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s28",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s29",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s29",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s30",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s30",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s31",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s31",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s32",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s33",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s33",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s34",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s34",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s35",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s35",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s36",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s36",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s37",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s38",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s38",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s39",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s39",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s40",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s40",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s41",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s41",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s42",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s42",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s43",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s43",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s44",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s44",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s45",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s45",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s46",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s46",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s47",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s47",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s48",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s48",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s49",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s49",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s50",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s50",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s51",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s51",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s52",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s52",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s53",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s53",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s54",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s54",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s55",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s55",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s56",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s56",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s57",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s57",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_s58",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_s58",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_cr32",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_cr32",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "ncl_ch_bayley_bay4_gm_cr37",
+        "isAbout": "items/ncl_ch_bayley_bay4_gm_cr37",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "ncl_ch_bayley_Validity",
         "isAbout": "items/ncl_ch_bayley_Validity",
         "valueRequired": false,
@@ -672,24 +3539,6 @@
       {
         "variableName": "ncl_ch_bayley_Informant",
         "isAbout": "items/ncl_ch_bayley_Informant",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_Examiner_cronjob",
-        "isAbout": "items/ncl_ch_bayley_Examiner_cronjob",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_gestational_age",
-        "isAbout": "items/ncl_ch_bayley_gestational_age",
-        "valueRequired": false,
-        "isVis": true
-      },
-      {
-        "variableName": "ncl_ch_bayley_par_altcg_instrumentName",
-        "isAbout": "items/ncl_ch_bayley_par_altcg_instrumentName",
         "valueRequired": false,
         "isVis": true
       }

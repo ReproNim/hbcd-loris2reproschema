@@ -6,7 +6,7 @@
     "en": "mri_ra_chkl_data_scn_001_15"
   },
   "question": {
-    "en": ""
+    "en": "Session No."
   },
   "ui": {
     "inputType": "select"
@@ -66,7 +66,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -81,7 +81,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
@@ -101,7 +101,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }
