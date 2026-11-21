@@ -20,6 +20,7 @@
       "items/mh_cg_erica_rel_15_30_m_timestamp_start",
       "items/mh_cg_erica_rel_15_30_m_timestamp_stop",
       "items/mh_cg_erica_rel_15_30_m_Duration",
+      "items/mh_cg_erica_rel_15_30_m_lang",
       "items/mh_cg_erica_rel_15_30_m_locomotor_administered",
       "items/mh_cg_erica_rel_15_30_m_cod_002",
       "items/mh_cg_erica_rel_15_30_m_cod_002_status",
@@ -183,6 +184,12 @@
       {
         "variableName": "mh_cg_erica_rel_15_30_m_Duration",
         "isAbout": "items/mh_cg_erica_rel_15_30_m_Duration",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "mh_cg_erica_rel_15_30_m_lang",
+        "isAbout": "items/mh_cg_erica_rel_15_30_m_lang",
         "valueRequired": false,
         "isVis": true
       },
