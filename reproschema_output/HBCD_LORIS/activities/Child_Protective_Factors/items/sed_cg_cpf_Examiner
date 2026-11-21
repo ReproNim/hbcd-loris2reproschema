@@ -13,7 +13,7 @@
   },
   "responseOptions": {
     "valueType": [
-      "xsd:string"
+      "xsd:integer"
     ],
     "choices": []
   },
@@ -44,7 +44,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Integer"
     },
     {
       "source": "loris",
@@ -69,7 +69,7 @@
     {
       "source": "loris",
       "column": "collection_platform",
-      "value": "LORIS"
+      "value": "REDCap"
     },
     {
       "source": "loris",

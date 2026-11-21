@@ -9,7 +9,8 @@
     "en": "Tell you that they do not like the noise?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "select",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [

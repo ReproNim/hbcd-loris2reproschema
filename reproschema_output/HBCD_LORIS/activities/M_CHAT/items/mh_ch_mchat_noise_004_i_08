@@ -9,7 +9,8 @@
     "en": "Calmly cover their ears?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "select",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [

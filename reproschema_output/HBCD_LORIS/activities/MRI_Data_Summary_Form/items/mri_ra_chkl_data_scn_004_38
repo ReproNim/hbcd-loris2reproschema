@@ -6,7 +6,7 @@
     "en": "mri_ra_chkl_data_scn_004_38"
   },
   "question": {
-    "en": ""
+    "en": "Scan Interrupted"
   },
   "ui": {
     "inputType": "select"
@@ -95,7 +95,7 @@
     {
       "source": "loris",
       "column": "description_status",
-      "value": "Empty"
+      "value": "Unchanged"
     }
   ]
 }

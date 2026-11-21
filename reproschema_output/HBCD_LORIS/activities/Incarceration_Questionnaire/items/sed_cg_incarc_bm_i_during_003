@@ -43,7 +43,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: sed_cg_incarc_bm_i_during_001 == '1'"
+    "en": "Conditional display: sed_cg_incarc_bm_i_during_001 == '1' AND event-name !== 'v09_arm_1'"
   },
   "additionalNotesObj": [
     {

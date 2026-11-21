@@ -16,6 +16,7 @@
       "items/nt_ch_sens_i_qtn_1_Candidate_Age",
       "items/nt_ch_sens_i_qtn_1_Window_Difference",
       "items/nt_ch_sens_i_qtn_1_gestational_age",
+      "items/nt_ch_sens_i_qtn_1_adjusted_age",
       "items/nt_ch_sens_i_qtn_1_Examiner",
       "items/nt_ch_sens_i_qtn_1_lang",
       "items/nt_ch_sens_i_qtn_1_dtt",
@@ -59,6 +60,12 @@
       {
         "variableName": "nt_ch_sens_i_qtn_1_gestational_age",
         "isAbout": "items/nt_ch_sens_i_qtn_1_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "nt_ch_sens_i_qtn_1_adjusted_age",
+        "isAbout": "items/nt_ch_sens_i_qtn_1_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },

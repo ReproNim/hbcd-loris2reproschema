@@ -9,7 +9,8 @@
     "en": "Scream?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "select",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [

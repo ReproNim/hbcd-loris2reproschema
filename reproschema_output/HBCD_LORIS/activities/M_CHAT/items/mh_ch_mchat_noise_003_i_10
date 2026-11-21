@@ -9,7 +9,8 @@
     "en": "Cover their ears while upset?"
   },
   "ui": {
-    "inputType": "select"
+    "inputType": "select",
+    "readonlyValue": true
   },
   "responseOptions": {
     "valueType": [

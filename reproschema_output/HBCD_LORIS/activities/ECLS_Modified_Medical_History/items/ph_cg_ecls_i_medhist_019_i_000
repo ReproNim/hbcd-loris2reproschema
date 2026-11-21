@@ -6,7 +6,7 @@
     "en": "ph_cg_ecls_i_medhist_019_i_000"
   },
   "question": {
-    "en": "Since we last discussed your child's COVID history Has your child:"
+    "en": "Since we last discussed your child's COVID historyHas your child:"
   },
   "ui": {
     "inputType": "text"
@@ -17,7 +17,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: event-name !== 'v04_arm_1'"
+    "en": "Conditional display: event-name == 'v06_arm_1'"
   },
   "additionalNotesObj": [
     {

@@ -61,7 +61,7 @@
     ]
   },
   "preamble": {
-    "en": "Conditional display: pex_bm_apa1_mania_001 >== '2' OR pex_bm_apa1_mania_002 >== '2'"
+    "en": "Conditional display: (pex_bm_apa1_mania_001 >== '2' AND pex_bm_apa1_mania_001 < '777') OR (pex_bm_apa1_mania_002 >== '2' AND pex_bm_apa1_mania_002 < '777')"
   },
   "additionalNotesObj": [
     {
