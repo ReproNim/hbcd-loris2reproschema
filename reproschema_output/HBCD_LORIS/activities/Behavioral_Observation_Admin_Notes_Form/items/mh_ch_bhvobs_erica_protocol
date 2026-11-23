@@ -24,12 +24,6 @@
       },
       {
         "name": {
-          "en": "9_to_12_month"
-        },
-        "value": "9 to 12 Month"
-      },
-      {
-        "name": {
           "en": "12_to_15_month"
         },
         "value": "12 to 15 Month"
@@ -45,12 +39,6 @@
           "en": "24_to_36_month"
         },
         "value": "24 to 36 Month"
-      },
-      {
-        "name": {
-          "en": "36_to_48_month"
-        },
-        "value": "36 to 48 Month"
       }
     ]
   },
@@ -78,7 +66,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Enum"
     },
     {
       "source": "loris",
@@ -93,7 +81,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
