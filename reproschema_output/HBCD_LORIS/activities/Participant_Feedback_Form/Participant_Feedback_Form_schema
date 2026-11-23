@@ -16,6 +16,7 @@
       "items/adm_cg_fb_Candidate_Age",
       "items/adm_cg_fb_Window_Difference",
       "items/adm_cg_fb_gestational_age",
+      "items/adm_cg_fb_adjusted_age",
       "items/adm_cg_fb_Examiner",
       "items/adm_cg_fb_lang",
       "items/adm_cg_fb_dtt",
@@ -34,9 +35,12 @@
       "items/adm_cg_fb_007",
       "items/adm_cg_fb_008",
       "items/adm_cg_fb_009",
+      "items/adm_cg_fb_009_i_01",
       "items/adm_cg_fb_010",
       "items/adm_cg_fb_011",
+      "items/adm_cg_fb_011_i_01",
       "items/adm_cg_fb_012",
+      "items/adm_cg_fb_012_i_01",
       "items/adm_cg_fb_013",
       "items/adm_cg_fb_Validity",
       "items/adm_cg_fb_Administration",
@@ -64,6 +68,12 @@
       {
         "variableName": "adm_cg_fb_gestational_age",
         "isAbout": "items/adm_cg_fb_gestational_age",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_cg_fb_adjusted_age",
+        "isAbout": "items/adm_cg_fb_adjusted_age",
         "valueRequired": false,
         "isVis": true
       },
@@ -176,6 +186,12 @@
         "isVis": true
       },
       {
+        "variableName": "adm_cg_fb_009_i_01",
+        "isAbout": "items/adm_cg_fb_009_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_cg_fb_010",
         "isAbout": "items/adm_cg_fb_010",
         "valueRequired": false,
@@ -188,8 +204,20 @@
         "isVis": true
       },
       {
+        "variableName": "adm_cg_fb_011_i_01",
+        "isAbout": "items/adm_cg_fb_011_i_01",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
         "variableName": "adm_cg_fb_012",
         "isAbout": "items/adm_cg_fb_012",
+        "valueRequired": false,
+        "isVis": true
+      },
+      {
+        "variableName": "adm_cg_fb_012_i_01",
+        "isAbout": "items/adm_cg_fb_012_i_01",
         "valueRequired": false,
         "isVis": true
       },

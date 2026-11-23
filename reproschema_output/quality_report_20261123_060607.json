@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-23T06:06:02.909086",
+  "source_file": "loris_data_dictionaries/hbcd_data_dictionary_2026-11-23.csv",
+  "statistics": {
+    "total_rows": 9235,
+    "activities": 64,
+    "items": 9235,
+    "issues_fixed": 0,
+    "warnings": 0
+  },
+  "issues": {
+    "typos": [],
+    "truncated_names": [],
+    "missing_choices": [],
+    "redundant_prefixes": [],
+    "naming_conventions": [],
+    "validation_errors": [],
+    "field_type_mismatches": []
+  },
+  "fixes_applied": [],
+  "warnings": []
+}
