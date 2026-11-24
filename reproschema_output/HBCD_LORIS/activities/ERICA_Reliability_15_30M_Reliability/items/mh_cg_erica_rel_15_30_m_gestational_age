@@ -6,7 +6,7 @@
     "en": "mh_cg_erica_rel_15_30_m_gestational_age"
   },
   "question": {
-    "en": "Gestational Age (Days)"
+    "en": "Gestational Age at Administration (Weeks)"
   },
   "ui": {
     "inputType": "text"
@@ -40,7 +40,7 @@
     {
       "source": "loris",
       "column": "data_type",
-      "value": "String"
+      "value": "Static"
     },
     {
       "source": "loris",
@@ -55,7 +55,7 @@
     {
       "source": "loris",
       "column": "field_class",
-      "value": "Nominal"
+      "value": "TBD"
     },
     {
       "source": "loris",
